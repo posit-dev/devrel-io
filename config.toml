@@ -1,0 +1,65 @@
+[gsheet]
+url = "https://docs.google.com/spreadsheets/d/1SGv06ADG3zAAUIsBjQwrLymG9Fd1rwat0BS2ZSVaRmc/edit?gid=0#gid=0"
+
+[projects.plotnine]
+name = "plotnine"
+language = "python"
+github = "has2k1/plotnine"
+website = "https://plotnine.org"
+description = "A grammar of graphics for Python based on ggplot2"
+
+[projects.chatlas]
+name = "Chatlas"
+language = "python"
+github = "posit-dev/chatlas"
+website = "https://posit-dev.github.io/chatlas"
+description = "Chat with large language models in Python"
+
+[projects.great-tables]
+name = "Great Tables"
+language = "python"
+github = "posit-dev/great-tables"
+website = "https://posit-dev.github.io/great-tables/"
+description = "Create beautiful and feature-rich tables in Python"
+
+[projects.pointblank-python]
+name = "Pointblank"
+language = "python"
+github = "posit-dev/pointblank"
+website = "https://posit-dev.github.io/pointblank/"
+description = "Data validation toolkit for assessing and monitoring data quality"
+
+[projects.pointblank-r]
+name = "pointblank"
+language = "r"
+github = "rstudio/pointblank"
+website = "https://rstudio.github.io/pointblank/"
+description = "Data validation and quality assessment for R"
+
+[projects.gt]
+name = "gt"
+language = "r"
+github = "rstudio/gt"
+website = "https://gt.rstudio.com"
+description = "Easily generate information-rich, publication-quality tables from R"
+
+[projects.quarto]
+name = "Quarto"
+language = "javascript"
+github = "quarto-dev/quarto-cli"
+website = "https://quarto.org"
+description = "Open-source scientific and technical publishing system"
+
+[projects.shiny-python]
+name = "Shiny for Python"
+language = "python"
+github = "posit-dev/py-shiny"
+website = "https://shiny.posit.co/py/"
+description = "Build interactive web applications in Python"
+
+[projects.shiny-r]
+name = "Shiny for R"
+language = "r"
+github = "rstudio/shiny"
+website = "https://shiny.posit.co"
+description = "Build interactive web applications in R"
