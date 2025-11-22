@@ -21,7 +21,7 @@ def load_config():
 
 def parse_google_sheets_url(url):
     """Extract spreadsheet ID from a Google Sheets URL."""
-    spreadsheet_pattern = r'/spreadsheets/d/([a-zA-Z0-9-_]+)'
+    spreadsheet_pattern = r"/spreadsheets/d/([a-zA-Z0-9-_]+)"
     spreadsheet_match = re.search(spreadsheet_pattern, url)
 
     if not spreadsheet_match:
@@ -58,31 +58,31 @@ def get_all_sheets(spreadsheet_id):
     # Try to extract sheet data using various patterns
     matches = re.findall(r'\["sheet\.(\d+)","([^"]+)"', text)
     for gid, name in matches:
-        sheets.append({'name': name, 'gid': gid})
+        sheets.append({"name": name, "gid": gid})
 
     # If no sheets found, try another pattern
     if not sheets:
         matches = re.findall(r'"gid":"(\d+)"[^}]*"title":"([^"]+)"', text)
         for gid, name in matches:
-            sheets.append({'name': name, 'gid': gid})
+            sheets.append({"name": name, "gid": gid})
 
     # Remove duplicates
     seen = set()
     unique_sheets = []
     for sheet in sheets:
-        key = (sheet['name'], sheet['gid'])
+        key = (sheet["name"], sheet["gid"])
         if key not in seen:
             seen.add(key)
             unique_sheets.append(sheet)
 
     if not unique_sheets:
         # Default to gid=0 if we can't find sheets
-        unique_sheets = [{'name': 'Sheet1', 'gid': '0'}]
+        unique_sheets = [{"name": "Sheet1", "gid": "0"}]
 
     return unique_sheets
 
 
-def get_export_url(spreadsheet_id, gid='0'):
+def get_export_url(spreadsheet_id, gid="0"):
     """Generate the CSV export URL for a Google Sheet."""
     return f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv&gid={gid}"
 
@@ -126,16 +126,18 @@ def download_google_sheet(url, sheet_name=None, output_path=None):
         sheets = get_all_sheets(spreadsheet_id)
         target_sheet = None
         for sheet in sheets:
-            if sheet['name'] == sheet_name:
+            if sheet["name"] == sheet_name:
                 target_sheet = sheet
                 break
 
         if not target_sheet:
-            available = ', '.join([s['name'] for s in sheets])
-            raise ValueError(f"Sheet '{sheet_name}' not found. Available sheets: {available}")
+            available = ", ".join([s["name"] for s in sheets])
+            raise ValueError(
+                f"Sheet '{sheet_name}' not found. Available sheets: {available}"
+            )
 
         print(f"Downloading sheet: {target_sheet['name']} (gid={target_sheet['gid']})")
-        df = download_sheet_to_dataframe(spreadsheet_id, target_sheet['gid'])
+        df = download_sheet_to_dataframe(spreadsheet_id, target_sheet["gid"])
 
     else:
         # Download all sheets and concatenate
@@ -145,7 +147,7 @@ def download_google_sheet(url, sheet_name=None, output_path=None):
         dataframes = []
         for sheet in sheets:
             print(f"Downloading sheet: {sheet['name']} (gid={sheet['gid']})")
-            df = download_sheet_to_dataframe(spreadsheet_id, sheet['gid'])
+            df = download_sheet_to_dataframe(spreadsheet_id, sheet["gid"])
             dataframes.append(df)
 
         if len(dataframes) == 1:
@@ -173,18 +175,14 @@ def main():
     parser = argparse.ArgumentParser(
         description="Devrel I/O - Download Google Sheets as CSV"
     )
+    parser.add_argument("url", nargs="?", help="Google Sheets URL to download")
     parser.add_argument(
-        'url',
-        nargs='?',
-        help='Google Sheets URL to download'
+        "-s",
+        "--sheet",
+        help="Specific sheet name to download (if omitted, downloads all sheets)",
     )
     parser.add_argument(
-        '-s', '--sheet',
-        help='Specific sheet name to download (if omitted, downloads all sheets)'
-    )
-    parser.add_argument(
-        '-o', '--output',
-        help='Output CSV file path (default: sheet_<id>_<name>.csv)'
+        "-o", "--output", help="Output CSV file path (default: sheet_<id>_<name>.csv)"
     )
 
     args = parser.parse_args()
@@ -193,12 +191,15 @@ def main():
     url = args.url
     if not url:
         config = load_config()
-        if config and 'gsheet' in config and 'url' in config['gsheet']:
-            url = config['gsheet']['url']
-            print(f"Using URL from config.toml")
+        if config and "gsheet" in config and "url" in config["gsheet"]:
+            url = config["gsheet"]["url"]
+            print("Using URL from config.toml")
         else:
             print("Error: No URL provided and no config.toml found", file=sys.stderr)
-            print("\nEither provide a URL as argument or create a config.toml file:", file=sys.stderr)
+            print(
+                "\nEither provide a URL as argument or create a config.toml file:",
+                file=sys.stderr,
+            )
             print("  cp config.toml.example config.toml", file=sys.stderr)
             print("  # Edit config.toml with your Google Sheets URL", file=sys.stderr)
             sys.exit(1)

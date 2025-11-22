@@ -31,6 +31,33 @@ uv run gsheet.py
 
 The script will use the URL from `config.toml`. You can still override it by providing a URL as an argument.
 
+## Quick Start with Just
+
+This project includes a `justfile` for common tasks. Install [just](https://github.com/casey/just) and run:
+
+```bash
+# See all available commands
+just
+
+# Download sheets using config.toml
+just get-inputs
+
+# Download a specific sheet
+just get-sheet "Sheet1"
+
+# Download with custom output path
+just get-sheet "Sheet1" output.csv
+
+# Download from a different URL
+just get-url "https://docs.google.com/spreadsheets/d/OTHER_ID/edit"
+
+# Clean downloaded CSV files
+just clean
+
+# Install dependencies
+just install
+```
+
 ## Usage
 
 ### Download all sheets (concatenated)
