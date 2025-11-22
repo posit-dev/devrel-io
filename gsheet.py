@@ -1,10 +1,22 @@
 import argparse
 import re
 import sys
+import tomllib
 from pathlib import Path
 from io import StringIO
 import requests
 import polars as pl
+
+
+def load_config():
+    """Load configuration from config.toml file."""
+    config_path = Path(__file__).parent / "config.toml"
+    if not config_path.exists():
+        return None
+
+    with open(config_path, "rb") as f:
+        config = tomllib.load(f)
+    return config
 
 
 def parse_google_sheets_url(url):
@@ -177,12 +189,22 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.url:
-        parser.print_help()
-        sys.exit(1)
+    # Get URL from args or config file
+    url = args.url
+    if not url:
+        config = load_config()
+        if config and 'gsheet' in config and 'url' in config['gsheet']:
+            url = config['gsheet']['url']
+            print(f"Using URL from config.toml")
+        else:
+            print("Error: No URL provided and no config.toml found", file=sys.stderr)
+            print("\nEither provide a URL as argument or create a config.toml file:", file=sys.stderr)
+            print("  cp config.toml.example config.toml", file=sys.stderr)
+            print("  # Edit config.toml with your Google Sheets URL", file=sys.stderr)
+            sys.exit(1)
 
     try:
-        download_google_sheet(args.url, args.sheet, args.output)
+        download_google_sheet(url, args.sheet, args.output)
     except ValueError as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)

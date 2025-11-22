@@ -7,6 +7,29 @@ A Python CLI tool for developer relations workflows.
 - Download Google Sheets as CSV files
 - Download specific sheets by name
 - Download all sheets and concatenate them using Polars (diagonal strategy)
+- Store default URL in configuration file
+
+## Configuration
+
+You can store your Google Sheets URL in a configuration file to avoid typing it every time:
+
+1. Copy the example config file:
+```bash
+cp config.toml.example config.toml
+```
+
+2. Edit `config.toml` with your Google Sheets URL:
+```toml
+[gsheet]
+url = "https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_ID/edit?gid=0#gid=0"
+```
+
+3. Run the script without providing a URL:
+```bash
+uv run gsheet.py
+```
+
+The script will use the URL from `config.toml`. You can still override it by providing a URL as an argument.
 
 ## Usage
 

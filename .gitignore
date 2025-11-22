@@ -36,3 +36,6 @@ env/
 # Downloaded files
 *.csv
 sheet_*.csv
+
+# Configuration
+config.toml
