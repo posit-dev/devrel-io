@@ -33,5 +33,5 @@ env/
 *.swo
 *~
 
-# Configuration
-config.toml
+# Environment variables
+.env
