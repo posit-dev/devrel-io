@@ -74,9 +74,22 @@ def fetch_stargazers(
             response = requests.get(url, headers=headers, params=params)
             response.raise_for_status()
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching stars for {github_repo}: {e}", file=sys.stderr)
-            if response.status_code == 403:
-                print("Rate limit likely exceeded. Consider using --token.", file=sys.stderr)
+            print(f"\nError fetching stars for {github_repo}:", file=sys.stderr)
+            print(f"Status Code: {response.status_code}", file=sys.stderr)
+            print(f"Error: {e}", file=sys.stderr)
+
+            # Print rate limit info if available
+            if "X-RateLimit-Remaining" in response.headers:
+                print(f"Rate Limit Remaining: {response.headers.get('X-RateLimit-Remaining')}", file=sys.stderr)
+                print(f"Rate Limit Reset: {response.headers.get('X-RateLimit-Reset')}", file=sys.stderr)
+
+            # Print response body for more details
+            try:
+                error_data = response.json()
+                print(f"Response: {json.dumps(error_data, indent=2)}", file=sys.stderr)
+            except:
+                print(f"Response Text: {response.text}", file=sys.stderr)
+
             return stars
 
         data = response.json()
@@ -213,6 +226,15 @@ def main():
     )
 
     args = parser.parse_args()
+
+    # Show token source for debugging
+    if args.token:
+        if os.environ.get("GITHUB_TOKEN") and args.token == os.environ.get("GITHUB_TOKEN"):
+            print("Using GITHUB_TOKEN from .env file", file=sys.stderr)
+        else:
+            print("Using GITHUB_TOKEN from --token argument or environment", file=sys.stderr)
+    else:
+        print("No GITHUB_TOKEN provided (rate limited to 60 requests/hour)", file=sys.stderr)
 
     # Parse dates
     try:
