@@ -34,7 +34,7 @@ Your data will be saved to `data/input/inputs.csv`.
 - Concatenate multiple sheets using Polars (diagonal strategy handles different columns)
 - Store configuration in `config.toml` for easy reuse
 - Data saved to `data/input/` and tracked in git
-- Download GitHub stars data for projects with incremental daily updates
+- Download GitHub events (stars, forks, issues, PRs, comments) with incremental daily updates
 
 ## Advanced Usage
 
@@ -68,13 +68,13 @@ If you get a permission error:
 4. Set permission to 'Viewer'
 5. Click 'Done' and try again
 
-## GitHub Stars Tracking
+## GitHub Events Tracking
 
-Track GitHub stars for your projects over time with incremental daily updates.
+Track GitHub events for your projects over time with incremental daily updates. Supports stars, forks, issues, pull requests, and comments.
 
 ### Setup GitHub Token
 
-To use the GitHub stars feature, you need a GitHub Personal Access Token:
+To use the GitHub events feature, you need a GitHub Personal Access Token:
 
 1. **Create a GitHub Token:**
    - Go to https://github.com/settings/tokens
@@ -97,35 +97,48 @@ To use the GitHub stars feature, you need a GitHub Personal Access Token:
 
 3. **Verify it works:**
    ```bash
-   uv run python github_stars.py --id quarto
+   uv run python github_events.py --id quarto --event-type star
    ```
 
 **Note:** The `.env` file is gitignored and will not be committed. Keep your token secure and never share it.
 
-### GitHub Stars Usage
+### GitHub Events Usage
 
 ```bash
-# Download yesterday's stars for all projects
-uv run python github_stars.py
+# Download all event types for yesterday (default)
+uv run python github_events.py
+
+# Download specific event types
+uv run python github_events.py --event-type star,fork,issue_opened
 
 # Download for a specific project
-uv run python github_stars.py --id quarto
+uv run python github_events.py --id quarto
 
 # Download for a date range
-uv run python github_stars.py --id quarto --start-date 2024-01-01 --end-date 2024-01-31
+uv run python github_events.py --id quarto --start-date 2024-01-01 --end-date 2024-01-31
 
 # Output to stdout instead of files
-uv run python github_stars.py --id quarto --output -
+uv run python github_events.py --id quarto --output -
 
 # Pipe to jq for filtering
-uv run python github_stars.py --id quarto --output - | jq .
+uv run python github_events.py --id quarto --output - | jq '.event_type'
 ```
+
+**Available Event Types:**
+- `star` - Repository starred
+- `fork` - Repository forked
+- `issue_opened` - Issue created
+- `issue_closed` - Issue closed
+- `pr_opened` - Pull request created
+- `pr_merged` - Pull request merged
+- `issue_comment` - Comment on an issue
+- `pr_comment` - Comment on a pull request
 
 ### Output Format
 
-Stars are saved as JSONL files organized by project:
+Events are saved as JSONL files organized by project:
 ```
-data/output/github_stars/
+data/output/github/
 ├── quarto/
 │   ├── 2024-01-15.jsonl
 │   └── 2024-01-16.jsonl
@@ -137,7 +150,9 @@ data/output/github_stars/
 
 Each JSONL line contains:
 ```json
-{"project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T10:30:00Z", "user": "username"}
+{"event_type": "star", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T10:30:00Z", "user": "username"}
+{"event_type": "fork", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T14:22:00Z", "user": "username"}
+{"event_type": "issue_opened", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T16:45:00Z", "user": "username"}
 ```
 
 ### Rate Limits
