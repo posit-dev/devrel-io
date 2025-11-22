@@ -2,6 +2,30 @@
 
 A Python CLI tool for developer relations workflows.
 
+## Features
+
+- Download Google Sheets as CSV files
+
+## Usage
+
+### Download a Google Sheet as CSV
+
+```bash
+uv run main.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0"
+```
+
+Specify an output file:
+```bash
+uv run main.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0" -o output.csv
+```
+
+**Note:** The Google Sheet must be shared with "Anyone with the link" access. If you get a permission error, follow these steps:
+1. Open the sheet in Google Sheets
+2. Click 'Share' in the top right
+3. Under 'General access', select 'Anyone with the link'
+4. Set permission to 'Viewer'
+5. Click 'Done' and try again
+
 ## Development Setup
 
 This project uses [uv](https://docs.astral.sh/uv/) for Python package management.
