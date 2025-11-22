@@ -2,9 +2,9 @@
 default:
     @just --list
 
-# Download Google Sheets data from config.toml
+# Download Google Sheets data from config.toml to data/output
 get-inputs:
-    uv run gsheet.py
+    uv run gsheet.py -o data/output/inputs.csv
 
 # Download specific sheet by name
 get-sheet sheet_name output="":
@@ -12,18 +12,18 @@ get-sheet sheet_name output="":
     if [ -n "{{output}}" ]; then
         uv run gsheet.py -s "{{sheet_name}}" -o "{{output}}"
     else
-        uv run gsheet.py -s "{{sheet_name}}"
+        uv run gsheet.py -s "{{sheet_name}}" -o "data/output/{{sheet_name}}.csv"
     fi
 
 # Install dependencies
 install:
     uv sync
 
-# Clean downloaded CSV files
+# Clean downloaded CSV files from data/output
 clean:
-    rm -f *.csv
-    @echo "Cleaned all CSV files"
+    rm -f data/output/*.csv
+    @echo "Cleaned data/output directory"
 
 # Run with a custom URL
-get-url url:
-    uv run gsheet.py "{{url}}"
+get-url url output="data/output/output.csv":
+    uv run gsheet.py "{{url}}" -o "{{output}}"

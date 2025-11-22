@@ -33,9 +33,9 @@ env/
 *.swo
 *~
 
-# Downloaded files
-*.csv
-sheet_*.csv
+# Downloaded files in data/output
+data/output/*.csv
+data/output/**/*.csv
 
 # Configuration
 config.toml
