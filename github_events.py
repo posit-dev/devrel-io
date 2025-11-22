@@ -58,14 +58,20 @@ def handle_api_error(response: requests.Response, github_repo: str):
 
     # Print rate limit info if available
     if "X-RateLimit-Remaining" in response.headers:
-        print(f"Rate Limit Remaining: {response.headers.get('X-RateLimit-Remaining')}", file=sys.stderr)
-        print(f"Rate Limit Reset: {response.headers.get('X-RateLimit-Reset')}", file=sys.stderr)
+        print(
+            f"Rate Limit Remaining: {response.headers.get('X-RateLimit-Remaining')}",
+            file=sys.stderr,
+        )
+        print(
+            f"Rate Limit Reset: {response.headers.get('X-RateLimit-Reset')}",
+            file=sys.stderr,
+        )
 
     # Print response body for more details
     try:
         error_data = response.json()
         print(f"Response: {json.dumps(error_data, indent=2)}", file=sys.stderr)
-    except:
+    except (json.JSONDecodeError, ValueError):
         print(f"Response Text: {response.text}", file=sys.stderr)
 
 
@@ -107,19 +113,23 @@ def fetch_stars(
             break
 
         for item in data:
-            starred_at = datetime.fromisoformat(item["starred_at"].replace("Z", "+00:00"))
+            starred_at = datetime.fromisoformat(
+                item["starred_at"].replace("Z", "+00:00")
+            )
 
             if starred_at < start_date:
                 return events
 
             if start_date <= starred_at < end_date_inclusive:
-                events.append({
-                    "event_type": "star",
-                    "project_id": project_id,
-                    "github_repo": github_repo,
-                    "datetime": item["starred_at"],
-                    "user": item["user"]["login"],
-                })
+                events.append(
+                    {
+                        "event_type": "star",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["starred_at"],
+                        "user": item["user"]["login"],
+                    }
+                )
 
         page += 1
 
@@ -162,19 +172,23 @@ def fetch_forks(
             break
 
         for item in data:
-            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+            created_at = datetime.fromisoformat(
+                item["created_at"].replace("Z", "+00:00")
+            )
 
             if created_at < start_date:
                 return events
 
             if start_date <= created_at < end_date_inclusive:
-                events.append({
-                    "event_type": "fork",
-                    "project_id": project_id,
-                    "github_repo": github_repo,
-                    "datetime": item["created_at"],
-                    "user": item["owner"]["login"],
-                })
+                events.append(
+                    {
+                        "event_type": "fork",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["created_at"],
+                        "user": item["owner"]["login"],
+                    }
+                )
 
         page += 1
 
@@ -227,7 +241,9 @@ def fetch_issues(
             if "pull_request" in item:
                 continue
 
-            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+            created_at = datetime.fromisoformat(
+                item["created_at"].replace("Z", "+00:00")
+            )
 
             # Stop early if we've gone past our date range
             if created_at < start_date:
@@ -235,26 +251,34 @@ def fetch_issues(
 
             # Issue opened event
             if start_date <= created_at < end_date_inclusive:
-                events.append({
-                    "event_type": "issue_open",
-                    "project_id": project_id,
-                    "github_repo": github_repo,
-                    "datetime": item["created_at"],
-                    "user": item["user"]["login"],
-                })
+                events.append(
+                    {
+                        "event_type": "issue_open",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["created_at"],
+                        "user": item["user"]["login"],
+                    }
+                )
 
             # Issue closed event
             if item["closed_at"]:
-                closed_at = datetime.fromisoformat(item["closed_at"].replace("Z", "+00:00"))
+                closed_at = datetime.fromisoformat(
+                    item["closed_at"].replace("Z", "+00:00")
+                )
                 if start_date <= closed_at < end_date_inclusive:
                     closed_by = item.get("closed_by", {})
-                    events.append({
-                        "event_type": "issue_close",
-                        "project_id": project_id,
-                        "github_repo": github_repo,
-                        "datetime": item["closed_at"],
-                        "user": closed_by.get("login", "unknown") if closed_by else "unknown",
-                    })
+                    events.append(
+                        {
+                            "event_type": "issue_close",
+                            "project_id": project_id,
+                            "github_repo": github_repo,
+                            "datetime": item["closed_at"],
+                            "user": closed_by.get("login", "unknown")
+                            if closed_by
+                            else "unknown",
+                        }
+                    )
 
         page += 1
 
@@ -303,7 +327,9 @@ def fetch_pulls(
             break
 
         for item in data:
-            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+            created_at = datetime.fromisoformat(
+                item["created_at"].replace("Z", "+00:00")
+            )
 
             # Stop early if we've gone past our date range
             if created_at < start_date:
@@ -311,26 +337,34 @@ def fetch_pulls(
 
             # PR opened event
             if start_date <= created_at < end_date_inclusive:
-                events.append({
-                    "event_type": "pr_open",
-                    "project_id": project_id,
-                    "github_repo": github_repo,
-                    "datetime": item["created_at"],
-                    "user": item["user"]["login"],
-                })
+                events.append(
+                    {
+                        "event_type": "pr_open",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["created_at"],
+                        "user": item["user"]["login"],
+                    }
+                )
 
             # PR merged event
             if item["merged_at"]:
-                merged_at = datetime.fromisoformat(item["merged_at"].replace("Z", "+00:00"))
+                merged_at = datetime.fromisoformat(
+                    item["merged_at"].replace("Z", "+00:00")
+                )
                 if start_date <= merged_at < end_date_inclusive:
                     merged_by = item.get("merged_by", {})
-                    events.append({
-                        "event_type": "pr_merge",
-                        "project_id": project_id,
-                        "github_repo": github_repo,
-                        "datetime": item["merged_at"],
-                        "user": merged_by.get("login", "unknown") if merged_by else "unknown",
-                    })
+                    events.append(
+                        {
+                            "event_type": "pr_merge",
+                            "project_id": project_id,
+                            "github_repo": github_repo,
+                            "datetime": item["merged_at"],
+                            "user": merged_by.get("login", "unknown")
+                            if merged_by
+                            else "unknown",
+                        }
+                    )
 
         page += 1
 
@@ -378,7 +412,9 @@ def fetch_comments(
             break
 
         for item in data:
-            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+            created_at = datetime.fromisoformat(
+                item["created_at"].replace("Z", "+00:00")
+            )
 
             # Stop early if we've gone past our date range
             if created_at < start_date:
@@ -390,13 +426,15 @@ def fetch_comments(
                 html_url = item.get("html_url", "")
                 event_type = "pr_comment" if "/pull/" in html_url else "issue_comment"
 
-                events.append({
-                    "event_type": event_type,
-                    "project_id": project_id,
-                    "github_repo": github_repo,
-                    "datetime": item["created_at"],
-                    "user": item["user"]["login"],
-                })
+                events.append(
+                    {
+                        "event_type": event_type,
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["created_at"],
+                        "user": item["user"]["login"],
+                    }
+                )
 
         page += 1
 
@@ -469,41 +507,40 @@ def process_project(
 
     # Fetch requested event types
     if "star" in event_types:
-        print(f"  Fetching stars...", file=sys.stderr)
-        all_events.extend(fetch_stars(owner, repo, project_id, token, start_date, end_date))
+        print("  Fetching stars...", file=sys.stderr)
+        all_events.extend(
+            fetch_stars(owner, repo, project_id, token, start_date, end_date)
+        )
 
     if "fork" in event_types:
-        print(f"  Fetching forks...", file=sys.stderr)
-        all_events.extend(fetch_forks(owner, repo, project_id, token, start_date, end_date))
+        print("  Fetching forks...", file=sys.stderr)
+        all_events.extend(
+            fetch_forks(owner, repo, project_id, token, start_date, end_date)
+        )
 
     if "issue_open" in event_types or "issue_close" in event_types:
-        print(f"  Fetching issues...", file=sys.stderr)
-        issue_events = fetch_issues(owner, repo, project_id, token, start_date, end_date)
+        print("  Fetching issues...", file=sys.stderr)
+        issue_events = fetch_issues(
+            owner, repo, project_id, token, start_date, end_date
+        )
         # Filter to only requested types
-        filtered_events = [
-            e for e in issue_events
-            if e["event_type"] in event_types
-        ]
+        filtered_events = [e for e in issue_events if e["event_type"] in event_types]
         all_events.extend(filtered_events)
 
     if "pr_open" in event_types or "pr_merge" in event_types:
-        print(f"  Fetching pull requests...", file=sys.stderr)
+        print("  Fetching pull requests...", file=sys.stderr)
         pr_events = fetch_pulls(owner, repo, project_id, token, start_date, end_date)
         # Filter to only requested types
-        filtered_events = [
-            e for e in pr_events
-            if e["event_type"] in event_types
-        ]
+        filtered_events = [e for e in pr_events if e["event_type"] in event_types]
         all_events.extend(filtered_events)
 
     if "issue_comment" in event_types or "pr_comment" in event_types:
-        print(f"  Fetching comments...", file=sys.stderr)
-        comment_events = fetch_comments(owner, repo, project_id, token, start_date, end_date)
+        print("  Fetching comments...", file=sys.stderr)
+        comment_events = fetch_comments(
+            owner, repo, project_id, token, start_date, end_date
+        )
         # Filter to only requested types
-        filtered_events = [
-            e for e in comment_events
-            if e["event_type"] in event_types
-        ]
+        filtered_events = [e for e in comment_events if e["event_type"] in event_types]
         all_events.extend(filtered_events)
 
     if not all_events:
@@ -532,7 +569,9 @@ def parse_github_repo(repo_str: str) -> str:
     else:
         # Assume it's already in owner/repo format
         if "/" not in repo_str:
-            raise ValueError(f"Invalid repository format: {repo_str}. Use 'owner/repo' or full URL")
+            raise ValueError(
+                f"Invalid repository format: {repo_str}. Use 'owner/repo' or full URL"
+            )
         return repo_str
 
 
@@ -581,7 +620,10 @@ def main():
         # Validate event types
         invalid_types = [et for et in event_types if et not in EVENT_TYPES]
         if invalid_types:
-            print(f"Error: Invalid event types: {', '.join(invalid_types)}", file=sys.stderr)
+            print(
+                f"Error: Invalid event types: {', '.join(invalid_types)}",
+                file=sys.stderr,
+            )
             print(f"Valid types: {', '.join(EVENT_TYPES)}", file=sys.stderr)
             sys.exit(1)
     else:
@@ -592,12 +634,20 @@ def main():
 
     # Show token source for debugging
     if args.token:
-        if os.environ.get("GITHUB_TOKEN") and args.token == os.environ.get("GITHUB_TOKEN"):
+        if os.environ.get("GITHUB_TOKEN") and args.token == os.environ.get(
+            "GITHUB_TOKEN"
+        ):
             print("Using GITHUB_TOKEN from .env file", file=sys.stderr)
         else:
-            print("Using GITHUB_TOKEN from --token argument or environment", file=sys.stderr)
+            print(
+                "Using GITHUB_TOKEN from --token argument or environment",
+                file=sys.stderr,
+            )
     else:
-        print("No GITHUB_TOKEN provided (rate limited to 60 requests/hour)", file=sys.stderr)
+        print(
+            "No GITHUB_TOKEN provided (rate limited to 60 requests/hour)",
+            file=sys.stderr,
+        )
 
     # Parse dates
     try:
@@ -653,8 +703,13 @@ def main():
         # Filter by project ID if specified
         if args.project:
             if args.project not in projects:
-                print(f"Error: Project '{args.project}' not found in config.toml", file=sys.stderr)
-                print(f"Available projects: {', '.join(projects.keys())}", file=sys.stderr)
+                print(
+                    f"Error: Project '{args.project}' not found in config.toml",
+                    file=sys.stderr,
+                )
+                print(
+                    f"Available projects: {', '.join(projects.keys())}", file=sys.stderr
+                )
                 sys.exit(1)
 
             projects_to_process = {args.project: projects[args.project]}
@@ -666,7 +721,10 @@ def main():
             github_repo = project_data.get("github")
 
             if not github_repo:
-                print(f"Warning: No github repo for {project_id}, skipping", file=sys.stderr)
+                print(
+                    f"Warning: No github repo for {project_id}, skipping",
+                    file=sys.stderr,
+                )
                 continue
 
             process_project(

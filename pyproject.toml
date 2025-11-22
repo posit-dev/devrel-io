@@ -12,3 +12,8 @@ dependencies = [
 
 [project.scripts]
 gsheet = "gsheet:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.6",
+]
