@@ -111,17 +111,21 @@ uv run python github_events.py
 # Download specific event types
 uv run python github_events.py --event-type star,fork,issue_open
 
-# Download for a specific project
-uv run python github_events.py --id quarto
+# Download for a specific project from config.toml
+uv run python github_events.py --project quarto
+
+# Download for an arbitrary repository (not in config.toml)
+uv run python github_events.py --repo torvalds/linux
+uv run python github_events.py --repo https://github.com/torvalds/linux
 
 # Download for a date range
-uv run python github_events.py --id quarto --start-date 2024-01-01 --end-date 2024-01-31
+uv run python github_events.py --project quarto --start-date 2024-01-01 --end-date 2024-01-31
 
 # Output to stdout instead of files
-uv run python github_events.py --id quarto --output -
+uv run python github_events.py --project quarto --output -
 
 # Pipe to jq for filtering
-uv run python github_events.py --id quarto --output - | jq '.event_type'
+uv run python github_events.py --project quarto --output - | jq '.event_type'
 ```
 
 **Available Event Types:**

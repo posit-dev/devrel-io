@@ -519,13 +519,34 @@ def process_project(
         write_jsonl(date_events, project_id, date, output_dir)
 
 
+def parse_github_repo(repo_str: str) -> str:
+    """Parse GitHub repository from URL or owner/repo format."""
+    if repo_str.startswith("http://") or repo_str.startswith("https://"):
+        # Extract owner/repo from URL
+        # Example: https://github.com/owner/repo -> owner/repo
+        parts = repo_str.rstrip("/").split("/")
+        if len(parts) >= 2:
+            return f"{parts[-2]}/{parts[-1]}"
+        else:
+            raise ValueError(f"Invalid GitHub URL: {repo_str}")
+    else:
+        # Assume it's already in owner/repo format
+        if "/" not in repo_str:
+            raise ValueError(f"Invalid repository format: {repo_str}. Use 'owner/repo' or full URL")
+        return repo_str
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Download GitHub events for projects in config.toml"
     )
     parser.add_argument(
-        "--id",
+        "--project",
         help="Project ID from config.toml (if not specified, process all projects)",
+    )
+    parser.add_argument(
+        "--repo",
+        help="GitHub repository (owner/repo or full URL). Use this for arbitrary repos not in config.toml",
     )
     parser.add_argument(
         "--event-type",
@@ -590,37 +611,21 @@ def main():
         print("Error: end-date must be >= start-date", file=sys.stderr)
         sys.exit(1)
 
-    # Load config
-    try:
-        config = load_config()
-    except FileNotFoundError:
-        print("Error: config.toml not found", file=sys.stderr)
+    # Check for mutually exclusive arguments
+    if args.project and args.repo:
+        print("Error: --project and --repo are mutually exclusive", file=sys.stderr)
         sys.exit(1)
 
-    projects = config.get("projects", {})
-
-    if not projects:
-        print("Error: No projects found in config.toml", file=sys.stderr)
-        sys.exit(1)
-
-    # Filter by project ID if specified
-    if args.id:
-        if args.id not in projects:
-            print(f"Error: Project '{args.id}' not found in config.toml", file=sys.stderr)
-            print(f"Available projects: {', '.join(projects.keys())}", file=sys.stderr)
+    # Handle --repo (arbitrary repository)
+    if args.repo:
+        try:
+            github_repo = parse_github_repo(args.repo)
+        except ValueError as e:
+            print(f"Error: {e}", file=sys.stderr)
             sys.exit(1)
 
-        projects_to_process = {args.id: projects[args.id]}
-    else:
-        projects_to_process = projects
-
-    # Process each project
-    for project_id, project_data in projects_to_process.items():
-        github_repo = project_data.get("github")
-
-        if not github_repo:
-            print(f"Warning: No github repo for {project_id}, skipping", file=sys.stderr)
-            continue
+        # Use repo name as project_id for output directory
+        project_id = github_repo.replace("/", "-")
 
         process_project(
             project_id,
@@ -631,6 +636,48 @@ def main():
             args.output,
             event_types,
         )
+    else:
+        # Load config for projects
+        try:
+            config = load_config()
+        except FileNotFoundError:
+            print("Error: config.toml not found", file=sys.stderr)
+            sys.exit(1)
+
+        projects = config.get("projects", {})
+
+        if not projects:
+            print("Error: No projects found in config.toml", file=sys.stderr)
+            sys.exit(1)
+
+        # Filter by project ID if specified
+        if args.project:
+            if args.project not in projects:
+                print(f"Error: Project '{args.project}' not found in config.toml", file=sys.stderr)
+                print(f"Available projects: {', '.join(projects.keys())}", file=sys.stderr)
+                sys.exit(1)
+
+            projects_to_process = {args.project: projects[args.project]}
+        else:
+            projects_to_process = projects
+
+        # Process each project
+        for project_id, project_data in projects_to_process.items():
+            github_repo = project_data.get("github")
+
+            if not github_repo:
+                print(f"Warning: No github repo for {project_id}, skipping", file=sys.stderr)
+                continue
+
+            process_project(
+                project_id,
+                github_repo,
+                args.token,
+                start_date,
+                end_date,
+                args.output,
+                event_types,
+            )
 
     print("\nDone!", file=sys.stderr)
 
