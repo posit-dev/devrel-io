@@ -5,19 +5,35 @@ A Python CLI tool for developer relations workflows.
 ## Features
 
 - Download Google Sheets as CSV files
+- Download specific sheets by name
+- Download all sheets and concatenate them using Polars (diagonal strategy)
 
 ## Usage
 
-### Download a Google Sheet as CSV
+### Download all sheets (concatenated)
 
 ```bash
-uv run main.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0"
+uv run gsheet.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0"
 ```
 
-Specify an output file:
+This will download all sheets and concatenate them using Polars' diagonal strategy, which handles sheets with different columns gracefully.
+
+### Download a specific sheet
+
 ```bash
-uv run main.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0" -o output.csv
+uv run gsheet.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0" -s "Sheet Name"
 ```
+
+### Specify an output file
+
+```bash
+uv run gsheet.py "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0" -o output.csv
+```
+
+### Options
+
+- `-s, --sheet`: Specific sheet name to download (if omitted, downloads all sheets)
+- `-o, --output`: Output CSV file path
 
 **Note:** The Google Sheet must be shared with "Anyone with the link" access. If you get a permission error, follow these steps:
 1. Open the sheet in Google Sheets
