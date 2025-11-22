@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Download GitHub stars for projects defined in config.toml.
+Download GitHub events for projects defined in config.toml.
 
-Outputs one JSONL file per project per day containing stars from that date.
+Supports: stars, forks, issues (opened/closed), PRs (opened/merged), and comments.
+Outputs one JSONL file per project per day containing events from that date.
 """
 
 import argparse
@@ -19,6 +20,18 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Supported event types
+EVENT_TYPES = [
+    "star",
+    "fork",
+    "issue_opened",
+    "issue_closed",
+    "pr_opened",
+    "pr_merged",
+    "issue_comment",
+    "pr_comment",
+]
 
 
 def load_config(config_path: str = "config.toml") -> Dict:
@@ -38,7 +51,25 @@ def get_yesterday() -> str:
     return yesterday.strftime("%Y-%m-%d")
 
 
-def fetch_stargazers(
+def handle_api_error(response: requests.Response, github_repo: str):
+    """Print detailed API error information."""
+    print(f"\nError fetching events for {github_repo}:", file=sys.stderr)
+    print(f"Status Code: {response.status_code}", file=sys.stderr)
+
+    # Print rate limit info if available
+    if "X-RateLimit-Remaining" in response.headers:
+        print(f"Rate Limit Remaining: {response.headers.get('X-RateLimit-Remaining')}", file=sys.stderr)
+        print(f"Rate Limit Reset: {response.headers.get('X-RateLimit-Reset')}", file=sys.stderr)
+
+    # Print response body for more details
+    try:
+        error_data = response.json()
+        print(f"Response: {json.dumps(error_data, indent=2)}", file=sys.stderr)
+    except:
+        print(f"Response Text: {response.text}", file=sys.stderr)
+
+
+def fetch_stars(
     owner: str,
     repo: str,
     project_id: str,
@@ -46,25 +77,19 @@ def fetch_stargazers(
     start_date: datetime,
     end_date: datetime,
 ) -> List[Dict]:
-    """
-    Fetch stargazers from GitHub API within the date range.
-
-    Returns list of dicts with: project_id, github_repo, datetime, user
-    """
+    """Fetch star events from GitHub API."""
     url = f"https://api.github.com/repos/{owner}/{repo}/stargazers"
     headers = {
-        "Accept": "application/vnd.github.v3.star+json",  # Get starred_at timestamps
+        "Accept": "application/vnd.github.v3.star+json",
     }
 
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    stars = []
+    events = []
     page = 1
     per_page = 100
     github_repo = f"{owner}/{repo}"
-
-    # Add one day to end_date to make it inclusive
     end_date_inclusive = end_date + timedelta(days=1)
 
     while True:
@@ -73,44 +98,23 @@ def fetch_stargazers(
         try:
             response = requests.get(url, headers=headers, params=params)
             response.raise_for_status()
-        except requests.exceptions.RequestException as e:
-            print(f"\nError fetching stars for {github_repo}:", file=sys.stderr)
-            print(f"Status Code: {response.status_code}", file=sys.stderr)
-            print(f"Error: {e}", file=sys.stderr)
-
-            # Print rate limit info if available
-            if "X-RateLimit-Remaining" in response.headers:
-                print(f"Rate Limit Remaining: {response.headers.get('X-RateLimit-Remaining')}", file=sys.stderr)
-                print(f"Rate Limit Reset: {response.headers.get('X-RateLimit-Reset')}", file=sys.stderr)
-
-            # Print response body for more details
-            try:
-                error_data = response.json()
-                print(f"Response: {json.dumps(error_data, indent=2)}", file=sys.stderr)
-            except:
-                print(f"Response Text: {response.text}", file=sys.stderr)
-
-            return stars
+        except requests.exceptions.RequestException:
+            handle_api_error(response, github_repo)
+            return events
 
         data = response.json()
-
         if not data:
-            # No more pages
             break
 
         for item in data:
-            starred_at = datetime.fromisoformat(
-                item["starred_at"].replace("Z", "+00:00")
-            )
+            starred_at = datetime.fromisoformat(item["starred_at"].replace("Z", "+00:00"))
 
-            # Since results are sorted by starred_at descending (newest first),
-            # we can stop when we hit stars older than our start date
             if starred_at < start_date:
-                return stars
+                return events
 
-            # Only include stars within our date range
             if start_date <= starred_at < end_date_inclusive:
-                stars.append({
+                events.append({
+                    "event_type": "star",
                     "project_id": project_id,
                     "github_repo": github_repo,
                     "datetime": item["starred_at"],
@@ -119,37 +123,313 @@ def fetch_stargazers(
 
         page += 1
 
-    return stars
+    return events
 
 
-def group_stars_by_date(stars: List[Dict]) -> Dict[str, List[Dict]]:
-    """Group stars by date (YYYY-MM-DD)."""
+def fetch_forks(
+    owner: str,
+    repo: str,
+    project_id: str,
+    token: Optional[str],
+    start_date: datetime,
+    end_date: datetime,
+) -> List[Dict]:
+    """Fetch fork events from GitHub API."""
+    url = f"https://api.github.com/repos/{owner}/{repo}/forks"
+    headers = {}
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    events = []
+    page = 1
+    per_page = 100
+    github_repo = f"{owner}/{repo}"
+    end_date_inclusive = end_date + timedelta(days=1)
+
+    while True:
+        params = {"sort": "newest", "page": page, "per_page": per_page}
+
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            handle_api_error(response, github_repo)
+            return events
+
+        data = response.json()
+        if not data:
+            break
+
+        for item in data:
+            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+
+            if created_at < start_date:
+                return events
+
+            if start_date <= created_at < end_date_inclusive:
+                events.append({
+                    "event_type": "fork",
+                    "project_id": project_id,
+                    "github_repo": github_repo,
+                    "datetime": item["created_at"],
+                    "user": item["owner"]["login"],
+                })
+
+        page += 1
+
+    return events
+
+
+def fetch_issues(
+    owner: str,
+    repo: str,
+    project_id: str,
+    token: Optional[str],
+    start_date: datetime,
+    end_date: datetime,
+) -> List[Dict]:
+    """Fetch issue_opened and issue_closed events from GitHub API."""
+    url = f"https://api.github.com/repos/{owner}/{repo}/issues"
+    headers = {}
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    events = []
+    page = 1
+    per_page = 100
+    github_repo = f"{owner}/{repo}"
+    end_date_inclusive = end_date + timedelta(days=1)
+
+    while True:
+        params = {
+            "state": "all",
+            "sort": "created",
+            "direction": "desc",
+            "page": page,
+            "per_page": per_page,
+        }
+
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            handle_api_error(response, github_repo)
+            return events
+
+        data = response.json()
+        if not data:
+            break
+
+        for item in data:
+            # Skip pull requests (issues API returns both issues and PRs)
+            if "pull_request" in item:
+                continue
+
+            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+
+            # Stop early if we've gone past our date range
+            if created_at < start_date:
+                return events
+
+            # Issue opened event
+            if start_date <= created_at < end_date_inclusive:
+                events.append({
+                    "event_type": "issue_opened",
+                    "project_id": project_id,
+                    "github_repo": github_repo,
+                    "datetime": item["created_at"],
+                    "user": item["user"]["login"],
+                })
+
+            # Issue closed event
+            if item["closed_at"]:
+                closed_at = datetime.fromisoformat(item["closed_at"].replace("Z", "+00:00"))
+                if start_date <= closed_at < end_date_inclusive:
+                    closed_by = item.get("closed_by", {})
+                    events.append({
+                        "event_type": "issue_closed",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["closed_at"],
+                        "user": closed_by.get("login", "unknown") if closed_by else "unknown",
+                    })
+
+        page += 1
+
+    return events
+
+
+def fetch_pulls(
+    owner: str,
+    repo: str,
+    project_id: str,
+    token: Optional[str],
+    start_date: datetime,
+    end_date: datetime,
+) -> List[Dict]:
+    """Fetch pr_opened and pr_merged events from GitHub API."""
+    url = f"https://api.github.com/repos/{owner}/{repo}/pulls"
+    headers = {}
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    events = []
+    page = 1
+    per_page = 100
+    github_repo = f"{owner}/{repo}"
+    end_date_inclusive = end_date + timedelta(days=1)
+
+    while True:
+        params = {
+            "state": "all",
+            "sort": "created",
+            "direction": "desc",
+            "page": page,
+            "per_page": per_page,
+        }
+
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            handle_api_error(response, github_repo)
+            return events
+
+        data = response.json()
+        if not data:
+            break
+
+        for item in data:
+            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+
+            # Stop early if we've gone past our date range
+            if created_at < start_date:
+                return events
+
+            # PR opened event
+            if start_date <= created_at < end_date_inclusive:
+                events.append({
+                    "event_type": "pr_opened",
+                    "project_id": project_id,
+                    "github_repo": github_repo,
+                    "datetime": item["created_at"],
+                    "user": item["user"]["login"],
+                })
+
+            # PR merged event
+            if item["merged_at"]:
+                merged_at = datetime.fromisoformat(item["merged_at"].replace("Z", "+00:00"))
+                if start_date <= merged_at < end_date_inclusive:
+                    merged_by = item.get("merged_by", {})
+                    events.append({
+                        "event_type": "pr_merged",
+                        "project_id": project_id,
+                        "github_repo": github_repo,
+                        "datetime": item["merged_at"],
+                        "user": merged_by.get("login", "unknown") if merged_by else "unknown",
+                    })
+
+        page += 1
+
+    return events
+
+
+def fetch_comments(
+    owner: str,
+    repo: str,
+    project_id: str,
+    token: Optional[str],
+    start_date: datetime,
+    end_date: datetime,
+) -> List[Dict]:
+    """Fetch issue_comment and pr_comment events from GitHub API."""
+    url = f"https://api.github.com/repos/{owner}/{repo}/issues/comments"
+    headers = {}
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    events = []
+    page = 1
+    per_page = 100
+    github_repo = f"{owner}/{repo}"
+    end_date_inclusive = end_date + timedelta(days=1)
+
+    while True:
+        params = {
+            "sort": "created",
+            "direction": "desc",
+            "page": page,
+            "per_page": per_page,
+        }
+
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            handle_api_error(response, github_repo)
+            return events
+
+        data = response.json()
+        if not data:
+            break
+
+        for item in data:
+            created_at = datetime.fromisoformat(item["created_at"].replace("Z", "+00:00"))
+
+            # Stop early if we've gone past our date range
+            if created_at < start_date:
+                return events
+
+            if start_date <= created_at < end_date_inclusive:
+                # Determine if this is an issue comment or PR comment
+                # The html_url contains /issues/ or /pull/ to distinguish
+                html_url = item.get("html_url", "")
+                event_type = "pr_comment" if "/pull/" in html_url else "issue_comment"
+
+                events.append({
+                    "event_type": event_type,
+                    "project_id": project_id,
+                    "github_repo": github_repo,
+                    "datetime": item["created_at"],
+                    "user": item["user"]["login"],
+                })
+
+        page += 1
+
+    return events
+
+
+def group_events_by_date(events: List[Dict]) -> Dict[str, List[Dict]]:
+    """Group events by date (YYYY-MM-DD)."""
     grouped = {}
 
-    for star in stars:
-        # Extract date from ISO timestamp
-        dt = datetime.fromisoformat(star["datetime"].replace("Z", "+00:00"))
+    for event in events:
+        dt = datetime.fromisoformat(event["datetime"].replace("Z", "+00:00"))
         date_key = dt.strftime("%Y-%m-%d")
 
         if date_key not in grouped:
             grouped[date_key] = []
 
-        grouped[date_key].append(star)
+        grouped[date_key].append(event)
 
     return grouped
 
 
 def write_jsonl(
-    stars: List[Dict],
+    events: List[Dict],
     project_id: str,
     date: str,
     output_dir: str,
 ):
-    """Write stars to JSONL file or stdout."""
+    """Write events to JSONL file or stdout."""
     if output_dir == "-":
         # Write to stdout
-        for star in stars:
-            print(json.dumps(star))
+        for event in events:
+            print(json.dumps(event))
     else:
         # Create subdirectory for project
         project_output_path = Path(output_dir) / project_id
@@ -157,11 +437,13 @@ def write_jsonl(
 
         filename = project_output_path / f"{date}.jsonl"
 
-        with open(filename, "w") as f:
-            for star in stars:
-                f.write(json.dumps(star) + "\n")
+        # Append to file if it exists, to support multiple event types
+        mode = "a" if filename.exists() else "w"
+        with open(filename, mode) as f:
+            for event in events:
+                f.write(json.dumps(event) + "\n")
 
-        print(f"Wrote {len(stars)} stars to {filename}", file=sys.stderr)
+        print(f"Wrote {len(events)} events to {filename}", file=sys.stderr)
 
 
 def process_project(
@@ -171,9 +453,10 @@ def process_project(
     start_date: datetime,
     end_date: datetime,
     output_dir: str,
+    event_types: List[str],
 ):
     """Process a single project."""
-    print(f"Processing {project_id} ({github_repo})...", file=sys.stderr)
+    print(f"\nProcessing {project_id} ({github_repo})...", file=sys.stderr)
 
     # Parse owner/repo
     try:
@@ -182,27 +465,71 @@ def process_project(
         print(f"Invalid GitHub repo format: {github_repo}", file=sys.stderr)
         return
 
-    # Fetch stars
-    stars = fetch_stargazers(owner, repo, project_id, token, start_date, end_date)
+    all_events = []
 
-    if not stars:
-        print(f"No stars found for {project_id} in date range", file=sys.stderr)
+    # Fetch requested event types
+    if "star" in event_types:
+        print(f"  Fetching stars...", file=sys.stderr)
+        all_events.extend(fetch_stars(owner, repo, project_id, token, start_date, end_date))
+
+    if "fork" in event_types:
+        print(f"  Fetching forks...", file=sys.stderr)
+        all_events.extend(fetch_forks(owner, repo, project_id, token, start_date, end_date))
+
+    if "issue_opened" in event_types or "issue_closed" in event_types:
+        print(f"  Fetching issues...", file=sys.stderr)
+        issue_events = fetch_issues(owner, repo, project_id, token, start_date, end_date)
+        # Filter to only requested types
+        filtered_events = [
+            e for e in issue_events
+            if e["event_type"] in event_types
+        ]
+        all_events.extend(filtered_events)
+
+    if "pr_opened" in event_types or "pr_merged" in event_types:
+        print(f"  Fetching pull requests...", file=sys.stderr)
+        pr_events = fetch_pulls(owner, repo, project_id, token, start_date, end_date)
+        # Filter to only requested types
+        filtered_events = [
+            e for e in pr_events
+            if e["event_type"] in event_types
+        ]
+        all_events.extend(filtered_events)
+
+    if "issue_comment" in event_types or "pr_comment" in event_types:
+        print(f"  Fetching comments...", file=sys.stderr)
+        comment_events = fetch_comments(owner, repo, project_id, token, start_date, end_date)
+        # Filter to only requested types
+        filtered_events = [
+            e for e in comment_events
+            if e["event_type"] in event_types
+        ]
+        all_events.extend(filtered_events)
+
+    if not all_events:
+        print(f"  No events found for {project_id} in date range", file=sys.stderr)
         return
 
-    # Group by date and write files
-    grouped = group_stars_by_date(stars)
+    print(f"  Found {len(all_events)} total events", file=sys.stderr)
 
-    for date, date_stars in grouped.items():
-        write_jsonl(date_stars, project_id, date, output_dir)
+    # Group by date and write files
+    grouped = group_events_by_date(all_events)
+
+    for date, date_events in grouped.items():
+        write_jsonl(date_events, project_id, date, output_dir)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Download GitHub stars for projects in config.toml"
+        description="Download GitHub events for projects in config.toml"
     )
     parser.add_argument(
         "--id",
         help="Project ID from config.toml (if not specified, process all projects)",
+    )
+    parser.add_argument(
+        "--event-type",
+        help=f"Comma-separated event types to fetch (default: all). Options: {', '.join(EVENT_TYPES)}",
     )
     parser.add_argument(
         "--start-date",
@@ -216,8 +543,8 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="data/output/github_stars",
-        help='Output directory (default: data/output/github_stars), use "-" for stdout',
+        default="data/output/github",
+        help='Output directory (default: data/output/github), use "-" for stdout',
     )
     parser.add_argument(
         "--token",
@@ -226,6 +553,21 @@ def main():
     )
 
     args = parser.parse_args()
+
+    # Parse event types
+    if args.event_type:
+        event_types = [et.strip() for et in args.event_type.split(",")]
+        # Validate event types
+        invalid_types = [et for et in event_types if et not in EVENT_TYPES]
+        if invalid_types:
+            print(f"Error: Invalid event types: {', '.join(invalid_types)}", file=sys.stderr)
+            print(f"Valid types: {', '.join(EVENT_TYPES)}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        # Default to all event types
+        event_types = EVENT_TYPES
+
+    print(f"Fetching event types: {', '.join(event_types)}", file=sys.stderr)
 
     # Show token source for debugging
     if args.token:
@@ -287,6 +629,7 @@ def main():
             start_date,
             end_date,
             args.output,
+            event_types,
         )
 
     print("\nDone!", file=sys.stderr)
