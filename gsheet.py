@@ -4,7 +4,6 @@ import sys
 from pathlib import Path
 from io import StringIO
 import requests
-from bs4 import BeautifulSoup
 import polars as pl
 
 
@@ -39,30 +38,17 @@ def get_all_sheets(spreadsheet_id):
 
     response.raise_for_status()
 
-    # Parse HTML to find sheet information
-    soup = BeautifulSoup(response.text, 'html.parser')
-
     # Find sheets in the page source using regex patterns
     # Google Sheets embeds sheet info in JavaScript variables
+    text = response.text
     sheets = []
-    sheet_pattern = r'"(\d+)","([^"]+)"'
 
-    # Look for sheet data in script tags or data attributes
-    for script in soup.find_all('script'):
-        if script.string:
-            matches = re.findall(r'\["sheet\.(\d+)","([^"]+)"', script.string)
-            for gid, name in matches:
-                sheets.append({'name': name, 'gid': gid})
+    # Try to extract sheet data using various patterns
+    matches = re.findall(r'\["sheet\.(\d+)","([^"]+)"', text)
+    for gid, name in matches:
+        sheets.append({'name': name, 'gid': gid})
 
-    # Fallback: try to extract from a different pattern
-    if not sheets:
-        text = response.text
-        # Look for sheet data in various formats
-        matches = re.findall(r'\["sheet\.(\d+)","([^"]+)"', text)
-        for gid, name in matches:
-            sheets.append({'name': name, 'gid': gid})
-
-    # If still no sheets found, try another pattern
+    # If no sheets found, try another pattern
     if not sheets:
         matches = re.findall(r'"gid":"(\d+)"[^}]*"title":"([^"]+)"', text)
         for gid, name in matches:

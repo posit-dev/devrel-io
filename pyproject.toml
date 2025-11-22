@@ -5,7 +5,6 @@ description = "Python CLI tool for developer relations workflows"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "beautifulsoup4>=4.14.2",
     "polars>=1.35.2",
     "requests>=2.32.5",
 ]
