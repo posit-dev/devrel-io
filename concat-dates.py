@@ -225,7 +225,11 @@ def process_daily_to_monthly(groups, dry_run=False, force=False, today=None):
                 sorted_files = sort_files_chronologically(files)
 
                 # Create output filename
-                output_name = f"{prefix}_{year:04d}-{month:02d}{suffix}"
+                output_name = (
+                    f"{prefix}_{year:04d}-{month:02d}{suffix}"
+                    if prefix
+                    else f"{year:04d}-{month:02d}{suffix}"
+                )
                 output_path = sorted_files[0].parent / output_name
 
                 # Check if output already exists
@@ -268,7 +272,9 @@ def process_monthly_to_yearly(groups, dry_run=False, force=False, today=None):
                 sorted_files = sort_files_chronologically(files)
 
                 # Create output filename
-                output_name = f"{prefix}_{year:04d}{suffix}"
+                output_name = (
+                    f"{prefix}_{year:04d}{suffix}" if prefix else f"{year:04d}{suffix}"
+                )
                 output_path = sorted_files[0].parent / output_name
 
                 # Check if output already exists
