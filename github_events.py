@@ -25,10 +25,10 @@ load_dotenv()
 EVENT_TYPES = [
     "star",
     "fork",
-    "issue_opened",
-    "issue_closed",
-    "pr_opened",
-    "pr_merged",
+    "issue_open",
+    "issue_close",
+    "pr_open",
+    "pr_merge",
     "issue_comment",
     "pr_comment",
 ]
@@ -189,7 +189,7 @@ def fetch_issues(
     start_date: datetime,
     end_date: datetime,
 ) -> List[Dict]:
-    """Fetch issue_opened and issue_closed events from GitHub API."""
+    """Fetch issue_open and issue_close events from GitHub API."""
     url = f"https://api.github.com/repos/{owner}/{repo}/issues"
     headers = {}
 
@@ -236,7 +236,7 @@ def fetch_issues(
             # Issue opened event
             if start_date <= created_at < end_date_inclusive:
                 events.append({
-                    "event_type": "issue_opened",
+                    "event_type": "issue_open",
                     "project_id": project_id,
                     "github_repo": github_repo,
                     "datetime": item["created_at"],
@@ -249,7 +249,7 @@ def fetch_issues(
                 if start_date <= closed_at < end_date_inclusive:
                     closed_by = item.get("closed_by", {})
                     events.append({
-                        "event_type": "issue_closed",
+                        "event_type": "issue_close",
                         "project_id": project_id,
                         "github_repo": github_repo,
                         "datetime": item["closed_at"],
@@ -269,7 +269,7 @@ def fetch_pulls(
     start_date: datetime,
     end_date: datetime,
 ) -> List[Dict]:
-    """Fetch pr_opened and pr_merged events from GitHub API."""
+    """Fetch pr_open and pr_merge events from GitHub API."""
     url = f"https://api.github.com/repos/{owner}/{repo}/pulls"
     headers = {}
 
@@ -312,7 +312,7 @@ def fetch_pulls(
             # PR opened event
             if start_date <= created_at < end_date_inclusive:
                 events.append({
-                    "event_type": "pr_opened",
+                    "event_type": "pr_open",
                     "project_id": project_id,
                     "github_repo": github_repo,
                     "datetime": item["created_at"],
@@ -325,7 +325,7 @@ def fetch_pulls(
                 if start_date <= merged_at < end_date_inclusive:
                     merged_by = item.get("merged_by", {})
                     events.append({
-                        "event_type": "pr_merged",
+                        "event_type": "pr_merge",
                         "project_id": project_id,
                         "github_repo": github_repo,
                         "datetime": item["merged_at"],
@@ -476,7 +476,7 @@ def process_project(
         print(f"  Fetching forks...", file=sys.stderr)
         all_events.extend(fetch_forks(owner, repo, project_id, token, start_date, end_date))
 
-    if "issue_opened" in event_types or "issue_closed" in event_types:
+    if "issue_open" in event_types or "issue_close" in event_types:
         print(f"  Fetching issues...", file=sys.stderr)
         issue_events = fetch_issues(owner, repo, project_id, token, start_date, end_date)
         # Filter to only requested types
@@ -486,7 +486,7 @@ def process_project(
         ]
         all_events.extend(filtered_events)
 
-    if "pr_opened" in event_types or "pr_merged" in event_types:
+    if "pr_open" in event_types or "pr_merge" in event_types:
         print(f"  Fetching pull requests...", file=sys.stderr)
         pr_events = fetch_pulls(owner, repo, project_id, token, start_date, end_date)
         # Filter to only requested types

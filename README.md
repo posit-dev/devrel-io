@@ -109,7 +109,7 @@ To use the GitHub events feature, you need a GitHub Personal Access Token:
 uv run python github_events.py
 
 # Download specific event types
-uv run python github_events.py --event-type star,fork,issue_opened
+uv run python github_events.py --event-type star,fork,issue_open
 
 # Download for a specific project
 uv run python github_events.py --id quarto
@@ -127,10 +127,10 @@ uv run python github_events.py --id quarto --output - | jq '.event_type'
 **Available Event Types:**
 - `star` - Repository starred
 - `fork` - Repository forked
-- `issue_opened` - Issue created
-- `issue_closed` - Issue closed
-- `pr_opened` - Pull request created
-- `pr_merged` - Pull request merged
+- `issue_open` - Issue created
+- `issue_close` - Issue closed
+- `pr_open` - Pull request created
+- `pr_merge` - Pull request merged
 - `issue_comment` - Comment on an issue
 - `pr_comment` - Comment on a pull request
 
@@ -152,7 +152,7 @@ Each JSONL line contains:
 ```json
 {"event_type": "star", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T10:30:00Z", "user": "username"}
 {"event_type": "fork", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T14:22:00Z", "user": "username"}
-{"event_type": "issue_opened", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T16:45:00Z", "user": "username"}
+{"event_type": "issue_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2024-01-15T16:45:00Z", "user": "username"}
 ```
 
 ### Rate Limits
