@@ -23,14 +23,18 @@ def parse_filename(filename):
         tuple: (prefix, year, month, day, suffix, date_type)
         date_type is 'daily', 'monthly', 'yearly', or None
     """
-    # Pattern: prefix_YYYY-MM-DD.suffix or prefix_YYYY-MM.suffix or prefix_YYYY.suffix
-    pattern = r"^(.+?)_(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?(\..+)$"
+    # Pattern: optional prefix_YYYY-MM-DD.suffix or YYYY-MM-DD.suffix
+    # Also handles: prefix_YYYY-MM.suffix or YYYY-MM.suffix
+    # Also handles: prefix_YYYY.suffix or YYYY.suffix
+    pattern = r"^(?:(.+?)_)?(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?(\..+)$"
     match = re.match(pattern, filename)
 
     if not match:
         return None
 
     prefix, year, month, day, suffix = match.groups()
+    # Use empty string as prefix if none provided
+    prefix = prefix if prefix else ""
     year = int(year)
     month = int(month) if month else None
     day = int(day) if day else None
