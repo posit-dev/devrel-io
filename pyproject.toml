@@ -1,7 +1,7 @@
 [project]
 name = "devrel-io"
 version = "0.1.0"
-description = "Python CLI tool for developer relations workflows"
+description = "DevRel I/O"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
