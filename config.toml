@@ -63,3 +63,8 @@ language = "r"
 github = "rstudio/shiny"
 website = "https://shiny.posit.co"
 description = "Build interactive web applications in R"
+
+[projects.data-science-at-the-command-line]
+name = "Data Science at the Command Line" 
+github = "jeroenjanssens/data-science-at-the-command-line"
+
