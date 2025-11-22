@@ -1,0 +1,32 @@
+datetime,project,type,title,author,url,notes
+2024-07-31,gt,blog,Everything new that's in {gt} 0.11.0,Posit Team,https://posit.co/blog/everything-new-thats-in-gt-0-11-0/,Major release with six new datasets
+2024-01-25,gt,blog,All the new features in {gt} 0.10.0,Posit Team,https://posit.co/blog/new-features-in-gt-0-10-0/,Major release announcement
+2022-12-02,gt,blog,New Features and Serious Upgrades in {gt} 0.8.0,Posit Team,https://posit.co/blog/new-features-upgrades-in-gt-0-8-0/,Major feature update
+2022-09-26,gt,blog,All the New Things in {gt} 0.7.0,Posit Team,https://posit.co/blog/all-new-things-in-gt-0-7-0/,New features release
+2022-06-10,gt,blog,Changes (for the better) in {gt} 0.6.0,Posit Team,https://posit.co/blog/changes-for-the-better-in-gt-0-6-0/,Feature improvements
+2023-12-07,great-tables,blog,Introducing Great Tables for Python v0.1.0,Posit Team,https://posit.co/blog/introducing-great-tables-for-python-v0-1-0/,Initial release announcement
+2023-10-31,great-tables,blog,Great Tables v0.20.0 Release,Great Tables Team,https://github.com/posit-dev/great-tables/releases/tag/v0.20.0,Added grand_summary_rows() and Polars support
+2023-12-14,great-tables,blog,Great Tables v0.15.0 Release,Great Tables Team,https://github.com/posit-dev/great-tables/releases/tag/v0.15.0,Experimental pyarrow.Table support
+2023-11-11,great-tables,blog,Great Tables v0.14.0 Release,Great Tables Team,https://github.com/posit-dev/great-tables/releases/tag/v0.14.0,LaTeX-table rendering support
+2024-07-22,shiny-python,blog,Announcing Shiny for Python 1.0,Shiny Team,https://shiny.posit.co/blog/posts/shiny-python-1.0/,1.0 release with API stability
+2023-04-18,shiny-python,blog,Shiny for Python out of alpha,Winston Chang,https://shiny.posit.co/blog/posts/shiny-for-python-out-of-alpha/,General availability announcement
+2023-07-03,shiny-python,blog,Shiny for Python 0.4.0,Posit Team,https://posit.co/blog/shiny-for-python-0-4-0/,Data grids and better sidebars
+2025-04-15,shiny-python,blog,Shiny 1.4 brings bookmarking and Generative AI docs,Shiny Team,https://shiny.posit.co/blog/posts/shiny-python-1.4/,Bookmarking feature and AI docs
+2023-11-30,shiny-r,blog,Shiny for R updates: new default look and dark mode and shinylive updates and more,Carson Sievert and Garrick Aden-Buie,https://shiny.posit.co/blog/posts/shiny-r-updates-new-look-dark-mode-shinylive/,UI updates and dark mode
+2022-12-20,shiny-r,blog,Announcing new R Shiny UI components,Carson Sievert,https://shiny.posit.co/blog/posts/bslib-ui-components/,New bslib UI components
+2022-12-15,shiny-r,blog,The Past and Future of Shiny,Joe Cheng,https://shiny.posit.co/blog/posts/the-past-and-future-of-shiny-joe-cheng/,10th anniversary post
+2025-11-20,shiny-python,blog,Tool Calling UI in shinychat,Garrick Aden-Buie and Carson Sievert and Barret Schloerke,https://shiny.posit.co/blog/posts/shinychat-tool-ui/,LLM tool calling UI features
+2025-09-15,shiny-python,blog,Build Your First LLM App with Shiny for Python or R,Veerle Eeftink - van Leemput,https://shiny.posit.co/blog/posts/shiny-side-of-llms-part-3/,LLM tutorial series part 3
+2025-09-05,shiny-python,blog,Talking to LLMs: From Prompt to Response,Veerle Eeftink - van Leemput,https://shiny.posit.co/blog/posts/shiny-side-of-llms-part-2/,LLM tutorial series part 2
+2025-07-31,shiny-python,blog,What LLMs Actually Do (and What They Don't),Veerle Eeftink - van Leemput,https://shiny.posit.co/blog/posts/shiny-side-of-llms-part-1/,LLM tutorial series part 1
+2025-10-13,quarto,blog,Quarto 1.8,Charlotte Wickham,https://quarto.org/docs/blog/posts/2025-10-13-1.8-release/,Brand support and accessibility checks
+2025-04-28,quarto,blog,Quarto 1.7,Charlotte Wickham,https://quarto.org/docs/blog/posts/2025-04-28-1.7-release/,Dark mode improvements
+2024-01-24,quarto,blog,Quarto 1.4,Charlotte Wickham,https://quarto.org/docs/blog/posts/2024-01-24-1.4-release/,Dashboards and Typst support
+2022-07-28,quarto,blog,Announcing Quarto a new scientific and technical publishing system,Posit Team,https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/,Initial Quarto announcement
+2023-05-15,quarto,blog,Get Started with Quarto,Mine Çetinkaya-Rundel,https://quarto.org/docs/blog/posts/2023-05-15-get-started/,Getting started guide
+2025-07-28,quarto,blog,quarto R package v1.5.0: Streamlined Workflows for R Users,Christophe Dervieux,https://quarto.org/docs/blog/posts/2025-07-28-R-package-release-1.5/,R package update
+2025-10-27,quarto,blog,posit::conf(2025) Quarto workshop materials,Charlotte Wickham,https://quarto.org/docs/blog/posts/2025-10-27-conf-workshops-materials/,Workshop materials
+2024-12-04,quarto,blog,Quarto website video series,Charlotte Wickham and Mine Çetinkaya-Rundel,https://quarto.org/docs/blog/posts/2024-12-04-websites-workshop/,Video tutorial series
+2024-01-23,pointblank-r,blog,pointblank v0.12.2 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,New validation features
+2022-07-14,pointblank-r,blog,pointblank v0.11.0 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,BigQuery support and new functions
+2020-11-20,pointblank-r,blog,pointblank v0.6.0 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,Information Management workflow
