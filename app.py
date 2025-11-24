@@ -32,11 +32,12 @@ EVENT_TYPES = [
 # Create UI
 app_ui = ui.page_sidebar(
     ui.sidebar(
-        ui.input_select(
+        ui.input_selectize(
             "project",
-            "Select Project",
+            "Select Project(s)",
             choices={pid: project_names[pid] for pid in projects},
-            selected="great-tables",
+            selected=["great-tables"],
+            multiple=True,
         ),
         ui.h4("GitHub Events"),
         ui.input_checkbox_group(
@@ -78,12 +79,16 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def filtered_input():
-        """Filter input data by selected project and add letter labels."""
+        """Filter input data by selected projects, sort by datetime, and add letter labels."""
         df = df_input()
-        selected_project = input.project()
+        selected_projects = list(input.project())
 
-        if "project" in df.columns:
-            df = df.filter(pl.col("project") == selected_project)
+        if "project" in df.columns and selected_projects:
+            df = df.filter(pl.col("project").is_in(selected_projects))
+
+        # Sort by datetime before assigning labels
+        if not df.is_empty() and "datetime" in df.columns:
+            df = df.sort("datetime")
 
         # Add letter labels (A, B, C, ...)
         if not df.is_empty():
@@ -94,18 +99,18 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def filtered_output():
-        """Filter output data by selected project and event types."""
+        """Filter output data by selected projects and event types."""
         df = df_output()
 
         if df.is_empty():
             return df
 
-        selected_project = input.project()
+        selected_projects = list(input.project())
         selected_events = list(input.event_types())
 
-        # Filter by project
-        if "project_id" in df.columns:
-            df = df.filter(pl.col("project_id") == selected_project)
+        # Filter by projects
+        if "project_id" in df.columns and selected_projects:
+            df = df.filter(pl.col("project_id").is_in(selected_projects))
 
         # Filter by event types
         if selected_events and "event_type" in df.columns:
@@ -115,59 +120,50 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def weekly_counts():
-        """Aggregate events by ISO week."""
+        """Aggregate events by ISO week and project."""
         df = filtered_output()
 
         if df.is_empty():
             return pl.DataFrame()
 
-        # Convert datetime string to datetime and extract week
+        # Convert datetime string to datetime
         df = df.with_columns(
             pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
         )
 
-        # Sort by datetime (required for group_by_dynamic)
-        df = df.sort("datetime")
+        # Sort by project and datetime (required for group_by_dynamic)
+        df = df.sort(["project_id", "datetime"])
 
-        # Group by ISO week and count
-        df = df.group_by_dynamic("datetime", every="1w", start_by="monday").agg(
-            pl.len().alias("count")
+        # Group by project and ISO week, count events
+        df = (
+            df.group_by_dynamic("datetime", every="1w", start_by="monday", group_by="project_id")
+            .agg(pl.len().alias("count"))
         )
 
         return df
 
     @reactive.calc
     def annotations():
-        """Create annotations from input data mapped to weeks."""
+        """Create annotations from input data with project information."""
         df = filtered_input()
 
         if df.is_empty() or "datetime" not in df.columns:
             return pl.DataFrame()
 
-        # Calculate Monday of the week for each datetime (as Date)
-        # df = df.with_columns(
-        #     (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start_date")
-        # )
-        #
-        # # Convert to Datetime to match weekly_counts format
-        # df = df.with_columns(
-        #     pl.col("week_start_date").cast(pl.Datetime).alias("week_start")
-        # )
-
-        # Select only label and week_start
-        df = df.select(["label", "datetime"])
+        # Select label, datetime, and project
+        df = df.select(["label", "datetime", "project"])
 
         return df
 
     @render.ui
     def events_chart():
-        """Render Altair line chart of weekly event counts with annotations."""
+        """Render Altair line chart of weekly event counts with colored annotations."""
         df_counts = weekly_counts()
 
         if df_counts.is_empty():
             return ui.p("No data available for selected filters.")
 
-        # Base line chart
+        # Base line chart with color by project
         line = (
             alt.Chart(df_counts)
             .mark_line(point=True)
@@ -178,7 +174,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Event Count"),
+                color=alt.Color("project_id:N", title="Project", legend=alt.Legend(orient="right")),
                 tooltip=[
+                    alt.Tooltip("project_id:N", title="Project"),
                     alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
                     alt.Tooltip("count:Q", title="Events"),
                 ],
@@ -189,23 +187,18 @@ def server(input: Inputs, output: Outputs, session: Session):
         df_annotations = annotations()
 
         if not df_annotations.is_empty():
-            # Join annotations with counts to get y-position
-            # df_annotations_with_count = df_annotations.join(
-            #     df_counts, on="datetime", how="left"
-            # )
-            #
-            # print(df_annotations_with_count)
-
-            # Create annotation points with text
+            # Create annotation points with text, colored by project
             points = (
                 alt.Chart(df_annotations)
-                .mark_point(size=400, filled=True, opacity=0.7, color="orange")
+                .mark_point(size=400, filled=True, opacity=0.7)
                 .encode(
                     x=alt.X("datetime:T"),
                     y=alt.value(50),
+                    color=alt.Color("project:N", title="Project", legend=None),
                     tooltip=[
                         alt.Tooltip("label:N", title="Label"),
-                        alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
+                        alt.Tooltip("project:N", title="Project"),
+                        alt.Tooltip("datetime:T", title="Date", format="%Y-%m-%d"),
                     ],
                 )
             )
