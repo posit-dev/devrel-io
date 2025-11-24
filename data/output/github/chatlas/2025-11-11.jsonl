@@ -1,0 +1,4 @@
+{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-11-11T20:47:11Z", "user": "cpsievert"}
+{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-11-11T17:16:31Z", "user": "cpsievert"}
+{"event_type": "pr_merge", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-11-11T17:21:11Z", "user": "unknown"}
+{"event_type": "issue_comment", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-11-11T03:38:50Z", "user": "karangattu"}

@@ -1,0 +1,10 @@
+{"event_type": "star", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T14:29:57Z", "user": "andrew-fuller"}
+{"event_type": "issue_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T10:27:47Z", "user": "ilovemane"}
+{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T00:38:24Z", "user": "rich-iannone"}
+{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T04:11:00Z", "user": "rich-iannone"}
+{"event_type": "pr_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T03:56:07Z", "user": "rich-iannone"}
+{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T04:10:59Z", "user": "unknown"}
+{"event_type": "pr_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T00:24:02Z", "user": "rich-iannone"}
+{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T00:38:23Z", "user": "unknown"}
+{"event_type": "issue_comment", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T15:59:19Z", "user": "olivroy"}
+{"event_type": "issue_comment", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-10-21T15:37:46Z", "user": "olivroy"}

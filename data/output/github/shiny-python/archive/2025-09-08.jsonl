@@ -1,0 +1,4 @@
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2025-09-08T08:53:07Z", "user": "wangchaoABC"}
+{"event_type": "fork", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2025-09-08T06:44:36Z", "user": "Boulious"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2025-09-08T14:53:49Z", "user": "unknown"}
+{"event_type": "pr_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2025-09-08T14:53:46Z", "user": "cpsievert"}
