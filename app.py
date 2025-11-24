@@ -78,12 +78,17 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def filtered_input():
-        """Filter input data by selected project."""
+        """Filter input data by selected project and add letter labels."""
         df = df_input()
         selected_project = input.project()
 
         if "project" in df.columns:
             df = df.filter(pl.col("project") == selected_project)
+
+        # Add letter labels (A, B, C, ...)
+        if not df.is_empty():
+            letters = [chr(65 + i) for i in range(len(df))]  # A=65 in ASCII
+            df = df.with_columns(pl.Series("label", letters))
 
         return df
 
@@ -135,16 +140,42 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         return df
 
+    @reactive.calc
+    def annotations():
+        """Create annotations from input data mapped to weeks."""
+        df = filtered_input()
+
+        if df.is_empty() or "datetime" not in df.columns:
+            return pl.DataFrame()
+
+        # Parse datetime and calculate week_start (Monday of that week)
+        df = df.with_columns(
+            pl.col("datetime")
+            .str.strptime(pl.Date, "%Y-%m-%d")
+            .alias("date")
+        )
+
+        # Calculate Monday of the week for each date
+        df = df.with_columns(
+            (pl.col("date") - pl.duration(days=pl.col("date").dt.weekday())).alias("week_start")
+        )
+
+        # Select only label and week_start
+        df = df.select(["label", "week_start"])
+
+        return df
+
     @render.ui
     def events_chart():
-        """Render Altair line chart of weekly event counts."""
-        df = weekly_counts()
+        """Render Altair line chart of weekly event counts with annotations."""
+        df_counts = weekly_counts()
 
-        if df.is_empty():
+        if df_counts.is_empty():
             return ui.p("No data available for selected filters.")
 
-        chart = (
-            alt.Chart(df)
+        # Base line chart
+        line = (
+            alt.Chart(df_counts)
             .mark_line(point=True)
             .encode(
                 x=alt.X(
@@ -158,16 +189,61 @@ def server(input: Inputs, output: Outputs, session: Session):
                     alt.Tooltip("count:Q", title="Events"),
                 ],
             )
-            .properties(width="container", height=400)
-            .interactive()
         )
+
+        # Get annotations
+        df_annotations = annotations()
+
+        if not df_annotations.is_empty():
+            # Join annotations with counts to get y-position
+            df_annotations_with_count = df_annotations.join(
+                df_counts, on="week_start", how="left"
+            )
+
+            # Create annotation points with text
+            points = (
+                alt.Chart(df_annotations_with_count)
+                .mark_point(size=400, filled=True, opacity=0.7, color="orange")
+                .encode(
+                    x=alt.X("week_start:T"),
+                    y=alt.Y("count:Q"),
+                    tooltip=[
+                        alt.Tooltip("label:N", title="Label"),
+                        alt.Tooltip("week_start:T", title="Week", format="%Y-%m-%d"),
+                    ],
+                )
+            )
+
+            text = (
+                alt.Chart(df_annotations_with_count)
+                .mark_text(fontSize=12, fontWeight="bold", color="white")
+                .encode(
+                    x=alt.X("week_start:T"),
+                    y=alt.Y("count:Q"),
+                    text="label:N",
+                )
+            )
+
+            chart = (line + points + text).properties(
+                width="container", height=400
+            ).interactive()
+        else:
+            chart = line.properties(width="container", height=400).interactive()
 
         return ui.HTML(chart.to_html())
 
     @render.data_frame
     def input_table():
-        """Render input data table with title case columns."""
+        """Render input data table with title case columns and label first."""
         df = filtered_input()
+
+        if df.is_empty():
+            return render.DataGrid(pl.DataFrame(), width="100%")
+
+        # Move label column to first position
+        if "label" in df.columns:
+            other_cols = [col for col in df.columns if col != "label"]
+            df = df.select(["label"] + other_cols)
 
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
