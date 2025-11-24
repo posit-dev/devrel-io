@@ -140,14 +140,15 @@ def server(input: Inputs, output: Outputs, session: Session):
         if df.is_empty():
             return ui.p("No data available for selected filters.")
 
-        # Convert to pandas for Altair
-        df_pandas = df.to_pandas()
-
         chart = (
-            alt.Chart(df_pandas)
+            alt.Chart(df)
             .mark_line(point=True)
             .encode(
-                x=alt.X("week_start:T", title="Week Starting", axis=alt.Axis(format="%Y-%m-%d")),
+                x=alt.X(
+                    "week_start:T",
+                    title="Week Starting",
+                    axis=alt.Axis(format="%Y-%m-%d"),
+                ),
                 y=alt.Y("count:Q", title="Event Count"),
                 tooltip=[
                     alt.Tooltip("week_start:T", title="Week", format="%Y-%m-%d"),
@@ -168,7 +169,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        return render.DataGrid(df.to_pandas(), width="100%")
+        return render.DataGrid(df, width="100%")
 
 
 app = App(app_ui, server)
