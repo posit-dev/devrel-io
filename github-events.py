@@ -478,9 +478,8 @@ def write_jsonl(
 
         filename = project_output_path / f"{date}.jsonl"
 
-        # Append to file if it exists, to support multiple event types
-        mode = "a" if filename.exists() else "w"
-        with open(filename, mode) as f:
+        # Overwrite file to avoid duplicates on re-runs
+        with open(filename, "w") as f:
             for event in events:
                 f.write(json.dumps(event) + "\n")
 
