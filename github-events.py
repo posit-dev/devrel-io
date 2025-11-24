@@ -18,6 +18,9 @@ from typing import Dict, List, Optional
 import requests
 from dotenv import load_dotenv
 
+# Check if GITHUB_TOKEN exists before loading .env
+token_in_env_before_dotenv = "GITHUB_TOKEN" in os.environ
+
 # Load environment variables from .env file
 load_dotenv()
 
@@ -632,17 +635,17 @@ def main():
 
     print(f"Fetching event types: {', '.join(event_types)}", file=sys.stderr)
 
-    # Show token source for debugging
+    # Determine and show token source
     if args.token:
-        if os.environ.get("GITHUB_TOKEN") and args.token == os.environ.get(
-            "GITHUB_TOKEN"
-        ):
-            print("Using GITHUB_TOKEN from .env file", file=sys.stderr)
+        # Check if --token was explicitly provided in command line
+        if "--token" in sys.argv:
+            print("Using GITHUB_TOKEN from --token argument", file=sys.stderr)
+        # Check if it was set in environment before loading .env
+        elif token_in_env_before_dotenv:
+            print("Using GITHUB_TOKEN from environment variable", file=sys.stderr)
+        # Otherwise it must be from .env file
         else:
-            print(
-                "Using GITHUB_TOKEN from --token argument or environment",
-                file=sys.stderr,
-            )
+            print("Using GITHUB_TOKEN from .env file", file=sys.stderr)
     else:
         print(
             "No GITHUB_TOKEN provided (rate limited to 60 requests/hour)",
