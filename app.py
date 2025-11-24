@@ -148,9 +148,14 @@ def server(input: Inputs, output: Outputs, session: Session):
         if df.is_empty() or "datetime" not in df.columns:
             return pl.DataFrame()
 
-        # Calculate Monday of the week for each datetime
+        # Calculate Monday of the week for each datetime (as Date)
         df = df.with_columns(
-            (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start")
+            (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start_date")
+        )
+
+        # Convert to Datetime to match weekly_counts format
+        df = df.with_columns(
+            pl.col("week_start_date").cast(pl.Datetime).alias("week_start")
         )
 
         # Select only label and week_start
