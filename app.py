@@ -164,15 +164,41 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         return ui.HTML(chart.to_html())
 
-    @render.data_frame
+    @render.ui
     def input_table():
-        """Render input data table with title case columns."""
+        """Render input data table with title case columns and clickable URLs."""
         df = filtered_input()
+
+        if df.is_empty():
+            return ui.p("No data available.")
 
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        return render.DataGrid(df, width="100%")
+        # Build HTML table manually
+        html = '<div style="overflow-x: auto;"><table class="table table-striped table-hover">'
+
+        # Header
+        html += "<thead><tr>"
+        for col in df.columns:
+            html += f"<th>{col}</th>"
+        html += "</tr></thead>"
+
+        # Body
+        html += "<tbody>"
+        for row in df.iter_rows():
+            html += "<tr>"
+            for val in row:
+                if val is None:
+                    html += "<td></td>"
+                elif isinstance(val, str) and (val.startswith("http://") or val.startswith("https://")):
+                    html += f'<td><a href="{val}" target="_blank">{val}</a></td>'
+                else:
+                    html += f"<td>{val}</td>"
+            html += "</tr>"
+        html += "</tbody></table></div>"
+
+        return ui.HTML(html)
 
 
 app = App(app_ui, server)
