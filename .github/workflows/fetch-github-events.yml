@@ -26,10 +26,8 @@ jobs:
         run: uv sync
 
       - name: Fetch GitHub events for all projects
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          uv run python github-events.py
+          uv run python github-events.py --token ${{ secrets.GH_TOKEN }}
 
       - name: Aggregate data files
         run: |
