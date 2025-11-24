@@ -123,6 +123,9 @@ def server(input: Inputs, output: Outputs, session: Session):
             .alias("dt")
         )
 
+        # Sort by datetime (required for group_by_dynamic)
+        df = df.sort("dt")
+
         # Group by ISO week and count
         df = (
             df.group_by_dynamic("dt", every="1w", start_by="monday")
