@@ -10,6 +10,6 @@ install:
 get-inputs:
     uv run gsheet.py -o data/input/inputs.csv
 
-# Run the Shiny dashboard
+# Run the Shiny dashboard with auto-reload
 app:
-    uv run shiny run app.py --port 8765
+    uv run shiny run app.py --port 8765 --reload
