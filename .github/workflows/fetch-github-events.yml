@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch GitHub events for all projects
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           uv run python github-events.py
 

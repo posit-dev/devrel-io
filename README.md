@@ -175,7 +175,7 @@ The repository includes a GitHub Actions workflow that automatically fetches Git
 1. **Add GitHub Token as Secret:**
    - Go to your repository settings: `Settings` → `Secrets and variables` → `Actions`
    - Click **"New repository secret"**
-   - Name: `GITHUB_TOKEN`
+   - Name: `GH_TOKEN`
    - Value: Your GitHub Personal Access Token (see [Setup GitHub Token](#setup-github-token) above)
    - Click **"Add secret"**
 
