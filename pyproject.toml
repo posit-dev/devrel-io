@@ -5,9 +5,11 @@ description = "DevRel I/O"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "altair>=6.0.0",
     "polars>=1.35.2",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
+    "shiny>=1.5.0",
 ]
 
 [project.scripts]

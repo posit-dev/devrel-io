@@ -192,3 +192,29 @@ The repository includes a GitHub Actions workflow that automatically fetches Git
 ### Workflow file location:
 
 `.github/workflows/fetch-github-events.yml`
+
+## Shiny Dashboard
+
+Visualize GitHub events and input data with an interactive Shiny dashboard.
+
+### Running the Dashboard
+
+```bash
+# Install dependencies (if not already done)
+just install
+
+# Run the Shiny app
+uv run shiny run app.py
+
+# Or use the justfile command
+just app
+```
+
+The dashboard will open in your browser at http://127.0.0.1:8000
+
+### Dashboard Features
+
+- **Project Selector:** Filter data by project from config.toml
+- **Event Type Filters:** Toggle which GitHub event types to display
+- **Weekly Trend Chart:** Line graph showing event counts aggregated by ISO week
+- **Input Data Table:** View filtered input data with formatted column names
