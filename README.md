@@ -210,7 +210,7 @@ uv run shiny run app.py
 just app
 ```
 
-The dashboard will open in your browser at http://127.0.0.1:8000
+The dashboard will open in your browser at http://127.0.0.1:8765
 
 ### Dashboard Features
 

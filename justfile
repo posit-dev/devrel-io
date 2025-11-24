@@ -12,4 +12,4 @@ get-inputs:
 
 # Run the Shiny dashboard
 app:
-    uv run shiny run app.py
+    uv run shiny run app.py --port 8765
