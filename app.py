@@ -36,7 +36,7 @@ app_ui = ui.page_sidebar(
             "project",
             "Select Project",
             choices={pid: project_names[pid] for pid in projects},
-            selected=projects[0],
+            selected="great-tables",
         ),
         ui.h4("GitHub Events"),
         ui.input_checkbox_group(
@@ -123,19 +123,15 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         # Convert datetime string to datetime and extract week
         df = df.with_columns(
-            pl.col("datetime")
-            .str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
-            .alias("dt")
+            pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
         )
 
         # Sort by datetime (required for group_by_dynamic)
-        df = df.sort("dt")
+        df = df.sort("datetime")
 
         # Group by ISO week and count
-        df = (
-            df.group_by_dynamic("dt", every="1w", start_by="monday")
-            .agg(pl.len().alias("count"))
-            .rename({"dt": "week_start"})
+        df = df.group_by_dynamic("datetime", every="1w", start_by="monday").agg(
+            pl.len().alias("count")
         )
 
         return df
@@ -149,17 +145,17 @@ def server(input: Inputs, output: Outputs, session: Session):
             return pl.DataFrame()
 
         # Calculate Monday of the week for each datetime (as Date)
-        df = df.with_columns(
-            (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start_date")
-        )
-
-        # Convert to Datetime to match weekly_counts format
-        df = df.with_columns(
-            pl.col("week_start_date").cast(pl.Datetime).alias("week_start")
-        )
+        # df = df.with_columns(
+        #     (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start_date")
+        # )
+        #
+        # # Convert to Datetime to match weekly_counts format
+        # df = df.with_columns(
+        #     pl.col("week_start_date").cast(pl.Datetime).alias("week_start")
+        # )
 
         # Select only label and week_start
-        df = df.select(["label", "week_start"])
+        df = df.select(["label", "datetime"])
 
         return df
 
@@ -177,13 +173,13 @@ def server(input: Inputs, output: Outputs, session: Session):
             .mark_line(point=True)
             .encode(
                 x=alt.X(
-                    "week_start:T",
+                    "datetime:T",
                     title="Week Starting",
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Event Count"),
                 tooltip=[
-                    alt.Tooltip("week_start:T", title="Week", format="%Y-%m-%d"),
+                    alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
                     alt.Tooltip("count:Q", title="Events"),
                 ],
             )
@@ -194,37 +190,41 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         if not df_annotations.is_empty():
             # Join annotations with counts to get y-position
-            df_annotations_with_count = df_annotations.join(
-                df_counts, on="week_start", how="left"
-            )
+            # df_annotations_with_count = df_annotations.join(
+            #     df_counts, on="datetime", how="left"
+            # )
+            #
+            # print(df_annotations_with_count)
 
             # Create annotation points with text
             points = (
-                alt.Chart(df_annotations_with_count)
+                alt.Chart(df_annotations)
                 .mark_point(size=400, filled=True, opacity=0.7, color="orange")
                 .encode(
-                    x=alt.X("week_start:T"),
-                    y=alt.Y("count:Q"),
+                    x=alt.X("datetime:T"),
+                    y=alt.value(50),
                     tooltip=[
                         alt.Tooltip("label:N", title="Label"),
-                        alt.Tooltip("week_start:T", title="Week", format="%Y-%m-%d"),
+                        alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
                     ],
                 )
             )
 
             text = (
-                alt.Chart(df_annotations_with_count)
+                alt.Chart(df_annotations)
                 .mark_text(fontSize=12, fontWeight="bold", color="white")
                 .encode(
-                    x=alt.X("week_start:T"),
-                    y=alt.Y("count:Q"),
+                    x=alt.X("datetime:T"),
+                    y=alt.value(50),
                     text="label:N",
                 )
             )
 
-            chart = (line + points + text).properties(
-                width="container", height=400
-            ).interactive()
+            chart = (
+                (line + points + text)
+                .properties(width="container", height=400)
+                .interactive()
+            )
         else:
             chart = line.properties(width="container", height=400).interactive()
 
