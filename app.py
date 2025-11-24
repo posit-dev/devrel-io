@@ -46,6 +46,7 @@ app_ui = ui.page_sidebar(
             choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
             selected=EVENT_TYPES,
         ),
+        ui.input_switch("cumulative", "Cumulative Counts", value=False),
     ),
     ui.h2("Event Counts Per Week"),
     ui.output_ui("events_chart"),
@@ -120,7 +121,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def weekly_counts():
-        """Aggregate events by ISO week and project."""
+        """Aggregate events by ISO week and project, optionally cumulative."""
         df = filtered_output()
 
         if df.is_empty():
@@ -139,6 +140,12 @@ def server(input: Inputs, output: Outputs, session: Session):
             df.group_by_dynamic("datetime", every="1w", start_by="monday", group_by="project_id")
             .agg(pl.len().alias("count"))
         )
+
+        # Apply cumulative sum if enabled
+        if input.cumulative():
+            df = df.with_columns(
+                pl.col("count").cum_sum().over("project_id").alias("count")
+            )
 
         return df
 
