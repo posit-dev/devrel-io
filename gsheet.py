@@ -106,6 +106,9 @@ def download_sheet_to_dataframe(spreadsheet_id, gid):
 
     response.raise_for_status()
 
+    # Ensure UTF-8 encoding
+    response.encoding = "utf-8"
+
     # Parse CSV into Polars DataFrame
     df = pl.read_csv(StringIO(response.text))
     return df
