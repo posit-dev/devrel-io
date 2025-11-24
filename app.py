@@ -6,7 +6,7 @@ Shiny app for visualizing DevRel I/O data.
 import tomllib
 from pathlib import Path
 
-import plotly.graph_objects as go
+import altair as alt
 import polars as pl
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
 
@@ -49,15 +49,12 @@ app_ui = ui.page_sidebar(
     ui.h2("Event Counts Per Week"),
     ui.output_ui("events_chart"),
     ui.h2("Input Data"),
-    ui.output_ui("input_table"),
+    ui.output_data_frame("input_table"),
     title="DevRel I/O Dashboard",
 )
 
 
 def server(input: Inputs, output: Outputs, session: Session):
-    # Reactive value to track hovered label
-    hovered_label = reactive.value(None)
-
     @reactive.calc
     def df_input():
         """Read inputs.csv with datetime column parsed."""
@@ -164,24 +161,27 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @render.ui
     def events_chart():
-        """Render Plotly line chart of weekly event counts with annotations."""
+        """Render Altair line chart of weekly event counts with annotations."""
         df_counts = weekly_counts()
 
         if df_counts.is_empty():
             return ui.p("No data available for selected filters.")
 
-        # Create Plotly figure
-        fig = go.Figure()
-
-        # Add line trace for event counts
-        fig.add_trace(
-            go.Scatter(
-                x=df_counts["datetime"],
-                y=df_counts["count"],
-                mode="lines+markers",
-                name="Events",
-                line=dict(color="steelblue"),
-                hovertemplate="<b>Week:</b> %{x|%Y-%m-%d}<br><b>Events:</b> %{y}<extra></extra>",
+        # Base line chart
+        line = (
+            alt.Chart(df_counts)
+            .mark_line(point=True)
+            .encode(
+                x=alt.X(
+                    "datetime:T",
+                    title="Week Starting",
+                    axis=alt.Axis(format="%Y-%m-%d"),
+                ),
+                y=alt.Y("count:Q", title="Event Count"),
+                tooltip=[
+                    alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
+                    alt.Tooltip("count:Q", title="Events"),
+                ],
             )
         )
 
@@ -189,114 +189,64 @@ def server(input: Inputs, output: Outputs, session: Session):
         df_annotations = annotations()
 
         if not df_annotations.is_empty():
-            # Get y-axis range to position annotations at bottom
-            y_min = 0
-            y_range = df_counts["count"].max() - y_min if not df_counts.is_empty() else 100
-            annotation_y = y_min + y_range * 0.05  # 5% from bottom
+            # Join annotations with counts to get y-position
+            # df_annotations_with_count = df_annotations.join(
+            #     df_counts, on="datetime", how="left"
+            # )
+            #
+            # print(df_annotations_with_count)
 
-            # Add annotation markers
-            fig.add_trace(
-                go.Scatter(
-                    x=df_annotations["datetime"],
-                    y=[annotation_y] * len(df_annotations),
-                    mode="markers+text",
-                    name="Annotations",
-                    text=df_annotations["label"],
-                    textposition="middle center",
-                    textfont=dict(color="white", size=12),
-                    marker=dict(size=20, color="orange", opacity=0.7),
-                    hovertemplate="<b>Label:</b> %{text}<br><b>Date:</b> %{x|%Y-%m-%d}<extra></extra>",
-                    customdata=df_annotations["label"],
+            # Create annotation points with text
+            points = (
+                alt.Chart(df_annotations)
+                .mark_point(size=400, filled=True, opacity=0.7, color="orange")
+                .encode(
+                    x=alt.X("datetime:T"),
+                    y=alt.value(50),
+                    tooltip=[
+                        alt.Tooltip("label:N", title="Label"),
+                        alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
+                    ],
                 )
             )
 
-        # Update layout
-        fig.update_layout(
-            xaxis_title="Week Starting",
-            yaxis_title="Event Count",
-            height=400,
-            hovermode="closest",
-            showlegend=False,
-            margin=dict(l=50, r=50, t=30, b=50),
-        )
+            text = (
+                alt.Chart(df_annotations)
+                .mark_text(fontSize=12, fontWeight="bold", color="white")
+                .encode(
+                    x=alt.X("datetime:T"),
+                    y=alt.value(50),
+                    text="label:N",
+                )
+            )
 
-        # Add event listener for hover using JavaScript callback
-        chart_html = fig.to_html(include_plotlyjs="cdn", div_id="events_chart_div")
+            chart = (
+                (line + points + text)
+                .properties(width="container", height=400)
+                .interactive()
+            )
+        else:
+            chart = line.properties(width="container", height=400).interactive()
 
-        # Add JavaScript to handle hover events
-        js_code = """
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var chartDiv = document.getElementById('events_chart_div');
-            if (chartDiv) {
-                chartDiv.on('plotly_hover', function(data) {
-                    if (data.points[0].data.name === 'Annotations') {
-                        var label = data.points[0].customdata;
-                        Shiny.setInputValue('hovered_label', label);
-                    }
-                });
-                chartDiv.on('plotly_unhover', function() {
-                    Shiny.setInputValue('hovered_label', null);
-                });
-            }
-        });
-        </script>
-        """
+        return ui.HTML(chart.to_html())
 
-        return ui.HTML(chart_html + js_code)
-
-    @render.ui
+    @render.data_frame
     def input_table():
-        """Render input data table with title case columns and highlight hovered row."""
+        """Render input data table with title case columns and label first."""
         df = filtered_input()
 
         if df.is_empty():
-            return ui.p("No data available.")
+            return render.DataGrid(pl.DataFrame(), width="100%")
 
         # Move label column to first position
         if "label" in df.columns:
             other_cols = [col for col in df.columns if col != "label"]
             df = df.select(["label"] + other_cols)
 
-        # Get hovered label from input
-        hovered = input.hovered_label()
+        # Convert column names to title case
+        df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        # Build HTML table
-        html = '<div style="overflow-x: auto;"><table class="table table-striped table-hover">'
-
-        # Header
-        html += "<thead><tr>"
-        for col in df.columns:
-            display_name = col.replace("_", " ").title()
-            html += f"<th>{display_name}</th>"
-        html += "</tr></thead>"
-
-        # Body
-        html += "<tbody>"
-        for row in df.iter_rows(named=True):
-            # Highlight row if it matches hovered label
-            row_class = ' class="table-warning"' if hovered and row.get("label") == hovered else ""
-            html += f"<tr{row_class}>"
-            for col in df.columns:
-                val = row[col]
-                if val is None:
-                    html += "<td></td>"
-                else:
-                    html += f"<td>{val}</td>"
-            html += "</tr>"
-        html += "</tbody></table></div>"
-
-        # Add CSS for highlighting
-        css = """
-        <style>
-        .table-warning {
-            background-color: #fff3cd !important;
-            font-weight: bold;
-        }
-        </style>
-        """
-
-        return ui.HTML(css + html)
+        return render.DataGrid(df, width="100%")
 
 
 app = App(app_ui, server)
