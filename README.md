@@ -165,3 +165,30 @@ Each JSONL line contains:
 - **With token:** 5,000 requests/hour
 
 For daily incremental updates, even without a token you should be fine. For historical data downloads, a token is highly recommended.
+
+## Automated Daily Updates with GitHub Actions
+
+The repository includes a GitHub Actions workflow that automatically fetches GitHub events daily and aggregates the data.
+
+### Setup
+
+1. **Add GitHub Token as Secret:**
+   - Go to your repository settings: `Settings` → `Secrets and variables` → `Actions`
+   - Click **"New repository secret"**
+   - Name: `GITHUB_TOKEN`
+   - Value: Your GitHub Personal Access Token (see [Setup GitHub Token](#setup-github-token) above)
+   - Click **"Add secret"**
+
+2. **Enable Actions:**
+   - The workflow runs automatically daily at 1am ET (6am UTC)
+   - Can also be triggered manually: `Actions` tab → `Fetch GitHub Events` → `Run workflow`
+
+### What the workflow does:
+
+1. Fetches GitHub events for all projects in `config.toml` (yesterday's data)
+2. Runs `aggregate-data.sh` to create monthly/yearly files
+3. Commits and pushes data files to the repository
+
+### Workflow file location:
+
+`.github/workflows/fetch-github-events.yml`
