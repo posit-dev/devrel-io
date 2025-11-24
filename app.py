@@ -164,15 +164,42 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         return ui.HTML(chart.to_html())
 
-    @render.data_frame
+    @render.ui
     def input_table():
-        """Render input data table with title case columns."""
+        """Render input data table with title case columns and clickable URLs."""
         df = filtered_input()
+
+        if df.is_empty():
+            return ui.p("No data available.")
 
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        return render.DataGrid(df, width="100%")
+        # Detect URL columns and convert to clickable links
+        for col in df.columns:
+            if df[col].dtype == pl.Utf8:
+                # Check if column contains URLs
+                sample = df[col].drop_nulls().head(1)
+                if len(sample) > 0 and (
+                    sample[0].startswith("http://") or sample[0].startswith("https://")
+                ):
+                    df = df.with_columns(
+                        pl.col(col)
+                        .map_elements(
+                            lambda x: f'<a href="{x}" target="_blank">{x}</a>'
+                            if x and (x.startswith("http://") or x.startswith("https://"))
+                            else x,
+                            return_dtype=pl.Utf8,
+                        )
+                        .alias(col)
+                    )
+
+        # Convert to HTML table
+        html_table = df.to_pandas().to_html(
+            escape=False, index=False, classes="table table-striped table-hover"
+        )
+
+        return ui.HTML(f'<div style="overflow-x: auto;">{html_table}</div>')
 
 
 app = App(app_ui, server)
