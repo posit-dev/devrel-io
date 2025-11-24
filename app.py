@@ -57,8 +57,8 @@ app_ui = ui.page_sidebar(
 def server(input: Inputs, output: Outputs, session: Session):
     @reactive.calc
     def df_input():
-        """Read inputs.csv."""
-        df = pl.read_csv("data/input/inputs.csv")
+        """Read inputs.csv with datetime column parsed."""
+        df = pl.read_csv("data/input/inputs.csv", try_parse_dates=True)
         return df
 
     @reactive.calc
@@ -148,16 +148,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         if df.is_empty() or "datetime" not in df.columns:
             return pl.DataFrame()
 
-        # Parse datetime and calculate week_start (Monday of that week)
+        # Calculate Monday of the week for each datetime
         df = df.with_columns(
-            pl.col("datetime")
-            .str.strptime(pl.Date, "%Y-%m-%d")
-            .alias("date")
-        )
-
-        # Calculate Monday of the week for each date
-        df = df.with_columns(
-            (pl.col("date") - pl.duration(days=pl.col("date").dt.weekday())).alias("week_start")
+            (pl.col("datetime") - pl.duration(days=pl.col("datetime").dt.weekday())).alias("week_start")
         )
 
         # Select only label and week_start
