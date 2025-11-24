@@ -23,10 +23,10 @@ datetime,project,type,title,author,url,notes
 2025-04-28 00:00:00,quarto,blog,Quarto 1.7,Charlotte Wickham,https://quarto.org/docs/blog/posts/2025-04-28-1.7-release/,Dark mode improvements
 2024-01-24 00:00:00,quarto,blog,Quarto 1.4,Charlotte Wickham,https://quarto.org/docs/blog/posts/2024-01-24-1.4-release/,Dashboards and Typst support
 2022-07-28 00:00:00,quarto,blog,Announcing Quarto a new scientific and technical publishing system,Posit Team,https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/,Initial Quarto announcement
-2023-05-15 00:00:00,quarto,blog,Get Started with Quarto,Mine Ãetinkaya-Rundel,https://quarto.org/docs/blog/posts/2023-05-15-get-started/,Getting started guide
+2023-05-15 00:00:00,quarto,blog,Get Started with Quarto,Mine Çetinkaya-Rundel,https://quarto.org/docs/blog/posts/2023-05-15-get-started/,Getting started guide
 2025-07-28 00:00:00,quarto,blog,quarto R package v1.5.0: Streamlined Workflows for R Users,Christophe Dervieux,https://quarto.org/docs/blog/posts/2025-07-28-R-package-release-1.5/,R package update
 2025-10-27 00:00:00,quarto,blog,posit::conf(2025) Quarto workshop materials,Charlotte Wickham,https://quarto.org/docs/blog/posts/2025-10-27-conf-workshops-materials/,Workshop materials
-2024-12-04 00:00:00,quarto,blog,Quarto website video series,Charlotte Wickham and Mine Ãetinkaya-Rundel,https://quarto.org/docs/blog/posts/2024-12-04-websites-workshop/,Video tutorial series
+2024-12-04 00:00:00,quarto,blog,Quarto website video series,Charlotte Wickham and Mine Çetinkaya-Rundel,https://quarto.org/docs/blog/posts/2024-12-04-websites-workshop/,Video tutorial series
 2024-01-23 00:00:00,pointblank-r,blog,pointblank v0.12.2 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,New validation features
 2022-07-14 00:00:00,pointblank-r,blog,pointblank v0.11.0 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,BigQuery support and new functions
 2020-11-20 00:00:00,pointblank-r,blog,pointblank v0.6.0 Release,pointblank Team,https://rstudio.github.io/pointblank/news/,Information Management workflow
