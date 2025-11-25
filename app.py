@@ -225,7 +225,6 @@ def server(input: Inputs, output: Outputs, session: Session):
                     alt.Tooltip("count:Q", title="Events"),
                 ],
             )
-            .add_selection(zoom)
         )
 
         # Get annotations
@@ -246,7 +245,6 @@ def server(input: Inputs, output: Outputs, session: Session):
                         alt.Tooltip("datetime:T", title="Date", format="%Y-%m-%d"),
                     ],
                 )
-                .add_selection(zoom)
             )
 
             text = (
@@ -257,12 +255,19 @@ def server(input: Inputs, output: Outputs, session: Session):
                     y=alt.value(50),
                     text="label:N",
                 )
-                .add_selection(zoom)
             )
 
-            chart = (line + points + text).properties(width="container", height=400)
+            chart = (
+                (line + points + text)
+                .add_selection(zoom)
+                .properties(width="container", height=400)
+            )
         else:
-            chart = line.properties(width="container", height=400)
+            chart = (
+                line
+                .add_selection(zoom)
+                .properties(width="container", height=400)
+            )
 
         return ui.HTML(chart.to_html())
 
