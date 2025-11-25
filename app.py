@@ -54,10 +54,10 @@ app_ui = ui.page_sidebar(
         ),
         ui.input_switch("cumulative", "Cumulative Counts", value=False),
     ),
-    ui.h2("Output"),
-    ui.output_ui("events_chart"),
     ui.h2("Input"),
     ui.output_data_frame("input_table"),
+    ui.h2("Output"),
+    ui.output_ui("events_chart"),
     title="DevRel I/O Dashboard",
 )
 
@@ -263,11 +263,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 .properties(width="container", height=400)
             )
         else:
-            chart = (
-                line
-                .add_selection(zoom)
-                .properties(width="container", height=400)
-            )
+            chart = line.add_selection(zoom).properties(width="container", height=400)
 
         return ui.HTML(chart.to_html())
 
