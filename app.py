@@ -202,8 +202,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         }
         period_label = period_labels[aggregation]
 
-        # Create zoom selection for x-axis (time) only
-        zoom = alt.selection_interval(bind="scales", encodings=["x"])
+        # Create brush selection for drag-to-select on x-axis only
+        brush = alt.selection_interval(encodings=["x"])
 
         # Base line chart with color by project
         line = (
@@ -214,6 +214,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                     "datetime:T",
                     title=f"{period_label} Ending",
                     axis=alt.Axis(format="%Y-%m-%d"),
+                    scale=alt.Scale(domain=brush),  # Apply brush to x-axis scale
                 ),
                 y=alt.Y("count:Q", title="Event Count"),
                 color=alt.Color(
@@ -236,7 +237,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 alt.Chart(df_annotations)
                 .mark_point(size=400, filled=True, opacity=0.7)
                 .encode(
-                    x=alt.X("datetime:T"),
+                    x=alt.X("datetime:T", scale=alt.Scale(domain=brush)),
                     y=alt.value(50),
                     color=alt.Color("project:N", title="Project", legend=None),
                     tooltip=[
@@ -251,7 +252,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 alt.Chart(df_annotations)
                 .mark_text(fontSize=12, fontWeight="bold", color="white")
                 .encode(
-                    x=alt.X("datetime:T"),
+                    x=alt.X("datetime:T", scale=alt.Scale(domain=brush)),
                     y=alt.value(50),
                     text="label:N",
                 )
@@ -259,13 +260,13 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             chart = (
                 (line + points + text)
-                .add_selection(zoom)
+                .add_selection(brush)
                 .properties(width="container", height=400)
             )
         else:
             chart = (
                 line
-                .add_selection(zoom)
+                .add_selection(brush)
                 .properties(width="container", height=400)
             )
 
