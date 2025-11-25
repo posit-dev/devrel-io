@@ -13,3 +13,7 @@ get-inputs:
 # Run the Shiny dashboard with auto-reload
 app:
     uv run shiny run app.py --port 8765 --reload
+
+# Export dependencies to requirements.txt for Posit Connect
+export-deps:
+    uv export --no-hashes --no-dev > requirements.txt

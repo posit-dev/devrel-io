@@ -218,3 +218,21 @@ The dashboard will open in your browser at http://127.0.0.1:8765
 - **Event Type Filters:** Toggle which GitHub event types to display
 - **Weekly Trend Chart:** Line graph showing event counts aggregated by ISO week
 - **Input Data Table:** View filtered input data with formatted column names
+
+## Deploying to Posit Connect
+
+The app includes a `requirements.txt` file for deploying to Posit Connect.
+
+### Automatic Updates
+
+The `requirements.txt` is automatically regenerated whenever `pyproject.toml` or `uv.lock` changes via GitHub Actions.
+
+### Manual Regeneration
+
+To regenerate `requirements.txt` locally:
+
+```bash
+just export-deps
+```
+
+This runs `uv export --no-hashes --no-dev > requirements.txt` to create a deployment-ready requirements file from your locked dependencies.
