@@ -46,6 +46,12 @@ app_ui = ui.page_sidebar(
             choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
             selected=EVENT_TYPES,
         ),
+        ui.input_select(
+            "aggregation",
+            "Aggregation",
+            choices={"daily": "Daily", "weekly": "Weekly", "monthly": "Monthly"},
+            selected="weekly",
+        ),
         ui.input_switch("cumulative", "Cumulative Counts", value=False),
     ),
     ui.h2("Output"),
@@ -120,8 +126,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df
 
     @reactive.calc
-    def weekly_counts():
-        """Aggregate events by ISO week and project, optionally cumulative."""
+    def aggregated_counts():
+        """Aggregate events by selected time period and project, optionally cumulative."""
         df = filtered_output()
 
         if df.is_empty():
@@ -135,14 +141,28 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Sort by project and datetime (required for group_by_dynamic)
         df = df.sort(["project_id", "datetime"])
 
-        # Group by project and ISO week, count events
-        df = df.group_by_dynamic(
-            "datetime",
-            every="1w",
-            start_by="monday",
-            group_by="project_id",
-            label="right",
-        ).agg(pl.len().alias("count"))
+        # Determine aggregation interval
+        aggregation_map = {
+            "daily": "1d",
+            "weekly": "1w",
+            "monthly": "1mo",
+        }
+        interval = aggregation_map[input.aggregation()]
+
+        # Group by project and time period, count events
+        group_by_kwargs = {
+            "every": interval,
+            "group_by": "project_id",
+            "label": "right",
+        }
+
+        # Add start_by for weekly aggregation
+        if input.aggregation() == "weekly":
+            group_by_kwargs["start_by"] = "monday"
+
+        df = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
+            pl.len().alias("count")
+        )
 
         # Apply cumulative sum if enabled
         if input.cumulative():
@@ -167,11 +187,20 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @render.ui
     def events_chart():
-        """Render Altair line chart of weekly event counts with colored annotations."""
-        df_counts = weekly_counts()
+        """Render Altair line chart of aggregated event counts with colored annotations."""
+        df_counts = aggregated_counts()
 
         if df_counts.is_empty():
             return ui.p("No data available for selected filters.")
+
+        # Determine axis title and tooltip based on aggregation level
+        aggregation = input.aggregation()
+        period_labels = {
+            "daily": "Day",
+            "weekly": "Week",
+            "monthly": "Month",
+        }
+        period_label = period_labels[aggregation]
 
         # Base line chart with color by project
         line = (
@@ -180,7 +209,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             .encode(
                 x=alt.X(
                     "datetime:T",
-                    title="Week Starting",
+                    title=f"{period_label} Ending",
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Event Count"),
@@ -189,7 +218,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 ),
                 tooltip=[
                     alt.Tooltip("project_id:N", title="Project"),
-                    alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
+                    alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
                     alt.Tooltip("count:Q", title="Events"),
                 ],
             )
