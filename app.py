@@ -48,9 +48,9 @@ app_ui = ui.page_sidebar(
         ),
         ui.input_switch("cumulative", "Cumulative Counts", value=False),
     ),
-    ui.h2("Event Counts Per Week"),
+    ui.h2("Output"),
     ui.output_ui("events_chart"),
-    ui.h2("Input Data"),
+    ui.h2("Input"),
     ui.output_data_frame("input_table"),
     title="DevRel I/O Dashboard",
 )
@@ -136,10 +136,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         df = df.sort(["project_id", "datetime"])
 
         # Group by project and ISO week, count events
-        df = (
-            df.group_by_dynamic("datetime", every="1w", start_by="monday", group_by="project_id")
-            .agg(pl.len().alias("count"))
-        )
+        df = df.group_by_dynamic(
+            "datetime",
+            every="1w",
+            start_by="monday",
+            group_by="project_id",
+            label="right",
+        ).agg(pl.len().alias("count"))
 
         # Apply cumulative sum if enabled
         if input.cumulative():
@@ -181,7 +184,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Event Count"),
-                color=alt.Color("project_id:N", title="Project", legend=alt.Legend(orient="right")),
+                color=alt.Color(
+                    "project_id:N", title="Project", legend=alt.Legend(orient="right")
+                ),
                 tooltip=[
                     alt.Tooltip("project_id:N", title="Project"),
                     alt.Tooltip("datetime:T", title="Week", format="%Y-%m-%d"),
