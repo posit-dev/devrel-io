@@ -97,7 +97,7 @@ To use the GitHub events feature, you need a GitHub Personal Access Token:
 
 3. **Verify it works:**
    ```bash
-   uv run python github-events.py --project quarto --event-type star
+   uv run python fetch_github.py --project quarto --event-type star
    ```
 
 **Note:** The `.env` file is gitignored and will not be committed. Keep your token secure and never share it.
@@ -106,26 +106,26 @@ To use the GitHub events feature, you need a GitHub Personal Access Token:
 
 ```bash
 # Download all event types for yesterday (default)
-uv run python github-events.py
+uv run python fetch_github.py
 
 # Download specific event types
-uv run python github-events.py --event-type star,fork,issue_open
+uv run python fetch_github.py --event-type star,fork,issue_open
 
 # Download for a specific project from config.toml
-uv run python github-events.py --project quarto
+uv run python fetch_github.py --project quarto
 
 # Download for an arbitrary repository (not in config.toml)
-uv run python github-events.py --repo torvalds/linux
-uv run python github-events.py --repo https://github.com/torvalds/linux
+uv run python fetch_github.py --repo torvalds/linux
+uv run python fetch_github.py --repo https://github.com/torvalds/linux
 
 # Download for a date range
-uv run python github-events.py --project quarto --start-date 2024-01-01 --end-date 2024-01-31
+uv run python fetch_github.py --project quarto --start-date 2024-01-01 --end-date 2024-01-31
 
 # Output to stdout instead of files
-uv run python github-events.py --project quarto --output -
+uv run python fetch_github.py --project quarto --output -
 
 # Pipe to jq for filtering
-uv run python github-events.py --project quarto --output - | jq '.event_type'
+uv run python fetch_github.py --project quarto --output - | jq '.event_type'
 ```
 
 **Available Event Types:**

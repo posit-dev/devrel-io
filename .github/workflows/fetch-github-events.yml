@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch GitHub events for all projects
         run: |
-          uv run python github-events.py --token ${{ secrets.GH_TOKEN }}
+          uv run python fetch_github.py --token ${{ secrets.GH_TOKEN }}
 
       - name: Aggregate data files
         run: |
