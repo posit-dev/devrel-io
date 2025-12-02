@@ -1,0 +1,8 @@
+{"event_type": "issue_open", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T18:41:20Z", "user": "schloerke"}
+{"event_type": "issue_close", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T21:36:58Z", "user": "schloerke"}
+{"event_type": "pr_open", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T21:25:50Z", "user": "schloerke"}
+{"event_type": "pr_merge", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T21:31:53Z", "user": "unknown"}
+{"event_type": "pr_open", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T18:43:08Z", "user": "Copilot"}
+{"event_type": "pr_merge", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T21:36:56Z", "user": "unknown"}
+{"event_type": "pr_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T21:31:37Z", "user": "schloerke"}
+{"event_type": "pr_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-11-25T18:47:21Z", "user": "CLAassistant"}
