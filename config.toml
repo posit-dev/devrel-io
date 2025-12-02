@@ -7,6 +7,8 @@ language = "python"
 github = "has2k1/plotnine"
 website = "https://plotnine.org"
 description = "A grammar of graphics for Python based on ggplot2"
+plausible = "plotnine.org"
+pypi = "plotnine"
 
 [projects.chatlas]
 name = "Chatlas"
@@ -14,13 +16,16 @@ language = "python"
 github = "posit-dev/chatlas"
 website = "https://posit-dev.github.io/chatlas"
 description = "Chat with large language models in Python"
+pypi = "chatlas"
 
 [projects.great-tables]
-name = "Great Tables"
-language = "python"
-github = "posit-dev/great-tables"
-website = "https://posit-dev.github.io/great-tables/"
 description = "Create beautiful and feature-rich tables in Python"
+github = "posit-dev/great-tables"
+google_analytics_property = "425692119"
+language = "python"
+name = "Great Tables"
+website = "https://posit-dev.github.io/great-tables/"
+pypi = "great-tables"
 
 [projects.pointblank-python]
 name = "Pointblank"
@@ -28,6 +33,7 @@ language = "python"
 github = "posit-dev/pointblank"
 website = "https://posit-dev.github.io/pointblank/"
 description = "Data validation toolkit for assessing and monitoring data quality"
+pypi = "pointblank"
 
 [projects.pointblank-r]
 name = "pointblank"
@@ -56,6 +62,7 @@ language = "python"
 github = "posit-dev/py-shiny"
 website = "https://shiny.posit.co/py/"
 description = "Build interactive web applications in Python"
+pypi = "shiny"
 
 [projects.shiny-r]
 name = "Shiny for R"
@@ -63,4 +70,12 @@ language = "r"
 github = "rstudio/shiny"
 website = "https://shiny.posit.co"
 description = "Build interactive web applications in R"
+
+[projects.ggplot2]
+name = "ggplot2"
+language = "r"
+github = "tidyverse/ggplot2"
+website = "https://ggplot2.tidyverse.org"
+description = "An implementation of the Grammar of Graphics in R"
+plausible = "ggplot2.tidyverse.org"
 
