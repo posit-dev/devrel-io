@@ -1,4 +1,4 @@
-name: Fetch GitHub Events
+name: Fetch DevRel Data
 
 on:
   schedule:
@@ -29,6 +29,14 @@ jobs:
         run: |
           uv run python fetch_github.py --token ${{ secrets.GH_TOKEN }}
 
+      - name: Fetch Plausible analytics for all projects
+        run: |
+          uv run python fetch_plausible.py --api-key ${{ secrets.PLAUSIBLE_KEY }}
+
+      - name: Fetch PyPI downloads for all projects
+        run: |
+          uv run python fetch_pypi.py
+
       - name: Aggregate data files
         run: |
           chmod +x aggregate-data.sh
@@ -39,5 +47,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --staged --quiet || git commit -m "Update GitHub events data - $(date -u +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Update devrel data - $(date -u +'%Y-%m-%d')"
           git push

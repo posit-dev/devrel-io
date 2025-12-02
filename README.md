@@ -168,26 +168,32 @@ For daily incremental updates, even without a token you should be fine. For hist
 
 ## Automated Daily Updates with GitHub Actions
 
-The repository includes a GitHub Actions workflow that automatically fetches GitHub events daily and aggregates the data.
+The repository includes a GitHub Actions workflow that automatically fetches all DevRel data daily and aggregates it.
 
 ### Setup
 
-1. **Add GitHub Token as Secret:**
+1. **Add Secrets:**
    - Go to your repository settings: `Settings` → `Secrets and variables` → `Actions`
-   - Click **"New repository secret"**
+   - Click **"New repository secret"** for each:
+
+   **Required secrets:**
    - Name: `GH_TOKEN`
-   - Value: Your GitHub Personal Access Token (see [Setup GitHub Token](#setup-github-token) above)
-   - Click **"Add secret"**
+     - Value: Your GitHub Personal Access Token (see [Setup GitHub Token](#setup-github-token) above)
+
+   - Name: `PLAUSIBLE_KEY`
+     - Value: Your Plausible API key (from Plausible Settings → API Keys)
 
 2. **Enable Actions:**
    - The workflow runs automatically daily at 1am ET (6am UTC)
-   - Can also be triggered manually: `Actions` tab → `Fetch GitHub Events` → `Run workflow`
+   - Can also be triggered manually: `Actions` tab → `Fetch DevRel Data` → `Run workflow`
 
 ### What the workflow does:
 
 1. Fetches GitHub events for all projects in `config.toml` (yesterday's data)
-2. Runs `aggregate-data.sh` to create monthly/yearly files
-3. Commits and pushes data files to the repository
+2. Fetches Plausible analytics for all projects with `plausible` field
+3. Fetches PyPI download stats for all projects with `pypi` field
+4. Runs `aggregate-data.sh` to create monthly/yearly files
+5. Commits and pushes data files to the repository
 
 ### Workflow file location:
 
