@@ -243,14 +243,11 @@ def server(input: Inputs, output: Outputs, session: Session):
                 pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
             ).rename({"date": "datetime"})
 
-            # Rename metric to metric_type for consistency
-            df_plaus = df_plaus.rename({"metric": "metric_type"})
-
             # Rename value to count for consistency
             df_plaus = df_plaus.rename({"value": "count"})
 
-            # Sort by project, metric type, and datetime
-            df_plaus = df_plaus.sort(["project_id", "metric_type", "datetime"])
+            # Sort by project and datetime
+            df_plaus = df_plaus.sort(["project_id", "datetime"])
 
             # Determine aggregation interval
             aggregation_map = {
@@ -260,10 +257,10 @@ def server(input: Inputs, output: Outputs, session: Session):
             }
             interval = aggregation_map[input.aggregation()]
 
-            # Group by project, metric type, and time period
+            # Group by project and time period (sum all Plausible metrics together)
             group_by_kwargs = {
                 "every": interval,
-                "group_by": ["project_id", "metric_type"],
+                "group_by": "project_id",
                 "label": "right",
             }
 
@@ -272,6 +269,11 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             df_plaus_agg = df_plaus.group_by_dynamic("datetime", **group_by_kwargs).agg(
                 pl.sum("count").cast(pl.Int64).alias("count")
+            )
+
+            # Add metric_type column labeled as "Plausible"
+            df_plaus_agg = df_plaus_agg.with_columns(
+                pl.lit("Plausible").alias("metric_type")
             )
 
         # Combine GitHub and Plausible data
@@ -407,8 +409,8 @@ def server(input: Inputs, output: Outputs, session: Session):
                         "metric_type:N",
                         title="Metric",
                         scale=alt.Scale(
-                            domain=["GitHub", "pageviews", "visitors", "visits"],
-                            range=[[1, 0], [5, 2], [5, 2], [5, 2]]  # solid for GitHub, dashed for Plausible
+                            domain=["GitHub", "Plausible"],
+                            range=[[1, 0], [5, 2]]  # solid for GitHub, dashed for Plausible
                         ),
                         legend=alt.Legend(orient="right")
                     ),
