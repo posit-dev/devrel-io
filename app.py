@@ -475,18 +475,22 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
 
             # Add metric_type column labeled as "PyPI"
-            df_pypi_agg = df_pypi_agg.with_columns(
-                pl.lit("PyPI").alias("metric_type")
-            )
+            df_pypi_agg = df_pypi_agg.with_columns(pl.lit("PyPI").alias("metric_type"))
 
         # Combine GitHub, Plausible, and PyPI data
         dataframes = []
         if not df_github_agg.is_empty():
-            dataframes.append(df_github_agg.select(["project_id", "datetime", "metric_type", "count"]))
+            dataframes.append(
+                df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
+            )
         if not df_plaus_agg.is_empty():
-            dataframes.append(df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"]))
+            dataframes.append(
+                df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
+            )
         if not df_pypi_agg.is_empty():
-            dataframes.append(df_pypi_agg.select(["project_id", "datetime", "metric_type", "count"]))
+            dataframes.append(
+                df_pypi_agg.select(["project_id", "datetime", "metric_type", "count"])
+            )
 
         if len(dataframes) > 0:
             df_combined = pl.concat(dataframes)
@@ -549,8 +553,11 @@ def server(input: Inputs, output: Outputs, session: Session):
         if df.is_empty() or "datetime" not in df.columns:
             return pl.DataFrame()
 
-        # Select label, datetime, and project
-        df = df.select(["label", "datetime", "project"])
+        # Select label, datetime, project, and title
+        columns_to_select = ["label", "datetime", "project"]
+        if "title" in df.columns:
+            columns_to_select.append("title")
+        df = df.select(columns_to_select)
 
         return df
 
@@ -649,9 +656,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                     scale=alt.Scale(
                         domain=["GitHub", "Plausible", "PyPI"],
                         range=[
-                            [1, 0],    # solid for GitHub
-                            [5, 2],    # dashed for Plausible
-                            [2, 2],    # dotted for PyPI
+                            [1, 0],  # solid for GitHub
+                            [5, 2],  # dashed for Plausible
+                            [2, 2],  # dotted for PyPI
                         ],
                     ),
                     legend=None,
@@ -703,18 +710,25 @@ def server(input: Inputs, output: Outputs, session: Session):
         if not df_annotations.is_empty():
             # Create annotation points below x-axis, colored by project
             # Filter to only show annotations within visible x-axis range
+            # Build tooltip list dynamically based on available columns
+            tooltip_list = [
+                alt.Tooltip("label:N", title="Label"),
+                alt.Tooltip("project:N", title="Project"),
+                alt.Tooltip("datetime:T", title="Date", format="%Y-%m-%d"),
+            ]
+            if "title" in df_annotations.columns:
+                tooltip_list.append(alt.Tooltip("title:N", title="Title"))
+
             points = (
                 alt.Chart(df_annotations)
                 .mark_point(size=400, filled=True, opacity=0.7, clip=False)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(430),  # Position 30 pixels below chart bottom (400px height)
+                    y=alt.value(
+                        440
+                    ),  # Position 30 pixels below chart bottom (400px height)
                     color=alt.Color("project:N", title="Project", legend=None),
-                    tooltip=[
-                        alt.Tooltip("label:N", title="Label"),
-                        alt.Tooltip("project:N", title="Project"),
-                        alt.Tooltip("datetime:T", title="Date", format="%Y-%m-%d"),
-                    ],
+                    tooltip=tooltip_list,
                 )
                 .transform_filter(zoom)  # Only show annotations in visible range
             )
@@ -724,7 +738,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                 .mark_text(fontSize=14, fontWeight="bold", color="white", clip=False)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(430),  # Position 30 pixels below chart bottom (400px height)
+                    y=alt.value(
+                        440
+                    ),  # Position 30 pixels below chart bottom (400px height)
                     text="label:N",
                 )
                 .transform_filter(zoom)  # Only show annotations in visible range
