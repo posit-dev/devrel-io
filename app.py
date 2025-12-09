@@ -494,7 +494,11 @@ def server(input: Inputs, output: Outputs, session: Session):
                             domain=["GitHub", "Plausible"],
                             range=[[1, 0], [5, 2]]  # solid for GitHub, dashed for Plausible
                         ),
-                        legend=alt.Legend(orient="right")
+                        legend=alt.Legend(
+                            orient="right",
+                            symbolType="stroke",
+                            symbolStrokeWidth=3
+                        )
                     ),
                     tooltip=[
                         alt.Tooltip("project_id:N", title="Project"),
