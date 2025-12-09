@@ -141,12 +141,16 @@ def server(input: Inputs, output: Outputs, session: Session):
         selected_projects = list(input.project())
         selected_events = list(input.event_types())
 
+        # If no projects selected, return empty DataFrame
+        if not selected_projects:
+            return pl.DataFrame()
+
         # If no events selected, return empty DataFrame
         if not selected_events:
             return pl.DataFrame()
 
         # Filter by projects
-        if "project_id" in df.columns and selected_projects:
+        if "project_id" in df.columns:
             df = df.filter(pl.col("project_id").is_in(selected_projects))
 
         # Filter by event types
@@ -166,12 +170,16 @@ def server(input: Inputs, output: Outputs, session: Session):
         selected_projects = list(input.project())
         selected_metrics = list(input.plausible_metrics())
 
+        # If no projects selected, return empty DataFrame
+        if not selected_projects:
+            return pl.DataFrame()
+
         # If no metrics selected, return empty DataFrame
         if not selected_metrics:
             return pl.DataFrame()
 
         # Filter by projects
-        if "project_id" in df.columns and selected_projects:
+        if "project_id" in df.columns:
             df = df.filter(pl.col("project_id").is_in(selected_projects))
 
         # Filter by selected metrics
