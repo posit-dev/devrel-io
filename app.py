@@ -47,7 +47,7 @@ app_ui = ui.page_sidebar(
             "event_types",
             None,
             choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
-            selected=EVENT_TYPES,
+            selected=["star"],
         ),
         ui.h4("Plausible"),
         ui.input_select(
