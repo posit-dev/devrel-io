@@ -702,6 +702,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         if not df_annotations.is_empty():
             # Create annotation points below x-axis, colored by project
+            # Filter to only show annotations within visible x-axis range
             points = (
                 alt.Chart(df_annotations)
                 .mark_point(size=400, filled=True, opacity=0.7, clip=False)
@@ -715,6 +716,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                         alt.Tooltip("datetime:T", title="Date", format="%Y-%m-%d"),
                     ],
                 )
+                .transform_filter(zoom)  # Only show annotations in visible range
             )
 
             text = (
@@ -725,6 +727,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                     y=alt.value(430),  # Position 30 pixels below chart bottom (400px height)
                     text="label:N",
                 )
+                .transform_filter(zoom)  # Only show annotations in visible range
             )
 
             chart = line + points + text
