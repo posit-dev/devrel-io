@@ -185,13 +185,8 @@ def server(input: Inputs, output: Outputs, session: Session):
                 pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
             )
 
-            # Add metric_type column using event_type
-            df_github = df_github.with_columns(
-                pl.col("event_type").alias("metric_type")
-            )
-
-            # Sort by project, metric type, and datetime
-            df_github = df_github.sort(["project_id", "metric_type", "datetime"])
+            # Sort by project and datetime
+            df_github = df_github.sort(["project_id", "datetime"])
 
             # Determine aggregation interval
             aggregation_map = {
@@ -201,10 +196,10 @@ def server(input: Inputs, output: Outputs, session: Session):
             }
             interval = aggregation_map[input.aggregation()]
 
-            # Group by project, metric type, and time period
+            # Group by project and time period (sum all GitHub events together)
             group_by_kwargs = {
                 "every": interval,
-                "group_by": ["project_id", "metric_type"],
+                "group_by": "project_id",
                 "label": "right",
             }
 
@@ -213,6 +208,11 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             df_github_agg = df_github.group_by_dynamic("datetime", **group_by_kwargs).agg(
                 pl.len().alias("count")
+            )
+
+            # Add metric_type column labeled as "GitHub"
+            df_github_agg = df_github_agg.with_columns(
+                pl.lit("GitHub").alias("metric_type")
             )
 
         # Process Plausible data
