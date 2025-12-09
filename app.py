@@ -506,10 +506,14 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
             )
 
-            # Add project name labels at end of lines
+            # Add project name labels at fixed x position
             project_labels = last_point.mark_text(
-                align="left", dx=8, fontSize=14
-            ).encode(text=alt.Text("project_id:N"))
+                align="left", fontSize=14, clip=False
+            ).encode(
+                text=alt.Text("project_id:N"),
+                x=alt.value("width"),  # Position at right edge
+                y=alt.Y("last_date['count']:Q")
+            )
 
             line = line + last_point + project_labels
         else:
@@ -569,10 +573,14 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
             )
 
-            # Add "Project (Metric)" labels at end of lines
+            # Add "Project (Metric)" labels at fixed x position
             line_labels = last_point.mark_text(
-                align="left", dx=8, fontSize=14, clip=False
-            ).encode(text=alt.Text("label:N"))
+                align="left", fontSize=14, clip=False
+            ).encode(
+                text=alt.Text("label:N"),
+                x=alt.value("width"),  # Position at right edge
+                y=alt.Y("last_date['count']:Q")
+            )
 
             line = line + last_point + line_labels
 
