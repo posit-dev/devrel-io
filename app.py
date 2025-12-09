@@ -16,7 +16,9 @@ with open("config.toml", "rb") as f:
 
 projects = list(config["projects"].keys())
 project_names = {pid: config["projects"][pid]["name"] for pid in projects}
-project_colors = {pid: config["projects"][pid].get("hex_color", "#808080") for pid in projects}
+project_colors = {
+    pid: config["projects"][pid].get("hex_color", "#808080") for pid in projects
+}
 
 # Event types for checkboxes
 EVENT_TYPES = [
@@ -65,7 +67,7 @@ app_ui = ui.page_sidebar(
                 "all": "All",
                 "last_7_days": "Last 7 days",
                 "last_month": "Last month",
-                "custom": "Custom"
+                "custom": "Custom",
             },
             selected="all",
         ),
@@ -94,6 +96,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         """Show date pickers only when Custom period is selected."""
         if input.period() == "custom":
             from datetime import date, timedelta
+
             today = date.today()
             month_ago = today - timedelta(days=30)
             return ui.TagList(
@@ -124,8 +127,12 @@ def server(input: Inputs, output: Outputs, session: Session):
             start = input.start_date()
             end = input.end_date()
             if start and end:
-                start_date = datetime.combine(start, datetime.min.time()).replace(tzinfo=timezone.utc)
-                end_date = datetime.combine(end, datetime.max.time()).replace(tzinfo=timezone.utc)
+                start_date = datetime.combine(start, datetime.min.time()).replace(
+                    tzinfo=timezone.utc
+                )
+                end_date = datetime.combine(end, datetime.max.time()).replace(
+                    tzinfo=timezone.utc
+                )
                 return start_date, end_date
 
         return None, None
@@ -216,14 +223,18 @@ def server(input: Inputs, output: Outputs, session: Session):
         start_date, end_date = date_range()
         if start_date and end_date and "datetime" in df.columns:
             df = df.with_columns(
-                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ").dt.replace_time_zone("UTC")
+                pl.col("datetime")
+                .str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
+                .dt.replace_time_zone("UTC")
             )
             df = df.filter(
                 (pl.col("datetime") >= start_date) & (pl.col("datetime") <= end_date)
             )
             # Convert back to string for consistency
             df = df.with_columns(
-                pl.col("datetime").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+                pl.col("datetime")
+                .dt.convert_time_zone("UTC")
+                .dt.strftime("%Y-%m-%dT%H:%M:%SZ")
             )
 
         return df
@@ -259,7 +270,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         start_date, end_date = date_range()
         if start_date and end_date and "date" in df.columns:
             df = df.with_columns(
-                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d").dt.replace_time_zone("UTC")
+                pl.col("date")
+                .str.strptime(pl.Datetime, "%Y-%m-%d")
+                .dt.replace_time_zone("UTC")
             )
             df = df.filter(
                 (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
@@ -305,15 +318,14 @@ def server(input: Inputs, output: Outputs, session: Session):
             if input.aggregation() == "weekly":
                 group_by_kwargs["start_by"] = "monday"
 
-            df_github_agg = df_github.group_by_dynamic("datetime", **group_by_kwargs).agg(
-                pl.len().alias("count")
-            )
+            df_github_agg = df_github.group_by_dynamic(
+                "datetime", **group_by_kwargs
+            ).agg(pl.len().alias("count"))
 
             # Add metric_type column labeled as "GitHub" and cast count to Int64
-            df_github_agg = df_github_agg.with_columns([
-                pl.lit("GitHub").alias("metric_type"),
-                pl.col("count").cast(pl.Int64)
-            ])
+            df_github_agg = df_github_agg.with_columns(
+                [pl.lit("GitHub").alias("metric_type"), pl.col("count").cast(pl.Int64)]
+            )
 
         # Process Plausible data
         df_plaus = filtered_plausible()
@@ -361,22 +373,32 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Combine GitHub and Plausible data
         if not df_github_agg.is_empty() and not df_plaus_agg.is_empty():
             # Ensure both dataframes have the same column order
-            df_github_agg = df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
-            df_plaus_agg = df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
+            df_github_agg = df_github_agg.select(
+                ["project_id", "datetime", "metric_type", "count"]
+            )
+            df_plaus_agg = df_plaus_agg.select(
+                ["project_id", "datetime", "metric_type", "count"]
+            )
             df_combined = pl.concat([df_github_agg, df_plaus_agg])
         elif not df_github_agg.is_empty():
-            df_combined = df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
+            df_combined = df_github_agg.select(
+                ["project_id", "datetime", "metric_type", "count"]
+            )
         elif not df_plaus_agg.is_empty():
-            df_combined = df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
+            df_combined = df_plaus_agg.select(
+                ["project_id", "datetime", "metric_type", "count"]
+            )
         else:
             return pl.DataFrame()
 
         # Apply stacking if enabled
         if input.stack_metrics():
             # Sum all metrics per project and time period
-            df_combined = df_combined.group_by(["project_id", "datetime"]).agg(
-                pl.sum("count").alias("count")
-            ).sort(["project_id", "datetime"])
+            df_combined = (
+                df_combined.group_by(["project_id", "datetime"])
+                .agg(pl.sum("count").alias("count"))
+                .sort(["project_id", "datetime"])
+            )
         else:
             # Keep metrics separate, sort for display
             df_combined = df_combined.sort(["project_id", "metric_type", "datetime"])
@@ -391,16 +413,20 @@ def server(input: Inputs, output: Outputs, session: Session):
             else:
                 # Cumulative sum per project and metric type
                 df_combined = df_combined.with_columns(
-                    pl.col("count").cum_sum().over(["project_id", "metric_type"]).alias("count")
+                    pl.col("count")
+                    .cum_sum()
+                    .over(["project_id", "metric_type"])
+                    .alias("count")
                 )
 
         # Add hex_color column based on project_id
         if not df_combined.is_empty():
             df_combined = df_combined.with_columns(
-                pl.col("project_id").map_elements(
-                    lambda pid: project_colors.get(pid, "#808080"),
-                    return_dtype=pl.Utf8
-                ).alias("hex_color")
+                pl.col("project_id")
+                .map_elements(
+                    lambda pid: project_colors.get(pid, "#808080"), return_dtype=pl.Utf8
+                )
+                .alias("hex_color")
             )
 
         return df_combined
@@ -451,7 +477,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                     "project_id:N",
                     title="Project",
                     scale=alt.Scale(domain=color_domain, range=color_range),
-                    legend=None
+                    legend=None,
                 )
             )
 
@@ -470,25 +496,29 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
 
             # Get last point for each project
-            last_point = base.mark_circle(size=100).encode(
-                x=alt.X("last_date['datetime']:T"),
-                y=alt.Y("last_date['count']:Q")
-            ).transform_aggregate(
-                last_date="argmax(datetime)",
-                groupby=["project_id"]
+            last_point = (
+                base.mark_circle(size=100)
+                .encode(
+                    x=alt.X("last_date['datetime']:T"), y=alt.Y("last_date['count']:Q")
+                )
+                .transform_aggregate(
+                    last_date="argmax(datetime)", groupby=["project_id"]
+                )
             )
 
             # Add project name labels at end of lines
-            project_labels = last_point.mark_text(align="left", dx=8, fontSize=14).encode(
-                text=alt.Text("project_id:N")
-            )
+            project_labels = last_point.mark_text(
+                align="left", dx=8, fontSize=14
+            ).encode(text=alt.Text("project_id:N"))
 
             line = line + last_point + project_labels
         else:
             # Not stacked: color by project, line type by metric (solid=GitHub, dashed=Plausible)
             # Add combined label column for display
             df_counts = df_counts.with_columns(
-                (pl.col("project_id") + " (" + pl.col("metric_type") + ")").alias("label")
+                (pl.col("project_id") + " (" + pl.col("metric_type") + ")").alias(
+                    "label"
+                )
             )
 
             base = alt.Chart(df_counts).encode(
@@ -496,17 +526,20 @@ def server(input: Inputs, output: Outputs, session: Session):
                     "project_id:N",
                     title="Project",
                     scale=alt.Scale(domain=color_domain, range=color_range),
-                    legend=None
+                    legend=None,
                 ),
                 strokeDash=alt.StrokeDash(
                     "metric_type:N",
                     title="Metric",
                     scale=alt.Scale(
                         domain=["GitHub", "Plausible"],
-                        range=[[1, 0], [5, 2]]  # solid for GitHub, dashed for Plausible
+                        range=[
+                            [1, 0],
+                            [5, 2],
+                        ],  # solid for GitHub, dashed for Plausible
                     ),
-                    legend=None
-                )
+                    legend=None,
+                ),
             )
 
             line = base.mark_line(point=True).encode(
@@ -525,18 +558,21 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
 
             # Get last point for each project+metric combination
-            last_point = base.mark_circle(size=100).encode(
-                x=alt.X("last_date['datetime']:T"),
-                y=alt.Y("last_date['count']:Q")
-            ).transform_aggregate(
-                last_date="argmax(datetime)",
-                groupby=["project_id", "metric_type", "label"]
+            last_point = (
+                base.mark_circle(size=100)
+                .encode(
+                    x=alt.X("last_date['datetime']:T"), y=alt.Y("last_date['count']:Q")
+                )
+                .transform_aggregate(
+                    last_date="argmax(datetime)",
+                    groupby=["project_id", "metric_type", "label"],
+                )
             )
 
             # Add "Project (Metric)" labels at end of lines
-            line_labels = last_point.mark_text(align="left", dx=8, fontSize=14).encode(
-                text=alt.Text("label:N")
-            )
+            line_labels = last_point.mark_text(
+                align="left", dx=8, fontSize=14, clip=False
+            ).encode(text=alt.Text("label:N"))
 
             line = line + last_point + line_labels
 
@@ -576,13 +612,9 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         # Apply zoom and configuration
         chart = (
-            chart
-            .add_selection(zoom)
+            chart.add_selection(zoom)
             .properties(width="container", height=400)
-            .configure_axis(
-                labelFontSize=14,
-                titleFontSize=16
-            )
+            .configure_axis(labelFontSize=14, titleFontSize=16)
             .configure_view(
                 clip=False  # Allow labels to extend beyond plot area
             )
