@@ -495,12 +495,13 @@ def server(input: Inputs, output: Outputs, session: Session):
                 ],
             )
 
-            # Get last point for each project
+            # Get last visible point for each project (responds to zoom)
             last_point = (
                 base.mark_circle(size=100)
                 .encode(
                     x=alt.X("last_date['datetime']:T"), y=alt.Y("last_date['count']:Q")
                 )
+                .transform_filter(zoom)  # Filter to visible range
                 .transform_aggregate(
                     last_date="argmax(datetime)", groupby=["project_id"]
                 )
@@ -561,12 +562,13 @@ def server(input: Inputs, output: Outputs, session: Session):
                 ],
             )
 
-            # Get last point for each project+metric combination
+            # Get last visible point for each project+metric combination (responds to zoom)
             last_point = (
                 base.mark_circle(size=100)
                 .encode(
                     x=alt.X("last_date['datetime']:T"), y=alt.Y("last_date['count']:Q")
                 )
+                .transform_filter(zoom)  # Filter to visible range
                 .transform_aggregate(
                     last_date="argmax(datetime)",
                     groupby=["project_id", "metric_type", "label"],
