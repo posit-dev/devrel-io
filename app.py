@@ -258,11 +258,14 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         # Combine GitHub and Plausible data
         if not df_github_agg.is_empty() and not df_plaus_agg.is_empty():
+            # Ensure both dataframes have the same column order
+            df_github_agg = df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
+            df_plaus_agg = df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
             df_combined = pl.concat([df_github_agg, df_plaus_agg])
         elif not df_github_agg.is_empty():
-            df_combined = df_github_agg
+            df_combined = df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
         elif not df_plaus_agg.is_empty():
-            df_combined = df_plaus_agg
+            df_combined = df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
         else:
             return pl.DataFrame()
 
