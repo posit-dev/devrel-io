@@ -29,6 +29,9 @@ EVENT_TYPES = [
     "pr_comment",
 ]
 
+# Plausible metrics
+PLAUSIBLE_METRICS = ["pageviews", "visitors", "visits"]
+
 # Create UI
 app_ui = ui.page_sidebar(
     ui.sidebar(
@@ -46,6 +49,14 @@ app_ui = ui.page_sidebar(
             choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
             selected=EVENT_TYPES,
         ),
+        ui.h4("Plausible"),
+        ui.input_select(
+            "plausible_metric",
+            None,
+            choices={m: m.title() for m in PLAUSIBLE_METRICS},
+            selected="pageviews",
+        ),
+        ui.h4("Settings"),
         ui.input_select(
             "aggregation",
             "Aggregation",
@@ -53,6 +64,7 @@ app_ui = ui.page_sidebar(
             selected="weekly",
         ),
         ui.input_switch("cumulative", "Cumulative Counts", value=False),
+        ui.input_switch("stack_metrics", "Stack Metrics", value=False),
     ),
     ui.h2("Input"),
     ui.output_data_frame("input_table"),
@@ -75,6 +87,20 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Read all JSONL files except those in archive directories
         jsonl_files = []
         for path in Path("data/output/github").rglob("*.jsonl"):
+            if "archive" not in path.parts:
+                jsonl_files.append(str(path))
+
+        if not jsonl_files:
+            return pl.DataFrame()
+
+        df = pl.read_ndjson(jsonl_files)
+        return df
+
+    @reactive.calc
+    def df_plausible():
+        """Read all Plausible JSONL files (excluding archive)."""
+        jsonl_files = []
+        for path in Path("data/output/plausible").rglob("*.jsonl"):
             if "archive" not in path.parts:
                 jsonl_files.append(str(path))
 
@@ -126,51 +152,144 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df
 
     @reactive.calc
-    def aggregated_counts():
-        """Aggregate events by selected time period and project, optionally cumulative."""
-        df = filtered_output()
+    def filtered_plausible():
+        """Filter Plausible data by selected projects and metric."""
+        df = df_plausible()
 
         if df.is_empty():
+            return df
+
+        selected_projects = list(input.project())
+        selected_metric = input.plausible_metric()
+
+        # Filter by projects
+        if "project_id" in df.columns and selected_projects:
+            df = df.filter(pl.col("project_id").is_in(selected_projects))
+
+        # Filter by selected metric
+        if selected_metric and "metric" in df.columns:
+            df = df.filter(pl.col("metric") == selected_metric)
+
+        return df
+
+    @reactive.calc
+    def aggregated_counts():
+        """Aggregate events and metrics by time period, with optional stacking and cumulative sum."""
+        # Process GitHub events
+        df_github = filtered_output()
+        df_github_agg = pl.DataFrame()
+
+        if not df_github.is_empty():
+            # Convert datetime string to datetime
+            df_github = df_github.with_columns(
+                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
+            )
+
+            # Add metric_type column using event_type
+            df_github = df_github.with_columns(
+                pl.col("event_type").alias("metric_type")
+            )
+
+            # Sort by project, metric type, and datetime
+            df_github = df_github.sort(["project_id", "metric_type", "datetime"])
+
+            # Determine aggregation interval
+            aggregation_map = {
+                "daily": "1d",
+                "weekly": "1w",
+                "monthly": "1mo",
+            }
+            interval = aggregation_map[input.aggregation()]
+
+            # Group by project, metric type, and time period
+            group_by_kwargs = {
+                "every": interval,
+                "group_by": ["project_id", "metric_type"],
+                "label": "right",
+            }
+
+            if input.aggregation() == "weekly":
+                group_by_kwargs["start_by"] = "monday"
+
+            df_github_agg = df_github.group_by_dynamic("datetime", **group_by_kwargs).agg(
+                pl.len().alias("count")
+            )
+
+        # Process Plausible data
+        df_plaus = filtered_plausible()
+        df_plaus_agg = pl.DataFrame()
+
+        if not df_plaus.is_empty():
+            # Convert date string to datetime
+            df_plaus = df_plaus.with_columns(
+                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
+            ).rename({"date": "datetime"})
+
+            # Rename metric to metric_type for consistency
+            df_plaus = df_plaus.rename({"metric": "metric_type"})
+
+            # Rename value to count for consistency
+            df_plaus = df_plaus.rename({"value": "count"})
+
+            # Sort by project, metric type, and datetime
+            df_plaus = df_plaus.sort(["project_id", "metric_type", "datetime"])
+
+            # Determine aggregation interval
+            aggregation_map = {
+                "daily": "1d",
+                "weekly": "1w",
+                "monthly": "1mo",
+            }
+            interval = aggregation_map[input.aggregation()]
+
+            # Group by project, metric type, and time period
+            group_by_kwargs = {
+                "every": interval,
+                "group_by": ["project_id", "metric_type"],
+                "label": "right",
+            }
+
+            if input.aggregation() == "weekly":
+                group_by_kwargs["start_by"] = "monday"
+
+            df_plaus_agg = df_plaus.group_by_dynamic("datetime", **group_by_kwargs).agg(
+                pl.sum("count").alias("count")
+            )
+
+        # Combine GitHub and Plausible data
+        if not df_github_agg.is_empty() and not df_plaus_agg.is_empty():
+            df_combined = pl.concat([df_github_agg, df_plaus_agg])
+        elif not df_github_agg.is_empty():
+            df_combined = df_github_agg
+        elif not df_plaus_agg.is_empty():
+            df_combined = df_plaus_agg
+        else:
             return pl.DataFrame()
 
-        # Convert datetime string to datetime
-        df = df.with_columns(
-            pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
-        )
-
-        # Sort by project and datetime (required for group_by_dynamic)
-        df = df.sort(["project_id", "datetime"])
-
-        # Determine aggregation interval
-        aggregation_map = {
-            "daily": "1d",
-            "weekly": "1w",
-            "monthly": "1mo",
-        }
-        interval = aggregation_map[input.aggregation()]
-
-        # Group by project and time period, count events
-        group_by_kwargs = {
-            "every": interval,
-            "group_by": "project_id",
-            "label": "right",
-        }
-
-        # Add start_by for weekly aggregation
-        if input.aggregation() == "weekly":
-            group_by_kwargs["start_by"] = "monday"
-
-        df = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
-            pl.len().alias("count")
-        )
+        # Apply stacking if enabled
+        if input.stack_metrics():
+            # Sum all metrics per project and time period
+            df_combined = df_combined.group_by(["project_id", "datetime"]).agg(
+                pl.sum("count").alias("count")
+            ).sort(["project_id", "datetime"])
+        else:
+            # Keep metrics separate, sort for display
+            df_combined = df_combined.sort(["project_id", "metric_type", "datetime"])
 
         # Apply cumulative sum if enabled
         if input.cumulative():
-            df = df.with_columns(
-                pl.col("count").cum_sum().over("project_id").alias("count")
-            )
+            if input.stack_metrics():
+                # Cumulative sum per project
+                df_combined = df_combined.with_columns(
+                    pl.col("count").cum_sum().over("project_id").alias("count")
+                )
+            else:
+                # Cumulative sum per project and metric type
+                df_combined = df_combined.with_columns(
+                    pl.col("count").cum_sum().over(["project_id", "metric_type"]).alias("count")
+                )
 
-        return df
+        return df_combined
 
     @reactive.calc
     def annotations():
@@ -205,27 +324,55 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Create zoom selection for x-axis (time) only
         zoom = alt.selection_interval(bind="scales", encodings=["x"])
 
-        # Base line chart with color by project
-        line = (
-            alt.Chart(df_counts)
-            .mark_line(point=True)
-            .encode(
-                x=alt.X(
-                    "datetime:T",
-                    title=f"{period_label} Ending",
-                    axis=alt.Axis(format="%Y-%m-%d"),
-                ),
-                y=alt.Y("count:Q", title="Event Count"),
-                color=alt.Color(
-                    "project_id:N", title="Project", legend=alt.Legend(orient="right")
-                ),
-                tooltip=[
-                    alt.Tooltip("project_id:N", title="Project"),
-                    alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
-                    alt.Tooltip("count:Q", title="Events"),
-                ],
+        # Build line chart based on stacking mode
+        if input.stack_metrics():
+            # Stacked: color by project only
+            line = (
+                alt.Chart(df_counts)
+                .mark_line(point=True)
+                .encode(
+                    x=alt.X(
+                        "datetime:T",
+                        title=f"{period_label} Ending",
+                        axis=alt.Axis(format="%Y-%m-%d"),
+                    ),
+                    y=alt.Y("count:Q", title="Count (Stacked)"),
+                    color=alt.Color(
+                        "project_id:N", title="Project", legend=alt.Legend(orient="right")
+                    ),
+                    tooltip=[
+                        alt.Tooltip("project_id:N", title="Project"),
+                        alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
+                        alt.Tooltip("count:Q", title="Count"),
+                    ],
+                )
             )
-        )
+        else:
+            # Not stacked: color by metric type
+            line = (
+                alt.Chart(df_counts)
+                .mark_line(point=True)
+                .encode(
+                    x=alt.X(
+                        "datetime:T",
+                        title=f"{period_label} Ending",
+                        axis=alt.Axis(format="%Y-%m-%d"),
+                    ),
+                    y=alt.Y("count:Q", title="Count"),
+                    color=alt.Color(
+                        "metric_type:N", title="Metric", legend=alt.Legend(orient="right")
+                    ),
+                    strokeDash=alt.StrokeDash(
+                        "project_id:N", title="Project", legend=alt.Legend(orient="right")
+                    ),
+                    tooltip=[
+                        alt.Tooltip("project_id:N", title="Project"),
+                        alt.Tooltip("metric_type:N", title="Metric"),
+                        alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
+                        alt.Tooltip("count:Q", title="Count"),
+                    ],
+                )
+            )
 
         # Get annotations
         df_annotations = annotations()
