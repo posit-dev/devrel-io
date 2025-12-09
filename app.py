@@ -57,6 +57,19 @@ app_ui = ui.page_sidebar(
             choices={m: m.title() for m in PLAUSIBLE_METRICS},
             selected=[],
         ),
+        ui.h4("Period"),
+        ui.input_select(
+            "period",
+            None,
+            choices={
+                "all": "All",
+                "last_7_days": "Last 7 days",
+                "last_month": "Last month",
+                "custom": "Custom"
+            },
+            selected="all",
+        ),
+        ui.output_ui("date_pickers"),
         ui.h4("Settings"),
         ui.input_select(
             "aggregation",
@@ -76,6 +89,47 @@ app_ui = ui.page_sidebar(
 
 
 def server(input: Inputs, output: Outputs, session: Session):
+    @render.ui
+    def date_pickers():
+        """Show date pickers only when Custom period is selected."""
+        if input.period() == "custom":
+            from datetime import date, timedelta
+            today = date.today()
+            month_ago = today - timedelta(days=30)
+            return ui.TagList(
+                ui.input_date("start_date", "Start Date", value=month_ago),
+                ui.input_date("end_date", "End Date", value=today),
+            )
+        return ui.TagList()
+
+    @reactive.calc
+    def date_range():
+        """Calculate the date range based on period selection."""
+        from datetime import datetime, timedelta, timezone
+
+        period = input.period()
+
+        if period == "all":
+            return None, None  # No filtering
+        elif period == "last_7_days":
+            end_date = datetime.now(timezone.utc)
+            start_date = end_date - timedelta(days=7)
+            return start_date, end_date
+        elif period == "last_month":
+            end_date = datetime.now(timezone.utc)
+            start_date = end_date - timedelta(days=30)
+            return start_date, end_date
+        elif period == "custom":
+            # Convert date inputs to datetime
+            start = input.start_date()
+            end = input.end_date()
+            if start and end:
+                start_date = datetime.combine(start, datetime.min.time()).replace(tzinfo=timezone.utc)
+                end_date = datetime.combine(end, datetime.max.time()).replace(tzinfo=timezone.utc)
+                return start_date, end_date
+
+        return None, None
+
     @reactive.calc
     def df_input():
         """Read inputs.csv with datetime column parsed."""
@@ -133,7 +187,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def filtered_output():
-        """Filter output data by selected projects and event types."""
+        """Filter output data by selected projects, event types, and date range."""
         df = df_output()
 
         if df.is_empty():
@@ -158,11 +212,25 @@ def server(input: Inputs, output: Outputs, session: Session):
         if "event_type" in df.columns:
             df = df.filter(pl.col("event_type").is_in(selected_events))
 
+        # Filter by date range
+        start_date, end_date = date_range()
+        if start_date and end_date and "datetime" in df.columns:
+            df = df.with_columns(
+                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
+            )
+            df = df.filter(
+                (pl.col("datetime") >= start_date) & (pl.col("datetime") <= end_date)
+            )
+            # Convert back to string for consistency
+            df = df.with_columns(
+                pl.col("datetime").dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            )
+
         return df
 
     @reactive.calc
     def filtered_plausible():
-        """Filter Plausible data by selected projects and metrics."""
+        """Filter Plausible data by selected projects, metrics, and date range."""
         df = df_plausible()
 
         if df.is_empty():
@@ -186,6 +254,20 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Filter by selected metrics
         if "metric" in df.columns:
             df = df.filter(pl.col("metric").is_in(selected_metrics))
+
+        # Filter by date range
+        start_date, end_date = date_range()
+        if start_date and end_date and "date" in df.columns:
+            df = df.with_columns(
+                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
+            )
+            df = df.filter(
+                (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
+            )
+            # Convert back to string for consistency
+            df = df.with_columns(
+                pl.col("date").dt.strftime("%Y-%m-%d")
+            )
 
         return df
 
