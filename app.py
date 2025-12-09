@@ -210,10 +210,11 @@ def server(input: Inputs, output: Outputs, session: Session):
                 pl.len().alias("count")
             )
 
-            # Add metric_type column labeled as "GitHub"
-            df_github_agg = df_github_agg.with_columns(
-                pl.lit("GitHub").alias("metric_type")
-            )
+            # Add metric_type column labeled as "GitHub" and cast count to Int64
+            df_github_agg = df_github_agg.with_columns([
+                pl.lit("GitHub").alias("metric_type"),
+                pl.col("count").cast(pl.Int64)
+            ])
 
         # Process Plausible data
         df_plaus = filtered_plausible()
@@ -253,7 +254,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 group_by_kwargs["start_by"] = "monday"
 
             df_plaus_agg = df_plaus.group_by_dynamic("datetime", **group_by_kwargs).agg(
-                pl.sum("count").alias("count")
+                pl.sum("count").cast(pl.Int64).alias("count")
             )
 
         # Combine GitHub and Plausible data
