@@ -446,64 +446,99 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Build line chart based on stacking mode
         if input.stack_metrics():
             # Stacked: color by project, solid lines
-            line = (
-                alt.Chart(df_counts)
-                .mark_line(point=True)
-                .encode(
-                    x=alt.X(
-                        "datetime:T",
-                        title=f"{period_label} Ending",
-                        axis=alt.Axis(format="%Y-%m-%d"),
-                    ),
-                    y=alt.Y("count:Q", title="Count (Stacked)"),
-                    color=alt.Color(
-                        "project_id:N",
-                        title="Project",
-                        scale=alt.Scale(domain=color_domain, range=color_range),
-                        legend=alt.Legend(orient="right")
-                    ),
-                    tooltip=[
-                        alt.Tooltip("project_id:N", title="Project"),
-                        alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
-                        alt.Tooltip("count:Q", title="Count"),
-                    ],
+            base = alt.Chart(df_counts).encode(
+                color=alt.Color(
+                    "project_id:N",
+                    title="Project",
+                    scale=alt.Scale(domain=color_domain, range=color_range),
+                    legend=None
                 )
             )
+
+            line = base.mark_line(point=True).encode(
+                x=alt.X(
+                    "datetime:T",
+                    title=f"{period_label} Ending",
+                    axis=alt.Axis(format="%Y-%m-%d"),
+                ),
+                y=alt.Y("count:Q", title="Count (Stacked)"),
+                tooltip=[
+                    alt.Tooltip("project_id:N", title="Project"),
+                    alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
+                    alt.Tooltip("count:Q", title="Count"),
+                ],
+            )
+
+            # Get last point for each project
+            last_point = base.mark_circle(size=100).encode(
+                x=alt.X("last_date['datetime']:T"),
+                y=alt.Y("last_date['count']:Q")
+            ).transform_aggregate(
+                last_date="argmax(datetime)",
+                groupby=["project_id"]
+            )
+
+            # Add project name labels at end of lines
+            project_labels = last_point.mark_text(align="left", dx=4).encode(
+                text=alt.Text("project_id:N")
+            )
+
+            line = line + last_point + project_labels
         else:
             # Not stacked: color by project, line type by metric (solid=GitHub, dashed=Plausible)
-            line = (
-                alt.Chart(df_counts)
-                .mark_line(point=True)
-                .encode(
-                    x=alt.X(
-                        "datetime:T",
-                        title=f"{period_label} Ending",
-                        axis=alt.Axis(format="%Y-%m-%d"),
+            # Add combined label column for display
+            df_counts = df_counts.with_columns(
+                (pl.col("project_id") + " (" + pl.col("metric_type") + ")").alias("label")
+            )
+
+            base = alt.Chart(df_counts).encode(
+                color=alt.Color(
+                    "project_id:N",
+                    title="Project",
+                    scale=alt.Scale(domain=color_domain, range=color_range),
+                    legend=None
+                ),
+                strokeDash=alt.StrokeDash(
+                    "metric_type:N",
+                    title="Metric",
+                    scale=alt.Scale(
+                        domain=["GitHub", "Plausible"],
+                        range=[[1, 0], [5, 2]]  # solid for GitHub, dashed for Plausible
                     ),
-                    y=alt.Y("count:Q", title="Count"),
-                    color=alt.Color(
-                        "project_id:N",
-                        title="Project",
-                        scale=alt.Scale(domain=color_domain, range=color_range),
-                        legend=alt.Legend(orient="right")
-                    ),
-                    strokeDash=alt.StrokeDash(
-                        "metric_type:N",
-                        title="Metric",
-                        scale=alt.Scale(
-                            domain=["GitHub", "Plausible"],
-                            range=[[1, 0], [5, 2]]  # solid for GitHub, dashed for Plausible
-                        ),
-                        legend=alt.Legend(orient="right")
-                    ),
-                    tooltip=[
-                        alt.Tooltip("project_id:N", title="Project"),
-                        alt.Tooltip("metric_type:N", title="Metric"),
-                        alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
-                        alt.Tooltip("count:Q", title="Count"),
-                    ],
+                    legend=None
                 )
             )
+
+            line = base.mark_line(point=True).encode(
+                x=alt.X(
+                    "datetime:T",
+                    title=f"{period_label} Ending",
+                    axis=alt.Axis(format="%Y-%m-%d"),
+                ),
+                y=alt.Y("count:Q", title="Count"),
+                tooltip=[
+                    alt.Tooltip("project_id:N", title="Project"),
+                    alt.Tooltip("metric_type:N", title="Metric"),
+                    alt.Tooltip("datetime:T", title=period_label, format="%Y-%m-%d"),
+                    alt.Tooltip("count:Q", title="Count"),
+                ],
+            )
+
+            # Get last point for each project+metric combination
+            last_point = base.mark_circle(size=100).encode(
+                x=alt.X("last_date['datetime']:T"),
+                y=alt.Y("last_date['count']:Q")
+            ).transform_aggregate(
+                last_date="argmax(datetime)",
+                groupby=["project_id", "metric_type", "label"]
+            )
+
+            # Add "Project (Metric)" labels at end of lines
+            line_labels = last_point.mark_text(align="left", dx=4).encode(
+                text=alt.Text("label:N")
+            )
+
+            line = line + last_point + line_labels
 
         # Get annotations
         df_annotations = annotations()
@@ -535,32 +570,20 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
             )
 
-            chart = (
-                (line + points + text)
-                .add_selection(zoom)
-                .properties(width="container", height=400)
-                .configure_axis(
-                    labelFontSize=14,
-                    titleFontSize=16
-                )
-                .configure_legend(
-                    labelFontSize=14,
-                    titleFontSize=16
-                )
-            )
+            chart = line + points + text
         else:
-            chart = (
-                line.add_selection(zoom)
-                .properties(width="container", height=400)
-                .configure_axis(
-                    labelFontSize=14,
-                    titleFontSize=16
-                )
-                .configure_legend(
-                    labelFontSize=14,
-                    titleFontSize=16
-                )
+            chart = line
+
+        # Apply zoom and configuration
+        chart = (
+            chart
+            .add_selection(zoom)
+            .properties(width="container", height=400)
+            .configure_axis(
+                labelFontSize=14,
+                titleFontSize=16
             )
+        )
 
         return ui.HTML(chart.to_html())
 
