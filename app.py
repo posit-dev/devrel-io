@@ -419,14 +419,22 @@ def server(input: Inputs, output: Outputs, session: Session):
                     .alias("count")
                 )
 
-        # Add hex_color column based on project_id
+        # Add hex_color and project_name columns based on project_id
         if not df_combined.is_empty():
             df_combined = df_combined.with_columns(
-                pl.col("project_id")
-                .map_elements(
-                    lambda pid: project_colors.get(pid, "#808080"), return_dtype=pl.Utf8
-                )
-                .alias("hex_color")
+                [
+                    pl.col("project_id")
+                    .map_elements(
+                        lambda pid: project_colors.get(pid, "#808080"),
+                        return_dtype=pl.Utf8,
+                    )
+                    .alias("hex_color"),
+                    pl.col("project_id")
+                    .map_elements(
+                        lambda pid: project_names.get(pid, pid), return_dtype=pl.Utf8
+                    )
+                    .alias("project_name"),
+                ]
             )
 
         return df_combined
@@ -503,7 +511,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
                 .transform_filter(zoom)  # Filter to visible range
                 .transform_aggregate(
-                    last_date="argmax(datetime)", groupby=["project_id"]
+                    last_date="argmax(datetime)", groupby=["project_id", "project_name"]
                 )
             )
 
@@ -511,7 +519,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             project_labels = last_point.mark_text(
                 align="left", fontSize=14, clip=False, dx=10
             ).encode(
-                text=alt.Text("project_id:N"),
+                text=alt.Text("project_name:N"),
                 x=alt.value("width"),  # Position at right edge
                 y=alt.Y("last_date['count']:Q")
             )
@@ -519,9 +527,9 @@ def server(input: Inputs, output: Outputs, session: Session):
             line = line + last_point + project_labels
         else:
             # Not stacked: color by project, line type by metric (solid=GitHub, dashed=Plausible)
-            # Add combined label column for display
+            # Add combined label column for display using project name
             df_counts = df_counts.with_columns(
-                (pl.col("project_id") + " (" + pl.col("metric_type") + ")").alias(
+                (pl.col("project_name") + " (" + pl.col("metric_type") + ")").alias(
                     "label"
                 )
             )
