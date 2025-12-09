@@ -701,13 +701,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         df_annotations = annotations()
 
         if not df_annotations.is_empty():
-            # Create annotation points with text, colored by project
+            # Create annotation points below x-axis, colored by project
             points = (
                 alt.Chart(df_annotations)
-                .mark_point(size=400, filled=True, opacity=0.7)
+                .mark_point(size=400, filled=True, opacity=0.7, clip=False, dy=30)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(50),
+                    y=alt.value("height"),  # Position at bottom of chart
                     color=alt.Color("project:N", title="Project", legend=None),
                     tooltip=[
                         alt.Tooltip("label:N", title="Label"),
@@ -719,10 +719,10 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             text = (
                 alt.Chart(df_annotations)
-                .mark_text(fontSize=14, fontWeight="bold", color="white")
+                .mark_text(fontSize=14, fontWeight="bold", color="white", clip=False, dy=30)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(50),
+                    y=alt.value("height"),  # Position at bottom of chart
                     text="label:N",
                 )
             )
