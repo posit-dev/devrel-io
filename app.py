@@ -479,7 +479,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
 
             # Add project name labels at end of lines
-            project_labels = last_point.mark_text(align="left", dx=4).encode(
+            project_labels = last_point.mark_text(align="left", dx=8, fontSize=14).encode(
                 text=alt.Text("project_id:N")
             )
 
@@ -534,7 +534,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
 
             # Add "Project (Metric)" labels at end of lines
-            line_labels = last_point.mark_text(align="left", dx=4).encode(
+            line_labels = last_point.mark_text(align="left", dx=8, fontSize=14).encode(
                 text=alt.Text("label:N")
             )
 
@@ -582,6 +582,9 @@ def server(input: Inputs, output: Outputs, session: Session):
             .configure_axis(
                 labelFontSize=14,
                 titleFontSize=16
+            )
+            .configure_view(
+                clip=False  # Allow labels to extend beyond plot area
             )
         )
 
