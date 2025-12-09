@@ -354,9 +354,10 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Create zoom selection for x-axis (time) only
         zoom = alt.selection_interval(bind="scales", encodings=["x"])
 
-        # Create color scale using hex colors from config
-        color_domain = list(project_colors.keys())
-        color_range = list(project_colors.values())
+        # Create color scale using hex colors from config, only for selected projects
+        selected_project_ids = df_counts["project_id"].unique().to_list()
+        color_domain = [pid for pid in selected_project_ids]
+        color_range = [project_colors.get(pid, "#808080") for pid in color_domain]
 
         # Build line chart based on stacking mode
         if input.stack_metrics():
