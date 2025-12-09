@@ -594,7 +594,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             line = base.mark_line(point=True).encode(
                 x=alt.X(
                     "datetime:T",
-                    title=f"{period_label} Ending",
+                    title=None,
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Count (Stacked)"),
@@ -661,7 +661,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             line = base.mark_line(point=True).encode(
                 x=alt.X(
                     "datetime:T",
-                    title=f"{period_label} Ending",
+                    title=None,
                     axis=alt.Axis(format="%Y-%m-%d"),
                 ),
                 y=alt.Y("count:Q", title="Count"),
