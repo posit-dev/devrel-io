@@ -9,6 +9,7 @@ website = "https://plotnine.org"
 description = "A grammar of graphics for Python based on ggplot2"
 plausible = "plotnine.org"
 pypi = "plotnine"
+hex_color = "#1F77B4"
 
 [projects.chatlas]
 name = "Chatlas"
@@ -17,6 +18,7 @@ github = "posit-dev/chatlas"
 website = "https://posit-dev.github.io/chatlas"
 description = "Chat with large language models in Python"
 pypi = "chatlas"
+hex_color = "#447099"
 
 [projects.great-tables]
 description = "Create beautiful and feature-rich tables in Python"
@@ -26,6 +28,7 @@ language = "python"
 name = "Great Tables"
 website = "https://posit-dev.github.io/great-tables/"
 pypi = "great-tables"
+hex_color = "#E15759"
 
 [projects.pointblank-python]
 name = "Pointblank"
@@ -34,6 +37,7 @@ github = "posit-dev/pointblank"
 website = "https://posit-dev.github.io/pointblank/"
 description = "Data validation toolkit for assessing and monitoring data quality"
 pypi = "pointblank"
+hex_color = "#F28E2B"
 
 [projects.pointblank-r]
 name = "pointblank"
@@ -41,6 +45,7 @@ language = "r"
 github = "rstudio/pointblank"
 website = "https://rstudio.github.io/pointblank/"
 description = "Data validation and quality assessment for R"
+hex_color = "#59A14F"
 
 [projects.gt]
 name = "gt"
@@ -48,6 +53,7 @@ language = "r"
 github = "rstudio/gt"
 website = "https://gt.rstudio.com"
 description = "Easily generate information-rich, publication-quality tables from R"
+hex_color = "#76B7B2"
 
 [projects.quarto]
 name = "Quarto"
@@ -55,6 +61,7 @@ language = "javascript"
 github = "quarto-dev/quarto-cli"
 website = "https://quarto.org"
 description = "Open-source scientific and technical publishing system"
+hex_color = "#4682B4"
 
 [projects.shiny-python]
 name = "Shiny for Python"
@@ -63,6 +70,7 @@ github = "posit-dev/py-shiny"
 website = "https://shiny.posit.co/py/"
 description = "Build interactive web applications in Python"
 pypi = "shiny"
+hex_color = "#438FCA"
 
 [projects.shiny-r]
 name = "Shiny for R"
@@ -70,6 +78,7 @@ language = "r"
 github = "rstudio/shiny"
 website = "https://shiny.posit.co"
 description = "Build interactive web applications in R"
+hex_color = "#438FCA"
 
 [projects.ggplot2]
 name = "ggplot2"
@@ -78,4 +87,5 @@ github = "tidyverse/ggplot2"
 website = "https://ggplot2.tidyverse.org"
 description = "An implementation of the Grammar of Graphics in R"
 plausible = "ggplot2.tidyverse.org"
+hex_color = "#1A162D"
 

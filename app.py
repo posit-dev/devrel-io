@@ -16,6 +16,7 @@ with open("config.toml", "rb") as f:
 
 projects = list(config["projects"].keys())
 project_names = {pid: config["projects"][pid]["name"] for pid in projects}
+project_colors = {pid: config["projects"][pid].get("hex_color", "#808080") for pid in projects}
 
 # Event types for checkboxes
 EVENT_TYPES = [
@@ -309,6 +310,15 @@ def server(input: Inputs, output: Outputs, session: Session):
                     pl.col("count").cum_sum().over(["project_id", "metric_type"]).alias("count")
                 )
 
+        # Add hex_color column based on project_id
+        if not df_combined.is_empty():
+            df_combined = df_combined.with_columns(
+                pl.col("project_id").map_elements(
+                    lambda pid: project_colors.get(pid, "#808080"),
+                    return_dtype=pl.Utf8
+                ).alias("hex_color")
+            )
+
         return df_combined
 
     @reactive.calc
@@ -344,9 +354,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Create zoom selection for x-axis (time) only
         zoom = alt.selection_interval(bind="scales", encodings=["x"])
 
+        # Create color scale using hex colors from config
+        color_domain = list(project_colors.keys())
+        color_range = list(project_colors.values())
+
         # Build line chart based on stacking mode
         if input.stack_metrics():
-            # Stacked: color by project only
+            # Stacked: color by project, solid lines
             line = (
                 alt.Chart(df_counts)
                 .mark_line(point=True)
@@ -358,7 +372,10 @@ def server(input: Inputs, output: Outputs, session: Session):
                     ),
                     y=alt.Y("count:Q", title="Count (Stacked)"),
                     color=alt.Color(
-                        "project_id:N", title="Project", legend=alt.Legend(orient="right")
+                        "project_id:N",
+                        title="Project",
+                        scale=alt.Scale(domain=color_domain, range=color_range),
+                        legend=alt.Legend(orient="right")
                     ),
                     tooltip=[
                         alt.Tooltip("project_id:N", title="Project"),
@@ -368,7 +385,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
             )
         else:
-            # Not stacked: color by metric type
+            # Not stacked: color by project, line type by metric (solid=GitHub, dashed=Plausible)
             line = (
                 alt.Chart(df_counts)
                 .mark_line(point=True)
@@ -380,10 +397,19 @@ def server(input: Inputs, output: Outputs, session: Session):
                     ),
                     y=alt.Y("count:Q", title="Count"),
                     color=alt.Color(
-                        "metric_type:N", title="Metric", legend=alt.Legend(orient="right")
+                        "project_id:N",
+                        title="Project",
+                        scale=alt.Scale(domain=color_domain, range=color_range),
+                        legend=alt.Legend(orient="right")
                     ),
                     strokeDash=alt.StrokeDash(
-                        "project_id:N", title="Project", legend=alt.Legend(orient="right")
+                        "metric_type:N",
+                        title="Metric",
+                        scale=alt.Scale(
+                            domain=["GitHub", "pageviews", "visitors", "visits"],
+                            range=[[1, 0], [5, 2], [5, 2], [5, 2]]  # solid for GitHub, dashed for Plausible
+                        ),
+                        legend=alt.Legend(orient="right")
                     ),
                     tooltip=[
                         alt.Tooltip("project_id:N", title="Project"),
