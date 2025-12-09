@@ -509,7 +509,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             # Add project name labels at fixed x position
             project_labels = last_point.mark_text(
-                align="left", fontSize=14, clip=False
+                align="left", fontSize=14, clip=False, dx=10
             ).encode(
                 text=alt.Text("project_id:N"),
                 x=alt.value("width"),  # Position at right edge
@@ -577,7 +577,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             # Add "Project (Metric)" labels at fixed x position
             line_labels = last_point.mark_text(
-                align="left", fontSize=14, clip=False
+                align="left", fontSize=14, clip=False, dx=10
             ).encode(
                 text=alt.Text("label:N"),
                 x=alt.value("width"),  # Position at right edge
