@@ -497,7 +497,8 @@ def server(input: Inputs, output: Outputs, session: Session):
                         legend=alt.Legend(
                             orient="right",
                             symbolType="stroke",
-                            symbolStrokeWidth=3
+                            symbolStrokeWidth=3,
+                            symbolStrokeColor="black"
                         )
                     ),
                     tooltip=[
