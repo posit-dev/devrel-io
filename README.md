@@ -42,16 +42,16 @@ Your data will be saved to `data/input/inputs.csv`.
 
 ```bash
 # Use config.toml URL, custom output path
-uv run gsheet.py -o custom_output.csv
+uv run fetch_inputs.py -o custom_output.csv
 
 # Download from a different URL
-uv run gsheet.py "https://docs.google.com/spreadsheets/d/OTHER_SPREADSHEET_ID/edit"
+uv run fetch_inputs.py "https://docs.google.com/spreadsheets/d/OTHER_SPREADSHEET_ID/edit"
 
 # Download a specific sheet by name
-uv run gsheet.py -s "Sheet Name"
+uv run fetch_inputs.py -s "Sheet Name"
 
 # Combine options
-uv run gsheet.py "URL" -s "Sheet Name" -o output.csv
+uv run fetch_inputs.py "URL" -s "Sheet Name" -o output.csv
 ```
 
 ### CLI Options

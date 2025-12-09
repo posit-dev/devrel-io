@@ -8,7 +8,7 @@ install:
 
 # Download Google Sheets data from config.toml to data/input
 get-inputs:
-    uv run gsheet.py -o data/input/inputs.csv
+    uv run fetch_inputs.py -o data/input/inputs.csv
 
 # Run the Shiny dashboard with auto-reload
 app:
