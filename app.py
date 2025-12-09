@@ -216,14 +216,14 @@ def server(input: Inputs, output: Outputs, session: Session):
         start_date, end_date = date_range()
         if start_date and end_date and "datetime" in df.columns:
             df = df.with_columns(
-                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
+                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ").dt.replace_time_zone("UTC")
             )
             df = df.filter(
                 (pl.col("datetime") >= start_date) & (pl.col("datetime") <= end_date)
             )
             # Convert back to string for consistency
             df = df.with_columns(
-                pl.col("datetime").dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+                pl.col("datetime").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%dT%H:%M:%SZ")
             )
 
         return df
@@ -259,14 +259,14 @@ def server(input: Inputs, output: Outputs, session: Session):
         start_date, end_date = date_range()
         if start_date and end_date and "date" in df.columns:
             df = df.with_columns(
-                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
+                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d").dt.replace_time_zone("UTC")
             )
             df = df.filter(
                 (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
             )
             # Convert back to string for consistency
             df = df.with_columns(
-                pl.col("date").dt.strftime("%Y-%m-%d")
+                pl.col("date").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%d")
             )
 
         return df
