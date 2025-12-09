@@ -59,6 +59,13 @@ app_ui = ui.page_sidebar(
             choices={m: m.title() for m in PLAUSIBLE_METRICS},
             selected=[],
         ),
+        ui.h4("PyPI"),
+        ui.input_checkbox_group(
+            "pypi_metrics",
+            None,
+            choices={"downloads": "Downloads"},
+            selected=[],
+        ),
         ui.h4("Period"),
         ui.input_select(
             "period",
@@ -163,6 +170,20 @@ def server(input: Inputs, output: Outputs, session: Session):
         """Read all Plausible JSONL files (excluding archive)."""
         jsonl_files = []
         for path in Path("data/output/plausible").rglob("*.jsonl"):
+            if "archive" not in path.parts:
+                jsonl_files.append(str(path))
+
+        if not jsonl_files:
+            return pl.DataFrame()
+
+        df = pl.read_ndjson(jsonl_files)
+        return df
+
+    @reactive.calc
+    def df_pypi():
+        """Read all PyPI JSONL files (excluding archive)."""
+        jsonl_files = []
+        for path in Path("data/output/pypi").rglob("*.jsonl"):
             if "archive" not in path.parts:
                 jsonl_files.append(str(path))
 
@@ -285,6 +306,51 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df
 
     @reactive.calc
+    def filtered_pypi():
+        """Filter PyPI data by selected projects, metrics, and date range."""
+        df = df_pypi()
+
+        if df.is_empty():
+            return df
+
+        selected_projects = list(input.project())
+        selected_metrics = list(input.pypi_metrics())
+
+        # If no projects selected, return empty DataFrame
+        if not selected_projects:
+            return pl.DataFrame()
+
+        # If no metrics selected, return empty DataFrame
+        if not selected_metrics:
+            return pl.DataFrame()
+
+        # Filter by projects
+        if "project_id" in df.columns:
+            df = df.filter(pl.col("project_id").is_in(selected_projects))
+
+        # Filter by selected metrics
+        if "metric" in df.columns:
+            df = df.filter(pl.col("metric").is_in(selected_metrics))
+
+        # Filter by date range
+        start_date, end_date = date_range()
+        if start_date and end_date and "date" in df.columns:
+            df = df.with_columns(
+                pl.col("date")
+                .str.strptime(pl.Datetime, "%Y-%m-%d")
+                .dt.replace_time_zone("UTC")
+            )
+            df = df.filter(
+                (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
+            )
+            # Convert back to string for consistency
+            df = df.with_columns(
+                pl.col("date").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%d")
+            )
+
+        return df
+
+    @reactive.calc
     def aggregated_counts():
         """Aggregate events and metrics by time period, with optional stacking and cumulative sum."""
         # Process GitHub events
@@ -370,24 +436,60 @@ def server(input: Inputs, output: Outputs, session: Session):
                 pl.lit("Plausible").alias("metric_type")
             )
 
-        # Combine GitHub and Plausible data
-        if not df_github_agg.is_empty() and not df_plaus_agg.is_empty():
-            # Ensure both dataframes have the same column order
-            df_github_agg = df_github_agg.select(
-                ["project_id", "datetime", "metric_type", "count"]
+        # Process PyPI data
+        df_pypi = filtered_pypi()
+        df_pypi_agg = pl.DataFrame()
+
+        if not df_pypi.is_empty():
+            # Convert date string to datetime
+            df_pypi = df_pypi.with_columns(
+                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
+            ).rename({"date": "datetime"})
+
+            # Rename value to count for consistency
+            df_pypi = df_pypi.rename({"value": "count"})
+
+            # Sort by project and datetime
+            df_pypi = df_pypi.sort(["project_id", "datetime"])
+
+            # Determine aggregation interval
+            aggregation_map = {
+                "daily": "1d",
+                "weekly": "1w",
+                "monthly": "1mo",
+            }
+            interval = aggregation_map[input.aggregation()]
+
+            # Group by project and time period (sum all PyPI metrics together)
+            group_by_kwargs = {
+                "every": interval,
+                "group_by": "project_id",
+                "label": "right",
+            }
+
+            if input.aggregation() == "weekly":
+                group_by_kwargs["start_by"] = "monday"
+
+            df_pypi_agg = df_pypi.group_by_dynamic("datetime", **group_by_kwargs).agg(
+                pl.sum("count").cast(pl.Int64).alias("count")
             )
-            df_plaus_agg = df_plaus_agg.select(
-                ["project_id", "datetime", "metric_type", "count"]
+
+            # Add metric_type column labeled as "PyPI"
+            df_pypi_agg = df_pypi_agg.with_columns(
+                pl.lit("PyPI").alias("metric_type")
             )
-            df_combined = pl.concat([df_github_agg, df_plaus_agg])
-        elif not df_github_agg.is_empty():
-            df_combined = df_github_agg.select(
-                ["project_id", "datetime", "metric_type", "count"]
-            )
-        elif not df_plaus_agg.is_empty():
-            df_combined = df_plaus_agg.select(
-                ["project_id", "datetime", "metric_type", "count"]
-            )
+
+        # Combine GitHub, Plausible, and PyPI data
+        dataframes = []
+        if not df_github_agg.is_empty():
+            dataframes.append(df_github_agg.select(["project_id", "datetime", "metric_type", "count"]))
+        if not df_plaus_agg.is_empty():
+            dataframes.append(df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"]))
+        if not df_pypi_agg.is_empty():
+            dataframes.append(df_pypi_agg.select(["project_id", "datetime", "metric_type", "count"]))
+
+        if len(dataframes) > 0:
+            df_combined = pl.concat(dataframes)
         else:
             return pl.DataFrame()
 
@@ -521,7 +623,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             ).encode(
                 text=alt.Text("project_name:N"),
                 x=alt.value("width"),  # Position at right edge
-                y=alt.Y("last_date['count']:Q")
+                y=alt.Y("last_date['count']:Q"),
             )
 
             line = line + last_point + project_labels
@@ -545,11 +647,12 @@ def server(input: Inputs, output: Outputs, session: Session):
                     "metric_type:N",
                     title="Metric",
                     scale=alt.Scale(
-                        domain=["GitHub", "Plausible"],
+                        domain=["GitHub", "Plausible", "PyPI"],
                         range=[
-                            [1, 0],
-                            [5, 2],
-                        ],  # solid for GitHub, dashed for Plausible
+                            [1, 0],    # solid for GitHub
+                            [5, 2],    # dashed for Plausible
+                            [2, 2],    # dotted for PyPI
+                        ],
                     ),
                     legend=None,
                 ),
@@ -589,10 +692,10 @@ def server(input: Inputs, output: Outputs, session: Session):
             ).encode(
                 text=alt.Text("label:N"),
                 x=alt.value("width"),  # Position at right edge
-                y=alt.Y("last_date['count']:Q")
+                y=alt.Y("last_date['count']:Q"),
             )
 
-            line = line + last_point + line_labels
+            line = line + line_labels
 
         # Get annotations
         df_annotations = annotations()
