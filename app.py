@@ -445,7 +445,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             text = (
                 alt.Chart(df_annotations)
-                .mark_text(fontSize=12, fontWeight="bold", color="white")
+                .mark_text(fontSize=14, fontWeight="bold", color="white")
                 .encode(
                     x=alt.X("datetime:T"),
                     y=alt.value(50),
@@ -457,9 +457,28 @@ def server(input: Inputs, output: Outputs, session: Session):
                 (line + points + text)
                 .add_selection(zoom)
                 .properties(width="container", height=400)
+                .configure_axis(
+                    labelFontSize=14,
+                    titleFontSize=16
+                )
+                .configure_legend(
+                    labelFontSize=14,
+                    titleFontSize=16
+                )
             )
         else:
-            chart = line.add_selection(zoom).properties(width="container", height=400)
+            chart = (
+                line.add_selection(zoom)
+                .properties(width="container", height=400)
+                .configure_axis(
+                    labelFontSize=14,
+                    titleFontSize=16
+                )
+                .configure_legend(
+                    labelFontSize=14,
+                    titleFontSize=16
+                )
+            )
 
         return ui.HTML(chart.to_html())
 
