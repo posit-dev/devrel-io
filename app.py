@@ -50,11 +50,11 @@ app_ui = ui.page_sidebar(
             selected=["star"],
         ),
         ui.h4("Plausible"),
-        ui.input_select(
-            "plausible_metric",
+        ui.input_checkbox_group(
+            "plausible_metrics",
             None,
             choices={m: m.title() for m in PLAUSIBLE_METRICS},
-            selected="pageviews",
+            selected=[],
         ),
         ui.h4("Settings"),
         ui.input_select(
@@ -153,22 +153,22 @@ def server(input: Inputs, output: Outputs, session: Session):
 
     @reactive.calc
     def filtered_plausible():
-        """Filter Plausible data by selected projects and metric."""
+        """Filter Plausible data by selected projects and metrics."""
         df = df_plausible()
 
         if df.is_empty():
             return df
 
         selected_projects = list(input.project())
-        selected_metric = input.plausible_metric()
+        selected_metrics = list(input.plausible_metrics())
 
         # Filter by projects
         if "project_id" in df.columns and selected_projects:
             df = df.filter(pl.col("project_id").is_in(selected_projects))
 
-        # Filter by selected metric
-        if selected_metric and "metric" in df.columns:
-            df = df.filter(pl.col("metric") == selected_metric)
+        # Filter by selected metrics
+        if selected_metrics and "metric" in df.columns:
+            df = df.filter(pl.col("metric").is_in(selected_metrics))
 
         return df
 
