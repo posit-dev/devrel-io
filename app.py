@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple
 
 import altair as alt
 import polars as pl
+from itables import to_html_datatable
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
 
 # Load config to get projects
@@ -794,13 +795,13 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         return ui.HTML(chart.to_html())
 
-    @render.data_frame
+    @render.ui
     def input_table():
         """Render input data table with title case columns and label first."""
         df = filtered_input()
 
         if df.is_empty():
-            return render.DataGrid(pl.DataFrame(), width="100%")
+            return ui.p("No input data available")
 
         # Move label column to first position
         if "label" in df.columns:
@@ -810,7 +811,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        return render.DataGrid(df, width="100%")
+        # Convert to pandas and render with ITable
+        return ui.HTML(to_html_datatable(df.to_pandas()))
 
 
 app = App(app_ui, server)
