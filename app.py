@@ -13,7 +13,7 @@ import altair as alt
 import polars as pl
 from itables.widget import ITable
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
-from shinywidgets import output_widget, render_widget
+from shinywidgets import output_widget, reactive_read, render_widget
 
 # Load config to get projects
 try:
@@ -124,10 +124,10 @@ app_ui = ui.page_sidebar(
         ui.input_switch("cumulative", "Cumulative Counts", value=False),
         ui.input_switch("stack_metrics", "Stack Metrics", value=False),
     ),
-    ui.h2("Input"),
-    output_widget("input_table"),
     ui.h2("Output"),
     ui.output_ui("events_chart"),
+    ui.h2("Input"),
+    output_widget("input_table"),
     title="DevRel I/O Dashboard",
 )
 
@@ -162,14 +162,20 @@ def filter_by_date_range(
 
     df = df.with_columns(
         pl.col(date_column)
-        .str.strptime(pl.Datetime, "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ")
+        .str.strptime(
+            pl.Datetime, "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
+        )
         .dt.replace_time_zone("UTC")
     )
-    df = df.filter((pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date))
+    df = df.filter(
+        (pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date)
+    )
 
     # Convert back to string for consistency
     format_str = "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
-    df = df.with_columns(pl.col(date_column).dt.convert_time_zone("UTC").dt.strftime(format_str))
+    df = df.with_columns(
+        pl.col(date_column).dt.convert_time_zone("UTC").dt.strftime(format_str)
+    )
 
     return df
 
@@ -198,7 +204,9 @@ def aggregate_metric_data(
         group_by_kwargs["start_by"] = "monday"
 
     df_agg = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
-        pl.len().alias("count") if metric_label == "GitHub" else pl.sum("count").cast(pl.Int64).alias("count")
+        pl.len().alias("count")
+        if metric_label == "GitHub"
+        else pl.sum("count").cast(pl.Int64).alias("count")
     )
 
     # Add metric_type column
@@ -268,9 +276,7 @@ def aggregate_single_metric(
         return pl.DataFrame()
 
     # Convert date string to datetime
-    df = df.with_columns(
-        pl.col(date_column).str.strptime(pl.Datetime, date_format)
-    )
+    df = df.with_columns(pl.col(date_column).str.strptime(pl.Datetime, date_format))
 
     # Rename date column to datetime for consistency
     if date_column != "datetime":
@@ -370,9 +376,7 @@ def add_project_metadata(df: pl.DataFrame) -> pl.DataFrame:
             )
             .alias("hex_color"),
             pl.col("project_id")
-            .map_elements(
-                lambda pid: project_names.get(pid, pid), return_dtype=pl.Utf8
-            )
+            .map_elements(lambda pid: project_names.get(pid, pid), return_dtype=pl.Utf8)
             .alias("project_name"),
         ]
     )
@@ -584,6 +588,15 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df_combined
 
     @reactive.calc
+    def selected_table_rows() -> List[int]:
+        """Get the list of selected row indices from the input table."""
+        try:
+            selected = reactive_read(input_table.widget, "selected_rows")
+            return selected if selected else []
+        except Exception:
+            return []
+
+    @reactive.calc
     def annotations() -> pl.DataFrame:
         """Create annotations from input data with project information."""
         df = filtered_input()
@@ -596,6 +609,12 @@ def server(input: Inputs, output: Outputs, session: Session):
         if "title" in df.columns:
             columns_to_select.append("title")
         df = df.select(columns_to_select)
+
+        # Add selected column based on table selection
+        selected_rows = selected_table_rows()
+        df = df.with_columns(
+            pl.Series("selected", [i in selected_rows for i in range(len(df))])
+        )
 
         return df
 
@@ -759,11 +778,27 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             points = (
                 alt.Chart(df_annotations)
-                .mark_point(size=400, filled=True, opacity=0.7, clip=False)
+                .mark_point(filled=True, clip=False)
                 .encode(
                     x=alt.X("datetime:T"),
                     y=alt.value(ANNOTATION_OFFSET),
                     color=alt.Color("project:N", title="Project", legend=None),
+                    size=alt.condition(
+                        "datum.selected",
+                        alt.value(600),  # Larger size for selected
+                        alt.value(400),  # Normal size for unselected
+                    ),
+                    opacity=alt.condition(
+                        "datum.selected",
+                        alt.value(1.0),  # Full opacity for selected
+                        alt.value(0.5),  # Reduced opacity for unselected
+                    ),
+                    strokeWidth=alt.condition(
+                        "datum.selected",
+                        alt.value(3),  # Thick stroke for selected
+                        alt.value(0),  # No stroke for unselected
+                    ),
+                    stroke=alt.value("black"),  # Black stroke color
                     tooltip=tooltip_list,
                 )
                 .transform_filter(zoom)  # Only show annotations in visible range
@@ -771,11 +806,21 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             text = (
                 alt.Chart(df_annotations)
-                .mark_text(fontSize=FONT_SIZE_ANNOTATION, fontWeight="bold", color="white", clip=False)
+                .mark_text(
+                    fontSize=FONT_SIZE_ANNOTATION,
+                    fontWeight="bold",
+                    color="white",
+                    clip=False,
+                )
                 .encode(
                     x=alt.X("datetime:T"),
                     y=alt.value(ANNOTATION_OFFSET),
                     text="label:N",
+                    opacity=alt.condition(
+                        "datum.selected",
+                        alt.value(1.0),  # Full opacity for selected
+                        alt.value(0.7),  # Slightly reduced for unselected
+                    ),
                 )
                 .transform_filter(zoom)  # Only show annotations in visible range
             )
@@ -788,7 +833,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         chart = (
             chart.add_selection(zoom)
             .properties(width="container", height=CHART_HEIGHT)
-            .configure_axis(labelFontSize=FONT_SIZE_AXIS_LABEL, titleFontSize=FONT_SIZE_AXIS_TITLE)
+            .configure_axis(
+                labelFontSize=FONT_SIZE_AXIS_LABEL, titleFontSize=FONT_SIZE_AXIS_TITLE
+            )
             .configure_view(
                 clip=False  # Allow labels to extend beyond plot area
             )
@@ -810,11 +857,15 @@ def server(input: Inputs, output: Outputs, session: Session):
             other_cols = [col for col in df.columns if col != "label"]
             df = df.select(["label"] + other_cols)
 
+        df = df.with_columns(pl.col("datetime").dt.date()).rename({"datetime": "date"})
+
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
         # Return ITable widget with Polars DataFrame
-        return ITable(df)
+        return ITable(
+            df, show_dtypes=False, paging=False, scrollY="350px", scrollCollapse=True
+        )
 
 
 app = App(app_ui, server)
