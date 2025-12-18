@@ -189,6 +189,7 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "requests" },
     { name = "shiny" },
+    { name = "shinywidgets" },
 ]
 
 [package.dev-dependencies]
@@ -208,6 +209,7 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "requests", specifier = ">=2.32.5" },
     { name = "shiny", specifier = ">=1.5.0" },
+    { name = "shinywidgets", specifier = ">=0.7.0" },
 ]
 
 [package.metadata.requires-dev]
@@ -513,6 +515,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz", hash = "sha256:b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d", size = 32855, upload-time = "2025-09-08T01:34:59.186Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl", hash = "sha256:98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe", size = 18437, upload-time = "2025-09-08T01:34:57.871Z" },
+]
+
+[[package]]
+name = "jupyter-core"
+version = "5.9.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "platformdirs" },
+    { name = "traitlets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c757b74c6687b6d319b02f822ad039e5c512df9194d9dd/jupyter_core-5.9.1.tar.gz", hash = "sha256:4d09aaff303b9566c3ce657f580bd089ff5c91f5f89cf7d8846c3cdf465b5508", size = 89814, upload-time = "2025-10-16T19:19:18.444Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl", hash = "sha256:ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407", size = 29032, upload-time = "2025-10-16T19:19:16.783Z" },
 ]
 
 [[package]]
@@ -906,6 +921,18 @@ wheels = [
 ]
 
 [[package]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
+]
+
+[[package]]
 name = "python-dotenv"
 version = "1.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1131,6 +1158,31 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a3/c6/6887a3618842e65794e5dcfb345825ccd43d58c56fefa9d31286d8e14d16/shinychat-0.2.8.tar.gz", hash = "sha256:d27f28ddf1d512a05ef2cc2f0cffbb75b5b6e3157d5e3690ce4e63d18bfa7492", size = 547318, upload-time = "2025-09-11T20:13:20.367Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/16/01/8658eaffa920f4c621f05acc42ea98248147706079287b3a7ab4e47e1ece/shinychat-0.2.8-py3-none-any.whl", hash = "sha256:6742a2354257280458269a8b5675f1254e5583be34b6eb1a626de44c0323286a", size = 561057, upload-time = "2025-09-11T20:13:18.683Z" },
+]
+
+[[package]]
+name = "shinywidgets"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anywidget" },
+    { name = "ipywidgets" },
+    { name = "jupyter-core" },
+    { name = "python-dateutil" },
+    { name = "shiny" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/58/4c/cfa9d3c4160ea33142c12cbf98a02af7cd21d19a59cf1fd0a97d59e4b4da/shinywidgets-0.7.0.tar.gz", hash = "sha256:119aac8e45e7b462e6c4b9b7feec7e4920d1594ead1047be4f46d25e7aee50a0", size = 1807583, upload-time = "2025-07-14T22:31:19.746Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e3/f5/8742ef796d6d824f4952d8a2d791b6f73e93eb635f11eff8606b8448b92e/shinywidgets-0.7.0-py3-none-any.whl", hash = "sha256:d0daf0c575c559c569191c56e74fbec80ef7ec343d89aff127d9baad78e878e9", size = 1816462, upload-time = "2025-07-14T22:31:17.897Z" },
+]
+
+[[package]]
+name = "six"
+version = "1.17.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
 ]
 
 [[package]]
