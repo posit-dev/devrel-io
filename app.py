@@ -849,8 +849,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         df = filtered_input()
 
         if df.is_empty():
-            # Return empty ITable
-            return ITable(pl.DataFrame())
+            # Return empty ITable with selection enabled
+            return ITable(pl.DataFrame(), select=True)
 
         # Move label column to first position
         if "label" in df.columns:
@@ -862,9 +862,14 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        # Return ITable widget with Polars DataFrame
+        # Return ITable widget with Polars DataFrame and selection enabled
         return ITable(
-            df, show_dtypes=False, paging=False, scrollY="350px", scrollCollapse=True
+            df,
+            select=True,
+            show_dtypes=False,
+            paging=False,
+            scrollY="350px",
+            scrollCollapse=True,
         )
 
 
