@@ -803,7 +803,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         if df.is_empty():
             # Return empty ITable
-            return ITable(pl.DataFrame().to_pandas())
+            return ITable(pl.DataFrame())
 
         # Move label column to first position
         if "label" in df.columns:
@@ -813,8 +813,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        # Convert to pandas and return ITable widget
-        return ITable(df.to_pandas())
+        # Return ITable widget with Polars DataFrame
+        return ITable(df)
 
 
 app = App(app_ui, server)
