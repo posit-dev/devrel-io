@@ -198,6 +198,54 @@ def aggregate_metric_data(
     return df_agg
 
 
+def filter_metric_data(
+    df: pl.DataFrame,
+    selected_projects: List[str],
+    selected_metrics: List[str],
+    start_date: Optional[datetime],
+    end_date: Optional[datetime],
+    date_column: str = "datetime",
+    metric_column: str = "event_type",
+    date_format: str = "%Y-%m-%dT%H:%M:%SZ",
+) -> pl.DataFrame:
+    """Generic function to filter metric data by projects, metrics, and date range."""
+    if df.is_empty():
+        return df
+
+    # If no projects selected, return empty DataFrame
+    if not selected_projects:
+        return pl.DataFrame()
+
+    # If no metrics selected, return empty DataFrame
+    if not selected_metrics:
+        return pl.DataFrame()
+
+    # Filter by projects
+    if "project_id" in df.columns:
+        df = df.filter(pl.col("project_id").is_in(selected_projects))
+
+    # Filter by metric column (event_type for GitHub, metric for others)
+    if metric_column in df.columns:
+        df = df.filter(pl.col(metric_column).is_in(selected_metrics))
+
+    # Filter by date range
+    if start_date and end_date and date_column in df.columns:
+        df = df.with_columns(
+            pl.col(date_column)
+            .str.strptime(pl.Datetime, date_format)
+            .dt.replace_time_zone("UTC")
+        )
+        df = df.filter(
+            (pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date)
+        )
+        # Convert back to string for consistency
+        df = df.with_columns(
+            pl.col(date_column).dt.convert_time_zone("UTC").dt.strftime(date_format)
+        )
+
+    return df
+
+
 def server(input: Inputs, output: Outputs, session: Session):
     @render.ui
     def date_pickers():
@@ -252,47 +300,19 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df
 
     @reactive.calc
-    def df_output():
+    def df_output() -> pl.DataFrame:
         """Read all GitHub events JSONL files (excluding archive)."""
-        # Read all JSONL files except those in archive directories
-        jsonl_files = []
-        for path in Path("data/output/github").rglob("*.jsonl"):
-            if "archive" not in path.parts:
-                jsonl_files.append(str(path))
-
-        if not jsonl_files:
-            return pl.DataFrame()
-
-        df = pl.read_ndjson(jsonl_files)
-        return df
+        return read_metric_data("github")
 
     @reactive.calc
-    def df_plausible():
+    def df_plausible() -> pl.DataFrame:
         """Read all Plausible JSONL files (excluding archive)."""
-        jsonl_files = []
-        for path in Path("data/output/plausible").rglob("*.jsonl"):
-            if "archive" not in path.parts:
-                jsonl_files.append(str(path))
-
-        if not jsonl_files:
-            return pl.DataFrame()
-
-        df = pl.read_ndjson(jsonl_files)
-        return df
+        return read_metric_data("plausible")
 
     @reactive.calc
-    def df_pypi():
+    def df_pypi() -> pl.DataFrame:
         """Read all PyPI JSONL files (excluding archive)."""
-        jsonl_files = []
-        for path in Path("data/output/pypi").rglob("*.jsonl"):
-            if "archive" not in path.parts:
-                jsonl_files.append(str(path))
-
-        if not jsonl_files:
-            return pl.DataFrame()
-
-        df = pl.read_ndjson(jsonl_files)
-        return df
+        return read_metric_data("pypi")
 
     @reactive.calc
     def filtered_input():
@@ -318,138 +338,58 @@ def server(input: Inputs, output: Outputs, session: Session):
     def filtered_output():
         """Filter output data by selected projects, event types, and date range."""
         df = df_output()
-
-        if df.is_empty():
-            return df
-
         selected_projects = list(input.project())
         selected_events = list(input.event_types())
-
-        # If no projects selected, return empty DataFrame
-        if not selected_projects:
-            return pl.DataFrame()
-
-        # If no events selected, return empty DataFrame
-        if not selected_events:
-            return pl.DataFrame()
-
-        # Filter by projects
-        if "project_id" in df.columns:
-            df = df.filter(pl.col("project_id").is_in(selected_projects))
-
-        # Filter by event types
-        if "event_type" in df.columns:
-            df = df.filter(pl.col("event_type").is_in(selected_events))
-
-        # Filter by date range
         start_date, end_date = date_range()
-        if start_date and end_date and "datetime" in df.columns:
-            df = df.with_columns(
-                pl.col("datetime")
-                .str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
-                .dt.replace_time_zone("UTC")
-            )
-            df = df.filter(
-                (pl.col("datetime") >= start_date) & (pl.col("datetime") <= end_date)
-            )
-            # Convert back to string for consistency
-            df = df.with_columns(
-                pl.col("datetime")
-                .dt.convert_time_zone("UTC")
-                .dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-            )
 
-        return df
+        return filter_metric_data(
+            df,
+            selected_projects,
+            selected_events,
+            start_date,
+            end_date,
+            date_column="datetime",
+            metric_column="event_type",
+            date_format="%Y-%m-%dT%H:%M:%SZ",
+        )
 
     @reactive.calc
     def filtered_plausible():
         """Filter Plausible data by selected projects, metrics, and date range."""
         df = df_plausible()
-
-        if df.is_empty():
-            return df
-
         selected_projects = list(input.project())
         selected_metrics = list(input.plausible_metrics())
-
-        # If no projects selected, return empty DataFrame
-        if not selected_projects:
-            return pl.DataFrame()
-
-        # If no metrics selected, return empty DataFrame
-        if not selected_metrics:
-            return pl.DataFrame()
-
-        # Filter by projects
-        if "project_id" in df.columns:
-            df = df.filter(pl.col("project_id").is_in(selected_projects))
-
-        # Filter by selected metrics
-        if "metric" in df.columns:
-            df = df.filter(pl.col("metric").is_in(selected_metrics))
-
-        # Filter by date range
         start_date, end_date = date_range()
-        if start_date and end_date and "date" in df.columns:
-            df = df.with_columns(
-                pl.col("date")
-                .str.strptime(pl.Datetime, "%Y-%m-%d")
-                .dt.replace_time_zone("UTC")
-            )
-            df = df.filter(
-                (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
-            )
-            # Convert back to string for consistency
-            df = df.with_columns(
-                pl.col("date").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%d")
-            )
 
-        return df
+        return filter_metric_data(
+            df,
+            selected_projects,
+            selected_metrics,
+            start_date,
+            end_date,
+            date_column="date",
+            metric_column="metric",
+            date_format="%Y-%m-%d",
+        )
 
     @reactive.calc
     def filtered_pypi():
         """Filter PyPI data by selected projects, metrics, and date range."""
         df = df_pypi()
-
-        if df.is_empty():
-            return df
-
         selected_projects = list(input.project())
         selected_metrics = list(input.pypi_metrics())
-
-        # If no projects selected, return empty DataFrame
-        if not selected_projects:
-            return pl.DataFrame()
-
-        # If no metrics selected, return empty DataFrame
-        if not selected_metrics:
-            return pl.DataFrame()
-
-        # Filter by projects
-        if "project_id" in df.columns:
-            df = df.filter(pl.col("project_id").is_in(selected_projects))
-
-        # Filter by selected metrics
-        if "metric" in df.columns:
-            df = df.filter(pl.col("metric").is_in(selected_metrics))
-
-        # Filter by date range
         start_date, end_date = date_range()
-        if start_date and end_date and "date" in df.columns:
-            df = df.with_columns(
-                pl.col("date")
-                .str.strptime(pl.Datetime, "%Y-%m-%d")
-                .dt.replace_time_zone("UTC")
-            )
-            df = df.filter(
-                (pl.col("date") >= start_date) & (pl.col("date") <= end_date)
-            )
-            # Convert back to string for consistency
-            df = df.with_columns(
-                pl.col("date").dt.convert_time_zone("UTC").dt.strftime("%Y-%m-%d")
-            )
 
-        return df
+        return filter_metric_data(
+            df,
+            selected_projects,
+            selected_metrics,
+            start_date,
+            end_date,
+            date_column="date",
+            metric_column="metric",
+            date_format="%Y-%m-%d",
+        )
 
     @reactive.calc
     def aggregated_counts():
