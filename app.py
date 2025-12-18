@@ -592,8 +592,10 @@ def server(input: Inputs, output: Outputs, session: Session):
         """Get the list of selected row indices from the input table."""
         try:
             selected = reactive_read(input_table.widget, "selected_rows")
+            print(f"DEBUG: Selected rows from ITable: {selected}", file=sys.stderr)
             return selected if selected else []
-        except Exception:
+        except Exception as e:
+            print(f"DEBUG: Error reading selected rows: {e}", file=sys.stderr)
             return []
 
     @reactive.calc
