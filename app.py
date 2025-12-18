@@ -14,14 +14,21 @@ import polars as pl
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
 
 # Load config to get projects
-with open("config.toml", "rb") as f:
-    config = tomllib.load(f)
+try:
+    with open("config.toml", "rb") as f:
+        config = tomllib.load(f)
 
-projects = list(config["projects"].keys())
-project_names = {pid: config["projects"][pid]["name"] for pid in projects}
-project_colors = {
-    pid: config["projects"][pid].get("hex_color", "#808080") for pid in projects
-}
+    projects = list(config["projects"].keys())
+    project_names = {pid: config["projects"][pid]["name"] for pid in projects}
+    project_colors = {
+        pid: config["projects"][pid].get("hex_color", "#808080") for pid in projects
+    }
+except FileNotFoundError:
+    print("Error: config.toml not found", file=sys.stderr)
+    sys.exit(1)
+except Exception as e:
+    print(f"Error loading config.toml: {e}", file=sys.stderr)
+    sys.exit(1)
 
 # Event types for checkboxes
 EVENT_TYPES = [
@@ -419,8 +426,15 @@ def server(input: Inputs, output: Outputs, session: Session):
     @reactive.calc
     def df_input() -> pl.DataFrame:
         """Read inputs.csv with datetime column parsed."""
-        df = pl.read_csv("data/input/inputs.csv", try_parse_dates=True)
-        return df
+        try:
+            df = pl.read_csv("data/input/inputs.csv", try_parse_dates=True)
+            return df
+        except FileNotFoundError:
+            print("Warning: data/input/inputs.csv not found", file=sys.stderr)
+            return pl.DataFrame()
+        except Exception as e:
+            print(f"Error reading inputs.csv: {e}", file=sys.stderr)
+            return pl.DataFrame()
 
     @reactive.calc
     def df_output() -> pl.DataFrame:
