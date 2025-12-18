@@ -650,7 +650,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             # Add project name labels at fixed x position
             project_labels = last_point.mark_text(
-                align="left", fontSize=14, clip=False, dx=10
+                align="left", fontSize=FONT_SIZE_ANNOTATION, clip=False, dx=10
             ).encode(
                 text=alt.Text("project_name:N"),
                 x=alt.value("width"),  # Position at right edge
@@ -680,9 +680,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                     scale=alt.Scale(
                         domain=["GitHub", "Plausible", "PyPI"],
                         range=[
-                            [1, 0],  # solid for GitHub
-                            [5, 2],  # dashed for Plausible
-                            [2, 2],  # dotted for PyPI
+                            LINE_PATTERNS["GitHub"],
+                            LINE_PATTERNS["Plausible"],
+                            LINE_PATTERNS["PyPI"],
                         ],
                     ),
                     legend=None,
@@ -719,7 +719,7 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             # Add "Project (Metric)" labels at fixed x position
             line_labels = last_point.mark_text(
-                align="left", fontSize=14, clip=False, dx=10
+                align="left", fontSize=FONT_SIZE_ANNOTATION, clip=False, dx=10
             ).encode(
                 text=alt.Text("label:N"),
                 x=alt.value("width"),  # Position at right edge
@@ -748,9 +748,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 .mark_point(size=400, filled=True, opacity=0.7, clip=False)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(
-                        440
-                    ),  # Position 30 pixels below chart bottom (400px height)
+                    y=alt.value(ANNOTATION_OFFSET),
                     color=alt.Color("project:N", title="Project", legend=None),
                     tooltip=tooltip_list,
                 )
@@ -759,12 +757,10 @@ def server(input: Inputs, output: Outputs, session: Session):
 
             text = (
                 alt.Chart(df_annotations)
-                .mark_text(fontSize=14, fontWeight="bold", color="white", clip=False)
+                .mark_text(fontSize=FONT_SIZE_ANNOTATION, fontWeight="bold", color="white", clip=False)
                 .encode(
                     x=alt.X("datetime:T"),
-                    y=alt.value(
-                        440
-                    ),  # Position 30 pixels below chart bottom (400px height)
+                    y=alt.value(ANNOTATION_OFFSET),
                     text="label:N",
                 )
                 .transform_filter(zoom)  # Only show annotations in visible range
@@ -777,8 +773,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Apply zoom and configuration
         chart = (
             chart.add_selection(zoom)
-            .properties(width="container", height=400)
-            .configure_axis(labelFontSize=14, titleFontSize=16)
+            .properties(width="container", height=CHART_HEIGHT)
+            .configure_axis(labelFontSize=FONT_SIZE_AXIS_LABEL, titleFontSize=FONT_SIZE_AXIS_TITLE)
             .configure_view(
                 clip=False  # Allow labels to extend beyond plot area
             )
