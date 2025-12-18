@@ -387,10 +387,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         return ui.TagList()
 
     @reactive.calc
-    def date_range():
+    def date_range() -> Tuple[Optional[datetime], Optional[datetime]]:
         """Calculate the date range based on period selection."""
-        from datetime import datetime, timedelta, timezone
-
         period = input.period()
 
         if period == "all":
@@ -419,7 +417,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         return None, None
 
     @reactive.calc
-    def df_input():
+    def df_input() -> pl.DataFrame:
         """Read inputs.csv with datetime column parsed."""
         df = pl.read_csv("data/input/inputs.csv", try_parse_dates=True)
         return df
@@ -440,7 +438,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         return read_metric_data("pypi")
 
     @reactive.calc
-    def filtered_input():
+    def filtered_input() -> pl.DataFrame:
         """Filter input data by selected projects, sort by datetime, and add letter labels."""
         df = df_input()
         selected_projects = list(input.project())
@@ -460,7 +458,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df
 
     @reactive.calc
-    def filtered_output():
+    def filtered_output() -> pl.DataFrame:
         """Filter output data by selected projects, event types, and date range."""
         df = df_output()
         selected_projects = list(input.project())
@@ -479,7 +477,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         )
 
     @reactive.calc
-    def filtered_plausible():
+    def filtered_plausible() -> pl.DataFrame:
         """Filter Plausible data by selected projects, metrics, and date range."""
         df = df_plausible()
         selected_projects = list(input.project())
@@ -498,7 +496,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         )
 
     @reactive.calc
-    def filtered_pypi():
+    def filtered_pypi() -> pl.DataFrame:
         """Filter PyPI data by selected projects, metrics, and date range."""
         df = df_pypi()
         selected_projects = list(input.project())
@@ -517,7 +515,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         )
 
     @reactive.calc
-    def aggregated_counts():
+    def aggregated_counts() -> pl.DataFrame:
         """Aggregate events and metrics by time period, with optional stacking and cumulative sum."""
         aggregation = input.aggregation()
 
@@ -570,7 +568,7 @@ def server(input: Inputs, output: Outputs, session: Session):
         return df_combined
 
     @reactive.calc
-    def annotations():
+    def annotations() -> pl.DataFrame:
         """Create annotations from input data with project information."""
         df = filtered_input()
 
