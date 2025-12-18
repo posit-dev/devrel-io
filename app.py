@@ -3,8 +3,11 @@
 Shiny app for visualizing DevRel I/O data.
 """
 
+import sys
 import tomllib
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 import altair as alt
 import polars as pl
@@ -34,6 +37,29 @@ EVENT_TYPES = [
 
 # Plausible metrics
 PLAUSIBLE_METRICS = ["pageviews", "visitors", "visits"]
+
+# Chart configuration constants
+CHART_HEIGHT = 400
+ANNOTATION_OFFSET = 440  # pixels (CHART_HEIGHT + 40)
+
+# Line patterns for different metric types
+LINE_PATTERNS = {
+    "GitHub": [1, 0],  # solid
+    "Plausible": [5, 2],  # dashed
+    "PyPI": [2, 2],  # dotted
+}
+
+# Aggregation intervals
+AGGREGATION_INTERVALS = {
+    "daily": "1d",
+    "weekly": "1w",
+    "monthly": "1mo",
+}
+
+# Font sizes
+FONT_SIZE_AXIS_LABEL = 14
+FONT_SIZE_AXIS_TITLE = 16
+FONT_SIZE_ANNOTATION = 14
 
 # Create UI
 app_ui = ui.page_sidebar(
