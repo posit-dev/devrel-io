@@ -246,6 +246,131 @@ def filter_metric_data(
     return df
 
 
+def aggregate_single_metric(
+    df: pl.DataFrame,
+    metric_label: str,
+    aggregation: str,
+    date_column: str = "datetime",
+    date_format: str = "%Y-%m-%dT%H:%M:%SZ",
+    has_value_column: bool = False,
+) -> pl.DataFrame:
+    """Aggregate a single metric type by time period."""
+    if df.is_empty():
+        return pl.DataFrame()
+
+    # Convert date string to datetime
+    df = df.with_columns(
+        pl.col(date_column).str.strptime(pl.Datetime, date_format)
+    )
+
+    # Rename date column to datetime for consistency
+    if date_column != "datetime":
+        df = df.rename({date_column: "datetime"})
+
+    # Rename value to count if needed
+    if has_value_column:
+        df = df.rename({"value": "count"})
+
+    # Sort by project and datetime
+    df = df.sort(["project_id", "datetime"])
+
+    # Determine aggregation interval
+    interval = AGGREGATION_INTERVALS[aggregation]
+
+    # Group by project and time period
+    group_by_kwargs = {
+        "every": interval,
+        "group_by": "project_id",
+        "label": "right",
+    }
+
+    if aggregation == "weekly":
+        group_by_kwargs["start_by"] = "monday"
+
+    # Aggregate based on whether we're counting events or summing values
+    if has_value_column:
+        df_agg = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
+            pl.sum("count").cast(pl.Int64).alias("count")
+        )
+    else:
+        df_agg = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
+            pl.len().alias("count")
+        )
+        df_agg = df_agg.with_columns(pl.col("count").cast(pl.Int64))
+
+    # Add metric_type column
+    df_agg = df_agg.with_columns(pl.lit(metric_label).alias("metric_type"))
+
+    return df_agg
+
+
+def combine_and_transform_metrics(
+    dataframes: List[pl.DataFrame],
+    stack_metrics: bool,
+    cumulative: bool,
+) -> pl.DataFrame:
+    """Combine metric dataframes and apply stacking/cumulative transformations."""
+    if len(dataframes) == 0:
+        return pl.DataFrame()
+
+    # Combine all dataframes
+    df_combined = pl.concat(dataframes)
+
+    # Apply stacking if enabled
+    if stack_metrics:
+        # Sum all metrics per project and time period
+        df_combined = (
+            df_combined.group_by(["project_id", "datetime"])
+            .agg(pl.sum("count").alias("count"))
+            .sort(["project_id", "datetime"])
+        )
+    else:
+        # Keep metrics separate, sort for display
+        df_combined = df_combined.sort(["project_id", "metric_type", "datetime"])
+
+    # Apply cumulative sum if enabled
+    if cumulative:
+        if stack_metrics:
+            # Cumulative sum per project
+            df_combined = df_combined.with_columns(
+                pl.col("count").cum_sum().over("project_id").alias("count")
+            )
+        else:
+            # Cumulative sum per project and metric type
+            df_combined = df_combined.with_columns(
+                pl.col("count")
+                .cum_sum()
+                .over(["project_id", "metric_type"])
+                .alias("count")
+            )
+
+    return df_combined
+
+
+def add_project_metadata(df: pl.DataFrame) -> pl.DataFrame:
+    """Add hex_color and project_name columns to dataframe."""
+    if df.is_empty():
+        return df
+
+    df = df.with_columns(
+        [
+            pl.col("project_id")
+            .map_elements(
+                lambda pid: project_colors.get(pid, "#808080"),
+                return_dtype=pl.Utf8,
+            )
+            .alias("hex_color"),
+            pl.col("project_id")
+            .map_elements(
+                lambda pid: project_names.get(pid, pid), return_dtype=pl.Utf8
+            )
+            .alias("project_name"),
+        ]
+    )
+
+    return df
+
+
 def server(input: Inputs, output: Outputs, session: Session):
     @render.ui
     def date_pickers():
@@ -394,195 +519,53 @@ def server(input: Inputs, output: Outputs, session: Session):
     @reactive.calc
     def aggregated_counts():
         """Aggregate events and metrics by time period, with optional stacking and cumulative sum."""
+        aggregation = input.aggregation()
+
         # Process GitHub events
-        df_github = filtered_output()
-        df_github_agg = pl.DataFrame()
-
-        if not df_github.is_empty():
-            # Convert datetime string to datetime
-            df_github = df_github.with_columns(
-                pl.col("datetime").str.strptime(pl.Datetime, "%Y-%m-%dT%H:%M:%SZ")
-            )
-
-            # Sort by project and datetime
-            df_github = df_github.sort(["project_id", "datetime"])
-
-            # Determine aggregation interval
-            aggregation_map = {
-                "daily": "1d",
-                "weekly": "1w",
-                "monthly": "1mo",
-            }
-            interval = aggregation_map[input.aggregation()]
-
-            # Group by project and time period (sum all GitHub events together)
-            group_by_kwargs = {
-                "every": interval,
-                "group_by": "project_id",
-                "label": "right",
-            }
-
-            if input.aggregation() == "weekly":
-                group_by_kwargs["start_by"] = "monday"
-
-            df_github_agg = df_github.group_by_dynamic(
-                "datetime", **group_by_kwargs
-            ).agg(pl.len().alias("count"))
-
-            # Add metric_type column labeled as "GitHub" and cast count to Int64
-            df_github_agg = df_github_agg.with_columns(
-                [pl.lit("GitHub").alias("metric_type"), pl.col("count").cast(pl.Int64)]
-            )
+        df_github_agg = aggregate_single_metric(
+            filtered_output(),
+            metric_label="GitHub",
+            aggregation=aggregation,
+            date_column="datetime",
+            date_format="%Y-%m-%dT%H:%M:%SZ",
+            has_value_column=False,
+        )
 
         # Process Plausible data
-        df_plaus = filtered_plausible()
-        df_plaus_agg = pl.DataFrame()
-
-        if not df_plaus.is_empty():
-            # Convert date string to datetime
-            df_plaus = df_plaus.with_columns(
-                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
-            ).rename({"date": "datetime"})
-
-            # Rename value to count for consistency
-            df_plaus = df_plaus.rename({"value": "count"})
-
-            # Sort by project and datetime
-            df_plaus = df_plaus.sort(["project_id", "datetime"])
-
-            # Determine aggregation interval
-            aggregation_map = {
-                "daily": "1d",
-                "weekly": "1w",
-                "monthly": "1mo",
-            }
-            interval = aggregation_map[input.aggregation()]
-
-            # Group by project and time period (sum all Plausible metrics together)
-            group_by_kwargs = {
-                "every": interval,
-                "group_by": "project_id",
-                "label": "right",
-            }
-
-            if input.aggregation() == "weekly":
-                group_by_kwargs["start_by"] = "monday"
-
-            df_plaus_agg = df_plaus.group_by_dynamic("datetime", **group_by_kwargs).agg(
-                pl.sum("count").cast(pl.Int64).alias("count")
-            )
-
-            # Add metric_type column labeled as "Plausible"
-            df_plaus_agg = df_plaus_agg.with_columns(
-                pl.lit("Plausible").alias("metric_type")
-            )
+        df_plaus_agg = aggregate_single_metric(
+            filtered_plausible(),
+            metric_label="Plausible",
+            aggregation=aggregation,
+            date_column="date",
+            date_format="%Y-%m-%d",
+            has_value_column=True,
+        )
 
         # Process PyPI data
-        df_pypi = filtered_pypi()
-        df_pypi_agg = pl.DataFrame()
+        df_pypi_agg = aggregate_single_metric(
+            filtered_pypi(),
+            metric_label="PyPI",
+            aggregation=aggregation,
+            date_column="date",
+            date_format="%Y-%m-%d",
+            has_value_column=True,
+        )
 
-        if not df_pypi.is_empty():
-            # Convert date string to datetime
-            df_pypi = df_pypi.with_columns(
-                pl.col("date").str.strptime(pl.Datetime, "%Y-%m-%d")
-            ).rename({"date": "datetime"})
-
-            # Rename value to count for consistency
-            df_pypi = df_pypi.rename({"value": "count"})
-
-            # Sort by project and datetime
-            df_pypi = df_pypi.sort(["project_id", "datetime"])
-
-            # Determine aggregation interval
-            aggregation_map = {
-                "daily": "1d",
-                "weekly": "1w",
-                "monthly": "1mo",
-            }
-            interval = aggregation_map[input.aggregation()]
-
-            # Group by project and time period (sum all PyPI metrics together)
-            group_by_kwargs = {
-                "every": interval,
-                "group_by": "project_id",
-                "label": "right",
-            }
-
-            if input.aggregation() == "weekly":
-                group_by_kwargs["start_by"] = "monday"
-
-            df_pypi_agg = df_pypi.group_by_dynamic("datetime", **group_by_kwargs).agg(
-                pl.sum("count").cast(pl.Int64).alias("count")
-            )
-
-            # Add metric_type column labeled as "PyPI"
-            df_pypi_agg = df_pypi_agg.with_columns(pl.lit("PyPI").alias("metric_type"))
-
-        # Combine GitHub, Plausible, and PyPI data
+        # Combine all non-empty dataframes
         dataframes = []
-        if not df_github_agg.is_empty():
-            dataframes.append(
-                df_github_agg.select(["project_id", "datetime", "metric_type", "count"])
-            )
-        if not df_plaus_agg.is_empty():
-            dataframes.append(
-                df_plaus_agg.select(["project_id", "datetime", "metric_type", "count"])
-            )
-        if not df_pypi_agg.is_empty():
-            dataframes.append(
-                df_pypi_agg.select(["project_id", "datetime", "metric_type", "count"])
-            )
-
-        if len(dataframes) > 0:
-            df_combined = pl.concat(dataframes)
-        else:
-            return pl.DataFrame()
-
-        # Apply stacking if enabled
-        if input.stack_metrics():
-            # Sum all metrics per project and time period
-            df_combined = (
-                df_combined.group_by(["project_id", "datetime"])
-                .agg(pl.sum("count").alias("count"))
-                .sort(["project_id", "datetime"])
-            )
-        else:
-            # Keep metrics separate, sort for display
-            df_combined = df_combined.sort(["project_id", "metric_type", "datetime"])
-
-        # Apply cumulative sum if enabled
-        if input.cumulative():
-            if input.stack_metrics():
-                # Cumulative sum per project
-                df_combined = df_combined.with_columns(
-                    pl.col("count").cum_sum().over("project_id").alias("count")
-                )
-            else:
-                # Cumulative sum per project and metric type
-                df_combined = df_combined.with_columns(
-                    pl.col("count")
-                    .cum_sum()
-                    .over(["project_id", "metric_type"])
-                    .alias("count")
+        for df in [df_github_agg, df_plaus_agg, df_pypi_agg]:
+            if not df.is_empty():
+                dataframes.append(
+                    df.select(["project_id", "datetime", "metric_type", "count"])
                 )
 
-        # Add hex_color and project_name columns based on project_id
-        if not df_combined.is_empty():
-            df_combined = df_combined.with_columns(
-                [
-                    pl.col("project_id")
-                    .map_elements(
-                        lambda pid: project_colors.get(pid, "#808080"),
-                        return_dtype=pl.Utf8,
-                    )
-                    .alias("hex_color"),
-                    pl.col("project_id")
-                    .map_elements(
-                        lambda pid: project_names.get(pid, pid), return_dtype=pl.Utf8
-                    )
-                    .alias("project_name"),
-                ]
-            )
+        # Combine and apply transformations
+        df_combined = combine_and_transform_metrics(
+            dataframes, input.stack_metrics(), input.cumulative()
+        )
+
+        # Add project metadata
+        df_combined = add_project_metadata(df_combined)
 
         return df_combined
 
