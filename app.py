@@ -11,8 +11,9 @@ from typing import Dict, List, Optional, Tuple
 
 import altair as alt
 import polars as pl
-from itables import to_html_datatable
+from itables.widget import ITable
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
+from shinywidgets import output_widget, render_widget
 
 # Load config to get projects
 try:
@@ -124,7 +125,7 @@ app_ui = ui.page_sidebar(
         ui.input_switch("stack_metrics", "Stack Metrics", value=False),
     ),
     ui.h2("Input"),
-    ui.output_data_frame("input_table"),
+    output_widget("input_table"),
     ui.h2("Output"),
     ui.output_ui("events_chart"),
     title="DevRel I/O Dashboard",
@@ -795,13 +796,14 @@ def server(input: Inputs, output: Outputs, session: Session):
 
         return ui.HTML(chart.to_html())
 
-    @render.ui
+    @render_widget
     def input_table():
         """Render input data table with title case columns and label first."""
         df = filtered_input()
 
         if df.is_empty():
-            return ui.p("No input data available")
+            # Return empty ITable
+            return ITable(pl.DataFrame().to_pandas())
 
         # Move label column to first position
         if "label" in df.columns:
@@ -811,8 +813,8 @@ def server(input: Inputs, output: Outputs, session: Session):
         # Convert column names to title case
         df = df.rename({col: col.replace("_", " ").title() for col in df.columns})
 
-        # Convert to pandas and render with ITable
-        return ui.HTML(to_html_datatable(df.to_pandas()))
+        # Convert to pandas and return ITable widget
+        return ITable(df.to_pandas())
 
 
 app = App(app_ui, server)
