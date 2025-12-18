@@ -123,6 +123,81 @@ app_ui = ui.page_sidebar(
 )
 
 
+# Helper functions
+def read_metric_data(directory: str) -> pl.DataFrame:
+    """Read all JSONL files from a directory (excluding archive subdirectories)."""
+    try:
+        jsonl_files = []
+        for path in Path(f"data/output/{directory}").rglob("*.jsonl"):
+            if "archive" not in path.parts:
+                jsonl_files.append(str(path))
+
+        if not jsonl_files:
+            return pl.DataFrame()
+
+        return pl.read_ndjson(jsonl_files)
+    except Exception as e:
+        print(f"Error reading {directory} data: {e}", file=sys.stderr)
+        return pl.DataFrame()
+
+
+def filter_by_date_range(
+    df: pl.DataFrame,
+    start_date: Optional[datetime],
+    end_date: Optional[datetime],
+    date_column: str = "date",
+) -> pl.DataFrame:
+    """Filter dataframe by date range."""
+    if not start_date or not end_date or date_column not in df.columns:
+        return df
+
+    df = df.with_columns(
+        pl.col(date_column)
+        .str.strptime(pl.Datetime, "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ")
+        .dt.replace_time_zone("UTC")
+    )
+    df = df.filter((pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date))
+
+    # Convert back to string for consistency
+    format_str = "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
+    df = df.with_columns(pl.col(date_column).dt.convert_time_zone("UTC").dt.strftime(format_str))
+
+    return df
+
+
+def aggregate_metric_data(
+    df: pl.DataFrame,
+    metric_label: str,
+    aggregation: str,
+    group_by_project_only: bool = True,
+) -> pl.DataFrame:
+    """Aggregate metric data by time period."""
+    if df.is_empty():
+        return pl.DataFrame()
+
+    # Determine aggregation interval
+    interval = AGGREGATION_INTERVALS[aggregation]
+
+    # Group by project and time period
+    group_by_kwargs = {
+        "every": interval,
+        "group_by": "project_id",
+        "label": "right",
+    }
+
+    if aggregation == "weekly":
+        group_by_kwargs["start_by"] = "monday"
+
+    df_agg = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
+        pl.len().alias("count") if metric_label == "GitHub" else pl.sum("count").cast(pl.Int64).alias("count")
+    )
+
+    # Add metric_type column
+    df_agg = df_agg.with_columns(pl.lit(metric_label).alias("metric_type"))
+
+    return df_agg
+
+
 def server(input: Inputs, output: Outputs, session: Session):
     @render.ui
     def date_pickers():
