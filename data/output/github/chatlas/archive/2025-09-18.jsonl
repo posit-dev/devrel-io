@@ -1,7 +1,0 @@
-{"event_type": "star", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T18:53:41Z", "user": "codingU4EA"}
-{"event_type": "issue_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T17:44:19Z", "user": "chendaniely"}
-{"event_type": "issue_close", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T18:01:19Z", "user": "cpsievert"}
-{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T18:08:49Z", "user": "cpsievert"}
-{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T17:54:17Z", "user": "cpsievert"}
-{"event_type": "pr_merge", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T18:01:18Z", "user": "unknown"}
-{"event_type": "issue_comment", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-09-18T20:06:11Z", "user": "simonpcouch"}
