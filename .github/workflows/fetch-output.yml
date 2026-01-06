@@ -39,8 +39,11 @@ jobs:
 
       - name: Aggregate data files
         run: |
-          chmod +x aggregate-data.sh
           ./aggregate-data.sh
+
+      - name: Combine output into one Parquet file
+        run: |
+          uv run python output_to_parquet.py
 
       - name: Commit and push data
         run: |
