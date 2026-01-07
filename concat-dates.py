@@ -119,19 +119,62 @@ def sort_files_chronologically(files):
     return sorted(files, key=get_sort_key)
 
 
+def get_sort_key_from_line(line):
+    """Extract date/datetime from JSONL line for sorting."""
+    try:
+        import json
+        obj = json.loads(line)
+        # Try different date fields (datetime for events, date for metrics)
+        if "datetime" in obj:
+            return obj["datetime"]
+        elif "date" in obj:
+            return obj["date"]
+        elif "day" in obj:
+            return obj["day"]
+        else:
+            return ""  # Lines without dates go to the beginning
+    except:
+        return ""  # Unparseable lines go to the beginning
+
+
 def concatenate_files(files, output_path, dry_run=False):
-    """Concatenate JSONL files into output file."""
+    """Concatenate JSONL files into output file, merging with existing data and deduplicating."""
     if dry_run:
-        print(f"  Would create: {output_path}")
+        print(f"  Would create/update: {output_path}")
+        if output_path.exists():
+            print(f"    (merging with existing file)")
         for f in files:
             print(f"    - Concat: {f}")
         return True
 
     try:
+        # Collect all lines in a set for automatic deduplication
+        all_lines = set()
+
+        # If output file already exists, read its contents first
+        if output_path.exists():
+            with open(output_path, "r") as existing_file:
+                for line in existing_file:
+                    line = line.strip()
+                    if line:  # Skip empty lines
+                        all_lines.add(line)
+
+        # Read all input files
+        for file_path in files:
+            with open(file_path, "r") as infile:
+                for line in infile:
+                    line = line.strip()
+                    if line:  # Skip empty lines
+                        all_lines.add(line)
+
+        # Sort lines by date/datetime for consistency
+        sorted_lines = sorted(all_lines, key=get_sort_key_from_line)
+
+        # Write deduplicated and sorted data
         with open(output_path, "w") as outfile:
-            for file_path in files:
-                with open(file_path, "r") as infile:
-                    outfile.write(infile.read())
+            for line in sorted_lines:
+                outfile.write(line + "\n")
+
         return True
     except Exception as e:
         print(f"Error concatenating files into {output_path}: {e}", file=sys.stderr)
@@ -232,14 +275,7 @@ def process_daily_to_monthly(groups, dry_run=False, force=False, today=None):
                 )
                 output_path = sorted_files[0].parent / output_name
 
-                # Check if output already exists
-                if output_path.exists() and not force:
-                    print(
-                        f"Error: Output file already exists: {output_path}",
-                        file=sys.stderr,
-                    )
-                    print("Use --force to overwrite", file=sys.stderr)
-                    sys.exit(1)
+                # Note: No need to check if output exists - concatenate_files now merges
 
                 actions.append(
                     {
@@ -277,14 +313,7 @@ def process_monthly_to_yearly(groups, dry_run=False, force=False, today=None):
                 )
                 output_path = sorted_files[0].parent / output_name
 
-                # Check if output already exists
-                if output_path.exists() and not force:
-                    print(
-                        f"Error: Output file already exists: {output_path}",
-                        file=sys.stderr,
-                    )
-                    print("Use --force to overwrite", file=sys.stderr)
-                    sys.exit(1)
+                # Note: No need to check if output exists - concatenate_files now merges
 
                 actions.append(
                     {

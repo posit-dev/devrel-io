@@ -79,7 +79,10 @@ def fetch_cran_downloads(
         return []
 
     result = data[0]
-    download_data = result.get("downloads", [])
+    download_data = result.get("downloads")
+
+    if not download_data:
+        return []
 
     # Transform results into our desired format
     downloads = []
