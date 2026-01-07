@@ -1,6 +1,15 @@
 [gsheet]
 url = "https://docs.google.com/spreadsheets/d/1SGv06ADG3zAAUIsBjQwrLymG9Fd1rwat0BS2ZSVaRmc/edit?gid=0#gid=0"
 
+[projects.positron]
+name = "Positron"
+language = "typescript"
+github = "posit-dev/positron"
+website = "https://positron.posit.co/"
+description = "Positron, a next-generation data science IDE"
+plausible = "positron.posit.co"
+hex_color = "#3976B3"
+
 [projects.plotnine]
 name = "plotnine"
 language = "python"
@@ -19,6 +28,15 @@ website = "https://posit-dev.github.io/chatlas"
 description = "Chat with large language models in Python"
 pypi = "chatlas"
 hex_color = "#4FC5AE"
+
+[projects.ellmer]
+name = "Ellmer"
+language = "r"
+github = "posit-dev/ellmer"
+website = "https://ellmer.tidyverse.org"
+cran = "ellmer"
+hex_color = "#06BC97"
+plausible= "ellmer.tidyverse.org"
 
 [projects.great-tables]
 description = "Create beautiful and feature-rich tables in Python"

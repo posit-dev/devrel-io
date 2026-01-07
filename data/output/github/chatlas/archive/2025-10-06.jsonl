@@ -1,8 +1,0 @@
-{"event_type": "fork", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T11:34:47Z", "user": "actuaristai"}
-{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T21:13:48Z", "user": "cpsievert"}
-{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T12:03:41Z", "user": "actuaristai"}
-{"event_type": "pr_merge", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T14:44:21Z", "user": "unknown"}
-{"event_type": "pr_open", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T11:37:18Z", "user": "actuaristai"}
-{"event_type": "pr_merge", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T14:44:48Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T14:44:45Z", "user": "cpsievert"}
-{"event_type": "pr_comment", "project_id": "chatlas", "github_repo": "posit-dev/chatlas", "datetime": "2025-10-06T14:44:17Z", "user": "cpsievert"}
