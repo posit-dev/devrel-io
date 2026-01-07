@@ -137,6 +137,32 @@ def get_sort_key_from_line(line):
         return ""  # Unparseable lines go to the beginning
 
 
+def get_unique_key(obj):
+    """Extract unique key from a JSONL record for deduplication.
+
+    For metrics: (project_id, metric, date)
+    For events: (project_id, event_type, datetime, user)
+    """
+    # Try event format first (has datetime and user)
+    if "datetime" in obj and "user" in obj:
+        return (
+            obj.get("project_id", ""),
+            obj.get("event_type", ""),
+            obj.get("datetime", ""),
+            obj.get("user", "")
+        )
+    # Try metrics format (has date and value)
+    elif "date" in obj and "metric" in obj:
+        return (
+            obj.get("project_id", ""),
+            obj.get("metric", ""),
+            obj.get("date", "")
+        )
+    # Fallback: use the entire line as the key
+    else:
+        return json.dumps(obj, sort_keys=True)
+
+
 def concatenate_files(files, output_path, dry_run=False):
     """Concatenate JSONL files into output file, merging with existing data and deduplicating."""
     if dry_run:
@@ -148,8 +174,11 @@ def concatenate_files(files, output_path, dry_run=False):
         return True
 
     try:
-        # Collect all lines in a set for automatic deduplication
-        all_lines = set()
+        import json
+
+        # Use a dictionary keyed by unique identifier for deduplication
+        # This keeps the latest value for each unique record
+        records = {}
 
         # If output file already exists, read its contents first
         if output_path.exists():
@@ -157,18 +186,30 @@ def concatenate_files(files, output_path, dry_run=False):
                 for line in existing_file:
                     line = line.strip()
                     if line:  # Skip empty lines
-                        all_lines.add(line)
+                        try:
+                            obj = json.loads(line)
+                            key = get_unique_key(obj)
+                            records[key] = line
+                        except json.JSONDecodeError:
+                            # If line can't be parsed, keep it as-is
+                            records[line] = line
 
-        # Read all input files
+        # Read all input files (these will overwrite existing records with same key)
         for file_path in files:
             with open(file_path, "r") as infile:
                 for line in infile:
                     line = line.strip()
                     if line:  # Skip empty lines
-                        all_lines.add(line)
+                        try:
+                            obj = json.loads(line)
+                            key = get_unique_key(obj)
+                            records[key] = line
+                        except json.JSONDecodeError:
+                            # If line can't be parsed, keep it as-is
+                            records[line] = line
 
         # Sort lines by date/datetime for consistency
-        sorted_lines = sorted(all_lines, key=get_sort_key_from_line)
+        sorted_lines = sorted(records.values(), key=get_sort_key_from_line)
 
         # Write deduplicated and sorted data
         with open(output_path, "w") as outfile:
