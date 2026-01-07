@@ -45,6 +45,7 @@ language = "r"
 github = "rstudio/pointblank"
 website = "https://rstudio.github.io/pointblank/"
 description = "Data validation and quality assessment for R"
+cran = "pointblank"
 hex_color = "#59A14F"
 
 [projects.gt]
@@ -53,6 +54,7 @@ language = "r"
 github = "rstudio/gt"
 website = "https://gt.rstudio.com"
 description = "Easily generate information-rich, publication-quality tables from R"
+cran = "gt"
 hex_color = "#ECE142"
 
 [projects.quarto]
@@ -78,6 +80,7 @@ language = "r"
 github = "rstudio/shiny"
 website = "https://shiny.posit.co"
 description = "Build interactive web applications in R"
+cran = "shiny"
 hex_color = "#000000"
 
 [projects.ggplot2]
@@ -87,5 +90,6 @@ github = "tidyverse/ggplot2"
 website = "https://ggplot2.tidyverse.org"
 description = "An implementation of the Grammar of Graphics in R"
 plausible = "ggplot2.tidyverse.org"
+cran = "ggplot2"
 hex_color = "#154F86"
 
