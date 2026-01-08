@@ -1,5 +1,13 @@
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T19:12:59Z", "user": "dboutwell3"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T10:08:46Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T09:55:49Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T10:13:09Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T09:36:38Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T09:38:05Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T10:55:41Z", "user": "teunbrand"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T11:37:47Z", "user": "teunbrand"}
 {"event_type": "pr_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T13:25:56Z", "user": "teunbrand"}
+{"event_type": "pr_merge", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T08:30:52Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T20:17:02Z", "user": "teunbrand"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T19:42:32Z", "user": "dboutwell3"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2025-12-08T19:38:48Z", "user": "teunbrand"}
