@@ -2,8 +2,17 @@
 #    uv export --no-hashes --no-dev
 altair==6.0.0
     # via devrel-io
+annotated-types==0.7.0
+    # via pydantic
+anthropic==0.75.0
+    # via
+    #   chatlas
+    #   devrel-io
 anyio==4.11.0
     # via
+    #   anthropic
+    #   httpx
+    #   openai
     #   starlette
     #   watchfiles
 anywidget==0.9.21
@@ -18,12 +27,28 @@ attrs==25.4.0
     # via
     #   jsonschema
     #   referencing
+boto3==1.42.24
+    # via anthropic
+botocore==1.42.24
+    # via
+    #   anthropic
+    #   boto3
+    #   s3transfer
 cachetools==6.2.2
     # via google-auth
 certifi==2025.11.12
-    # via requests
+    # via
+    #   httpcore
+    #   httpx
+    #   requests
 charset-normalizer==3.4.4
     # via requests
+chatlas==0.15.0
+    # via
+    #   devrel-io
+    #   querychat
+chevron==0.14.0
+    # via querychat
 click==8.3.1 ; sys_platform != 'emscripten'
     # via
     #   shiny
@@ -32,10 +57,19 @@ colorama==0.4.6 ; sys_platform == 'win32'
     # via
     #   click
     #   ipython
+    #   tqdm
 comm==0.2.3
     # via ipywidgets
 decorator==5.2.1
     # via ipython
+distro==1.9.0
+    # via
+    #   anthropic
+    #   openai
+docstring-parser==0.17.0
+    # via anthropic
+duckdb==1.4.3
+    # via querychat
 executing==2.2.1
     # via stack-data
 google-analytics-data==0.19.0
@@ -56,6 +90,8 @@ googleapis-common-protos==1.72.0
     # via
     #   google-api-core
     #   grpcio-status
+greenlet==3.3.0 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64'
+    # via sqlalchemy
 grpcio==1.76.0
     # via
     #   google-analytics-data
@@ -63,17 +99,27 @@ grpcio==1.76.0
     #   grpcio-status
 grpcio-status==1.76.0
     # via google-api-core
-h11==0.16.0 ; sys_platform != 'emscripten'
-    # via uvicorn
+h11==0.16.0
+    # via
+    #   httpcore
+    #   uvicorn
 htmltools==0.6.0
     # via
+    #   querychat
     #   shiny
     #   shinychat
+httpcore==1.0.9
+    # via httpx
 httplib2==0.31.0
     # via google-auth-httplib2
+httpx==0.28.1
+    # via
+    #   anthropic
+    #   openai
 idna==3.11
     # via
     #   anyio
+    #   httpx
     #   requests
 ipython==9.8.0
     # via ipywidgets
@@ -88,7 +134,17 @@ itables==2.6.1
 jedi==0.19.2
     # via ipython
 jinja2==3.1.6
-    # via altair
+    # via
+    #   altair
+    #   chatlas
+jiter==0.12.0
+    # via
+    #   anthropic
+    #   openai
+jmespath==1.0.1
+    # via
+    #   boto3
+    #   botocore
 jsonschema==4.25.1
     # via altair
 jsonschema-specifications==2025.9.1
@@ -102,6 +158,7 @@ linkify-it-py==2.0.3
 markdown-it-py==4.0.0
     # via
     #   mdit-py-plugins
+    #   rich
     #   shiny
 markupsafe==3.0.3
     # via jinja2
@@ -114,16 +171,25 @@ mdurl==0.1.2
 narwhals==2.12.0
     # via
     #   altair
+    #   querychat
     #   shiny
+numpy==2.4.0
+    # via pandas
 oauthlib==3.3.1
     # via requests-oauthlib
+openai==2.14.0
+    # via chatlas
 orjson==3.11.4
-    # via shiny
+    # via
+    #   chatlas
+    #   shiny
 packaging==25.0
     # via
     #   altair
     #   htmltools
     #   shiny
+pandas==2.3.3
+    # via querychat
 parso==0.8.5
     # via jedi
 pexpect==4.9.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
@@ -166,18 +232,33 @@ pyasn1==0.6.1
     #   rsa
 pyasn1-modules==0.4.2
     # via google-auth
+pydantic==2.12.5
+    # via
+    #   anthropic
+    #   chatlas
+    #   openai
+pydantic-core==2.41.5
+    # via pydantic
 pygments==2.19.2
     # via
     #   ipython
     #   ipython-pygments-lexers
+    #   rich
 pyparsing==3.2.5
     # via httplib2
 python-dateutil==2.9.0.post0
-    # via shinywidgets
+    # via
+    #   botocore
+    #   pandas
+    #   shinywidgets
 python-dotenv==1.2.1
     # via devrel-io
 python-multipart==0.0.20 ; sys_platform != 'emscripten'
     # via shiny
+pytz==2025.2
+    # via pandas
+querychat==0.3.0
+    # via devrel-io
 questionary==2.1.1 ; sys_platform != 'emscripten'
     # via shiny
 referencing==0.37.0
@@ -186,36 +267,53 @@ referencing==0.37.0
     #   jsonschema-specifications
 requests==2.32.5
     # via
+    #   chatlas
     #   devrel-io
     #   google-api-core
     #   requests-oauthlib
 requests-oauthlib==2.0.0
     # via google-auth-oauthlib
+rich==14.2.0
+    # via chatlas
 rpds-py==0.29.0
     # via
     #   jsonschema
     #   referencing
 rsa==4.9.1
     # via google-auth
+s3transfer==0.16.0
+    # via boto3
 setuptools==80.9.0
     # via shiny
-shiny==1.5.0
+shiny==1.5.1
     # via
     #   devrel-io
+    #   querychat
     #   shinychat
     #   shinywidgets
 shinychat==0.2.8
-    # via shiny
+    # via
+    #   querychat
+    #   shiny
 shinywidgets==0.7.0
-    # via devrel-io
+    # via
+    #   devrel-io
+    #   querychat
 six==1.17.0
     # via python-dateutil
 sniffio==1.3.1
-    # via anyio
+    # via
+    #   anthropic
+    #   anyio
+    #   openai
+sqlalchemy==2.0.45
+    # via querychat
 stack-data==0.6.3
     # via ipython
 starlette==0.50.0
     # via shiny
+tqdm==4.67.1
+    # via openai
 traitlets==5.14.3
     # via
     #   ipython
@@ -226,14 +324,26 @@ traitlets==5.14.3
 typing-extensions==4.15.0
     # via
     #   altair
+    #   anthropic
     #   anywidget
     #   grpcio
     #   htmltools
+    #   openai
+    #   pydantic
+    #   pydantic-core
     #   shiny
+    #   sqlalchemy
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
+tzdata==2025.3
+    # via pandas
 uc-micro-py==1.0.3
     # via linkify-it-py
 urllib3==2.5.0
-    # via requests
+    # via
+    #   botocore
+    #   requests
 uvicorn==0.38.0 ; sys_platform != 'emscripten'
     # via shiny
 watchfiles==1.1.1 ; sys_platform != 'emscripten'
