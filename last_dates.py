@@ -4,7 +4,7 @@ import polars as pl
 
 df = pl.read_parquet("data/output/all.parquet")
 
-df = df.group_by("project_id", "source").agg(pl.col("date").max())
+df = df.group_by("project", "source").agg(pl.col("date").max())
 df = df.sort("date")
 
 print(df)

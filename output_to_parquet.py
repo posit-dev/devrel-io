@@ -27,9 +27,12 @@ dfs.append(
 
 df_all = (
     pl.concat(dfs, how="diagonal_relaxed")
-    .with_columns(pl.col("source").str.split("/").list.get(2))
-    .select("project_id", "source", "metric", "date", "value")
-).sort("project_id", "source", "metric", "date")
+    .with_columns(
+        pl.col("project_id").alias("project"),
+        pl.col("source").str.split("/").list.get(2),
+    )
+    .select("project", "source", "metric", "date", "value")
+).sort("project", "source", "metric", "date")
 
 
 print(f"Writing {len(df_all)} rows to {OUTPUT}")
