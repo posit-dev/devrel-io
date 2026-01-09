@@ -2,7 +2,9 @@
 Utility functions shared across fetch scripts.
 """
 
+import calendar
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
@@ -10,6 +12,11 @@ from typing import Optional
 def get_last_date_for_project(output_dir: str, project_id: str) -> Optional[str]:
     """
     Find the most recent date with data for a given project.
+
+    Handles multiple file naming patterns:
+    - Daily: YYYY-MM-DD.jsonl (e.g., 2026-01-08.jsonl)
+    - Monthly: YYYY-MM.jsonl (e.g., 2025-12.jsonl)
+    - Yearly: YYYY.jsonl (e.g., 2025.jsonl)
 
     Args:
         output_dir: Base output directory (e.g., "data/output/github")
@@ -23,14 +30,38 @@ def get_last_date_for_project(output_dir: str, project_id: str) -> Optional[str]
     if not project_path.exists():
         return None
 
-    # Find all .jsonl files in project directory (excluding archive subdirectories)
-    date_pattern = re.compile(r'(\d{4}-\d{2}-\d{2})\.jsonl$')
+    # Patterns for different file naming conventions
+    daily_pattern = re.compile(r'(\d{4}-\d{2}-\d{2})\.jsonl$')
+    monthly_pattern = re.compile(r'(\d{4}-\d{2})\.jsonl$')
+    yearly_pattern = re.compile(r'(\d{4})\.jsonl$')
+
     dates = []
 
     for jsonl_file in project_path.glob("*.jsonl"):
-        match = date_pattern.search(jsonl_file.name)
+        filename = jsonl_file.name
+
+        # Try daily pattern (YYYY-MM-DD)
+        match = daily_pattern.search(filename)
         if match:
             dates.append(match.group(1))
+            continue
+
+        # Try monthly pattern (YYYY-MM) - convert to last day of month
+        match = monthly_pattern.search(filename)
+        if match:
+            year_month = match.group(1)
+            year, month = map(int, year_month.split('-'))
+            # Get last day of the month
+            last_day = calendar.monthrange(year, month)[1]
+            dates.append(f"{year:04d}-{month:02d}-{last_day:02d}")
+            continue
+
+        # Try yearly pattern (YYYY) - convert to last day of year
+        match = yearly_pattern.search(filename)
+        if match:
+            year = match.group(1)
+            dates.append(f"{year}-12-31")
+            continue
 
     if not dates:
         return None
