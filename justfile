@@ -12,7 +12,8 @@ get-inputs:
 
 # Run the Shiny dashboard with auto-reload
 app:
-    uv run shiny run app.py --port 8765 --reload
+    -lsof -ti:8765 | xargs kill -9 2>/dev/null || true
+    uv run shiny run app.py --port 8765 --reload --launch-browser
 
 # Export dependencies to requirements.txt for Posit Connect
 export-deps:
