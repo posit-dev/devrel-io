@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Shiny app for visualizing DevRel I/O data.
+Shiny app for visualizing DevRel I/O data with Dashboard and QueryChat tabs.
 """
 
+import os
 import sys
 import tomllib
 from datetime import datetime, timedelta, timezone
@@ -11,7 +12,9 @@ from typing import Dict, List, Optional, Tuple
 
 import altair as alt
 import polars as pl
+from chatlas import ChatBedrockAnthropic
 from itables.widget import ITable
+from querychat import QueryChat
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
 from shinywidgets import output_widget, reactive_read, render_widget
 
@@ -56,6 +59,7 @@ LINE_PATTERNS = {
     "GitHub": [1, 0],  # solid
     "Plausible": [5, 2],  # dashed
     "PyPI": [2, 2],  # dotted
+    "CRAN": [8, 4, 2, 4],  # dash-dot
 }
 
 # Aggregation intervals
@@ -70,86 +74,109 @@ FONT_SIZE_AXIS_LABEL = 14
 FONT_SIZE_AXIS_TITLE = 16
 FONT_SIZE_ANNOTATION = 14
 
+# AWS Bedrock setup for QueryChat
+chat = ChatBedrockAnthropic(
+    model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
+    aws_region=os.getenv("AWS_REGION", os.getenv("AWS_DEFAULT_REGION", "us-east-2")),
+    aws_profile=os.getenv("AWS_PROFILE", "posit"),
+    system_prompt="You are a helpful assistant for analyzing Developer Relations metrics. "
+    "The data includes GitHub events, PyPI downloads, CRAN downloads, "
+    "and web analytics across multiple open source projects.",
+)
+
+# Load parquet data for QueryChat
+df_parquet = pl.read_parquet("data/output/all.parquet")
+
+# Initialize QueryChat
+qc = QueryChat(df_parquet, "devrel_output", client=chat)
+
 # Create UI
-app_ui = ui.page_sidebar(
-    ui.sidebar(
-        ui.input_selectize(
-            "project",
-            "Select Project(s)",
-            choices={pid: project_names[pid] for pid in projects},
-            selected=["great-tables"],
-            multiple=True,
+app_ui = ui.page_navbar(
+    ui.nav_panel(
+        "QueryChat",
+        ui.layout_columns(
+            qc.ui(width="100%"),
+            ui.output_data_frame("data_table"),
         ),
-        ui.h4("GitHub Events"),
-        ui.input_checkbox_group(
-            "event_types",
-            None,
-            choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
-            selected=["star"],
-        ),
-        ui.h4("Plausible"),
-        ui.input_checkbox_group(
-            "plausible_metrics",
-            None,
-            choices={m: m.title() for m in PLAUSIBLE_METRICS},
-            selected=[],
-        ),
-        ui.h4("PyPI"),
-        ui.input_checkbox_group(
-            "pypi_metrics",
-            None,
-            choices={"downloads": "Downloads"},
-            selected=[],
-        ),
-        ui.h4("Period"),
-        ui.input_select(
-            "period",
-            None,
-            choices={
-                "all": "All",
-                "last_7_days": "Last 7 days",
-                "last_month": "Last month",
-                "custom": "Custom",
-            },
-            selected="all",
-        ),
-        ui.output_ui("date_pickers"),
-        ui.h4("Settings"),
-        ui.input_select(
-            "aggregation",
-            "Aggregation",
-            choices={"daily": "Daily", "weekly": "Weekly", "monthly": "Monthly"},
-            selected="weekly",
-        ),
-        ui.input_switch("cumulative", "Cumulative Counts", value=False),
-        ui.input_switch("stack_metrics", "Stack Metrics", value=False),
     ),
-    ui.h2("Output"),
-    ui.output_ui("events_chart"),
-    ui.h2("Input"),
-    output_widget("input_table"),
-    title="DevRel I/O Dashboard",
+    ui.nav_panel(
+        "Dashboard",
+        ui.page_sidebar(
+            ui.sidebar(
+                ui.input_selectize(
+                    "project",
+                    "Select Project(s)",
+                    choices={pid: project_names[pid] for pid in projects},
+                    selected=["great-tables"],
+                    multiple=True,
+                ),
+                ui.h4("GitHub Events"),
+                ui.input_checkbox_group(
+                    "event_types",
+                    None,
+                    choices={et: et.replace("_", " ").title() for et in EVENT_TYPES},
+                    selected=["star"],
+                ),
+                ui.h4("Plausible"),
+                ui.input_checkbox_group(
+                    "plausible_metrics",
+                    None,
+                    choices={m: m.title() for m in PLAUSIBLE_METRICS},
+                    selected=[],
+                ),
+                ui.h4("PyPI"),
+                ui.input_checkbox_group(
+                    "pypi_metrics",
+                    None,
+                    choices={"downloads": "Downloads"},
+                    selected=[],
+                ),
+                ui.h4("CRAN"),
+                ui.input_checkbox_group(
+                    "cran_metrics",
+                    None,
+                    choices={"downloads": "Downloads"},
+                    selected=[],
+                ),
+                ui.h4("Period"),
+                ui.input_select(
+                    "period",
+                    None,
+                    choices={
+                        "all": "All",
+                        "last_7_days": "Last 7 days",
+                        "last_month": "Last month",
+                        "custom": "Custom",
+                    },
+                    selected="all",
+                ),
+                ui.output_ui("date_pickers"),
+                ui.h4("Settings"),
+                ui.input_select(
+                    "aggregation",
+                    "Aggregation",
+                    choices={
+                        "daily": "Daily",
+                        "weekly": "Weekly",
+                        "monthly": "Monthly",
+                    },
+                    selected="weekly",
+                ),
+                ui.input_switch("cumulative", "Cumulative Counts", value=False),
+                ui.input_switch("stack_metrics", "Stack Metrics", value=False),
+            ),
+            ui.h2("Output"),
+            ui.output_ui("events_chart"),
+            ui.h2("Input"),
+            output_widget("input_table"),
+        ),
+    ),
+    title="DevRel I/O",
+    fillable=True,
 )
 
 
 # Helper functions
-def read_metric_data(directory: str) -> pl.DataFrame:
-    """Read all JSONL files from a directory (excluding archive subdirectories)."""
-    try:
-        jsonl_files = []
-        for path in Path(f"data/output/{directory}").rglob("*.jsonl"):
-            if "archive" not in path.parts:
-                jsonl_files.append(str(path))
-
-        if not jsonl_files:
-            return pl.DataFrame()
-
-        return pl.read_ndjson(jsonl_files)
-    except Exception as e:
-        print(f"Error reading {directory} data: {e}", file=sys.stderr)
-        return pl.DataFrame()
-
-
 def filter_by_date_range(
     df: pl.DataFrame,
     start_date: Optional[datetime],
@@ -178,41 +205,6 @@ def filter_by_date_range(
     )
 
     return df
-
-
-def aggregate_metric_data(
-    df: pl.DataFrame,
-    metric_label: str,
-    aggregation: str,
-    group_by_project_only: bool = True,
-) -> pl.DataFrame:
-    """Aggregate metric data by time period."""
-    if df.is_empty():
-        return pl.DataFrame()
-
-    # Determine aggregation interval
-    interval = AGGREGATION_INTERVALS[aggregation]
-
-    # Group by project and time period
-    group_by_kwargs = {
-        "every": interval,
-        "group_by": "project_id",
-        "label": "right",
-    }
-
-    if aggregation == "weekly":
-        group_by_kwargs["start_by"] = "monday"
-
-    df_agg = df.group_by_dynamic("datetime", **group_by_kwargs).agg(
-        pl.len().alias("count")
-        if metric_label == "GitHub"
-        else pl.sum("count").cast(pl.Int64).alias("count")
-    )
-
-    # Add metric_type column
-    df_agg = df_agg.with_columns(pl.lit(metric_label).alias("metric_type"))
-
-    return df_agg
 
 
 def filter_metric_data(
@@ -268,8 +260,8 @@ def aggregate_single_metric(
     metric_label: str,
     aggregation: str,
     date_column: str = "datetime",
-    date_format: str = "%Y-%m-%dT%H:%M:%SZ",
-    has_value_column: bool = False,
+    date_format: str = "%Y-%m-%d",
+    has_value_column: bool = True,
 ) -> pl.DataFrame:
     """Aggregate a single metric type by time period."""
     if df.is_empty():
@@ -385,6 +377,48 @@ def add_project_metadata(df: pl.DataFrame) -> pl.DataFrame:
 
 
 def server(input: Inputs, output: Outputs, session: Session):
+    # Shared data loading
+    @reactive.calc
+    def df_all() -> pl.DataFrame:
+        """Load consolidated parquet file."""
+        return df_parquet
+
+    @reactive.calc
+    def df_output() -> pl.DataFrame:
+        """Extract GitHub events from all.parquet."""
+        df = df_all().filter(pl.col("source") == "github")
+        return df.rename(
+            {"project": "project_id", "metric": "event_type", "date": "datetime"}
+        )
+
+    @reactive.calc
+    def df_plausible() -> pl.DataFrame:
+        """Extract Plausible metrics from all.parquet."""
+        return (
+            df_all()
+            .filter(pl.col("source") == "plausible")
+            .rename({"project": "project_id"})
+        )
+
+    @reactive.calc
+    def df_pypi() -> pl.DataFrame:
+        """Extract PyPI metrics from all.parquet."""
+        return (
+            df_all()
+            .filter(pl.col("source") == "pypi")
+            .rename({"project": "project_id"})
+        )
+
+    @reactive.calc
+    def df_cran() -> pl.DataFrame:
+        """Extract CRAN metrics from all.parquet."""
+        return (
+            df_all()
+            .filter(pl.col("source") == "cran")
+            .rename({"project": "project_id"})
+        )
+
+    # Dashboard server logic
     @render.ui
     def date_pickers():
         """Show date pickers only when Custom period is selected."""
@@ -443,21 +477,6 @@ def server(input: Inputs, output: Outputs, session: Session):
             return pl.DataFrame()
 
     @reactive.calc
-    def df_output() -> pl.DataFrame:
-        """Read all GitHub events JSONL files (excluding archive)."""
-        return read_metric_data("github")
-
-    @reactive.calc
-    def df_plausible() -> pl.DataFrame:
-        """Read all Plausible JSONL files (excluding archive)."""
-        return read_metric_data("plausible")
-
-    @reactive.calc
-    def df_pypi() -> pl.DataFrame:
-        """Read all PyPI JSONL files (excluding archive)."""
-        return read_metric_data("pypi")
-
-    @reactive.calc
     def filtered_input() -> pl.DataFrame:
         """Filter input data by selected projects, sort by datetime, and add letter labels."""
         df = df_input()
@@ -493,7 +512,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             end_date,
             date_column="datetime",
             metric_column="event_type",
-            date_format="%Y-%m-%dT%H:%M:%SZ",
+            date_format="%Y-%m-%d",
         )
 
     @reactive.calc
@@ -535,6 +554,25 @@ def server(input: Inputs, output: Outputs, session: Session):
         )
 
     @reactive.calc
+    def filtered_cran() -> pl.DataFrame:
+        """Filter CRAN data by selected projects, metrics, and date range."""
+        df = df_cran()
+        selected_projects = list(input.project())
+        selected_metrics = list(input.cran_metrics())
+        start_date, end_date = date_range()
+
+        return filter_metric_data(
+            df,
+            selected_projects,
+            selected_metrics,
+            start_date,
+            end_date,
+            date_column="date",
+            metric_column="metric",
+            date_format="%Y-%m-%d",
+        )
+
+    @reactive.calc
     def aggregated_counts() -> pl.DataFrame:
         """Aggregate events and metrics by time period, with optional stacking and cumulative sum."""
         aggregation = input.aggregation()
@@ -545,8 +583,8 @@ def server(input: Inputs, output: Outputs, session: Session):
             metric_label="GitHub",
             aggregation=aggregation,
             date_column="datetime",
-            date_format="%Y-%m-%dT%H:%M:%SZ",
-            has_value_column=False,
+            date_format="%Y-%m-%d",
+            has_value_column=True,
         )
 
         # Process Plausible data
@@ -569,9 +607,19 @@ def server(input: Inputs, output: Outputs, session: Session):
             has_value_column=True,
         )
 
+        # Process CRAN data
+        df_cran_agg = aggregate_single_metric(
+            filtered_cran(),
+            metric_label="CRAN",
+            aggregation=aggregation,
+            date_column="date",
+            date_format="%Y-%m-%d",
+            has_value_column=True,
+        )
+
         # Combine all non-empty dataframes
         dataframes = []
-        for df in [df_github_agg, df_plaus_agg, df_pypi_agg]:
+        for df in [df_github_agg, df_plaus_agg, df_pypi_agg, df_cran_agg]:
             if not df.is_empty():
                 dataframes.append(
                     df.select(["project_id", "datetime", "metric_type", "count"])
@@ -713,11 +761,12 @@ def server(input: Inputs, output: Outputs, session: Session):
                     "metric_type:N",
                     title="Metric",
                     scale=alt.Scale(
-                        domain=["GitHub", "Plausible", "PyPI"],
+                        domain=["GitHub", "Plausible", "PyPI", "CRAN"],
                         range=[
                             LINE_PATTERNS["GitHub"],
                             LINE_PATTERNS["Plausible"],
                             LINE_PATTERNS["PyPI"],
+                            LINE_PATTERNS["CRAN"],
                         ],
                     ),
                     legend=None,
@@ -873,6 +922,17 @@ def server(input: Inputs, output: Outputs, session: Session):
             scrollY="350px",
             scrollCollapse=True,
         )
+
+    # QueryChat server logic
+    qc_vals = qc.server()
+
+    @render.data_frame
+    def data_table():
+        return qc_vals.df()
+
+    @render.text
+    def title():
+        return qc_vals.title() or "DevRel I/O QueryChat"
 
 
 app = App(app_ui, server)
