@@ -111,3 +111,41 @@ plausible = "ggplot2.tidyverse.org"
 cran = "ggplot2"
 hex_color = "#154F86"
 
+[projects.tidyverse]
+name = "tidyverse"
+language = "r"
+github = "tidyverse/tidyverse"
+website = "https://www.tidyverse.org"
+description = "Collection of R packages for data science"
+plausible = "tidyverse.tidyverse.org"
+cran = "tidyverse"
+hex_color = "#1A162D"
+
+[projects.dplyr]
+name = "dplyr"
+language = "r"
+github = "tidyverse/dplyr"
+website = "https://dplyr.tidyverse.org"
+description = "A grammar of data manipulation for R"
+plausible = "dplyr.tidyverse.org"
+cran = "dplyr"
+hex_color = "#1C8C58"
+
+[projects.orbital-python]
+name = "Orbital for Python"
+language = "python"
+github = "posit-dev/orbital"
+website = "https://posit-dev.github.io/orbital/"
+description = "Orbital data processing and analysis in Python"
+pypi = "orbital"
+hex_color = "#FF6B35"
+
+[projects.orbital-r]
+name = "Orbital for R"
+language = "r"
+github = "posit-dev/orbital"
+website = "https://posit-dev.github.io/orbital/"
+description = "Orbital data processing and analysis in R"
+cran = "orbital"
+hex_color = "#FF8C42"
+
