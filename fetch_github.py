@@ -18,6 +18,8 @@ from typing import Dict, List, Optional
 import requests
 from dotenv import load_dotenv
 
+from utils import get_last_date_for_project
+
 # Check if GITHUB_TOKEN exists before loading .env
 token_in_env_before_dotenv = "GITHUB_TOKEN" in os.environ
 
@@ -595,8 +597,8 @@ def main():
     )
     parser.add_argument(
         "--start-date",
-        default=get_yesterday(),
-        help="Start date in YYYY-MM-DD format (default: yesterday)",
+        default=None,
+        help="Start date in YYYY-MM-DD format (default: auto-detect from last data file, or 2000-01-01 for new projects)",
     )
     parser.add_argument(
         "--end-date",
@@ -651,17 +653,25 @@ def main():
             file=sys.stderr,
         )
 
-    # Parse dates
+    # Parse end_date (always required or has default)
     try:
-        start_date = parse_date(args.start_date)
         end_date = parse_date(args.end_date)
     except ValueError as e:
-        print(f"Error parsing dates: {e}", file=sys.stderr)
+        print(f"Error parsing end date: {e}", file=sys.stderr)
         sys.exit(1)
 
-    if end_date < start_date:
-        print("Error: end-date must be >= start-date", file=sys.stderr)
-        sys.exit(1)
+    # Parse start_date if provided by user
+    user_provided_start_date = args.start_date
+    if user_provided_start_date:
+        try:
+            start_date = parse_date(user_provided_start_date)
+        except ValueError as e:
+            print(f"Error parsing start date: {e}", file=sys.stderr)
+            sys.exit(1)
+
+        if end_date < start_date:
+            print("Error: end-date must be >= start-date", file=sys.stderr)
+            sys.exit(1)
 
     # Check for mutually exclusive arguments
     if args.project and args.repo:
@@ -678,6 +688,28 @@ def main():
 
         # Use repo name as project_id for output directory
         project_id = github_repo.replace("/", "-")
+
+        # Determine start_date for this repo
+        if not user_provided_start_date:
+            # Auto-detect start date
+            last_date = get_last_date_for_project(args.output, project_id)
+            if last_date:
+                start_date = parse_date(last_date) + timedelta(days=1)
+                print(
+                    f"Auto-detected start date for {project_id}: {start_date.strftime('%Y-%m-%d')}",
+                    file=sys.stderr,
+                )
+            else:
+                start_date = parse_date("2000-01-01")
+                print(
+                    f"No existing data for {project_id}, starting from 2000-01-01",
+                    file=sys.stderr,
+                )
+
+            # Validate dates
+            if end_date < start_date:
+                print("Error: end-date is before auto-detected start-date", file=sys.stderr)
+                sys.exit(1)
 
         process_project(
             project_id,
@@ -729,11 +761,38 @@ def main():
                 )
                 continue
 
+            # Determine start_date for this project
+            if not user_provided_start_date:
+                # Auto-detect start date
+                last_date = get_last_date_for_project(args.output, project_id)
+                if last_date:
+                    project_start_date = parse_date(last_date) + timedelta(days=1)
+                    print(
+                        f"Auto-detected start date for {project_id}: {project_start_date.strftime('%Y-%m-%d')}",
+                        file=sys.stderr,
+                    )
+                else:
+                    project_start_date = parse_date("2000-01-01")
+                    print(
+                        f"No existing data for {project_id}, starting from 2000-01-01",
+                        file=sys.stderr,
+                    )
+
+                # Validate dates
+                if end_date < project_start_date:
+                    print(
+                        f"Warning: Skipping {project_id} - end-date is before start-date",
+                        file=sys.stderr,
+                    )
+                    continue
+            else:
+                project_start_date = start_date
+
             process_project(
                 project_id,
                 github_repo,
                 args.token,
-                start_date,
+                project_start_date,
                 end_date,
                 args.output,
                 event_types,

@@ -25,6 +25,8 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
+from utils import get_last_date_for_analytics
+
 
 def get_credentials():
     """
@@ -231,14 +233,14 @@ def main():
         description="Fetch GA4 data for badge analytics filtered by 'supported-by-posit'"
     )
 
-    # Default to yesterday
+    # Default to yesterday for end_date
     yesterday = (datetime.now() - timedelta(days=1)).date()
 
     parser.add_argument(
         "--start-date",
         type=parse_date,
-        default=yesterday,
-        help="Start date in YYYY-MM-DD format (default: yesterday)",
+        default=None,
+        help="Start date in YYYY-MM-DD format (default: auto-detect from last data file, or 2000-01-01 for new projects)",
     )
     parser.add_argument(
         "--end-date",
@@ -258,13 +260,42 @@ def main():
     # Use end_date from args (which defaults to yesterday)
     end_date = args.end_date
 
-    # Validate date range
-    if end_date < args.start_date:
-        print("Error: end-date must be greater than or equal to start-date", file=sys.stderr)
-        sys.exit(1)
+    # Determine start_date
+    if args.start_date is None:
+        # Auto-detect start date from existing data
+        output_dir = "data"  # Default output directory
+        last_date_str = get_last_date_for_analytics(output_dir)
+
+        if last_date_str:
+            # Start from day after last date
+            last_date = datetime.strptime(last_date_str, "%Y-%m-%d").date()
+            start_date = last_date + timedelta(days=1)
+            print(
+                f"Auto-detected start date: {start_date.strftime('%Y-%m-%d')}",
+                file=sys.stderr,
+            )
+        else:
+            # No existing data, start from 2000-01-01
+            start_date = datetime.strptime("2000-01-01", "%Y-%m-%d").date()
+            print(
+                "No existing data, starting from 2000-01-01",
+                file=sys.stderr,
+            )
+
+        # Validate dates
+        if end_date < start_date:
+            print("Warning: end-date is before auto-detected start-date, no data to fetch", file=sys.stderr)
+            return
+    else:
+        start_date = args.start_date
+
+        # Validate date range
+        if end_date < start_date:
+            print("Error: end-date must be greater than or equal to start-date", file=sys.stderr)
+            sys.exit(1)
 
     # Convert dates to string format for API
-    start_date_str = args.start_date.strftime("%Y-%m-%d")
+    start_date_str = start_date.strftime("%Y-%m-%d")
     end_date_str = end_date.strftime("%Y-%m-%d")
 
     print(f"Fetching data from {start_date_str} to {end_date_str}...")
