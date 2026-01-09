@@ -1,0 +1,7 @@
+{"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T08:54:48Z", "user": "kleinerChemiker"}
+{"event_type": "issue_close", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T12:18:31Z", "user": "DavisVaughan"}
+{"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T14:34:39Z", "user": "unknown"}
+{"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T17:36:06Z", "user": "DavisVaughan"}
+{"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T14:34:47Z", "user": "DavisVaughan"}
+{"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T12:51:48Z", "user": "kleinerChemiker"}
+{"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-11-18T12:18:31Z", "user": "DavisVaughan"}
