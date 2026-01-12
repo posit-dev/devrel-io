@@ -194,18 +194,18 @@ def fetch_analytics_data(property_id, start_date, end_date):
     return results
 
 
-def write_jsonl_files(data, prefix="supported-by-posit_ga", output_dir="data"):
+def write_jsonl_files(data, prefix="supported-by-posit_ga", output_dir="data/output/ga"):
     """
     Write data to JSONL files, one file per date.
 
     Args:
         data: List of dicts with keys: date, source, count
         prefix: Prefix for output filenames
-        output_dir: Directory to write files to (default: data)
+        output_dir: Directory to write files to (default: data/output/ga)
     """
     # Create output directory if it doesn't exist
     output_path = Path(output_dir)
-    output_path.mkdir(exist_ok=True)
+    output_path.mkdir(parents=True, exist_ok=True)
 
     # Group data by date
     data_by_date = {}
@@ -263,7 +263,7 @@ def main():
     # Determine start_date
     if args.start_date is None:
         # Auto-detect start date from existing data
-        output_dir = "data"  # Default output directory
+        output_dir = "data/output/ga"  # Default output directory
         last_date_str = get_last_date_for_analytics(output_dir)
 
         if last_date_str:

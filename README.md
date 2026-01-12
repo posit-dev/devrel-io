@@ -98,7 +98,7 @@ data/
     ├── plausible/             # Web analytics
     │   ├── plotnine/
     │   └── ...
-    ├── google_analytics/      # GA4 badge analytics
+    ├── ga/                    # GA4 badge analytics
     └── all.parquet            # Consolidated data (all sources)
 ```
 
@@ -338,7 +338,7 @@ uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 
 Requires Google OAuth credentials. See script documentation for setup instructions.
 
-**Output**: `data/output/google_analytics/supported-by-posit_ga_{date}.jsonl`
+**Output**: `data/output/ga/supported-by-posit_ga_{date}.jsonl`
 
 ### fetch_inputs.py
 
