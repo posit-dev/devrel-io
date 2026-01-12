@@ -322,16 +322,16 @@ uv run python fetch_plausible.py --start-date 2025-01-01 --end-date 2025-01-31 -
 
 **Output**: `data/output/plausible/{project}/{date}.jsonl`
 
-### fetch_analytics.py
+### fetch_ga.py
 
 **Fetches**: Google Analytics 4 data (filtered by 'supported-by-posit' badge)
 
 ```bash
 # Fetch yesterday's data
-uv run python fetch_analytics.py
+uv run python fetch_ga.py
 
 # Date range
-uv run python fetch_analytics.py --start-date 2025-01-01 --end-date 2025-01-31
+uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 ```
 
 **Authentication**: OAuth 2.0 (complex setup)
