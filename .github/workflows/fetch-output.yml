@@ -37,6 +37,10 @@ jobs:
         run: |
           uv run python fetch_pypi.py
 
+      - name: Fetch CRAN downloads for all projects
+        run: |
+          uv run python fetch_cran.py
+
       - name: Aggregate data files
         run: |
           ./aggregate-data.sh
