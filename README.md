@@ -41,7 +41,7 @@ Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, and we
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/devrel-io.git
+git clone https://github.com/jeroenjanssens/devrel-io.git
 cd devrel-io
 
 # 2. Install uv (if not already installed)
@@ -337,9 +337,37 @@ uv run python fetch_ga.py
 uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 ```
 
-**Authentication**: OAuth 2.0 (complex setup)
+**Authentication**: OAuth 2.0 (requires setup)
 
-Requires Google OAuth credentials. See script documentation for setup instructions.
+**Setup Steps**:
+
+1. **Create Google Cloud Project**:
+   - Go to [Google Cloud Console](https://console.cloud.google.com/)
+   - Create a new project or select existing one
+   - Enable the "Google Analytics Data API"
+
+2. **Create OAuth 2.0 Credentials**:
+   - Navigate to "APIs & Services" → "Credentials"
+   - Click "Create Credentials" → "OAuth client ID"
+   - Choose "Desktop app" as application type
+   - Download the credentials as `client_secrets.json`
+   - Place `client_secrets.json` in the project root directory
+
+3. **First-time Authentication**:
+   ```bash
+   uv run python fetch_ga.py
+   ```
+   - A browser window will open for authentication
+   - Sign in with your Google account (must have GA4 access)
+   - Grant the requested permissions
+   - Credentials will be saved to `token.json` for future use
+
+4. **GitHub Actions Setup** (optional):
+   - After first authentication, the script displays three secrets
+   - Add them to repository secrets (Settings → Secrets):
+     - `GOOGLE_OAUTH_REFRESH_TOKEN`
+     - `GOOGLE_OAUTH_CLIENT_ID`
+     - `GOOGLE_OAUTH_CLIENT_SECRET`
 
 **Output**: `data/output/ga/supported-by-posit_ga_{date}.jsonl`
 
@@ -433,7 +461,6 @@ uv run python concat-dates.py --keep-days 180 data/output/github/quarto/*.jsonl
 
 **Options**:
 - `--dry-run`: Show what would be done without making changes
-- `--force`: Overwrite existing output files (deprecated, now merges by default)
 - `--keep-days N`: Keep archived files for N days (default: 90)
 - `--today YYYY-MM-DD`: Override current date for testing
 
@@ -800,7 +827,27 @@ See `fetch_pypi.py` for a simple, well-commented example.
 
 ## License
 
-[Add your license here]
+MIT License
+
+Copyright (c) 2025 Jeroen Janssens
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Contributing
 
