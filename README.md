@@ -204,6 +204,40 @@ url = "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit?gid=0#gid=0"
 
 **Note**: The sheet must be shared with "Anyone with the link" (View permission).
 
+### Keeping config.toml Sorted
+
+The `config.toml` file should be kept alphabetically sorted (both projects and keys within each project) to minimize merge conflicts and maintain consistency.
+
+**Sorting the config file**:
+
+```bash
+# Using justfile (recommended)
+just sort-config
+
+# Or directly
+uv run python scripts/sort-config.py
+```
+
+**Checking if sorted**:
+
+```bash
+# Using justfile
+just check-config
+
+# Or directly
+uv run python scripts/sort-config.py --check
+```
+
+**Automatic sorting with pre-commit** (optional):
+
+If you want config.toml to be automatically sorted before each commit:
+
+1. Install pre-commit: `pip install pre-commit` (or `brew install pre-commit`)
+2. Install the hooks: `pre-commit install`
+3. Done! The config will be sorted automatically on every commit
+
+**CI validation**: Pull requests are automatically checked to ensure config.toml is sorted. If the check fails, simply run `just sort-config` and commit the changes.
+
 ---
 
 ## Data Collection Scripts
@@ -698,6 +732,8 @@ cat data/output/cran/ggplot2/2025-01.jsonl | jq -s 'map(.value) | add'
 just --list              # Show all available commands
 just install             # Install dependencies (uv sync)
 just get-inputs          # Fetch Google Sheets data
+just sort-config         # Sort config.toml alphabetically
+just check-config        # Check if config.toml is sorted
 just app                 # Run Shiny dashboard
 just export-deps         # Export requirements.txt for deployment
 ```

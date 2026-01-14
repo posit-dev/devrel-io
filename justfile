@@ -10,6 +10,14 @@ install:
 get-inputs:
     uv run fetch_inputs.py -o data/input/inputs.csv
 
+# Sort config.toml alphabetically
+sort-config:
+    uv run python scripts/sort-config.py
+
+# Check if config.toml is sorted (exits with error if not)
+check-config:
+    uv run python scripts/sort-config.py --check
+
 # Run the Shiny dashboard with auto-reload
 app:
     -lsof -ti:8765 | xargs kill -9 2>/dev/null || true
