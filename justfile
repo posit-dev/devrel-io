@@ -6,6 +6,21 @@ default:
 install:
     uv sync
 
+# Install pre-commit hooks (optional, for auto-sorting config.toml)
+install-hooks:
+    @echo "Installing pre-commit hooks..."
+    @command -v pre-commit >/dev/null 2>&1 || { \
+        echo "pre-commit not found. Installing..."; \
+        if command -v brew >/dev/null 2>&1; then \
+            brew install pre-commit; \
+        else \
+            pip install pre-commit; \
+        fi; \
+    }
+    @pre-commit install
+    @echo "✓ Pre-commit hooks installed!"
+    @echo "  config.toml will be automatically sorted on git commit"
+
 # Download Google Sheets data from config.toml to data/input
 get-inputs:
     uv run fetch_inputs.py -o data/input/inputs.csv

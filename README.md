@@ -232,9 +232,11 @@ uv run python scripts/sort-config.py --check
 
 If you want config.toml to be automatically sorted before each commit:
 
-1. Install pre-commit: `pip install pre-commit` (or `brew install pre-commit`)
-2. Install the hooks: `pre-commit install`
-3. Done! The config will be sorted automatically on every commit
+```bash
+just install-hooks
+```
+
+This will install pre-commit (if needed) and set up the hooks. After this, config.toml will be automatically sorted on every commit.
 
 **CI validation**: Pull requests are automatically checked to ensure config.toml is sorted. If the check fails, simply run `just sort-config` and commit the changes.
 
@@ -731,6 +733,7 @@ cat data/output/cran/ggplot2/2025-01.jsonl | jq -s 'map(.value) | add'
 ```bash
 just --list              # Show all available commands
 just install             # Install dependencies (uv sync)
+just install-hooks       # Install pre-commit hooks (optional)
 just get-inputs          # Fetch Google Sheets data
 just sort-config         # Sort config.toml alphabetically
 just check-config        # Check if config.toml is sorted
