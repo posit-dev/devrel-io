@@ -99,6 +99,9 @@ data/
     │   ├── plotnine/
     │   └── ...
     ├── ga/                    # GA4 badge analytics
+    ├── openvsx/               # Open VSX extension metrics
+    │   ├── quarto/
+    │   └── ...
     └── all.parquet            # Consolidated data (all sources)
 ```
 
@@ -339,6 +342,32 @@ uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 Requires Google OAuth credentials. See script documentation for setup instructions.
 
 **Output**: `data/output/ga/supported-by-posit_ga_{date}.jsonl`
+
+### fetch_openvsx.py
+
+**Fetches**: Open VSX extension metrics (snapshot data)
+
+```bash
+# Fetch yesterday's data for all projects with 'openvsx' field
+uv run python fetch_openvsx.py
+
+# Specific project
+uv run python fetch_openvsx.py --project quarto
+
+# Output to stdout
+uv run python fetch_openvsx.py --project quarto --output -
+```
+
+**Authentication**: None required (public API)
+
+**Metrics collected**:
+- `total_downloads` - Cumulative download count
+- `rating` - Average user rating
+- `reviews` - Number of reviews
+
+**Output**: `data/output/openvsx/{project}/{date}.jsonl`
+
+**Note**: This API provides snapshot data only (no historical data), so each run fetches yesterday's metrics.
 
 ### fetch_inputs.py
 
@@ -655,6 +684,7 @@ just export-deps         # Export requirements.txt for deployment
 | CRAN | `cranlogs.r-pkg.org` | None |
 | Plausible | `plausible.io/api/v2` | Required (API key) |
 | Google Analytics | `analyticsdata.googleapis.com` | OAuth 2.0 |
+| Open VSX | `open-vsx.org/api` | None |
 
 ### File Format Examples
 
@@ -678,6 +708,13 @@ just export-deps         # Export requirements.txt for deployment
 {"metric": "pageviews", "project_id": "plotnine", "date": "2025-01-15", "value": 1523}
 {"metric": "visitors", "project_id": "plotnine", "date": "2025-01-15", "value": 457}
 {"metric": "visits", "project_id": "plotnine", "date": "2025-01-15", "value": 612}
+```
+
+**Open VSX metrics**:
+```json
+{"metric": "total_downloads", "project_id": "quarto", "date": "2025-01-15", "value": 1200780}
+{"metric": "rating", "project_id": "quarto", "date": "2025-01-15", "value": 5.0}
+{"metric": "reviews", "project_id": "quarto", "date": "2025-01-15", "value": 1}
 ```
 
 ### Troubleshooting
