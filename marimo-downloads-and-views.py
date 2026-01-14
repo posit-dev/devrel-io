@@ -19,6 +19,18 @@ def _(pl):
 
 @app.cell
 def _(devrel_output, mo):
+    _df = mo.sql(
+        f"""
+        SELECT *
+        FROM devrel_output
+        WHERE project = 'air'
+        """
+    )
+    return
+
+
+@app.cell
+def _(devrel_output, mo):
     df_downloads = mo.sql(
         f"""
         -- Filter to 2025 download metrics and aggregate to yearly totals

@@ -1,0 +1,4 @@
+{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-05T21:09:11Z", "user": "dependabot[bot]"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-05T21:08:12Z", "user": "unknown"}
+{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-05T19:10:58Z", "user": "dotNomad"}
+{"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-05T17:29:51Z", "user": "CIOData"}

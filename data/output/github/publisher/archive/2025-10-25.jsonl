@@ -1,0 +1,3 @@
+{"event_type": "fork", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-10-25T13:28:44Z", "user": "costrouc"}
+{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-10-25T14:00:21Z", "user": "costrouc"}
+{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-10-25T14:14:15Z", "user": "costrouc"}

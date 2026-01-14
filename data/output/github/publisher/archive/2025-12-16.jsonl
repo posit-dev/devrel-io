@@ -1,0 +1,4 @@
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-12-16T19:03:41Z", "user": "unknown"}
+{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-12-16T22:43:13Z", "user": "jonkeane"}
+{"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-12-16T20:41:32Z", "user": "sdhutchins"}
+{"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2025-12-16T20:11:08Z", "user": "marcosnav"}
