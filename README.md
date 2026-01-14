@@ -66,7 +66,7 @@ Fetch sample data to verify your setup:
 
 ```bash
 # Fetch GitHub events for one project
-uv run python fetch_github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-01
+uv run python scripts/fetch-github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-01
 
 # Check the output
 ls data/output/github/quarto/
@@ -256,19 +256,19 @@ All fetch scripts follow the same pattern:
 
 ```bash
 # Fetch yesterday's data for all projects (default)
-uv run python fetch_github.py
+uv run python scripts/fetch-github.py
 
 # Specific project and date range
-uv run python fetch_github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-07
+uv run python scripts/fetch-github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-07
 
 # Specific event types only
-uv run python fetch_github.py --event-type star,fork
+uv run python scripts/fetch-github.py --event-type star,fork
 
 # Arbitrary repository (not in config.toml)
-uv run python fetch_github.py --repo torvalds/linux
+uv run python scripts/fetch-github.py --repo torvalds/linux
 
 # Output to stdout (for piping to jq)
-uv run python fetch_github.py --project quarto --output -
+uv run python scripts/fetch-github.py --project quarto --output -
 ```
 
 **Authentication**: GitHub Personal Access Token (optional but recommended)
@@ -303,13 +303,13 @@ uv run python fetch_github.py --project quarto --output -
 
 ```bash
 # Fetch yesterday's data for all projects with 'pypi' field
-uv run python fetch_pypi.py
+uv run python scripts/fetch-pypi.py
 
 # Specific project
-uv run python fetch_pypi.py --project plotnine
+uv run python scripts/fetch-pypi.py --project plotnine
 
 # Date range
-uv run python fetch_pypi.py --start-date 2025-01-01 --end-date 2025-01-31
+uv run python scripts/fetch-pypi.py --start-date 2025-01-01 --end-date 2025-01-31
 ```
 
 **Authentication**: None required
@@ -322,13 +322,13 @@ uv run python fetch_pypi.py --start-date 2025-01-01 --end-date 2025-01-31
 
 ```bash
 # Fetch yesterday's data for all R projects with 'cran' field
-uv run python fetch_cran.py
+uv run python scripts/fetch-cran.py
 
 # Specific project
-uv run python fetch_cran.py --project ggplot2
+uv run python scripts/fetch-cran.py --project ggplot2
 
 # Date range
-uv run python fetch_cran.py --start-date 2025-01-01 --end-date 2025-01-31
+uv run python scripts/fetch-cran.py --start-date 2025-01-01 --end-date 2025-01-31
 ```
 
 **Authentication**: None required
@@ -341,13 +341,13 @@ uv run python fetch_cran.py --start-date 2025-01-01 --end-date 2025-01-31
 
 ```bash
 # Fetch yesterday's data for all projects with 'plausible' field
-uv run python fetch_plausible.py --api-key YOUR_KEY
+uv run python scripts/fetch-plausible.py --api-key YOUR_KEY
 
 # Specific project
-uv run python fetch_plausible.py --project plotnine --api-key YOUR_KEY
+uv run python scripts/fetch-plausible.py --project plotnine --api-key YOUR_KEY
 
 # Date range
-uv run python fetch_plausible.py --start-date 2025-01-01 --end-date 2025-01-31 --api-key YOUR_KEY
+uv run python scripts/fetch-plausible.py --start-date 2025-01-01 --end-date 2025-01-31 --api-key YOUR_KEY
 ```
 
 **Authentication**: Plausible API key (required)
@@ -367,10 +367,10 @@ uv run python fetch_plausible.py --start-date 2025-01-01 --end-date 2025-01-31 -
 
 ```bash
 # Fetch yesterday's data
-uv run python fetch_ga.py
+uv run python scripts/fetch-ga.py
 
 # Date range
-uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
+uv run python scripts/fetch-ga.py --start-date 2025-01-01 --end-date 2025-01-31
 ```
 
 **Authentication**: OAuth 2.0 (requires setup)
@@ -391,7 +391,7 @@ uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 
 3. **First-time Authentication**:
    ```bash
-   uv run python fetch_ga.py
+   uv run python scripts/fetch-ga.py
    ```
    - A browser window will open for authentication
    - Sign in with your Google account (must have GA4 access)
@@ -413,13 +413,13 @@ uv run python fetch_ga.py --start-date 2025-01-01 --end-date 2025-01-31
 
 ```bash
 # Fetch yesterday's data for all projects with 'openvsx' field
-uv run python fetch_openvsx.py
+uv run python scripts/fetch-openvsx.py
 
 # Specific project
-uv run python fetch_openvsx.py --project quarto
+uv run python scripts/fetch-openvsx.py --project quarto
 
 # Output to stdout
-uv run python fetch_openvsx.py --project quarto --output -
+uv run python scripts/fetch-openvsx.py --project quarto --output -
 ```
 
 **Authentication**: None required (public API)
@@ -439,16 +439,16 @@ uv run python fetch_openvsx.py --project quarto --output -
 
 ```bash
 # Fetch using URL from config.toml
-uv run python fetch_inputs.py
+uv run python scripts/fetch-inputs.py
 
 # Fetch from specific URL
-uv run python fetch_inputs.py "https://docs.google.com/spreadsheets/d/SHEET_ID/edit"
+uv run python scripts/fetch-inputs.py "https://docs.google.com/spreadsheets/d/SHEET_ID/edit"
 
 # Download specific sheet by name
-uv run python fetch_inputs.py -s "Sheet Name"
+uv run python scripts/fetch-inputs.py -s "Sheet Name"
 
 # Custom output path
-uv run python fetch_inputs.py -o data/custom.csv
+uv run python scripts/fetch-inputs.py -o data/custom.csv
 ```
 
 **Authentication**: None (sheet must be publicly accessible)
@@ -486,13 +486,13 @@ uv run python fetch_inputs.py -o data/custom.csv
 
 ```bash
 # Manual run (processes specific directory)
-uv run python concat-dates.py data/output/github/quarto/*.jsonl
+uv run python scripts/concat-dates.py data/output/github/quarto/*.jsonl
 
 # Dry run to preview changes
-uv run python concat-dates.py --dry-run data/output/github/quarto/*.jsonl
+uv run python scripts/concat-dates.py --dry-run data/output/github/quarto/*.jsonl
 
 # Custom archive retention
-uv run python concat-dates.py --keep-days 180 data/output/github/quarto/*.jsonl
+uv run python scripts/concat-dates.py --keep-days 180 data/output/github/quarto/*.jsonl
 ```
 
 **Options**:
@@ -506,13 +506,13 @@ uv run python concat-dates.py --keep-days 180 data/output/github/quarto/*.jsonl
 
 ```bash
 # Aggregate all projects, all sources
-./aggregate-data.sh
+./scripts/aggregate-data.sh
 
 # Dry run
-./aggregate-data.sh --dry-run
+./scripts/aggregate-data.sh --dry-run
 
 # Custom retention
-./aggregate-data.sh --keep-days 180
+./scripts/aggregate-data.sh --keep-days 180
 ```
 
 This finds all directories with `.jsonl` files under `data/` and aggregates them.
@@ -523,7 +523,7 @@ This finds all directories with `.jsonl` files under `data/` and aggregates them
 
 ```bash
 # Create consolidated Parquet file
-uv run python output_to_parquet.py
+uv run python scripts/output-to-parquet.py
 ```
 
 **Output**: `data/output/all.parquet`
@@ -548,7 +548,7 @@ Interactive Shiny dashboard for visualizing DevRel metrics.
 just install
 
 # Run the Shiny app
-uv run shiny run app.py --port 8765
+uv run shiny run scripts/app.py --port 8765
 
 # Or use justfile shortcut
 just app
@@ -591,8 +591,8 @@ The workflow `.github/workflows/fetch-output.yml` automatically:
 2. Fetches Plausible analytics for projects with `plausible` field
 3. Fetches PyPI downloads for projects with `pypi` field
 4. Fetches CRAN downloads for projects with `cran` field
-5. Runs aggregation pipeline (`aggregate-data.sh`)
-6. Creates consolidated Parquet file (`output_to_parquet.py`)
+5. Runs aggregation pipeline (`scripts/aggregate-data.sh`)
+6. Creates consolidated Parquet file (`scripts/output-to-parquet.py`)
 7. Commits and pushes data to the repository
 
 **Schedule**: Daily at 1am ET (6am UTC)
@@ -645,13 +645,13 @@ The workflow `.github/workflows/update-requirements.yml` automatically:
 2. Fetch historical data:
    ```bash
    # Fetch last 30 days
-   uv run python fetch_github.py --project my-new-project --start-date 2024-12-01 --end-date 2025-01-01
-   uv run python fetch_pypi.py --project my-new-project --start-date 2024-12-01 --end-date 2025-01-01
+   uv run python scripts/fetch-github.py --project my-new-project --start-date 2024-12-01 --end-date 2025-01-01
+   uv run python scripts/fetch-pypi.py --project my-new-project --start-date 2024-12-01 --end-date 2025-01-01
    ```
 
 3. Run aggregation:
    ```bash
-   ./aggregate-data.sh
+   ./scripts/aggregate-data.sh
    ```
 
 ### Backfilling Historical Data
@@ -660,16 +660,16 @@ Fetch data for a specific date range:
 
 ```bash
 # GitHub events for all of 2024
-uv run python fetch_github.py --project quarto --start-date 2024-01-01 --end-date 2024-12-31
+uv run python scripts/fetch-github.py --project quarto --start-date 2024-01-01 --end-date 2024-12-31
 
 # PyPI downloads for a specific month
-uv run python fetch_pypi.py --project plotnine --start-date 2024-11-01 --end-date 2024-11-30
+uv run python scripts/fetch-pypi.py --project plotnine --start-date 2024-11-01 --end-date 2024-11-30
 ```
 
 Then aggregate:
 
 ```bash
-./aggregate-data.sh
+./scripts/aggregate-data.sh
 ```
 
 ### Troubleshooting Failed Fetches
@@ -697,13 +697,13 @@ Run aggregation after manual data fetches:
 
 ```bash
 # Aggregate all projects
-./aggregate-data.sh
+./scripts/aggregate-data.sh
 
 # Preview changes first
-./aggregate-data.sh --dry-run
+./scripts/aggregate-data.sh --dry-run
 
 # Aggregate specific project
-uv run python concat-dates.py data/output/github/quarto/*.jsonl
+uv run python scripts/concat-dates.py data/output/github/quarto/*.jsonl
 ```
 
 ### Viewing Raw Data
@@ -817,17 +817,21 @@ just export-deps         # Export requirements.txt for deployment
 
 ```
 devrel-io/
-├── fetch_*.py              # Data collection scripts
-├── concat-dates.py         # Aggregation logic
-├── aggregate-data.sh       # Aggregation wrapper
-├── output_to_parquet.py    # Parquet consolidation
-├── app.py                  # Shiny dashboard
+├── scripts/                # All scripts
+│   ├── fetch-*.py          # Data collection scripts
+│   ├── concat-dates.py     # Aggregation logic
+│   ├── aggregate-data.sh   # Aggregation wrapper
+│   ├── output-to-parquet.py # Parquet consolidation
+│   ├── app.py              # Shiny dashboard
+│   ├── sort-config.py      # Config file sorter
+│   └── utils.py            # Shared utilities
 ├── config.toml             # Project configuration
 ├── pyproject.toml          # Python dependencies
 ├── justfile                # Command shortcuts
 ├── .github/workflows/      # GitHub Actions
 │   ├── fetch-output.yml    # Daily data collection
-│   └── update-requirements.yml  # Dependency sync
+│   ├── update-requirements.yml  # Dependency sync
+│   └── validate-config.yml # Config validation
 └── data/                   # Data storage
     ├── input/              # Google Sheets data
     └── output/             # Collected metrics
@@ -839,10 +843,10 @@ Test with a single project and recent date:
 
 ```bash
 # Test GitHub fetch
-uv run python fetch_github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-01
+uv run python scripts/fetch-github.py --project quarto --start-date 2025-01-01 --end-date 2025-01-01
 
 # Test PyPI fetch
-uv run python fetch_pypi.py --project plotnine --start-date 2025-01-01 --end-date 2025-01-01
+uv run python scripts/fetch-pypi.py --project plotnine --start-date 2025-01-01 --end-date 2025-01-01
 
 # Verify output
 ls -lh data/output/github/quarto/
@@ -860,7 +864,7 @@ All fetch scripts follow a common pattern:
 5. **Group by date**: `group_by_date()` organizes records
 6. **Write JSONL**: One file per project per date
 
-See `fetch_pypi.py` for a simple, well-commented example.
+See `scripts/fetch-pypi.py` for a simple, well-commented example.
 
 ---
 

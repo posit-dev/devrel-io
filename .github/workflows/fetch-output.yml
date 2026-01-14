@@ -27,31 +27,31 @@ jobs:
 
       - name: Fetch GitHub events for all projects
         run: |
-          uv run python fetch_github.py --token ${{ secrets.GH_TOKEN }}
+          uv run python scripts/fetch-github.py --token ${{ secrets.GH_TOKEN }}
 
       - name: Fetch Plausible analytics for all projects
         run: |
-          uv run python fetch_plausible.py --api-key ${{ secrets.PLAUSIBLE_KEY }}
+          uv run python scripts/fetch-plausible.py --api-key ${{ secrets.PLAUSIBLE_KEY }}
 
       - name: Fetch PyPI downloads for all projects
         run: |
-          uv run python fetch_pypi.py
+          uv run python scripts/fetch-pypi.py
 
       - name: Fetch CRAN downloads for all projects
         run: |
-          uv run python fetch_cran.py
+          uv run python scripts/fetch-cran.py
 
       - name: Fetch Open VSX metrics for all projects
         run: |
-          uv run python fetch_openvsx.py
+          uv run python scripts/fetch-openvsx.py
 
       - name: Aggregate data files
         run: |
-          ./aggregate-data.sh
+          ./scripts/aggregate-data.sh
 
       - name: Combine output into one Parquet file
         run: |
-          uv run python output_to_parquet.py
+          uv run python scripts/output-to-parquet.py
 
       - name: Commit and push data
         run: |

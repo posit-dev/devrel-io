@@ -52,7 +52,7 @@ find data -type d | while IFS= read -r dir; do
         echo "=================================================="
 
         # Run concat-dates.py with all arguments
-        uv run python concat-dates.py $DRY_RUN $FORCE --keep-days "$KEEP_DAYS" "$dir"/*.jsonl
+        uv run python scripts/concat-dates.py $DRY_RUN $FORCE --keep-days "$KEEP_DAYS" "$dir"/*.jsonl
 
         echo ""
     fi
