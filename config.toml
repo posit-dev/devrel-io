@@ -171,3 +171,37 @@ description = "Orbital data processing and analysis in R"
 cran = "orbital"
 hex_color = "#FF8C42"
 
+[projects.publisher]
+name = "Posit Publisher"
+language = "typescript"
+github = "posit-dev/publisher"
+description = "Publish and share your Python and R content on Posit Connect"
+openvsx = "posit/publisher"
+hex_color = "#447099"
+
+[projects.air]
+name = "Air - R Language Support"
+language = "r"
+github = "posit-dev/air"
+website = "https://posit-dev.github.io/air/"
+description = "R formatter and language server"
+openvsx = "posit/air-vscode"
+hex_color = "#276DC3"
+
+[projects.databot]
+name = "Databot"
+language = "typescript"
+github = "posit-dev/databot"
+description = "Databot extension for Positron"
+openvsx = "posit/databot"
+hex_color = "#E15759"
+
+[projects.shinyuieditor]
+name = "ShinyUiEditor"
+language = "r"
+github = "rstudio/shinyuieditor"
+website = "https://rstudio.github.io/shinyuieditor/"
+description = "A GUI for laying out a Shiny application that generates clean and human-readable UI code"
+openvsx = "posit/shinyuieditor"
+hex_color = "#4E79A7"
+
