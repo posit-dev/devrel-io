@@ -201,11 +201,11 @@ def main():
         else:
             print("Error: No URL provided and no config.toml found", file=sys.stderr)
             print(
-                "\nEither provide a URL as argument or create a config.toml file:",
+                "\nEither provide a URL as argument or add the URL to config.toml:",
                 file=sys.stderr,
             )
-            print("  cp config.toml.example config.toml", file=sys.stderr)
-            print("  # Edit config.toml with your Google Sheets URL", file=sys.stderr)
+            print("  [gsheet]", file=sys.stderr)
+            print('  url = "https://docs.google.com/spreadsheets/d/..."', file=sys.stderr)
             sys.exit(1)
 
     try:

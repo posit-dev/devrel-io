@@ -51,10 +51,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # macOS: brew install just
 # Linux: cargo install just
 
-# 4. Copy config template
-cp config.toml.example config.toml
-
-# 5. Install dependencies
+# 4. Install dependencies
 uv sync
 # Or with just:
 just install
