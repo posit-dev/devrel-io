@@ -21,6 +21,7 @@ fetch:
     uv run python fetch_pypi.py
     uv run python fetch_cran.py
     uv run python fetch_plausible.py
+    uv run python fetch_openvsx.py
     ./aggregate-data.sh
     uv run python output_to_parquet.py
 

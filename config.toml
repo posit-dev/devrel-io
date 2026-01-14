@@ -97,6 +97,7 @@ website = "https://quarto.org"
 plausible = "quarto.org"
 description = "Open-source scientific and technical publishing system"
 hex_color = "#75AADB"
+openvsx = "quarto/quarto"
 
 [projects.shiny-python]
 name = "Shiny for Python"
@@ -107,6 +108,7 @@ plausible = "shiny.posit.co/py/"
 description = "Build interactive web applications in Python"
 pypi = "shiny"
 hex_color = "#027BC2"
+openvsx = "posit/shiny"
 
 [projects.shiny-r]
 name = "Shiny for R"
@@ -117,6 +119,7 @@ plausible = "shiny.posit.co"
 description = "Build interactive web applications in R"
 cran = "shiny"
 hex_color = "#000000"
+openvsx = "posit/shiny"
 
 [projects.ggplot2]
 name = "ggplot2"
