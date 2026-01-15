@@ -39,24 +39,24 @@ app:
     uv run shiny run scripts/app.py --port 8765 --reload --launch-browser
 
 # Fetch GitHub events for all projects
-fetch-github:
-    uv run python scripts/fetch-github.py
+fetch-github *ARGS:
+    uv run python scripts/fetch-github.py {{ARGS}}
 
 # Fetch PyPI downloads for all projects
-fetch-pypi:
-    uv run python scripts/fetch-pypi.py
+fetch-pypi *ARGS:
+    uv run python scripts/fetch-pypi.py {{ARGS}}
 
 # Fetch CRAN downloads for all projects
-fetch-cran:
-    uv run python scripts/fetch-cran.py
+fetch-cran *ARGS:
+    uv run python scripts/fetch-cran.py {{ARGS}}
 
 # Fetch Plausible analytics for all projects
-fetch-plausible:
-    uv run python scripts/fetch-plausible.py
+fetch-plausible *ARGS:
+    uv run python scripts/fetch-plausible.py {{ARGS}}
 
 # Fetch Open VSX metrics for all projects
-fetch-openvsx:
-    uv run python scripts/fetch-openvsx.py
+fetch-openvsx *ARGS:
+    uv run python scripts/fetch-openvsx.py {{ARGS}}
 
 # Aggregate daily data into monthly/yearly files
 aggregate-data:
