@@ -38,15 +38,43 @@ app:
     -lsof -ti:8765 | xargs kill -9 2>/dev/null || true
     uv run shiny run scripts/app.py --port 8765 --reload --launch-browser
 
+# Fetch GitHub events for all projects
+fetch-github:
+    uv run python scripts/fetch-github.py
+
+# Fetch PyPI downloads for all projects
+fetch-pypi:
+    uv run python scripts/fetch-pypi.py
+
+# Fetch CRAN downloads for all projects
+fetch-cran:
+    uv run python scripts/fetch-cran.py
+
+# Fetch Plausible analytics for all projects
+fetch-plausible:
+    uv run python scripts/fetch-plausible.py
+
+# Fetch Open VSX metrics for all projects
+fetch-openvsx:
+    uv run python scripts/fetch-openvsx.py
+
+# Aggregate daily data into monthly/yearly files
+aggregate-data:
+    ./scripts/aggregate-data.sh
+
+# Consolidate all data sources into single Parquet file
+output-to-parquet:
+    uv run python scripts/output-to-parquet.py
+
 # Fetch all data sources and aggregate
 fetch:
-    uv run python scripts/fetch-github.py
-    uv run python scripts/fetch-pypi.py
-    uv run python scripts/fetch-cran.py
-    uv run python scripts/fetch-plausible.py
-    uv run python scripts/fetch-openvsx.py
-    ./scripts/aggregate-data.sh
-    uv run python scripts/output-to-parquet.py
+    just fetch-github
+    just fetch-pypi
+    just fetch-cran
+    just fetch-plausible
+    just fetch-openvsx
+    just aggregate-data
+    just output-to-parquet
 
 # Export dependencies to requirements.txt for Posit Connect
 export-deps:
