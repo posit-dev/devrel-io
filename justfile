@@ -67,12 +67,12 @@ output-to-parquet:
     uv run python scripts/output-to-parquet.py
 
 # Fetch all data sources and aggregate
-fetch:
-    just fetch-github
-    just fetch-pypi
-    just fetch-cran
-    just fetch-plausible
-    just fetch-openvsx
+fetch PROJECT="":
+    just fetch-github {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
+    just fetch-pypi {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
+    just fetch-cran {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
+    just fetch-plausible {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
+    just fetch-openvsx {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
     just aggregate-data
     just output-to-parquet
 
