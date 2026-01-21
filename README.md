@@ -41,7 +41,7 @@ Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, and we
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/jeroenjanssens/devrel-io.git
+git clone https://github.com/posit-dev/devrel-io.git
 cd devrel-io
 
 # 2. Install uv (if not already installed)
