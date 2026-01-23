@@ -1,0 +1,4 @@
+{"event_type": "issue_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-22T00:49:18Z", "user": "rich-iannone"}
+{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-22T21:36:39Z", "user": "rich-iannone"}
+{"event_type": "pr_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-22T04:21:10Z", "user": "rich-iannone"}
+{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-22T14:22:10Z", "user": "unknown"}
