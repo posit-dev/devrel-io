@@ -1,7 +1,0 @@
-{"event_type": "issue_close", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T15:04:00Z", "user": "schloerke"}
-{"event_type": "pr_open", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T15:38:20Z", "user": "schloerke"}
-{"event_type": "pr_merge", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T20:30:47Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T15:57:57Z", "user": "gadenbuie"}
-{"event_type": "issue_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T15:08:19Z", "user": "schloerke"}
-{"event_type": "issue_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T15:04:00Z", "user": "schloerke"}
-{"event_type": "issue_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-10-10T06:21:03Z", "user": "mlechon"}
