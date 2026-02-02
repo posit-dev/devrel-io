@@ -58,6 +58,10 @@ fetch-plausible *ARGS:
 fetch-openvsx *ARGS:
     uv run python scripts/fetch-openvsx.py {{ARGS}}
 
+# Fetch Buzzsprout podcast metrics for all projects
+fetch-buzzsprout *ARGS:
+    uv run python scripts/fetch-buzzsprout.py {{ARGS}}
+
 # Aggregate daily data into monthly/yearly files
 aggregate-data:
     ./scripts/aggregate-data.sh
@@ -73,6 +77,7 @@ fetch PROJECT="":
     just fetch-cran {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
     just fetch-plausible {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
     just fetch-openvsx {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}
+    @if [ -n "${BUZZSPROUT_API_KEY:-}" ]; then just fetch-buzzsprout {{ if PROJECT != "" { "--project " + PROJECT } else { "" } }}; else echo "Skipping buzzsprout (no BUZZSPROUT_API_KEY)"; fi
     just aggregate-data
     just output-to-parquet
 
