@@ -187,19 +187,25 @@ def filter_by_date_range(
     if not start_date or not end_date or date_column not in df.columns:
         return df
 
-    df = df.with_columns(
-        pl.col(date_column)
-        .str.strptime(
-            pl.Datetime, "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
+    format_str = "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
+
+    # Convert to datetime (handle both String and Date types)
+    if df[date_column].dtype == pl.Date:
+        df = df.with_columns(
+            pl.col(date_column).cast(pl.Datetime).dt.replace_time_zone("UTC")
         )
-        .dt.replace_time_zone("UTC")
-    )
+    elif df[date_column].dtype == pl.Utf8:
+        df = df.with_columns(
+            pl.col(date_column).str.strptime(pl.Datetime, format_str).dt.replace_time_zone("UTC")
+        )
+    elif df[date_column].dtype == pl.Datetime:
+        df = df.with_columns(pl.col(date_column).dt.replace_time_zone("UTC"))
+
     df = df.filter(
         (pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date)
     )
 
     # Convert back to string for consistency
-    format_str = "%Y-%m-%d" if date_column == "date" else "%Y-%m-%dT%H:%M:%SZ"
     df = df.with_columns(
         pl.col(date_column).dt.convert_time_zone("UTC").dt.strftime(format_str)
     )
@@ -239,11 +245,20 @@ def filter_metric_data(
 
     # Filter by date range
     if start_date and end_date and date_column in df.columns:
-        df = df.with_columns(
-            pl.col(date_column)
-            .str.strptime(pl.Datetime, date_format)
-            .dt.replace_time_zone("UTC")
-        )
+        # Convert to datetime (handle both String and Date types)
+        if df[date_column].dtype == pl.Date:
+            df = df.with_columns(
+                pl.col(date_column).cast(pl.Datetime).dt.replace_time_zone("UTC")
+            )
+        elif df[date_column].dtype == pl.Utf8:
+            df = df.with_columns(
+                pl.col(date_column)
+                .str.strptime(pl.Datetime, date_format)
+                .dt.replace_time_zone("UTC")
+            )
+        elif df[date_column].dtype == pl.Datetime:
+            df = df.with_columns(pl.col(date_column).dt.replace_time_zone("UTC"))
+
         df = df.filter(
             (pl.col(date_column) >= start_date) & (pl.col(date_column) <= end_date)
         )
@@ -267,8 +282,12 @@ def aggregate_single_metric(
     if df.is_empty():
         return pl.DataFrame()
 
-    # Convert date string to datetime
-    df = df.with_columns(pl.col(date_column).str.strptime(pl.Datetime, date_format))
+    # Convert date to datetime (handle both String and Date types)
+    if df[date_column].dtype == pl.Date:
+        df = df.with_columns(pl.col(date_column).cast(pl.Datetime))
+    elif df[date_column].dtype == pl.Utf8:
+        df = df.with_columns(pl.col(date_column).str.strptime(pl.Datetime, date_format))
+    # If already Datetime, no conversion needed
 
     # Rename date column to datetime for consistency
     if date_column != "datetime":
