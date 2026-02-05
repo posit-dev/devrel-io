@@ -322,9 +322,9 @@ def main():
                     file=sys.stderr,
                 )
             else:
-                project_start_date = parse_date("2000-01-01")
+                project_start_date = parse_date("2025-06-30")
                 print(
-                    f"No existing data for {project_id}, starting from 2000-01-01",
+                    f"No existing data for {project_id}, starting from 2025-06-30",
                     file=sys.stderr,
                 )
 
