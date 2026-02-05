@@ -45,6 +45,19 @@ jobs:
         run: |
           uv run python scripts/fetch-openvsx.py
 
+      - name: Install Playwright for Buzzsprout scraper
+        if: ${{ secrets.BUZZSPROUT_USER != '' && secrets.BUZZSPROUT_PASS != '' }}
+        run: |
+          playwright install --with-deps chromium
+
+      - name: Fetch Buzzsprout podcast data
+        if: ${{ secrets.BUZZSPROUT_USER != '' && secrets.BUZZSPROUT_PASS != '' }}
+        run: |
+          uv run python scripts/fetch-buzzsprout.py
+        env:
+          BUZZSPROUT_USER: ${{ secrets.BUZZSPROUT_USER }}
+          BUZZSPROUT_PASS: ${{ secrets.BUZZSPROUT_PASS }}
+
       - name: Aggregate data files
         run: |
           ./scripts/aggregate-data.sh

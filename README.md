@@ -2,11 +2,11 @@
 
 **Automated collection and aggregation of developer relations metrics from multiple sources**
 
-Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, and web analytics. Designed for developer relations teams monitoring open source projects.
+Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, Buzzsprout, and web analytics. Designed for developer relations teams monitoring open source projects.
 
 ## Key Features
 
-- **Multi-source data collection**: GitHub events, PyPI downloads, CRAN downloads, Plausible analytics, Google Analytics, Google Sheets
+- **Multi-source data collection**: GitHub events, PyPI downloads, CRAN downloads, Buzzsprout podcast stats, Plausible analytics, Google Analytics, Google Sheets
 - **Automated daily updates**: GitHub Actions workflow fetches yesterday's data every night
 - **Smart aggregation**: Daily files automatically merge into monthly and yearly aggregates with deduplication
 - **Interactive dashboard**: Shiny app for visualizing metrics and trends
@@ -99,6 +99,9 @@ data/
     ├── openvsx/               # Open VSX extension metrics
     │   ├── quarto/
     │   └── ...
+    ├── buzzsprout/            # Buzzsprout podcast downloads
+    │   ├── open-source-directions/
+    │   └── ...
     └── all.parquet            # Consolidated data (all sources)
 ```
 
@@ -185,6 +188,7 @@ hex_color = "#3976B3"           # For dashboard visualization
 | `pypi` | PyPI package name | For PyPI downloads |
 | `cran` | CRAN package name | For CRAN downloads |
 | `plausible` | Plausible site ID | For web analytics |
+| `buzzsprout` | Buzzsprout podcast ID | For podcast downloads |
 | `google_analytics_property` | GA4 property ID | For GA4 data |
 | `website` | Project website | Optional |
 | `description` | Short description | Optional |
@@ -430,6 +434,33 @@ uv run python scripts/fetch-openvsx.py --project quarto --output -
 
 **Note**: This API provides snapshot data only (no historical data), so each run fetches yesterday's metrics.
 
+### fetch_buzzsprout.py
+
+**Fetches**: Daily podcast download counts from Buzzsprout
+
+```bash
+# Fetch data for all projects with 'buzzsprout' field (auto-detects start date)
+uv run python scripts/fetch-buzzsprout.py
+
+# Specific project
+uv run python scripts/fetch-buzzsprout.py --project open-source-directions
+
+# Date range
+uv run python scripts/fetch-buzzsprout.py --start-date 2025-01-01 --end-date 2025-01-31
+```
+
+**Authentication**: Buzzsprout credentials (required)
+
+1. Add to `.env`:
+   ```bash
+   BUZZSPROUT_USER=your_email
+   BUZZSPROUT_PASS=your_password
+   ```
+
+**Dependencies**: Requires Playwright (`playwright install chromium`)
+
+**Output**: `data/output/buzzsprout/{project}/{date}.jsonl`
+
 ### fetch_inputs.py
 
 **Fetches**: Google Sheets data as CSV
@@ -588,7 +619,8 @@ The workflow `.github/workflows/fetch-output.yml` automatically:
 2. Fetches Plausible analytics for projects with `plausible` field
 3. Fetches PyPI downloads for projects with `pypi` field
 4. Fetches CRAN downloads for projects with `cran` field
-5. Runs aggregation pipeline (`scripts/aggregate-data.sh`)
+5. Fetches Buzzsprout podcast downloads for projects with `buzzsprout` field (when credentials are configured)
+6. Runs aggregation pipeline (`scripts/aggregate-data.sh`)
 6. Creates consolidated Parquet file (`scripts/output-to-parquet.py`)
 7. Commits and pushes data to the repository
 
@@ -609,8 +641,11 @@ The workflow `.github/workflows/fetch-output.yml` automatically:
    - Get from Plausible: Settings → API Keys
    - Copy and add as repository secret
 
-**Optional secrets** (for Google Analytics):
-- `GOOGLE_OAUTH_REFRESH_TOKEN`
+**Optional secrets**:
+
+- `BUZZSPROUT_USER`: Buzzsprout account email (for podcast downloads)
+- `BUZZSPROUT_PASS`: Buzzsprout account password
+- `GOOGLE_OAUTH_REFRESH_TOKEN` (for Google Analytics)
 - `GOOGLE_OAUTH_CLIENT_ID`
 - `GOOGLE_OAUTH_CLIENT_SECRET`
 
@@ -748,6 +783,7 @@ just export-deps         # Export requirements.txt for deployment
 | Plausible | `plausible.io/api/v2` | Required (API key) |
 | Google Analytics | `analyticsdata.googleapis.com` | OAuth 2.0 |
 | Open VSX | `open-vsx.org/api` | None |
+| Buzzsprout | `buzzsprout.com` (headless scraper) | Required (email/password) |
 
 ### File Format Examples
 
@@ -778,6 +814,11 @@ just export-deps         # Export requirements.txt for deployment
 {"metric": "total_downloads", "project_id": "quarto", "date": "2025-01-15", "value": 1200780}
 {"metric": "rating", "project_id": "quarto", "date": "2025-01-15", "value": 5.0}
 {"metric": "reviews", "project_id": "quarto", "date": "2025-01-15", "value": 1}
+```
+
+**Buzzsprout downloads**:
+```json
+{"metric": "downloads", "project_id": "open-source-directions", "date": "2025-01-15", "value": 234}
 ```
 
 ### Troubleshooting

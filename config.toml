@@ -195,6 +195,11 @@ name = "Supported By Posit"
 plausible = "posit-dev.github.io/supported-by-posit"
 website = "https://posit-dev.github.io/supported-by-posit"
 
+[projects.the-test-set]
+buzzsprout = "2512485"
+description = "The Test Set podcast"
+name = "The Test Set"
+
 [projects.tidyverse]
 cran = "tidyverse"
 description = "Collection of R packages for data science"

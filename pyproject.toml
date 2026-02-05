@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "altair>=6.0.0",
+    "buzzsprout-headless @ git+https://github.com/posit-dev/buzzsprout-headless@2d39024f3e6b94cf4ef65745525c58b0b1ca2143",
     "anthropic>=0.75.0",
     "boto3>=1.42.24",
     "chatlas[bedrock-anthropic]>=0.15.0",
