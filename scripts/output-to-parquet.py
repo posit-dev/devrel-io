@@ -8,7 +8,7 @@ dfs = [
     pl.read_ndjson(f"data/output/{x}/*/*.jsonl", include_file_paths="source")
     .with_columns(pl.col("date").str.to_date())
     .unique(["project_id", "metric", "date", "source"])
-    for x in ["cran", "openvsx", "plausible", "pypi"]
+    for x in ["cran", "openvsx", "plausible", "pypi", "dwh"]
 ]
 
 dfs.append(
