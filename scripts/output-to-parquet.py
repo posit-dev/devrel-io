@@ -2,7 +2,7 @@
 
 import polars as pl
 
-OUTPUT = "data/output/all.parquet"
+OUTPUT = "data/output.parquet"
 
 dfs = [
     pl.read_ndjson(f"data/output/{x}/*/*.jsonl", include_file_paths="source")
