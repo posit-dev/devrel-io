@@ -27,7 +27,6 @@
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T09:47:09Z", "user": "marcofog"}
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T15:46:24Z", "user": "juliasilge"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T00:23:02Z", "user": "jennybc"}
-{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T20:19:25Z", "user": "smithjd"}
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T16:48:35Z", "user": "jonvanausdeln"}
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T13:57:05Z", "user": "sgbstats"}
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-11-25T19:27:47Z", "user": "netique"}

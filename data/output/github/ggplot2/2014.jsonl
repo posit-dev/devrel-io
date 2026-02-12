@@ -1101,7 +1101,7 @@
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-21T14:06:58Z", "user": "hadley"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-21T15:05:13Z", "user": "joe11051105"}
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-21T15:20:26Z", "user": "lccanon"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-21T17:43:32Z", "user": "Wozniz"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-21T17:43:32Z", "user": "Zinzow-Kramer"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-22T14:49:43Z", "user": "manuelmateus16"}
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-23T02:42:45Z", "user": "JamesD73"}
 {"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2014-07-23T03:10:46Z", "user": "JamesD73"}

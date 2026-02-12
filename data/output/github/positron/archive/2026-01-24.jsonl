@@ -1,7 +1,14 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T07:59:41Z", "user": "tubarl"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T18:55:47Z", "user": "austin3dickey"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T17:55:53Z", "user": "roddikx"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T17:03:07Z", "user": "roddikx"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T14:34:24Z", "user": "etiennebacher"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:15:24Z", "user": "rodrigosf672"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:18:43Z", "user": "rodrigosf672"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:13:50Z", "user": "rodrigosf672"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:07:17Z", "user": "rodrigosf672"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:10:49Z", "user": "rodrigosf672"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T01:05:05Z", "user": "rodrigosf672"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T19:03:39Z", "user": "austin3dickey"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T04:17:52Z", "user": "austin3dickey"}
 {"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-24T19:34:42Z", "user": "austin3dickey"}

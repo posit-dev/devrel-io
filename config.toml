@@ -40,7 +40,7 @@ website = "https://dplyr.tidyverse.org"
 
 [projects.ellmer]
 cran = "ellmer"
-github = "posit-dev/ellmer"
+github = "tidyverse/ellmer"
 hex_color = "#06BC97"
 language = "r"
 name = "Ellmer"

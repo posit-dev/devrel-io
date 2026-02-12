@@ -1,3 +1,4 @@
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-15T12:35:38Z", "user": "astrochemx"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-15T02:45:34Z", "user": "gks281263"}
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-15T02:48:27Z", "user": "gks281263"}
 {"event_type": "issue_close", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-15T11:51:38Z", "user": "DavisVaughan"}

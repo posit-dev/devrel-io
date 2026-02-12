@@ -1,4 +1,6 @@
+{"event_type": "star", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T11:39:44Z", "user": "PhysShell"}
 {"event_type": "issue_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T15:32:15Z", "user": "prncevince"}
+{"event_type": "issue_close", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T14:35:10Z", "user": "cderv"}
 {"event_type": "pr_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T21:10:36Z", "user": "cderv"}
 {"event_type": "pr_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T11:10:31Z", "user": "cderv"}
 {"event_type": "pr_merge", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-01-27T14:35:09Z", "user": "unknown"}

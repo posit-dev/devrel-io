@@ -1,3 +1,5 @@
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-02-04T09:50:27Z", "user": "craig-parylo"}
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-02-04T22:36:36Z", "user": "z4-xz"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-02-04T11:36:39Z", "user": "wurli"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-02-04T11:49:18Z", "user": "wurli"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-02-04T15:21:22Z", "user": "DavisVaughan"}

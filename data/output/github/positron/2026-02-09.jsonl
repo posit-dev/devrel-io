@@ -1,3 +1,4 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T12:55:58Z", "user": "mthh"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T23:58:43Z", "user": "softwarenerd"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T20:28:39Z", "user": "jthomasmock"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T18:57:34Z", "user": "DavisVaughan"}
@@ -14,6 +15,9 @@
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T18:48:04Z", "user": "sharon-wang"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T03:14:02Z", "user": "matthewgson"}
 {"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T03:15:56Z", "user": "matthewgson"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T05:56:54Z", "user": "LeiYangGH"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T16:57:47Z", "user": "jonvanausdeln"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T18:44:51Z", "user": "jonvanausdeln"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T21:45:07Z", "user": "timtmok"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T20:37:16Z", "user": "dhruvisompura"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T19:48:55Z", "user": "midleman"}
@@ -23,6 +27,15 @@
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T16:24:09Z", "user": "midleman"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T16:20:04Z", "user": "jonvanausdeln"}
 {"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T18:37:59Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T16:46:36Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T23:11:24Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T15:10:27Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T14:38:37Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T20:26:41Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T18:25:56Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T22:41:48Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T17:36:21Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T16:56:55Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T23:48:03Z", "user": "dhruvisompura"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T22:51:46Z", "user": "sharon-wang"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-09T22:48:07Z", "user": "jmcphers"}

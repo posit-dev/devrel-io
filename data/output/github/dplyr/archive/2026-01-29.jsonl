@@ -2,5 +2,6 @@
 {"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T20:34:25Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T16:38:40Z", "user": "DavisVaughan"}
 {"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T16:49:53Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T16:52:16Z", "user": "unknown"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T16:50:39Z", "user": "hadley"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2026-01-29T16:45:52Z", "user": "ldecicco-USGS"}

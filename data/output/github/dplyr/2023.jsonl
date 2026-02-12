@@ -1511,7 +1511,6 @@
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T07:35:41Z", "user": "juniormnunes"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T14:20:03Z", "user": "salim-b"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T18:01:06Z", "user": "cinerodrigo"}
-{"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T18:05:18Z", "user": "Anderson-Nunes-Franco"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T18:31:23Z", "user": "VirgilioAGPedrosa"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T21:03:05Z", "user": "scarioscia"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2023-06-29T21:04:27Z", "user": "scarioscia"}

@@ -7,11 +7,11 @@
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-11-26T16:55:02Z", "user": "unknown"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-04T16:49:23Z", "user": "wch"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-07T18:18:13Z", "user": "cpsievert"}
-{"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-14T20:12:22Z", "user": "cpsievert"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-14T16:14:29Z", "user": "unknown"}
+{"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-14T20:12:22Z", "user": "cpsievert"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-15T22:13:49Z", "user": "cpsievert"}
-{"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-17T18:17:30Z", "user": "cpsievert"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-17T16:40:10Z", "user": "cpsievert"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-17T17:30:43Z", "user": "unknown"}
-{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-20T20:25:34Z", "user": "unknown"}
+{"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-17T18:17:30Z", "user": "cpsievert"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-20T20:19:22Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2021-12-20T20:25:34Z", "user": "unknown"}

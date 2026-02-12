@@ -1,3 +1,6 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T01:46:59Z", "user": "Mycosystema"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T17:42:45Z", "user": "phhe"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T18:38:03Z", "user": "henningsway"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T22:43:11Z", "user": "chipbrock"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T16:47:56Z", "user": "midleman"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T15:53:51Z", "user": "henningsway"}
@@ -21,6 +24,9 @@
 {"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T18:37:10Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T14:52:45Z", "user": "midleman"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T04:07:42Z", "user": "austin3dickey"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T13:32:44Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T14:46:07Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T01:18:47Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T23:55:34Z", "user": "jennybc"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T23:52:48Z", "user": "jennybc"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-08T23:28:09Z", "user": "jennybc"}

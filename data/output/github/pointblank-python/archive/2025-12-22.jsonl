@@ -1,3 +1,5 @@
+{"event_type": "star", "project_id": "pointblank-python", "github_repo": "posit-dev/pointblank", "datetime": "2025-12-22T17:10:16Z", "user": "dkapt"}
+{"event_type": "pr_merge", "project_id": "pointblank-python", "github_repo": "posit-dev/pointblank", "datetime": "2025-12-22T22:02:03Z", "user": "unknown"}
 {"event_type": "pr_comment", "project_id": "pointblank-python", "github_repo": "posit-dev/pointblank", "datetime": "2025-12-22T23:49:22Z", "user": "tylerriccio33"}
 {"event_type": "pr_comment", "project_id": "pointblank-python", "github_repo": "posit-dev/pointblank", "datetime": "2025-12-22T22:13:49Z", "user": "tylerriccio33"}
 {"event_type": "pr_comment", "project_id": "pointblank-python", "github_repo": "posit-dev/pointblank", "datetime": "2025-12-22T22:05:02Z", "user": "rich-iannone"}

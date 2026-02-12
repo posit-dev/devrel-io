@@ -1,3 +1,5 @@
+{"event_type": "star", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2025-12-10T02:12:01Z", "user": "adeze"}
+{"event_type": "star", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2025-12-10T19:14:26Z", "user": "bashxyz"}
 {"event_type": "fork", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2025-12-10T19:08:10Z", "user": "gordonwoodhull"}
 {"event_type": "issue_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2025-12-10T02:40:29Z", "user": "jtatria"}
 {"event_type": "issue_close", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2025-12-10T07:47:26Z", "user": "mcanouil"}

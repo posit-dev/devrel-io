@@ -1,3 +1,5 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-08T14:41:33Z", "user": "7CkShy"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-08T18:31:21Z", "user": "Yosuke-Maeda"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-08T20:41:36Z", "user": "juliasilge"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-08T03:47:10Z", "user": "posit-jenkins-enterprise[bot]"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-08T21:58:18Z", "user": "juliasilge"}

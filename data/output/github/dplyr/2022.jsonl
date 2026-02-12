@@ -1904,7 +1904,7 @@
 {"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-04T18:13:28Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-04T21:52:38Z", "user": "DavisVaughan"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-04T21:59:00Z", "user": "sda030"}
-{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-05T08:23:31Z", "user": "CodeWithLouie"}
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-05T08:23:31Z", "user": "valentinecoder"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-05T09:08:43Z", "user": "aloboa"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-05T10:32:35Z", "user": "krlmlr"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2022-11-05T16:59:09Z", "user": "hadley"}

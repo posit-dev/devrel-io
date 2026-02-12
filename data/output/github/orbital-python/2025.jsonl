@@ -132,7 +132,7 @@
 {"event_type": "issue_open", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-06-18T15:17:45Z", "user": "amol-"}
 {"event_type": "pr_merge", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-06-18T16:25:18Z", "user": "unknown"}
 {"event_type": "issue_close", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-06-18T16:25:19Z", "user": "amol-"}
-{"event_type": "star", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-06-27T00:16:48Z", "user": "z-ai-lab"}
+{"event_type": "star", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-06-27T00:16:48Z", "user": "zlatent"}
 {"event_type": "issue_open", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-07-04T23:00:16Z", "user": "emilyriederer"}
 {"event_type": "issue_open", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-07-04T23:56:36Z", "user": "emilyriederer"}
 {"event_type": "star", "project_id": "orbital-python", "github_repo": "posit-dev/orbital", "datetime": "2025-07-05T14:26:48Z", "user": "emilyriederer"}

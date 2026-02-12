@@ -5,5 +5,6 @@
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T20:19:08Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T15:38:34Z", "user": "schloerke"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T20:41:44Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T15:30:48Z", "user": "unknown"}
 {"event_type": "pr_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T20:11:38Z", "user": "Copilot"}
 {"event_type": "pr_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T20:07:31Z", "user": "schloerke"}

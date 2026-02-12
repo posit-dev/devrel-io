@@ -1,3 +1,4 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-11T07:34:21Z", "user": "P3ngu1nz"}
 {"event_type": "fork", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-11T00:12:17Z", "user": "falbukrek"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-11T03:59:15Z", "user": "xx02al"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-01-11T04:41:57Z", "user": "juliasilge"}

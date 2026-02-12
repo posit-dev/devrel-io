@@ -35,7 +35,6 @@
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-06T15:29:23Z", "user": "batpigandme"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-06T17:21:11Z", "user": "jemus42"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-06T17:38:11Z", "user": "karawoo"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-07T01:11:44Z", "user": "elionaimc"}
 {"event_type": "pr_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-07T03:38:53Z", "user": "HughParsonage"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-07T19:23:51Z", "user": "garciparedes"}
 {"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-01-08T02:19:31Z", "user": "qiaoD"}
@@ -447,7 +446,7 @@
 {"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T15:23:29Z", "user": "hadley"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T15:26:19Z", "user": "FAIRLADY111"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T15:30:03Z", "user": "AB-Kent"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T17:02:01Z", "user": "GitHubForCode"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T17:02:01Z", "user": "HendrikKuhl"}
 {"event_type": "pr_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T20:57:17Z", "user": "nzxwang"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-12T23:32:28Z", "user": "eidehua"}
 {"event_type": "pr_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-02-13T00:10:06Z", "user": "luisDVA"}
@@ -602,7 +601,7 @@
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-05T16:06:15Z", "user": "karawoo"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-05T17:36:24Z", "user": "josetanago"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-05T17:40:07Z", "user": "batpigandme"}
-{"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-06T00:22:50Z", "user": "charlie86"}
+{"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-06T00:22:50Z", "user": "sillyplots"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-06T14:11:42Z", "user": "ychclone"}
 {"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-06T16:13:10Z", "user": "Ryo-N7"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-03-06T16:13:10Z", "user": "Ryo-N7"}
@@ -2140,7 +2139,7 @@
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T01:49:14Z", "user": "nby578"}
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T03:44:06Z", "user": "eliocamp"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T04:17:06Z", "user": "amy17519"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T09:13:58Z", "user": "pykwok"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T09:13:58Z", "user": "Viviathome"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T09:14:19Z", "user": "yutannihilation"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T09:52:19Z", "user": "thomasp85"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-01T10:03:33Z", "user": "yutannihilation"}
@@ -2283,7 +2282,7 @@
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-13T17:00:43Z", "user": "taraskaduk"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T04:53:02Z", "user": "guigaoliveira"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T07:54:52Z", "user": "thomasp85"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T08:06:14Z", "user": "just520fun"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T08:06:14Z", "user": "ai-age-justforfun"}
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T09:38:09Z", "user": "everydayduffy"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T14:35:03Z", "user": "clauswilke"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2018-06-14T14:51:35Z", "user": "clauswilke"}

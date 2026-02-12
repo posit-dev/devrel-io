@@ -1,6 +1,18 @@
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-01T15:41:42Z", "user": "rassouldev"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-01T19:39:43Z", "user": "yigithsyn"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-04T17:49:44Z", "user": "chalvorsonjr"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-05T18:21:42Z", "user": "Sachin1801"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-06T20:56:23Z", "user": "schloerke"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-06T22:34:39Z", "user": "unknown"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-11T00:09:10Z", "user": "Snoopy989"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-12T19:19:43Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-12T19:38:55Z", "user": "gadenbuie"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-13T01:16:17Z", "user": "unknown"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-13T08:14:39Z", "user": "sebastianrothbucher"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-13T11:53:28Z", "user": "sfmig"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-14T11:46:00Z", "user": "vannitotaro"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-14T23:53:41Z", "user": "TiagoAdriaNunes"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-15T08:15:25Z", "user": "AshleyLee00"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T15:40:59Z", "user": "schloerke"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T15:42:53Z", "user": "schloerke"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T15:43:14Z", "user": "schloerke"}
@@ -18,8 +30,8 @@
 {"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T20:38:47Z", "user": "schloerke"}
 {"event_type": "issue_close", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T20:38:48Z", "user": "schloerke"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-16T21:06:03Z", "user": "schloerke"}
-{"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-19T15:29:35Z", "user": "sglbl"}
-{"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-19T15:37:58Z", "user": "sglbl"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-19T06:33:50Z", "user": "FutureBody"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T15:30:48Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T15:38:34Z", "user": "schloerke"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T19:59:35Z", "user": "schloerke"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-20T20:02:09Z", "user": "Copilot"}
@@ -50,6 +62,9 @@
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-21T21:02:13Z", "user": "unknown"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-21T21:14:47Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-23T16:22:40Z", "user": "cpsievert"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-24T12:09:59Z", "user": "carlocav"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-25T13:03:17Z", "user": "manoj00100"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-26T09:00:42Z", "user": "SHIMURA0"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T14:19:30Z", "user": "schloerke"}
 {"event_type": "pr_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T14:31:22Z", "user": "schloerke"}
 {"event_type": "pr_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T14:31:30Z", "user": "Copilot"}
@@ -60,4 +75,6 @@
 {"event_type": "pr_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T15:11:11Z", "user": "Copilot"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T15:18:29Z", "user": "unknown"}
 {"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T15:34:11Z", "user": "unknown"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-27T22:33:55Z", "user": "wurli"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-30T18:43:23Z", "user": "elnelson575"}
+{"event_type": "star", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-01-31T21:19:18Z", "user": "RicardoMMD"}

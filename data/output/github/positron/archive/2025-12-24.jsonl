@@ -1,3 +1,5 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-12-24T10:39:30Z", "user": "NoaLRX"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-12-24T12:26:01Z", "user": "wang4289"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-12-24T18:28:35Z", "user": "juliasilge"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-12-24T21:34:06Z", "user": "donboyd5"}
 {"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2025-12-24T18:28:53Z", "user": "github-actions[bot]"}

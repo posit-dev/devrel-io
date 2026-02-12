@@ -1,12 +1,17 @@
 {"event_type": "issue_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T18:15:21Z", "user": "andrewheiss"}
 {"event_type": "issue_close", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T23:36:49Z", "user": "jonkeane"}
 {"event_type": "issue_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T16:58:18Z", "user": "jonkeane"}
+{"event_type": "issue_close", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T16:17:19Z", "user": "fizzboop"}
 {"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T19:25:06Z", "user": "jonkeane"}
 {"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T23:36:47Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:12:27Z", "user": "dependabot[bot]"}
 {"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:33:48Z", "user": "unknown"}
 {"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:12:24Z", "user": "dependabot[bot]"}
 {"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:33:37Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T00:43:15Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:11:24Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T01:12:20Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T16:17:18Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T23:45:16Z", "user": "andrewheiss"}
 {"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T23:37:19Z", "user": "jonkeane"}
 {"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-22T19:14:06Z", "user": "jonkeane"}

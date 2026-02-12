@@ -79,7 +79,6 @@
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-22T16:10:19Z", "user": "thelema"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-22T16:28:14Z", "user": "wch"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-22T22:54:28Z", "user": "thelema"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-23T16:01:59Z", "user": "noralink"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-24T00:02:33Z", "user": "jbmartin"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-25T06:43:35Z", "user": "wch"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-02-25T16:09:51Z", "user": "thelema"}
@@ -499,7 +498,6 @@
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-18T14:22:51Z", "user": "wenbostar"}
 {"event_type": "issue_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-19T18:50:05Z", "user": "bryanhanson"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-20T11:44:07Z", "user": "antagomir"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-23T06:33:34Z", "user": "pe3"}
 {"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-23T17:00:18Z", "user": "amackey"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-23T20:03:53Z", "user": "amackey"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-09-27T17:54:43Z", "user": "blackandtan"}
@@ -533,7 +531,7 @@
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-14T21:56:30Z", "user": "snahor"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T01:50:36Z", "user": "flynnwang"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T02:12:37Z", "user": "kitelife"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T03:50:59Z", "user": "hernamesbarbara"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T03:50:59Z", "user": "austinogilvie"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T10:43:17Z", "user": "HowardMei"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-15T13:11:19Z", "user": "leechannl"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2013-10-16T14:00:30Z", "user": "frankrd"}

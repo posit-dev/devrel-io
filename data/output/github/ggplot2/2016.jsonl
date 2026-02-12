@@ -952,7 +952,6 @@
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-25T15:47:34Z", "user": "jaredmpeterson"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-25T19:30:58Z", "user": "YukunZhang"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-26T02:32:48Z", "user": "nishitpatel01"}
-{"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-26T02:32:55Z", "user": "nishitpatel01"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-26T04:21:49Z", "user": "danilecas"}
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-26T09:53:18Z", "user": "SamJake"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-05-26T14:26:58Z", "user": "xw393"}
@@ -2929,7 +2928,7 @@
 {"event_type": "issue_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-27T18:27:53Z", "user": "hadley"}
 {"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T04:37:55Z", "user": "Hungmiau"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T05:57:15Z", "user": "HCH1"}
-{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T10:24:44Z", "user": "dyllanwli"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T10:24:44Z", "user": "bruce3401"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T18:26:02Z", "user": "bac3917"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T19:18:13Z", "user": "borntoburnyo"}
 {"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2016-10-28T20:52:41Z", "user": "paulhendricks"}

@@ -1,5 +1,6 @@
-{"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T17:16:25Z", "user": "iamYannC"}
+{"event_type": "star", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T12:16:26Z", "user": "v-chagas"}
 {"event_type": "fork", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T13:13:26Z", "user": "shahbazajabbar"}
+{"event_type": "issue_close", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T15:16:12Z", "user": "teunbrand"}
 {"event_type": "pr_open", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T17:57:10Z", "user": "iamYannC"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T21:47:58Z", "user": "klin333"}
 {"event_type": "pr_comment", "project_id": "ggplot2", "github_repo": "tidyverse/ggplot2", "datetime": "2026-02-03T20:37:45Z", "user": "iamYannC"}

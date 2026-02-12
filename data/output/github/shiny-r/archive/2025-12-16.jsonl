@@ -1,1 +1,3 @@
+{"event_type": "issue_close", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-12-16T23:51:23Z", "user": "cpsievert"}
+{"event_type": "pr_merge", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-12-16T23:51:22Z", "user": "unknown"}
 {"event_type": "pr_comment", "project_id": "shiny-r", "github_repo": "rstudio/shiny", "datetime": "2025-12-16T23:51:18Z", "user": "cpsievert"}

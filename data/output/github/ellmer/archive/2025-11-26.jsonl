@@ -1,0 +1,4 @@
+{"event_type": "star", "project_id": "ellmer", "github_repo": "tidyverse/ellmer", "datetime": "2025-11-26T04:40:10Z", "user": "eutanatos"}
+{"event_type": "issue_open", "project_id": "ellmer", "github_repo": "tidyverse/ellmer", "datetime": "2025-11-26T17:33:26Z", "user": "simonpcouch"}
+{"event_type": "pr_open", "project_id": "ellmer", "github_repo": "tidyverse/ellmer", "datetime": "2025-11-26T17:37:51Z", "user": "simonpcouch"}
+{"event_type": "pr_comment", "project_id": "ellmer", "github_repo": "tidyverse/ellmer", "datetime": "2025-11-26T04:54:29Z", "user": "hadley"}

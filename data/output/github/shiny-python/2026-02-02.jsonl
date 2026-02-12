@@ -1,5 +1,6 @@
 {"event_type": "fork", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T02:02:00Z", "user": "elnelson575"}
 {"event_type": "issue_open", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T16:33:49Z", "user": "elnelson575"}
+{"event_type": "pr_merge", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T16:26:12Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T17:49:56Z", "user": "elnelson575"}
 {"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T16:13:25Z", "user": "cpsievert"}
 {"event_type": "issue_comment", "project_id": "shiny-python", "github_repo": "posit-dev/py-shiny", "datetime": "2026-02-02T03:02:55Z", "user": "elnelson575"}

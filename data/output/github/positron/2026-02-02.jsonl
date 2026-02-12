@@ -1,3 +1,7 @@
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T05:33:06Z", "user": "valkyrie1248"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T07:07:53Z", "user": "guowen1979"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T13:34:59Z", "user": "LeiYangGH"}
+{"event_type": "star", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:20:20Z", "user": "ivanrvpereira"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T20:32:22Z", "user": "sharon-wang"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T19:58:43Z", "user": "sharon-wang"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:09:11Z", "user": "austin3dickey"}
@@ -6,10 +10,17 @@
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T16:21:04Z", "user": "sharon-wang"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T15:34:50Z", "user": "cindyytong"}
 {"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T02:45:25Z", "user": "TianyaImpression"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:07:27Z", "user": "juliasilge"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:07:20Z", "user": "juliasilge"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:07:15Z", "user": "juliasilge"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:07:09Z", "user": "juliasilge"}
+{"event_type": "issue_close", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:06:40Z", "user": "juliasilge"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T21:48:57Z", "user": "petetronic"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T20:04:16Z", "user": "midleman"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T19:06:22Z", "user": "austin3dickey"}
 {"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:39:52Z", "user": "austin3dickey"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T18:41:28Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T21:30:13Z", "user": "unknown"}
 {"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T21:43:21Z", "user": "jennybc"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T20:54:12Z", "user": "yshen16"}
 {"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-02-02T20:44:44Z", "user": "sharon-wang"}

@@ -164,7 +164,7 @@
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-18T15:30:03Z", "user": "RyoyaC"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-19T08:22:46Z", "user": "Jing-Zhengyu"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-19T09:23:16Z", "user": "iv5sht85ghbo5vbtuogh450g9jvnabito508"}
-{"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-21T05:15:49Z", "user": "huajiasha"}
+{"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-21T05:15:49Z", "user": "cantonine"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-25T21:05:49Z", "user": "volodymyrprokopyuk"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-26T19:24:59Z", "user": "philipkfw"}
 {"event_type": "fork", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-06-27T00:23:49Z", "user": "rafaelnber"}
@@ -184,7 +184,7 @@
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-08T22:05:23Z", "user": "chriszs"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-09T09:16:46Z", "user": "DominikRafacz"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-09T11:07:53Z", "user": "adamgorm"}
-{"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-09T16:15:52Z", "user": "yunurzzz"}
+{"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-09T16:15:52Z", "user": "mayunran"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-09T16:39:03Z", "user": "kamaulindhardt"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-10T00:30:01Z", "user": "Naillik1"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-07-10T18:58:55Z", "user": "bbenno"}
@@ -293,7 +293,6 @@
 {"event_type": "issue_comment", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-09T08:14:58Z", "user": "ggmingming"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-09T09:25:19Z", "user": "AngelPone"}
 {"event_type": "issue_close", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-09T15:59:43Z", "user": "jennybc"}
-{"event_type": "fork", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-09T18:05:58Z", "user": "Rindrics"}
 {"event_type": "star", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-10T10:33:58Z", "user": "Pao-MIT"}
 {"event_type": "fork", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-10T10:33:59Z", "user": "Pao-MIT"}
 {"event_type": "issue_open", "project_id": "tidyverse", "github_repo": "tidyverse/tidyverse", "datetime": "2021-11-12T06:11:02Z", "user": "leechaowen"}

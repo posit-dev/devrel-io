@@ -2,5 +2,6 @@
 {"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T23:17:13Z", "user": "jonkeane"}
 {"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T16:57:09Z", "user": "posit-connect-projects[bot]"}
 {"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T17:26:24Z", "user": "unknown"}
+{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T16:55:49Z", "user": "unknown"}
 {"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T17:04:01Z", "user": "cindyytong"}
 {"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-01-28T12:11:36Z", "user": "amol-"}

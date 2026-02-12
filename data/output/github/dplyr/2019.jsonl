@@ -1767,7 +1767,6 @@
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-06T20:11:27Z", "user": "romainfrancois"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-06T20:53:52Z", "user": "hadley"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-06T21:59:42Z", "user": "behrman"}
-{"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-07T01:31:39Z", "user": "Rindrics"}
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-07T03:52:59Z", "user": "earowang"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-07T07:41:27Z", "user": "romainfrancois"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-03-07T09:11:33Z", "user": "gourabchanda1990"}
@@ -2275,7 +2274,6 @@
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-23T15:14:15Z", "user": "lock[bot]"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T07:09:59Z", "user": "lock[bot]"}
 {"event_type": "pr_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T07:10:05Z", "user": "lock[bot]"}
-{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T13:09:07Z", "user": "oapp-dev"}
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T18:02:44Z", "user": "jangorecki"}
 {"event_type": "issue_close", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T18:33:28Z", "user": "krlmlr"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2019-04-24T18:34:41Z", "user": "krlmlr"}

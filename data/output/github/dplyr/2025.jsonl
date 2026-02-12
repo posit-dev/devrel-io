@@ -10,7 +10,6 @@
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-07T19:58:35Z", "user": "sirajhassasn"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-08T16:28:23Z", "user": "kamilm"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-08T20:23:40Z", "user": "hrryt"}
-{"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-09T13:53:59Z", "user": "PC-User-Guest"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-09T14:45:11Z", "user": "wenna2911"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-10T08:13:38Z", "user": "Marbella-Miroslava"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-01-13T20:56:22Z", "user": "OfficialDiLi"}
@@ -249,7 +248,7 @@
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-28T14:58:33Z", "user": "TilakMaddy"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-28T22:19:39Z", "user": "Ido-deBaat"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-29T17:19:16Z", "user": "fbnrst"}
-{"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-29T21:56:47Z", "user": "Sal4321"}
+{"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-29T21:56:47Z", "user": "nazmussalehin93"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-29T22:09:45Z", "user": "hadley"}
 {"event_type": "pr_merge", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-30T15:43:14Z", "user": "unknown"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-05-31T15:14:05Z", "user": "choisdata"}
@@ -324,7 +323,6 @@
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-25T17:43:12Z", "user": "Bardavl"}
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-26T21:31:55Z", "user": "sschooler"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-27T06:15:15Z", "user": "Eris1995"}
-{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-27T12:47:38Z", "user": "mohosseinzadeh"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-27T13:32:56Z", "user": "joranE"}
 {"event_type": "issue_close", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-28T18:08:23Z", "user": "sschooler"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-06-28T18:08:23Z", "user": "sschooler"}
@@ -629,7 +627,6 @@
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-28T16:47:12Z", "user": "DavisVaughan"}
 {"event_type": "pr_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-28T17:53:21Z", "user": "DavisVaughan"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-29T00:04:12Z", "user": "3LNK"}
-{"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-29T00:04:15Z", "user": "3LNK"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-29T11:23:25Z", "user": "bischoff-m"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-29T14:01:17Z", "user": "JosephMehdiyev"}
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-10-29T17:19:48Z", "user": "billdenney"}
@@ -777,7 +774,7 @@
 {"event_type": "issue_open", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-10T18:51:54Z", "user": "tlyons253"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-11T10:05:47Z", "user": "vishal-genet"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-11T16:29:10Z", "user": "albgarre"}
-{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-12T23:12:59Z", "user": "data-is-the-new-sugar"}
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-12T23:12:59Z", "user": "zoltanmpapp"}
 {"event_type": "fork", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-14T17:42:00Z", "user": "enricai"}
 {"event_type": "issue_close", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-15T20:04:48Z", "user": "DavisVaughan"}
 {"event_type": "issue_comment", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-15T20:04:48Z", "user": "DavisVaughan"}
@@ -807,4 +804,4 @@
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-26T04:56:53Z", "user": "sigproj"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-27T11:14:09Z", "user": "tin900"}
 {"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-28T16:16:17Z", "user": "Musawir456"}
-{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-29T14:13:17Z", "user": "ArtemenkoYaroslavOleksandrovych"}
+{"event_type": "star", "project_id": "dplyr", "github_repo": "tidyverse/dplyr", "datetime": "2025-12-29T14:13:17Z", "user": "dev-studio-ua"}
