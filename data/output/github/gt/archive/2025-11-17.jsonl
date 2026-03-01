@@ -1,8 +1,0 @@
-{"event_type": "issue_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T16:21:29Z", "user": "rossellhayes"}
-{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T02:46:56Z", "user": "rich-iannone"}
-{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T02:46:56Z", "user": "rich-iannone"}
-{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T02:46:55Z", "user": "unknown"}
-{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T01:50:10Z", "user": "unknown"}
-{"event_type": "issue_comment", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T19:14:20Z", "user": "rich-iannone"}
-{"event_type": "pr_comment", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T06:29:55Z", "user": "CLAassistant"}
-{"event_type": "pr_comment", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2025-11-17T01:49:39Z", "user": "rich-iannone"}
