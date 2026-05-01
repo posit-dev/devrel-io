@@ -1,8 +1,0 @@
-{"event_type": "fork", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T16:47:18Z", "user": "franzhaas"}
-{"event_type": "fork", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T16:00:06Z", "user": "astrowonk"}
-{"event_type": "pr_open", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T18:00:52Z", "user": "rich-iannone"}
-{"event_type": "pr_merge", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T20:25:29Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T20:25:15Z", "user": "machow"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T18:34:25Z", "user": "rich-iannone"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T18:02:46Z", "user": "codecov[bot]"}
-{"event_type": "issue_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-14T03:28:04Z", "user": "LaobanJames"}

@@ -1,6 +1,0 @@
-{"event_type": "star", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T14:59:47Z", "user": "phil-cork"}
-{"event_type": "pr_open", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T17:54:39Z", "user": "rich-iannone"}
-{"event_type": "pr_merge", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T18:18:33Z", "user": "unknown"}
-{"event_type": "pr_merge", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T18:23:50Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T18:23:58Z", "user": "machow"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-05T17:56:21Z", "user": "codecov[bot]"}

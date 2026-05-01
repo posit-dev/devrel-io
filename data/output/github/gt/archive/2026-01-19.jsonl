@@ -1,5 +1,0 @@
-{"event_type": "issue_close", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-19T06:28:55Z", "user": "rich-iannone"}
-{"event_type": "pr_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-19T16:54:58Z", "user": "rich-iannone"}
-{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-19T17:09:36Z", "user": "unknown"}
-{"event_type": "pr_open", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-19T04:55:35Z", "user": "rich-iannone"}
-{"event_type": "pr_merge", "project_id": "gt", "github_repo": "rstudio/gt", "datetime": "2026-01-19T06:28:54Z", "user": "unknown"}

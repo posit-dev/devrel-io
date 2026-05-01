@@ -1,3 +1,0 @@
-{"event_type": "fork", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-26T18:10:04Z", "user": "bleonard314"}
-{"event_type": "pr_open", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-26T21:57:34Z", "user": "rich-iannone"}
-{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-01-26T22:00:23Z", "user": "codecov[bot]"}
