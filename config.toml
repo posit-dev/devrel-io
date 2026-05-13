@@ -78,6 +78,15 @@ name = "gt"
 plausible = "gt.rstudio.com"
 website = "https://gt.rstudio.com"
 
+[projects.open-source-website]
+description = "Posit Open Source Website"
+github = "posit-dev/open-source-website"
+hex_color = "#404041"
+language = "html"
+name = "Open Source Website"
+plausible = "opensource.posit.co"
+website = "https://opensource.posit.co"
+
 [projects.orbital-python]
 description = "Orbital data processing and analysis in Python"
 github = "posit-dev/orbital"

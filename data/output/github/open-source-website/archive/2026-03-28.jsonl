@@ -1,0 +1,4 @@
+{"event_type": "issue_close", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-03-28T21:13:39Z", "user": "jeroenjanssens"}
+{"event_type": "pr_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-03-28T03:12:11Z", "user": "shikokuchuo"}
+{"event_type": "issue_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-03-28T21:13:39Z", "user": "jeroenjanssens"}
+{"event_type": "pr_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-03-28T03:12:18Z", "user": "netlify[bot]"}
