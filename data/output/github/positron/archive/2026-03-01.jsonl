@@ -1,3 +1,0 @@
-{"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-01T23:45:54Z", "user": "softwarenerd"}
-{"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-01T23:46:12Z", "user": "github-actions[bot]"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-01T00:53:59Z", "user": "juliasilge"}
