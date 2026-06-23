@@ -1,0 +1,10 @@
+{"source":"github","event_type":"issue_open","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T22:11:58Z","user":"SamEdwardes"}
+{"source":"github","event_type":"issue_open","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T21:36:12Z","user":"SamEdwardes"}
+{"source":"github","event_type":"issue_close","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T21:42:16Z","user":"SamEdwardes"}
+{"source":"github","event_type":"pr_open","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T22:20:05Z","user":"posit-vip-triage"}
+{"source":"github","event_type":"pr_open","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T21:50:49Z","user":"posit-vip-triage"}
+{"source":"github","event_type":"pr_open","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T01:06:03Z","user":"bdeitte"}
+{"source":"github","event_type":"pr_merge","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T18:07:14Z","user":"bdeitte"}
+{"source":"github","event_type":"pr_merge","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T00:32:16Z","user":"dependabot"}
+{"source":"github","event_type":"pr_merge","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T00:39:51Z","user":"dependabot"}
+{"source":"github","event_type":"pr_merge","project_id":"vip","github_repo":"posit-dev/vip","datetime":"2026-06-05T13:41:38Z","user":"jonkeane"}

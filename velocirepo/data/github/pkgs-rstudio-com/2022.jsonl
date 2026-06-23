@@ -1,0 +1,9 @@
+{"source":"github","event_type":"pr_open","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-08-03T21:24:09Z","user":"sarahemlin"}
+{"source":"github","event_type":"pr_merge","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-08-03T21:42:12Z","user":"sarahemlin"}
+{"source":"github","event_type":"pr_open","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-08-04T17:07:24Z","user":"jspiewak"}
+{"source":"github","event_type":"pr_merge","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-08-04T17:07:49Z","user":"jspiewak"}
+{"source":"github","event_type":"issue_open","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-08-21T13:31:06Z","user":"cderv"}
+{"source":"github","event_type":"pr_open","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-09-02T21:52:31Z","user":"sarahemlin"}
+{"source":"github","event_type":"pr_merge","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-09-05T09:06:32Z","user":"sarahemlin"}
+{"source":"github","event_type":"fork","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-09-29T15:37:01Z","user":"tracykteal"}
+{"source":"github","event_type":"issue_open","project_id":"pkgs-rstudio-com","github_repo":"rstudio/pkgs.rstudio.com","datetime":"2022-11-09T20:32:17Z","user":"sarahemlin"}

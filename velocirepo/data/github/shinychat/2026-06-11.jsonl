@@ -1,0 +1,5 @@
+{"source":"github","event_type":"issue_close","project_id":"shinychat","github_repo":"posit-dev/shinychat","datetime":"2026-06-11T14:19:52Z","user":"thisisnic"}
+{"source":"github","event_type":"pr_open","project_id":"shinychat","github_repo":"posit-dev/shinychat","datetime":"2026-06-11T16:39:15Z","user":"gadenbuie"}
+{"source":"github","event_type":"pr_merge","project_id":"shinychat","github_repo":"posit-dev/shinychat","datetime":"2026-06-11T17:17:00Z","user":"gadenbuie"}
+{"source":"github","event_type":"pr_merge","project_id":"shinychat","github_repo":"posit-dev/shinychat","datetime":"2026-06-11T14:19:51Z","user":"thisisnic"}
+{"source":"github","event_type":"pr_merge","project_id":"shinychat","github_repo":"posit-dev/shinychat","datetime":"2026-06-11T20:27:02Z","user":"cpsievert"}

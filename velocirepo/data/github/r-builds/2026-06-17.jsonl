@@ -1,0 +1,4 @@
+{"source":"github","event_type":"issue_open","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-17T07:49:42Z","user":"gaborcsardi"}
+{"source":"github","event_type":"pr_open","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-17T20:38:24Z","user":"glin"}
+{"source":"github","event_type":"pr_open","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-17T17:34:54Z","user":"glin"}
+{"source":"github","event_type":"pr_merge","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-17T20:57:12Z","user":"glin"}

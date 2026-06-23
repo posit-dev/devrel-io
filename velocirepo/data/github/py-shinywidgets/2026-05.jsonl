@@ -1,0 +1,4 @@
+{"source":"github","event_type":"issue_open","project_id":"py-shinywidgets","github_repo":"posit-dev/py-shinywidgets","datetime":"2026-05-06T13:30:40Z","user":"alinacherkas"}
+{"source":"github","event_type":"pr_open","project_id":"py-shinywidgets","github_repo":"posit-dev/py-shinywidgets","datetime":"2026-05-06T15:02:47Z","user":"cpsievert"}
+{"source":"github","event_type":"pr_merge","project_id":"py-shinywidgets","github_repo":"posit-dev/py-shinywidgets","datetime":"2026-05-06T15:06:04Z","user":"cpsievert"}
+{"source":"github","event_type":"issue_close","project_id":"py-shinywidgets","github_repo":"posit-dev/py-shinywidgets","datetime":"2026-05-06T15:06:06Z","user":"alinacherkas"}

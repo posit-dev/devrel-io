@@ -5,7 +5,6 @@ color = "#276DC3"
 tags = ["r"]
 website = "https://posit-dev.github.io/air/"
 github-events = "posit-dev/air"
-github-traffic = "posit-dev/air"
 openvsx = "posit/air-vscode"
 
 [projects.chatlas]
@@ -15,7 +14,6 @@ color = "#4FC5AE"
 tags = ["python"]
 website = "https://posit-dev.github.io/chatlas"
 github-events = "posit-dev/chatlas"
-github-traffic = "posit-dev/chatlas"
 pypi = "chatlas"
 plausible = "posit-dev.github.io/chatlas"
 
@@ -25,7 +23,6 @@ description = "Databot extension for Positron"
 color = "#E15759"
 tags = ["typescript"]
 github-events = "posit-dev/databot"
-github-traffic = "posit-dev/databot"
 openvsx = "posit/databot"
 
 [projects.dplyr]
@@ -35,7 +32,6 @@ color = "#1C8C58"
 tags = ["r"]
 website = "https://dplyr.tidyverse.org"
 github-events = "tidyverse/dplyr"
-github-traffic = "tidyverse/dplyr"
 cran = "dplyr"
 plausible = "dplyr.tidyverse.org"
 
@@ -45,7 +41,6 @@ color = "#06BC97"
 tags = ["r"]
 website = "https://ellmer.tidyverse.org"
 github-events = "tidyverse/ellmer"
-github-traffic = "tidyverse/ellmer"
 cran = "ellmer"
 plausible = "ellmer.tidyverse.org"
 
@@ -56,7 +51,6 @@ color = "#154F86"
 tags = ["r"]
 website = "https://ggplot2.tidyverse.org"
 github-events = "tidyverse/ggplot2"
-github-traffic = "tidyverse/ggplot2"
 cran = "ggplot2"
 plausible = "ggplot2.tidyverse.org"
 
@@ -67,7 +61,6 @@ color = "#F901C3"
 tags = ["python"]
 website = "https://posit-dev.github.io/great-tables/"
 github-events = "posit-dev/great-tables"
-github-traffic = "posit-dev/great-tables"
 pypi = "great-tables"
 plausible = "posit-dev.github.io/great-tables"
 
@@ -78,7 +71,6 @@ color = "#ECE142"
 tags = ["r"]
 website = "https://gt.rstudio.com"
 github-events = "rstudio/gt"
-github-traffic = "rstudio/gt"
 cran = "gt"
 plausible = "gt.rstudio.com"
 
@@ -89,7 +81,6 @@ color = "#404041"
 tags = ["html"]
 website = "https://opensource.posit.co"
 github-events = "posit-dev/open-source-website"
-github-traffic = "posit-dev/open-source-website"
 plausible = "opensource.posit.co"
 
 [projects.orbital-python]
@@ -99,7 +90,6 @@ color = "#FF6B35"
 tags = ["python"]
 website = "https://posit-dev.github.io/orbital/"
 github-events = "posit-dev/orbital"
-github-traffic = "posit-dev/orbital"
 pypi = "orbital"
 plausible = "posit-dev.github.io/orbital"
 
@@ -110,7 +100,6 @@ color = "#FF8C42"
 tags = ["r"]
 website = "https://posit-dev.github.io/orbital/"
 github-events = "posit-dev/orbital"
-github-traffic = "posit-dev/orbital"
 cran = "orbital"
 plausible = "posit-dev.github.io/orbital"
 
@@ -121,7 +110,6 @@ color = "#9E2F68"
 tags = ["python"]
 website = "https://plotnine.org"
 github-events = "has2k1/plotnine"
-github-traffic = "has2k1/plotnine"
 pypi = "plotnine"
 plausible = "plotnine.org"
 
@@ -132,7 +120,6 @@ color = "#E20000"
 tags = ["python"]
 website = "https://posit-dev.github.io/pointblank/"
 github-events = "posit-dev/pointblank"
-github-traffic = "posit-dev/pointblank"
 pypi = "pointblank"
 plausible = "posit-dev.github.io/pointblank"
 
@@ -143,7 +130,6 @@ color = "#59A14F"
 tags = ["r"]
 website = "https://rstudio.github.io/pointblank/"
 github-events = "rstudio/pointblank"
-github-traffic = "rstudio/pointblank"
 cran = "pointblank"
 plausible = "rstudio.github.io/pointblank"
 
@@ -154,7 +140,6 @@ color = "#3976B3"
 tags = ["typescript"]
 website = "https://positron.posit.co/"
 github-events = "posit-dev/positron"
-github-traffic = "posit-dev/positron"
 plausible = "positron.posit.co"
 
 [projects.publisher]
@@ -163,7 +148,6 @@ description = "Publish and share your Python and R content on Posit Connect"
 color = "#447099"
 tags = ["typescript"]
 github-events = "posit-dev/publisher"
-github-traffic = "posit-dev/publisher"
 openvsx = "posit/publisher"
 
 [projects.quarto]
@@ -173,7 +157,6 @@ color = "#75AADB"
 tags = ["javascript"]
 website = "https://quarto.org"
 github-events = "quarto-dev/quarto-cli"
-github-traffic = "quarto-dev/quarto-cli"
 openvsx = "quarto/quarto"
 plausible = "quarto.org"
 
@@ -184,7 +167,6 @@ color = "#027BC2"
 tags = ["python"]
 website = "https://shiny.posit.co/py/"
 github-events = "posit-dev/py-shiny"
-github-traffic = "posit-dev/py-shiny"
 pypi = "shiny"
 openvsx = "posit/shiny"
 plausible = "shiny.posit.co/py"
@@ -196,7 +178,6 @@ color = "#000000"
 tags = ["r"]
 website = "https://shiny.posit.co"
 github-events = "rstudio/shiny"
-github-traffic = "rstudio/shiny"
 cran = "shiny"
 openvsx = "posit/shiny"
 plausible = "shiny.posit.co"
@@ -208,7 +189,6 @@ color = "#4E79A7"
 tags = ["r"]
 website = "https://rstudio.github.io/shinyuieditor/"
 github-events = "rstudio/shinyuieditor"
-github-traffic = "rstudio/shinyuieditor"
 openvsx = "posit/shinyuieditor"
 
 [projects.supported-by-posit]
@@ -218,7 +198,6 @@ color = "#414140"
 tags = ["javascript"]
 website = "https://posit-dev.github.io/supported-by-posit"
 github-events = "posit-dev/supported-by-posit"
-github-traffic = "posit-dev/supported-by-posit"
 plausible = "posit-dev.github.io/supported-by-posit"
 
 [projects.tidyverse]
@@ -228,6 +207,1777 @@ color = "#1A162D"
 tags = ["r"]
 website = "https://www.tidyverse.org"
 github-events = "tidyverse/tidyverse"
-github-traffic = "tidyverse/tidyverse"
 cran = "tidyverse"
 plausible = "tidyverse.tidyverse.org"
+
+[projects.connectapi]
+name = "connectapi"
+github-events = "posit-dev/connectapi"
+
+[projects.rsconnect-python]
+name = "rsconnect-python"
+github-events = "posit-dev/rsconnect-python"
+
+[projects.pydytuesday]
+name = "pydytuesday"
+github-events = "posit-dev/pydytuesday"
+
+[projects.py-shiny]
+name = "py-shiny"
+github-events = "posit-dev/py-shiny"
+
+[projects.py-htmltools]
+name = "py-htmltools"
+github-events = "posit-dev/py-htmltools"
+
+[projects.zd-cli]
+name = "zd-cli"
+github-events = "posit-dev/zd-cli"
+
+[projects.py-shinywidgets]
+name = "py-shinywidgets"
+github-events = "posit-dev/py-shinywidgets"
+
+[projects.py-faicons]
+name = "py-faicons"
+github-events = "posit-dev/py-faicons"
+
+[projects.shinylive]
+name = "shinylive"
+github-events = "posit-dev/shinylive"
+
+[projects.shiny-vscode]
+name = "shiny-vscode"
+github-events = "posit-dev/shiny-vscode"
+
+[projects.py-shinylive]
+name = "py-shinylive"
+github-events = "posit-dev/py-shinylive"
+
+[projects.py-shinyswatch]
+name = "py-shinyswatch"
+github-events = "posit-dev/py-shinyswatch"
+
+[projects.streamlit-shiny-dash]
+name = "streamlit-shiny-dash"
+github-events = "posit-dev/streamlit-shiny-dash"
+
+[projects.ark]
+name = "ark"
+github-events = "posit-dev/ark"
+
+[projects.py-shiny-workshop]
+name = "py-shiny-workshop"
+github-events = "posit-dev/py-shiny-workshop"
+
+[projects.r-shinylive]
+name = "r-shinylive"
+github-events = "posit-dev/r-shinylive"
+
+[projects.shiny-discord-demos]
+name = "shiny-discord-demos"
+github-events = "posit-dev/shiny-discord-demos"
+
+[projects.py-shiny-site]
+name = "py-shiny-site"
+github-events = "posit-dev/py-shiny-site"
+
+[projects.shiny-component-browser]
+name = "shiny-component-browser"
+github-events = "posit-dev/shiny-component-browser"
+
+[projects.quarto-tiers]
+name = "quarto-tiers"
+github-events = "posit-dev/quarto-tiers"
+
+[projects.py-shiny-templates]
+name = "py-shiny-templates"
+github-events = "posit-dev/py-shiny-templates"
+
+[projects.shiny-bindings]
+name = "shiny-bindings"
+github-events = "posit-dev/shiny-bindings"
+
+[projects.py-shiny-validate]
+name = "py-shiny-validate"
+github-events = "posit-dev/py-shiny-validate"
+
+[projects.posit-sdk-py]
+name = "posit-sdk-py"
+github-events = "posit-dev/posit-sdk-py"
+
+[projects.product-doc-theme]
+name = "product-doc-theme"
+github-events = "posit-dev/product-doc-theme"
+
+[projects.learnmedia-bikeshare]
+name = "learnmedia-bikeshare"
+github-events = "posit-dev/learnmedia-bikeshare"
+
+[projects.brand-yml]
+name = "brand-yml"
+github-events = "posit-dev/brand-yml"
+
+[projects.agentic-adoption-scan]
+name = "agentic-adoption-scan"
+github-events = "posit-dev/agentic-adoption-scan"
+
+[projects.bcorp-report]
+name = "bcorp-report"
+github-events = "posit-dev/bcorp-report"
+
+[projects.snowflake-posit-quickstart-r]
+name = "snowflake-posit-quickstart-r"
+github-events = "posit-dev/snowflake-posit-quickstart-r"
+
+[projects.healthcare-shiny-showcase]
+name = "healthcare-shiny-showcase"
+github-events = "posit-dev/healthcare-shiny-showcase"
+
+[projects.cla-assistant-test]
+name = "cla-assistant-test"
+github-events = "posit-dev/cla-assistant-test"
+
+[projects.cla-assistant]
+name = "cla-assistant"
+github-events = "posit-dev/cla-assistant"
+
+[projects.qa-example-content]
+name = "qa-example-content"
+github-events = "posit-dev/qa-example-content"
+
+[projects.shinymedia]
+name = "shinymedia"
+github-events = "posit-dev/shinymedia"
+
+[projects.kallichore]
+name = "kallichore"
+github-events = "posit-dev/kallichore"
+
+[projects.envx]
+name = "envx"
+github-events = "posit-dev/envx"
+
+[projects.shiny-assistant]
+name = "shiny-assistant"
+github-events = "posit-dev/shiny-assistant"
+
+[projects.images-workbench]
+name = "images-workbench"
+github-events = "posit-dev/images-workbench"
+
+[projects.positron-website]
+name = "positron-website"
+github-events = "posit-dev/positron-website"
+
+[projects.intro-to-shiny-for-python]
+name = "intro-to-shiny-for-python"
+github-events = "posit-dev/intro-to-shiny-for-python"
+
+[projects.smalldatasf-quarto-workshop]
+name = "smalldatasf-quarto-workshop"
+github-events = "posit-dev/smalldatasf-quarto-workshop"
+
+[projects.smalldatasf-quarto-exercises]
+name = "smalldatasf-quarto-exercises"
+github-events = "posit-dev/smalldatasf-quarto-exercises"
+
+[projects.connect-extensions]
+name = "connect-extensions"
+github-events = "posit-dev/connect-extensions"
+
+[projects.images-package-manager]
+name = "images-package-manager"
+github-events = "posit-dev/images-package-manager"
+
+[projects.images-shared]
+name = "images-shared"
+github-events = "posit-dev/images-shared"
+
+[projects.shinychat]
+name = "shinychat"
+github-events = "posit-dev/shinychat"
+
+[projects.kallichore-builds]
+name = "kallichore-builds"
+github-events = "posit-dev/kallichore-builds"
+
+[projects.pointblank]
+name = "pointblank"
+github-events = "posit-dev/pointblank"
+
+[projects.ptm-user-training]
+name = "ptm-user-training"
+github-events = "posit-dev/ptm-user-training"
+
+[projects.snowflakeauth]
+name = "snowflakeauth"
+github-events = "posit-dev/snowflakeauth"
+
+[projects.snowflake-posit-quickstart-python]
+name = "snowflake-posit-quickstart-python"
+github-events = "posit-dev/snowflake-posit-quickstart-python"
+
+[projects.images-connect]
+name = "images-connect"
+github-events = "posit-dev/images-connect"
+
+[projects.images]
+name = "images"
+github-events = "posit-dev/images"
+
+[projects.snowflake-posit-quickstart-orbital]
+name = "snowflake-posit-quickstart-orbital"
+github-events = "posit-dev/snowflake-posit-quickstart-orbital"
+
+[projects.connectcreds]
+name = "connectcreds"
+github-events = "posit-dev/connectcreds"
+
+[projects.positron-pet-builds]
+name = "positron-pet-builds"
+github-events = "posit-dev/positron-pet-builds"
+
+[projects.btw]
+name = "btw"
+github-events = "posit-dev/btw"
+
+[projects.python-tidytuesday]
+name = "python-tidytuesday"
+github-events = "posit-dev/python-tidytuesday"
+
+[projects.orbital]
+name = "orbital"
+github-events = "posit-dev/orbital"
+
+[projects.plumber2]
+name = "plumber2"
+github-events = "posit-dev/plumber2"
+
+[projects.querychat]
+name = "querychat"
+github-events = "posit-dev/querychat"
+
+[projects.mcptools]
+name = "mcptools"
+github-events = "posit-dev/mcptools"
+
+[projects.setup-air]
+name = "setup-air"
+github-events = "posit-dev/setup-air"
+
+[projects.pycon2025]
+name = "pycon2025"
+github-events = "posit-dev/pycon2025"
+
+[projects.positron-workshop]
+name = "positron-workshop"
+github-events = "posit-dev/positron-workshop"
+
+[projects.picopip]
+name = "picopip"
+github-events = "posit-dev/picopip"
+
+[projects.positron-workshop-project]
+name = "positron-workshop-project"
+github-events = "posit-dev/positron-workshop-project"
+
+[projects.positron-api-showcase]
+name = "positron-api-showcase"
+github-events = "posit-dev/positron-api-showcase"
+
+[projects.positron-api-pkg]
+name = "positron-api-pkg"
+github-events = "posit-dev/positron-api-pkg"
+
+[projects.gt-extras]
+name = "gt-extras"
+github-events = "posit-dev/gt-extras"
+
+[projects.positron-extension-template]
+name = "positron-extension-template"
+github-events = "posit-dev/positron-extension-template"
+
+[projects.user-training-content]
+name = "user-training-content"
+github-events = "posit-dev/user-training-content"
+
+[projects.shinyrealtime]
+name = "shinyrealtime"
+github-events = "posit-dev/shinyrealtime"
+
+[projects.handwave]
+name = "handwave"
+github-events = "posit-dev/handwave"
+
+[projects.quarto-brand-exercises]
+name = "quarto-brand-exercises"
+github-events = "posit-dev/quarto-brand-exercises"
+
+[projects.posit-conf-2025-positron-assistant-demo]
+name = "posit-conf-2025-positron-assistant-demo"
+github-events = "posit-dev/posit-conf-2025-positron-assistant-demo"
+
+[projects.posit-dev-r-universe-dev]
+name = "posit-dev.r-universe.dev"
+github-events = "posit-dev/posit-dev.r-universe.dev"
+
+[projects.license-mole]
+name = "license-mole"
+github-events = "posit-dev/license-mole"
+
+[projects.raghilda]
+name = "raghilda"
+github-events = "posit-dev/raghilda"
+
+[projects.chronicle-reports]
+name = "chronicle-reports"
+github-events = "posit-dev/chronicle-reports"
+
+[projects.images-examples]
+name = "images-examples"
+github-events = "posit-dev/images-examples"
+
+[projects.01-positron101]
+name = "01-positron101"
+github-events = "posit-dev/01-positron101"
+
+[projects.02-pa-databot]
+name = "02-pa-databot"
+github-events = "posit-dev/02-pa-databot"
+
+[projects.databot-data]
+name = "databot-data"
+github-events = "posit-dev/databot-data"
+
+[projects.03-static-report]
+name = "03-static-report"
+github-events = "posit-dev/03-static-report"
+
+[projects.04-interactive-content]
+name = "04-interactive-content"
+github-events = "posit-dev/04-interactive-content"
+
+[projects.nbmail]
+name = "nbmail"
+github-events = "posit-dev/nbmail"
+
+[projects.positron-demos-notebooks]
+name = "positron-demos-notebooks"
+github-events = "posit-dev/positron-demos-notebooks"
+
+[projects.with-connect]
+name = "with-connect"
+github-events = "posit-dev/with-connect"
+
+[projects.user-training-workshop]
+name = "user-training-workshop"
+github-events = "posit-dev/user-training-workshop"
+
+[projects.ai-powered-app-workshop]
+name = "ai-powered-app-workshop"
+github-events = "posit-dev/ai-powered-app-workshop"
+
+[projects.instruqt-api-reporting]
+name = "instruqt-api-reporting"
+github-events = "posit-dev/instruqt-api-reporting"
+
+[projects.r-yaml12]
+name = "r-yaml12"
+github-events = "posit-dev/r-yaml12"
+
+[projects.automerge-r]
+name = "automerge-r"
+github-events = "posit-dev/automerge-r"
+
+[projects.great-docs]
+name = "great-docs"
+github-events = "posit-dev/great-docs"
+
+[projects.shiny-showcase-public-sector]
+name = "shiny-showcase-public-sector"
+github-events = "posit-dev/shiny-showcase-public-sector"
+
+[projects.skills]
+name = "skills"
+github-events = "posit-dev/skills"
+
+[projects.py-yaml12]
+name = "py-yaml12"
+github-events = "posit-dev/py-yaml12"
+
+[projects.connect-staging-extensions]
+name = "connect-staging-extensions"
+github-events = "posit-dev/connect-staging-extensions"
+
+[projects.ggsql]
+name = "ggsql"
+github-events = "posit-dev/ggsql"
+
+[projects.posit-gh-actions]
+name = "posit-gh-actions"
+github-events = "posit-dev/posit-gh-actions"
+
+[projects.ansible-collection-support]
+name = "ansible-collection-support"
+github-events = "posit-dev/ansible-collection-support"
+
+[projects.burst]
+name = "burst"
+github-events = "posit-dev/burst"
+
+[projects.ptd]
+name = "ptd"
+github-events = "posit-dev/ptd"
+
+[projects.team-operator]
+name = "team-operator"
+github-events = "posit-dev/team-operator"
+
+[projects.buoyant]
+name = "buoyant"
+github-events = "posit-dev/buoyant"
+
+[projects.frontmatter]
+name = "frontmatter"
+github-events = "posit-dev/frontmatter"
+
+[projects.jupyter-positron-server]
+name = "jupyter-positron-server"
+github-events = "posit-dev/jupyter-positron-server"
+
+[projects.content-switcher]
+name = "content-switcher"
+github-events = "posit-dev/content-switcher"
+
+[projects.picotel]
+name = "picotel"
+github-events = "posit-dev/picotel"
+
+[projects.vip]
+name = "vip"
+github-events = "posit-dev/vip"
+
+[projects.launcher-go-sdk]
+name = "launcher-go-sdk"
+github-events = "posit-dev/launcher-go-sdk"
+
+[projects.mcp-repl]
+name = "mcp-repl"
+github-events = "posit-dev/mcp-repl"
+
+[projects.quarjar]
+name = "quarjar"
+github-events = "posit-dev/quarjar"
+
+[projects.connect-gallery-action]
+name = "connect-gallery-action"
+github-events = "posit-dev/connect-gallery-action"
+
+[projects.nesevals]
+name = "nesevals"
+github-events = "posit-dev/nesevals"
+
+[projects.images-specialized]
+name = "images-specialized"
+github-events = "posit-dev/images-specialized"
+
+[projects.air-pre-commit]
+name = "air-pre-commit"
+github-events = "posit-dev/air-pre-commit"
+
+[projects.chaosfs]
+name = "chaosfs"
+github-events = "posit-dev/chaosfs"
+
+[projects.with-workbench]
+name = "with-workbench"
+github-events = "posit-dev/with-workbench"
+
+[projects.devcontainer-features]
+name = "devcontainer-features"
+github-events = "posit-dev/devcontainer-features"
+
+[projects.incident-pattern-matcher]
+name = "incident-pattern-matcher"
+github-events = "posit-dev/incident-pattern-matcher"
+
+[projects.gdg]
+name = "gdg"
+github-events = "posit-dev/gdg"
+
+[projects.snowflake-posit-build-deploy-interactive-dashboard]
+name = "snowflake-posit-build-deploy-interactive-dashboard"
+github-events = "posit-dev/snowflake-posit-build-deploy-interactive-dashboard"
+
+[projects.twenty]
+name = "twenty"
+github-events = "posit-dev/twenty"
+
+[projects.ansible-collection-posit-team]
+name = "ansible-collection-posit-team"
+github-events = "posit-dev/ansible-collection-posit-team"
+
+[projects.code-index]
+name = "code-index"
+github-events = "posit-dev/code-index"
+
+[projects.quarto-openapi]
+name = "quarto-openapi"
+github-events = "posit-dev/quarto-openapi"
+
+[projects.traveling-salesperson-app]
+name = "traveling-salesperson-app"
+github-events = "posit-dev/traveling-salesperson-app"
+
+[projects.peachtree-lottery-demo]
+name = "peachtree-lottery-demo"
+github-events = "posit-dev/peachtree-lottery-demo"
+
+[projects.ggsql-r]
+name = "ggsql-r"
+github-events = "posit-dev/ggsql-r"
+
+[projects.ggsql-python]
+name = "ggsql-python"
+github-events = "posit-dev/ggsql-python"
+
+[projects.ggsql-duckdb]
+name = "ggsql-duckdb"
+github-events = "posit-dev/ggsql-duckdb"
+
+[projects.positron-demo]
+name = "positron-demo"
+github-events = "posit-dev/positron-demo"
+
+[projects.positron-ark]
+name = "positron-ark"
+github-events = "posit-dev/positron-ark"
+
+[projects.positron-pharma-quickstart]
+name = "positron-pharma-quickstart"
+github-events = "posit-dev/positron-pharma-quickstart"
+
+[projects.ggsql-dist]
+name = "ggsql-dist"
+github-events = "posit-dev/ggsql-dist"
+
+[projects.pycon2026]
+name = "pycon2026"
+github-events = "posit-dev/pycon2026"
+
+[projects.shiny-issue-triage]
+name = "shiny-issue-triage"
+github-events = "posit-dev/shiny-issue-triage"
+
+[projects.posit-assistant-demo]
+name = "posit-assistant-demo"
+github-events = "posit-dev/posit-assistant-demo"
+
+[projects.workflows]
+name = "Workflows"
+github-events = "posit-dev/Workflows"
+
+[projects.hephaestus]
+name = "hephaestus"
+github-events = "posit-dev/hephaestus"
+
+[projects.multimark]
+name = "multimark"
+github-events = "posit-dev/multimark"
+
+[projects.ai-provider-bridge]
+name = "ai-provider-bridge"
+github-events = "posit-dev/ai-provider-bridge"
+
+[projects.assistant-feedback]
+name = "assistant-feedback"
+github-events = "posit-dev/assistant-feedback"
+
+[projects.nokap]
+name = "nokap"
+github-events = "posit-dev/nokap"
+
+[projects.pfizer-summit-2026]
+name = "pfizer-summit-2026"
+github-events = "posit-dev/pfizer-summit-2026"
+
+[projects.snowflake_native_demos]
+name = "snowflake_native_demos"
+github-events = "posit-dev/snowflake_native_demos"
+
+[projects.jupyter-positron-verifier]
+name = "jupyter-positron-verifier"
+github-events = "posit-dev/jupyter-positron-verifier"
+
+[projects.blog-scipy-slides-with-quarto]
+name = "blog-scipy-slides-with-quarto"
+github-events = "posit-dev/blog-scipy-slides-with-quarto"
+
+[projects.positron-notebook-workshop]
+name = "positron-notebook-workshop"
+github-events = "posit-dev/positron-notebook-workshop"
+
+[projects.rstudio]
+name = "rstudio"
+github-events = "rstudio/rstudio"
+
+[projects.r-websockets]
+name = "R-Websockets"
+github-events = "rstudio/R-Websockets"
+
+[projects.markdown]
+name = "markdown"
+github-events = "rstudio/markdown"
+
+[projects.shiny]
+name = "shiny"
+github-events = "rstudio/shiny"
+
+[projects.shiny-server]
+name = "shiny-server"
+github-events = "rstudio/shiny-server"
+
+[projects.shiny-incubator]
+name = "shiny-incubator"
+github-events = "rstudio/shiny-incubator"
+
+[projects.shiny_example]
+name = "shiny_example"
+github-events = "rstudio/shiny_example"
+
+[projects.httpuv]
+name = "httpuv"
+github-events = "rstudio/httpuv"
+
+[projects.reactnb]
+name = "reactnb"
+github-events = "rstudio/reactnb"
+
+[projects.shiny-testapp]
+name = "shiny-testapp"
+github-events = "rstudio/shiny-testapp"
+
+[projects.shinyapps]
+name = "shinyapps"
+github-events = "rstudio/shinyapps"
+
+[projects.packrat]
+name = "packrat"
+github-events = "rstudio/packrat"
+
+[projects.shiny-examples]
+name = "shiny-examples"
+github-events = "rstudio/shiny-examples"
+
+[projects.giza]
+name = "giza"
+github-events = "rstudio/giza"
+
+[projects.rscrypt]
+name = "rscrypt"
+github-events = "rstudio/rscrypt"
+
+[projects.rstudioapi]
+name = "rstudioapi"
+github-events = "rstudio/rstudioapi"
+
+[projects.rmarkdown]
+name = "rmarkdown"
+github-events = "rstudio/rmarkdown"
+
+[projects.ace-cpp-autoindent]
+name = "ace-cpp-autoindent"
+github-events = "rstudio/ace-cpp-autoindent"
+
+[projects.rticles]
+name = "rticles"
+github-events = "rstudio/rticles"
+
+[projects.rmdexamples]
+name = "rmdexamples"
+github-events = "rstudio/rmdexamples"
+
+[projects.htmltools]
+name = "htmltools"
+github-events = "rstudio/htmltools"
+
+[projects.vagrant-logplex]
+name = "vagrant-logplex"
+github-events = "rstudio/vagrant-logplex"
+
+[projects.rsconnect]
+name = "rsconnect"
+github-events = "rstudio/rsconnect"
+
+[projects.webinars]
+name = "webinars"
+github-events = "rstudio/webinars"
+
+[projects.shinyapps-package-dependencies]
+name = "shinyapps-package-dependencies"
+github-events = "rstudio/shinyapps-package-dependencies"
+
+[projects.dygraphs]
+name = "dygraphs"
+github-events = "rstudio/dygraphs"
+
+[projects.revealjs]
+name = "revealjs"
+github-events = "rstudio/revealjs"
+
+[projects.libclang-binaries]
+name = "libclang-binaries"
+github-events = "rstudio/libclang-binaries"
+
+[projects.libclang-builtin-headers]
+name = "libclang-builtin-headers"
+github-events = "rstudio/libclang-builtin-headers"
+
+[projects.gggeom]
+name = "gggeom"
+github-events = "rstudio/gggeom"
+
+[projects.shinybootstrap2]
+name = "shinybootstrap2"
+github-events = "rstudio/shinybootstrap2"
+
+[projects.shinybs2demo]
+name = "shinyBS2demo"
+github-events = "rstudio/shinyBS2demo"
+
+[projects.edawr]
+name = "EDAWR"
+github-events = "rstudio/EDAWR"
+
+[projects.shinydashboard]
+name = "shinydashboard"
+github-events = "rstudio/shinydashboard"
+
+[projects.intro]
+name = "Intro"
+github-events = "rstudio/Intro"
+
+[projects.leaflet]
+name = "leaflet"
+github-events = "rstudio/leaflet"
+
+[projects.dt]
+name = "DT"
+github-events = "rstudio/DT"
+
+[projects.shinythemes]
+name = "shinythemes"
+github-events = "rstudio/shinythemes"
+
+[projects.influxdb_backup]
+name = "influxdb_backup"
+github-events = "rstudio/influxdb_backup"
+
+[projects.manipulate]
+name = "manipulate"
+github-events = "rstudio/manipulate"
+
+[projects.reportsws]
+name = "reportsWS"
+github-events = "rstudio/reportsWS"
+
+[projects.sortable]
+name = "sortable"
+github-events = "rstudio/sortable"
+
+[projects.docker-registry-sweeper]
+name = "docker-registry-sweeper"
+github-events = "rstudio/docker-registry-sweeper"
+
+[projects.plumber]
+name = "plumber"
+github-events = "rstudio/plumber"
+
+[projects.shiny-tutorial-videos]
+name = "shiny-tutorial-videos"
+github-events = "rstudio/shiny-tutorial-videos"
+
+[projects.ambassador-webinar]
+name = "ambassador-webinar"
+github-events = "rstudio/ambassador-webinar"
+
+[projects.expert]
+name = "expert"
+github-events = "rstudio/expert"
+
+[projects.htmllayout]
+name = "htmllayout"
+github-events = "rstudio/htmllayout"
+
+[projects.crosstalk]
+name = "crosstalk"
+github-events = "rstudio/crosstalk"
+
+[projects.flights2]
+name = "flights2"
+github-events = "rstudio/flights2"
+
+[projects.bookdown]
+name = "bookdown"
+github-events = "rstudio/bookdown"
+
+[projects.shinygadgets]
+name = "shinygadgets"
+github-events = "rstudio/shinygadgets"
+
+[projects.bookdown-demo]
+name = "bookdown-demo"
+github-events = "rstudio/bookdown-demo"
+
+[projects.addinexamples]
+name = "addinexamples"
+github-events = "rstudio/addinexamples"
+
+[projects.rstudioaddins]
+name = "rstudioaddins"
+github-events = "rstudio/rstudioaddins"
+
+[projects.miniui]
+name = "miniUI"
+github-events = "rstudio/miniUI"
+
+[projects.tufte]
+name = "tufte"
+github-events = "rstudio/tufte"
+
+[projects.sol-eng-public]
+name = "sol-eng-public"
+github-events = "rstudio/sol-eng-public"
+
+[projects.reactivity-tutorial]
+name = "reactivity-tutorial"
+github-events = "rstudio/reactivity-tutorial"
+
+[projects.rmarkdown-website]
+name = "rmarkdown-website"
+github-events = "rstudio/rmarkdown-website"
+
+[projects.flexdashboard]
+name = "flexdashboard"
+github-events = "rstudio/flexdashboard"
+
+[projects.shiny-server-client]
+name = "shiny-server-client"
+github-events = "rstudio/shiny-server-client"
+
+[projects.rrrrmarkdown]
+name = "RRRRMarkdown"
+github-events = "rstudio/RRRRMarkdown"
+
+[projects.introtoshiny]
+name = "IntroToShiny"
+github-events = "rstudio/IntroToShiny"
+
+[projects.system2-5]
+name = "system2.5"
+github-events = "rstudio/system2.5"
+
+[projects.rquickstart]
+name = "RQuickstart"
+github-events = "rstudio/RQuickstart"
+
+[projects.rmarkdownreports]
+name = "RMarkdownReports"
+github-events = "rstudio/RMarkdownReports"
+
+[projects.rmarkdown-website-examples]
+name = "rmarkdown-website-examples"
+github-events = "rstudio/rmarkdown-website-examples"
+
+[projects.shinydeveloperconference]
+name = "ShinyDeveloperConference"
+github-events = "rstudio/ShinyDeveloperConference"
+
+[projects.rstarthere]
+name = "RStartHere"
+github-events = "rstudio/RStartHere"
+
+[projects.pool]
+name = "pool"
+github-events = "rstudio/pool"
+
+[projects.config]
+name = "config"
+github-events = "rstudio/config"
+
+[projects.spark-rstudio-com]
+name = "spark.rstudio.com"
+github-events = "rstudio/spark.rstudio.com"
+
+[projects.sparkapi]
+name = "sparkapi"
+github-events = "rstudio/sparkapi"
+
+[projects.strata2016]
+name = "Strata2016"
+github-events = "rstudio/Strata2016"
+
+[projects.sparkdemos]
+name = "sparkDemos"
+github-events = "rstudio/sparkDemos"
+
+[projects.webdriver]
+name = "webdriver"
+github-events = "rstudio/webdriver"
+
+[projects.tensorflow]
+name = "tensorflow"
+github-events = "rstudio/tensorflow"
+
+[projects.shinytest]
+name = "shinytest"
+github-events = "rstudio/shinytest"
+
+[projects.chef-spark]
+name = "chef-spark"
+github-events = "rstudio/chef-spark"
+
+[projects.learnr]
+name = "learnr"
+github-events = "rstudio/learnr"
+
+[projects.blogdown]
+name = "blogdown"
+github-events = "rstudio/blogdown"
+
+[projects.customersuccesswebinars]
+name = "CustomerSuccessWebinars"
+github-events = "rstudio/CustomerSuccessWebinars"
+
+[projects.ptexamples]
+name = "ptexamples"
+github-events = "rstudio/ptexamples"
+
+[projects.cheatsheets]
+name = "cheatsheets"
+github-events = "rstudio/cheatsheets"
+
+[projects.rstudio-conf]
+name = "rstudio-conf"
+github-events = "rstudio/rstudio-conf"
+
+[projects.tfestimators]
+name = "tfestimators"
+github-events = "rstudio/tfestimators"
+
+[projects.keras3]
+name = "keras3"
+github-events = "rstudio/keras3"
+
+[projects.reticulate]
+name = "reticulate"
+github-events = "rstudio/reticulate"
+
+[projects.shinyloadtest]
+name = "shinyloadtest"
+github-events = "rstudio/shinyloadtest"
+
+[projects.cloudml]
+name = "cloudml"
+github-events = "rstudio/cloudml"
+
+[projects.db-rstudio-com]
+name = "db.rstudio.com"
+github-events = "rstudio/db.rstudio.com"
+
+[projects.promises]
+name = "promises"
+github-events = "rstudio/promises"
+
+[projects.spark-install]
+name = "spark-install"
+github-events = "rstudio/spark-install"
+
+[projects.sol-eng-landscape]
+name = "sol-eng-landscape"
+github-events = "rstudio/sol-eng-landscape"
+
+[projects.dbtest]
+name = "dbtest"
+github-events = "rstudio/dbtest"
+
+[projects.shiny-test-apps]
+name = "shiny-test-apps"
+github-events = "rstudio/shiny-test-apps"
+
+[projects.gitdown]
+name = "gitdown"
+github-events = "rstudio/gitdown"
+
+[projects.master-the-tidyverse]
+name = "master-the-tidyverse"
+github-events = "rstudio/master-the-tidyverse"
+
+[projects.tfruns]
+name = "tfruns"
+github-events = "rstudio/tfruns"
+
+[projects.rstudio-connections-example]
+name = "rstudio-connections-example"
+github-events = "rstudio/rstudio-connections-example"
+
+[projects.shinytest-ci-example]
+name = "shinytest-ci-example"
+github-events = "rstudio/shinytest-ci-example"
+
+[projects.shinytest-ci-example-multi]
+name = "shinytest-ci-example-multi"
+github-events = "rstudio/shinytest-ci-example-multi"
+
+[projects.blastula]
+name = "blastula"
+github-events = "rstudio/blastula"
+
+[projects.proxyrec]
+name = "proxyrec"
+github-events = "rstudio/proxyrec"
+
+[projects.master-the-tidyverse-solutions]
+name = "master-the-tidyverse-solutions"
+github-events = "rstudio/master-the-tidyverse-solutions"
+
+[projects.tfdeploy]
+name = "tfdeploy"
+github-events = "rstudio/tfdeploy"
+
+[projects.tfdatasets]
+name = "tfdatasets"
+github-events = "rstudio/tfdatasets"
+
+[projects.redux-mock-store-middleware]
+name = "redux-mock-store-middleware"
+github-events = "rstudio/redux-mock-store-middleware"
+
+[projects.swagger]
+name = "swagger"
+github-events = "rstudio/swagger"
+
+[projects.tinytex]
+name = "tinytex"
+github-events = "rstudio/tinytex"
+
+[projects.keras-customer-churn]
+name = "keras-customer-churn"
+github-events = "rstudio/keras-customer-churn"
+
+[projects.bigdataclass]
+name = "bigdataclass"
+github-events = "rstudio/bigdataclass"
+
+[projects.kerasjs]
+name = "kerasjs"
+github-events = "rstudio/kerasjs"
+
+[projects.rmarkdown-book]
+name = "rmarkdown-book"
+github-events = "rstudio/rmarkdown-book"
+
+[projects.websocket]
+name = "websocket"
+github-events = "rstudio/websocket"
+
+[projects.mleap]
+name = "mleap"
+github-events = "rstudio/mleap"
+
+[projects.r2d3]
+name = "r2d3"
+github-events = "rstudio/r2d3"
+
+[projects.graphframes]
+name = "graphframes"
+github-events = "rstudio/graphframes"
+
+[projects.gradethis]
+name = "gradethis"
+github-events = "rstudio/gradethis"
+
+[projects.hex-stickers]
+name = "hex-stickers"
+github-events = "rstudio/hex-stickers"
+
+[projects.shinytestpackageexample]
+name = "shinytestPackageExample"
+github-events = "rstudio/shinytestPackageExample"
+
+[projects.distill]
+name = "distill"
+github-events = "rstudio/distill"
+
+[projects.rmarkdown-cookbook]
+name = "rmarkdown-cookbook"
+github-events = "rstudio/rmarkdown-cookbook"
+
+[projects.shinycannon]
+name = "shinycannon"
+github-events = "rstudio/shinycannon"
+
+[projects.cranwhales]
+name = "cranwhales"
+github-events = "rstudio/cranwhales"
+
+[projects.fontawesome]
+name = "fontawesome"
+github-events = "rstudio/fontawesome"
+
+[projects.htmldeps]
+name = "htmldeps"
+github-events = "rstudio/htmldeps"
+
+[projects.reactlog]
+name = "reactlog"
+github-events = "rstudio/reactlog"
+
+[projects.ai-blog]
+name = "ai-blog"
+github-events = "rstudio/ai-blog"
+
+[projects.blogs-rstudio-com]
+name = "blogs.rstudio.com"
+github-events = "rstudio/blogs.rstudio.com"
+
+[projects.bookdown-org]
+name = "bookdown.org"
+github-events = "rstudio/bookdown.org"
+
+[projects.forge]
+name = "forge"
+github-events = "rstudio/forge"
+
+[projects.tfhub]
+name = "tfhub"
+github-events = "rstudio/tfhub"
+
+[projects.bigd]
+name = "bigD"
+github-events = "rstudio/bigD"
+
+[projects.sass]
+name = "sass"
+github-events = "rstudio/sass"
+
+[projects.cran-security-blog]
+name = "cran-security-blog"
+github-events = "rstudio/cran-security-blog"
+
+[projects.mlflow-example]
+name = "mlflow-example"
+github-events = "rstudio/mlflow-example"
+
+[projects.conf_tensorflow_training_day2]
+name = "conf_tensorflow_training_day2"
+github-events = "rstudio/conf_tensorflow_training_day2"
+
+[projects.pagedown]
+name = "pagedown"
+github-events = "rstudio/pagedown"
+
+[projects.terminaltools]
+name = "terminaltools"
+github-events = "rstudio/terminaltools"
+
+[projects.checkrs-containers]
+name = "checkRS-containers"
+github-events = "rstudio/checkRS-containers"
+
+[projects.nomnoml]
+name = "nomnoml"
+github-events = "rstudio/nomnoml"
+
+[projects.sparkxgb]
+name = "sparkxgb"
+github-events = "rstudio/sparkxgb"
+
+[projects.renv]
+name = "renv"
+github-events = "rstudio/renv"
+
+[projects.education-rstudio-com]
+name = "education.rstudio.com"
+github-events = "rstudio/education.rstudio.com"
+
+[projects.connect-api-deploy-shiny]
+name = "connect-api-deploy-shiny"
+github-events = "rstudio/connect-api-deploy-shiny"
+
+[projects.r-community-survey]
+name = "r-community-survey"
+github-events = "rstudio/r-community-survey"
+
+[projects.webio_tut]
+name = "webio_tut"
+github-events = "rstudio/webio_tut"
+
+[projects.gary-uml]
+name = "gary-uml"
+github-events = "rstudio/gary-uml"
+
+[projects.pro_admin_training_assets]
+name = "pro_admin_training_assets"
+github-events = "rstudio/pro_admin_training_assets"
+
+[projects.sparktf]
+name = "sparktf"
+github-events = "rstudio/sparktf"
+
+[projects.chromote]
+name = "chromote"
+github-events = "rstudio/chromote"
+
+[projects.r-system-requirements]
+name = "r-system-requirements"
+github-events = "rstudio/r-system-requirements"
+
+[projects.tfprobability]
+name = "tfprobability"
+github-events = "rstudio/tfprobability"
+
+[projects.hugo-graphite]
+name = "hugo-graphite"
+github-events = "rstudio/hugo-graphite"
+
+[projects.radix]
+name = "radix"
+github-events = "rstudio/radix"
+
+[projects.r-docker]
+name = "r-docker"
+github-events = "rstudio/r-docker"
+
+[projects.leaflet-mapboxgl]
+name = "leaflet.mapboxgl"
+github-events = "rstudio/leaflet.mapboxgl"
+
+[projects.webshot2]
+name = "webshot2"
+github-events = "rstudio/webshot2"
+
+[projects.rsc-hello-world-content]
+name = "rsc-hello-world-content"
+github-events = "rstudio/rsc-hello-world-content"
+
+[projects.pins-r]
+name = "pins-r"
+github-events = "rstudio/pins-r"
+
+[projects.r-builds]
+name = "r-builds"
+github-events = "rstudio/r-builds"
+
+[projects.rstudio-launcher-plugin-sdk]
+name = "rstudio-launcher-plugin-sdk"
+github-events = "rstudio/rstudio-launcher-plugin-sdk"
+
+[projects.shinymeta]
+name = "shinymeta"
+github-events = "rstudio/shinymeta"
+
+[projects.rscloud]
+name = "rscloud"
+github-events = "rstudio/rscloud"
+
+[projects.r4artsundays]
+name = "R4ArtSundays"
+github-events = "rstudio/R4ArtSundays"
+
+[projects.rstudio-docker-products]
+name = "rstudio-docker-products"
+github-events = "rstudio/rstudio-docker-products"
+
+[projects.leaflet-providers]
+name = "leaflet.providers"
+github-events = "rstudio/leaflet.providers"
+
+[projects.parsons]
+name = "parsons"
+github-events = "rstudio/parsons"
+
+[projects.rmarkdown-and-dashboards]
+name = "rmarkdown-and-dashboards"
+github-events = "rstudio/rmarkdown-and-dashboards"
+
+[projects.rstudio-shields]
+name = "rstudio-shields"
+github-events = "rstudio/rstudio-shields"
+
+[projects.tfds]
+name = "tfds"
+github-events = "rstudio/tfds"
+
+[projects.connections]
+name = "connections"
+github-events = "rstudio/connections"
+
+[projects.ucl-rmarkdown-talk]
+name = "UCL-RMarkdown-Talk"
+github-events = "rstudio/UCL-RMarkdown-Talk"
+
+[projects.sol-eng-demo-server]
+name = "sol-eng-demo-server"
+github-events = "rstudio/sol-eng-demo-server"
+
+[projects.rscontract]
+name = "rscontract"
+github-events = "rstudio/rscontract"
+
+[projects.bslib]
+name = "bslib"
+github-events = "rstudio/bslib"
+
+[projects.katacoda-scenarios]
+name = "katacoda-scenarios"
+github-events = "rstudio/katacoda-scenarios"
+
+[projects.jquerylib]
+name = "jquerylib"
+github-events = "rstudio/jquerylib"
+
+[projects.shinycoreci]
+name = "shinycoreci"
+github-events = "rstudio/shinycoreci"
+
+[projects.shinycoreci-apps]
+name = "shinycoreci-apps"
+github-events = "rstudio/shinycoreci-apps"
+
+[projects.shiny-gallery]
+name = "shiny-gallery"
+github-events = "rstudio/shiny-gallery"
+
+[projects.conf20-future-dse]
+name = "conf20-future-dse"
+github-events = "rstudio/conf20-future-dse"
+
+[projects.rsformat]
+name = "rsformat"
+github-events = "rstudio/rsformat"
+
+[projects.fuzzbucket]
+name = "fuzzbucket"
+github-events = "rstudio/fuzzbucket"
+
+[projects.thematic]
+name = "thematic"
+github-events = "rstudio/thematic"
+
+[projects.rstudio-community-discourse]
+name = "rstudio-community-discourse"
+github-events = "rstudio/rstudio-community-discourse"
+
+[projects.checkrs-deploy]
+name = "checkRS-deploy"
+github-events = "rstudio/checkRS-deploy"
+
+[projects.cs_protips]
+name = "cs_protips"
+github-events = "rstudio/cs_protips"
+
+[projects.visual-markdown-editing]
+name = "visual-markdown-editing"
+github-events = "rstudio/visual-markdown-editing"
+
+[projects.gary-support-article-source]
+name = "gary-support-article-source"
+github-events = "rstudio/gary-support-article-source"
+
+[projects.ca-predict-covid]
+name = "ca-predict-covid"
+github-events = "rstudio/ca-predict-covid"
+
+[projects.team-admin-rstudio-com]
+name = "team-admin.rstudio.com"
+github-events = "rstudio/team-admin.rstudio.com"
+
+[projects.shiny-testing-gha-example]
+name = "shiny-testing-gha-example"
+github-events = "rstudio/shiny-testing-gha-example"
+
+[projects.shinytableau]
+name = "shinytableau"
+github-events = "rstudio/shinytableau"
+
+[projects.beyond-dashboard-fatigue]
+name = "beyond-dashboard-fatigue"
+github-events = "rstudio/beyond-dashboard-fatigue"
+
+[projects.enabling-remote-data-science-teams]
+name = "enabling-remote-data-science-teams"
+github-events = "rstudio/enabling-remote-data-science-teams"
+
+[projects.shinyvalidate]
+name = "shinyvalidate"
+github-events = "rstudio/shinyvalidate"
+
+[projects.pygradethis]
+name = "pygradethis"
+github-events = "rstudio/pygradethis"
+
+[projects.ggcheck]
+name = "ggcheck"
+github-events = "rstudio/ggcheck"
+
+[projects.concept-maps]
+name = "concept-maps"
+github-events = "rstudio/concept-maps"
+
+[projects.quillt]
+name = "quillt"
+github-events = "rstudio/quillt"
+
+[projects.cs_protipstemplate]
+name = "cs_protipstemplate"
+github-events = "rstudio/cs_protipstemplate"
+
+[projects.tinytex-releases]
+name = "tinytex-releases"
+github-events = "rstudio/tinytex-releases"
+
+[projects.connect-examples]
+name = "connect-examples"
+github-events = "rstudio/connect-examples"
+
+[projects.pkgs-rstudio-com]
+name = "pkgs.rstudio.com"
+github-events = "rstudio/pkgs.rstudio.com"
+
+[projects.rstudio-global-2021-program]
+name = "rstudio-global-2021-program"
+github-events = "rstudio/rstudio-global-2021-program"
+
+[projects.actions]
+name = "actions"
+github-events = "rstudio/actions"
+
+[projects.rsconnect-ts]
+name = "rsconnect-ts"
+github-events = "rstudio/rsconnect-ts"
+
+[projects.shiny_app_stories]
+name = "shiny_app_stories"
+github-events = "rstudio/shiny_app_stories"
+
+[projects.a-flexdashboard-for-google-analytics]
+name = "a-flexdashboard-for-google-analytics"
+github-events = "rstudio/a-flexdashboard-for-google-analytics"
+
+[projects.connectwidgets]
+name = "connectwidgets"
+github-events = "rstudio/connectwidgets"
+
+[projects.plumbertableau]
+name = "plumbertableau"
+github-events = "rstudio/plumbertableau"
+
+[projects.fsbench]
+name = "fsbench"
+github-events = "rstudio/fsbench"
+
+[projects.checkrs-linkto]
+name = "checkRS-linkto"
+github-events = "rstudio/checkRS-linkto"
+
+[projects.gridlayout]
+name = "gridlayout"
+github-events = "rstudio/gridlayout"
+
+[projects.remarker]
+name = "remarker"
+github-events = "rstudio/remarker"
+
+[projects.k8s-http-auth]
+name = "k8s-http-auth"
+github-events = "rstudio/k8s-http-auth"
+
+[projects.tblcheck]
+name = "tblcheck"
+github-events = "rstudio/tblcheck"
+
+[projects.academydatasets]
+name = "academyDatasets"
+github-events = "rstudio/academyDatasets"
+
+[projects.hello]
+name = "hello"
+github-events = "rstudio/hello"
+
+[projects.shinytest2]
+name = "shinytest2"
+github-events = "rstudio/shinytest2"
+
+[projects.vetiver-r]
+name = "vetiver-r"
+github-events = "rstudio/vetiver-r"
+
+[projects.helm]
+name = "helm"
+github-events = "rstudio/helm"
+
+[projects.fastapitableau]
+name = "fastapitableau"
+github-events = "rstudio/fastapitableau"
+
+[projects.customer-success]
+name = "customer-success"
+github-events = "rstudio/customer-success"
+
+[projects.platform-lib]
+name = "platform-lib"
+github-events = "rstudio/platform-lib"
+
+[projects.docs-how-tos]
+name = "docs-how-tos"
+github-events = "rstudio/docs-how-tos"
+
+[projects.shiny-workflows]
+name = "shiny-workflows"
+github-events = "rstudio/shiny-workflows"
+
+[projects.vetiver-python]
+name = "vetiver-python"
+github-events = "rstudio/vetiver-python"
+
+[projects.filequeue]
+name = "filequeue"
+github-events = "rstudio/filequeue"
+
+[projects.r-manuals]
+name = "r-manuals"
+github-events = "rstudio/r-manuals"
+
+[projects.education-workflows]
+name = "education-workflows"
+github-events = "rstudio/education-workflows"
+
+[projects.rskey]
+name = "rskey"
+github-events = "rstudio/rskey"
+
+[projects.edge-auth]
+name = "edge-auth"
+github-events = "rstudio/edge-auth"
+
+[projects.rsc-sample-content]
+name = "rsc-sample-content"
+github-events = "rstudio/rsc-sample-content"
+
+[projects.gcfgenv]
+name = "gcfgenv"
+github-events = "rstudio/gcfgenv"
+
+[projects.pins-python]
+name = "pins-python"
+github-events = "rstudio/pins-python"
+
+[projects.vetiver-posit-co]
+name = "vetiver.posit.co"
+github-events = "rstudio/vetiver.posit.co"
+
+[projects.checkrs-tew]
+name = "checkrs-tew"
+github-events = "rstudio/checkrs-tew"
+
+[projects.tensorflow-rstudio-com]
+name = "tensorflow.rstudio.com"
+github-events = "rstudio/tensorflow.rstudio.com"
+
+[projects.postgresql-reserved-words]
+name = "postgresql-reserved-words"
+github-events = "rstudio/postgresql-reserved-words"
+
+[projects.rstudio-conf-2022-program]
+name = "rstudio-conf-2022-program"
+github-events = "rstudio/rstudio-conf-2022-program"
+
+[projects.golang-migrate-source-aws-s3-v2]
+name = "golang-migrate-source-aws-s3-v2"
+github-events = "rstudio/golang-migrate-source-aws-s3-v2"
+
+[projects.gradecode]
+name = "gradecode"
+github-events = "rstudio/gradecode"
+
+[projects.bundle]
+name = "bundle"
+github-events = "rstudio/bundle"
+
+[projects.package-manager-demo]
+name = "package-manager-demo"
+github-events = "rstudio/package-manager-demo"
+
+[projects.bsicons]
+name = "bsicons"
+github-events = "rstudio/bsicons"
+
+[projects.juicyjuice]
+name = "juicyjuice"
+github-events = "rstudio/juicyjuice"
+
+[projects.ghoststring]
+name = "ghoststring"
+github-events = "rstudio/ghoststring"
+
+[projects.goex]
+name = "goex"
+github-events = "rstudio/goex"
+
+[projects.issuetriager]
+name = "issuetriager"
+github-events = "rstudio/issuetriager"
+
+[projects.ps-cheatsheet-metrics]
+name = "ps-cheatsheet-metrics"
+github-events = "rstudio/ps-cheatsheet-metrics"
+
+[projects.repository-snapshot-format]
+name = "repository-snapshot-format"
+github-events = "rstudio/repository-snapshot-format"
+
+[projects.go-snyk-dependency-recursion-issue]
+name = "go-snyk-dependency-recursion-issue"
+github-events = "rstudio/go-snyk-dependency-recursion-issue"
+
+[projects.shiny-data]
+name = "shiny-data"
+github-events = "rstudio/shiny-data"
+
+[projects.pyshiny-multi-query-sentiment]
+name = "pyshiny-multi-query-sentiment"
+github-events = "rstudio/pyshiny-multi-query-sentiment"
+
+[projects.package-manager-rpackagerewriter]
+name = "package-manager-rpackagerewriter"
+github-events = "rstudio/package-manager-rpackagerewriter"
+
+[projects.shiny-streamlit-api]
+name = "shiny-streamlit-api"
+github-events = "rstudio/shiny-streamlit-api"
+
+[projects.ppmtools]
+name = "ppmtools"
+github-events = "rstudio/ppmtools"
+
+[projects.posit_theme]
+name = "posit_theme"
+github-events = "rstudio/posit_theme"
+
+[projects.academyminimalpackage]
+name = "academyMinimalPackage"
+github-events = "rstudio/academyMinimalPackage"
+
+[projects.py-shiny-docs]
+name = "py-shiny-docs"
+github-events = "rstudio/py-shiny-docs"
+
+[projects.rsc-connect-content]
+name = "rsc-connect-content"
+github-events = "rstudio/rsc-connect-content"
+
+[projects.posit-demo-assets]
+name = "posit-demo-assets"
+github-events = "rstudio/posit-demo-assets"
+
+[projects.demo-co-quarto-report]
+name = "demo-co-quarto-report"
+github-events = "rstudio/demo-co-quarto-report"
+
+[projects.demo-co]
+name = "demo-co"
+github-events = "rstudio/demo-co"
+
+[projects.python-distribution-parser]
+name = "python-distribution-parser"
+github-events = "rstudio/python-distribution-parser"
+
+[projects.shinytest2-gha-multiple-apps]
+name = "shinytest2-gha-multiple-apps"
+github-events = "rstudio/shinytest2-gha-multiple-apps"
+
+[projects.databricks-ufo]
+name = "databricks-ufo"
+github-events = "rstudio/databricks-ufo"
+
+[projects.databricks-examples]
+name = "databricks-examples"
+github-events = "rstudio/databricks-examples"
+
+[projects.jumpstart_examples]
+name = "jumpstart_examples"
+github-events = "rstudio/jumpstart_examples"
+
+[projects.snyk-container]
+name = "snyk-container"
+github-events = "rstudio/snyk-container"
+
+[projects.academymentorresources]
+name = "academyMentorResources"
+github-events = "rstudio/academyMentorResources"
+
+[projects.posit-installation-r]
+name = "posit.installation.r"
+github-events = "rstudio/posit.installation.r"
+
+[projects.rstudio-internals]
+name = "rstudio-internals"
+github-events = "rstudio/rstudio-internals"
+
+[projects.academy-tidyverse-covid]
+name = "academy-tidyverse-covid"
+github-events = "rstudio/academy-tidyverse-covid"
+
+[projects.academy-python-covid]
+name = "academy-python-covid"
+github-events = "rstudio/academy-python-covid"
+
+[projects.academy-pinr-census]
+name = "academy-pinr-census"
+github-events = "rstudio/academy-pinr-census"
+
+[projects.academy-tidyverse-renal-treatment]
+name = "academy-tidyverse-renal-treatment"
+github-events = "rstudio/academy-tidyverse-renal-treatment"
+
+[projects.academy-python-stock-portfolios]
+name = "academy-python-stock-portfolios"
+github-events = "rstudio/academy-python-stock-portfolios"
+
+[projects.academy-tidyverse-renal-treatment-10wk]
+name = "academy-tidyverse-renal-treatment-10wk"
+github-events = "rstudio/academy-tidyverse-renal-treatment-10wk"
+
+[projects.academy-pinr-heart-catheterization]
+name = "academy-pinr-heart-catheterization"
+github-events = "rstudio/academy-pinr-heart-catheterization"
+
+[projects.rstudio-r-universe-dev]
+name = "rstudio.r-universe.dev"
+github-events = "rstudio/rstudio.r-universe.dev"
+
+[projects.academy-tidyverse-solar-power]
+name = "academy-tidyverse-solar-power"
+github-events = "rstudio/academy-tidyverse-solar-power"
+
+[projects.shinydashboarda11y]
+name = "shinydashboarda11y"
+github-events = "rstudio/shinydashboarda11y"
+
+[projects.academy-tidyverse-credit-risk]
+name = "academy-tidyverse-credit-risk"
+github-events = "rstudio/academy-tidyverse-credit-risk"
+
+[projects.academy-tidyverse-ide-tutorials]
+name = "academy-tidyverse-ide-tutorials"
+github-events = "rstudio/academy-tidyverse-ide-tutorials"
+
+[projects.academy-pinr-ide-tutorials]
+name = "academy-pinr-ide-tutorials"
+github-events = "rstudio/academy-pinr-ide-tutorials"
+
+[projects.academy-apprenticeship-diagnostic-page]
+name = "academy-apprenticeship-diagnostic-page"
+github-events = "rstudio/academy-apprenticeship-diagnostic-page"

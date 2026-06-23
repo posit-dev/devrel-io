@@ -17,7 +17,7 @@ jobs:
       - uses: jeroenjanssens/velocirepo@v0
         with:
           github-token: ${{ secrets.GH_TOKEN }}
-          plausible-token: ${{ secrets.PLAUSIBLE_KEY }}
+          plausible-token: ${{ secrets.PLAUSIBLE_TOKEN }}
 
       - name: Commit and push
         run: |
