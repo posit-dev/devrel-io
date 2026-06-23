@@ -1,6 +1,0 @@
-{"event_type": "issue_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T18:03:45Z", "user": "cderv"}
-{"event_type": "issue_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T17:39:56Z", "user": "cderv"}
-{"event_type": "pr_open", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T17:55:24Z", "user": "cderv"}
-{"event_type": "pr_merge", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T19:36:44Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T17:55:43Z", "user": "posit-snyk-bot"}
-{"event_type": "pr_comment", "project_id": "quarto", "github_repo": "quarto-dev/quarto-cli", "datetime": "2026-05-15T07:24:40Z", "user": "cderv"}

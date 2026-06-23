@@ -1,0 +1,4 @@
+{"event_type": "pr_open", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-19T18:10:18Z", "user": "DavisVaughan", "source": "github"}
+{"event_type": "pr_merge", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-19T18:34:50Z", "user": "unknown", "source": "github"}
+{"event_type": "issue_comment", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-19T09:19:07Z", "user": "etiennebacher", "source": "github"}
+{"event_type": "issue_comment", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-19T08:59:07Z", "user": "lorenzwalthert", "source": "github"}

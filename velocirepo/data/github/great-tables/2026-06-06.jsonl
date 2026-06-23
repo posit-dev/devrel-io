@@ -1,0 +1,2 @@
+{"event_type": "pr_open", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-06-06T22:14:59Z", "user": "rich-iannone", "source": "github"}
+{"event_type": "pr_comment", "project_id": "great-tables", "github_repo": "posit-dev/great-tables", "datetime": "2026-06-06T22:16:59Z", "user": "codecov[bot]", "source": "github"}

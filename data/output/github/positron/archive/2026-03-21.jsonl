@@ -1,8 +1,0 @@
-{"event_type": "fork", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T10:27:40Z", "user": "vrognas"}
-{"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T19:42:27Z", "user": "steveo314"}
-{"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T10:33:52Z", "user": "vrognas"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T19:45:12Z", "user": "steveo314"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T18:32:24Z", "user": "jpcartailler"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T17:26:28Z", "user": "matthiasgomolka"}
-{"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T10:47:18Z", "user": "vrognas"}
-{"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-03-21T10:34:08Z", "user": "github-actions[bot]"}

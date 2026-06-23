@@ -1,0 +1,3 @@
+{"metric": "total_downloads", "project_id": "databot", "date": "2026-06-10", "value": 49174, "source": "openvsx", "target": "posit/databot"}
+{"metric": "rating", "project_id": "databot", "date": "2026-06-10", "value": 5.0, "source": "openvsx", "target": "posit/databot"}
+{"metric": "reviews", "project_id": "databot", "date": "2026-06-10", "value": 1, "source": "openvsx", "target": "posit/databot"}

@@ -1,7 +1,0 @@
-{"event_type": "fork", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T18:46:16Z", "user": "EmilHvitfeldt"}
-{"event_type": "issue_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T23:23:19Z", "user": "DavisVaughan"}
-{"event_type": "issue_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T19:13:10Z", "user": "EmilHvitfeldt"}
-{"event_type": "pr_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T19:19:28Z", "user": "EmilHvitfeldt"}
-{"event_type": "issue_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T23:21:39Z", "user": "DavisVaughan"}
-{"event_type": "pr_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T19:19:34Z", "user": "netlify[bot]"}
-{"event_type": "issue_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-05T18:43:24Z", "user": "EmilHvitfeldt"}

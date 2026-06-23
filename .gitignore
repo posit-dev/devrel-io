@@ -35,7 +35,3 @@ env/
 
 # Environment variables
 .env
-
-# Google API credentials
-client_secrets.json
-token.json

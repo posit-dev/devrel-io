@@ -1,5 +1,0 @@
-{"event_type": "issue_open", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-15T19:16:32Z", "user": "joshpersi"}
-{"event_type": "issue_close", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-15T21:29:18Z", "user": "DavisVaughan"}
-{"event_type": "issue_comment", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-15T20:22:21Z", "user": "joshpersi"}
-{"event_type": "issue_comment", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-15T19:52:17Z", "user": "DavisVaughan"}
-{"event_type": "pr_comment", "project_id": "air", "github_repo": "posit-dev/air", "datetime": "2026-06-15T17:53:26Z", "user": "DavisVaughan"}

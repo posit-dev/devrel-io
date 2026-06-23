@@ -1,9 +1,0 @@
-{"event_type": "issue_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T18:11:03Z", "user": "dotNomad"}
-{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T23:37:36Z", "user": "dotNomad"}
-{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T22:49:06Z", "user": "dotNomad"}
-{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T16:59:23Z", "user": "zackverham"}
-{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T17:21:28Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T23:38:20Z", "user": "posit-connect-projects[bot]"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T22:49:41Z", "user": "posit-connect-projects[bot]"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T17:00:12Z", "user": "posit-connect-projects[bot]"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-05-08T16:57:44Z", "user": "zackverham"}

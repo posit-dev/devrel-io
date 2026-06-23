@@ -1,6 +1,0 @@
-{"event_type": "issue_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T21:30:57Z", "user": "cwickham"}
-{"event_type": "pr_open", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T21:33:46Z", "user": "cwickham"}
-{"event_type": "pr_merge", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T21:47:00Z", "user": "unknown"}
-{"event_type": "pr_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T21:38:06Z", "user": "github-actions[bot]"}
-{"event_type": "pr_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T21:33:53Z", "user": "netlify[bot]"}
-{"event_type": "issue_comment", "project_id": "open-source-website", "github_repo": "posit-dev/open-source-website", "datetime": "2026-04-01T07:31:25Z", "user": "jeroenjanssens"}

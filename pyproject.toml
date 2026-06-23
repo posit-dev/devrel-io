@@ -9,24 +9,15 @@ dependencies = [
     "anthropic>=0.75.0",
     "boto3>=1.42.24",
     "chatlas[bedrock-anthropic]>=0.15.0",
-    "google-analytics-data>=0.19.0",
-    "google-auth-httplib2>=0.2.1",
-    "google-auth-oauthlib>=1.2.3",
     "itables[widget]>=2.6.1",
     "marimo>=0.19.0",
     "polars>=1.35.2",
-    "pyarrow>=22.0.0",
     "pydantic-ai>=1.40.0",
-    "python-dotenv>=1.2.1",
     "querychat>=0.3.0",
-    "requests>=2.32.5",
     "shiny>=1.5.0",
     "shinywidgets>=0.7.0",
     "sqlglot>=28.5.0",
 ]
-
-[project.scripts]
-gsheet = "gsheet:main"
 
 [dependency-groups]
 dev = [

@@ -1,5 +1,0 @@
-{"event_type": "issue_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-04-18T04:57:58Z", "user": "shahronak47"}
-{"event_type": "pr_open", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-04-18T23:18:58Z", "user": "juliasilge"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-04-18T23:51:15Z", "user": "juliasilge"}
-{"event_type": "pr_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-04-18T23:19:18Z", "user": "github-actions[bot]"}
-{"event_type": "issue_comment", "project_id": "positron", "github_repo": "posit-dev/positron", "datetime": "2026-04-18T13:14:27Z", "user": "kcsamir"}
