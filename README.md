@@ -7,7 +7,6 @@ Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, Plausi
 ## Data Sources
 
 - **GitHub Events**: Stars, forks, issues, PRs, comments (with user and timestamp)
-- **GitHub Traffic**: Daily page views and git clones
 - **PyPI**: Daily download counts
 - **CRAN**: Daily download counts
 - **Plausible**: Pageviews, visitors, visits
@@ -16,8 +15,6 @@ Track project adoption, engagement, and growth across GitHub, PyPI, CRAN, Plausi
 ## Prerequisites
 
 - [velocirepo](https://github.com/jeroenjanssens/velocirepo) (`brew install jeroenjanssens/tap/velocirepo`)
-- [just](https://github.com/casey/just) (optional command runner)
-- [uv](https://docs.astral.sh/uv/) (for the Shiny dashboard and notebooks)
 
 ## Quick Start
 
@@ -49,23 +46,8 @@ color = "#FF5733"
 tags = ["python"]
 website = "https://example.com"
 github-events = "owner/repo"
-github-traffic = "owner/repo"
 pypi = "package-name"
 plausible = "example.com"
-```
-
-## Commands
-
-```bash
-just fetch            # Fetch all metrics
-just fetch-github     # Fetch GitHub events only
-just fetch-pypi       # Fetch PyPI downloads only
-just fetch-cran       # Fetch CRAN downloads only
-just fetch-plausible  # Fetch Plausible analytics only
-just fetch-openvsx    # Fetch OpenVSX metrics only
-just query "SQL"      # Query metrics with SQL
-just validate         # Validate configuration
-just app              # Run the Shiny dashboard
 ```
 
 ## Data Structure
@@ -90,14 +72,7 @@ GitHub Actions fetches metrics daily at 6am UTC via the `jeroenjanssens/velocire
 
 **Required secrets:**
 - `GH_TOKEN` — GitHub Personal Access Token (no scopes needed)
-- `PLAUSIBLE_KEY` — Plausible API key
-
-## Dashboard
-
-```bash
-just install  # Install Python dependencies
-just app      # Start Shiny app at http://127.0.0.1:8765
-```
+- `PLAUSIBLE_TOKEN` — Plausible API key
 
 ## License
 
