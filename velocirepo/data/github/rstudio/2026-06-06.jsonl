@@ -1,0 +1,8 @@
+{"source":"github","event_type":"issue_open","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T20:59:32Z","user":"jonbry"}
+{"source":"github","event_type":"issue_close","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T06:21:14Z","user":"hrecht"}
+{"source":"github","event_type":"pr_open","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T19:21:14Z","user":"gtritchie"}
+{"source":"github","event_type":"pr_open","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T06:40:10Z","user":"kevinushey"}
+{"source":"github","event_type":"pr_merge","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T15:26:35Z","user":"kevinushey"}
+{"source":"github","event_type":"pr_open","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T00:06:31Z","user":"kevinushey"}
+{"source":"github","event_type":"pr_merge","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T06:21:13Z","user":"kevinushey"}
+{"source":"github","event_type":"pr_merge","project_id":"rstudio","github_repo":"rstudio/rstudio","datetime":"2026-06-06T05:17:53Z","user":"kevinushey"}
