@@ -1,6 +1,0 @@
-{"source":"github","event_type":"fork","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-05-05T13:15:10Z","user":"psanogo"}
-{"source":"github","event_type":"pr_open","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-05-16T21:23:42Z","user":"jonyoder"}
-{"source":"github","event_type":"pr_merge","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-05-16T21:25:44Z","user":"jonyoder"}
-{"source":"github","event_type":"pr_open","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-06-09T19:25:22Z","user":"jonyoder"}
-{"source":"github","event_type":"pr_merge","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-06-09T19:29:05Z","user":"jonyoder"}
-{"source":"github","event_type":"pr_open","project_id":"package-manager-rpackagerewriter","github_repo":"rstudio/package-manager-rpackagerewriter","datetime":"2023-10-11T23:42:09Z","user":"dependabot"}

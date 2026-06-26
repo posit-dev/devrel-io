@@ -1,5 +1,0 @@
-{"source":"github","event_type":"issue_close","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-22T15:43:28Z","user":"JsizzleR"}
-{"source":"github","event_type":"pr_open","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-22T09:23:18Z","user":"gaborcsardi"}
-{"source":"github","event_type":"pr_merge","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-22T19:24:38Z","user":"gaborcsardi"}
-{"source":"github","event_type":"pr_merge","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-22T14:30:15Z","user":"dependabot"}
-{"source":"github","event_type":"pr_merge","project_id":"r-builds","github_repo":"rstudio/r-builds","datetime":"2026-06-22T15:43:27Z","user":"jstruzik"}

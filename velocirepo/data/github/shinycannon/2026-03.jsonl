@@ -1,5 +1,0 @@
-{"source":"github","event_type":"pr_open","project_id":"shinycannon","github_repo":"rstudio/shinycannon","datetime":"2026-03-09T20:04:24Z","user":"jcheng5"}
-{"source":"github","event_type":"pr_open","project_id":"shinycannon","github_repo":"rstudio/shinycannon","datetime":"2026-03-10T16:27:14Z","user":"copilot-swe-agent"}
-{"source":"github","event_type":"pr_open","project_id":"shinycannon","github_repo":"rstudio/shinycannon","datetime":"2026-03-10T16:42:23Z","user":"gadenbuie"}
-{"source":"github","event_type":"pr_merge","project_id":"shinycannon","github_repo":"rstudio/shinycannon","datetime":"2026-03-10T16:48:53Z","user":"copilot-swe-agent"}
-{"source":"github","event_type":"fork","project_id":"shinycannon","github_repo":"rstudio/shinycannon","datetime":"2026-03-17T20:15:04Z","user":"posit-dev"}

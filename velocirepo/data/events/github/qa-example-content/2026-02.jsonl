@@ -1,0 +1,10 @@
+{"datetime":"2026-02-10T17:40:48Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_open"}
+{"datetime":"2026-02-10T17:43:22Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_merge"}
+{"datetime":"2026-02-11T22:19:24Z","project_id":"qa-example-content","source":"github","tags":{"user":"midleman"},"target":"posit-dev/qa-example-content","type":"pr_open"}
+{"datetime":"2026-02-11T22:20:34Z","project_id":"qa-example-content","source":"github","tags":{"user":"midleman"},"target":"posit-dev/qa-example-content","type":"pr_merge"}
+{"datetime":"2026-02-17T16:08:11Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_open"}
+{"datetime":"2026-02-17T16:38:53Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_merge"}
+{"datetime":"2026-02-20T18:28:07Z","project_id":"qa-example-content","source":"github","tags":{"user":"jmcphers"},"target":"posit-dev/qa-example-content","type":"pr_open"}
+{"datetime":"2026-02-23T16:55:15Z","project_id":"qa-example-content","source":"github","tags":{"user":"jmcphers"},"target":"posit-dev/qa-example-content","type":"pr_merge"}
+{"datetime":"2026-02-23T17:19:52Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_open"}
+{"datetime":"2026-02-23T17:29:01Z","project_id":"qa-example-content","source":"github","tags":{"user":"testlabauto"},"target":"posit-dev/qa-example-content","type":"pr_merge"}

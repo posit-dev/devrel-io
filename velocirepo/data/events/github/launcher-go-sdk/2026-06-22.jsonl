@@ -1,0 +1,5 @@
+{"datetime":"2026-06-22T23:12:00Z","project_id":"launcher-go-sdk","source":"github","tags":{"user":"aronatkins"},"target":"posit-dev/launcher-go-sdk","type":"issue_close"}
+{"datetime":"2026-06-22T23:18:45Z","project_id":"launcher-go-sdk","source":"github","tags":{"user":"dmortondev"},"target":"posit-dev/launcher-go-sdk","type":"pr_open"}
+{"datetime":"2026-06-22T11:34:59Z","project_id":"launcher-go-sdk","source":"github","tags":{"user":"dependabot"},"target":"posit-dev/launcher-go-sdk","type":"pr_open"}
+{"datetime":"2026-06-22T22:54:23Z","project_id":"launcher-go-sdk","source":"github","tags":{"user":"dependabot"},"target":"posit-dev/launcher-go-sdk","type":"pr_merge"}
+{"datetime":"2026-06-22T23:11:59Z","project_id":"launcher-go-sdk","source":"github","tags":{"user":"dmortondev"},"target":"posit-dev/launcher-go-sdk","type":"pr_merge"}

@@ -1,8 +1,0 @@
-{"source":"github","event_type":"fork","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T20:13:09Z","user":"jeroen"}
-{"source":"github","event_type":"issue_open","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T20:14:39Z","user":"aronatkins"}
-{"source":"github","event_type":"issue_open","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T13:37:27Z","user":"aronatkins"}
-{"source":"github","event_type":"issue_close","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T20:04:34Z","user":"aronatkins"}
-{"source":"github","event_type":"issue_close","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T13:34:30Z","user":"aronatkins"}
-{"source":"github","event_type":"issue_close","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T13:32:26Z","user":"aronatkins"}
-{"source":"github","event_type":"pr_open","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T20:49:12Z","user":"aronatkins"}
-{"source":"github","event_type":"pr_merge","project_id":"rsconnect","github_repo":"rstudio/rsconnect","datetime":"2026-06-08T13:32:25Z","user":"karawoo"}

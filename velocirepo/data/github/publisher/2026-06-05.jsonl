@@ -1,9 +1,0 @@
-{"event_type": "pr_open", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:32:09Z", "user": "karawoo", "source": "github"}
-{"event_type": "pr_merge", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T19:58:14Z", "user": "unknown", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T19:16:36Z", "user": "zackverham", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:52:32Z", "user": "posit-connect-projects[bot]", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:52:17Z", "user": "zackverham", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:32:34Z", "user": "posit-connect-projects[bot]", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:31:56Z", "user": "zackverham", "source": "github"}
-{"event_type": "pr_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T18:31:40Z", "user": "posit-connect-projects[bot]", "source": "github"}
-{"event_type": "issue_comment", "project_id": "publisher", "github_repo": "posit-dev/publisher", "datetime": "2026-06-05T01:07:50Z", "user": "karawoo", "source": "github"}

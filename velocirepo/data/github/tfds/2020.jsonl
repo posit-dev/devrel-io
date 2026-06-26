@@ -1,8 +1,0 @@
-{"source":"github","event_type":"issue_open","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-01-13T15:10:55Z","user":"ibilgen"}
-{"source":"github","event_type":"issue_close","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-01-13T16:25:56Z","user":"ibilgen"}
-{"source":"github","event_type":"pr_open","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-04-13T18:47:12Z","user":"javierluraschi"}
-{"source":"github","event_type":"fork","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-04-14T05:54:36Z","user":"jcmartinmu"}
-{"source":"github","event_type":"pr_open","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-05-12T18:09:42Z","user":"skeydan"}
-{"source":"github","event_type":"pr_merge","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-05-15T12:32:35Z","user":"skeydan"}
-{"source":"github","event_type":"star","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-05-17T19:36:43Z","user":"christianbitter"}
-{"source":"github","event_type":"star","project_id":"tfds","github_repo":"rstudio/tfds","datetime":"2020-06-11T09:25:49Z","user":"korterling"}
