@@ -12,12 +12,13 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: jeroenjanssens/velocirepo@v0
+      - uses: jeroenjanssens/velocirepo@latest
         with:
           github-token: ${{ secrets.GH_TOKEN }}
           plausible-token: ${{ secrets.PLAUSIBLE_TOKEN }}
+          youtube-token: ${{ secrets.YOUTUBE_TOKEN }}
 
       - name: Commit and push
         run: |
