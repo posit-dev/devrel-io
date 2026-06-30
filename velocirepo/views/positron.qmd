@@ -1,0 +1,17 @@
+---
+title: "positron"
+format: html
+---
+
+```{python}
+import duckdb
+
+con = duckdb.connect("../data/velocirepo.duckdb", read_only=True)
+con.sql("""
+    SELECT project, date, metric, value
+    FROM metrics
+    WHERE metric = 'daily_stars'
+    ORDER BY date DESC
+    LIMIT 100
+""").show()
+```

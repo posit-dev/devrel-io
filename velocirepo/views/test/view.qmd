@@ -1,0 +1,36 @@
+---
+title: "test"
+format: html
+---
+
+```{python}
+#| tags: [parameters]
+project = "quarto"
+```
+
+```{python}
+import duckdb
+import polars as pl
+from plotnine import *
+
+con = duckdb.connect("../../data/velocirepo.duckdb")
+df = con.sql(f"""
+    SELECT date, date as age, value, SUM(value) OVER (ORDER BY age) AS stars
+    FROM metrics
+    WHERE metric = 'daily_stars' AND project = '{project}'
+""").pl()
+
+df = df.with_columns(
+    pl.col("age") - pl.col("age").min(),
+    pl.col("stars").cast(pl.Int64)
+)
+df
+```
+
+```{python}
+(
+    ggplot(df, aes(x="date", y="stars", group=1))
+    + geom_line()
+    + ggtitle(f"{project}")
+)
+```
