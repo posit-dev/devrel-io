@@ -1,93 +1,93 @@
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-01", "value": 1805000, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-01", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-01", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-01","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-01","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-02", "value": 1822712, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-02", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-02", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-02","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-02","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-03", "value": 1838803, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-03", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-03", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-03","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-03","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-04", "value": 1855389, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-04", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-04", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-04","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-04","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-05", "value": 1870519, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-05", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-05", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-05","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-05","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-06", "value": 1883822, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-06", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-06", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-06","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-06","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-07", "value": 1894262, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-07", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-07", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-07","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-07","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-08", "value": 1907486, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-08", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-08", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-08","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-08","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-09", "value": 1922769, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-09", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-09", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-09","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-09","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-10", "value": 1938452, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-10", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-10", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-10","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-10","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-11", "value": 1953183, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-11", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-11", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-11","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-11","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-12", "value": 1968974, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-12", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-12", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-12","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-12","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-13", "value": 1981443, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-13", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-13", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-13","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-13","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-14", "value": 1990603, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-14", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-14", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-14","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-14","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-15", "value": 1997805, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-15", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-15", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-15","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-15","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-16", "value": 2014469, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-16", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-16", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-16","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-16","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-17", "value": 2030044, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-17", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-17", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-17","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-17","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-18", "value": 2046684, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-18", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-18", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-18","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-18","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-19", "value": 2059722, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-19", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-19", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-19","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-19","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-20", "value": 2071579, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-20", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-20", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-20","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-20","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-21", "value": 2081692, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-21", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-21", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-21","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-21","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-22", "value": 2089482, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-22", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-22", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-22","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-22","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-23", "value": 2102980, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-23", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-23", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-23","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-23","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-24", "value": 2116013, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-24", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-24", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-24","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-24","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-25", "value": 2128219, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-25", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-25", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-25","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-25","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-26", "value": 2140306, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-26", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-26", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-26","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-26","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-27", "value": 2150520, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-27", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-27", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-27","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-27","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-28", "value": 2155708, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-28", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-28", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-28","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-28","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-29", "value": 2161354, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-29", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-29", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-29","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-29","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-30", "value": 2172605, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-30", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-30", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-30","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-30","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}
 {"metric": "total_downloads", "project_id": "quarto", "date": "2026-03-31", "value": 2185900, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "rating", "project_id": "quarto", "date": "2026-03-31", "value": 5.0, "source": "openvsx", "target": "quarto/quarto"}
-{"metric": "reviews", "project_id": "quarto", "date": "2026-03-31", "value": 2, "source": "openvsx", "target": "quarto/quarto"}
+{"date":"2026-03-31","metric":"total_ratings","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":500}
+{"date":"2026-03-31","metric":"total_reviews","project_id":"quarto","source":"openvsx","target":"quarto/quarto","value":2}

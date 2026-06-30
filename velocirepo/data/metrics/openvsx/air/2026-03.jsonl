@@ -1,93 +1,93 @@
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-01", "value": 188847, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-01", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-01", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-01","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-01","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-02", "value": 203746, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-02", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-02", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-02","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-02","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-03", "value": 212173, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-03", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-03", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-03","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-03","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-04", "value": 218383, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-04", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-04", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-04","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-04","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-05", "value": 223390, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-05", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-05", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-05","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-05","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-06", "value": 227210, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-06", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-06", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-06","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-06","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-07", "value": 228815, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-07", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-07", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-07","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-07","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-08", "value": 230772, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-08", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-08", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-08","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-08","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-09", "value": 234736, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-09", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-09", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-09","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-09","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-10", "value": 238565, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-10", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-10", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-10","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-10","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-11", "value": 241975, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-11", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-11", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-11","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-11","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-12", "value": 244775, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-12", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-12", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-12","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-12","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-13", "value": 247031, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-13", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-13", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-13","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-13","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-14", "value": 247991, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-14", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-14", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-14","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-14","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-15", "value": 249215, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-15", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-15", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-15","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-15","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-16", "value": 252002, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-16", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-16", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-16","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-16","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-17", "value": 254597, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-17", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-17", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-17","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-17","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-18", "value": 257175, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-18", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-18", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-18","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-18","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-19", "value": 259651, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-19", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-19", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-19","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-19","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-20", "value": 261698, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-20", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-20", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-20","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-20","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-21", "value": 262462, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-21", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-21", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-21","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-21","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-22", "value": 263491, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-22", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-22", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-22","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-22","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-23", "value": 265492, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-23", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-23", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-23","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-23","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-24", "value": 267601, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-24", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-24", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-24","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-24","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-25", "value": 269451, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-25", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-25", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-25","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-25","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-26", "value": 271293, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-26", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-26", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-26","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-26","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-27", "value": 272693, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-27", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-27", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-27","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-27","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-28", "value": 273370, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-28", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-28", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-28","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-28","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-29", "value": 274228, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-29", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-29", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-29","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-29","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-30", "value": 275872, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-30", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-30", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-30","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-30","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}
 {"metric": "total_downloads", "project_id": "air", "date": "2026-03-31", "value": 285553, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "rating", "project_id": "air", "date": "2026-03-31", "value": 5.0, "source": "openvsx", "target": "posit/air-vscode"}
-{"metric": "reviews", "project_id": "air", "date": "2026-03-31", "value": 3, "source": "openvsx", "target": "posit/air-vscode"}
+{"date":"2026-03-31","metric":"total_ratings","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":500}
+{"date":"2026-03-31","metric":"total_reviews","project_id":"air","source":"openvsx","target":"posit/air-vscode","value":3}

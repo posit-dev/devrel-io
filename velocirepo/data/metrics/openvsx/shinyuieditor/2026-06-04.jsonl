@@ -1,2 +1,2 @@
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-06-04", "value": 3039, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-06-04", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-06-04","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}

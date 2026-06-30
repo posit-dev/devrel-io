@@ -1,38 +1,38 @@
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-13", "value": 1857, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-13", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-13","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-14", "value": 1869, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-14", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-14","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-15", "value": 1874, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-15", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-15","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-16", "value": 1879, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-16", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-16","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-17", "value": 1882, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-17", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-17","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-18", "value": 1888, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-18", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-18","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-19", "value": 1894, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-19", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-19","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-20", "value": 1898, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-20", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-20","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-21", "value": 1904, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-21", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-21","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-22", "value": 1914, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-22", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-22","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-23", "value": 1921, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-23", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-23","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-24", "value": 1930, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-24", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-24","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-25", "value": 1933, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-25", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-25","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-26", "value": 1937, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-26", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-26","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-27", "value": 1947, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-27", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-27","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-28", "value": 1953, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-28", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-28","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-29", "value": 1957, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-29", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-29","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-30", "value": 1962, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-30", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-30","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}
 {"metric": "total_downloads", "project_id": "shinyuieditor", "date": "2026-01-31", "value": 1965, "source": "openvsx", "target": "posit/shinyuieditor"}
-{"metric": "reviews", "project_id": "shinyuieditor", "date": "2026-01-31", "value": 0, "source": "openvsx", "target": "posit/shinyuieditor"}
+{"date":"2026-01-31","metric":"total_reviews","project_id":"shinyuieditor","source":"openvsx","target":"posit/shinyuieditor","value":0}

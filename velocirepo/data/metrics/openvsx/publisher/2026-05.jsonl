@@ -1,60 +1,60 @@
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-01", "value": 1441268, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-01", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-01","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-02", "value": 1445565, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-02", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-02","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-03", "value": 1447278, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-03", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-03","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-04", "value": 1449476, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-04", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-04","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-05", "value": 1451810, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-05", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-05","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-06", "value": 1453783, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-06", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-06","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-07", "value": 1455686, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-07", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-07","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-08", "value": 1457593, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-08", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-08","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-09", "value": 1458495, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-09", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-09","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-10", "value": 1459638, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-10", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-10","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-11", "value": 1461514, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-11", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-11","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-12", "value": 1463586, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-12", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-12","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-13", "value": 1465074, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-13", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-13","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-14", "value": 1466324, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-14", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-14","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-15", "value": 1470653, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-15", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-15","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-16", "value": 1471212, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-16", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-16","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-17", "value": 1471732, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-17", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-17","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-18", "value": 1473360, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-18", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-18","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-20", "value": 1475934, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-20", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-20","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-21", "value": 1477491, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-21", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-21","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-22", "value": 1479003, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-22", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-22","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-23", "value": 1479537, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-23", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-23","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-24", "value": 1480019, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-24", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-24","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-25", "value": 1480793, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-25", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-25","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-26", "value": 1482242, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-26", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-26","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-27", "value": 1488041, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-27", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-27","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-28", "value": 1496968, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-28", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-28","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-29", "value": 1498588, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-29", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-29","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-30", "value": 1498588, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-30", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-30","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}
 {"metric": "total_downloads", "project_id": "publisher", "date": "2026-05-31", "value": 1498588, "source": "openvsx", "target": "posit/publisher"}
-{"metric": "reviews", "project_id": "publisher", "date": "2026-05-31", "value": 0, "source": "openvsx", "target": "posit/publisher"}
+{"date":"2026-05-31","metric":"total_reviews","project_id":"publisher","source":"openvsx","target":"posit/publisher","value":0}

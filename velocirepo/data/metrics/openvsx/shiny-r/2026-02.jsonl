@@ -1,84 +1,84 @@
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-01", "value": 1001619, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-01", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-01", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-01","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-01","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-02", "value": 1008322, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-02", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-02", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-02","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-02","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-03", "value": 1013074, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-03", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-03", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-03","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-03","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-04", "value": 1020285, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-04", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-04", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-04","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-04","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-05", "value": 1027540, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-05", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-05", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-05","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-05","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-06", "value": 1032012, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-06", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-06", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-06","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-06","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-07", "value": 1036177, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-07", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-07", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-07","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-07","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-08", "value": 1039214, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-08", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-08", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-08","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-08","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-09", "value": 1045515, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-09", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-09", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-09","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-09","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-10", "value": 1051187, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-10", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-10", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-10","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-10","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-11", "value": 1058809, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-11", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-11", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-11","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-11","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-12", "value": 1061388, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-12", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-12", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-12","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-12","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-13", "value": 1061389, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-13", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-13", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-13","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-13","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-14", "value": 1061389, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-14", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-14", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-14","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-14","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-15", "value": 1061389, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-15", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-15", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-15","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-15","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-16", "value": 1061389, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-16", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-16", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-16","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-16","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-17", "value": 1109983, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-17", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-17", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-17","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-17","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-18", "value": 1120625, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-18", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-18", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-18","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-18","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-19", "value": 1133477, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-19", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-19", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-19","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-19","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-20", "value": 1143971, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-20", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-20", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-20","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-20","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-21", "value": 1153319, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-21", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-21", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-21","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-21","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-22", "value": 1159061, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-22", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-22", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-22","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-22","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-23", "value": 1169197, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-23", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-23", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-23","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-23","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-24", "value": 1180969, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-24", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-24", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-24","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-24","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-25", "value": 1190765, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-25", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-25", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-25","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-25","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-26", "value": 1200109, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-26", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-26", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-26","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-26","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-27", "value": 1209207, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-27", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-27", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-27","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-27","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-r", "date": "2026-02-28", "value": 1219363, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-r", "date": "2026-02-28", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-r", "date": "2026-02-28", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-02-28","metric":"total_ratings","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-02-28","metric":"total_reviews","project_id":"shiny-r","source":"openvsx","target":"posit/shiny","value":2}

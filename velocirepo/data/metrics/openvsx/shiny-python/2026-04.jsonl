@@ -1,90 +1,90 @@
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-01", "value": 1648659, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-01", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-01", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-01","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-01","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-02", "value": 1661181, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-02", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-02", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-02","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-02","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-03", "value": 1673931, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-03", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-03", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-03","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-03","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-04", "value": 1684557, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-04", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-04", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-04","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-04","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-05", "value": 1693435, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-05", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-05", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-05","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-05","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-06", "value": 1706335, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-06", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-06", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-06","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-06","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-07", "value": 1718909, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-07", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-07", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-07","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-07","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-08", "value": 1736881, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-08", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-08", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-08","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-08","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-09", "value": 1750545, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-09", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-09", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-09","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-09","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-10", "value": 1760522, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-10", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-10", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-10","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-10","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-11", "value": 1772819, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-11", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-11", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-11","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-11","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-12", "value": 1787429, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-12", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-12", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-12","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-12","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-13", "value": 1800555, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-13", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-13", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-13","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-13","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-14", "value": 1811043, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-14", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-14", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-14","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-14","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-15", "value": 1823041, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-15", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-15", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-15","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-15","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-16", "value": 1830309, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-16", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-16", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-16","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-16","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-17", "value": 1837687, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-17", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-17", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-17","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-17","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-18", "value": 1849313, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-18", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-18", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-18","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-18","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-19", "value": 1855645, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-19", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-19", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-19","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-19","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-20", "value": 1865553, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-20", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-20", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-20","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-20","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-21", "value": 1875399, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-21", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-21", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-21","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-21","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-22", "value": 1906848, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-22", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-22", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-22","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-22","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-23", "value": 1937415, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-23", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-23", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-23","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-23","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-24", "value": 1951103, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-24", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-24", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-24","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-24","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-25", "value": 1961289, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-25", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-25", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-25","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-25","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-26", "value": 1968899, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-26", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-26", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-26","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-26","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-27", "value": 1981137, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-27", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-27", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-27","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-27","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-28", "value": 1992799, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-28", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-28", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-28","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-28","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-29", "value": 2006861, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-29", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-29", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-29","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-29","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
 {"metric": "total_downloads", "project_id": "shiny-python", "date": "2026-04-30", "value": 2017203, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "rating", "project_id": "shiny-python", "date": "2026-04-30", "value": 5.0, "source": "openvsx", "target": "posit/shiny"}
-{"metric": "reviews", "project_id": "shiny-python", "date": "2026-04-30", "value": 2, "source": "openvsx", "target": "posit/shiny"}
+{"date":"2026-04-30","metric":"total_ratings","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":500}
+{"date":"2026-04-30","metric":"total_reviews","project_id":"shiny-python","source":"openvsx","target":"posit/shiny","value":2}
