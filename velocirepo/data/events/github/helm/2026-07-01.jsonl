@@ -1,0 +1,9 @@
+{"source":"github","type":"star","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T20:57:24Z","tags":{"user":"josh45-source"}}
+{"source":"github","type":"fork","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T20:57:33Z","tags":{"user":"josh45-source"}}
+{"source":"github","type":"issue_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T20:02:24Z","tags":{"user":"kmasiello"}}
+{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T21:04:55Z","tags":{"user":"posit-package-manager-automation"}}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T22:14:28Z","tags":{"user":"posit-package-manager-automation"}}
+{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T20:02:41Z","tags":{"user":"kmasiello"}}
+{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T19:25:00Z","tags":{"user":"posit-connect-projects"}}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T21:23:52Z","tags":{"user":"posit-connect-projects"}}
+{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-01T04:37:13Z","tags":{"user":"dependabot"}}
