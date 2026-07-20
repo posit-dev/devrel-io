@@ -12,9 +12,9 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
-      - uses: jeroenjanssens/velocirepo@main
+      - uses: posit-dev/velocirepo@main
         with:
           github-token: ${{ secrets.GH_TOKEN }}
           plausible-token: ${{ secrets.PLAUSIBLE_TOKEN }}
