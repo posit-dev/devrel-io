@@ -1974,3 +1974,8 @@ github ="rstudio/academy-pinr-ide-tutorials"
 [projects.academy-apprenticeship-diagnostic-page]
 name = "academy-apprenticeship-diagnostic-page"
 github ="rstudio/academy-apprenticeship-diagnostic-page"
+
+[projects.vitals]
+name = "vitals"
+github = "tidyverse/vitals"
+cran = "vitals"
