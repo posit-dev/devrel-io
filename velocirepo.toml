@@ -389,6 +389,7 @@ github ="posit-dev/images-shared"
 
 [projects.shinychat]
 name = "shinychat"
+cran = "shinychat"
 github ="posit-dev/shinychat"
 
 [projects.kallichore-builds]
@@ -433,6 +434,7 @@ github ="posit-dev/positron-pet-builds"
 
 [projects.btw]
 name = "btw"
+cran = "btw"
 github ="posit-dev/btw"
 
 [projects.python-tidytuesday]
@@ -449,10 +451,13 @@ github ="posit-dev/plumber2"
 
 [projects.querychat]
 name = "querychat"
+cran = "querychat"
+pypi = "querychat"
 github ="posit-dev/querychat"
 
 [projects.mcptools]
 name = "mcptools"
+cran = "mcptools"
 github ="posit-dev/mcptools"
 
 [projects.setup-air]
@@ -521,6 +526,7 @@ github ="posit-dev/license-mole"
 
 [projects.raghilda]
 name = "raghilda"
+pypi = "raghilda"
 github ="posit-dev/raghilda"
 
 [projects.chronicle-reports]
