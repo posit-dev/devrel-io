@@ -1,0 +1,81 @@
+---
+title: "OS QBR"
+format: html
+---
+
+```{python}
+import duckdb
+import polars as pl
+
+con = duckdb.connect("../../data/velocirepo.duckdb", read_only=True)
+downloads = con.sql("""
+    SELECT project, source, date, value
+    FROM metrics
+    WHERE metric = 'daily_downloads'
+    AND project IN ('ellmer', 'vitals', 'mcptools', 'btw', 'raghilda', 'querychat', 'shinychat', 'chatlas')
+    AND date >= '2025-06-30'
+    AND date < '2026-06-30'
+    ORDER BY project, date DESC
+""").pl()
+
+downloads = (
+    downloads.sort("date").group_by_dynamic("date", every="1w", group_by=["project", "source"], closed="right", label="right").agg(pl.col("value").sum(), n=pl.len())
+    .with_columns(
+        pl.col("source").replace({
+            "pypi": "PyPI",
+            "cran": "CRAN"
+        })
+    ).with_columns(
+    project = (
+        pl.when((pl.col("project") == "querychat") & (pl.col("source") == "CRAN"))
+        .then(pl.lit("querychat (R)"))
+        .when((pl.col("project") == "querychat") & (pl.col("source") == "PyPI"))
+        .then(pl.lit("querychat (Python)"))
+        .otherwise(pl.col("project"))
+    )
+)
+)
+downloads
+```
+
+
+```{python}
+project_order = (
+    downloads.with_columns(
+        source_rank=pl.col("source").replace({"CRAN": 1, "PyPI": 2})
+    )
+    .group_by(["project", "source_rank"])
+    .agg(pl.col("value").mean())
+    # Primary sort: source_rank (CRAN first)
+    # Secondary sort: value descending (highest lines first within each source)
+    .sort(["source_rank", "value"], descending=[False, True])
+    .get_column("project")
+    .to_list()
+)
+project_order
+```
+
+```{python}
+downloads = downloads.with_columns(
+    pl.col("project").cast(pl.Enum(project_order))
+)
+```
+
+
+```{python}
+from plotnine import *
+
+p = (
+    ggplot(downloads, aes("date", "value", color="project"))
+    + geom_line(size=0.7)
+    + facet_wrap("source", scales="free_y", ncol=1)
+    + labs(title="Weekly downloads for AI packages", x="", y="Weekly downloads", color="Package", caption="Note: CRAN and PyPI count automated traffic and caching differently.")
+    + scale_x_date(date_labels="%b", date_minor_breaks="1 week", date_breaks="1 month")
+    + scale_y_continuous(labels=lambda ticks: [f'{int(v/1000)}k' if v > 0 else '0' for v in ticks])
+    + scale_color_brewer(type="qual", palette="Dark2")
+    + theme_tufte(base_family="Source Sans 3")
+    + theme(axis_text_y=element_text(vjust=0.3), text=element_text(weight="regular", color="#333333"), axis_ticks_major=element_line(color="#333333"), plot_caption=element_text(style="italic"),  panel_grid_minor_x=element_blank(), plot_title=element_text(ha="left"), strip_text_x=element_text(ha="center"), strip_background=element_rect(fill="#eee", color="none"))
+)
+
+p.save("weekly-downloads-ai-packages.png", dpi=400, verbose=False)
+```
