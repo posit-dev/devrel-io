@@ -65,7 +65,7 @@ downloads = downloads.with_columns(
 ```{python}
 from plotnine import *
 
-p = (
+plot = (
     ggplot(downloads, aes("date", "value", color="project"))
     + geom_line(size=0.7)
     + facet_wrap("source", scales="free_y", ncol=1)
@@ -77,5 +77,6 @@ p = (
     + theme(axis_text_y=element_text(vjust=0.3), text=element_text(weight="regular", color="#333333"), axis_ticks_major=element_line(color="#333333"), plot_caption=element_text(style="italic"),  panel_grid_minor_x=element_blank(), plot_title=element_text(ha="left"), strip_text_x=element_text(ha="center"), strip_background=element_rect(fill="#eee", color="none"))
 )
 
-p.save("weekly-downloads-ai-packages.png", dpi=400, verbose=False)
+plot.save("weekly-downloads-ai-packages.png", dpi=400, verbose=False)
+plot
 ```

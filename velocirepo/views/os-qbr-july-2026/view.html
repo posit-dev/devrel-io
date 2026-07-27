@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>positron</title>
+<title>OS QBR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,7 +85,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">positron</h1>
+<h1 class="title">OS QBR</h1>
 </div>
 
 
@@ -102,23 +102,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="dfdfad7b" class="cell" data-execution_count="1">
+<div id="e5c5a3a5" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> duckdb</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars <span class="im">as</span> pl</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>con <span class="op">=</span> duckdb.<span class="ex">connect</span>(<span class="st">"../../data/velocirepo.duckdb"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>con <span class="op">=</span> duckdb.<span class="ex">connect</span>(<span class="st">"../../data/velocirepo.duckdb"</span>, read_only<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>downloads <span class="op">=</span> con.sql(<span class="st">"""</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">    SELECT project, source, date, value</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">    FROM metrics</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">    WHERE metric = 'daily_downloads'</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">    AND project IN ('ellmer', 'vitals', 'mcptools', 'btw', 'raghilda', 'querychat', 'shinychat', 'chatlas')</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">    AND date &gt;= '2026-01-01'</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">    AND date &lt; '2026-07-01'</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">    AND date &gt;= '2025-06-30'</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">    AND date &lt; '2026-06-30'</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">    ORDER BY project, date DESC</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>).pl()</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>downloads <span class="op">=</span> (</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    downloads.sort(<span class="st">"date"</span>).group_by_dynamic(<span class="st">"date"</span>, every<span class="op">=</span><span class="st">"1w"</span>, group_by<span class="op">=</span>[<span class="st">"project"</span>, <span class="st">"source"</span>], closed<span class="op">=</span><span class="st">"right"</span>, label<span class="op">=</span><span class="st">"right"</span>).agg(pl.col(<span class="st">"value"</span>).<span class="bu">sum</span>())</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    downloads.sort(<span class="st">"date"</span>).group_by_dynamic(<span class="st">"date"</span>, every<span class="op">=</span><span class="st">"1w"</span>, group_by<span class="op">=</span>[<span class="st">"project"</span>, <span class="st">"source"</span>], closed<span class="op">=</span><span class="st">"right"</span>, label<span class="op">=</span><span class="st">"right"</span>).agg(pl.col(<span class="st">"value"</span>).<span class="bu">sum</span>(), n<span class="op">=</span>pl.<span class="bu">len</span>())</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    .with_columns(</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        pl.col(<span class="st">"source"</span>).replace({</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>            <span class="st">"pypi"</span>: <span class="st">"PyPI"</span>,</span>
@@ -135,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>downloads</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="5">
 <div><style>
 .dataframe > thead > tr,
 .dataframe > tbody > tr {
@@ -143,7 +143,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   white-space: pre-wrap;
 }
 </style>
-<small>shape: (227, 4)</small>
+<small>shape: (359, 5)</small>
 <table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
@@ -151,87 +151,100 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <th data-quarto-table-cell-role="th">source</th>
 <th data-quarto-table-cell-role="th">date</th>
 <th data-quarto-table-cell-role="th">value</th>
+<th data-quarto-table-cell-role="th">n</th>
 </tr>
 <tr class="even">
 <td>str</td>
 <td>str</td>
 <td>date</td>
 <td>i64</td>
+<td>u32</td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>"btw"</td>
 <td>"CRAN"</td>
-<td>2026-01-05</td>
-<td>156</td>
+<td>2025-11-10</td>
+<td>194</td>
+<td>7</td>
 </tr>
 <tr class="even">
 <td>"btw"</td>
 <td>"CRAN"</td>
-<td>2026-01-12</td>
-<td>256</td>
+<td>2025-11-17</td>
+<td>204</td>
+<td>7</td>
 </tr>
 <tr class="odd">
 <td>"btw"</td>
 <td>"CRAN"</td>
-<td>2026-01-19</td>
-<td>166</td>
+<td>2025-11-24</td>
+<td>136</td>
+<td>7</td>
 </tr>
 <tr class="even">
 <td>"btw"</td>
 <td>"CRAN"</td>
-<td>2026-01-26</td>
-<td>163</td>
+<td>2025-12-01</td>
+<td>106</td>
+<td>7</td>
 </tr>
 <tr class="odd">
 <td>"btw"</td>
 <td>"CRAN"</td>
-<td>2026-02-02</td>
-<td>205</td>
+<td>2025-12-08</td>
+<td>74</td>
+<td>7</td>
 </tr>
 <tr class="even">
 <td>…</td>
 <td>…</td>
 <td>…</td>
 <td>…</td>
+<td>…</td>
 </tr>
 <tr class="odd">
+<td>"shinychat"</td>
+<td>"CRAN"</td>
+<td>2026-06-01</td>
+<td>1498</td>
+<td>7</td>
+</tr>
+<tr class="even">
 <td>"shinychat"</td>
 <td>"CRAN"</td>
 <td>2026-06-08</td>
 <td>1435</td>
+<td>7</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>"shinychat"</td>
 <td>"CRAN"</td>
 <td>2026-06-15</td>
 <td>985</td>
-</tr>
-<tr class="odd">
-<td>"shinychat"</td>
-<td>"CRAN"</td>
-<td>2026-06-22</td>
-<td>1194</td>
+<td>7</td>
 </tr>
 <tr class="even">
 <td>"shinychat"</td>
 <td>"CRAN"</td>
-<td>2026-06-29</td>
-<td>893</td>
+<td>2026-06-22</td>
+<td>1194</td>
+<td>7</td>
 </tr>
 <tr class="odd">
 <td>"shinychat"</td>
 <td>"CRAN"</td>
-<td>2026-07-06</td>
-<td>123</td>
+<td>2026-06-29</td>
+<td>893</td>
+<td>7</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </div>
-<div id="424171a6" class="cell" data-execution_count="2">
+<div id="0e1df902" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>project_order <span class="op">=</span> (</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    downloads.with_columns(</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        source_rank<span class="op">=</span>pl.col(<span class="st">"source"</span>).replace({<span class="st">"CRAN"</span>: <span class="dv">1</span>, <span class="st">"PyPI"</span>: <span class="dv">2</span>})</span>
@@ -245,7 +258,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    .to_list()</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>project_order</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="6">
 <pre><code>['ellmer',
  'shinychat',
  'mcptools',
@@ -257,199 +270,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  'raghilda']</code></pre>
 </div>
 </div>
-<div id="90f9d749" class="cell" data-execution_count="3">
+<div id="5058ee34" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>downloads <span class="op">=</span> downloads.with_columns(</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    pl.col(<span class="st">"project"</span>).cast(pl.Enum(project_order))</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="ff27eda2" class="cell" data-execution_count="4">
+<div id="55ca234d" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> plotnine <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> (</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    ggplot(downloads, aes(<span class="st">"date"</span>, <span class="st">"value"</span>, color<span class="op">=</span><span class="st">"project"</span>))</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> geom_line(size<span class="op">=</span><span class="fl">0.7</span>)</span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> facet_wrap(<span class="st">"source"</span>, scales<span class="op">=</span><span class="st">"free_y"</span>, ncol<span class="op">=</span><span class="dv">1</span>)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> labs(title<span class="op">=</span><span class="st">"Weekly downloads for AI packages"</span>, x<span class="op">=</span><span class="st">"2026"</span>, y<span class="op">=</span><span class="st">"Weekly Downloads"</span>, color<span class="op">=</span><span class="st">"Package"</span>)</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_x_date(date_labels<span class="op">=</span><span class="st">"%b"</span>, date_minor_breaks<span class="op">=</span><span class="st">"1 week"</span>)</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_y_continuous(labels<span class="op">=</span><span class="kw">lambda</span> ticks: [<span class="ss">f'</span><span class="sc">{</span><span class="bu">int</span>(val<span class="op">/</span><span class="dv">1000</span>)<span class="sc">}</span><span class="ss">k'</span> <span class="cf">for</span> val <span class="kw">in</span> ticks])</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_color_brewer(<span class="bu">type</span><span class="op">=</span><span class="st">"qual"</span>, palette<span class="op">=</span><span class="st">"Set1"</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> labs(title<span class="op">=</span><span class="st">"Weekly downloads for AI packages"</span>, x<span class="op">=</span><span class="st">""</span>, y<span class="op">=</span><span class="st">"Weekly downloads"</span>, color<span class="op">=</span><span class="st">"Package"</span>, caption<span class="op">=</span><span class="st">"Note: CRAN and PyPI count automated traffic and caching differently."</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_x_date(date_labels<span class="op">=</span><span class="st">"%b"</span>, date_minor_breaks<span class="op">=</span><span class="st">"1 week"</span>, date_breaks<span class="op">=</span><span class="st">"1 month"</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_y_continuous(labels<span class="op">=</span><span class="kw">lambda</span> ticks: [<span class="ss">f'</span><span class="sc">{</span><span class="bu">int</span>(v<span class="op">/</span><span class="dv">1000</span>)<span class="sc">}</span><span class="ss">k'</span> <span class="cf">if</span> v <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> <span class="st">'0'</span> <span class="cf">for</span> v <span class="kw">in</span> ticks])</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> scale_color_brewer(<span class="bu">type</span><span class="op">=</span><span class="st">"qual"</span>, palette<span class="op">=</span><span class="st">"Dark2"</span>)</span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> theme_tufte(base_family<span class="op">=</span><span class="st">"Source Sans 3"</span>)</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> theme(panel_grid_minor_x<span class="op">=</span>element_blank(), plot_title<span class="op">=</span>element_text(ha<span class="op">=</span><span class="st">"left"</span>), strip_text_x<span class="op">=</span>element_text(ha<span class="op">=</span><span class="st">"center"</span>), strip_background<span class="op">=</span>element_rect(fill<span class="op">=</span><span class="st">"#eee"</span>, color<span class="op">=</span><span class="st">"none"</span>))</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="op">+</span> theme(axis_text_y<span class="op">=</span>element_text(vjust<span class="op">=</span><span class="fl">0.3</span>), text<span class="op">=</span>element_text(weight<span class="op">=</span><span class="st">"regular"</span>, color<span class="op">=</span><span class="st">"#333333"</span>), axis_ticks_major<span class="op">=</span>element_line(color<span class="op">=</span><span class="st">"#333333"</span>), plot_caption<span class="op">=</span>element_text(style<span class="op">=</span><span class="st">"italic"</span>),  panel_grid_minor_x<span class="op">=</span>element_blank(), plot_title<span class="op">=</span>element_text(ha<span class="op">=</span><span class="st">"left"</span>), strip_text_x<span class="op">=</span>element_text(ha<span class="op">=</span><span class="st">"center"</span>), strip_background<span class="op">=</span>element_rect(fill<span class="op">=</span><span class="st">"#eee"</span>, color<span class="op">=</span><span class="st">"none"</span>))</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>plot.save(<span class="st">"weekly-downloads-ai-packages.png"</span>, dpi<span class="op">=</span><span class="dv">400</span>, verbose<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>plot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>findfont: Failed to find font weight normal, now using 200.
-findfont: Failed to find font weight normal, now using 200.
-findfont: Failed to find font weight normal, now using 200.</code></pre>
+<pre><code>/Users/jeroen/repos/posit-dev/devrel-io/velocirepo/views/os-qbr-july-2026/.venv/lib/python3.13/site-packages/mizani/palettes.py:547: UserWarning: Warning message:Brewer palette Dark2 has a maximum of 8 colors Returning the palette you asked for with that many colors
+/Users/jeroen/repos/posit-dev/devrel-io/velocirepo/views/os-qbr-july-2026/.venv/lib/python3.13/site-packages/mizani/palettes.py:547: UserWarning: Warning message:Brewer palette Dark2 has a maximum of 8 colors Returning the palette you asked for with that many colors
+/Users/jeroen/repos/posit-dev/devrel-io/velocirepo/views/os-qbr-july-2026/.venv/lib/python3.13/site-packages/mizani/palettes.py:547: UserWarning: Warning message:Brewer palette Dark2 has a maximum of 8 colors Returning the palette you asked for with that many colors
+/Users/jeroen/repos/posit-dev/devrel-io/velocirepo/views/os-qbr-july-2026/.venv/lib/python3.13/site-packages/mizani/palettes.py:547: UserWarning: Warning message:Brewer palette Dark2 has a maximum of 8 colors Returning the palette you asked for with that many colors</code></pre>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="8">
 <div>
 <figure class="figure">
 <p><img src="view_files/figure-html/cell-5-output-2.png" width="672" height="480" class="figure-img"></p>
 </figure>
 </div>
-</div>
-</div>
-<div id="b69a88d8" class="cell" data-execution_count="5">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> duckdb</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>con <span class="op">=</span> duckdb.<span class="ex">connect</span>(<span class="st">"../../data/velocirepo.duckdb"</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>downloads <span class="op">=</span> con.sql(<span class="st">"""</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="st">    SELECT *</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="st">    FROM metrics</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="st">    WHERE source = 'openvsx'</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="st">    ORDER BY project, date DESC</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>).pl()</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>downloads.unique(<span class="st">"project"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="5">
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
-<small>shape: (6, 7)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">project</th>
-<th data-quarto-table-cell-role="th">source</th>
-<th data-quarto-table-cell-role="th">target</th>
-<th data-quarto-table-cell-role="th">metric</th>
-<th data-quarto-table-cell-role="th">date</th>
-<th data-quarto-table-cell-role="th">value</th>
-<th data-quarto-table-cell-role="th">tags</th>
-</tr>
-<tr class="even">
-<td>str</td>
-<td>str</td>
-<td>str</td>
-<td>str</td>
-<td>date</td>
-<td>i64</td>
-<td>str</td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>"shiny-python"</td>
-<td>"openvsx"</td>
-<td>"posit/shiny"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>2565109</td>
-<td>null</td>
-</tr>
-<tr class="even">
-<td>"air"</td>
-<td>"openvsx"</td>
-<td>"posit/air-vscode"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>449058</td>
-<td>null</td>
-</tr>
-<tr class="odd">
-<td>"shiny-r"</td>
-<td>"openvsx"</td>
-<td>"posit/shiny"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>2565109</td>
-<td>null</td>
-</tr>
-<tr class="even">
-<td>"publisher"</td>
-<td>"openvsx"</td>
-<td>"posit/publisher"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>1623364</td>
-<td>null</td>
-</tr>
-<tr class="odd">
-<td>"quarto"</td>
-<td>"openvsx"</td>
-<td>"quarto/quarto"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>3714352</td>
-<td>null</td>
-</tr>
-<tr class="even">
-<td>"shinyuieditor"</td>
-<td>"openvsx"</td>
-<td>"posit/shinyuieditor"</td>
-<td>"total_downloads"</td>
-<td>2026-07-21</td>
-<td>3263</td>
-<td>null</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="efc8dd2d" class="cell" data-execution_count="6">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> duckdb</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>con <span class="op">=</span> duckdb.<span class="ex">connect</span>(<span class="st">"../../data/velocirepo.duckdb"</span>)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>con.sql(<span class="st">"""</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="st">    SELECT * EXCLUDE tags, tags-&gt;&gt;'page' as page</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="st">    FROM metrics</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="st">    WHERE</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="st">    metric = 'daily_pageviews' AND</span></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="st">    (page LIKE '/blog/</span><span class="sc">%g</span><span class="st">gsql%')</span></span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="st">    ORDER BY date</span></span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<pre><code>┌─────────────────────┬───────────┬─────────────────────┬─────────────────┬────────────┬───────┬───────────────────────────────────────┐
-│       project       │  source   │       target        │     metric      │    date    │ value │                 page                  │
-│       varchar       │  varchar  │       varchar       │     varchar     │    date    │ int64 │                varchar                │
-├─────────────────────┼───────────┼─────────────────────┼─────────────────┼────────────┼───────┼───────────────────────────────────────┤
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-23 │    18 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-23 │   348 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-23 │    24 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-24 │     2 │ /blog/2026-04-20_ggsql_alpha_rele     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-24 │    31 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-24 │    83 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-24 │   254 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-25 │    14 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-25 │    33 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-06-25 │    37 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│          ·          │     ·     │          ·          │        ·        │     ·      │     · │               ·                       │
-│          ·          │     ·     │          ·          │        ·        │     ·      │     · │               ·                       │
-│          ·          │     ·     │          ·          │        ·        │     ·      │     · │               ·                       │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-18 │     5 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-19 │     2 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-19 │     3 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-19 │     6 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-20 │     7 │ /blog/2026-04-20_ggsql_alpha_release/ │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-20 │     5 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-20 │     3 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-21 │     4 │ /blog/2026-06-17_querychat-ggsql/     │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-21 │     5 │ /blog/2026-06-23_ggsql_0_4_1/         │
-│ open-source-website │ plausible │ opensource.posit.co │ daily_pageviews │ 2026-07-21 │    12 │ /blog/2026-04-20_ggsql_alpha_release/ │
-└─────────────────────┴───────────┴─────────────────────┴─────────────────┴────────────┴───────┴───────────────────────────────────────┘
-  86 rows (20 shown)                                                                                                         7 columns</code></pre>
-</div>
-</div>
-<div id="a3babe7e" class="cell" data-execution_count="7">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.font_manager <span class="im">as</span> fm</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> shutil</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Delete Matplotlib's cache folder</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>shutil.rmtree(matplotlib.get_cachedir())</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Font cache cleared!"</span>)</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co"># List all available fonts containing "Source"</span></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>source_fonts <span class="op">=</span> [f.name <span class="cf">for</span> f <span class="kw">in</span> fm.fontManager.ttflist <span class="cf">if</span> <span class="st">'Source'</span> <span class="kw">in</span> f.name]</span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">set</span>(source_fonts))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Font cache cleared!
-{'Source Sans 3', 'Source Sans 3 ExtraLight'}</code></pre>
 </div>
 </div>
 
