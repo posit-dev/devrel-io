@@ -1,7 +1,7 @@
-{"datetime":"2022-01-18T16:26:22Z","project_id":"shinycannon","source":"github","tags":{"user":"debshila"},"target":"rstudio/shinycannon","type":"issue_close"}
-{"datetime":"2022-01-18T16:27:44Z","project_id":"shinycannon","source":"github","tags":{"user":"alandipert"},"target":"rstudio/shinycannon","type":"issue_close"}
-{"datetime":"2022-01-18T16:28:54Z","project_id":"shinycannon","source":"github","tags":{"user":"shalutiwari"},"target":"rstudio/shinycannon","type":"issue_close"}
-{"datetime":"2022-01-22T17:12:28Z","project_id":"shinycannon","source":"github","tags":{"user":"edavidaja"},"target":"rstudio/shinycannon","type":"fork"}
-{"datetime":"2022-06-14T17:47:50Z","project_id":"shinycannon","source":"github","tags":{"user":"phoward38"},"target":"rstudio/shinycannon","type":"star"}
-{"datetime":"2022-11-10T19:52:37Z","project_id":"shinycannon","source":"github","tags":{"user":"ikyam"},"target":"rstudio/shinycannon","type":"issue_open"}
-{"datetime":"2022-11-20T00:08:09Z","project_id":"shinycannon","source":"github","tags":{"user":"blam3"},"target":"rstudio/shinycannon","type":"issue_open"}
+{"datetime":"2022-01-18T16:26:22Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_close","user":"debshila"}
+{"datetime":"2022-01-18T16:27:44Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_close","user":"alandipert"}
+{"datetime":"2022-01-18T16:28:54Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_close","user":"shalutiwari"}
+{"datetime":"2022-01-22T17:12:28Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"fork","user":"edavidaja"}
+{"datetime":"2022-06-14T17:47:50Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"star","user":"phoward38"}
+{"datetime":"2022-11-10T19:52:37Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_open","user":"ikyam"}
+{"datetime":"2022-11-20T00:08:09Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_open","user":"blam3"}

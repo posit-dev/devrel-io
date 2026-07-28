@@ -1,5 +1,5 @@
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-02-02T22:33:56Z","tags":{"user":"smach"}}
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-02-03T02:00:41Z","tags":{"user":"smach"}}
-{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-02-05T22:29:19Z","tags":{"user":"smach"}}
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-02-13T14:47:08Z","tags":{"user":"simonpcouch"}}
-{"source":"github","type":"fork","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-02-18T13:23:40Z","tags":{"user":"takewiki"}}
+{"datetime":"2026-02-02T22:33:56Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"smach"}
+{"datetime":"2026-02-03T02:00:41Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"smach"}
+{"datetime":"2026-02-05T22:29:19Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"smach"}
+{"datetime":"2026-02-13T14:47:08Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"simonpcouch"}
+{"datetime":"2026-02-18T13:23:40Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"fork","user":"takewiki"}

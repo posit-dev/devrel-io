@@ -1,3 +1,3 @@
-{"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-13T19:35:18Z","tags":{"user":"hadley"}}
-{"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-13T03:30:22Z","tags":{"user":"juliasilge"}}
-{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-13T14:28:15Z","tags":{"user":"juliasilge"}}
+{"datetime":"2026-07-13T19:35:18Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_open","user":"hadley"}
+{"datetime":"2026-07-13T03:30:22Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_open","user":"juliasilge"}
+{"datetime":"2026-07-13T14:28:15Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_merge","user":"juliasilge"}

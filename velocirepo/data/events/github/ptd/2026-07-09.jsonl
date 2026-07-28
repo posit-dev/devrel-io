@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-09T21:26:30Z","tags":{"user":"amdove"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-09T16:53:33Z","tags":{"user":"amdove"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-09T16:31:24Z","tags":{"user":"amdove"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-09T15:40:46Z","tags":{"user":"timtalbot"}}
-{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-09T16:06:33Z","tags":{"user":"timtalbot"}}
+{"datetime":"2026-07-09T21:26:30Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"amdove"}
+{"datetime":"2026-07-09T16:53:33Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"amdove"}
+{"datetime":"2026-07-09T16:31:24Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"amdove"}
+{"datetime":"2026-07-09T15:40:46Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"timtalbot"}
+{"datetime":"2026-07-09T16:06:33Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"timtalbot"}

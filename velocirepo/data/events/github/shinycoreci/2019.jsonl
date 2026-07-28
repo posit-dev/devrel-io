@@ -1,8 +1,8 @@
-{"datetime":"2019-12-11T05:37:40Z","project_id":"shinycoreci","source":"github","tags":{"user":"yutannihilation"},"target":"rstudio/shinycoreci","type":"star"}
-{"datetime":"2019-12-11T11:46:21Z","project_id":"shinycoreci","source":"github","tags":{"user":"nathaneastwood"},"target":"rstudio/shinycoreci","type":"star"}
-{"datetime":"2019-12-13T19:56:58Z","project_id":"shinycoreci","source":"github","tags":{"user":"inrazhtet"},"target":"rstudio/shinycoreci","type":"star"}
-{"datetime":"2019-12-17T20:41:27Z","project_id":"shinycoreci","source":"github","tags":{"user":"schloerke"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2019-12-18T05:28:01Z","project_id":"shinycoreci","source":"github","tags":{"user":"freestatman"},"target":"rstudio/shinycoreci","type":"star"}
-{"datetime":"2019-12-18T21:19:49Z","project_id":"shinycoreci","source":"github","tags":{"user":"schloerke"},"target":"rstudio/shinycoreci","type":"pr_merge"}
-{"datetime":"2019-12-18T22:12:18Z","project_id":"shinycoreci","source":"github","tags":{"user":"wch"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2019-12-20T17:29:40Z","project_id":"shinycoreci","source":"github","tags":{"user":"wch"},"target":"rstudio/shinycoreci","type":"pr_merge"}
+{"datetime":"2019-12-11T05:37:40Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"star","user":"yutannihilation"}
+{"datetime":"2019-12-11T11:46:21Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"star","user":"nathaneastwood"}
+{"datetime":"2019-12-13T19:56:58Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"star","user":"inrazhtet"}
+{"datetime":"2019-12-17T20:41:27Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"schloerke"}
+{"datetime":"2019-12-18T05:28:01Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"star","user":"freestatman"}
+{"datetime":"2019-12-18T21:19:49Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"schloerke"}
+{"datetime":"2019-12-18T22:12:18Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"wch"}
+{"datetime":"2019-12-20T17:29:40Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"wch"}

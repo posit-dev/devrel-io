@@ -1,5 +1,5 @@
-{"source":"github","type":"star","project_id":"r-yaml12","target":"posit-dev/r-yaml12","datetime":"2026-07-07T21:01:25Z","tags":{"user":"bjyberg"}}
-{"source":"github","type":"fork","project_id":"r-yaml12","target":"posit-dev/r-yaml12","datetime":"2026-07-07T16:59:52Z","tags":{"user":"hadley"}}
-{"source":"github","type":"issue_open","project_id":"r-yaml12","target":"posit-dev/r-yaml12","datetime":"2026-07-07T17:43:49Z","tags":{"user":"hadley"}}
-{"source":"github","type":"pr_open","project_id":"r-yaml12","target":"posit-dev/r-yaml12","datetime":"2026-07-07T19:27:46Z","tags":{"user":"hadley"}}
-{"source":"github","type":"pr_open","project_id":"r-yaml12","target":"posit-dev/r-yaml12","datetime":"2026-07-07T17:45:57Z","tags":{"user":"hadley"}}
+{"datetime":"2026-07-07T21:01:25Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"star","user":"bjyberg"}
+{"datetime":"2026-07-07T16:59:52Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"fork","user":"hadley"}
+{"datetime":"2026-07-07T17:43:49Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"issue_open","user":"hadley"}
+{"datetime":"2026-07-07T19:27:46Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"pr_open","user":"hadley"}
+{"datetime":"2026-07-07T17:45:57Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"pr_open","user":"hadley"}

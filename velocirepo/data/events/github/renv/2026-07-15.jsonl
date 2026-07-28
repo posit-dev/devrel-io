@@ -1,7 +1,7 @@
-{"source":"github","type":"star","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T13:31:01Z","tags":{"user":"jeis4wpi"}}
-{"source":"github","type":"fork","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T13:31:16Z","tags":{"user":"jeis4wpi"}}
-{"source":"github","type":"pr_open","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T17:58:09Z","tags":{"user":"kevinushey"}}
-{"source":"github","type":"pr_merge","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T18:28:37Z","tags":{"user":"kevinushey"}}
-{"source":"github","type":"pr_open","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T17:55:37Z","tags":{"user":"kevinushey"}}
-{"source":"github","type":"pr_open","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T16:42:24Z","tags":{"user":"kevinushey"}}
-{"source":"github","type":"pr_merge","project_id":"renv","target":"rstudio/renv","datetime":"2026-07-15T17:32:43Z","tags":{"user":"kevinushey"}}
+{"datetime":"2026-07-15T13:31:01Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"star","user":"jeis4wpi"}
+{"datetime":"2026-07-15T13:31:16Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"fork","user":"jeis4wpi"}
+{"datetime":"2026-07-15T17:58:09Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"pr_open","user":"kevinushey"}
+{"datetime":"2026-07-15T18:28:37Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"pr_merge","user":"kevinushey"}
+{"datetime":"2026-07-15T17:55:37Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"pr_open","user":"kevinushey"}
+{"datetime":"2026-07-15T16:42:24Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"pr_open","user":"kevinushey"}
+{"datetime":"2026-07-15T17:32:43Z","project_id":"renv","source":"github","target":"rstudio/renv","type":"pr_merge","user":"kevinushey"}

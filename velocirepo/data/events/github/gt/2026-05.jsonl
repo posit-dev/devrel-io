@@ -1,4 +1,4 @@
-{"datetime":"2026-05-06T16:25:22Z","project_id":"gt","source":"github","tags":{"user":"jkylearmstrong"},"target":"rstudio/gt","type":"issue_comment"}
-{"datetime":"2026-05-09T16:10:05Z","project_id":"gt","source":"github","tags":{"user":"billdenney"},"target":"rstudio/gt","type":"issue_open"}
-{"datetime":"2026-05-14T17:48:29Z","project_id":"gt","source":"github","tags":{"user":"iantaylor-NOAA"},"target":"rstudio/gt","type":"issue_open"}
-{"datetime":"2026-05-29T22:38:35Z","project_id":"gt","source":"github","tags":{"user":"thebioengineer"},"target":"rstudio/gt","type":"pr_open"}
+{"datetime":"2026-05-06T16:25:22Z","project_id":"gt","source":"github","target":"rstudio/gt","type":"issue_comment","user":"jkylearmstrong"}
+{"datetime":"2026-05-09T16:10:05Z","project_id":"gt","source":"github","target":"rstudio/gt","type":"issue_open","user":"billdenney"}
+{"datetime":"2026-05-14T17:48:29Z","project_id":"gt","source":"github","target":"rstudio/gt","type":"issue_open","user":"iantaylor-NOAA"}
+{"datetime":"2026-05-29T22:38:35Z","project_id":"gt","source":"github","target":"rstudio/gt","type":"pr_open","user":"thebioengineer"}

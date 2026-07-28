@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"academy-tidyverse-solar-power","target":"rstudio/academy-tidyverse-solar-power","datetime":"2026-07-15T23:15:32Z","tags":{"user":"brendanhcullen"}}
-{"source":"github","type":"pr_merge","project_id":"academy-tidyverse-solar-power","target":"rstudio/academy-tidyverse-solar-power","datetime":"2026-07-15T23:42:35Z","tags":{"user":"brendanhcullen"}}
+{"datetime":"2026-07-15T23:15:32Z","project_id":"academy-tidyverse-solar-power","source":"github","target":"rstudio/academy-tidyverse-solar-power","type":"pr_open","user":"brendanhcullen"}
+{"datetime":"2026-07-15T23:42:35Z","project_id":"academy-tidyverse-solar-power","source":"github","target":"rstudio/academy-tidyverse-solar-power","type":"pr_merge","user":"brendanhcullen"}

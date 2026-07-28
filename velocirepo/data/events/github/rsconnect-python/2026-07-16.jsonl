@@ -1,6 +1,6 @@
-{"source":"github","type":"pr_open","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T13:02:07Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_merge","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T13:13:14Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_open","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T10:49:27Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_merge","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T12:41:03Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_open","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T10:40:13Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_merge","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-07-16T17:31:25Z","tags":{"user":"amol-"}}
+{"datetime":"2026-07-16T13:02:07Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_open","user":"amol-"}
+{"datetime":"2026-07-16T13:13:14Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_merge","user":"amol-"}
+{"datetime":"2026-07-16T10:49:27Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_open","user":"amol-"}
+{"datetime":"2026-07-16T12:41:03Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_merge","user":"amol-"}
+{"datetime":"2026-07-16T10:40:13Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_open","user":"amol-"}
+{"datetime":"2026-07-16T17:31:25Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_merge","user":"amol-"}

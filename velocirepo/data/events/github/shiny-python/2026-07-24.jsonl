@@ -1,7 +1,7 @@
-{"source":"github","type":"issue_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T14:36:17Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"issue_close","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T15:49:09Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T17:04:13Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_merge","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T17:08:37Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T15:42:26Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_merge","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T15:56:41Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-24T14:35:54Z","tags":{"user":"schloerke"}}
+{"datetime":"2026-07-24T14:36:17Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"issue_open","user":"schloerke"}
+{"datetime":"2026-07-24T15:49:09Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"issue_close","user":"schloerke"}
+{"datetime":"2026-07-24T17:04:13Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-24T17:08:37Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-07-24T15:42:26Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-24T15:56:41Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-07-24T14:35:54Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"schloerke"}

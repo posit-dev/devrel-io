@@ -1,5 +1,5 @@
-{"datetime":"2020-01-03T07:54:19Z","project_id":"spark-install","source":"github","tags":{"user":"rasmusab"},"target":"rstudio/spark-install","type":"fork"}
-{"datetime":"2020-01-03T14:53:18Z","project_id":"spark-install","source":"github","tags":{"user":"rasmusab"},"target":"rstudio/spark-install","type":"pr_open"}
-{"datetime":"2020-04-14T05:50:16Z","project_id":"spark-install","source":"github","tags":{"user":"jcmartinmu"},"target":"rstudio/spark-install","type":"fork"}
-{"datetime":"2020-12-11T20:07:01Z","project_id":"spark-install","source":"github","tags":{"user":"gravesee"},"target":"rstudio/spark-install","type":"star"}
-{"datetime":"2020-12-14T13:26:24Z","project_id":"spark-install","source":"github","tags":{"user":"jinlow"},"target":"rstudio/spark-install","type":"star"}
+{"datetime":"2020-01-03T07:54:19Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"fork","user":"rasmusab"}
+{"datetime":"2020-01-03T14:53:18Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"pr_open","user":"rasmusab"}
+{"datetime":"2020-04-14T05:50:16Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"fork","user":"jcmartinmu"}
+{"datetime":"2020-12-11T20:07:01Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"star","user":"gravesee"}
+{"datetime":"2020-12-14T13:26:24Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"star","user":"jinlow"}

@@ -1,5 +1,5 @@
-{"datetime":"2026-03-09T20:04:24Z","project_id":"shinycannon","source":"github","tags":{"user":"jcheng5"},"target":"rstudio/shinycannon","type":"pr_open"}
-{"datetime":"2026-03-10T16:27:14Z","project_id":"shinycannon","source":"github","tags":{"user":"copilot-swe-agent"},"target":"rstudio/shinycannon","type":"pr_open"}
-{"datetime":"2026-03-10T16:42:23Z","project_id":"shinycannon","source":"github","tags":{"user":"gadenbuie"},"target":"rstudio/shinycannon","type":"pr_open"}
-{"datetime":"2026-03-10T16:48:53Z","project_id":"shinycannon","source":"github","tags":{"user":"copilot-swe-agent"},"target":"rstudio/shinycannon","type":"pr_merge"}
-{"datetime":"2026-03-17T20:15:04Z","project_id":"shinycannon","source":"github","tags":{"user":"posit-dev"},"target":"rstudio/shinycannon","type":"fork"}
+{"datetime":"2026-03-09T20:04:24Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"jcheng5"}
+{"datetime":"2026-03-10T16:27:14Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"copilot-swe-agent"}
+{"datetime":"2026-03-10T16:42:23Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"gadenbuie"}
+{"datetime":"2026-03-10T16:48:53Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_merge","user":"copilot-swe-agent"}
+{"datetime":"2026-03-17T20:15:04Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"fork","user":"posit-dev"}

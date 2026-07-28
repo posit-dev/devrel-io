@@ -1,5 +1,5 @@
-{"source":"github","type":"issue_close","project_id":"ggsql-r","target":"posit-dev/ggsql-r","datetime":"2026-06-01T12:36:15Z","tags":{"user":"thomasp85"}}
-{"source":"github","type":"issue_close","project_id":"ggsql-r","target":"posit-dev/ggsql-r","datetime":"2026-06-01T12:36:26Z","tags":{"user":"georgestagg"}}
-{"source":"github","type":"star","project_id":"ggsql-r","target":"posit-dev/ggsql-r","datetime":"2026-06-04T14:24:07Z","tags":{"user":"timelyportfolio"}}
-{"source":"github","type":"pr_merge","project_id":"ggsql-r","target":"posit-dev/ggsql-r","datetime":"2026-06-15T07:21:39Z","tags":{"user":"cpsievert"}}
-{"source":"github","type":"issue_open","project_id":"ggsql-r","target":"posit-dev/ggsql-r","datetime":"2026-06-22T16:51:24Z","tags":{"user":"georgestagg"}}
+{"datetime":"2026-06-01T12:36:15Z","project_id":"ggsql-r","source":"github","target":"posit-dev/ggsql-r","type":"issue_close","user":"thomasp85"}
+{"datetime":"2026-06-01T12:36:26Z","project_id":"ggsql-r","source":"github","target":"posit-dev/ggsql-r","type":"issue_close","user":"georgestagg"}
+{"datetime":"2026-06-04T14:24:07Z","project_id":"ggsql-r","source":"github","target":"posit-dev/ggsql-r","type":"star","user":"timelyportfolio"}
+{"datetime":"2026-06-15T07:21:39Z","project_id":"ggsql-r","source":"github","target":"posit-dev/ggsql-r","type":"pr_merge","user":"cpsievert"}
+{"datetime":"2026-06-22T16:51:24Z","project_id":"ggsql-r","source":"github","target":"posit-dev/ggsql-r","type":"issue_open","user":"georgestagg"}

@@ -1,6 +1,6 @@
-{"datetime":"2026-05-05T21:22:00Z","project_id":"blogdown","source":"github","tags":{"user":"spasgeorgiev"},"target":"rstudio/blogdown","type":"star"}
-{"datetime":"2026-05-10T15:46:11Z","project_id":"blogdown","source":"github","tags":{"user":"giocoliere"},"target":"rstudio/blogdown","type":"star"}
-{"datetime":"2026-05-10T18:00:31Z","project_id":"blogdown","source":"github","tags":{"user":"SerhiiNosov"},"target":"rstudio/blogdown","type":"star"}
-{"datetime":"2026-05-12T01:33:15Z","project_id":"blogdown","source":"github","tags":{"user":"s-vrla"},"target":"rstudio/blogdown","type":"star"}
-{"datetime":"2026-05-14T14:06:01Z","project_id":"blogdown","source":"github","tags":{"user":"magdalenat"},"target":"rstudio/blogdown","type":"fork"}
-{"datetime":"2026-05-30T13:04:34Z","project_id":"blogdown","source":"github","tags":{"user":"chrisjbrooks"},"target":"rstudio/blogdown","type":"star"}
+{"datetime":"2026-05-05T21:22:00Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"star","user":"spasgeorgiev"}
+{"datetime":"2026-05-10T15:46:11Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"star","user":"giocoliere"}
+{"datetime":"2026-05-10T18:00:31Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"star","user":"SerhiiNosov"}
+{"datetime":"2026-05-12T01:33:15Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"star","user":"s-vrla"}
+{"datetime":"2026-05-14T14:06:01Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"fork","user":"magdalenat"}
+{"datetime":"2026-05-30T13:04:34Z","project_id":"blogdown","source":"github","target":"rstudio/blogdown","type":"star","user":"chrisjbrooks"}

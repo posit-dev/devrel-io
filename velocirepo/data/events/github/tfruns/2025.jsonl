@@ -1,7 +1,7 @@
-{"datetime":"2025-08-12T13:00:28Z","project_id":"tfruns","source":"github","tags":{"user":"dfalbel"},"target":"rstudio/tfruns","type":"pr_open"}
-{"datetime":"2025-08-15T17:26:57Z","project_id":"tfruns","source":"github","tags":{"user":"jnmaloof"},"target":"rstudio/tfruns","type":"issue_close"}
-{"datetime":"2025-08-20T13:01:53Z","project_id":"tfruns","source":"github","tags":{"user":"dfalbel"},"target":"rstudio/tfruns","type":"pr_merge"}
-{"datetime":"2025-08-20T13:03:37Z","project_id":"tfruns","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfruns","type":"pr_open"}
-{"datetime":"2025-08-20T13:07:10Z","project_id":"tfruns","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfruns","type":"issue_open"}
-{"datetime":"2025-08-21T17:52:57Z","project_id":"tfruns","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfruns","type":"pr_merge"}
-{"datetime":"2025-08-21T17:53:18Z","project_id":"tfruns","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfruns","type":"issue_close"}
+{"datetime":"2025-08-12T13:00:28Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"pr_open","user":"dfalbel"}
+{"datetime":"2025-08-15T17:26:57Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_close","user":"jnmaloof"}
+{"datetime":"2025-08-20T13:01:53Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"pr_merge","user":"dfalbel"}
+{"datetime":"2025-08-20T13:03:37Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"pr_open","user":"t-kalinowski"}
+{"datetime":"2025-08-20T13:07:10Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_open","user":"t-kalinowski"}
+{"datetime":"2025-08-21T17:52:57Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"pr_merge","user":"t-kalinowski"}
+{"datetime":"2025-08-21T17:53:18Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_close","user":"t-kalinowski"}

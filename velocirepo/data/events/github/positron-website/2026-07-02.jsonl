@@ -1,4 +1,4 @@
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-02T19:03:44Z","tags":{"user":"sharon-wang"}}
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-02T18:17:39Z","tags":{"user":"sharon-wang"}}
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-02T00:02:36Z","tags":{"user":"jennybc"}}
-{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-02T01:29:19Z","tags":{"user":"jennybc"}}
+{"datetime":"2026-07-02T19:03:44Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"sharon-wang"}
+{"datetime":"2026-07-02T18:17:39Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"sharon-wang"}
+{"datetime":"2026-07-02T00:02:36Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"jennybc"}
+{"datetime":"2026-07-02T01:29:19Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_merge","user":"jennybc"}

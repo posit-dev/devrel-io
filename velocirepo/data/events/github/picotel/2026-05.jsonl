@@ -1,4 +1,4 @@
-{"datetime":"2026-05-05T16:32:05Z","project_id":"picotel","source":"github","tags":{"user":"jonkeane"},"target":"posit-dev/picotel","type":"issue_open"}
-{"datetime":"2026-05-07T09:32:51Z","project_id":"picotel","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picotel","type":"pr_open"}
-{"datetime":"2026-05-08T09:48:46Z","project_id":"picotel","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picotel","type":"pr_merge"}
-{"datetime":"2026-05-08T09:48:47Z","project_id":"picotel","source":"github","tags":{"user":"jonkeane"},"target":"posit-dev/picotel","type":"issue_close"}
+{"datetime":"2026-05-05T16:32:05Z","project_id":"picotel","source":"github","target":"posit-dev/picotel","type":"issue_open","user":"jonkeane"}
+{"datetime":"2026-05-07T09:32:51Z","project_id":"picotel","source":"github","target":"posit-dev/picotel","type":"pr_open","user":"amol-"}
+{"datetime":"2026-05-08T09:48:46Z","project_id":"picotel","source":"github","target":"posit-dev/picotel","type":"pr_merge","user":"amol-"}
+{"datetime":"2026-05-08T09:48:47Z","project_id":"picotel","source":"github","target":"posit-dev/picotel","type":"issue_close","user":"jonkeane"}

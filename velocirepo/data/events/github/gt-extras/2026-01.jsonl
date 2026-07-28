@@ -1,6 +1,6 @@
-{"datetime":"2026-01-03T19:47:24Z","project_id":"gt-extras","source":"github","tags":{"user":"tylerriccio33"},"target":"posit-dev/gt-extras","type":"fork"}
-{"datetime":"2026-01-03T19:53:48Z","project_id":"gt-extras","source":"github","tags":{"user":"tylerriccio33"},"target":"posit-dev/gt-extras","type":"pr_open"}
-{"datetime":"2026-01-04T05:03:33Z","project_id":"gt-extras","source":"github","tags":{"user":"brianmcdonald"},"target":"posit-dev/gt-extras","type":"star"}
-{"datetime":"2026-01-20T14:05:41Z","project_id":"gt-extras","source":"github","tags":{"user":"jorishijmans"},"target":"posit-dev/gt-extras","type":"star"}
-{"datetime":"2026-01-24T11:20:06Z","project_id":"gt-extras","source":"github","tags":{"user":"shangrilaer"},"target":"posit-dev/gt-extras","type":"star"}
-{"datetime":"2026-01-31T04:23:03Z","project_id":"gt-extras","source":"github","tags":{"user":"valkyrie1248"},"target":"posit-dev/gt-extras","type":"star"}
+{"datetime":"2026-01-03T19:47:24Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"fork","user":"tylerriccio33"}
+{"datetime":"2026-01-03T19:53:48Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"pr_open","user":"tylerriccio33"}
+{"datetime":"2026-01-04T05:03:33Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"star","user":"brianmcdonald"}
+{"datetime":"2026-01-20T14:05:41Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"star","user":"jorishijmans"}
+{"datetime":"2026-01-24T11:20:06Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"star","user":"shangrilaer"}
+{"datetime":"2026-01-31T04:23:03Z","project_id":"gt-extras","source":"github","target":"posit-dev/gt-extras","type":"star","user":"valkyrie1248"}

@@ -1,7 +1,7 @@
-{"datetime":"2025-04-20T07:34:16Z","project_id":"tfestimators","source":"github","tags":{"user":"ardifiore"},"target":"rstudio/tfestimators","type":"star"}
-{"datetime":"2025-08-18T04:23:07Z","project_id":"tfestimators","source":"github","tags":{"user":"coatless"},"target":"rstudio/tfestimators","type":"issue_open"}
-{"datetime":"2025-08-18T20:09:06Z","project_id":"tfestimators","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfestimators","type":"pr_open"}
-{"datetime":"2025-08-18T20:09:53Z","project_id":"tfestimators","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfestimators","type":"issue_open"}
-{"datetime":"2025-08-19T13:04:52Z","project_id":"tfestimators","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfestimators","type":"issue_close"}
-{"datetime":"2025-08-19T13:05:00Z","project_id":"tfestimators","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfestimators","type":"pr_merge"}
-{"datetime":"2025-08-19T13:06:12Z","project_id":"tfestimators","source":"github","tags":{"user":"coatless"},"target":"rstudio/tfestimators","type":"issue_close"}
+{"datetime":"2025-04-20T07:34:16Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"star","user":"ardifiore"}
+{"datetime":"2025-08-18T04:23:07Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_open","user":"coatless"}
+{"datetime":"2025-08-18T20:09:06Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"pr_open","user":"t-kalinowski"}
+{"datetime":"2025-08-18T20:09:53Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_open","user":"t-kalinowski"}
+{"datetime":"2025-08-19T13:04:52Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_close","user":"t-kalinowski"}
+{"datetime":"2025-08-19T13:05:00Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"pr_merge","user":"t-kalinowski"}
+{"datetime":"2025-08-19T13:06:12Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_close","user":"coatless"}

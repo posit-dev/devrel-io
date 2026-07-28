@@ -1,3 +1,3 @@
-{"datetime":"2022-01-29T00:32:49Z","project_id":"academydatasets","source":"github","tags":{"user":"brendanhcullen"},"target":"rstudio/academyDatasets","type":"issue_open"}
-{"datetime":"2022-09-13T14:28:11Z","project_id":"academydatasets","source":"github","tags":{"user":"malcolmbarrett"},"target":"rstudio/academyDatasets","type":"pr_open"}
-{"datetime":"2022-10-11T17:47:03Z","project_id":"academydatasets","source":"github","tags":{"user":"malcolmbarrett"},"target":"rstudio/academyDatasets","type":"pr_merge"}
+{"datetime":"2022-01-29T00:32:49Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"issue_open","user":"brendanhcullen"}
+{"datetime":"2022-09-13T14:28:11Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_open","user":"malcolmbarrett"}
+{"datetime":"2022-10-11T17:47:03Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_merge","user":"malcolmbarrett"}

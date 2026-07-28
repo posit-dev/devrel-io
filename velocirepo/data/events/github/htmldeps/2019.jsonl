@@ -1,5 +1,5 @@
-{"datetime":"2019-01-05T18:09:05Z","project_id":"htmldeps","source":"github","tags":{"user":"talegari"},"target":"rstudio/htmldeps","type":"star"}
-{"datetime":"2019-01-13T13:23:54Z","project_id":"htmldeps","source":"github","tags":{"user":"harryprince"},"target":"rstudio/htmldeps","type":"star"}
-{"datetime":"2019-06-09T04:26:44Z","project_id":"htmldeps","source":"github","tags":{"user":"Parivesh123"},"target":"rstudio/htmldeps","type":"fork"}
-{"datetime":"2019-08-09T02:10:48Z","project_id":"htmldeps","source":"github","tags":{"user":"apreshill"},"target":"rstudio/htmldeps","type":"fork"}
-{"datetime":"2019-08-09T04:09:04Z","project_id":"htmldeps","source":"github","tags":{"user":"oganm"},"target":"rstudio/htmldeps","type":"star"}
+{"datetime":"2019-01-05T18:09:05Z","project_id":"htmldeps","source":"github","target":"rstudio/htmldeps","type":"star","user":"talegari"}
+{"datetime":"2019-01-13T13:23:54Z","project_id":"htmldeps","source":"github","target":"rstudio/htmldeps","type":"star","user":"harryprince"}
+{"datetime":"2019-06-09T04:26:44Z","project_id":"htmldeps","source":"github","target":"rstudio/htmldeps","type":"fork","user":"Parivesh123"}
+{"datetime":"2019-08-09T02:10:48Z","project_id":"htmldeps","source":"github","target":"rstudio/htmldeps","type":"fork","user":"apreshill"}
+{"datetime":"2019-08-09T04:09:04Z","project_id":"htmldeps","source":"github","target":"rstudio/htmldeps","type":"star","user":"oganm"}

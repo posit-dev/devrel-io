@@ -1,3 +1,3 @@
-{"source":"github","type":"star","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-12T08:20:05Z","tags":{"user":"YuJing-Couldia"}}
-{"source":"github","type":"fork","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-12T19:00:00Z","tags":{"user":"sims1253"}}
-{"source":"github","type":"issue_open","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-12T20:03:20Z","tags":{"user":"sims1253"}}
+{"datetime":"2026-07-12T08:20:05Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"star","user":"YuJing-Couldia"}
+{"datetime":"2026-07-12T19:00:00Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"fork","user":"sims1253"}
+{"datetime":"2026-07-12T20:03:20Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"issue_open","user":"sims1253"}

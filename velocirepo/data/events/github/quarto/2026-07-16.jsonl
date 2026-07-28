@@ -1,8 +1,8 @@
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T20:17:33Z","tags":{"user":"depuschm"}}
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T09:07:22Z","tags":{"user":"jian45154"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T16:06:18Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T15:23:16Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T15:28:30Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T15:09:58Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T17:07:01Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-16T11:25:10Z","tags":{"user":"cderv"}}
+{"datetime":"2026-07-16T20:17:33Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"depuschm"}
+{"datetime":"2026-07-16T09:07:22Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"jian45154"}
+{"datetime":"2026-07-16T16:06:18Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-16T15:23:16Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-16T15:28:30Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_merge","user":"cderv"}
+{"datetime":"2026-07-16T15:09:58Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-16T17:07:01Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_merge","user":"cderv"}
+{"datetime":"2026-07-16T11:25:10Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}

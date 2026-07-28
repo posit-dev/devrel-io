@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-07T18:41:44Z","tags":{"user":"bschwedler"}}
-{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-07T20:39:30Z","tags":{"user":"bschwedler"}}
+{"datetime":"2026-07-07T18:41:44Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"bschwedler"}
+{"datetime":"2026-07-07T20:39:30Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_merge","user":"bschwedler"}

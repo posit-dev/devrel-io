@@ -1,8 +1,8 @@
-{"datetime":"2024-02-14T09:49:23Z","project_id":"reactlog","source":"github","tags":{"user":"pkinif"},"target":"rstudio/reactlog","type":"star"}
-{"datetime":"2024-02-19T08:57:58Z","project_id":"reactlog","source":"github","tags":{"user":"matt-dray"},"target":"rstudio/reactlog","type":"star"}
-{"datetime":"2024-07-22T13:38:46Z","project_id":"reactlog","source":"github","tags":{"user":"schloerke"},"target":"rstudio/reactlog","type":"issue_open"}
-{"datetime":"2024-07-22T15:29:04Z","project_id":"reactlog","source":"github","tags":{"user":"schloerke"},"target":"rstudio/reactlog","type":"issue_close"}
-{"datetime":"2024-08-27T13:36:51Z","project_id":"reactlog","source":"github","tags":{"user":"gadenbuie"},"target":"rstudio/reactlog","type":"issue_open"}
-{"datetime":"2024-09-05T08:50:09Z","project_id":"reactlog","source":"github","tags":{"user":"Jorammossink"},"target":"rstudio/reactlog","type":"star"}
-{"datetime":"2024-09-10T19:49:33Z","project_id":"reactlog","source":"github","tags":{"user":"connor-french"},"target":"rstudio/reactlog","type":"star"}
-{"datetime":"2024-11-09T17:54:34Z","project_id":"reactlog","source":"github","tags":{"user":"wulj5"},"target":"rstudio/reactlog","type":"star"}
+{"datetime":"2024-02-14T09:49:23Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"star","user":"pkinif"}
+{"datetime":"2024-02-19T08:57:58Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"star","user":"matt-dray"}
+{"datetime":"2024-07-22T13:38:46Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"issue_open","user":"schloerke"}
+{"datetime":"2024-07-22T15:29:04Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"issue_close","user":"schloerke"}
+{"datetime":"2024-08-27T13:36:51Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"issue_open","user":"gadenbuie"}
+{"datetime":"2024-09-05T08:50:09Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"star","user":"Jorammossink"}
+{"datetime":"2024-09-10T19:49:33Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"star","user":"connor-french"}
+{"datetime":"2024-11-09T17:54:34Z","project_id":"reactlog","source":"github","target":"rstudio/reactlog","type":"star","user":"wulj5"}

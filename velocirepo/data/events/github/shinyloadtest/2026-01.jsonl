@@ -1,2 +1,2 @@
-{"datetime":"2026-01-08T15:07:56Z","project_id":"shinyloadtest","source":"github","tags":{"user":"DavisVaughan"},"target":"rstudio/shinyloadtest","type":"fork"}
-{"datetime":"2026-01-13T19:40:41Z","project_id":"shinyloadtest","source":"github","tags":{"user":"DavisVaughan"},"target":"rstudio/shinyloadtest","type":"pr_open"}
+{"datetime":"2026-01-08T15:07:56Z","project_id":"shinyloadtest","source":"github","target":"rstudio/shinyloadtest","type":"fork","user":"DavisVaughan"}
+{"datetime":"2026-01-13T19:40:41Z","project_id":"shinyloadtest","source":"github","target":"rstudio/shinyloadtest","type":"pr_open","user":"DavisVaughan"}

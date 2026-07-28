@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"chronicle-reports","target":"posit-dev/chronicle-reports","datetime":"2026-07-07T18:13:07Z","tags":{"user":"matt-urbina"}}
-{"source":"github","type":"pr_open","project_id":"chronicle-reports","target":"posit-dev/chronicle-reports","datetime":"2026-07-07T17:32:32Z","tags":{"user":"matt-urbina"}}
-{"source":"github","type":"pr_merge","project_id":"chronicle-reports","target":"posit-dev/chronicle-reports","datetime":"2026-07-07T20:14:44Z","tags":{"user":"matt-urbina"}}
-{"source":"github","type":"pr_open","project_id":"chronicle-reports","target":"posit-dev/chronicle-reports","datetime":"2026-07-07T14:33:44Z","tags":{"user":"matt-urbina"}}
-{"source":"github","type":"pr_merge","project_id":"chronicle-reports","target":"posit-dev/chronicle-reports","datetime":"2026-07-07T15:42:38Z","tags":{"user":"matt-urbina"}}
+{"datetime":"2026-07-07T18:13:07Z","project_id":"chronicle-reports","source":"github","target":"posit-dev/chronicle-reports","type":"pr_open","user":"matt-urbina"}
+{"datetime":"2026-07-07T17:32:32Z","project_id":"chronicle-reports","source":"github","target":"posit-dev/chronicle-reports","type":"pr_open","user":"matt-urbina"}
+{"datetime":"2026-07-07T20:14:44Z","project_id":"chronicle-reports","source":"github","target":"posit-dev/chronicle-reports","type":"pr_merge","user":"matt-urbina"}
+{"datetime":"2026-07-07T14:33:44Z","project_id":"chronicle-reports","source":"github","target":"posit-dev/chronicle-reports","type":"pr_open","user":"matt-urbina"}
+{"datetime":"2026-07-07T15:42:38Z","project_id":"chronicle-reports","source":"github","target":"posit-dev/chronicle-reports","type":"pr_merge","user":"matt-urbina"}

@@ -1,5 +1,5 @@
-{"datetime":"2025-01-19T18:24:18Z","project_id":"fastapitableau","source":"github","tags":{"user":"mvandermeulen"},"target":"rstudio/fastapitableau","type":"star"}
-{"datetime":"2025-10-20T17:59:42Z","project_id":"fastapitableau","source":"github","tags":{"user":"cgraham-rs"},"target":"rstudio/fastapitableau","type":"issue_open"}
-{"datetime":"2025-10-20T18:10:47Z","project_id":"fastapitableau","source":"github","tags":{"user":"cgraham-rs"},"target":"rstudio/fastapitableau","type":"pr_open"}
-{"datetime":"2025-10-20T18:13:01Z","project_id":"fastapitableau","source":"github","tags":{"user":"cgraham-rs"},"target":"rstudio/fastapitableau","type":"issue_open"}
-{"datetime":"2025-11-24T20:15:01Z","project_id":"fastapitableau","source":"github","tags":{"user":"cgraham-rs"},"target":"rstudio/fastapitableau","type":"issue_close"}
+{"datetime":"2025-01-19T18:24:18Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"star","user":"mvandermeulen"}
+{"datetime":"2025-10-20T17:59:42Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"issue_open","user":"cgraham-rs"}
+{"datetime":"2025-10-20T18:10:47Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"pr_open","user":"cgraham-rs"}
+{"datetime":"2025-10-20T18:13:01Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"issue_open","user":"cgraham-rs"}
+{"datetime":"2025-11-24T20:15:01Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"issue_close","user":"cgraham-rs"}

@@ -1,8 +1,8 @@
-{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T16:21:14Z","tags":{"user":"DavisVaughan"}}
-{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T16:40:21Z","tags":{"user":"DavisVaughan"}}
-{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T16:00:17Z","tags":{"user":"lionel-"}}
-{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T13:46:17Z","tags":{"user":"lionel-"}}
-{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T12:55:12Z","tags":{"user":"lionel-"}}
-{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T08:48:30Z","tags":{"user":"lionel-"}}
-{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T12:56:21Z","tags":{"user":"lionel-"}}
-{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-03T09:19:05Z","tags":{"user":"dependabot"}}
+{"datetime":"2026-07-03T16:21:14Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"DavisVaughan"}
+{"datetime":"2026-07-03T16:40:21Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_merge","user":"DavisVaughan"}
+{"datetime":"2026-07-03T16:00:17Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"lionel-"}
+{"datetime":"2026-07-03T13:46:17Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"lionel-"}
+{"datetime":"2026-07-03T12:55:12Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"lionel-"}
+{"datetime":"2026-07-03T08:48:30Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"lionel-"}
+{"datetime":"2026-07-03T12:56:21Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_merge","user":"lionel-"}
+{"datetime":"2026-07-03T09:19:05Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_merge","user":"dependabot"}

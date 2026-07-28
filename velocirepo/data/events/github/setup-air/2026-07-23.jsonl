@@ -1,2 +1,2 @@
-{"source":"github","type":"fork","project_id":"setup-air","target":"posit-dev/setup-air","datetime":"2026-07-23T15:27:47Z","tags":{"user":"thisisnic"}}
-{"source":"github","type":"pr_open","project_id":"setup-air","target":"posit-dev/setup-air","datetime":"2026-07-23T15:34:08Z","tags":{"user":"thisisnic"}}
+{"datetime":"2026-07-23T15:27:47Z","project_id":"setup-air","source":"github","target":"posit-dev/setup-air","type":"fork","user":"thisisnic"}
+{"datetime":"2026-07-23T15:34:08Z","project_id":"setup-air","source":"github","target":"posit-dev/setup-air","type":"pr_open","user":"thisisnic"}

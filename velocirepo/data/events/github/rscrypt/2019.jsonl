@@ -1,7 +1,7 @@
-{"datetime":"2019-06-29T15:42:15Z","project_id":"rscrypt","source":"github","tags":{"user":"bobjansen"},"target":"rstudio/rscrypt","type":"fork"}
-{"datetime":"2019-06-29T15:43:46Z","project_id":"rscrypt","source":"github","tags":{"user":"bobjansen"},"target":"rstudio/rscrypt","type":"pr_open"}
-{"datetime":"2019-07-14T08:42:41Z","project_id":"rscrypt","source":"github","tags":{"user":"XiangyunHuang"},"target":"rstudio/rscrypt","type":"star"}
-{"datetime":"2019-07-23T21:37:45Z","project_id":"rscrypt","source":"github","tags":{"user":"kuzmenkov111"},"target":"rstudio/rscrypt","type":"star"}
-{"datetime":"2019-08-09T14:14:10Z","project_id":"rscrypt","source":"github","tags":{"user":"Leo-Lee15"},"target":"rstudio/rscrypt","type":"star"}
-{"datetime":"2019-08-10T19:26:01Z","project_id":"rscrypt","source":"github","tags":{"user":"bobjansen"},"target":"rstudio/rscrypt","type":"pr_merge"}
-{"datetime":"2019-08-11T16:47:24Z","project_id":"rscrypt","source":"github","tags":{"user":"hrbrmstr"},"target":"rstudio/rscrypt","type":"issue_close"}
+{"datetime":"2019-06-29T15:42:15Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"fork","user":"bobjansen"}
+{"datetime":"2019-06-29T15:43:46Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"pr_open","user":"bobjansen"}
+{"datetime":"2019-07-14T08:42:41Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"XiangyunHuang"}
+{"datetime":"2019-07-23T21:37:45Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"kuzmenkov111"}
+{"datetime":"2019-08-09T14:14:10Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"Leo-Lee15"}
+{"datetime":"2019-08-10T19:26:01Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"pr_merge","user":"bobjansen"}
+{"datetime":"2019-08-11T16:47:24Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"issue_close","user":"hrbrmstr"}

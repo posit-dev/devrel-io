@@ -1,5 +1,5 @@
-{"datetime":"2017-03-28T01:57:22Z","project_id":"edawr","source":"github","tags":{"user":"lixionghui"},"target":"rstudio/EDAWR","type":"star"}
-{"datetime":"2017-04-23T02:38:38Z","project_id":"edawr","source":"github","tags":{"user":"ktargows"},"target":"rstudio/EDAWR","type":"fork"}
-{"datetime":"2017-07-26T18:03:23Z","project_id":"edawr","source":"github","tags":{"user":"ruhulali"},"target":"rstudio/EDAWR","type":"fork"}
-{"datetime":"2017-09-03T17:09:53Z","project_id":"edawr","source":"github","tags":{"user":"biolchen"},"target":"rstudio/EDAWR","type":"star"}
-{"datetime":"2017-12-04T21:17:48Z","project_id":"edawr","source":"github","tags":{"user":"shekfeh"},"target":"rstudio/EDAWR","type":"star"}
+{"datetime":"2017-03-28T01:57:22Z","project_id":"edawr","source":"github","target":"rstudio/EDAWR","type":"star","user":"lixionghui"}
+{"datetime":"2017-04-23T02:38:38Z","project_id":"edawr","source":"github","target":"rstudio/EDAWR","type":"fork","user":"ktargows"}
+{"datetime":"2017-07-26T18:03:23Z","project_id":"edawr","source":"github","target":"rstudio/EDAWR","type":"fork","user":"ruhulali"}
+{"datetime":"2017-09-03T17:09:53Z","project_id":"edawr","source":"github","target":"rstudio/EDAWR","type":"star","user":"biolchen"}
+{"datetime":"2017-12-04T21:17:48Z","project_id":"edawr","source":"github","target":"rstudio/EDAWR","type":"star","user":"shekfeh"}

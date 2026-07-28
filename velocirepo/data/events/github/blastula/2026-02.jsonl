@@ -1,5 +1,5 @@
-{"datetime":"2026-02-06T09:31:10Z","project_id":"blastula","source":"github","tags":{"user":"rxmachina"},"target":"rstudio/blastula","type":"star"}
-{"datetime":"2026-02-06T16:32:38Z","project_id":"blastula","source":"github","tags":{"user":"bac3917"},"target":"rstudio/blastula","type":"issue_open"}
-{"datetime":"2026-02-14T11:53:49Z","project_id":"blastula","source":"github","tags":{"user":"xiaozi"},"target":"rstudio/blastula","type":"star"}
-{"datetime":"2026-02-14T21:26:59Z","project_id":"blastula","source":"github","tags":{"user":"dirm02"},"target":"rstudio/blastula","type":"star"}
-{"datetime":"2026-02-22T04:24:49Z","project_id":"blastula","source":"github","tags":{"user":"marcodelpin"},"target":"rstudio/blastula","type":"star"}
+{"datetime":"2026-02-06T09:31:10Z","project_id":"blastula","source":"github","target":"rstudio/blastula","type":"star","user":"rxmachina"}
+{"datetime":"2026-02-06T16:32:38Z","project_id":"blastula","source":"github","target":"rstudio/blastula","type":"issue_open","user":"bac3917"}
+{"datetime":"2026-02-14T11:53:49Z","project_id":"blastula","source":"github","target":"rstudio/blastula","type":"star","user":"xiaozi"}
+{"datetime":"2026-02-14T21:26:59Z","project_id":"blastula","source":"github","target":"rstudio/blastula","type":"star","user":"dirm02"}
+{"datetime":"2026-02-22T04:24:49Z","project_id":"blastula","source":"github","target":"rstudio/blastula","type":"star","user":"marcodelpin"}

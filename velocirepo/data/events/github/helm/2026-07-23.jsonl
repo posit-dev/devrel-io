@@ -1,2 +1,2 @@
-{"source":"github","type":"issue_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-23T14:48:58Z","tags":{"user":"bschwedler"}}
-{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-07-23T17:48:34Z","tags":{"user":"dependabot"}}
+{"datetime":"2026-07-23T14:48:58Z","project_id":"helm","source":"github","target":"rstudio/helm","type":"issue_open","user":"bschwedler"}
+{"datetime":"2026-07-23T17:48:34Z","project_id":"helm","source":"github","target":"rstudio/helm","type":"pr_open","user":"dependabot"}

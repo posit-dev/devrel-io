@@ -1,6 +1,6 @@
-{"datetime":"2024-01-09T18:23:17Z","project_id":"rskey","source":"github","tags":{"user":"meatballhat"},"target":"rstudio/rskey","type":"pr_open"}
-{"datetime":"2024-01-18T21:57:42Z","project_id":"rskey","source":"github","tags":{"user":"meatballhat"},"target":"rstudio/rskey","type":"pr_merge"}
-{"datetime":"2024-03-19T17:45:46Z","project_id":"rskey","source":"github","tags":{"user":"dependabot"},"target":"rstudio/rskey","type":"pr_merge"}
-{"datetime":"2024-04-09T15:10:51Z","project_id":"rskey","source":"github","tags":{"user":"shepherdjerred"},"target":"rstudio/rskey","type":"issue_open"}
-{"datetime":"2024-09-25T14:21:31Z","project_id":"rskey","source":"github","tags":{"user":"sjimellor-jr"},"target":"rstudio/rskey","type":"star"}
-{"datetime":"2024-12-11T23:35:13Z","project_id":"rskey","source":"github","tags":{"user":"dependabot"},"target":"rstudio/rskey","type":"pr_open"}
+{"datetime":"2024-01-09T18:23:17Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"pr_open","user":"meatballhat"}
+{"datetime":"2024-01-18T21:57:42Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"pr_merge","user":"meatballhat"}
+{"datetime":"2024-03-19T17:45:46Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"pr_merge","user":"dependabot"}
+{"datetime":"2024-04-09T15:10:51Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"issue_open","user":"shepherdjerred"}
+{"datetime":"2024-09-25T14:21:31Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"star","user":"sjimellor-jr"}
+{"datetime":"2024-12-11T23:35:13Z","project_id":"rskey","source":"github","target":"rstudio/rskey","type":"pr_open","user":"dependabot"}

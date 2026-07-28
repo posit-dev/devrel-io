@@ -1,8 +1,8 @@
-{"datetime":"2026-02-07T22:58:12Z","project_id":"mcptools","source":"github","tags":{"user":"iflow-mcp"},"target":"posit-dev/mcptools","type":"fork"}
-{"datetime":"2026-02-09T15:27:23Z","project_id":"mcptools","source":"github","tags":{"user":"PeeterLaas"},"target":"posit-dev/mcptools","type":"star"}
-{"datetime":"2026-02-18T06:06:23Z","project_id":"mcptools","source":"github","tags":{"user":"sodahuhu"},"target":"posit-dev/mcptools","type":"star"}
-{"datetime":"2026-02-19T05:04:28Z","project_id":"mcptools","source":"github","tags":{"user":"nyudanin"},"target":"posit-dev/mcptools","type":"star"}
-{"datetime":"2026-02-21T19:08:04Z","project_id":"mcptools","source":"github","tags":{"user":"antoinelucasfra"},"target":"posit-dev/mcptools","type":"star"}
-{"datetime":"2026-02-25T11:31:16Z","project_id":"mcptools","source":"github","tags":{"user":"itkonen"},"target":"posit-dev/mcptools","type":"fork"}
-{"datetime":"2026-02-28T06:10:38Z","project_id":"mcptools","source":"github","tags":{"user":"itkonen"},"target":"posit-dev/mcptools","type":"star"}
-{"datetime":"2026-02-28T15:20:10Z","project_id":"mcptools","source":"github","tags":{"user":"dyinboisry4u"},"target":"posit-dev/mcptools","type":"issue_open"}
+{"datetime":"2026-02-07T22:58:12Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"fork","user":"iflow-mcp"}
+{"datetime":"2026-02-09T15:27:23Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"star","user":"PeeterLaas"}
+{"datetime":"2026-02-18T06:06:23Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"star","user":"sodahuhu"}
+{"datetime":"2026-02-19T05:04:28Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"star","user":"nyudanin"}
+{"datetime":"2026-02-21T19:08:04Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"star","user":"antoinelucasfra"}
+{"datetime":"2026-02-25T11:31:16Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"fork","user":"itkonen"}
+{"datetime":"2026-02-28T06:10:38Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"star","user":"itkonen"}
+{"datetime":"2026-02-28T15:20:10Z","project_id":"mcptools","source":"github","target":"posit-dev/mcptools","type":"issue_open","user":"dyinboisry4u"}

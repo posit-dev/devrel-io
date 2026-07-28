@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"academy-tidyverse-renal-treatment","target":"rstudio/academy-tidyverse-renal-treatment","datetime":"2026-07-15T23:10:50Z","tags":{"user":"brendanhcullen"}}
-{"source":"github","type":"pr_merge","project_id":"academy-tidyverse-renal-treatment","target":"rstudio/academy-tidyverse-renal-treatment","datetime":"2026-07-15T23:42:42Z","tags":{"user":"brendanhcullen"}}
+{"datetime":"2026-07-15T23:10:50Z","project_id":"academy-tidyverse-renal-treatment","source":"github","target":"rstudio/academy-tidyverse-renal-treatment","type":"pr_open","user":"brendanhcullen"}
+{"datetime":"2026-07-15T23:42:42Z","project_id":"academy-tidyverse-renal-treatment","source":"github","target":"rstudio/academy-tidyverse-renal-treatment","type":"pr_merge","user":"brendanhcullen"}

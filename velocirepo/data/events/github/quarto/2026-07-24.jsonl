@@ -1,7 +1,7 @@
-{"source":"github","type":"issue_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T17:16:16Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T12:57:27Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T11:10:11Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T10:57:51Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T12:52:48Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T10:14:43Z","tags":{"user":"cderv"}}
-{"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-24T10:15:42Z","tags":{"user":"cderv"}}
+{"datetime":"2026-07-24T17:16:16Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"issue_open","user":"cderv"}
+{"datetime":"2026-07-24T12:57:27Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-24T11:10:11Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-24T10:57:51Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-24T12:52:48Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_merge","user":"cderv"}
+{"datetime":"2026-07-24T10:14:43Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"cderv"}
+{"datetime":"2026-07-24T10:15:42Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_merge","user":"cderv"}

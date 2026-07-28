@@ -1,5 +1,5 @@
-{"datetime":"2021-06-12T11:08:45Z","project_id":"tfds","source":"github","tags":{"user":"parsifal9"},"target":"rstudio/tfds","type":"issue_open"}
-{"datetime":"2021-06-13T10:35:05Z","project_id":"tfds","source":"github","tags":{"user":"parsifal9"},"target":"rstudio/tfds","type":"issue_close"}
-{"datetime":"2021-09-14T15:37:58Z","project_id":"tfds","source":"github","tags":{"user":"jennybc"},"target":"rstudio/tfds","type":"issue_open"}
-{"datetime":"2021-10-19T13:08:45Z","project_id":"tfds","source":"github","tags":{"user":"t-kalinowski"},"target":"rstudio/tfds","type":"issue_open"}
-{"datetime":"2021-11-22T20:13:45Z","project_id":"tfds","source":"github","tags":{"user":"jennybc"},"target":"rstudio/tfds","type":"issue_close"}
+{"datetime":"2021-06-12T11:08:45Z","project_id":"tfds","source":"github","target":"rstudio/tfds","type":"issue_open","user":"parsifal9"}
+{"datetime":"2021-06-13T10:35:05Z","project_id":"tfds","source":"github","target":"rstudio/tfds","type":"issue_close","user":"parsifal9"}
+{"datetime":"2021-09-14T15:37:58Z","project_id":"tfds","source":"github","target":"rstudio/tfds","type":"issue_open","user":"jennybc"}
+{"datetime":"2021-10-19T13:08:45Z","project_id":"tfds","source":"github","target":"rstudio/tfds","type":"issue_open","user":"t-kalinowski"}
+{"datetime":"2021-11-22T20:13:45Z","project_id":"tfds","source":"github","target":"rstudio/tfds","type":"issue_close","user":"jennybc"}

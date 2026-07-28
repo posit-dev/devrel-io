@@ -1,6 +1,6 @@
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-25T14:03:36Z","tags":{"user":"royfrancis"}}
-{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-30T03:13:31Z","tags":{"user":"simonpcouch"}}
-{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-30T03:23:49Z","tags":{"user":"royfrancis"}}
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-30T20:58:41Z","tags":{"user":"simonpcouch"}}
-{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-30T20:59:01Z","tags":{"user":"bianchenhao"}}
-{"source":"github","type":"pr_merge","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-03-30T21:23:59Z","tags":{"user":"simonpcouch"}}
+{"datetime":"2026-03-25T14:03:36Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"royfrancis"}
+{"datetime":"2026-03-30T03:13:31Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_open","user":"simonpcouch"}
+{"datetime":"2026-03-30T03:23:49Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"royfrancis"}
+{"datetime":"2026-03-30T20:58:41Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"simonpcouch"}
+{"datetime":"2026-03-30T20:59:01Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"bianchenhao"}
+{"datetime":"2026-03-30T21:23:59Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_merge","user":"simonpcouch"}

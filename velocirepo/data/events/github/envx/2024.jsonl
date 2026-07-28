@@ -1,5 +1,5 @@
-{"datetime":"2024-07-16T19:27:28Z","project_id":"envx","source":"github","tags":{"user":"meatballhat"},"target":"posit-dev/envx","type":"pr_open"}
-{"datetime":"2024-07-16T19:29:58Z","project_id":"envx","source":"github","tags":{"user":"meatballhat"},"target":"posit-dev/envx","type":"pr_merge"}
-{"datetime":"2024-07-18T23:51:13Z","project_id":"envx","source":"github","tags":{"user":"meatballhat"},"target":"posit-dev/envx","type":"pr_open"}
-{"datetime":"2024-07-19T00:13:43Z","project_id":"envx","source":"github","tags":{"user":"meatballhat"},"target":"posit-dev/envx","type":"pr_merge"}
-{"datetime":"2024-11-03T19:39:13Z","project_id":"envx","source":"github","tags":{"user":"jimbrig"},"target":"posit-dev/envx","type":"star"}
+{"datetime":"2024-07-16T19:27:28Z","project_id":"envx","source":"github","target":"posit-dev/envx","type":"pr_open","user":"meatballhat"}
+{"datetime":"2024-07-16T19:29:58Z","project_id":"envx","source":"github","target":"posit-dev/envx","type":"pr_merge","user":"meatballhat"}
+{"datetime":"2024-07-18T23:51:13Z","project_id":"envx","source":"github","target":"posit-dev/envx","type":"pr_open","user":"meatballhat"}
+{"datetime":"2024-07-19T00:13:43Z","project_id":"envx","source":"github","target":"posit-dev/envx","type":"pr_merge","user":"meatballhat"}
+{"datetime":"2024-11-03T19:39:13Z","project_id":"envx","source":"github","target":"posit-dev/envx","type":"star","user":"jimbrig"}

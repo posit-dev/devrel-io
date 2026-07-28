@@ -1,4 +1,4 @@
-{"datetime":"2024-07-01T16:15:38Z","project_id":"gcfgenv","source":"github","tags":{"user":"meatballhat"},"target":"rstudio/gcfgenv","type":"star"}
-{"datetime":"2024-07-01T20:54:31Z","project_id":"gcfgenv","source":"github","tags":{"user":"meatballhat"},"target":"rstudio/gcfgenv","type":"pr_open"}
-{"datetime":"2024-07-02T17:20:10Z","project_id":"gcfgenv","source":"github","tags":{"user":"meatballhat"},"target":"rstudio/gcfgenv","type":"pr_merge"}
-{"datetime":"2024-07-02T17:21:51Z","project_id":"gcfgenv","source":"github","tags":{"user":"colearendt"},"target":"rstudio/gcfgenv","type":"issue_close"}
+{"datetime":"2024-07-01T16:15:38Z","project_id":"gcfgenv","source":"github","target":"rstudio/gcfgenv","type":"star","user":"meatballhat"}
+{"datetime":"2024-07-01T20:54:31Z","project_id":"gcfgenv","source":"github","target":"rstudio/gcfgenv","type":"pr_open","user":"meatballhat"}
+{"datetime":"2024-07-02T17:20:10Z","project_id":"gcfgenv","source":"github","target":"rstudio/gcfgenv","type":"pr_merge","user":"meatballhat"}
+{"datetime":"2024-07-02T17:21:51Z","project_id":"gcfgenv","source":"github","target":"rstudio/gcfgenv","type":"issue_close","user":"colearendt"}

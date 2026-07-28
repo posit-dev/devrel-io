@@ -1,8 +1,8 @@
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T22:03:02Z","tags":{"user":"Aakanx"}}
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T16:10:01Z","tags":{"user":"kellogcheung"}}
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T14:26:19Z","tags":{"user":"xiuxiua8"}}
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T11:15:16Z","tags":{"user":"timyiu478"}}
-{"source":"github","type":"star","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T07:48:27Z","tags":{"user":"CCR-HRA"}}
-{"source":"github","type":"fork","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T17:33:58Z","tags":{"user":"eejd"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T18:03:46Z","tags":{"user":"eejd"}}
-{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-07-19T09:22:30Z","tags":{"user":"mcanouil"}}
+{"datetime":"2026-07-19T22:03:02Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"Aakanx"}
+{"datetime":"2026-07-19T16:10:01Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"kellogcheung"}
+{"datetime":"2026-07-19T14:26:19Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"xiuxiua8"}
+{"datetime":"2026-07-19T11:15:16Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"timyiu478"}
+{"datetime":"2026-07-19T07:48:27Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"star","user":"CCR-HRA"}
+{"datetime":"2026-07-19T17:33:58Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"fork","user":"eejd"}
+{"datetime":"2026-07-19T18:03:46Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"eejd"}
+{"datetime":"2026-07-19T09:22:30Z","project_id":"quarto","source":"github","target":"quarto-dev/quarto-cli","type":"pr_open","user":"mcanouil"}

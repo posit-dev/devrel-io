@@ -1,5 +1,5 @@
-{"datetime":"2025-01-29T18:05:41Z","project_id":"swagger","source":"github","tags":{"user":"caio-peixoto"},"target":"rstudio/swagger","type":"star"}
-{"datetime":"2025-03-19T19:41:20Z","project_id":"swagger","source":"github","tags":{"user":"emcfalls"},"target":"rstudio/swagger","type":"issue_open"}
-{"datetime":"2025-03-19T23:30:39Z","project_id":"swagger","source":"github","tags":{"user":"emcfalls"},"target":"rstudio/swagger","type":"issue_close"}
-{"datetime":"2025-10-20T08:54:01Z","project_id":"swagger","source":"github","tags":{"user":"thomasp85"},"target":"rstudio/swagger","type":"issue_open"}
-{"datetime":"2025-10-27T12:22:38Z","project_id":"swagger","source":"github","tags":{"user":"meztez"},"target":"rstudio/swagger","type":"issue_open"}
+{"datetime":"2025-01-29T18:05:41Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"caio-peixoto"}
+{"datetime":"2025-03-19T19:41:20Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_open","user":"emcfalls"}
+{"datetime":"2025-03-19T23:30:39Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_close","user":"emcfalls"}
+{"datetime":"2025-10-20T08:54:01Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_open","user":"thomasp85"}
+{"datetime":"2025-10-27T12:22:38Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_open","user":"meztez"}

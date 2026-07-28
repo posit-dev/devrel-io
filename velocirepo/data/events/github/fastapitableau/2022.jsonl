@@ -1,4 +1,4 @@
-{"datetime":"2022-02-23T18:36:44Z","project_id":"fastapitableau","source":"github","tags":{"user":"toph-allen"},"target":"rstudio/fastapitableau","type":"pr_open"}
-{"datetime":"2022-02-23T19:34:32Z","project_id":"fastapitableau","source":"github","tags":{"user":"toph-allen"},"target":"rstudio/fastapitableau","type":"pr_merge"}
-{"datetime":"2022-04-29T06:05:38Z","project_id":"fastapitableau","source":"github","tags":{"user":"Toukenize"},"target":"rstudio/fastapitableau","type":"star"}
-{"datetime":"2022-07-09T22:46:17Z","project_id":"fastapitableau","source":"github","tags":{"user":"skwaugh"},"target":"rstudio/fastapitableau","type":"star"}
+{"datetime":"2022-02-23T18:36:44Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"pr_open","user":"toph-allen"}
+{"datetime":"2022-02-23T19:34:32Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"pr_merge","user":"toph-allen"}
+{"datetime":"2022-04-29T06:05:38Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"star","user":"Toukenize"}
+{"datetime":"2022-07-09T22:46:17Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"star","user":"skwaugh"}

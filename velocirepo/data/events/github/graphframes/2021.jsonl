@@ -1,4 +1,4 @@
-{"datetime":"2021-05-06T02:35:28Z","project_id":"graphframes","source":"github","tags":{"user":"exoulster"},"target":"rstudio/graphframes","type":"fork"}
-{"datetime":"2021-08-25T16:15:13Z","project_id":"graphframes","source":"github","tags":{"user":"lgeistlinger"},"target":"rstudio/graphframes","type":"issue_open"}
-{"datetime":"2021-08-30T13:56:07Z","project_id":"graphframes","source":"github","tags":{"user":"ccb-hms"},"target":"rstudio/graphframes","type":"fork"}
-{"datetime":"2021-10-21T06:36:40Z","project_id":"graphframes","source":"github","tags":{"user":"exoulster"},"target":"rstudio/graphframes","type":"pr_open"}
+{"datetime":"2021-05-06T02:35:28Z","project_id":"graphframes","source":"github","target":"rstudio/graphframes","type":"fork","user":"exoulster"}
+{"datetime":"2021-08-25T16:15:13Z","project_id":"graphframes","source":"github","target":"rstudio/graphframes","type":"issue_open","user":"lgeistlinger"}
+{"datetime":"2021-08-30T13:56:07Z","project_id":"graphframes","source":"github","target":"rstudio/graphframes","type":"fork","user":"ccb-hms"}
+{"datetime":"2021-10-21T06:36:40Z","project_id":"graphframes","source":"github","target":"rstudio/graphframes","type":"pr_open","user":"exoulster"}

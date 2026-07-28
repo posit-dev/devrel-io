@@ -1,8 +1,8 @@
-{"source":"github","type":"star","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T13:31:34Z","tags":{"user":"jeis4wpi"}}
-{"source":"github","type":"star","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T06:51:10Z","tags":{"user":"alexmilles"}}
-{"source":"github","type":"fork","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T13:31:40Z","tags":{"user":"jeis4wpi"}}
-{"source":"github","type":"pr_open","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T18:13:29Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_merge","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T18:33:45Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T18:13:19Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_merge","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T19:36:27Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-15T15:17:07Z","tags":{"user":"jeis4wpi"}}
+{"datetime":"2026-07-15T13:31:34Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"star","user":"jeis4wpi"}
+{"datetime":"2026-07-15T06:51:10Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"star","user":"alexmilles"}
+{"datetime":"2026-07-15T13:31:40Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"fork","user":"jeis4wpi"}
+{"datetime":"2026-07-15T18:13:29Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-15T18:33:45Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-07-15T18:13:19Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-15T19:36:27Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-07-15T15:17:07Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_open","user":"jeis4wpi"}

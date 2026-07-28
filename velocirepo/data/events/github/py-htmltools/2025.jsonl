@@ -1,8 +1,8 @@
-{"datetime":"2025-01-19T11:26:20Z","project_id":"py-htmltools","source":"github","tags":{"user":"Lenamaxpsi"},"target":"posit-dev/py-htmltools","type":"star"}
-{"datetime":"2025-02-06T17:13:18Z","project_id":"py-htmltools","source":"github","tags":{"user":"matheus-rech"},"target":"posit-dev/py-htmltools","type":"star"}
-{"datetime":"2025-03-01T00:58:14Z","project_id":"py-htmltools","source":"github","tags":{"user":"dakshpokar"},"target":"posit-dev/py-htmltools","type":"issue_close"}
-{"datetime":"2025-08-29T15:20:32Z","project_id":"py-htmltools","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-htmltools","type":"issue_open"}
-{"datetime":"2025-10-01T17:36:54Z","project_id":"py-htmltools","source":"github","tags":{"user":"gadenbuie"},"target":"posit-dev/py-htmltools","type":"issue_open"}
-{"datetime":"2025-11-14T15:14:30Z","project_id":"py-htmltools","source":"github","tags":{"user":"kamilm"},"target":"posit-dev/py-htmltools","type":"star"}
-{"datetime":"2025-12-04T21:08:13Z","project_id":"py-htmltools","source":"github","tags":{"user":"hugomiguel-code"},"target":"posit-dev/py-htmltools","type":"fork"}
-{"datetime":"2025-12-19T06:18:40Z","project_id":"py-htmltools","source":"github","tags":{"user":"GabrielQuinmat"},"target":"posit-dev/py-htmltools","type":"star"}
+{"datetime":"2025-01-19T11:26:20Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"star","user":"Lenamaxpsi"}
+{"datetime":"2025-02-06T17:13:18Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"star","user":"matheus-rech"}
+{"datetime":"2025-03-01T00:58:14Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"issue_close","user":"dakshpokar"}
+{"datetime":"2025-08-29T15:20:32Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"issue_open","user":"cpsievert"}
+{"datetime":"2025-10-01T17:36:54Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"issue_open","user":"gadenbuie"}
+{"datetime":"2025-11-14T15:14:30Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"star","user":"kamilm"}
+{"datetime":"2025-12-04T21:08:13Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"fork","user":"hugomiguel-code"}
+{"datetime":"2025-12-19T06:18:40Z","project_id":"py-htmltools","source":"github","target":"posit-dev/py-htmltools","type":"star","user":"GabrielQuinmat"}

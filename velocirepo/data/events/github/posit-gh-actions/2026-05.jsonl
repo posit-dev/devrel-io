@@ -1,2 +1,2 @@
-{"datetime":"2026-05-18T20:19:09Z","project_id":"posit-gh-actions","source":"github","tags":{"user":"zackverham"},"target":"posit-dev/posit-gh-actions","type":"fork"}
-{"datetime":"2026-05-18T20:27:48Z","project_id":"posit-gh-actions","source":"github","tags":{"user":"zackverham"},"target":"posit-dev/posit-gh-actions","type":"pr_open"}
+{"datetime":"2026-05-18T20:19:09Z","project_id":"posit-gh-actions","source":"github","target":"posit-dev/posit-gh-actions","type":"fork","user":"zackverham"}
+{"datetime":"2026-05-18T20:27:48Z","project_id":"posit-gh-actions","source":"github","target":"posit-dev/posit-gh-actions","type":"pr_open","user":"zackverham"}

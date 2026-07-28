@@ -1,7 +1,7 @@
-{"datetime":"2025-01-08T20:21:10Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"retzerjj"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_open"}
-{"datetime":"2025-02-26T18:18:25Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"mrtnlowry"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_open"}
-{"datetime":"2025-03-28T06:45:43Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"Joey-Shum"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_open"}
-{"datetime":"2025-03-28T21:52:55Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"Joey-Shum"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_close"}
-{"datetime":"2025-04-18T11:01:00Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"ardifiore"},"target":"rstudio/tensorflow.rstudio.com","type":"star"}
-{"datetime":"2025-04-20T14:03:27Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"ykocaturk"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_open"}
-{"datetime":"2025-05-15T20:41:39Z","project_id":"tensorflow-rstudio-com","source":"github","tags":{"user":"xvtstephen"},"target":"rstudio/tensorflow.rstudio.com","type":"issue_open"}
+{"datetime":"2025-01-08T20:21:10Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_open","user":"retzerjj"}
+{"datetime":"2025-02-26T18:18:25Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_open","user":"mrtnlowry"}
+{"datetime":"2025-03-28T06:45:43Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_open","user":"Joey-Shum"}
+{"datetime":"2025-03-28T21:52:55Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_close","user":"Joey-Shum"}
+{"datetime":"2025-04-18T11:01:00Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"star","user":"ardifiore"}
+{"datetime":"2025-04-20T14:03:27Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_open","user":"ykocaturk"}
+{"datetime":"2025-05-15T20:41:39Z","project_id":"tensorflow-rstudio-com","source":"github","target":"rstudio/tensorflow.rstudio.com","type":"issue_open","user":"xvtstephen"}

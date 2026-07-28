@@ -1,7 +1,7 @@
-{"datetime":"2024-01-11T21:22:50Z","project_id":"quarto-tiers","source":"github","tags":{"user":"aronatkins"},"target":"posit-dev/quarto-tiers","type":"pr_open"}
-{"datetime":"2024-01-17T13:19:40Z","project_id":"quarto-tiers","source":"github","tags":{"user":"aronatkins"},"target":"posit-dev/quarto-tiers","type":"pr_merge"}
-{"datetime":"2024-04-23T18:36:02Z","project_id":"quarto-tiers","source":"github","tags":{"user":"wydsith"},"target":"posit-dev/quarto-tiers","type":"issue_open"}
-{"datetime":"2024-05-24T14:08:43Z","project_id":"quarto-tiers","source":"github","tags":{"user":"AshleyHenry15"},"target":"posit-dev/quarto-tiers","type":"issue_open"}
-{"datetime":"2024-05-24T14:42:21Z","project_id":"quarto-tiers","source":"github","tags":{"user":"AshleyHenry15"},"target":"posit-dev/quarto-tiers","type":"pr_open"}
-{"datetime":"2024-05-24T14:45:58Z","project_id":"quarto-tiers","source":"github","tags":{"user":"AshleyHenry15"},"target":"posit-dev/quarto-tiers","type":"pr_merge"}
-{"datetime":"2024-05-24T14:45:59Z","project_id":"quarto-tiers","source":"github","tags":{"user":"AshleyHenry15"},"target":"posit-dev/quarto-tiers","type":"issue_close"}
+{"datetime":"2024-01-11T21:22:50Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"pr_open","user":"aronatkins"}
+{"datetime":"2024-01-17T13:19:40Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"pr_merge","user":"aronatkins"}
+{"datetime":"2024-04-23T18:36:02Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"issue_open","user":"wydsith"}
+{"datetime":"2024-05-24T14:08:43Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"issue_open","user":"AshleyHenry15"}
+{"datetime":"2024-05-24T14:42:21Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"pr_open","user":"AshleyHenry15"}
+{"datetime":"2024-05-24T14:45:58Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"pr_merge","user":"AshleyHenry15"}
+{"datetime":"2024-05-24T14:45:59Z","project_id":"quarto-tiers","source":"github","target":"posit-dev/quarto-tiers","type":"issue_close","user":"AshleyHenry15"}

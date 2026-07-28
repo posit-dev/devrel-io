@@ -1,6 +1,6 @@
-{"datetime":"2016-01-11T10:35:44Z","project_id":"rmdexamples","source":"github","tags":{"user":"noahcse"},"target":"rstudio/rmdexamples","type":"star"}
-{"datetime":"2016-02-23T16:36:38Z","project_id":"rmdexamples","source":"github","tags":{"user":"sivartravis"},"target":"rstudio/rmdexamples","type":"star"}
-{"datetime":"2016-03-03T20:00:32Z","project_id":"rmdexamples","source":"github","tags":{"user":"astraadria4ari"},"target":"rstudio/rmdexamples","type":"fork"}
-{"datetime":"2016-05-01T18:43:26Z","project_id":"rmdexamples","source":"github","tags":{"user":"apratap"},"target":"rstudio/rmdexamples","type":"issue_open"}
-{"datetime":"2016-06-05T06:00:22Z","project_id":"rmdexamples","source":"github","tags":{"user":"ShuguangSun"},"target":"rstudio/rmdexamples","type":"star"}
-{"datetime":"2016-07-18T15:04:53Z","project_id":"rmdexamples","source":"github","tags":{"user":"laudeeva"},"target":"rstudio/rmdexamples","type":"star"}
+{"datetime":"2016-01-11T10:35:44Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"star","user":"noahcse"}
+{"datetime":"2016-02-23T16:36:38Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"star","user":"sivartravis"}
+{"datetime":"2016-03-03T20:00:32Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"fork","user":"astraadria4ari"}
+{"datetime":"2016-05-01T18:43:26Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"issue_open","user":"apratap"}
+{"datetime":"2016-06-05T06:00:22Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"star","user":"ShuguangSun"}
+{"datetime":"2016-07-18T15:04:53Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"star","user":"laudeeva"}

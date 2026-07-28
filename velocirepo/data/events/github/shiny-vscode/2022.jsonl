@@ -1,8 +1,8 @@
-{"datetime":"2022-08-24T18:46:22Z","project_id":"shiny-vscode","source":"github","tags":{"user":"tnederlof"},"target":"posit-dev/shiny-vscode","type":"issue_open"}
-{"datetime":"2022-08-26T04:27:48Z","project_id":"shiny-vscode","source":"github","tags":{"user":"parmsam"},"target":"posit-dev/shiny-vscode","type":"issue_open"}
-{"datetime":"2022-10-05T23:43:03Z","project_id":"shiny-vscode","source":"github","tags":{"user":"jcheng5"},"target":"posit-dev/shiny-vscode","type":"pr_open"}
-{"datetime":"2022-10-07T04:55:42Z","project_id":"shiny-vscode","source":"github","tags":{"user":"jcheng5"},"target":"posit-dev/shiny-vscode","type":"pr_merge"}
-{"datetime":"2022-10-17T22:17:40Z","project_id":"shiny-vscode","source":"github","tags":{"user":"jcheng5"},"target":"posit-dev/shiny-vscode","type":"pr_open"}
-{"datetime":"2022-10-20T07:13:28Z","project_id":"shiny-vscode","source":"github","tags":{"user":"kbturgut090"},"target":"posit-dev/shiny-vscode","type":"star"}
-{"datetime":"2022-11-16T20:53:23Z","project_id":"shiny-vscode","source":"github","tags":{"user":"novica"},"target":"posit-dev/shiny-vscode","type":"issue_open"}
-{"datetime":"2022-11-16T20:54:27Z","project_id":"shiny-vscode","source":"github","tags":{"user":"novica"},"target":"posit-dev/shiny-vscode","type":"issue_close"}
+{"datetime":"2022-08-24T18:46:22Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"issue_open","user":"tnederlof"}
+{"datetime":"2022-08-26T04:27:48Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"issue_open","user":"parmsam"}
+{"datetime":"2022-10-05T23:43:03Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"pr_open","user":"jcheng5"}
+{"datetime":"2022-10-07T04:55:42Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"pr_merge","user":"jcheng5"}
+{"datetime":"2022-10-17T22:17:40Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"pr_open","user":"jcheng5"}
+{"datetime":"2022-10-20T07:13:28Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"star","user":"kbturgut090"}
+{"datetime":"2022-11-16T20:53:23Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"issue_open","user":"novica"}
+{"datetime":"2022-11-16T20:54:27Z","project_id":"shiny-vscode","source":"github","target":"posit-dev/shiny-vscode","type":"issue_close","user":"novica"}

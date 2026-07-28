@@ -1,4 +1,4 @@
-{"datetime":"2026-02-25T13:59:55Z","project_id":"r-system-requirements","source":"github","tags":{"user":"PatrickRWright"},"target":"rstudio/r-system-requirements","type":"issue_open"}
-{"datetime":"2026-02-25T21:32:41Z","project_id":"r-system-requirements","source":"github","tags":{"user":"glin"},"target":"rstudio/r-system-requirements","type":"pr_open"}
-{"datetime":"2026-02-25T22:05:56Z","project_id":"r-system-requirements","source":"github","tags":{"user":"glin"},"target":"rstudio/r-system-requirements","type":"pr_merge"}
-{"datetime":"2026-02-25T22:05:57Z","project_id":"r-system-requirements","source":"github","tags":{"user":"PatrickRWright"},"target":"rstudio/r-system-requirements","type":"issue_close"}
+{"datetime":"2026-02-25T13:59:55Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"issue_open","user":"PatrickRWright"}
+{"datetime":"2026-02-25T21:32:41Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"pr_open","user":"glin"}
+{"datetime":"2026-02-25T22:05:56Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"pr_merge","user":"glin"}
+{"datetime":"2026-02-25T22:05:57Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"issue_close","user":"PatrickRWright"}

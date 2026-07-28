@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-07-22T19:54:33Z","tags":{"user":"timtalbot"}}
-{"source":"github","type":"pr_merge","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-07-22T20:29:59Z","tags":{"user":"timtalbot"}}
+{"datetime":"2026-07-22T19:54:33Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"pr_open","user":"timtalbot"}
+{"datetime":"2026-07-22T20:29:59Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"pr_merge","user":"timtalbot"}

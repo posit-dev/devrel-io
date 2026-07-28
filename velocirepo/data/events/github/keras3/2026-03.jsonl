@@ -1,3 +1,3 @@
-{"datetime":"2026-03-10T06:25:50Z","project_id":"keras3","source":"github","tags":{"user":"MichaelChirico"},"target":"rstudio/keras3","type":"fork"}
-{"datetime":"2026-03-10T06:26:46Z","project_id":"keras3","source":"github","tags":{"user":"MichaelChirico"},"target":"rstudio/keras3","type":"pr_open"}
-{"datetime":"2026-03-10T12:17:50Z","project_id":"keras3","source":"github","tags":{"user":"MichaelChirico"},"target":"rstudio/keras3","type":"pr_merge"}
+{"datetime":"2026-03-10T06:25:50Z","project_id":"keras3","source":"github","target":"rstudio/keras3","type":"fork","user":"MichaelChirico"}
+{"datetime":"2026-03-10T06:26:46Z","project_id":"keras3","source":"github","target":"rstudio/keras3","type":"pr_open","user":"MichaelChirico"}
+{"datetime":"2026-03-10T12:17:50Z","project_id":"keras3","source":"github","target":"rstudio/keras3","type":"pr_merge","user":"MichaelChirico"}

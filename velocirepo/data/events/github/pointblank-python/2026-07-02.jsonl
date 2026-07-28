@@ -1,4 +1,4 @@
-{"source":"github","type":"star","project_id":"pointblank-python","target":"posit-dev/pointblank","datetime":"2026-07-02T21:16:51Z","tags":{"user":"ThomasEKolb"}}
-{"source":"github","type":"star","project_id":"pointblank-python","target":"posit-dev/pointblank","datetime":"2026-07-02T02:19:16Z","tags":{"user":"rogeryaubim"}}
-{"source":"github","type":"pr_open","project_id":"pointblank-python","target":"posit-dev/pointblank","datetime":"2026-07-02T03:21:48Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"pointblank-python","target":"posit-dev/pointblank","datetime":"2026-07-02T13:53:15Z","tags":{"user":"rich-iannone"}}
+{"datetime":"2026-07-02T21:16:51Z","project_id":"pointblank-python","source":"github","target":"posit-dev/pointblank","type":"star","user":"ThomasEKolb"}
+{"datetime":"2026-07-02T02:19:16Z","project_id":"pointblank-python","source":"github","target":"posit-dev/pointblank","type":"star","user":"rogeryaubim"}
+{"datetime":"2026-07-02T03:21:48Z","project_id":"pointblank-python","source":"github","target":"posit-dev/pointblank","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-02T13:53:15Z","project_id":"pointblank-python","source":"github","target":"posit-dev/pointblank","type":"pr_merge","user":"rich-iannone"}

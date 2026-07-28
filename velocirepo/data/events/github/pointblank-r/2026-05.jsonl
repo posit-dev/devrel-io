@@ -1,4 +1,4 @@
-{"datetime":"2026-05-10T14:04:54Z","project_id":"pointblank-r","source":"github","tags":{"user":"pachadotdev"},"target":"rstudio/pointblank","type":"issue_comment"}
-{"datetime":"2026-05-10T16:23:59Z","project_id":"pointblank-r","source":"github","tags":{"user":"pachadotdev"},"target":"rstudio/pointblank","type":"pr_open"}
-{"datetime":"2026-05-10T16:24:34Z","project_id":"pointblank-r","source":"github","tags":{"user":"pachadotdev"},"target":"rstudio/pointblank","type":"issue_comment"}
-{"datetime":"2026-05-10T16:26:50Z","project_id":"pointblank-r","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/pointblank","type":"pr_comment"}
+{"datetime":"2026-05-10T14:04:54Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"issue_comment","user":"pachadotdev"}
+{"datetime":"2026-05-10T16:23:59Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_open","user":"pachadotdev"}
+{"datetime":"2026-05-10T16:24:34Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"issue_comment","user":"pachadotdev"}
+{"datetime":"2026-05-10T16:26:50Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_comment","user":"rich-iannone"}

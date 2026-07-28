@@ -1,4 +1,4 @@
-{"datetime":"2026-02-03T22:56:36Z","project_id":"spark-rstudio-com","source":"github","tags":{"user":"edgararuiz"},"target":"rstudio/spark.rstudio.com","type":"pr_merge"}
-{"datetime":"2026-02-04T20:08:40Z","project_id":"spark-rstudio-com","source":"github","tags":{"user":"edgararuiz"},"target":"rstudio/spark.rstudio.com","type":"pr_open"}
-{"datetime":"2026-02-04T20:40:17Z","project_id":"spark-rstudio-com","source":"github","tags":{"user":"edgararuiz"},"target":"rstudio/spark.rstudio.com","type":"pr_merge"}
-{"datetime":"2026-02-05T23:41:28Z","project_id":"spark-rstudio-com","source":"github","tags":{"user":"edgararuiz"},"target":"rstudio/spark.rstudio.com","type":"pr_merge"}
+{"datetime":"2026-02-03T22:56:36Z","project_id":"spark-rstudio-com","source":"github","target":"rstudio/spark.rstudio.com","type":"pr_merge","user":"edgararuiz"}
+{"datetime":"2026-02-04T20:08:40Z","project_id":"spark-rstudio-com","source":"github","target":"rstudio/spark.rstudio.com","type":"pr_open","user":"edgararuiz"}
+{"datetime":"2026-02-04T20:40:17Z","project_id":"spark-rstudio-com","source":"github","target":"rstudio/spark.rstudio.com","type":"pr_merge","user":"edgararuiz"}
+{"datetime":"2026-02-05T23:41:28Z","project_id":"spark-rstudio-com","source":"github","target":"rstudio/spark.rstudio.com","type":"pr_merge","user":"edgararuiz"}

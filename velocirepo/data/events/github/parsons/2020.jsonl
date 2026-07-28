@@ -1,6 +1,6 @@
-{"datetime":"2020-01-24T02:23:22Z","project_id":"parsons","source":"github","tags":{"user":"agentofuser"},"target":"rstudio/parsons","type":"star"}
-{"datetime":"2020-05-29T18:07:03Z","project_id":"parsons","source":"github","tags":{"user":"nischalshrestha"},"target":"rstudio/parsons","type":"star"}
-{"datetime":"2020-07-21T04:08:29Z","project_id":"parsons","source":"github","tags":{"user":"RW-1024"},"target":"rstudio/parsons","type":"star"}
-{"datetime":"2020-09-22T05:14:22Z","project_id":"parsons","source":"github","tags":{"user":"webbedfeet"},"target":"rstudio/parsons","type":"star"}
-{"datetime":"2020-10-08T22:31:12Z","project_id":"parsons","source":"github","tags":{"user":"nischalshrestha"},"target":"rstudio/parsons","type":"fork"}
-{"datetime":"2020-10-28T01:16:29Z","project_id":"parsons","source":"github","tags":{"user":"brendanhcullen"},"target":"rstudio/parsons","type":"star"}
+{"datetime":"2020-01-24T02:23:22Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"agentofuser"}
+{"datetime":"2020-05-29T18:07:03Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"nischalshrestha"}
+{"datetime":"2020-07-21T04:08:29Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"RW-1024"}
+{"datetime":"2020-09-22T05:14:22Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"webbedfeet"}
+{"datetime":"2020-10-08T22:31:12Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"fork","user":"nischalshrestha"}
+{"datetime":"2020-10-28T01:16:29Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"brendanhcullen"}

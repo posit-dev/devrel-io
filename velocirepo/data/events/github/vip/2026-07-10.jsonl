@@ -1,3 +1,3 @@
-{"source":"github","type":"issue_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-10T07:05:00Z","tags":{"user":"github-actions"}}
-{"source":"github","type":"issue_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-10T00:35:57Z","tags":{"user":"posit-vip-triage"}}
-{"source":"github","type":"issue_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-10T00:33:01Z","tags":{"user":"ian-flores"}}
+{"datetime":"2026-07-10T07:05:00Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"issue_open","user":"github-actions"}
+{"datetime":"2026-07-10T00:35:57Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"issue_open","user":"posit-vip-triage"}
+{"datetime":"2026-07-10T00:33:01Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"issue_open","user":"ian-flores"}

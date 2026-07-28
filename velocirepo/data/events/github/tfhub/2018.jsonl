@@ -1,3 +1,3 @@
-{"datetime":"2018-07-25T03:13:49Z","project_id":"tfhub","source":"github","tags":{"user":"Auburngrads"},"target":"rstudio/tfhub","type":"star"}
-{"datetime":"2018-07-25T05:39:36Z","project_id":"tfhub","source":"github","tags":{"user":"renkun-ken"},"target":"rstudio/tfhub","type":"star"}
-{"datetime":"2018-10-26T20:30:26Z","project_id":"tfhub","source":"github","tags":{"user":"gmonaie"},"target":"rstudio/tfhub","type":"fork"}
+{"datetime":"2018-07-25T03:13:49Z","project_id":"tfhub","source":"github","target":"rstudio/tfhub","type":"star","user":"Auburngrads"}
+{"datetime":"2018-07-25T05:39:36Z","project_id":"tfhub","source":"github","target":"rstudio/tfhub","type":"star","user":"renkun-ken"}
+{"datetime":"2018-10-26T20:30:26Z","project_id":"tfhub","source":"github","target":"rstudio/tfhub","type":"fork","user":"gmonaie"}

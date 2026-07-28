@@ -1,4 +1,4 @@
-{"datetime":"2025-04-02T20:54:12Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","tags":{"user":"jforest"},"target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open"}
-{"datetime":"2025-04-15T01:29:27Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","tags":{"user":"dmortondev"},"target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open"}
-{"datetime":"2025-04-15T14:35:45Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","tags":{"user":"dmortondev"},"target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge"}
-{"datetime":"2025-04-15T15:32:22Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","tags":{"user":"jforest"},"target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge"}
+{"datetime":"2025-04-02T20:54:12Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open","user":"jforest"}
+{"datetime":"2025-04-15T01:29:27Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open","user":"dmortondev"}
+{"datetime":"2025-04-15T14:35:45Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge","user":"dmortondev"}
+{"datetime":"2025-04-15T15:32:22Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge","user":"jforest"}

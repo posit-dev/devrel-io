@@ -1,2 +1,2 @@
-{"source":"github","type":"issue_open","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-16T19:41:37Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shiny","target":"rstudio/shiny","datetime":"2026-07-16T15:25:29Z","tags":{"user":"schloerke"}}
+{"datetime":"2026-07-16T19:41:37Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"issue_open","user":"schloerke"}
+{"datetime":"2026-07-16T15:25:29Z","project_id":"shiny","source":"github","target":"rstudio/shiny","type":"pr_open","user":"schloerke"}

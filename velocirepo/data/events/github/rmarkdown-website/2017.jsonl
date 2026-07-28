@@ -1,6 +1,6 @@
-{"datetime":"2017-04-23T02:20:55Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"ktargows"},"target":"rstudio/rmarkdown-website","type":"star"}
-{"datetime":"2017-04-23T02:20:56Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"ktargows"},"target":"rstudio/rmarkdown-website","type":"fork"}
-{"datetime":"2017-06-14T17:00:27Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"nancym"},"target":"rstudio/rmarkdown-website","type":"star"}
-{"datetime":"2017-07-08T06:23:12Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"action781"},"target":"rstudio/rmarkdown-website","type":"fork"}
-{"datetime":"2017-09-25T18:19:47Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"aceduce"},"target":"rstudio/rmarkdown-website","type":"fork"}
-{"datetime":"2017-10-25T13:57:58Z","project_id":"rmarkdown-website","source":"github","tags":{"user":"shawnlinxl"},"target":"rstudio/rmarkdown-website","type":"star"}
+{"datetime":"2017-04-23T02:20:55Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"star","user":"ktargows"}
+{"datetime":"2017-04-23T02:20:56Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"fork","user":"ktargows"}
+{"datetime":"2017-06-14T17:00:27Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"star","user":"nancym"}
+{"datetime":"2017-07-08T06:23:12Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"fork","user":"action781"}
+{"datetime":"2017-09-25T18:19:47Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"fork","user":"aceduce"}
+{"datetime":"2017-10-25T13:57:58Z","project_id":"rmarkdown-website","source":"github","target":"rstudio/rmarkdown-website","type":"star","user":"shawnlinxl"}

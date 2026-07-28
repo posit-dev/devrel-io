@@ -1,7 +1,7 @@
-{"datetime":"2026-04-07T20:54:09Z","project_id":"air","source":"github","tags":{"user":"maikol-solis"},"target":"posit-dev/air","type":"issue_comment"}
-{"datetime":"2026-04-08T22:00:04Z","project_id":"air","source":"github","tags":{"user":"jesse-ross"},"target":"posit-dev/air","type":"issue_comment"}
-{"datetime":"2026-04-13T00:51:00Z","project_id":"air","source":"github","tags":{"user":"mija4264-arch38"},"target":"posit-dev/air","type":"fork"}
-{"datetime":"2026-04-15T23:58:43Z","project_id":"air","source":"github","tags":{"user":"zz77zz"},"target":"posit-dev/air","type":"issue_open"}
-{"datetime":"2026-04-16T11:26:17Z","project_id":"air","source":"github","tags":{"user":"DavisVaughan"},"target":"posit-dev/air","type":"issue_comment"}
-{"datetime":"2026-04-16T18:13:07Z","project_id":"air","source":"github","tags":{"user":"vezwork"},"target":"posit-dev/air","type":"issue_comment"}
-{"datetime":"2026-04-16T18:55:38Z","project_id":"air","source":"github","tags":{"user":"DavisVaughan"},"target":"posit-dev/air","type":"issue_comment"}
+{"datetime":"2026-04-07T20:54:09Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_comment","user":"maikol-solis"}
+{"datetime":"2026-04-08T22:00:04Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_comment","user":"jesse-ross"}
+{"datetime":"2026-04-13T00:51:00Z","project_id":"air","source":"github","target":"posit-dev/air","type":"fork","user":"mija4264-arch38"}
+{"datetime":"2026-04-15T23:58:43Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_open","user":"zz77zz"}
+{"datetime":"2026-04-16T11:26:17Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_comment","user":"DavisVaughan"}
+{"datetime":"2026-04-16T18:13:07Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_comment","user":"vezwork"}
+{"datetime":"2026-04-16T18:55:38Z","project_id":"air","source":"github","target":"posit-dev/air","type":"issue_comment","user":"DavisVaughan"}

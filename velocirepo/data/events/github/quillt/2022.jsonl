@@ -1,4 +1,4 @@
-{"datetime":"2022-02-16T23:57:21Z","project_id":"quillt","source":"github","tags":{"user":"gtritchie"},"target":"rstudio/quillt","type":"fork"}
-{"datetime":"2022-02-16T23:59:58Z","project_id":"quillt","source":"github","tags":{"user":"gtritchie"},"target":"rstudio/quillt","type":"pr_open"}
-{"datetime":"2022-02-17T07:59:04Z","project_id":"quillt","source":"github","tags":{"user":"gtritchie"},"target":"rstudio/quillt","type":"pr_merge"}
-{"datetime":"2022-06-01T22:15:58Z","project_id":"quillt","source":"github","tags":{"user":"jtr13"},"target":"rstudio/quillt","type":"star"}
+{"datetime":"2022-02-16T23:57:21Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"fork","user":"gtritchie"}
+{"datetime":"2022-02-16T23:59:58Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"pr_open","user":"gtritchie"}
+{"datetime":"2022-02-17T07:59:04Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"pr_merge","user":"gtritchie"}
+{"datetime":"2022-06-01T22:15:58Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"star","user":"jtr13"}

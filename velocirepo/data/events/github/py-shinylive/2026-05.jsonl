@@ -1,6 +1,6 @@
-{"datetime":"2026-05-01T20:11:46Z","project_id":"py-shinylive","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-shinylive","type":"pr_open"}
-{"datetime":"2026-05-01T20:16:56Z","project_id":"py-shinylive","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-shinylive","type":"pr_merge"}
-{"datetime":"2026-05-21T19:48:57Z","project_id":"py-shinylive","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinylive","type":"pr_open"}
-{"datetime":"2026-05-21T21:31:50Z","project_id":"py-shinylive","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinylive","type":"pr_merge"}
-{"datetime":"2026-05-21T21:37:54Z","project_id":"py-shinylive","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinylive","type":"pr_open"}
-{"datetime":"2026-05-21T21:46:31Z","project_id":"py-shinylive","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinylive","type":"pr_merge"}
+{"datetime":"2026-05-01T20:11:46Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_open","user":"cpsievert"}
+{"datetime":"2026-05-01T20:16:56Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_merge","user":"cpsievert"}
+{"datetime":"2026-05-21T19:48:57Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-05-21T21:31:50Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-05-21T21:37:54Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-05-21T21:46:31Z","project_id":"py-shinylive","source":"github","target":"posit-dev/py-shinylive","type":"pr_merge","user":"schloerke"}

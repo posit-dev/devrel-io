@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-07-06T17:47:14Z","tags":{"user":"dotNomad"}}
-{"source":"github","type":"pr_merge","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-07-06T20:13:54Z","tags":{"user":"dotNomad"}}
-{"source":"github","type":"pr_open","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-07-06T17:40:20Z","tags":{"user":"dotNomad"}}
-{"source":"github","type":"pr_merge","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-07-06T19:57:05Z","tags":{"user":"dotNomad"}}
-{"source":"github","type":"pr_open","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-07-06T15:31:11Z","tags":{"user":"amylin1249"}}
+{"datetime":"2026-07-06T17:47:14Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"dotNomad"}
+{"datetime":"2026-07-06T20:13:54Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_merge","user":"dotNomad"}
+{"datetime":"2026-07-06T17:40:20Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"dotNomad"}
+{"datetime":"2026-07-06T19:57:05Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_merge","user":"dotNomad"}
+{"datetime":"2026-07-06T15:31:11Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"amylin1249"}

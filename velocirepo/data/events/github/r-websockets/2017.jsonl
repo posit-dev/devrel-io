@@ -1,8 +1,8 @@
-{"datetime":"2017-01-18T11:00:57Z","project_id":"r-websockets","source":"github","tags":{"user":"jtrecenti"},"target":"rstudio/R-Websockets","type":"star"}
-{"datetime":"2017-01-26T14:24:33Z","project_id":"r-websockets","source":"github","tags":{"user":"huming0618"},"target":"rstudio/R-Websockets","type":"star"}
-{"datetime":"2017-03-17T00:08:56Z","project_id":"r-websockets","source":"github","tags":{"user":"qiangli"},"target":"rstudio/R-Websockets","type":"star"}
-{"datetime":"2017-06-28T16:18:09Z","project_id":"r-websockets","source":"github","tags":{"user":"isomorphisms"},"target":"rstudio/R-Websockets","type":"fork"}
-{"datetime":"2017-10-17T14:05:40Z","project_id":"r-websockets","source":"github","tags":{"user":"phlsmk"},"target":"rstudio/R-Websockets","type":"star"}
-{"datetime":"2017-12-01T07:54:14Z","project_id":"r-websockets","source":"github","tags":{"user":"nplanel"},"target":"rstudio/R-Websockets","type":"fork"}
-{"datetime":"2017-12-01T08:04:56Z","project_id":"r-websockets","source":"github","tags":{"user":"nplanel"},"target":"rstudio/R-Websockets","type":"pr_open"}
-{"datetime":"2017-12-05T09:11:32Z","project_id":"r-websockets","source":"github","tags":{"user":"wzb18"},"target":"rstudio/R-Websockets","type":"star"}
+{"datetime":"2017-01-18T11:00:57Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"jtrecenti"}
+{"datetime":"2017-01-26T14:24:33Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"huming0618"}
+{"datetime":"2017-03-17T00:08:56Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"qiangli"}
+{"datetime":"2017-06-28T16:18:09Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"fork","user":"isomorphisms"}
+{"datetime":"2017-10-17T14:05:40Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"phlsmk"}
+{"datetime":"2017-12-01T07:54:14Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"fork","user":"nplanel"}
+{"datetime":"2017-12-01T08:04:56Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"pr_open","user":"nplanel"}
+{"datetime":"2017-12-05T09:11:32Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"wzb18"}

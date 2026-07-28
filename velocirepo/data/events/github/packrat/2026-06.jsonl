@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_merge","project_id":"packrat","target":"rstudio/packrat","datetime":"2026-06-08T19:03:55Z","tags":{"user":"karawoo"}}
-{"source":"github","type":"issue_close","project_id":"packrat","target":"rstudio/packrat","datetime":"2026-06-08T19:03:56Z","tags":{"user":"ChaitaC"}}
+{"datetime":"2026-06-08T19:03:55Z","project_id":"packrat","source":"github","target":"rstudio/packrat","type":"pr_merge","user":"karawoo"}
+{"datetime":"2026-06-08T19:03:56Z","project_id":"packrat","source":"github","target":"rstudio/packrat","type":"issue_close","user":"ChaitaC"}

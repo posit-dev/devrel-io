@@ -1,3 +1,3 @@
-{"source":"github","type":"fork","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-01T05:53:31Z","tags":{"user":"EltonChang1"}}
-{"source":"github","type":"pr_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-01T18:33:16Z","tags":{"user":"gadenbuie"}}
-{"source":"github","type":"pr_open","project_id":"shiny-python","target":"posit-dev/py-shiny","datetime":"2026-07-01T06:04:31Z","tags":{"user":"EltonChang1"}}
+{"datetime":"2026-07-01T05:53:31Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"fork","user":"EltonChang1"}
+{"datetime":"2026-07-01T18:33:16Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"gadenbuie"}
+{"datetime":"2026-07-01T06:04:31Z","project_id":"shiny-python","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"EltonChang1"}

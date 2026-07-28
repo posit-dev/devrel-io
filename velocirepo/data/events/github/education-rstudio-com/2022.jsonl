@@ -1,7 +1,7 @@
-{"datetime":"2022-03-31T16:47:13Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"tracykteal"},"target":"rstudio/education.rstudio.com","type":"fork"}
-{"datetime":"2022-03-31T17:05:22Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"tracykteal"},"target":"rstudio/education.rstudio.com","type":"pr_open"}
-{"datetime":"2022-04-01T21:50:49Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"tracykteal"},"target":"rstudio/education.rstudio.com","type":"pr_merge"}
-{"datetime":"2022-11-07T23:09:35Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"sarahemlin"},"target":"rstudio/education.rstudio.com","type":"issue_open"}
-{"datetime":"2022-11-09T00:43:24Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"gvwilson"},"target":"rstudio/education.rstudio.com","type":"issue_close"}
-{"datetime":"2022-11-09T00:43:39Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"gvwilson"},"target":"rstudio/education.rstudio.com","type":"issue_close"}
-{"datetime":"2022-11-09T00:44:44Z","project_id":"education-rstudio-com","source":"github","tags":{"user":"gvwilson"},"target":"rstudio/education.rstudio.com","type":"issue_close"}
+{"datetime":"2022-03-31T16:47:13Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"fork","user":"tracykteal"}
+{"datetime":"2022-03-31T17:05:22Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"pr_open","user":"tracykteal"}
+{"datetime":"2022-04-01T21:50:49Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"pr_merge","user":"tracykteal"}
+{"datetime":"2022-11-07T23:09:35Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"issue_open","user":"sarahemlin"}
+{"datetime":"2022-11-09T00:43:24Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"issue_close","user":"gvwilson"}
+{"datetime":"2022-11-09T00:43:39Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"issue_close","user":"gvwilson"}
+{"datetime":"2022-11-09T00:44:44Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"issue_close","user":"gvwilson"}

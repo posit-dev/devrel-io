@@ -1,4 +1,4 @@
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-04-07T23:05:44Z","tags":{"user":"iamYannC"}}
-{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-04-09T16:16:28Z","tags":{"user":"iamYannC"}}
-{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-04-15T16:36:10Z","tags":{"user":"bakaburg1"}}
-{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-04-30T20:02:57Z","tags":{"user":"bakaburg1"}}
+{"datetime":"2026-04-07T23:05:44Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"iamYannC"}
+{"datetime":"2026-04-09T16:16:28Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"iamYannC"}
+{"datetime":"2026-04-15T16:36:10Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"bakaburg1"}
+{"datetime":"2026-04-30T20:02:57Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"bakaburg1"}

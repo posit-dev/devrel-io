@@ -1,8 +1,8 @@
-{"datetime":"2026-04-01T18:58:54Z","project_id":"r-docker","source":"github","tags":{"user":"nodivbyzero"},"target":"rstudio/r-docker","type":"pr_open"}
-{"datetime":"2026-04-01T20:35:28Z","project_id":"r-docker","source":"github","tags":{"user":"nodivbyzero"},"target":"rstudio/r-docker","type":"pr_merge"}
-{"datetime":"2026-04-15T01:10:00Z","project_id":"r-docker","source":"github","tags":{"user":"nodivbyzero"},"target":"rstudio/r-docker","type":"pr_open"}
-{"datetime":"2026-04-16T21:15:10Z","project_id":"r-docker","source":"github","tags":{"user":"glin"},"target":"rstudio/r-docker","type":"pr_open"}
-{"datetime":"2026-04-16T22:17:22Z","project_id":"r-docker","source":"github","tags":{"user":"glin"},"target":"rstudio/r-docker","type":"pr_merge"}
-{"datetime":"2026-04-17T00:03:08Z","project_id":"r-docker","source":"github","tags":{"user":"nodivbyzero"},"target":"rstudio/r-docker","type":"pr_merge"}
-{"datetime":"2026-04-24T17:29:28Z","project_id":"r-docker","source":"github","tags":{"user":"glin"},"target":"rstudio/r-docker","type":"pr_open"}
-{"datetime":"2026-04-24T20:18:28Z","project_id":"r-docker","source":"github","tags":{"user":"glin"},"target":"rstudio/r-docker","type":"pr_merge"}
+{"datetime":"2026-04-01T18:58:54Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_open","user":"nodivbyzero"}
+{"datetime":"2026-04-01T20:35:28Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_merge","user":"nodivbyzero"}
+{"datetime":"2026-04-15T01:10:00Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_open","user":"nodivbyzero"}
+{"datetime":"2026-04-16T21:15:10Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_open","user":"glin"}
+{"datetime":"2026-04-16T22:17:22Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_merge","user":"glin"}
+{"datetime":"2026-04-17T00:03:08Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_merge","user":"nodivbyzero"}
+{"datetime":"2026-04-24T17:29:28Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_open","user":"glin"}
+{"datetime":"2026-04-24T20:18:28Z","project_id":"r-docker","source":"github","target":"rstudio/r-docker","type":"pr_merge","user":"glin"}

@@ -1,7 +1,7 @@
-{"datetime":"2022-05-20T19:12:52Z","project_id":"shiny-server-client","source":"github","tags":{"user":"jcheng5"},"target":"rstudio/shiny-server-client","type":"pr_open"}
-{"datetime":"2022-05-20T22:34:15Z","project_id":"shiny-server-client","source":"github","tags":{"user":"jcheng5"},"target":"rstudio/shiny-server-client","type":"pr_merge"}
-{"datetime":"2022-06-16T21:09:45Z","project_id":"shiny-server-client","source":"github","tags":{"user":"jspiewak"},"target":"rstudio/shiny-server-client","type":"issue_open"}
-{"datetime":"2022-07-07T12:00:20Z","project_id":"shiny-server-client","source":"github","tags":{"user":"JosephRidge"},"target":"rstudio/shiny-server-client","type":"star"}
-{"datetime":"2022-07-13T18:02:11Z","project_id":"shiny-server-client","source":"github","tags":{"user":"th1460"},"target":"rstudio/shiny-server-client","type":"star"}
-{"datetime":"2022-10-12T20:09:34Z","project_id":"shiny-server-client","source":"github","tags":{"user":"jcheng5"},"target":"rstudio/shiny-server-client","type":"pr_open"}
-{"datetime":"2022-10-12T20:14:23Z","project_id":"shiny-server-client","source":"github","tags":{"user":"jcheng5"},"target":"rstudio/shiny-server-client","type":"pr_merge"}
+{"datetime":"2022-05-20T19:12:52Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"pr_open","user":"jcheng5"}
+{"datetime":"2022-05-20T22:34:15Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"pr_merge","user":"jcheng5"}
+{"datetime":"2022-06-16T21:09:45Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"issue_open","user":"jspiewak"}
+{"datetime":"2022-07-07T12:00:20Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"star","user":"JosephRidge"}
+{"datetime":"2022-07-13T18:02:11Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"star","user":"th1460"}
+{"datetime":"2022-10-12T20:09:34Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"pr_open","user":"jcheng5"}
+{"datetime":"2022-10-12T20:14:23Z","project_id":"shiny-server-client","source":"github","target":"rstudio/shiny-server-client","type":"pr_merge","user":"jcheng5"}

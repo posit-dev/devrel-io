@@ -1,6 +1,6 @@
-{"datetime":"2026-03-04T18:14:36Z","project_id":"connect-extensions","source":"github","tags":{"user":"Nebraska-Methodist-Health-System"},"target":"posit-dev/connect-extensions","type":"fork"}
-{"datetime":"2026-03-11T09:55:12Z","project_id":"connect-extensions","source":"github","tags":{"user":"mleary"},"target":"posit-dev/connect-extensions","type":"pr_open"}
-{"datetime":"2026-03-13T14:15:52Z","project_id":"connect-extensions","source":"github","tags":{"user":"nealrichardson"},"target":"posit-dev/connect-extensions","type":"pr_open"}
-{"datetime":"2026-03-23T15:26:24Z","project_id":"connect-extensions","source":"github","tags":{"user":"karawoo"},"target":"posit-dev/connect-extensions","type":"pr_open"}
-{"datetime":"2026-03-23T19:24:05Z","project_id":"connect-extensions","source":"github","tags":{"user":"karawoo"},"target":"posit-dev/connect-extensions","type":"pr_merge"}
-{"datetime":"2026-03-27T15:13:36Z","project_id":"connect-extensions","source":"github","tags":{"user":"mleary"},"target":"posit-dev/connect-extensions","type":"fork"}
+{"datetime":"2026-03-04T18:14:36Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"fork","user":"Nebraska-Methodist-Health-System"}
+{"datetime":"2026-03-11T09:55:12Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"mleary"}
+{"datetime":"2026-03-13T14:15:52Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"nealrichardson"}
+{"datetime":"2026-03-23T15:26:24Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_open","user":"karawoo"}
+{"datetime":"2026-03-23T19:24:05Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"pr_merge","user":"karawoo"}
+{"datetime":"2026-03-27T15:13:36Z","project_id":"connect-extensions","source":"github","target":"posit-dev/connect-extensions","type":"fork","user":"mleary"}

@@ -1,8 +1,8 @@
-{"datetime":"2022-07-26T16:45:02Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"star"}
-{"datetime":"2022-07-27T01:52:51Z","project_id":"juicyjuice","source":"github","tags":{"user":"SantoshSrinivas79"},"target":"rstudio/juicyjuice","type":"star"}
-{"datetime":"2022-10-18T07:04:36Z","project_id":"juicyjuice","source":"github","tags":{"user":"andrewallenbruce"},"target":"rstudio/juicyjuice","type":"star"}
-{"datetime":"2022-11-09T17:51:24Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"issue_open"}
-{"datetime":"2022-11-09T18:08:13Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"pr_open"}
-{"datetime":"2022-11-10T19:27:04Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"pr_merge"}
-{"datetime":"2022-11-11T03:27:49Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"issue_close"}
-{"datetime":"2022-11-26T01:37:46Z","project_id":"juicyjuice","source":"github","tags":{"user":"rich-iannone"},"target":"rstudio/juicyjuice","type":"issue_open"}
+{"datetime":"2022-07-26T16:45:02Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"star","user":"rich-iannone"}
+{"datetime":"2022-07-27T01:52:51Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"star","user":"SantoshSrinivas79"}
+{"datetime":"2022-10-18T07:04:36Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"star","user":"andrewallenbruce"}
+{"datetime":"2022-11-09T17:51:24Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"issue_open","user":"rich-iannone"}
+{"datetime":"2022-11-09T18:08:13Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2022-11-10T19:27:04Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"pr_merge","user":"rich-iannone"}
+{"datetime":"2022-11-11T03:27:49Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"issue_close","user":"rich-iannone"}
+{"datetime":"2022-11-26T01:37:46Z","project_id":"juicyjuice","source":"github","target":"rstudio/juicyjuice","type":"issue_open","user":"rich-iannone"}

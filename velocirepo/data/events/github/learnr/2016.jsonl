@@ -1,5 +1,5 @@
-{"datetime":"2016-12-16T15:14:47Z","project_id":"learnr","source":"github","tags":{"user":"dtkaplan"},"target":"rstudio/learnr","type":"issue_open"}
-{"datetime":"2016-12-16T16:56:38Z","project_id":"learnr","source":"github","tags":{"user":"dtkaplan"},"target":"rstudio/learnr","type":"issue_open"}
-{"datetime":"2016-12-18T21:14:13Z","project_id":"learnr","source":"github","tags":{"user":"dtkaplan"},"target":"rstudio/learnr","type":"issue_open"}
-{"datetime":"2016-12-20T14:47:29Z","project_id":"learnr","source":"github","tags":{"user":"dtkaplan"},"target":"rstudio/learnr","type":"issue_close"}
-{"datetime":"2016-12-20T16:55:49Z","project_id":"learnr","source":"github","tags":{"user":"dtkaplan"},"target":"rstudio/learnr","type":"issue_close"}
+{"datetime":"2016-12-16T15:14:47Z","project_id":"learnr","source":"github","target":"rstudio/learnr","type":"issue_open","user":"dtkaplan"}
+{"datetime":"2016-12-16T16:56:38Z","project_id":"learnr","source":"github","target":"rstudio/learnr","type":"issue_open","user":"dtkaplan"}
+{"datetime":"2016-12-18T21:14:13Z","project_id":"learnr","source":"github","target":"rstudio/learnr","type":"issue_open","user":"dtkaplan"}
+{"datetime":"2016-12-20T14:47:29Z","project_id":"learnr","source":"github","target":"rstudio/learnr","type":"issue_close","user":"dtkaplan"}
+{"datetime":"2016-12-20T16:55:49Z","project_id":"learnr","source":"github","target":"rstudio/learnr","type":"issue_close","user":"dtkaplan"}

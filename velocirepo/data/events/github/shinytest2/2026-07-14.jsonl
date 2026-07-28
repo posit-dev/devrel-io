@@ -1,3 +1,3 @@
-{"source":"github","type":"pr_open","project_id":"shinytest2","target":"rstudio/shinytest2","datetime":"2026-07-14T19:44:08Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"shinytest2","target":"rstudio/shinytest2","datetime":"2026-07-14T19:23:18Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_merge","project_id":"shinytest2","target":"rstudio/shinytest2","datetime":"2026-07-14T20:03:15Z","tags":{"user":"schloerke"}}
+{"datetime":"2026-07-14T19:44:08Z","project_id":"shinytest2","source":"github","target":"rstudio/shinytest2","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-14T19:23:18Z","project_id":"shinytest2","source":"github","target":"rstudio/shinytest2","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-07-14T20:03:15Z","project_id":"shinytest2","source":"github","target":"rstudio/shinytest2","type":"pr_merge","user":"schloerke"}

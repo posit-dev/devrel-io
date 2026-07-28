@@ -1,5 +1,5 @@
-{"datetime":"2016-02-05T23:57:25Z","project_id":"rstudioaddins","source":"github","tags":{"user":"sivartravis"},"target":"rstudio/rstudioaddins","type":"star"}
-{"datetime":"2016-03-03T19:53:27Z","project_id":"rstudioaddins","source":"github","tags":{"user":"astraadria4ari"},"target":"rstudio/rstudioaddins","type":"fork"}
-{"datetime":"2016-03-07T16:28:24Z","project_id":"rstudioaddins","source":"github","tags":{"user":"DataStrategist"},"target":"rstudio/rstudioaddins","type":"issue_open"}
-{"datetime":"2016-12-22T11:42:32Z","project_id":"rstudioaddins","source":"github","tags":{"user":"mbacou"},"target":"rstudio/rstudioaddins","type":"issue_open"}
-{"datetime":"2016-12-22T17:59:16Z","project_id":"rstudioaddins","source":"github","tags":{"user":"DataStrategist"},"target":"rstudio/rstudioaddins","type":"issue_close"}
+{"datetime":"2016-02-05T23:57:25Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"star","user":"sivartravis"}
+{"datetime":"2016-03-03T19:53:27Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"fork","user":"astraadria4ari"}
+{"datetime":"2016-03-07T16:28:24Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_open","user":"DataStrategist"}
+{"datetime":"2016-12-22T11:42:32Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_open","user":"mbacou"}
+{"datetime":"2016-12-22T17:59:16Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_close","user":"DataStrategist"}

@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"r-system-requirements","target":"rstudio/r-system-requirements","datetime":"2026-07-14T12:53:42Z","tags":{"user":"dependabot"}}
-{"source":"github","type":"pr_merge","project_id":"r-system-requirements","target":"rstudio/r-system-requirements","datetime":"2026-07-14T15:42:47Z","tags":{"user":"dependabot"}}
+{"datetime":"2026-07-14T12:53:42Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"pr_open","user":"dependabot"}
+{"datetime":"2026-07-14T15:42:47Z","project_id":"r-system-requirements","source":"github","target":"rstudio/r-system-requirements","type":"pr_merge","user":"dependabot"}

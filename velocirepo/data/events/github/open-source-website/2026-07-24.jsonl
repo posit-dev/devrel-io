@@ -1,3 +1,3 @@
-{"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-24T15:55:46Z","tags":{"user":"t-kalinowski"}}
-{"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-24T13:59:06Z","tags":{"user":"jeroenjanssens"}}
-{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-24T14:05:28Z","tags":{"user":"jeroenjanssens"}}
+{"datetime":"2026-07-24T15:55:46Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_open","user":"t-kalinowski"}
+{"datetime":"2026-07-24T13:59:06Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_open","user":"jeroenjanssens"}
+{"datetime":"2026-07-24T14:05:28Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_merge","user":"jeroenjanssens"}

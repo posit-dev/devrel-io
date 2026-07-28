@@ -1,2 +1,2 @@
-{"datetime":"2026-05-04T20:31:15Z","project_id":"actions","source":"github","tags":{"user":"nealrichardson"},"target":"rstudio/actions","type":"pr_open"}
-{"datetime":"2026-05-04T22:56:39Z","project_id":"actions","source":"github","tags":{"user":"nealrichardson"},"target":"rstudio/actions","type":"pr_merge"}
+{"datetime":"2026-05-04T20:31:15Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"pr_open","user":"nealrichardson"}
+{"datetime":"2026-05-04T22:56:39Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"pr_merge","user":"nealrichardson"}

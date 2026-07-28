@@ -1,3 +1,3 @@
-{"source":"github","type":"star","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T18:51:38Z","tags":{"user":"jonyoder"}}
-{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T17:33:17Z","tags":{"user":"jonyoder"}}
-{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T18:30:23Z","tags":{"user":"jonyoder"}}
+{"datetime":"2026-07-20T18:51:38Z","project_id":"platform-lib","source":"github","target":"rstudio/platform-lib","type":"star","user":"jonyoder"}
+{"datetime":"2026-07-20T17:33:17Z","project_id":"platform-lib","source":"github","target":"rstudio/platform-lib","type":"pr_open","user":"jonyoder"}
+{"datetime":"2026-07-20T18:30:23Z","project_id":"platform-lib","source":"github","target":"rstudio/platform-lib","type":"pr_merge","user":"jonyoder"}

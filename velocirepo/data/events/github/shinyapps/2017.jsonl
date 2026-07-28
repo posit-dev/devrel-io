@@ -1,4 +1,4 @@
-{"datetime":"2017-04-23T01:33:45Z","project_id":"shinyapps","source":"github","tags":{"user":"ktargows"},"target":"rstudio/shinyapps","type":"star"}
-{"datetime":"2017-04-23T01:33:46Z","project_id":"shinyapps","source":"github","tags":{"user":"ktargows"},"target":"rstudio/shinyapps","type":"fork"}
-{"datetime":"2017-06-15T16:54:07Z","project_id":"shinyapps","source":"github","tags":{"user":"synergyvision"},"target":"rstudio/shinyapps","type":"fork"}
-{"datetime":"2017-07-11T04:15:01Z","project_id":"shinyapps","source":"github","tags":{"user":"ranjanvaidya"},"target":"rstudio/shinyapps","type":"fork"}
+{"datetime":"2017-04-23T01:33:45Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"star","user":"ktargows"}
+{"datetime":"2017-04-23T01:33:46Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"ktargows"}
+{"datetime":"2017-06-15T16:54:07Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"synergyvision"}
+{"datetime":"2017-07-11T04:15:01Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"ranjanvaidya"}

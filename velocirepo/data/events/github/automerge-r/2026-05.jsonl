@@ -1,5 +1,5 @@
-{"datetime":"2026-05-10T23:02:01Z","project_id":"automerge-r","source":"github","tags":{"user":"navelino"},"target":"posit-dev/automerge-r","type":"star"}
-{"datetime":"2026-05-20T22:07:40Z","project_id":"automerge-r","source":"github","tags":{"user":"shikokuchuo"},"target":"posit-dev/automerge-r","type":"issue_open"}
-{"datetime":"2026-05-20T22:32:50Z","project_id":"automerge-r","source":"github","tags":{"user":"shikokuchuo"},"target":"posit-dev/automerge-r","type":"pr_open"}
-{"datetime":"2026-05-26T22:34:35Z","project_id":"automerge-r","source":"github","tags":{"user":"shikokuchuo"},"target":"posit-dev/automerge-r","type":"pr_merge"}
-{"datetime":"2026-05-26T22:34:36Z","project_id":"automerge-r","source":"github","tags":{"user":"shikokuchuo"},"target":"posit-dev/automerge-r","type":"issue_close"}
+{"datetime":"2026-05-10T23:02:01Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"star","user":"navelino"}
+{"datetime":"2026-05-20T22:07:40Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"issue_open","user":"shikokuchuo"}
+{"datetime":"2026-05-20T22:32:50Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_open","user":"shikokuchuo"}
+{"datetime":"2026-05-26T22:34:35Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_merge","user":"shikokuchuo"}
+{"datetime":"2026-05-26T22:34:36Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"issue_close","user":"shikokuchuo"}

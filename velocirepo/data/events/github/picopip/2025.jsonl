@@ -1,8 +1,8 @@
-{"datetime":"2025-10-28T17:13:43Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"pr_open"}
-{"datetime":"2025-10-28T18:18:53Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"pr_merge"}
-{"datetime":"2025-11-14T15:14:48Z","project_id":"picopip","source":"github","tags":{"user":"kamilm"},"target":"posit-dev/picopip","type":"star"}
-{"datetime":"2025-11-21T16:06:41Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"pr_open"}
-{"datetime":"2025-11-21T18:00:59Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"pr_merge"}
-{"datetime":"2025-12-19T15:01:26Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"pr_open"}
-{"datetime":"2025-12-19T15:06:18Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"issue_open"}
-{"datetime":"2025-12-19T15:06:55Z","project_id":"picopip","source":"github","tags":{"user":"amol-"},"target":"posit-dev/picopip","type":"issue_open"}
+{"datetime":"2025-10-28T17:13:43Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_open","user":"amol-"}
+{"datetime":"2025-10-28T18:18:53Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_merge","user":"amol-"}
+{"datetime":"2025-11-14T15:14:48Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"star","user":"kamilm"}
+{"datetime":"2025-11-21T16:06:41Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_open","user":"amol-"}
+{"datetime":"2025-11-21T18:00:59Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_merge","user":"amol-"}
+{"datetime":"2025-12-19T15:01:26Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_open","user":"amol-"}
+{"datetime":"2025-12-19T15:06:18Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"issue_open","user":"amol-"}
+{"datetime":"2025-12-19T15:06:55Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"issue_open","user":"amol-"}

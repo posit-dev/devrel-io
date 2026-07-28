@@ -1,4 +1,4 @@
-{"source":"github","type":"pr_merge","project_id":"automerge-r","target":"posit-dev/automerge-r","datetime":"2026-06-12T09:46:27Z","tags":{"user":"shikokuchuo"}}
-{"source":"github","type":"pr_open","project_id":"automerge-r","target":"posit-dev/automerge-r","datetime":"2026-06-29T22:24:27Z","tags":{"user":"shikokuchuo"}}
-{"source":"github","type":"pr_open","project_id":"automerge-r","target":"posit-dev/automerge-r","datetime":"2026-06-30T16:08:39Z","tags":{"user":"shikokuchuo"}}
-{"source":"github","type":"pr_merge","project_id":"automerge-r","target":"posit-dev/automerge-r","datetime":"2026-06-30T19:48:31Z","tags":{"user":"shikokuchuo"}}
+{"datetime":"2026-06-12T09:46:27Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_merge","user":"shikokuchuo"}
+{"datetime":"2026-06-29T22:24:27Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_open","user":"shikokuchuo"}
+{"datetime":"2026-06-30T16:08:39Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_open","user":"shikokuchuo"}
+{"datetime":"2026-06-30T19:48:31Z","project_id":"automerge-r","source":"github","target":"posit-dev/automerge-r","type":"pr_merge","user":"shikokuchuo"}

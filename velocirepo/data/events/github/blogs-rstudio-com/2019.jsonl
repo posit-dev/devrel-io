@@ -1,6 +1,6 @@
-{"datetime":"2019-07-09T08:23:38Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"valmetisrinivas"},"target":"rstudio/blogs.rstudio.com","type":"issue_open"}
-{"datetime":"2019-07-11T13:02:25Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"valmetisrinivas"},"target":"rstudio/blogs.rstudio.com","type":"issue_open"}
-{"datetime":"2019-07-11T13:05:52Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"valmetisrinivas"},"target":"rstudio/blogs.rstudio.com","type":"issue_close"}
-{"datetime":"2019-11-08T19:54:26Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"javierluraschi"},"target":"rstudio/blogs.rstudio.com","type":"fork"}
-{"datetime":"2019-11-08T19:56:41Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"javierluraschi"},"target":"rstudio/blogs.rstudio.com","type":"pr_open"}
-{"datetime":"2019-11-08T20:30:43Z","project_id":"blogs-rstudio-com","source":"github","tags":{"user":"javierluraschi"},"target":"rstudio/blogs.rstudio.com","type":"pr_merge"}
+{"datetime":"2019-07-09T08:23:38Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_open","user":"valmetisrinivas"}
+{"datetime":"2019-07-11T13:02:25Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_open","user":"valmetisrinivas"}
+{"datetime":"2019-07-11T13:05:52Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_close","user":"valmetisrinivas"}
+{"datetime":"2019-11-08T19:54:26Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"fork","user":"javierluraschi"}
+{"datetime":"2019-11-08T19:56:41Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_open","user":"javierluraschi"}
+{"datetime":"2019-11-08T20:30:43Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_merge","user":"javierluraschi"}

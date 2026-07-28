@@ -1,6 +1,6 @@
-{"datetime":"2026-01-05T20:46:38Z","project_id":"great-docs","source":"github","tags":{"user":"rich-iannone"},"target":"posit-dev/great-docs","type":"pr_open"}
-{"datetime":"2026-01-05T20:57:09Z","project_id":"great-docs","source":"github","tags":{"user":"rich-iannone"},"target":"posit-dev/great-docs","type":"pr_merge"}
-{"datetime":"2026-01-06T14:50:56Z","project_id":"great-docs","source":"github","tags":{"user":"has2k1"},"target":"posit-dev/great-docs","type":"issue_open"}
-{"datetime":"2026-01-13T21:46:44Z","project_id":"great-docs","source":"github","tags":{"user":"rich-iannone"},"target":"posit-dev/great-docs","type":"pr_open"}
-{"datetime":"2026-01-13T22:06:53Z","project_id":"great-docs","source":"github","tags":{"user":"rich-iannone"},"target":"posit-dev/great-docs","type":"pr_merge"}
-{"datetime":"2026-01-16T16:51:41Z","project_id":"great-docs","source":"github","tags":{"user":"e-kotov"},"target":"posit-dev/great-docs","type":"star"}
+{"datetime":"2026-01-05T20:46:38Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-01-05T20:57:09Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_merge","user":"rich-iannone"}
+{"datetime":"2026-01-06T14:50:56Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"issue_open","user":"has2k1"}
+{"datetime":"2026-01-13T21:46:44Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-01-13T22:06:53Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_merge","user":"rich-iannone"}
+{"datetime":"2026-01-16T16:51:41Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"star","user":"e-kotov"}

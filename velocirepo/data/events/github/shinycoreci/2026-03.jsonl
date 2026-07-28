@@ -1,7 +1,7 @@
-{"datetime":"2026-03-19T06:19:55Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2026-03-19T20:52:25Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_merge"}
-{"datetime":"2026-03-31T17:25:56Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2026-03-31T18:27:19Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_merge"}
-{"datetime":"2026-03-31T18:34:42Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2026-03-31T20:53:49Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_merge"}
-{"datetime":"2026-03-31T21:11:12Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
+{"datetime":"2026-03-19T06:19:55Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}
+{"datetime":"2026-03-19T20:52:25Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"karangattu"}
+{"datetime":"2026-03-31T17:25:56Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}
+{"datetime":"2026-03-31T18:27:19Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"karangattu"}
+{"datetime":"2026-03-31T18:34:42Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}
+{"datetime":"2026-03-31T20:53:49Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"karangattu"}
+{"datetime":"2026-03-31T21:11:12Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}

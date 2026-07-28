@@ -1,3 +1,3 @@
-{"source":"github","type":"star","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-01T21:01:03Z","tags":{"user":"josh45-source"}}
-{"source":"github","type":"fork","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-01T21:01:11Z","tags":{"user":"josh45-source"}}
-{"source":"github","type":"issue_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-01T04:07:48Z","tags":{"user":"kevinushey"}}
+{"datetime":"2026-07-01T21:01:03Z","project_id":"reticulate","source":"github","target":"rstudio/reticulate","type":"star","user":"josh45-source"}
+{"datetime":"2026-07-01T21:01:11Z","project_id":"reticulate","source":"github","target":"rstudio/reticulate","type":"fork","user":"josh45-source"}
+{"datetime":"2026-07-01T04:07:48Z","project_id":"reticulate","source":"github","target":"rstudio/reticulate","type":"issue_open","user":"kevinushey"}

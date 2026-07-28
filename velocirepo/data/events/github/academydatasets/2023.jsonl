@@ -1,7 +1,7 @@
-{"datetime":"2023-05-30T22:17:46Z","project_id":"academydatasets","source":"github","tags":{"user":"rossellhayes"},"target":"rstudio/academyDatasets","type":"pr_open"}
-{"datetime":"2023-05-30T22:41:17Z","project_id":"academydatasets","source":"github","tags":{"user":"rossellhayes"},"target":"rstudio/academyDatasets","type":"pr_open"}
-{"datetime":"2023-05-30T23:21:30Z","project_id":"academydatasets","source":"github","tags":{"user":"rossellhayes"},"target":"rstudio/academyDatasets","type":"pr_merge"}
-{"datetime":"2023-05-31T16:36:34Z","project_id":"academydatasets","source":"github","tags":{"user":"rossellhayes"},"target":"rstudio/academyDatasets","type":"pr_merge"}
-{"datetime":"2023-10-13T15:48:35Z","project_id":"academydatasets","source":"github","tags":{"user":"fboehm"},"target":"rstudio/academyDatasets","type":"star"}
-{"datetime":"2023-10-14T18:39:08Z","project_id":"academydatasets","source":"github","tags":{"user":"ixxmu"},"target":"rstudio/academyDatasets","type":"star"}
-{"datetime":"2023-10-17T15:49:47Z","project_id":"academydatasets","source":"github","tags":{"user":"aris-budiman"},"target":"rstudio/academyDatasets","type":"star"}
+{"datetime":"2023-05-30T22:17:46Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_open","user":"rossellhayes"}
+{"datetime":"2023-05-30T22:41:17Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_open","user":"rossellhayes"}
+{"datetime":"2023-05-30T23:21:30Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_merge","user":"rossellhayes"}
+{"datetime":"2023-05-31T16:36:34Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"pr_merge","user":"rossellhayes"}
+{"datetime":"2023-10-13T15:48:35Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"star","user":"fboehm"}
+{"datetime":"2023-10-14T18:39:08Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"star","user":"ixxmu"}
+{"datetime":"2023-10-17T15:49:47Z","project_id":"academydatasets","source":"github","target":"rstudio/academyDatasets","type":"star","user":"aris-budiman"}

@@ -1,4 +1,4 @@
-{"datetime":"2016-01-31T19:59:08Z","project_id":"sol-eng-public","source":"github","tags":{"user":"ajkl"},"target":"rstudio/sol-eng-public","type":"star"}
-{"datetime":"2016-02-25T09:42:50Z","project_id":"sol-eng-public","source":"github","tags":{"user":"smartinsightsfromdata"},"target":"rstudio/sol-eng-public","type":"star"}
-{"datetime":"2016-03-03T19:52:55Z","project_id":"sol-eng-public","source":"github","tags":{"user":"astraadria4ari"},"target":"rstudio/sol-eng-public","type":"fork"}
-{"datetime":"2016-04-14T16:52:11Z","project_id":"sol-eng-public","source":"github","tags":{"user":"r31391"},"target":"rstudio/sol-eng-public","type":"fork"}
+{"datetime":"2016-01-31T19:59:08Z","project_id":"sol-eng-public","source":"github","target":"rstudio/sol-eng-public","type":"star","user":"ajkl"}
+{"datetime":"2016-02-25T09:42:50Z","project_id":"sol-eng-public","source":"github","target":"rstudio/sol-eng-public","type":"star","user":"smartinsightsfromdata"}
+{"datetime":"2016-03-03T19:52:55Z","project_id":"sol-eng-public","source":"github","target":"rstudio/sol-eng-public","type":"fork","user":"astraadria4ari"}
+{"datetime":"2016-04-14T16:52:11Z","project_id":"sol-eng-public","source":"github","target":"rstudio/sol-eng-public","type":"fork","user":"r31391"}

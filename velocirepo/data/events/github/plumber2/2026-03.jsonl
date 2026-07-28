@@ -1,8 +1,8 @@
-{"datetime":"2026-03-05T11:54:31Z","project_id":"plumber2","source":"github","tags":{"user":"mthh"},"target":"posit-dev/plumber2","type":"star"}
-{"datetime":"2026-03-05T12:56:43Z","project_id":"plumber2","source":"github","tags":{"user":"DavZim"},"target":"posit-dev/plumber2","type":"issue_open"}
-{"datetime":"2026-03-09T09:50:13Z","project_id":"plumber2","source":"github","tags":{"user":"DavZim"},"target":"posit-dev/plumber2","type":"issue_open"}
-{"datetime":"2026-03-09T11:20:20Z","project_id":"plumber2","source":"github","tags":{"user":"DavZim"},"target":"posit-dev/plumber2","type":"issue_close"}
-{"datetime":"2026-03-10T11:50:33Z","project_id":"plumber2","source":"github","tags":{"user":"DavZim"},"target":"posit-dev/plumber2","type":"issue_close"}
-{"datetime":"2026-03-13T12:46:37Z","project_id":"plumber2","source":"github","tags":{"user":"itkonen"},"target":"posit-dev/plumber2","type":"star"}
-{"datetime":"2026-03-18T21:44:08Z","project_id":"plumber2","source":"github","tags":{"user":"zkamvar"},"target":"posit-dev/plumber2","type":"issue_open"}
-{"datetime":"2026-03-31T17:17:35Z","project_id":"plumber2","source":"github","tags":{"user":"stefanlinner"},"target":"posit-dev/plumber2","type":"star"}
+{"datetime":"2026-03-05T11:54:31Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"star","user":"mthh"}
+{"datetime":"2026-03-05T12:56:43Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"issue_open","user":"DavZim"}
+{"datetime":"2026-03-09T09:50:13Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"issue_open","user":"DavZim"}
+{"datetime":"2026-03-09T11:20:20Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"issue_close","user":"DavZim"}
+{"datetime":"2026-03-10T11:50:33Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"issue_close","user":"DavZim"}
+{"datetime":"2026-03-13T12:46:37Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"star","user":"itkonen"}
+{"datetime":"2026-03-18T21:44:08Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"issue_open","user":"zkamvar"}
+{"datetime":"2026-03-31T17:17:35Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"star","user":"stefanlinner"}

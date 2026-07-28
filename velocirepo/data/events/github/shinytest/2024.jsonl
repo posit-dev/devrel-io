@@ -1,8 +1,8 @@
-{"datetime":"2024-01-24T15:31:20Z","project_id":"shinytest","source":"github","tags":{"user":"sneumann"},"target":"rstudio/shinytest","type":"issue_open"}
-{"datetime":"2024-01-24T15:53:04Z","project_id":"shinytest","source":"github","tags":{"user":"sneumann"},"target":"rstudio/shinytest","type":"issue_close"}
-{"datetime":"2024-02-26T22:17:24Z","project_id":"shinytest","source":"github","tags":{"user":"wch"},"target":"rstudio/shinytest","type":"pr_open"}
-{"datetime":"2024-02-26T22:50:43Z","project_id":"shinytest","source":"github","tags":{"user":"wch"},"target":"rstudio/shinytest","type":"pr_merge"}
-{"datetime":"2024-04-27T20:11:40Z","project_id":"shinytest","source":"github","tags":{"user":"szabalaz"},"target":"rstudio/shinytest","type":"star"}
-{"datetime":"2024-05-14T19:54:34Z","project_id":"shinytest","source":"github","tags":{"user":"jayhpark1"},"target":"rstudio/shinytest","type":"star"}
-{"datetime":"2024-06-01T21:48:25Z","project_id":"shinytest","source":"github","tags":{"user":"Allisterh"},"target":"rstudio/shinytest","type":"star"}
-{"datetime":"2024-07-22T23:33:41Z","project_id":"shinytest","source":"github","tags":{"user":"Omars32"},"target":"rstudio/shinytest","type":"star"}
+{"datetime":"2024-01-24T15:31:20Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"issue_open","user":"sneumann"}
+{"datetime":"2024-01-24T15:53:04Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"issue_close","user":"sneumann"}
+{"datetime":"2024-02-26T22:17:24Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"pr_open","user":"wch"}
+{"datetime":"2024-02-26T22:50:43Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"pr_merge","user":"wch"}
+{"datetime":"2024-04-27T20:11:40Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"szabalaz"}
+{"datetime":"2024-05-14T19:54:34Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"jayhpark1"}
+{"datetime":"2024-06-01T21:48:25Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"Allisterh"}
+{"datetime":"2024-07-22T23:33:41Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"Omars32"}

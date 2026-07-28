@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-08T20:31:37Z","tags":{"user":"stevenolen"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-08T19:54:16Z","tags":{"user":"timtalbot"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-08T18:11:23Z","tags":{"user":"stevenolen"}}
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-08T15:42:45Z","tags":{"user":"stevenolen"}}
-{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-08T17:11:18Z","tags":{"user":"stevenolen"}}
+{"datetime":"2026-07-08T20:31:37Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"stevenolen"}
+{"datetime":"2026-07-08T19:54:16Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"timtalbot"}
+{"datetime":"2026-07-08T18:11:23Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"stevenolen"}
+{"datetime":"2026-07-08T15:42:45Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"stevenolen"}
+{"datetime":"2026-07-08T17:11:18Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"stevenolen"}

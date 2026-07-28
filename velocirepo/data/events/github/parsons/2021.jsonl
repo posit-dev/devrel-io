@@ -1,3 +1,3 @@
-{"datetime":"2021-01-20T18:36:41Z","project_id":"parsons","source":"github","tags":{"user":"ericemc3"},"target":"rstudio/parsons","type":"issue_open"}
-{"datetime":"2021-01-21T22:40:39Z","project_id":"parsons","source":"github","tags":{"user":"matt-dray"},"target":"rstudio/parsons","type":"star"}
-{"datetime":"2021-03-19T10:34:20Z","project_id":"parsons","source":"github","tags":{"user":"phileas-condemine"},"target":"rstudio/parsons","type":"star"}
+{"datetime":"2021-01-20T18:36:41Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"issue_open","user":"ericemc3"}
+{"datetime":"2021-01-21T22:40:39Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"matt-dray"}
+{"datetime":"2021-03-19T10:34:20Z","project_id":"parsons","source":"github","target":"rstudio/parsons","type":"star","user":"phileas-condemine"}

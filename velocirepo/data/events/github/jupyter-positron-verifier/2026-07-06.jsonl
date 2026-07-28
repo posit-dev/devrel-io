@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"jupyter-positron-verifier","target":"posit-dev/jupyter-positron-verifier","datetime":"2026-07-06T20:23:08Z","tags":{"user":"isabelizimm"}}
-{"source":"github","type":"pr_merge","project_id":"jupyter-positron-verifier","target":"posit-dev/jupyter-positron-verifier","datetime":"2026-07-06T20:35:38Z","tags":{"user":"isabelizimm"}}
+{"datetime":"2026-07-06T20:23:08Z","project_id":"jupyter-positron-verifier","source":"github","target":"posit-dev/jupyter-positron-verifier","type":"pr_open","user":"isabelizimm"}
+{"datetime":"2026-07-06T20:35:38Z","project_id":"jupyter-positron-verifier","source":"github","target":"posit-dev/jupyter-positron-verifier","type":"pr_merge","user":"isabelizimm"}

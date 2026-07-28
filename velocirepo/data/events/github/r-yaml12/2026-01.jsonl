@@ -1,7 +1,7 @@
-{"datetime":"2026-01-05T16:47:23Z","project_id":"r-yaml12","source":"github","tags":{"user":"t-kalinowski"},"target":"posit-dev/r-yaml12","type":"issue_open"}
-{"datetime":"2026-01-07T21:07:32Z","project_id":"r-yaml12","source":"github","tags":{"user":"shikokuchuo"},"target":"posit-dev/r-yaml12","type":"star"}
-{"datetime":"2026-01-08T00:48:58Z","project_id":"r-yaml12","source":"github","tags":{"user":"zenggyu"},"target":"posit-dev/r-yaml12","type":"star"}
-{"datetime":"2026-01-08T17:42:47Z","project_id":"r-yaml12","source":"github","tags":{"user":"ck37"},"target":"posit-dev/r-yaml12","type":"star"}
-{"datetime":"2026-01-16T19:18:33Z","project_id":"r-yaml12","source":"github","tags":{"user":"t-kalinowski"},"target":"posit-dev/r-yaml12","type":"issue_close"}
-{"datetime":"2026-01-16T19:28:04Z","project_id":"r-yaml12","source":"github","tags":{"user":"t-kalinowski"},"target":"posit-dev/r-yaml12","type":"issue_open"}
-{"datetime":"2026-01-16T19:30:18Z","project_id":"r-yaml12","source":"github","tags":{"user":"t-kalinowski"},"target":"posit-dev/r-yaml12","type":"issue_open"}
+{"datetime":"2026-01-05T16:47:23Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"issue_open","user":"t-kalinowski"}
+{"datetime":"2026-01-07T21:07:32Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"star","user":"shikokuchuo"}
+{"datetime":"2026-01-08T00:48:58Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"star","user":"zenggyu"}
+{"datetime":"2026-01-08T17:42:47Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"star","user":"ck37"}
+{"datetime":"2026-01-16T19:18:33Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"issue_close","user":"t-kalinowski"}
+{"datetime":"2026-01-16T19:28:04Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"issue_open","user":"t-kalinowski"}
+{"datetime":"2026-01-16T19:30:18Z","project_id":"r-yaml12","source":"github","target":"posit-dev/r-yaml12","type":"issue_open","user":"t-kalinowski"}

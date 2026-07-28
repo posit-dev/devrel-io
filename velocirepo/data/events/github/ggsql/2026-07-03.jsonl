@@ -1,3 +1,3 @@
-{"source":"github","type":"star","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-07-03T22:34:49Z","tags":{"user":"fabiodr"}}
-{"source":"github","type":"star","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-07-03T09:46:44Z","tags":{"user":"TheKnarf"}}
-{"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-07-03T08:01:39Z","tags":{"user":"teunbrand"}}
+{"datetime":"2026-07-03T22:34:49Z","project_id":"ggsql","source":"github","target":"posit-dev/ggsql","type":"star","user":"fabiodr"}
+{"datetime":"2026-07-03T09:46:44Z","project_id":"ggsql","source":"github","target":"posit-dev/ggsql","type":"star","user":"TheKnarf"}
+{"datetime":"2026-07-03T08:01:39Z","project_id":"ggsql","source":"github","target":"posit-dev/ggsql","type":"pr_open","user":"teunbrand"}

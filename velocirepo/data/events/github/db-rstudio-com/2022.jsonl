@@ -1,5 +1,5 @@
-{"datetime":"2022-02-01T20:28:19Z","project_id":"db-rstudio-com","source":"github","tags":{"user":"edavidaja"},"target":"rstudio/db.rstudio.com","type":"pr_merge"}
-{"datetime":"2022-02-03T00:54:04Z","project_id":"db-rstudio-com","source":"github","tags":{"user":"jimbrig"},"target":"rstudio/db.rstudio.com","type":"star"}
-{"datetime":"2022-03-19T20:58:49Z","project_id":"db-rstudio-com","source":"github","tags":{"user":"AkaIit"},"target":"rstudio/db.rstudio.com","type":"issue_open"}
-{"datetime":"2022-03-20T16:45:56Z","project_id":"db-rstudio-com","source":"github","tags":{"user":"AkaIit"},"target":"rstudio/db.rstudio.com","type":"issue_close"}
-{"datetime":"2022-05-16T13:02:29Z","project_id":"db-rstudio-com","source":"github","tags":{"user":"edgararuiz"},"target":"rstudio/db.rstudio.com","type":"issue_open"}
+{"datetime":"2022-02-01T20:28:19Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"pr_merge","user":"edavidaja"}
+{"datetime":"2022-02-03T00:54:04Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"star","user":"jimbrig"}
+{"datetime":"2022-03-19T20:58:49Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_open","user":"AkaIit"}
+{"datetime":"2022-03-20T16:45:56Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_close","user":"AkaIit"}
+{"datetime":"2022-05-16T13:02:29Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_open","user":"edgararuiz"}

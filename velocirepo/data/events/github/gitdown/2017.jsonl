@@ -1,5 +1,5 @@
-{"datetime":"2017-07-02T13:49:58Z","project_id":"gitdown","source":"github","tags":{"user":"cderv"},"target":"rstudio/gitdown","type":"star"}
-{"datetime":"2017-07-03T08:31:50Z","project_id":"gitdown","source":"github","tags":{"user":"romainfrancois"},"target":"rstudio/gitdown","type":"star"}
-{"datetime":"2017-07-06T22:35:24Z","project_id":"gitdown","source":"github","tags":{"user":"jrebane"},"target":"rstudio/gitdown","type":"star"}
-{"datetime":"2017-10-19T22:34:38Z","project_id":"gitdown","source":"github","tags":{"user":"crystalsilver"},"target":"rstudio/gitdown","type":"star"}
-{"datetime":"2017-10-19T22:34:41Z","project_id":"gitdown","source":"github","tags":{"user":"crystalsilver"},"target":"rstudio/gitdown","type":"fork"}
+{"datetime":"2017-07-02T13:49:58Z","project_id":"gitdown","source":"github","target":"rstudio/gitdown","type":"star","user":"cderv"}
+{"datetime":"2017-07-03T08:31:50Z","project_id":"gitdown","source":"github","target":"rstudio/gitdown","type":"star","user":"romainfrancois"}
+{"datetime":"2017-07-06T22:35:24Z","project_id":"gitdown","source":"github","target":"rstudio/gitdown","type":"star","user":"jrebane"}
+{"datetime":"2017-10-19T22:34:38Z","project_id":"gitdown","source":"github","target":"rstudio/gitdown","type":"star","user":"crystalsilver"}
+{"datetime":"2017-10-19T22:34:41Z","project_id":"gitdown","source":"github","target":"rstudio/gitdown","type":"fork","user":"crystalsilver"}

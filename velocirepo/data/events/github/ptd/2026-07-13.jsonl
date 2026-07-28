@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-13T20:06:51Z","tags":{"user":"stevenolen"}}
-{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-13T22:33:11Z","tags":{"user":"stevenolen"}}
+{"datetime":"2026-07-13T20:06:51Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"stevenolen"}
+{"datetime":"2026-07-13T22:33:11Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"stevenolen"}

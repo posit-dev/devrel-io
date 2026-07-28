@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"bcorp-report","target":"posit-dev/bcorp-report","datetime":"2026-07-02T21:16:18Z","tags":{"user":"icarusz"}}
-{"source":"github","type":"pr_merge","project_id":"bcorp-report","target":"posit-dev/bcorp-report","datetime":"2026-07-02T22:03:39Z","tags":{"user":"icarusz"}}
+{"datetime":"2026-07-02T21:16:18Z","project_id":"bcorp-report","source":"github","target":"posit-dev/bcorp-report","type":"pr_open","user":"icarusz"}
+{"datetime":"2026-07-02T22:03:39Z","project_id":"bcorp-report","source":"github","target":"posit-dev/bcorp-report","type":"pr_merge","user":"icarusz"}

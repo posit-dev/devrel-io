@@ -1,5 +1,5 @@
-{"datetime":"2017-04-23T02:26:48Z","project_id":"shinygadgets","source":"github","tags":{"user":"ktargows"},"target":"rstudio/shinygadgets","type":"star"}
-{"datetime":"2017-04-23T02:26:49Z","project_id":"shinygadgets","source":"github","tags":{"user":"ktargows"},"target":"rstudio/shinygadgets","type":"fork"}
-{"datetime":"2017-07-26T18:03:07Z","project_id":"shinygadgets","source":"github","tags":{"user":"ruhulali"},"target":"rstudio/shinygadgets","type":"fork"}
-{"datetime":"2017-10-05T06:36:43Z","project_id":"shinygadgets","source":"github","tags":{"user":"amrrs"},"target":"rstudio/shinygadgets","type":"star"}
-{"datetime":"2017-11-04T16:29:10Z","project_id":"shinygadgets","source":"github","tags":{"user":"systats"},"target":"rstudio/shinygadgets","type":"star"}
+{"datetime":"2017-04-23T02:26:48Z","project_id":"shinygadgets","source":"github","target":"rstudio/shinygadgets","type":"star","user":"ktargows"}
+{"datetime":"2017-04-23T02:26:49Z","project_id":"shinygadgets","source":"github","target":"rstudio/shinygadgets","type":"fork","user":"ktargows"}
+{"datetime":"2017-07-26T18:03:07Z","project_id":"shinygadgets","source":"github","target":"rstudio/shinygadgets","type":"fork","user":"ruhulali"}
+{"datetime":"2017-10-05T06:36:43Z","project_id":"shinygadgets","source":"github","target":"rstudio/shinygadgets","type":"star","user":"amrrs"}
+{"datetime":"2017-11-04T16:29:10Z","project_id":"shinygadgets","source":"github","target":"rstudio/shinygadgets","type":"star","user":"systats"}

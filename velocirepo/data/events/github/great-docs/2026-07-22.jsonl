@@ -1,8 +1,8 @@
-{"source":"github","type":"fork","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T15:55:02Z","tags":{"user":"andythomas"}}
-{"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T16:17:50Z","tags":{"user":"andythomas"}}
-{"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T13:26:23Z","tags":{"user":"amyheather"}}
-{"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T00:44:11Z","tags":{"user":"mikeckennedy"}}
-{"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T16:01:31Z","tags":{"user":"andythomas"}}
-{"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T16:52:51Z","tags":{"user":"andythomas"}}
-{"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T14:08:09Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-22T15:58:08Z","tags":{"user":"rich-iannone"}}
+{"datetime":"2026-07-22T15:55:02Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"fork","user":"andythomas"}
+{"datetime":"2026-07-22T16:17:50Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"issue_open","user":"andythomas"}
+{"datetime":"2026-07-22T13:26:23Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"issue_open","user":"amyheather"}
+{"datetime":"2026-07-22T00:44:11Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"issue_open","user":"mikeckennedy"}
+{"datetime":"2026-07-22T16:01:31Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_open","user":"andythomas"}
+{"datetime":"2026-07-22T16:52:51Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_merge","user":"andythomas"}
+{"datetime":"2026-07-22T14:08:09Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-22T15:58:08Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_merge","user":"rich-iannone"}

@@ -1,7 +1,7 @@
-{"datetime":"2020-01-12T17:31:49Z","project_id":"ptexamples","source":"github","tags":{"user":"cjvanlissa"},"target":"rstudio/ptexamples","type":"issue_open"}
-{"datetime":"2020-01-31T16:15:27Z","project_id":"ptexamples","source":"github","tags":{"user":"cjvanlissa"},"target":"rstudio/ptexamples","type":"issue_close"}
-{"datetime":"2020-03-16T21:46:40Z","project_id":"ptexamples","source":"github","tags":{"user":"jimbrig"},"target":"rstudio/ptexamples","type":"star"}
-{"datetime":"2020-05-23T15:18:43Z","project_id":"ptexamples","source":"github","tags":{"user":"danielpodlesny"},"target":"rstudio/ptexamples","type":"fork"}
-{"datetime":"2020-06-03T16:28:29Z","project_id":"ptexamples","source":"github","tags":{"user":"MathieuMarauri"},"target":"rstudio/ptexamples","type":"fork"}
-{"datetime":"2020-06-26T03:35:00Z","project_id":"ptexamples","source":"github","tags":{"user":"matickoplingan"},"target":"rstudio/ptexamples","type":"fork"}
-{"datetime":"2020-07-01T10:27:28Z","project_id":"ptexamples","source":"github","tags":{"user":"yashmasand"},"target":"rstudio/ptexamples","type":"fork"}
+{"datetime":"2020-01-12T17:31:49Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"issue_open","user":"cjvanlissa"}
+{"datetime":"2020-01-31T16:15:27Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"issue_close","user":"cjvanlissa"}
+{"datetime":"2020-03-16T21:46:40Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"jimbrig"}
+{"datetime":"2020-05-23T15:18:43Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"danielpodlesny"}
+{"datetime":"2020-06-03T16:28:29Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"MathieuMarauri"}
+{"datetime":"2020-06-26T03:35:00Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"matickoplingan"}
+{"datetime":"2020-07-01T10:27:28Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"yashmasand"}

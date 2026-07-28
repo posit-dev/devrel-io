@@ -1,3 +1,3 @@
-{"source":"github","type":"star","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-09T03:30:48Z","tags":{"user":"Cianai"}}
-{"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-09T17:27:57Z","tags":{"user":"gadenbuie"}}
-{"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-09T06:08:56Z","tags":{"user":"thisisnic"}}
+{"datetime":"2026-07-09T03:30:48Z","project_id":"ellmer","source":"github","target":"tidyverse/ellmer","type":"star","user":"Cianai"}
+{"datetime":"2026-07-09T17:27:57Z","project_id":"ellmer","source":"github","target":"tidyverse/ellmer","type":"pr_open","user":"gadenbuie"}
+{"datetime":"2026-07-09T06:08:56Z","project_id":"ellmer","source":"github","target":"tidyverse/ellmer","type":"pr_open","user":"thisisnic"}

@@ -1,6 +1,6 @@
-{"datetime":"2025-02-05T15:14:35Z","project_id":"gradethis","source":"github","tags":{"user":"H2whoaMusic"},"target":"rstudio/gradethis","type":"issue_open"}
-{"datetime":"2025-03-03T06:37:52Z","project_id":"gradethis","source":"github","tags":{"user":"Hi1993Ryan"},"target":"rstudio/gradethis","type":"star"}
-{"datetime":"2025-06-06T15:23:53Z","project_id":"gradethis","source":"github","tags":{"user":"sarabarfield"},"target":"rstudio/gradethis","type":"star"}
-{"datetime":"2025-06-12T12:21:16Z","project_id":"gradethis","source":"github","tags":{"user":"driegert"},"target":"rstudio/gradethis","type":"fork"}
-{"datetime":"2025-08-15T17:55:01Z","project_id":"gradethis","source":"github","tags":{"user":"ar-puuk"},"target":"rstudio/gradethis","type":"star"}
-{"datetime":"2025-09-15T04:03:38Z","project_id":"gradethis","source":"github","tags":{"user":"sdhutchins"},"target":"rstudio/gradethis","type":"star"}
+{"datetime":"2025-02-05T15:14:35Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"issue_open","user":"H2whoaMusic"}
+{"datetime":"2025-03-03T06:37:52Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"star","user":"Hi1993Ryan"}
+{"datetime":"2025-06-06T15:23:53Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"star","user":"sarabarfield"}
+{"datetime":"2025-06-12T12:21:16Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"fork","user":"driegert"}
+{"datetime":"2025-08-15T17:55:01Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"star","user":"ar-puuk"}
+{"datetime":"2025-09-15T04:03:38Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"star","user":"sdhutchins"}

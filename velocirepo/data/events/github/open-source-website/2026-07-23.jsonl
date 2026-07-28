@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-23T14:04:45Z","tags":{"user":"t-kalinowski"}}
-{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-07-23T21:03:49Z","tags":{"user":"t-kalinowski"}}
+{"datetime":"2026-07-23T14:04:45Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_open","user":"t-kalinowski"}
+{"datetime":"2026-07-23T21:03:49Z","project_id":"open-source-website","source":"github","target":"posit-dev/open-source-website","type":"pr_merge","user":"t-kalinowski"}

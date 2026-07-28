@@ -1,8 +1,8 @@
-{"source":"github","type":"issue_open","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T03:13:52Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"issue_close","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T04:13:48Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_open","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T03:27:54Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T04:09:25Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_open","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T02:39:00Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T02:47:41Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_open","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T00:46:26Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"pointblank-r","target":"rstudio/pointblank","datetime":"2026-07-21T01:32:54Z","tags":{"user":"rich-iannone"}}
+{"datetime":"2026-07-21T03:13:52Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"issue_open","user":"rich-iannone"}
+{"datetime":"2026-07-21T04:13:48Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"issue_close","user":"rich-iannone"}
+{"datetime":"2026-07-21T03:27:54Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-21T04:09:25Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_merge","user":"rich-iannone"}
+{"datetime":"2026-07-21T02:39:00Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-21T02:47:41Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_merge","user":"rich-iannone"}
+{"datetime":"2026-07-21T00:46:26Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-21T01:32:54Z","project_id":"pointblank-r","source":"github","target":"rstudio/pointblank","type":"pr_merge","user":"rich-iannone"}

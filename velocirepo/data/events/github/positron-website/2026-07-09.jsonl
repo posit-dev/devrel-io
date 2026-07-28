@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-09T23:12:46Z","tags":{"user":"dhruvisompura"}}
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-09T16:37:48Z","tags":{"user":"juliasilge"}}
-{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-09T16:41:14Z","tags":{"user":"juliasilge"}}
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-09T15:52:52Z","tags":{"user":"juliasilge"}}
-{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-09T16:02:54Z","tags":{"user":"juliasilge"}}
+{"datetime":"2026-07-09T23:12:46Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"dhruvisompura"}
+{"datetime":"2026-07-09T16:37:48Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"juliasilge"}
+{"datetime":"2026-07-09T16:41:14Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_merge","user":"juliasilge"}
+{"datetime":"2026-07-09T15:52:52Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_open","user":"juliasilge"}
+{"datetime":"2026-07-09T16:02:54Z","project_id":"positron-website","source":"github","target":"posit-dev/positron-website","type":"pr_merge","user":"juliasilge"}

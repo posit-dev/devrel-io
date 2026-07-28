@@ -1,3 +1,3 @@
-{"source":"github","type":"pr_merge","project_id":"picopip","target":"posit-dev/picopip","datetime":"2026-06-01T10:00:48Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_open","project_id":"picopip","target":"posit-dev/picopip","datetime":"2026-06-01T10:24:26Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_merge","project_id":"picopip","target":"posit-dev/picopip","datetime":"2026-06-01T13:55:29Z","tags":{"user":"amol-"}}
+{"datetime":"2026-06-01T10:00:48Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_merge","user":"amol-"}
+{"datetime":"2026-06-01T10:24:26Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_open","user":"amol-"}
+{"datetime":"2026-06-01T13:55:29Z","project_id":"picopip","source":"github","target":"posit-dev/picopip","type":"pr_merge","user":"amol-"}

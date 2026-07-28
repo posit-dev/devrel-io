@@ -1,6 +1,6 @@
-{"datetime":"2026-04-16T16:15:09Z","project_id":"orbital-python","source":"github","tags":{"user":"amol-"},"target":"posit-dev/orbital","type":"pr_open"}
-{"datetime":"2026-04-16T16:16:37Z","project_id":"orbital-python","source":"github","tags":{"user":"github-actions[bot]"},"target":"posit-dev/orbital","type":"pr_comment"}
-{"datetime":"2026-04-17T09:38:12Z","project_id":"orbital-python","source":"github","tags":{"user":"amol-"},"target":"posit-dev/orbital","type":"issue_comment"}
-{"datetime":"2026-04-22T17:13:17Z","project_id":"orbital-python","source":"github","tags":{"user":"amol-"},"target":"posit-dev/orbital","type":"pr_open"}
-{"datetime":"2026-04-22T17:15:01Z","project_id":"orbital-python","source":"github","tags":{"user":"github-actions[bot]"},"target":"posit-dev/orbital","type":"pr_comment"}
-{"datetime":"2026-04-28T15:43:12Z","project_id":"orbital-python","source":"github","tags":{"user":"amol-"},"target":"posit-dev/orbital","type":"issue_open"}
+{"datetime":"2026-04-16T16:15:09Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"pr_open","user":"amol-"}
+{"datetime":"2026-04-16T16:16:37Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"pr_comment","user":"github-actions[bot]"}
+{"datetime":"2026-04-17T09:38:12Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"issue_comment","user":"amol-"}
+{"datetime":"2026-04-22T17:13:17Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"pr_open","user":"amol-"}
+{"datetime":"2026-04-22T17:15:01Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"pr_comment","user":"github-actions[bot]"}
+{"datetime":"2026-04-28T15:43:12Z","project_id":"orbital-python","source":"github","target":"posit-dev/orbital","type":"issue_open","user":"amol-"}

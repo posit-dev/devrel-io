@@ -1,4 +1,4 @@
-{"source":"github","type":"issue_open","project_id":"ai-provider-bridge","target":"posit-dev/ai-provider-bridge","datetime":"2026-07-06T15:29:08Z","tags":{"user":"kgartland-rstudio"}}
-{"source":"github","type":"issue_close","project_id":"ai-provider-bridge","target":"posit-dev/ai-provider-bridge","datetime":"2026-07-06T15:30:19Z","tags":{"user":"kgartland-rstudio"}}
-{"source":"github","type":"pr_open","project_id":"ai-provider-bridge","target":"posit-dev/ai-provider-bridge","datetime":"2026-07-06T15:41:35Z","tags":{"user":"wch"}}
-{"source":"github","type":"pr_merge","project_id":"ai-provider-bridge","target":"posit-dev/ai-provider-bridge","datetime":"2026-07-06T15:43:28Z","tags":{"user":"wch"}}
+{"datetime":"2026-07-06T15:29:08Z","project_id":"ai-provider-bridge","source":"github","target":"posit-dev/ai-provider-bridge","type":"issue_open","user":"kgartland-rstudio"}
+{"datetime":"2026-07-06T15:30:19Z","project_id":"ai-provider-bridge","source":"github","target":"posit-dev/ai-provider-bridge","type":"issue_close","user":"kgartland-rstudio"}
+{"datetime":"2026-07-06T15:41:35Z","project_id":"ai-provider-bridge","source":"github","target":"posit-dev/ai-provider-bridge","type":"pr_open","user":"wch"}
+{"datetime":"2026-07-06T15:43:28Z","project_id":"ai-provider-bridge","source":"github","target":"posit-dev/ai-provider-bridge","type":"pr_merge","user":"wch"}

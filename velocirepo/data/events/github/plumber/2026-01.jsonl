@@ -1,8 +1,8 @@
-{"datetime":"2026-01-09T08:02:40Z","project_id":"plumber","source":"github","tags":{"user":"LaiQE"},"target":"rstudio/plumber","type":"star"}
-{"datetime":"2026-01-14T22:05:55Z","project_id":"plumber","source":"github","tags":{"user":"jonkeane"},"target":"rstudio/plumber","type":"issue_open"}
-{"datetime":"2026-01-18T04:37:45Z","project_id":"plumber","source":"github","tags":{"user":"ElianHugh"},"target":"rstudio/plumber","type":"issue_open"}
-{"datetime":"2026-01-27T21:03:03Z","project_id":"plumber","source":"github","tags":{"user":"schloerke"},"target":"rstudio/plumber","type":"pr_open"}
-{"datetime":"2026-01-27T21:09:13Z","project_id":"plumber","source":"github","tags":{"user":"schloerke"},"target":"rstudio/plumber","type":"pr_merge"}
-{"datetime":"2026-01-27T21:09:15Z","project_id":"plumber","source":"github","tags":{"user":"jonkeane"},"target":"rstudio/plumber","type":"issue_close"}
-{"datetime":"2026-01-27T21:10:07Z","project_id":"plumber","source":"github","tags":{"user":"schloerke"},"target":"rstudio/plumber","type":"issue_open"}
-{"datetime":"2026-01-27T21:43:26Z","project_id":"plumber","source":"github","tags":{"user":"schloerke"},"target":"rstudio/plumber","type":"pr_open"}
+{"datetime":"2026-01-09T08:02:40Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"star","user":"LaiQE"}
+{"datetime":"2026-01-14T22:05:55Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"issue_open","user":"jonkeane"}
+{"datetime":"2026-01-18T04:37:45Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"issue_open","user":"ElianHugh"}
+{"datetime":"2026-01-27T21:03:03Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"pr_open","user":"schloerke"}
+{"datetime":"2026-01-27T21:09:13Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"pr_merge","user":"schloerke"}
+{"datetime":"2026-01-27T21:09:15Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"issue_close","user":"jonkeane"}
+{"datetime":"2026-01-27T21:10:07Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"issue_open","user":"schloerke"}
+{"datetime":"2026-01-27T21:43:26Z","project_id":"plumber","source":"github","target":"rstudio/plumber","type":"pr_open","user":"schloerke"}

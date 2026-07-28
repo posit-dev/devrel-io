@@ -1,4 +1,4 @@
-{"source":"github","type":"star","project_id":"py-shiny","target":"posit-dev/py-shiny","datetime":"2026-07-04T10:05:07Z","tags":{"user":"gavrilovne"}}
-{"source":"github","type":"issue_open","project_id":"py-shiny","target":"posit-dev/py-shiny","datetime":"2026-07-04T02:01:27Z","tags":{"user":"karangattu"}}
-{"source":"github","type":"issue_close","project_id":"py-shiny","target":"posit-dev/py-shiny","datetime":"2026-07-04T01:04:58Z","tags":{"user":"schloerke"}}
-{"source":"github","type":"pr_open","project_id":"py-shiny","target":"posit-dev/py-shiny","datetime":"2026-07-04T02:06:30Z","tags":{"user":"karangattu"}}
+{"datetime":"2026-07-04T10:05:07Z","project_id":"py-shiny","source":"github","target":"posit-dev/py-shiny","type":"star","user":"gavrilovne"}
+{"datetime":"2026-07-04T02:01:27Z","project_id":"py-shiny","source":"github","target":"posit-dev/py-shiny","type":"issue_open","user":"karangattu"}
+{"datetime":"2026-07-04T01:04:58Z","project_id":"py-shiny","source":"github","target":"posit-dev/py-shiny","type":"issue_close","user":"schloerke"}
+{"datetime":"2026-07-04T02:06:30Z","project_id":"py-shiny","source":"github","target":"posit-dev/py-shiny","type":"pr_open","user":"karangattu"}

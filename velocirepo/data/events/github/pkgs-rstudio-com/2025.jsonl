@@ -1,3 +1,3 @@
-{"datetime":"2025-01-03T16:40:29Z","project_id":"pkgs-rstudio-com","source":"github","tags":{"user":"toph-allen"},"target":"rstudio/pkgs.rstudio.com","type":"fork"}
-{"datetime":"2025-01-03T16:51:07Z","project_id":"pkgs-rstudio-com","source":"github","tags":{"user":"toph-allen"},"target":"rstudio/pkgs.rstudio.com","type":"pr_open"}
-{"datetime":"2025-01-06T15:09:34Z","project_id":"pkgs-rstudio-com","source":"github","tags":{"user":"toph-allen"},"target":"rstudio/pkgs.rstudio.com","type":"pr_merge"}
+{"datetime":"2025-01-03T16:40:29Z","project_id":"pkgs-rstudio-com","source":"github","target":"rstudio/pkgs.rstudio.com","type":"fork","user":"toph-allen"}
+{"datetime":"2025-01-03T16:51:07Z","project_id":"pkgs-rstudio-com","source":"github","target":"rstudio/pkgs.rstudio.com","type":"pr_open","user":"toph-allen"}
+{"datetime":"2025-01-06T15:09:34Z","project_id":"pkgs-rstudio-com","source":"github","target":"rstudio/pkgs.rstudio.com","type":"pr_merge","user":"toph-allen"}

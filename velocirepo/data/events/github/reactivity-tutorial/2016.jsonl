@@ -1,8 +1,8 @@
-{"datetime":"2016-01-30T18:56:49Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"erichare"},"target":"rstudio/reactivity-tutorial","type":"star"}
-{"datetime":"2016-01-30T19:07:08Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"jules32"},"target":"rstudio/reactivity-tutorial","type":"star"}
-{"datetime":"2016-01-30T19:56:35Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"aoles"},"target":"rstudio/reactivity-tutorial","type":"star"}
-{"datetime":"2016-01-30T19:57:02Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"aoles"},"target":"rstudio/reactivity-tutorial","type":"fork"}
-{"datetime":"2016-01-31T01:37:52Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"jules32"},"target":"rstudio/reactivity-tutorial","type":"fork"}
-{"datetime":"2016-02-24T19:52:59Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"smyth7"},"target":"rstudio/reactivity-tutorial","type":"fork"}
-{"datetime":"2016-02-24T19:53:06Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"smyth7"},"target":"rstudio/reactivity-tutorial","type":"star"}
-{"datetime":"2016-03-03T19:54:10Z","project_id":"reactivity-tutorial","source":"github","tags":{"user":"astraadria4ari"},"target":"rstudio/reactivity-tutorial","type":"fork"}
+{"datetime":"2016-01-30T18:56:49Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"star","user":"erichare"}
+{"datetime":"2016-01-30T19:07:08Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"star","user":"jules32"}
+{"datetime":"2016-01-30T19:56:35Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"star","user":"aoles"}
+{"datetime":"2016-01-30T19:57:02Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"fork","user":"aoles"}
+{"datetime":"2016-01-31T01:37:52Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"fork","user":"jules32"}
+{"datetime":"2016-02-24T19:52:59Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"fork","user":"smyth7"}
+{"datetime":"2016-02-24T19:53:06Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"star","user":"smyth7"}
+{"datetime":"2016-03-03T19:54:10Z","project_id":"reactivity-tutorial","source":"github","target":"rstudio/reactivity-tutorial","type":"fork","user":"astraadria4ari"}

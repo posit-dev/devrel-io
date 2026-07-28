@@ -1,8 +1,8 @@
-{"datetime":"2017-02-11T16:34:52Z","project_id":"introtoshiny","source":"github","tags":{"user":"sudsfsp"},"target":"rstudio/IntroToShiny","type":"fork"}
-{"datetime":"2017-05-16T16:06:36Z","project_id":"introtoshiny","source":"github","tags":{"user":"xvrdm"},"target":"rstudio/IntroToShiny","type":"star"}
-{"datetime":"2017-06-06T03:02:56Z","project_id":"introtoshiny","source":"github","tags":{"user":"johnsonlarryl"},"target":"rstudio/IntroToShiny","type":"fork"}
-{"datetime":"2017-08-01T20:26:06Z","project_id":"introtoshiny","source":"github","tags":{"user":"ahazrati"},"target":"rstudio/IntroToShiny","type":"fork"}
-{"datetime":"2017-08-07T18:17:37Z","project_id":"introtoshiny","source":"github","tags":{"user":"chunjie-sam-liu"},"target":"rstudio/IntroToShiny","type":"star"}
-{"datetime":"2017-09-29T23:07:13Z","project_id":"introtoshiny","source":"github","tags":{"user":"robbfitzsimmons"},"target":"rstudio/IntroToShiny","type":"star"}
-{"datetime":"2017-10-08T01:31:27Z","project_id":"introtoshiny","source":"github","tags":{"user":"robbfitzsimmons"},"target":"rstudio/IntroToShiny","type":"fork"}
-{"datetime":"2017-10-26T08:37:21Z","project_id":"introtoshiny","source":"github","tags":{"user":"hmiroglu"},"target":"rstudio/IntroToShiny","type":"star"}
+{"datetime":"2017-02-11T16:34:52Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"fork","user":"sudsfsp"}
+{"datetime":"2017-05-16T16:06:36Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"star","user":"xvrdm"}
+{"datetime":"2017-06-06T03:02:56Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"fork","user":"johnsonlarryl"}
+{"datetime":"2017-08-01T20:26:06Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"fork","user":"ahazrati"}
+{"datetime":"2017-08-07T18:17:37Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"star","user":"chunjie-sam-liu"}
+{"datetime":"2017-09-29T23:07:13Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"star","user":"robbfitzsimmons"}
+{"datetime":"2017-10-08T01:31:27Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"fork","user":"robbfitzsimmons"}
+{"datetime":"2017-10-26T08:37:21Z","project_id":"introtoshiny","source":"github","target":"rstudio/IntroToShiny","type":"star","user":"hmiroglu"}

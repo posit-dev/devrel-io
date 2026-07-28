@@ -1,3 +1,3 @@
-{"datetime":"2026-05-05T18:24:50Z","project_id":"connectapi","source":"github","tags":{"user":"karawoo"},"target":"posit-dev/connectapi","type":"pr_merge"}
-{"datetime":"2026-05-05T18:24:51Z","project_id":"connectapi","source":"github","tags":{"user":"toph-allen"},"target":"posit-dev/connectapi","type":"issue_close"}
-{"datetime":"2026-05-29T18:45:40Z","project_id":"connectapi","source":"github","tags":{"user":"karawoo"},"target":"posit-dev/connectapi","type":"issue_open"}
+{"datetime":"2026-05-05T18:24:50Z","project_id":"connectapi","source":"github","target":"posit-dev/connectapi","type":"pr_merge","user":"karawoo"}
+{"datetime":"2026-05-05T18:24:51Z","project_id":"connectapi","source":"github","target":"posit-dev/connectapi","type":"issue_close","user":"toph-allen"}
+{"datetime":"2026-05-29T18:45:40Z","project_id":"connectapi","source":"github","target":"posit-dev/connectapi","type":"issue_open","user":"karawoo"}

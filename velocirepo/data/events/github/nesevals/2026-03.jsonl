@@ -1,3 +1,3 @@
-{"datetime":"2026-03-13T15:54:24Z","project_id":"nesevals","source":"github","tags":{"user":"simonpcouch"},"target":"posit-dev/nesevals","type":"pr_open"}
-{"datetime":"2026-03-17T19:45:38Z","project_id":"nesevals","source":"github","tags":{"user":"simonpcouch"},"target":"posit-dev/nesevals","type":"pr_open"}
-{"datetime":"2026-03-17T19:47:15Z","project_id":"nesevals","source":"github","tags":{"user":"simonpcouch"},"target":"posit-dev/nesevals","type":"pr_merge"}
+{"datetime":"2026-03-13T15:54:24Z","project_id":"nesevals","source":"github","target":"posit-dev/nesevals","type":"pr_open","user":"simonpcouch"}
+{"datetime":"2026-03-17T19:45:38Z","project_id":"nesevals","source":"github","target":"posit-dev/nesevals","type":"pr_open","user":"simonpcouch"}
+{"datetime":"2026-03-17T19:47:15Z","project_id":"nesevals","source":"github","target":"posit-dev/nesevals","type":"pr_merge","user":"simonpcouch"}

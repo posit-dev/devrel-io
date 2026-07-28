@@ -1,2 +1,2 @@
-{"source":"github","type":"issue_open","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-08T14:35:37Z","tags":{"user":"sharon-wang"}}
-{"source":"github","type":"issue_close","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-08T14:43:04Z","tags":{"user":"m-delx"}}
+{"datetime":"2026-07-08T14:35:37Z","project_id":"assistant-feedback","source":"github","target":"posit-dev/assistant-feedback","type":"issue_open","user":"sharon-wang"}
+{"datetime":"2026-07-08T14:43:04Z","project_id":"assistant-feedback","source":"github","target":"posit-dev/assistant-feedback","type":"issue_close","user":"m-delx"}

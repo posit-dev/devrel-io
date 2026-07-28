@@ -1,4 +1,4 @@
-{"source":"github","type":"star","project_id":"dplyr","target":"tidyverse/dplyr","datetime":"2026-07-08T05:12:01Z","tags":{"user":"SameerGadge"}}
-{"source":"github","type":"fork","project_id":"dplyr","target":"tidyverse/dplyr","datetime":"2026-07-08T18:38:53Z","tags":{"user":"NanNam226"}}
-{"source":"github","type":"issue_open","project_id":"dplyr","target":"tidyverse/dplyr","datetime":"2026-07-08T18:14:59Z","tags":{"user":"BajczA475"}}
-{"source":"github","type":"issue_close","project_id":"dplyr","target":"tidyverse/dplyr","datetime":"2026-07-08T18:35:20Z","tags":{"user":"BajczA475"}}
+{"datetime":"2026-07-08T05:12:01Z","project_id":"dplyr","source":"github","target":"tidyverse/dplyr","type":"star","user":"SameerGadge"}
+{"datetime":"2026-07-08T18:38:53Z","project_id":"dplyr","source":"github","target":"tidyverse/dplyr","type":"fork","user":"NanNam226"}
+{"datetime":"2026-07-08T18:14:59Z","project_id":"dplyr","source":"github","target":"tidyverse/dplyr","type":"issue_open","user":"BajczA475"}
+{"datetime":"2026-07-08T18:35:20Z","project_id":"dplyr","source":"github","target":"tidyverse/dplyr","type":"issue_close","user":"BajczA475"}

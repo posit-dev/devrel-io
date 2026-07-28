@@ -1,7 +1,7 @@
-{"datetime":"2023-11-17T18:23:28Z","project_id":"swagger","source":"github","tags":{"user":"meztez"},"target":"rstudio/swagger","type":"pr_open"}
-{"datetime":"2023-11-22T03:20:45Z","project_id":"swagger","source":"github","tags":{"user":"schloerke"},"target":"rstudio/swagger","type":"issue_open"}
-{"datetime":"2023-11-22T03:22:07Z","project_id":"swagger","source":"github","tags":{"user":"meztez"},"target":"rstudio/swagger","type":"pr_merge"}
-{"datetime":"2023-11-22T03:35:49Z","project_id":"swagger","source":"github","tags":{"user":"meztez"},"target":"rstudio/swagger","type":"pr_open"}
-{"datetime":"2023-11-22T03:40:30Z","project_id":"swagger","source":"github","tags":{"user":"hedsnz"},"target":"rstudio/swagger","type":"issue_close"}
-{"datetime":"2023-11-22T03:40:58Z","project_id":"swagger","source":"github","tags":{"user":"schloerke"},"target":"rstudio/swagger","type":"issue_close"}
-{"datetime":"2023-11-23T04:22:35Z","project_id":"swagger","source":"github","tags":{"user":"jonekeat"},"target":"rstudio/swagger","type":"issue_close"}
+{"datetime":"2023-11-17T18:23:28Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"pr_open","user":"meztez"}
+{"datetime":"2023-11-22T03:20:45Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_open","user":"schloerke"}
+{"datetime":"2023-11-22T03:22:07Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"pr_merge","user":"meztez"}
+{"datetime":"2023-11-22T03:35:49Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"pr_open","user":"meztez"}
+{"datetime":"2023-11-22T03:40:30Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_close","user":"hedsnz"}
+{"datetime":"2023-11-22T03:40:58Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_close","user":"schloerke"}
+{"datetime":"2023-11-23T04:22:35Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_close","user":"jonekeat"}

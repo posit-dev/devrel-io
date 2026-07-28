@@ -1,4 +1,4 @@
-{"source":"github","type":"fork","project_id":"plumber2","target":"posit-dev/plumber2","datetime":"2026-06-18T14:35:39Z","tags":{"user":"antoinelucasfra"}}
-{"source":"github","type":"pr_open","project_id":"plumber2","target":"posit-dev/plumber2","datetime":"2026-06-18T14:35:59Z","tags":{"user":"antoinelucasfra"}}
-{"source":"github","type":"fork","project_id":"plumber2","target":"posit-dev/plumber2","datetime":"2026-06-29T15:21:47Z","tags":{"user":"simonpcouch"}}
-{"source":"github","type":"pr_open","project_id":"plumber2","target":"posit-dev/plumber2","datetime":"2026-06-29T15:23:28Z","tags":{"user":"simonpcouch"}}
+{"datetime":"2026-06-18T14:35:39Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"fork","user":"antoinelucasfra"}
+{"datetime":"2026-06-18T14:35:59Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"pr_open","user":"antoinelucasfra"}
+{"datetime":"2026-06-29T15:21:47Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"fork","user":"simonpcouch"}
+{"datetime":"2026-06-29T15:23:28Z","project_id":"plumber2","source":"github","target":"posit-dev/plumber2","type":"pr_open","user":"simonpcouch"}

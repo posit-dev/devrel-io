@@ -1,4 +1,4 @@
-{"source":"github","type":"fork","project_id":"httpuv","target":"rstudio/httpuv","datetime":"2026-06-18T15:15:07Z","tags":{"user":"IsabelParedes"}}
-{"source":"github","type":"issue_open","project_id":"httpuv","target":"rstudio/httpuv","datetime":"2026-06-23T18:23:57Z","tags":{"user":"andyquinterom"}}
-{"source":"github","type":"pr_open","project_id":"httpuv","target":"rstudio/httpuv","datetime":"2026-06-23T18:28:20Z","tags":{"user":"andyquinterom"}}
-{"source":"github","type":"star","project_id":"httpuv","target":"rstudio/httpuv","datetime":"2026-06-30T05:30:14Z","tags":{"user":"bitraft"}}
+{"datetime":"2026-06-18T15:15:07Z","project_id":"httpuv","source":"github","target":"rstudio/httpuv","type":"fork","user":"IsabelParedes"}
+{"datetime":"2026-06-23T18:23:57Z","project_id":"httpuv","source":"github","target":"rstudio/httpuv","type":"issue_open","user":"andyquinterom"}
+{"datetime":"2026-06-23T18:28:20Z","project_id":"httpuv","source":"github","target":"rstudio/httpuv","type":"pr_open","user":"andyquinterom"}
+{"datetime":"2026-06-30T05:30:14Z","project_id":"httpuv","source":"github","target":"rstudio/httpuv","type":"star","user":"bitraft"}

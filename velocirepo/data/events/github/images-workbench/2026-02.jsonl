@@ -1,7 +1,7 @@
-{"datetime":"2026-02-04T14:06:29Z","project_id":"images-workbench","source":"github","tags":{"user":"ianpittwood"},"target":"posit-dev/images-workbench","type":"pr_merge"}
-{"datetime":"2026-02-04T17:07:35Z","project_id":"images-workbench","source":"github","tags":{"user":"ianpittwood"},"target":"posit-dev/images-workbench","type":"pr_open"}
-{"datetime":"2026-02-12T21:03:55Z","project_id":"images-workbench","source":"github","tags":{"user":"bschwedler"},"target":"posit-dev/images-workbench","type":"pr_open"}
-{"datetime":"2026-02-13T17:38:30Z","project_id":"images-workbench","source":"github","tags":{"user":"bschwedler"},"target":"posit-dev/images-workbench","type":"pr_merge"}
-{"datetime":"2026-02-19T16:52:07Z","project_id":"images-workbench","source":"github","tags":{"user":"bschwedler"},"target":"posit-dev/images-workbench","type":"pr_open"}
-{"datetime":"2026-02-20T17:38:37Z","project_id":"images-workbench","source":"github","tags":{"user":"ianpittwood"},"target":"posit-dev/images-workbench","type":"pr_merge"}
-{"datetime":"2026-02-24T16:23:12Z","project_id":"images-workbench","source":"github","tags":{"user":"ianpittwood"},"target":"posit-dev/images-workbench","type":"pr_open"}
+{"datetime":"2026-02-04T14:06:29Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_merge","user":"ianpittwood"}
+{"datetime":"2026-02-04T17:07:35Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_open","user":"ianpittwood"}
+{"datetime":"2026-02-12T21:03:55Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_open","user":"bschwedler"}
+{"datetime":"2026-02-13T17:38:30Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_merge","user":"bschwedler"}
+{"datetime":"2026-02-19T16:52:07Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_open","user":"bschwedler"}
+{"datetime":"2026-02-20T17:38:37Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_merge","user":"ianpittwood"}
+{"datetime":"2026-02-24T16:23:12Z","project_id":"images-workbench","source":"github","target":"posit-dev/images-workbench","type":"pr_open","user":"ianpittwood"}

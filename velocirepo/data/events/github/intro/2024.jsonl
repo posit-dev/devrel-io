@@ -1,7 +1,7 @@
-{"datetime":"2024-01-07T22:24:14Z","project_id":"intro","source":"github","tags":{"user":"sbouillon"},"target":"rstudio/Intro","type":"fork"}
-{"datetime":"2024-01-08T04:31:00Z","project_id":"intro","source":"github","tags":{"user":"sysylvia"},"target":"rstudio/Intro","type":"star"}
-{"datetime":"2024-01-19T14:24:19Z","project_id":"intro","source":"github","tags":{"user":"beto9819"},"target":"rstudio/Intro","type":"star"}
-{"datetime":"2024-06-07T04:35:45Z","project_id":"intro","source":"github","tags":{"user":"EdneiBecher"},"target":"rstudio/Intro","type":"star"}
-{"datetime":"2024-08-13T09:28:17Z","project_id":"intro","source":"github","tags":{"user":"Zankere"},"target":"rstudio/Intro","type":"star"}
-{"datetime":"2024-09-23T17:47:46Z","project_id":"intro","source":"github","tags":{"user":"surfcao"},"target":"rstudio/Intro","type":"star"}
-{"datetime":"2024-10-02T16:48:05Z","project_id":"intro","source":"github","tags":{"user":"bioboot"},"target":"rstudio/Intro","type":"star"}
+{"datetime":"2024-01-07T22:24:14Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"fork","user":"sbouillon"}
+{"datetime":"2024-01-08T04:31:00Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"sysylvia"}
+{"datetime":"2024-01-19T14:24:19Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"beto9819"}
+{"datetime":"2024-06-07T04:35:45Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"EdneiBecher"}
+{"datetime":"2024-08-13T09:28:17Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"Zankere"}
+{"datetime":"2024-09-23T17:47:46Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"surfcao"}
+{"datetime":"2024-10-02T16:48:05Z","project_id":"intro","source":"github","target":"rstudio/Intro","type":"star","user":"bioboot"}

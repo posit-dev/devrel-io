@@ -1,5 +1,5 @@
-{"datetime":"2015-03-17T23:32:01Z","project_id":"influxdb_backup","source":"github","tags":{"user":"cbarraford"},"target":"rstudio/influxdb_backup","type":"pr_open"}
-{"datetime":"2015-03-18T15:51:18Z","project_id":"influxdb_backup","source":"github","tags":{"user":"cbarraford"},"target":"rstudio/influxdb_backup","type":"pr_open"}
-{"datetime":"2015-03-18T16:33:23Z","project_id":"influxdb_backup","source":"github","tags":{"user":"cbarraford"},"target":"rstudio/influxdb_backup","type":"pr_merge"}
-{"datetime":"2015-03-18T16:33:31Z","project_id":"influxdb_backup","source":"github","tags":{"user":"cbarraford"},"target":"rstudio/influxdb_backup","type":"pr_merge"}
-{"datetime":"2015-03-20T19:11:43Z","project_id":"influxdb_backup","source":"github","tags":{"user":"cbarraford"},"target":"rstudio/influxdb_backup","type":"pr_open"}
+{"datetime":"2015-03-17T23:32:01Z","project_id":"influxdb_backup","source":"github","target":"rstudio/influxdb_backup","type":"pr_open","user":"cbarraford"}
+{"datetime":"2015-03-18T15:51:18Z","project_id":"influxdb_backup","source":"github","target":"rstudio/influxdb_backup","type":"pr_open","user":"cbarraford"}
+{"datetime":"2015-03-18T16:33:23Z","project_id":"influxdb_backup","source":"github","target":"rstudio/influxdb_backup","type":"pr_merge","user":"cbarraford"}
+{"datetime":"2015-03-18T16:33:31Z","project_id":"influxdb_backup","source":"github","target":"rstudio/influxdb_backup","type":"pr_merge","user":"cbarraford"}
+{"datetime":"2015-03-20T19:11:43Z","project_id":"influxdb_backup","source":"github","target":"rstudio/influxdb_backup","type":"pr_open","user":"cbarraford"}

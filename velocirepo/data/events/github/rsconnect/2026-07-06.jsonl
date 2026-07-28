@@ -1,5 +1,5 @@
-{"source":"github","type":"issue_open","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-06T18:34:53Z","tags":{"user":"aronatkins"}}
-{"source":"github","type":"issue_open","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-06T13:19:00Z","tags":{"user":"aronatkins"}}
-{"source":"github","type":"issue_close","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-06T18:25:42Z","tags":{"user":"aronatkins"}}
-{"source":"github","type":"pr_open","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-06T13:47:48Z","tags":{"user":"aronatkins"}}
-{"source":"github","type":"pr_merge","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-06T18:25:40Z","tags":{"user":"aronatkins"}}
+{"datetime":"2026-07-06T18:34:53Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"issue_open","user":"aronatkins"}
+{"datetime":"2026-07-06T13:19:00Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"issue_open","user":"aronatkins"}
+{"datetime":"2026-07-06T18:25:42Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"issue_close","user":"aronatkins"}
+{"datetime":"2026-07-06T13:47:48Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"pr_open","user":"aronatkins"}
+{"datetime":"2026-07-06T18:25:40Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"pr_merge","user":"aronatkins"}

@@ -1,2 +1,2 @@
-{"source":"github","type":"fork","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-16T05:04:49Z","tags":{"user":"PRASADJHSPH"}}
-{"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-16T23:56:54Z","tags":{"user":"thisisnic"}}
+{"datetime":"2026-07-16T05:04:49Z","project_id":"ellmer","source":"github","target":"tidyverse/ellmer","type":"fork","user":"PRASADJHSPH"}
+{"datetime":"2026-07-16T23:56:54Z","project_id":"ellmer","source":"github","target":"tidyverse/ellmer","type":"pr_open","user":"thisisnic"}

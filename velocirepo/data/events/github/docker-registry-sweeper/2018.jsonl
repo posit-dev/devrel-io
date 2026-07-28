@@ -1,3 +1,3 @@
-{"datetime":"2018-01-04T18:14:43Z","project_id":"docker-registry-sweeper","source":"github","tags":{"user":"jspiewak"},"target":"rstudio/docker-registry-sweeper","type":"pr_merge"}
-{"datetime":"2018-01-05T15:48:32Z","project_id":"docker-registry-sweeper","source":"github","tags":{"user":"jspiewak"},"target":"rstudio/docker-registry-sweeper","type":"pr_open"}
-{"datetime":"2018-04-26T11:58:02Z","project_id":"docker-registry-sweeper","source":"github","tags":{"user":"ddkwing"},"target":"rstudio/docker-registry-sweeper","type":"star"}
+{"datetime":"2018-01-04T18:14:43Z","project_id":"docker-registry-sweeper","source":"github","target":"rstudio/docker-registry-sweeper","type":"pr_merge","user":"jspiewak"}
+{"datetime":"2018-01-05T15:48:32Z","project_id":"docker-registry-sweeper","source":"github","target":"rstudio/docker-registry-sweeper","type":"pr_open","user":"jspiewak"}
+{"datetime":"2018-04-26T11:58:02Z","project_id":"docker-registry-sweeper","source":"github","target":"rstudio/docker-registry-sweeper","type":"star","user":"ddkwing"}

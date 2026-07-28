@@ -1,4 +1,4 @@
-{"datetime":"2026-04-08T14:05:03Z","project_id":"tidyverse","source":"github","tags":{"user":"kelvin2040"},"target":"tidyverse/tidyverse","type":"fork"}
-{"datetime":"2026-04-09T12:12:35Z","project_id":"tidyverse","source":"github","tags":{"user":"jeroenjanssens"},"target":"tidyverse/tidyverse","type":"pr_open"}
-{"datetime":"2026-04-11T16:04:49Z","project_id":"tidyverse","source":"github","tags":{"user":"hgriffith5"},"target":"tidyverse/tidyverse","type":"fork"}
-{"datetime":"2026-04-30T13:31:29Z","project_id":"tidyverse","source":"github","tags":{"user":"CraterDylan"},"target":"tidyverse/tidyverse","type":"issue_open"}
+{"datetime":"2026-04-08T14:05:03Z","project_id":"tidyverse","source":"github","target":"tidyverse/tidyverse","type":"fork","user":"kelvin2040"}
+{"datetime":"2026-04-09T12:12:35Z","project_id":"tidyverse","source":"github","target":"tidyverse/tidyverse","type":"pr_open","user":"jeroenjanssens"}
+{"datetime":"2026-04-11T16:04:49Z","project_id":"tidyverse","source":"github","target":"tidyverse/tidyverse","type":"fork","user":"hgriffith5"}
+{"datetime":"2026-04-30T13:31:29Z","project_id":"tidyverse","source":"github","target":"tidyverse/tidyverse","type":"issue_open","user":"CraterDylan"}

@@ -1,8 +1,8 @@
-{"datetime":"2022-02-07T05:52:45Z","project_id":"concept-maps","source":"github","tags":{"user":"sharatthk"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-03-01T04:06:46Z","project_id":"concept-maps","source":"github","tags":{"user":"karlbenedict"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-03-20T01:06:36Z","project_id":"concept-maps","source":"github","tags":{"user":"leo-smi"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-04-19T10:20:02Z","project_id":"concept-maps","source":"github","tags":{"user":"jrathore"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-05-18T23:21:43Z","project_id":"concept-maps","source":"github","tags":{"user":"khatvangi"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-07-19T00:10:17Z","project_id":"concept-maps","source":"github","tags":{"user":"kcf-jackson"},"target":"rstudio/concept-maps","type":"star"}
-{"datetime":"2022-11-29T04:22:06Z","project_id":"concept-maps","source":"github","tags":{"user":"secondbrain-note"},"target":"rstudio/concept-maps","type":"fork"}
-{"datetime":"2022-12-30T10:08:57Z","project_id":"concept-maps","source":"github","tags":{"user":"SeshatCZ"},"target":"rstudio/concept-maps","type":"star"}
+{"datetime":"2022-02-07T05:52:45Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"sharatthk"}
+{"datetime":"2022-03-01T04:06:46Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"karlbenedict"}
+{"datetime":"2022-03-20T01:06:36Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"leo-smi"}
+{"datetime":"2022-04-19T10:20:02Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"jrathore"}
+{"datetime":"2022-05-18T23:21:43Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"khatvangi"}
+{"datetime":"2022-07-19T00:10:17Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"kcf-jackson"}
+{"datetime":"2022-11-29T04:22:06Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"fork","user":"secondbrain-note"}
+{"datetime":"2022-12-30T10:08:57Z","project_id":"concept-maps","source":"github","target":"rstudio/concept-maps","type":"star","user":"SeshatCZ"}

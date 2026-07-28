@@ -1,5 +1,5 @@
-{"datetime":"2021-01-21T13:18:27Z","project_id":"leaflet-mapboxgl","source":"github","tags":{"user":"nicoFhahn"},"target":"rstudio/leaflet.mapboxgl","type":"star"}
-{"datetime":"2021-07-22T21:25:26Z","project_id":"leaflet-mapboxgl","source":"github","tags":{"user":"kylehowells"},"target":"rstudio/leaflet.mapboxgl","type":"star"}
-{"datetime":"2021-08-26T19:20:38Z","project_id":"leaflet-mapboxgl","source":"github","tags":{"user":"llongour"},"target":"rstudio/leaflet.mapboxgl","type":"star"}
-{"datetime":"2021-09-29T22:06:52Z","project_id":"leaflet-mapboxgl","source":"github","tags":{"user":"petercky"},"target":"rstudio/leaflet.mapboxgl","type":"issue_open"}
-{"datetime":"2021-10-20T18:13:32Z","project_id":"leaflet-mapboxgl","source":"github","tags":{"user":"benyamindsmith"},"target":"rstudio/leaflet.mapboxgl","type":"star"}
+{"datetime":"2021-01-21T13:18:27Z","project_id":"leaflet-mapboxgl","source":"github","target":"rstudio/leaflet.mapboxgl","type":"star","user":"nicoFhahn"}
+{"datetime":"2021-07-22T21:25:26Z","project_id":"leaflet-mapboxgl","source":"github","target":"rstudio/leaflet.mapboxgl","type":"star","user":"kylehowells"}
+{"datetime":"2021-08-26T19:20:38Z","project_id":"leaflet-mapboxgl","source":"github","target":"rstudio/leaflet.mapboxgl","type":"star","user":"llongour"}
+{"datetime":"2021-09-29T22:06:52Z","project_id":"leaflet-mapboxgl","source":"github","target":"rstudio/leaflet.mapboxgl","type":"issue_open","user":"petercky"}
+{"datetime":"2021-10-20T18:13:32Z","project_id":"leaflet-mapboxgl","source":"github","target":"rstudio/leaflet.mapboxgl","type":"star","user":"benyamindsmith"}

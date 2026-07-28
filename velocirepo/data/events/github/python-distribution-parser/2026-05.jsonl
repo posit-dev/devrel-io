@@ -1,4 +1,4 @@
-{"datetime":"2026-05-10T18:42:28Z","project_id":"python-distribution-parser","source":"github","tags":{"user":"dependabot"},"target":"rstudio/python-distribution-parser","type":"pr_open"}
-{"datetime":"2026-05-11T21:15:46Z","project_id":"python-distribution-parser","source":"github","tags":{"user":"dependabot"},"target":"rstudio/python-distribution-parser","type":"pr_merge"}
-{"datetime":"2026-05-24T18:42:17Z","project_id":"python-distribution-parser","source":"github","tags":{"user":"dependabot"},"target":"rstudio/python-distribution-parser","type":"pr_open"}
-{"datetime":"2026-05-25T14:32:25Z","project_id":"python-distribution-parser","source":"github","tags":{"user":"dependabot"},"target":"rstudio/python-distribution-parser","type":"pr_merge"}
+{"datetime":"2026-05-10T18:42:28Z","project_id":"python-distribution-parser","source":"github","target":"rstudio/python-distribution-parser","type":"pr_open","user":"dependabot"}
+{"datetime":"2026-05-11T21:15:46Z","project_id":"python-distribution-parser","source":"github","target":"rstudio/python-distribution-parser","type":"pr_merge","user":"dependabot"}
+{"datetime":"2026-05-24T18:42:17Z","project_id":"python-distribution-parser","source":"github","target":"rstudio/python-distribution-parser","type":"pr_open","user":"dependabot"}
+{"datetime":"2026-05-25T14:32:25Z","project_id":"python-distribution-parser","source":"github","target":"rstudio/python-distribution-parser","type":"pr_merge","user":"dependabot"}

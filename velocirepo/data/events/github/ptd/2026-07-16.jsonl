@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-16T16:26:57Z","tags":{"user":"timtalbot"}}
-{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-16T17:59:42Z","tags":{"user":"timtalbot"}}
+{"datetime":"2026-07-16T16:26:57Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"timtalbot"}
+{"datetime":"2026-07-16T17:59:42Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"timtalbot"}

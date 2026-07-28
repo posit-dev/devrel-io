@@ -1,3 +1,3 @@
-{"source":"github","type":"issue_close","project_id":"ggsql-python","target":"posit-dev/ggsql-python","datetime":"2026-06-01T12:45:43Z","tags":{"user":"flynnzac"}}
-{"source":"github","type":"star","project_id":"ggsql-python","target":"posit-dev/ggsql-python","datetime":"2026-06-03T20:04:02Z","tags":{"user":"dzulfiqarfr"}}
-{"source":"github","type":"issue_open","project_id":"ggsql-python","target":"posit-dev/ggsql-python","datetime":"2026-06-22T16:51:32Z","tags":{"user":"georgestagg"}}
+{"datetime":"2026-06-01T12:45:43Z","project_id":"ggsql-python","source":"github","target":"posit-dev/ggsql-python","type":"issue_close","user":"flynnzac"}
+{"datetime":"2026-06-03T20:04:02Z","project_id":"ggsql-python","source":"github","target":"posit-dev/ggsql-python","type":"star","user":"dzulfiqarfr"}
+{"datetime":"2026-06-22T16:51:32Z","project_id":"ggsql-python","source":"github","target":"posit-dev/ggsql-python","type":"issue_open","user":"georgestagg"}

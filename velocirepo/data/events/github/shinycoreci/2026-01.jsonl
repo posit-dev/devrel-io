@@ -1,3 +1,3 @@
-{"datetime":"2026-01-16T18:17:42Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
-{"datetime":"2026-01-23T18:26:00Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_merge"}
-{"datetime":"2026-01-29T19:40:11Z","project_id":"shinycoreci","source":"github","tags":{"user":"karangattu"},"target":"rstudio/shinycoreci","type":"pr_open"}
+{"datetime":"2026-01-16T18:17:42Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}
+{"datetime":"2026-01-23T18:26:00Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_merge","user":"karangattu"}
+{"datetime":"2026-01-29T19:40:11Z","project_id":"shinycoreci","source":"github","target":"rstudio/shinycoreci","type":"pr_open","user":"karangattu"}

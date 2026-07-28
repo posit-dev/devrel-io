@@ -1,7 +1,7 @@
-{"source":"github","type":"issue_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-11T17:05:29Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-11T17:05:46Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_comment","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-11T17:07:32Z","tags":{"user":"github-actions[bot]"}}
-{"source":"github","type":"issue_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-12T16:15:15Z","tags":{"user":"amol-"}}
-{"source":"github","type":"issue_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-12T16:23:07Z","tags":{"user":"amol-"}}
-{"source":"github","type":"pr_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-16T13:25:09Z","tags":{"user":"dependabot[bot]"}}
-{"source":"github","type":"pr_comment","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-06-16T13:27:28Z","tags":{"user":"github-actions[bot]"}}
+{"datetime":"2026-06-11T17:05:29Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"issue_open","user":"amol-"}
+{"datetime":"2026-06-11T17:05:46Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"pr_open","user":"amol-"}
+{"datetime":"2026-06-11T17:07:32Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"pr_comment","user":"github-actions[bot]"}
+{"datetime":"2026-06-12T16:15:15Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"issue_open","user":"amol-"}
+{"datetime":"2026-06-12T16:23:07Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"issue_open","user":"amol-"}
+{"datetime":"2026-06-16T13:25:09Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"pr_open","user":"dependabot[bot]"}
+{"datetime":"2026-06-16T13:27:28Z","project_id":"orbital-r","source":"github","target":"posit-dev/orbital","type":"pr_comment","user":"github-actions[bot]"}

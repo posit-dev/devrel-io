@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-01T17:01:19Z","tags":{"user":"gadenbuie"}}
-{"source":"github","type":"pr_merge","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-01T17:06:06Z","tags":{"user":"gadenbuie"}}
+{"datetime":"2026-07-01T17:01:19Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"pr_open","user":"gadenbuie"}
+{"datetime":"2026-07-01T17:06:06Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"pr_merge","user":"gadenbuie"}

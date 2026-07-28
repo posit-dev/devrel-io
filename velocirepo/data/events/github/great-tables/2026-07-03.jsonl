@@ -1,4 +1,4 @@
-{"source":"github","type":"star","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-07-03T11:43:01Z","tags":{"user":"baptyzern"}}
-{"source":"github","type":"star","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-07-03T08:58:53Z","tags":{"user":"volf52"}}
-{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-07-03T20:18:08Z","tags":{"user":"rich-iannone"}}
-{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-07-03T22:41:44Z","tags":{"user":"rich-iannone"}}
+{"datetime":"2026-07-03T11:43:01Z","project_id":"great-tables","source":"github","target":"posit-dev/great-tables","type":"star","user":"baptyzern"}
+{"datetime":"2026-07-03T08:58:53Z","project_id":"great-tables","source":"github","target":"posit-dev/great-tables","type":"star","user":"volf52"}
+{"datetime":"2026-07-03T20:18:08Z","project_id":"great-tables","source":"github","target":"posit-dev/great-tables","type":"pr_open","user":"rich-iannone"}
+{"datetime":"2026-07-03T22:41:44Z","project_id":"great-tables","source":"github","target":"posit-dev/great-tables","type":"pr_merge","user":"rich-iannone"}

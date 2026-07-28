@@ -1,5 +1,5 @@
-{"source":"github","type":"pr_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-23T18:34:39Z","tags":{"user":"samcofer"}}
-{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-23T21:10:09Z","tags":{"user":"samcofer"}}
-{"source":"github","type":"pr_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-23T17:09:05Z","tags":{"user":"samcofer"}}
-{"source":"github","type":"pr_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-23T15:01:58Z","tags":{"user":"bdeitte"}}
-{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-07-23T15:49:52Z","tags":{"user":"bdeitte"}}
+{"datetime":"2026-07-23T18:34:39Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"pr_open","user":"samcofer"}
+{"datetime":"2026-07-23T21:10:09Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"pr_merge","user":"samcofer"}
+{"datetime":"2026-07-23T17:09:05Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"pr_open","user":"samcofer"}
+{"datetime":"2026-07-23T15:01:58Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"pr_open","user":"bdeitte"}
+{"datetime":"2026-07-23T15:49:52Z","project_id":"vip","source":"github","target":"posit-dev/vip","type":"pr_merge","user":"bdeitte"}

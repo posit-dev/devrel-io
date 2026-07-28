@@ -1,6 +1,6 @@
-{"datetime":"2026-01-08T09:09:28Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"darkpool-liquidity"},"target":"posit-dev/py-shinywidgets","type":"star"}
-{"datetime":"2026-01-21T19:57:32Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinywidgets","type":"issue_open"}
-{"datetime":"2026-01-22T00:59:24Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-shinywidgets","type":"pr_open"}
-{"datetime":"2026-01-22T01:15:31Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-shinywidgets","type":"pr_merge"}
-{"datetime":"2026-01-22T01:15:32Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"schloerke"},"target":"posit-dev/py-shinywidgets","type":"issue_close"}
-{"datetime":"2026-01-22T23:35:19Z","project_id":"py-shinywidgets","source":"github","tags":{"user":"cpsievert"},"target":"posit-dev/py-shinywidgets","type":"pr_open"}
+{"datetime":"2026-01-08T09:09:28Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"star","user":"darkpool-liquidity"}
+{"datetime":"2026-01-21T19:57:32Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"issue_open","user":"schloerke"}
+{"datetime":"2026-01-22T00:59:24Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"pr_open","user":"cpsievert"}
+{"datetime":"2026-01-22T01:15:31Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"pr_merge","user":"cpsievert"}
+{"datetime":"2026-01-22T01:15:32Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"issue_close","user":"schloerke"}
+{"datetime":"2026-01-22T23:35:19Z","project_id":"py-shinywidgets","source":"github","target":"posit-dev/py-shinywidgets","type":"pr_open","user":"cpsievert"}

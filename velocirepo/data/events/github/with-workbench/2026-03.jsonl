@@ -1,3 +1,3 @@
-{"datetime":"2026-03-24T20:30:37Z","project_id":"with-workbench","source":"github","tags":{"user":"ian-flores"},"target":"posit-dev/with-workbench","type":"pr_open"}
-{"datetime":"2026-03-30T21:32:53Z","project_id":"with-workbench","source":"github","tags":{"user":"cm421"},"target":"posit-dev/with-workbench","type":"pr_open"}
-{"datetime":"2026-03-31T00:55:54Z","project_id":"with-workbench","source":"github","tags":{"user":"cm421"},"target":"posit-dev/with-workbench","type":"pr_merge"}
+{"datetime":"2026-03-24T20:30:37Z","project_id":"with-workbench","source":"github","target":"posit-dev/with-workbench","type":"pr_open","user":"ian-flores"}
+{"datetime":"2026-03-30T21:32:53Z","project_id":"with-workbench","source":"github","target":"posit-dev/with-workbench","type":"pr_open","user":"cm421"}
+{"datetime":"2026-03-31T00:55:54Z","project_id":"with-workbench","source":"github","target":"posit-dev/with-workbench","type":"pr_merge","user":"cm421"}

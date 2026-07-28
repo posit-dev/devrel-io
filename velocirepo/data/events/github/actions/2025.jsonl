@@ -1,7 +1,7 @@
-{"datetime":"2025-08-13T21:49:13Z","project_id":"actions","source":"github","tags":{"user":"wish1832"},"target":"rstudio/actions","type":"fork"}
-{"datetime":"2025-09-02T11:30:03Z","project_id":"actions","source":"github","tags":{"user":"tomjemmett"},"target":"rstudio/actions","type":"issue_open"}
-{"datetime":"2025-09-02T11:58:15Z","project_id":"actions","source":"github","tags":{"user":"nealrichardson"},"target":"rstudio/actions","type":"pr_open"}
-{"datetime":"2025-09-02T17:11:25Z","project_id":"actions","source":"github","tags":{"user":"nealrichardson"},"target":"rstudio/actions","type":"pr_merge"}
-{"datetime":"2025-09-02T17:11:26Z","project_id":"actions","source":"github","tags":{"user":"tomjemmett"},"target":"rstudio/actions","type":"issue_close"}
-{"datetime":"2025-09-02T17:12:20Z","project_id":"actions","source":"github","tags":{"user":"Aariq"},"target":"rstudio/actions","type":"issue_close"}
-{"datetime":"2025-10-28T18:28:38Z","project_id":"actions","source":"github","tags":{"user":"Daniel-Carpenter"},"target":"rstudio/actions","type":"star"}
+{"datetime":"2025-08-13T21:49:13Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"fork","user":"wish1832"}
+{"datetime":"2025-09-02T11:30:03Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"issue_open","user":"tomjemmett"}
+{"datetime":"2025-09-02T11:58:15Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"pr_open","user":"nealrichardson"}
+{"datetime":"2025-09-02T17:11:25Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"pr_merge","user":"nealrichardson"}
+{"datetime":"2025-09-02T17:11:26Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"issue_close","user":"tomjemmett"}
+{"datetime":"2025-09-02T17:12:20Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"issue_close","user":"Aariq"}
+{"datetime":"2025-10-28T18:28:38Z","project_id":"actions","source":"github","target":"rstudio/actions","type":"star","user":"Daniel-Carpenter"}

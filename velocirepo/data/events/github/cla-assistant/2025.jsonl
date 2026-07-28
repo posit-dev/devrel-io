@@ -1,5 +1,5 @@
-{"datetime":"2025-09-15T13:57:28Z","project_id":"cla-assistant","source":"github","tags":{"user":"lionel-"},"target":"posit-dev/cla-assistant","type":"fork"}
-{"datetime":"2025-09-15T15:11:58Z","project_id":"cla-assistant","source":"github","tags":{"user":"lionel-"},"target":"posit-dev/cla-assistant","type":"pr_open"}
-{"datetime":"2025-09-25T23:13:06Z","project_id":"cla-assistant","source":"github","tags":{"user":"lionel-"},"target":"posit-dev/cla-assistant","type":"pr_merge"}
-{"datetime":"2025-12-15T19:59:34Z","project_id":"cla-assistant","source":"github","tags":{"user":"juliasilge"},"target":"posit-dev/cla-assistant","type":"pr_open"}
-{"datetime":"2025-12-16T17:36:51Z","project_id":"cla-assistant","source":"github","tags":{"user":"juliasilge"},"target":"posit-dev/cla-assistant","type":"pr_merge"}
+{"datetime":"2025-09-15T13:57:28Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"fork","user":"lionel-"}
+{"datetime":"2025-09-15T15:11:58Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_open","user":"lionel-"}
+{"datetime":"2025-09-25T23:13:06Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_merge","user":"lionel-"}
+{"datetime":"2025-12-15T19:59:34Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_open","user":"juliasilge"}
+{"datetime":"2025-12-16T17:36:51Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_merge","user":"juliasilge"}

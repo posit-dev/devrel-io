@@ -1,2 +1,2 @@
-{"source":"github","type":"pr_open","project_id":"plumbertableau","target":"rstudio/plumbertableau","datetime":"2026-06-03T21:33:43Z","tags":{"user":"karawoo"}}
-{"source":"github","type":"pr_merge","project_id":"plumbertableau","target":"rstudio/plumbertableau","datetime":"2026-06-03T21:56:19Z","tags":{"user":"karawoo"}}
+{"datetime":"2026-06-03T21:33:43Z","project_id":"plumbertableau","source":"github","target":"rstudio/plumbertableau","type":"pr_open","user":"karawoo"}
+{"datetime":"2026-06-03T21:56:19Z","project_id":"plumbertableau","source":"github","target":"rstudio/plumbertableau","type":"pr_merge","user":"karawoo"}

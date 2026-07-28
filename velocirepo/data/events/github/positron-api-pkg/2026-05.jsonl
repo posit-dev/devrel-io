@@ -1,5 +1,5 @@
-{"datetime":"2026-05-01T02:00:58Z","project_id":"positron-api-pkg","source":"github","tags":{"user":"nstrayer"},"target":"posit-dev/positron-api-pkg","type":"pr_open"}
-{"datetime":"2026-05-01T10:40:57Z","project_id":"positron-api-pkg","source":"github","tags":{"user":"nstrayer"},"target":"posit-dev/positron-api-pkg","type":"pr_open"}
-{"datetime":"2026-05-04T10:24:35Z","project_id":"positron-api-pkg","source":"github","tags":{"user":"nstrayer"},"target":"posit-dev/positron-api-pkg","type":"pr_merge"}
-{"datetime":"2026-05-04T10:24:36Z","project_id":"positron-api-pkg","source":"github","tags":{"user":"dotNomad"},"target":"posit-dev/positron-api-pkg","type":"issue_close"}
-{"datetime":"2026-05-04T10:26:12Z","project_id":"positron-api-pkg","source":"github","tags":{"user":"nstrayer"},"target":"posit-dev/positron-api-pkg","type":"issue_open"}
+{"datetime":"2026-05-01T02:00:58Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"pr_open","user":"nstrayer"}
+{"datetime":"2026-05-01T10:40:57Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"pr_open","user":"nstrayer"}
+{"datetime":"2026-05-04T10:24:35Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"pr_merge","user":"nstrayer"}
+{"datetime":"2026-05-04T10:24:36Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"issue_close","user":"dotNomad"}
+{"datetime":"2026-05-04T10:26:12Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"issue_open","user":"nstrayer"}

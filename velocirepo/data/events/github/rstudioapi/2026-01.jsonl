@@ -1,8 +1,8 @@
-{"datetime":"2026-01-06T18:45:06Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_open"}
-{"datetime":"2026-01-09T20:53:36Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_merge"}
-{"datetime":"2026-01-12T22:44:51Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_open"}
-{"datetime":"2026-01-13T00:43:56Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_merge"}
-{"datetime":"2026-01-13T13:47:22Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_open"}
-{"datetime":"2026-01-13T17:23:13Z","project_id":"rstudioapi","source":"github","tags":{"user":"zachhannum"},"target":"rstudio/rstudioapi","type":"pr_merge"}
-{"datetime":"2026-01-13T19:58:46Z","project_id":"rstudioapi","source":"github","tags":{"user":"atheriel"},"target":"rstudio/rstudioapi","type":"pr_open"}
-{"datetime":"2026-01-13T22:22:42Z","project_id":"rstudioapi","source":"github","tags":{"user":"atheriel"},"target":"rstudio/rstudioapi","type":"pr_merge"}
+{"datetime":"2026-01-06T18:45:06Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_open","user":"zachhannum"}
+{"datetime":"2026-01-09T20:53:36Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_merge","user":"zachhannum"}
+{"datetime":"2026-01-12T22:44:51Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_open","user":"zachhannum"}
+{"datetime":"2026-01-13T00:43:56Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_merge","user":"zachhannum"}
+{"datetime":"2026-01-13T13:47:22Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_open","user":"zachhannum"}
+{"datetime":"2026-01-13T17:23:13Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_merge","user":"zachhannum"}
+{"datetime":"2026-01-13T19:58:46Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_open","user":"atheriel"}
+{"datetime":"2026-01-13T22:22:42Z","project_id":"rstudioapi","source":"github","target":"rstudio/rstudioapi","type":"pr_merge","user":"atheriel"}

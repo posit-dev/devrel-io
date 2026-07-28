@@ -1,2 +1,2 @@
-{"source":"github","type":"issue_open","project_id":"pins-python","target":"rstudio/pins-python","datetime":"2026-06-04T15:47:12Z","tags":{"user":"jeffkeller-einc"}}
-{"source":"github","type":"fork","project_id":"pins-python","target":"rstudio/pins-python","datetime":"2026-06-30T17:27:51Z","tags":{"user":"mcaputto"}}
+{"datetime":"2026-06-04T15:47:12Z","project_id":"pins-python","source":"github","target":"rstudio/pins-python","type":"issue_open","user":"jeffkeller-einc"}
+{"datetime":"2026-06-30T17:27:51Z","project_id":"pins-python","source":"github","target":"rstudio/pins-python","type":"fork","user":"mcaputto"}
