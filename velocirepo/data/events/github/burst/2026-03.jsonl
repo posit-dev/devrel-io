@@ -1,4 +1,4 @@
-{"datetime":"2026-03-08T23:04:53Z","project_id":"burst","source":"github","target":"posit-dev/burst","type":"pr_open","user":"mbaynton"}
-{"datetime":"2026-03-08T23:08:51Z","project_id":"burst","source":"github","target":"posit-dev/burst","type":"pr_merge","user":"mbaynton"}
-{"datetime":"2026-03-18T01:49:46Z","project_id":"burst","source":"github","target":"posit-dev/burst","type":"pr_open","user":"mbaynton"}
-{"datetime":"2026-03-18T01:54:22Z","project_id":"burst","source":"github","target":"posit-dev/burst","type":"pr_merge","user":"mbaynton"}
+{"source":"github","type":"pr_open","project_id":"burst","target":"posit-dev/burst","datetime":"2026-03-08T23:04:53Z","ref":11,"user":"mbaynton"}
+{"source":"github","type":"pr_merge","project_id":"burst","target":"posit-dev/burst","datetime":"2026-03-08T23:08:51Z","ref":11,"user":"mbaynton"}
+{"source":"github","type":"pr_open","project_id":"burst","target":"posit-dev/burst","datetime":"2026-03-18T01:49:46Z","ref":12,"user":"mbaynton"}
+{"source":"github","type":"pr_merge","project_id":"burst","target":"posit-dev/burst","datetime":"2026-03-18T01:54:22Z","ref":12,"user":"mbaynton"}

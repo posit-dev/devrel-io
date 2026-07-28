@@ -1,9 +1,5 @@
-{"datetime":"2021-01-06T02:32:42Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"jimbrig"}
-{"datetime":"2021-01-06T03:59:28Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"AppServiceProvider"}
-{"datetime":"2021-02-10T18:42:57Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"issue_open","user":"colearendt"}
-{"datetime":"2021-02-12T20:14:17Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"beansrowning"}
-{"datetime":"2021-02-15T21:43:46Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"fork","user":"jimsforks"}
-{"datetime":"2021-02-21T15:18:19Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"Niroshan23"}
-{"datetime":"2021-08-17T02:53:37Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"fork","user":"btongson"}
-{"datetime":"2021-09-16T19:32:15Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"fork","user":"jfisher-usgs"}
-{"datetime":"2021-11-08T01:23:56Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"fork","user":"Rom167"}
+{"source":"github","type":"issue_open","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2021-02-10T18:42:57Z","ref":8,"user":"colearendt"}
+{"source":"github","type":"fork","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2021-02-15T21:43:46Z","user":"jimsforks"}
+{"source":"github","type":"fork","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2021-08-17T02:53:37Z","user":"btongson"}
+{"source":"github","type":"fork","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2021-09-16T19:32:15Z","user":"jfisher-usgs"}
+{"source":"github","type":"fork","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2021-11-08T01:23:56Z","user":"Rom167"}

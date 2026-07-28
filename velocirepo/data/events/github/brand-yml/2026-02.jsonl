@@ -1,4 +1,2 @@
-{"datetime":"2026-02-23T18:05:17Z","project_id":"brand-yml","source":"github","target":"posit-dev/brand-yml","type":"star","user":"TreyEvansKPHD"}
-{"datetime":"2026-02-24T13:03:47Z","project_id":"brand-yml","source":"github","target":"posit-dev/brand-yml","type":"pr_open","user":"mcanouil"}
-{"datetime":"2026-02-24T17:09:33Z","project_id":"brand-yml","source":"github","target":"posit-dev/brand-yml","type":"star","user":"willvieira"}
-{"datetime":"2026-02-24T18:37:10Z","project_id":"brand-yml","source":"github","target":"posit-dev/brand-yml","type":"pr_merge","user":"mcanouil"}
+{"source":"github","type":"pr_open","project_id":"brand-yml","target":"posit-dev/brand-yml","datetime":"2026-02-24T13:03:47Z","ref":112,"user":"mcanouil"}
+{"source":"github","type":"pr_merge","project_id":"brand-yml","target":"posit-dev/brand-yml","datetime":"2026-02-24T18:37:10Z","ref":112,"user":"mcanouil"}

@@ -1,2 +1,2 @@
-{"datetime":"2026-07-01T09:18:02Z","project_id":"ggsql","source":"github","target":"posit-dev/ggsql","type":"issue_open","user":"teunbrand"}
-{"datetime":"2026-07-01T08:08:41Z","project_id":"ggsql","source":"github","target":"posit-dev/ggsql","type":"pr_open","user":"georgestagg"}
+{"source":"github","type":"issue_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-07-01T09:18:02Z","ref":499,"user":"teunbrand"}
+{"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-07-01T08:08:41Z","ref":498,"user":"georgestagg"}

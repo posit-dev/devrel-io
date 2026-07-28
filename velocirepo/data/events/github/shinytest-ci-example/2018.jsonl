@@ -1,7 +1,5 @@
-{"datetime":"2018-06-28T07:17:56Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"star","user":"strategist922"}
-{"datetime":"2018-06-28T07:17:57Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"fork","user":"strategist922"}
-{"datetime":"2018-10-27T05:48:24Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"fork","user":"2020dream"}
-{"datetime":"2018-12-21T16:17:18Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"fork","user":"mbjoseph"}
-{"datetime":"2018-12-21T16:21:48Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"issue_open","user":"mbjoseph"}
-{"datetime":"2018-12-21T16:22:39Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"pr_open","user":"mbjoseph"}
-{"datetime":"2018-12-26T12:14:08Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"star","user":"harryprince"}
+{"source":"github","type":"fork","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2018-06-28T07:17:57Z","user":"strategist922"}
+{"source":"github","type":"fork","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2018-10-27T05:48:24Z","user":"2020dream"}
+{"source":"github","type":"fork","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2018-12-21T16:17:18Z","user":"mbjoseph"}
+{"source":"github","type":"issue_open","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2018-12-21T16:21:48Z","ref":1,"user":"mbjoseph"}
+{"source":"github","type":"pr_open","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2018-12-21T16:22:39Z","ref":2,"user":"mbjoseph"}

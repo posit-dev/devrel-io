@@ -1,12 +1,5 @@
-{"datetime":"2014-09-15T15:58:17Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"cpsievert"}
-{"datetime":"2014-09-15T17:02:17Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"RanaivosonHerimanitra"}
-{"datetime":"2014-09-21T17:39:13Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"mjmaenner"}
-{"datetime":"2014-09-28T01:28:44Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"znmeb"}
-{"datetime":"2014-09-28T01:31:05Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"issue_open","user":"znmeb"}
-{"datetime":"2014-09-28T15:52:57Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"issue_close","user":"znmeb"}
-{"datetime":"2014-10-08T13:54:22Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"arbelt"}
-{"datetime":"2014-10-27T18:59:00Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"fork","user":"j-magnolia"}
-{"datetime":"2014-10-28T08:42:39Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"christophergandrud"}
-{"datetime":"2014-11-18T09:35:44Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"mkh1973"}
-{"datetime":"2014-12-09T15:23:49Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"fork","user":"Prithiviksit"}
-{"datetime":"2014-12-18T13:12:21Z","project_id":"revealjs","source":"github","target":"rstudio/revealjs","type":"star","user":"OrenBochman"}
+{"source":"github","type":"issue_open","project_id":"revealjs","target":"rstudio/revealjs","datetime":"2014-09-28T01:31:05Z","ref":1,"user":"znmeb"}
+{"source":"github","type":"issue_close","project_id":"revealjs","target":"rstudio/revealjs","datetime":"2014-09-28T15:52:57Z","ref":1,"user":"znmeb"}
+{"source":"github","type":"comment","project_id":"revealjs","target":"rstudio/revealjs","datetime":"2014-09-28T15:52:57Z","ref":1,"user":"jjallaire"}
+{"source":"github","type":"fork","project_id":"revealjs","target":"rstudio/revealjs","datetime":"2014-10-27T18:59:00Z","user":"j-magnolia"}
+{"source":"github","type":"fork","project_id":"revealjs","target":"rstudio/revealjs","datetime":"2014-12-09T15:23:49Z","user":"Prithiviksit"}

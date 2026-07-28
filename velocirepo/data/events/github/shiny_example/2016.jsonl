@@ -1,8 +1,9 @@
-{"datetime":"2016-03-03T20:00:50Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-04-02T17:21:27Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"yolanda93"}
-{"datetime":"2016-04-17T05:06:24Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"issue_open","user":"englianhu"}
-{"datetime":"2016-09-21T04:57:45Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"ivanps"}
-{"datetime":"2016-10-04T23:31:41Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"DavisTownsend"}
-{"datetime":"2016-10-25T12:49:32Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"gomezcatalina"}
-{"datetime":"2016-10-28T14:16:31Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"berndtlindner"}
-{"datetime":"2016-10-28T15:14:17Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"lecy"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-03-03T20:00:50Z","user":"astraadria4ari"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-04-02T17:21:27Z","user":"yolanda93"}
+{"source":"github","type":"issue_open","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-04-17T05:06:24Z","ref":2,"user":"englianhu"}
+{"source":"github","type":"comment","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-06-30T18:26:47Z","ref":2,"user":"OmaymaS"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-09-21T04:57:45Z","user":"ivanps"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-10-04T23:31:41Z","user":"DavisTownsend"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-10-25T12:49:32Z","user":"gomezcatalina"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-10-28T14:16:31Z","user":"berndtlindner"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2016-10-28T15:14:17Z","user":"lecy"}

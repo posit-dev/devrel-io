@@ -1,2 +1,2 @@
-{"datetime":"2026-04-21T19:26:35Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open","user":"bschwedler"}
-{"datetime":"2026-04-21T19:38:08Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge","user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2026-04-21T19:26:35Z","ref":94,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2026-04-21T19:38:08Z","ref":94,"user":"bschwedler"}

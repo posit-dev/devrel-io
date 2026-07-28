@@ -1,5 +1,6 @@
-{"datetime":"2026-04-06T20:50:37Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"issue_open","user":"jmcphers"}
-{"datetime":"2026-04-06T21:34:08Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"issue_close","user":"jmcphers"}
-{"datetime":"2026-04-08T23:07:57Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"pr_open","user":"jmcphers"}
-{"datetime":"2026-04-22T16:43:53Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"pr_merge","user":"jmcphers"}
-{"datetime":"2026-04-22T16:43:54Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"issue_close","user":"jmcphers"}
+{"source":"github","type":"issue_open","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-06T20:50:37Z","ref":62,"user":"jmcphers"}
+{"source":"github","type":"issue_close","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-06T21:34:08Z","ref":62,"user":"jmcphers"}
+{"source":"github","type":"comment","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-06T21:34:08Z","ref":62,"user":"jmcphers"}
+{"source":"github","type":"pr_open","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-08T23:07:57Z","ref":63,"user":"jmcphers"}
+{"source":"github","type":"pr_merge","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-22T16:43:53Z","ref":63,"user":"jmcphers"}
+{"source":"github","type":"issue_close","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-04-22T16:43:54Z","ref":23,"user":"jmcphers"}

@@ -1,5 +1,12 @@
-{"datetime":"2026-07-21T18:12:52Z","project_id":"publisher","source":"github","target":"posit-dev/publisher","type":"star","user":"samuelbharti"}
-{"datetime":"2026-07-21T18:13:35Z","project_id":"publisher","source":"github","target":"posit-dev/publisher","type":"fork","user":"samuelbharti"}
-{"datetime":"2026-07-21T20:41:15Z","project_id":"publisher","source":"github","target":"posit-dev/publisher","type":"pr_open","user":"hekhuisk"}
-{"datetime":"2026-07-21T19:56:06Z","project_id":"publisher","source":"github","target":"posit-dev/publisher","type":"pr_open","user":"dependabot"}
-{"datetime":"2026-07-21T16:31:32Z","project_id":"publisher","source":"github","target":"posit-dev/publisher","type":"pr_open","user":"jonvanausdeln"}
+{"source":"github","type":"fork","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T18:13:35Z","user":"samuelbharti"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T20:41:15Z","ref":4300,"user":"hekhuisk"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T19:56:06Z","ref":4299,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T16:31:32Z","ref":4298,"user":"jonvanausdeln"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T16:19:06Z","ref":4297,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T18:50:27Z","ref":4292,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T19:53:42Z","ref":4277,"user":"dependabot"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T20:41:42Z","ref":4300,"user":"posit-connect-projects[bot]"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T20:41:33Z","ref":4274,"user":"hekhuisk"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T19:55:56Z","ref":4278,"user":"dependabot[bot]"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T19:55:46Z","ref":4276,"user":"dependabot[bot]"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-21T17:30:27Z","ref":4298,"user":"posit-connect-projects[bot]"}

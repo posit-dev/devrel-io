@@ -1,2 +1,3 @@
-{"datetime":"2026-02-18T15:26:14Z","project_id":"connectcreds","source":"github","target":"posit-dev/connectcreds","type":"issue_open","user":"Andrew-Acker125"}
-{"datetime":"2026-02-18T15:44:53Z","project_id":"connectcreds","source":"github","target":"posit-dev/connectcreds","type":"issue_close","user":"Andrew-Acker125"}
+{"source":"github","type":"issue_open","project_id":"connectcreds","target":"posit-dev/connectcreds","datetime":"2026-02-18T15:26:14Z","ref":7,"user":"Andrew-Acker125"}
+{"source":"github","type":"issue_close","project_id":"connectcreds","target":"posit-dev/connectcreds","datetime":"2026-02-18T15:44:53Z","ref":7,"user":"Andrew-Acker125"}
+{"source":"github","type":"comment","project_id":"connectcreds","target":"posit-dev/connectcreds","datetime":"2026-02-18T15:44:53Z","ref":7,"user":"jonkeane"}

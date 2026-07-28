@@ -1,4 +1,4 @@
-{"datetime":"2026-03-03T16:29:22Z","project_id":"images-specialized","source":"github","target":"posit-dev/images-specialized","type":"pr_open","user":"ianpittwood"}
-{"datetime":"2026-03-03T16:32:14Z","project_id":"images-specialized","source":"github","target":"posit-dev/images-specialized","type":"pr_open","user":"ianpittwood"}
-{"datetime":"2026-03-17T13:10:51Z","project_id":"images-specialized","source":"github","target":"posit-dev/images-specialized","type":"pr_merge","user":"ianpittwood"}
-{"datetime":"2026-03-17T13:11:12Z","project_id":"images-specialized","source":"github","target":"posit-dev/images-specialized","type":"pr_merge","user":"ianpittwood"}
+{"source":"github","type":"pr_open","project_id":"images-specialized","target":"posit-dev/images-specialized","datetime":"2026-03-03T16:29:22Z","ref":1,"user":"ianpittwood"}
+{"source":"github","type":"pr_open","project_id":"images-specialized","target":"posit-dev/images-specialized","datetime":"2026-03-03T16:32:14Z","ref":2,"user":"ianpittwood"}
+{"source":"github","type":"pr_merge","project_id":"images-specialized","target":"posit-dev/images-specialized","datetime":"2026-03-17T13:10:51Z","ref":2,"user":"ianpittwood"}
+{"source":"github","type":"pr_merge","project_id":"images-specialized","target":"posit-dev/images-specialized","datetime":"2026-03-17T13:11:12Z","ref":1,"user":"ianpittwood"}

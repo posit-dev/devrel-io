@@ -1,4 +1,2 @@
-{"datetime":"2019-01-17T18:48:58Z","project_id":"shinytestpackageexample","source":"github","target":"rstudio/shinytestPackageExample","type":"fork","user":"rsimon64"}
-{"datetime":"2019-02-19T18:25:40Z","project_id":"shinytestpackageexample","source":"github","target":"rstudio/shinytestPackageExample","type":"star","user":"sk-sahu"}
-{"datetime":"2019-07-17T14:49:08Z","project_id":"shinytestpackageexample","source":"github","target":"rstudio/shinytestPackageExample","type":"star","user":"DavidRHopkins"}
-{"datetime":"2019-11-18T16:07:07Z","project_id":"shinytestpackageexample","source":"github","target":"rstudio/shinytestPackageExample","type":"issue_open","user":"rfaelens"}
+{"source":"github","type":"fork","project_id":"shinytestpackageexample","target":"rstudio/shinytestPackageExample","datetime":"2019-01-17T18:48:58Z","user":"rsimon64"}
+{"source":"github","type":"issue_open","project_id":"shinytestpackageexample","target":"rstudio/shinytestPackageExample","datetime":"2019-11-18T16:07:07Z","ref":1,"user":"rfaelens"}

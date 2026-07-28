@@ -1,3 +1,2 @@
-{"datetime":"2023-12-19T15:57:18Z","project_id":"py-shiny-validate","source":"github","target":"posit-dev/py-shiny-validate","type":"star","user":"iainmwallace"}
-{"datetime":"2023-12-19T19:40:59Z","project_id":"py-shiny-validate","source":"github","target":"posit-dev/py-shiny-validate","type":"pr_open","user":"gshotwell"}
-{"datetime":"2023-12-19T19:41:22Z","project_id":"py-shiny-validate","source":"github","target":"posit-dev/py-shiny-validate","type":"pr_merge","user":"gshotwell"}
+{"source":"github","type":"pr_open","project_id":"py-shiny-validate","target":"posit-dev/py-shiny-validate","datetime":"2023-12-19T19:40:59Z","ref":1,"user":"gshotwell"}
+{"source":"github","type":"pr_merge","project_id":"py-shiny-validate","target":"posit-dev/py-shiny-validate","datetime":"2023-12-19T19:41:22Z","ref":1,"user":"gshotwell"}

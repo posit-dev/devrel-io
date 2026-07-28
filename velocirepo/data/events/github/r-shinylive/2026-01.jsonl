@@ -1,7 +1,6 @@
-{"datetime":"2026-01-02T05:08:54Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"issue_open","user":"beausoleilmo"}
-{"datetime":"2026-01-07T14:51:24Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"star","user":"rodrigoesborges"}
-{"datetime":"2026-01-20T17:59:55Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"star","user":"wetlandscapes"}
-{"datetime":"2026-01-27T09:15:36Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_merge","user":"dirkschumacher"}
-{"datetime":"2026-01-27T09:15:37Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"issue_close","user":"JoaoGarcezAurelio"}
-{"datetime":"2026-01-27T09:21:29Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_merge","user":"dirkschumacher"}
-{"datetime":"2026-01-27T14:35:32Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"star","user":"kitmacleod"}
+{"source":"github","type":"comment","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-02T04:28:10Z","ref":157,"user":"beausoleilmo"}
+{"source":"github","type":"issue_open","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-02T05:08:54Z","ref":176,"user":"beausoleilmo"}
+{"source":"github","type":"comment","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-13T09:27:33Z","ref":172,"user":"dirkschumacher"}
+{"source":"github","type":"pr_merge","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-27T09:15:36Z","ref":172,"user":"dirkschumacher"}
+{"source":"github","type":"issue_close","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-27T09:15:37Z","ref":118,"user":"JoaoGarcezAurelio"}
+{"source":"github","type":"pr_merge","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-01-27T09:21:29Z","ref":171,"user":"dirkschumacher"}

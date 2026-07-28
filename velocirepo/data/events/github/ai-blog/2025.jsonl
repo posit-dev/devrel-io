@@ -1,3 +1,2 @@
-{"datetime":"2025-02-06T18:56:52Z","project_id":"ai-blog","source":"github","target":"rstudio/ai-blog","type":"star","user":"DavidGeeraerts"}
-{"datetime":"2025-08-19T21:03:42Z","project_id":"ai-blog","source":"github","target":"rstudio/ai-blog","type":"pr_open","user":"edgararuiz"}
-{"datetime":"2025-08-20T14:53:20Z","project_id":"ai-blog","source":"github","target":"rstudio/ai-blog","type":"pr_merge","user":"edgararuiz"}
+{"source":"github","type":"pr_open","project_id":"ai-blog","target":"rstudio/ai-blog","datetime":"2025-08-19T21:03:42Z","ref":231,"user":"edgararuiz"}
+{"source":"github","type":"pr_merge","project_id":"ai-blog","target":"rstudio/ai-blog","datetime":"2025-08-20T14:53:20Z","ref":231,"user":"edgararuiz"}

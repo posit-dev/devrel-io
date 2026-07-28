@@ -1,3 +1,5 @@
-{"datetime":"2018-01-10T00:12:30Z","project_id":"proxyrec","source":"github","target":"rstudio/proxyrec","type":"pr_open","user":"slopp"}
-{"datetime":"2018-01-22T18:42:04Z","project_id":"proxyrec","source":"github","target":"rstudio/proxyrec","type":"issue_open","user":"shalutiwari"}
-{"datetime":"2018-02-13T14:13:06Z","project_id":"proxyrec","source":"github","target":"rstudio/proxyrec","type":"issue_open","user":"dee-mc-cauley"}
+{"source":"github","type":"pr_open","project_id":"proxyrec","target":"rstudio/proxyrec","datetime":"2018-01-10T00:12:30Z","ref":13,"user":"slopp"}
+{"source":"github","type":"comment","project_id":"proxyrec","target":"rstudio/proxyrec","datetime":"2018-01-10T10:35:04Z","ref":13,"user":"alandipert"}
+{"source":"github","type":"issue_open","project_id":"proxyrec","target":"rstudio/proxyrec","datetime":"2018-01-22T18:42:04Z","ref":14,"user":"shalutiwari"}
+{"source":"github","type":"comment","project_id":"proxyrec","target":"rstudio/proxyrec","datetime":"2018-01-29T21:54:16Z","ref":14,"user":"shalutiwari"}
+{"source":"github","type":"issue_open","project_id":"proxyrec","target":"rstudio/proxyrec","datetime":"2018-02-13T14:13:06Z","ref":15,"user":"dee-mc-cauley"}

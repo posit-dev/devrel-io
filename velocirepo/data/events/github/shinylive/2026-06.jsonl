@@ -1,7 +1,7 @@
-{"datetime":"2026-06-01T22:51:18Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-06-01T22:54:11Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"pr_merge","user":"cpsievert"}
-{"datetime":"2026-06-02T14:18:43Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"issue_close","user":"gschivley"}
-{"datetime":"2026-06-02T14:19:58Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"issue_close","user":"schloerke"}
-{"datetime":"2026-06-09T15:04:51Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-06-10T08:42:24Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"star","user":"aazizov"}
-{"datetime":"2026-06-25T21:22:29Z","project_id":"shinylive","source":"github","target":"posit-dev/shinylive","type":"star","user":"jan0riha"}
+{"source":"github","type":"pr_open","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-01T22:51:18Z","ref":228,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-01T22:54:11Z","ref":228,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-02T01:47:42Z","ref":228,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-02T14:18:43Z","ref":176,"user":"gschivley"}
+{"source":"github","type":"comment","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-02T14:18:43Z","ref":176,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-02T14:19:58Z","ref":210,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"shinylive","target":"posit-dev/shinylive","datetime":"2026-06-09T15:04:51Z","ref":229,"user":"cpsievert"}

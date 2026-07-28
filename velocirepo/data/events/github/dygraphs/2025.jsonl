@@ -1,8 +1,5 @@
-{"datetime":"2025-02-10T17:49:47Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"star","user":"bttomio"}
-{"datetime":"2025-03-10T08:41:01Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"star","user":"shangrilaer"}
-{"datetime":"2025-03-13T01:11:58Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"star","user":"MRPHarris"}
-{"datetime":"2025-03-29T17:46:35Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"issue_open","user":"acjames76"}
-{"datetime":"2025-04-16T02:13:30Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"star","user":"Street-Volume"}
-{"datetime":"2025-05-23T09:48:39Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"issue_open","user":"Albirew"}
-{"datetime":"2025-08-17T15:39:25Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"issue_close","user":"Albirew"}
-{"datetime":"2025-12-01T18:36:02Z","project_id":"dygraphs","source":"github","target":"rstudio/dygraphs","type":"star","user":"WendyAnthony"}
+{"source":"github","type":"issue_open","project_id":"dygraphs","target":"rstudio/dygraphs","datetime":"2025-03-29T17:46:35Z","ref":270,"user":"acjames76"}
+{"source":"github","type":"comment","project_id":"dygraphs","target":"rstudio/dygraphs","datetime":"2025-03-29T18:16:23Z","ref":270,"user":"acjames76"}
+{"source":"github","type":"issue_open","project_id":"dygraphs","target":"rstudio/dygraphs","datetime":"2025-05-23T09:48:39Z","ref":271,"user":"Albirew"}
+{"source":"github","type":"issue_close","project_id":"dygraphs","target":"rstudio/dygraphs","datetime":"2025-08-17T15:39:25Z","ref":271,"user":"Albirew"}
+{"source":"github","type":"comment","project_id":"dygraphs","target":"rstudio/dygraphs","datetime":"2025-08-17T15:39:25Z","ref":271,"user":"Albirew"}

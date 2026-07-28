@@ -1,8 +1,8 @@
-{"datetime":"2022-10-08T03:22:41Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_open","user":"statik"}
-{"datetime":"2022-10-08T03:49:42Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_open","user":"statik"}
-{"datetime":"2022-10-08T04:18:03Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_open","user":"statik"}
-{"datetime":"2022-10-08T04:19:02Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_open","user":"statik"}
-{"datetime":"2022-11-05T16:14:05Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_close","user":"statik"}
-{"datetime":"2022-11-05T16:14:16Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_close","user":"statik"}
-{"datetime":"2022-11-05T16:14:24Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_close","user":"statik"}
-{"datetime":"2022-11-05T16:14:32Z","project_id":"issuetriager","source":"github","target":"rstudio/issuetriager","type":"issue_close","user":"statik"}
+{"source":"github","type":"issue_open","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-10-08T03:22:41Z","ref":1,"user":"statik"}
+{"source":"github","type":"issue_open","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-10-08T03:49:42Z","ref":2,"user":"statik"}
+{"source":"github","type":"issue_open","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-10-08T04:18:03Z","ref":3,"user":"statik"}
+{"source":"github","type":"issue_open","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-10-08T04:19:02Z","ref":4,"user":"statik"}
+{"source":"github","type":"issue_close","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-11-05T16:14:05Z","ref":4,"user":"statik"}
+{"source":"github","type":"issue_close","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-11-05T16:14:16Z","ref":3,"user":"statik"}
+{"source":"github","type":"issue_close","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-11-05T16:14:24Z","ref":2,"user":"statik"}
+{"source":"github","type":"issue_close","project_id":"issuetriager","target":"rstudio/issuetriager","datetime":"2022-11-05T16:14:32Z","ref":1,"user":"statik"}

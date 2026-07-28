@@ -1,5 +1,2 @@
-{"datetime":"2026-05-18T01:25:53Z","project_id":"hex-stickers","source":"github","target":"rstudio/hex-stickers","type":"star","user":"Mutaz94"}
-{"datetime":"2026-05-18T16:08:07Z","project_id":"hex-stickers","source":"github","target":"rstudio/hex-stickers","type":"pr_open","user":"bschwedler"}
-{"datetime":"2026-05-19T13:37:41Z","project_id":"hex-stickers","source":"github","target":"rstudio/hex-stickers","type":"pr_merge","user":"bschwedler"}
-{"datetime":"2026-05-20T15:11:45Z","project_id":"hex-stickers","source":"github","target":"rstudio/hex-stickers","type":"star","user":"falko42"}
-{"datetime":"2026-05-27T04:30:19Z","project_id":"hex-stickers","source":"github","target":"rstudio/hex-stickers","type":"star","user":"jyleejay"}
+{"source":"github","type":"pr_open","project_id":"hex-stickers","target":"rstudio/hex-stickers","datetime":"2026-05-18T16:08:07Z","ref":134,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"hex-stickers","target":"rstudio/hex-stickers","datetime":"2026-05-19T13:37:41Z","ref":134,"user":"bschwedler"}

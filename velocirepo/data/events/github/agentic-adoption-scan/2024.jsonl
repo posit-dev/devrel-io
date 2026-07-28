@@ -1,4 +1,4 @@
-{"datetime":"2024-04-02T19:44:47Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"pr_open","user":"statik"}
-{"datetime":"2024-04-02T19:44:53Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"pr_merge","user":"statik"}
-{"datetime":"2024-04-02T19:48:59Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"issue_open","user":"statik"}
-{"datetime":"2024-04-02T19:58:55Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"issue_close","user":"statik"}
+{"source":"github","type":"pr_open","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2024-04-02T19:44:47Z","ref":1,"user":"statik"}
+{"source":"github","type":"pr_merge","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2024-04-02T19:44:53Z","ref":1,"user":"statik"}
+{"source":"github","type":"issue_open","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2024-04-02T19:48:59Z","ref":2,"user":"statik"}
+{"source":"github","type":"issue_close","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2024-04-02T19:58:55Z","ref":2,"user":"statik"}

@@ -1,5 +1,6 @@
-{"datetime":"2019-03-21T17:23:55Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"star","user":"andrese52"}
-{"datetime":"2019-10-25T15:37:51Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"issue_open","user":"skolenik"}
-{"datetime":"2019-11-11T16:53:17Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"issue_close","user":"skolenik"}
-{"datetime":"2019-12-09T22:47:24Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"issue_open","user":"RaymondBalise"}
-{"datetime":"2019-12-19T23:21:27Z","project_id":"rmdexamples","source":"github","target":"rstudio/rmdexamples","type":"issue_close","user":"RaymondBalise"}
+{"source":"github","type":"issue_open","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-10-25T15:37:51Z","ref":9,"user":"skolenik"}
+{"source":"github","type":"issue_close","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-11-11T16:53:17Z","ref":9,"user":"skolenik"}
+{"source":"github","type":"comment","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-11-11T16:53:48Z","ref":9,"user":"yihui"}
+{"source":"github","type":"issue_open","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-12-09T22:47:24Z","ref":10,"user":"RaymondBalise"}
+{"source":"github","type":"issue_close","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-12-19T23:21:27Z","ref":10,"user":"RaymondBalise"}
+{"source":"github","type":"comment","project_id":"rmdexamples","target":"rstudio/rmdexamples","datetime":"2019-12-19T23:21:34Z","ref":10,"user":"yihui"}

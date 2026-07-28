@@ -1,3 +1,4 @@
-{"datetime":"2024-01-26T18:11:06Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_close","user":"t-kalinowski"}
-{"datetime":"2024-01-26T18:23:01Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_open","user":"t-kalinowski"}
-{"datetime":"2024-01-31T15:41:55Z","project_id":"tfruns","source":"github","target":"rstudio/tfruns","type":"issue_close","user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"tfruns","target":"rstudio/tfruns","datetime":"2024-01-26T18:11:06Z","ref":64,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"tfruns","target":"rstudio/tfruns","datetime":"2024-01-26T18:11:06Z","ref":64,"user":"t-kalinowski"}
+{"source":"github","type":"issue_open","project_id":"tfruns","target":"rstudio/tfruns","datetime":"2024-01-26T18:23:01Z","ref":66,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"tfruns","target":"rstudio/tfruns","datetime":"2024-01-31T15:41:55Z","ref":66,"user":"t-kalinowski"}

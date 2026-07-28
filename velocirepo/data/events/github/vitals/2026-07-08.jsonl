@@ -1,5 +1,5 @@
-{"datetime":"2026-07-08T15:33:02Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"simonpcouch"}
-{"datetime":"2026-07-08T15:30:40Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_open","user":"simonpcouch"}
-{"datetime":"2026-07-08T15:33:01Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_merge","user":"simonpcouch"}
-{"datetime":"2026-07-08T14:22:26Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_open","user":"simonpcouch"}
-{"datetime":"2026-07-08T15:29:35Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"pr_merge","user":"simonpcouch"}
+{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:33:02Z","ref":208,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:30:40Z","ref":216,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:33:01Z","ref":216,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T14:22:26Z","ref":215,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:29:35Z","ref":215,"user":"simonpcouch"}

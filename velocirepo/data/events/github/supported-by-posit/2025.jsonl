@@ -1,2 +1,5 @@
-{"datetime":"2025-11-01T09:22:30Z","project_id":"supported-by-posit","source":"github","target":"posit-dev/supported-by-posit","type":"issue_open","user":"jeroenjanssens"}
-{"datetime":"2025-11-07T12:59:23Z","project_id":"supported-by-posit","source":"github","target":"posit-dev/supported-by-posit","type":"issue_close","user":"jeroenjanssens"}
+{"source":"github","type":"issue_open","project_id":"supported-by-posit","target":"posit-dev/supported-by-posit","datetime":"2025-10-09T00:24:20Z","ref":1,"user":"gregswinehart"}
+{"source":"github","type":"comment","project_id":"supported-by-posit","target":"posit-dev/supported-by-posit","datetime":"2025-10-10T11:56:27Z","ref":1,"user":"jeroenjanssens"}
+{"source":"github","type":"comment","project_id":"supported-by-posit","target":"posit-dev/supported-by-posit","datetime":"2025-10-10T11:57:39Z","ref":1,"user":"jeroenjanssens"}
+{"source":"github","type":"issue_open","project_id":"supported-by-posit","target":"posit-dev/supported-by-posit","datetime":"2025-11-01T09:22:30Z","ref":2,"user":"jeroenjanssens"}
+{"source":"github","type":"issue_close","project_id":"supported-by-posit","target":"posit-dev/supported-by-posit","datetime":"2025-11-07T12:59:23Z","ref":2,"user":"jeroenjanssens"}

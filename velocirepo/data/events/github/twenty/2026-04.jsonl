@@ -1,2 +1,2 @@
-{"datetime":"2026-04-13T13:23:21Z","project_id":"twenty","source":"github","target":"posit-dev/twenty","type":"pr_merge","user":"copilot-swe-agent"}
-{"datetime":"2026-04-15T14:14:45Z","project_id":"twenty","source":"github","target":"posit-dev/twenty","type":"pr_open","user":"statik"}
+{"source":"github","type":"pr_merge","project_id":"twenty","target":"posit-dev/twenty","datetime":"2026-04-13T13:23:21Z","ref":1,"user":"copilot-swe-agent"}
+{"source":"github","type":"pr_open","project_id":"twenty","target":"posit-dev/twenty","datetime":"2026-04-15T14:14:45Z","ref":2,"user":"statik"}

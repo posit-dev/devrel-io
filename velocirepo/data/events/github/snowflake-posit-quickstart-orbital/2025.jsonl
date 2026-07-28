@@ -1,3 +1,4 @@
-{"datetime":"2025-08-12T16:26:35Z","project_id":"snowflake-posit-quickstart-orbital","source":"github","target":"posit-dev/snowflake-posit-quickstart-orbital","type":"fork","user":"samcofer"}
-{"datetime":"2025-08-12T16:30:46Z","project_id":"snowflake-posit-quickstart-orbital","source":"github","target":"posit-dev/snowflake-posit-quickstart-orbital","type":"pr_open","user":"samcofer"}
-{"datetime":"2025-08-14T00:00:00Z","project_id":"snowflake-posit-quickstart-orbital","source":"github","target":"posit-dev/snowflake-posit-quickstart-orbital","type":"pr_merge","user":"samcofer"}
+{"source":"github","type":"fork","project_id":"snowflake-posit-quickstart-orbital","target":"posit-dev/snowflake-posit-quickstart-orbital","datetime":"2025-08-12T16:26:35Z","user":"samcofer"}
+{"source":"github","type":"pr_open","project_id":"snowflake-posit-quickstart-orbital","target":"posit-dev/snowflake-posit-quickstart-orbital","datetime":"2025-08-12T16:30:46Z","ref":1,"user":"samcofer"}
+{"source":"github","type":"comment","project_id":"snowflake-posit-quickstart-orbital","target":"posit-dev/snowflake-posit-quickstart-orbital","datetime":"2025-08-12T16:50:36Z","ref":1,"user":"samcofer"}
+{"source":"github","type":"pr_merge","project_id":"snowflake-posit-quickstart-orbital","target":"posit-dev/snowflake-posit-quickstart-orbital","datetime":"2025-08-14T00:00:00Z","ref":1,"user":"samcofer"}

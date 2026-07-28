@@ -1,8 +1,8 @@
-{"datetime":"2025-09-18T15:11:13Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_open","user":"bschwedler"}
-{"datetime":"2025-09-18T18:42:17Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_open","user":"bschwedler"}
-{"datetime":"2025-09-23T14:43:33Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_merge","user":"bschwedler"}
-{"datetime":"2025-09-23T15:07:13Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_open","user":"bschwedler"}
-{"datetime":"2025-11-20T16:10:29Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_merge","user":"bschwedler"}
-{"datetime":"2025-12-18T15:52:16Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_open","user":"bschwedler"}
-{"datetime":"2025-12-31T20:33:16Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_open","user":"bschwedler"}
-{"datetime":"2025-12-31T20:33:40Z","project_id":"images-examples","source":"github","target":"posit-dev/images-examples","type":"pr_merge","user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-09-18T15:11:13Z","ref":1,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-09-18T18:42:17Z","ref":2,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-09-23T14:43:33Z","ref":1,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-09-23T15:07:13Z","ref":3,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-11-20T16:10:29Z","ref":3,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-12-18T15:52:16Z","ref":4,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-12-31T20:33:16Z","ref":5,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2025-12-31T20:33:40Z","ref":5,"user":"bschwedler"}

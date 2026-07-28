@@ -1,11 +1,5 @@
-{"datetime":"2016-02-06T17:43:28Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"shecky2000"}
-{"datetime":"2016-03-03T19:56:08Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-03-09T01:38:48Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"sk413025"}
-{"datetime":"2016-07-25T12:15:27Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"yanlinlin82"}
-{"datetime":"2016-07-29T04:39:46Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"eyv"}
-{"datetime":"2016-08-31T13:44:22Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"fork","user":"marcelboldt"}
-{"datetime":"2016-09-08T18:33:19Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"issue_open","user":"debsush"}
-{"datetime":"2016-10-03T14:21:40Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"akashtalole"}
-{"datetime":"2016-10-26T02:10:15Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"karlarao"}
-{"datetime":"2016-10-27T15:57:47Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"fork","user":"brettjbush"}
-{"datetime":"2016-11-04T13:03:09Z","project_id":"r-websockets","source":"github","target":"rstudio/R-Websockets","type":"star","user":"PKConsul"}
+{"source":"github","type":"fork","project_id":"r-websockets","target":"rstudio/R-Websockets","datetime":"2016-03-03T19:56:08Z","user":"astraadria4ari"}
+{"source":"github","type":"fork","project_id":"r-websockets","target":"rstudio/R-Websockets","datetime":"2016-08-31T13:44:22Z","user":"marcelboldt"}
+{"source":"github","type":"issue_open","project_id":"r-websockets","target":"rstudio/R-Websockets","datetime":"2016-09-08T18:33:19Z","ref":16,"user":"debsush"}
+{"source":"github","type":"fork","project_id":"r-websockets","target":"rstudio/R-Websockets","datetime":"2016-10-27T15:57:47Z","user":"brettjbush"}
+{"source":"github","type":"comment","project_id":"r-websockets","target":"rstudio/R-Websockets","datetime":"2016-11-04T13:02:03Z","ref":16,"user":"bwlewis"}

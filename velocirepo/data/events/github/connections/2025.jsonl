@@ -1,5 +1,3 @@
-{"datetime":"2025-01-14T18:08:55Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"Ed2uiz"}
-{"datetime":"2025-03-06T00:04:38Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"issue_open","user":"dfalbel"}
-{"datetime":"2025-08-10T02:17:14Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"Yux256"}
-{"datetime":"2025-09-10T16:05:21Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"pr_open","user":"edgararuiz"}
-{"datetime":"2025-09-10T17:02:28Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"pr_merge","user":"edgararuiz"}
+{"source":"github","type":"issue_open","project_id":"connections","target":"rstudio/connections","datetime":"2025-03-06T00:04:38Z","ref":19,"user":"dfalbel"}
+{"source":"github","type":"pr_open","project_id":"connections","target":"rstudio/connections","datetime":"2025-09-10T16:05:21Z","ref":20,"user":"edgararuiz"}
+{"source":"github","type":"pr_merge","project_id":"connections","target":"rstudio/connections","datetime":"2025-09-10T17:02:28Z","ref":20,"user":"edgararuiz"}

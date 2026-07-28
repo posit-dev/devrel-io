@@ -1,9 +1,8 @@
-{"datetime":"2022-01-05T15:07:51Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_open","user":"meatballhat"}
-{"datetime":"2022-01-05T15:14:53Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_merge","user":"meatballhat"}
-{"datetime":"2022-05-12T21:30:07Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_open","user":"meatballhat"}
-{"datetime":"2022-05-13T12:19:40Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"star","user":"statik"}
-{"datetime":"2022-05-13T12:58:58Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_merge","user":"meatballhat"}
-{"datetime":"2022-06-22T18:18:23Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_open","user":"meatballhat"}
-{"datetime":"2022-06-22T20:59:00Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_merge","user":"meatballhat"}
-{"datetime":"2022-09-03T12:18:00Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_open","user":"meatballhat"}
-{"datetime":"2022-09-06T17:17:34Z","project_id":"k8s-http-auth","source":"github","target":"rstudio/k8s-http-auth","type":"pr_merge","user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-01-05T15:07:51Z","ref":7,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-01-05T15:14:53Z","ref":7,"user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-05-12T21:30:07Z","ref":8,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-05-13T12:58:58Z","ref":8,"user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-06-22T18:18:23Z","ref":9,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-06-22T20:59:00Z","ref":9,"user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-09-03T12:18:00Z","ref":10,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"k8s-http-auth","target":"rstudio/k8s-http-auth","datetime":"2022-09-06T17:17:34Z","ref":10,"user":"meatballhat"}

@@ -1,9 +1,2 @@
-{"datetime":"2016-03-03T20:00:10Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-04-07T19:04:52Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"dgrtwo"}
-{"datetime":"2016-04-07T19:28:15Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"trinker"}
-{"datetime":"2016-04-18T09:52:57Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"pr_open","user":"mdsumner"}
-{"datetime":"2016-06-01T20:57:33Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"Henrikun"}
-{"datetime":"2016-06-27T18:51:22Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"cjtexas"}
-{"datetime":"2016-07-09T20:33:25Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"vjd"}
-{"datetime":"2016-07-10T16:01:18Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"jsta"}
-{"datetime":"2016-12-15T15:39:17Z","project_id":"gggeom","source":"github","target":"rstudio/gggeom","type":"star","user":"etiennebr"}
+{"source":"github","type":"fork","project_id":"gggeom","target":"rstudio/gggeom","datetime":"2016-03-03T20:00:10Z","user":"astraadria4ari"}
+{"source":"github","type":"pr_open","project_id":"gggeom","target":"rstudio/gggeom","datetime":"2016-04-18T09:52:57Z","ref":16,"user":"mdsumner"}

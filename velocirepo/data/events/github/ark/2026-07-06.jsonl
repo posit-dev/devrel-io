@@ -1,2 +1,5 @@
-{"datetime":"2026-07-06T19:30:48Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"juliasilge"}
-{"datetime":"2026-07-06T06:45:35Z","project_id":"ark","source":"github","target":"posit-dev/ark","type":"pr_open","user":"lionel-"}
+{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-06T19:30:48Z","ref":1319,"user":"juliasilge"}
+{"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-06T06:45:35Z","ref":1318,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-06T12:10:17Z","ref":1285,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-06T12:06:17Z","ref":1284,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-06T10:25:57Z","ref":1283,"user":"lionel-"}

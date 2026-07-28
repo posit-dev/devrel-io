@@ -1,7 +1,7 @@
-{"datetime":"2024-02-12T16:25:05Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"meatballhat"}
-{"datetime":"2024-03-11T19:07:58Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"colearendt"}
-{"datetime":"2024-04-17T11:45:27Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"timtalbot"}
-{"datetime":"2024-06-12T15:33:57Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"colearendt"}
-{"datetime":"2024-08-09T17:11:54Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"timtalbot"}
-{"datetime":"2024-11-22T15:29:16Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"timtalbot"}
-{"datetime":"2024-12-17T21:03:09Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"timtalbot"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-02-12T16:25:05Z","ref":79,"user":"meatballhat"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-03-11T19:07:58Z","ref":78,"user":"colearendt"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-04-17T11:45:27Z","ref":77,"user":"timtalbot"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-06-12T15:33:57Z","ref":76,"user":"colearendt"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-08-09T17:11:54Z","ref":75,"user":"timtalbot"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-11-22T15:29:16Z","ref":74,"user":"timtalbot"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2024-12-17T21:03:09Z","ref":73,"user":"timtalbot"}

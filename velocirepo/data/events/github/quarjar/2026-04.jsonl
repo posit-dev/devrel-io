@@ -1,4 +1,4 @@
-{"datetime":"2026-04-15T10:07:02Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_open","user":"fmichonneau"}
-{"datetime":"2026-04-15T11:02:13Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_open","user":"fmichonneau"}
-{"datetime":"2026-04-15T12:46:15Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_merge","user":"fmichonneau"}
-{"datetime":"2026-04-15T12:49:50Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_merge","user":"fmichonneau"}
+{"source":"github","type":"pr_open","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-04-15T10:07:02Z","ref":13,"user":"fmichonneau"}
+{"source":"github","type":"pr_open","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-04-15T11:02:13Z","ref":14,"user":"fmichonneau"}
+{"source":"github","type":"pr_merge","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-04-15T12:46:15Z","ref":14,"user":"fmichonneau"}
+{"source":"github","type":"pr_merge","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-04-15T12:49:50Z","ref":13,"user":"fmichonneau"}

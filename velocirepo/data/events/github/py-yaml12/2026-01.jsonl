@@ -1,4 +1,2 @@
-{"datetime":"2026-01-06T21:28:22Z","project_id":"py-yaml12","source":"github","target":"posit-dev/py-yaml12","type":"fork","user":"rich-iannone"}
-{"datetime":"2026-01-06T21:45:39Z","project_id":"py-yaml12","source":"github","target":"posit-dev/py-yaml12","type":"pr_open","user":"rich-iannone"}
-{"datetime":"2026-01-07T19:58:06Z","project_id":"py-yaml12","source":"github","target":"posit-dev/py-yaml12","type":"star","user":"astrowonk"}
-{"datetime":"2026-01-07T22:39:27Z","project_id":"py-yaml12","source":"github","target":"posit-dev/py-yaml12","type":"star","user":"jmbarbone"}
+{"source":"github","type":"fork","project_id":"py-yaml12","target":"posit-dev/py-yaml12","datetime":"2026-01-06T21:28:22Z","user":"rich-iannone"}
+{"source":"github","type":"pr_open","project_id":"py-yaml12","target":"posit-dev/py-yaml12","datetime":"2026-01-06T21:45:39Z","ref":11,"user":"rich-iannone"}

@@ -1,3 +1,7 @@
-{"datetime":"2026-02-10T15:39:17Z","project_id":"promises","source":"github","target":"rstudio/promises","type":"pr_open","user":"schloerke"}
-{"datetime":"2026-02-10T15:52:33Z","project_id":"promises","source":"github","target":"rstudio/promises","type":"pr_open","user":"copilot-swe-agent"}
-{"datetime":"2026-02-10T16:10:02Z","project_id":"promises","source":"github","target":"rstudio/promises","type":"pr_merge","user":"copilot-swe-agent"}
+{"source":"github","type":"pr_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T15:39:17Z","ref":206,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T15:52:26Z","ref":206,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T15:52:33Z","ref":207,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T15:52:36Z","ref":206,"user":"Copilot"}
+{"source":"github","type":"comment","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T15:52:41Z","ref":207,"user":"CLAassistant"}
+{"source":"github","type":"pr_merge","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T16:10:02Z","ref":207,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"promises","target":"rstudio/promises","datetime":"2026-02-10T16:10:12Z","ref":206,"user":"CLAassistant"}

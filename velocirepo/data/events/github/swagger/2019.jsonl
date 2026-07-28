@@ -1,10 +1,5 @@
-{"datetime":"2019-01-04T19:49:08Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"pr_merge","user":"schloerke"}
-{"datetime":"2019-01-15T22:06:50Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"eduardszoecs"}
-{"datetime":"2019-01-16T14:20:56Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"svdwoude"}
-{"datetime":"2019-06-04T20:21:23Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"issue_open","user":"adamrp"}
-{"datetime":"2019-07-05T08:41:15Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"fork","user":"lorenzwalthert"}
-{"datetime":"2019-07-05T08:41:44Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"lorenzwalthert"}
-{"datetime":"2019-07-18T20:45:58Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"jimbrig"}
-{"datetime":"2019-08-19T03:04:13Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"fork","user":"michalkouril"}
-{"datetime":"2019-09-18T06:13:13Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"jimjam-slam"}
-{"datetime":"2019-11-28T15:06:11Z","project_id":"swagger","source":"github","target":"rstudio/swagger","type":"star","user":"GreedBlink"}
+{"source":"github","type":"comment","project_id":"swagger","target":"rstudio/swagger","datetime":"2019-01-04T16:55:53Z","ref":7,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"swagger","target":"rstudio/swagger","datetime":"2019-01-04T19:49:08Z","ref":7,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"swagger","target":"rstudio/swagger","datetime":"2019-06-04T20:21:23Z","ref":8,"user":"adamrp"}
+{"source":"github","type":"fork","project_id":"swagger","target":"rstudio/swagger","datetime":"2019-07-05T08:41:15Z","user":"lorenzwalthert"}
+{"source":"github","type":"fork","project_id":"swagger","target":"rstudio/swagger","datetime":"2019-08-19T03:04:13Z","user":"michalkouril"}

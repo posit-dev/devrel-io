@@ -1,3 +1,2 @@
-{"datetime":"2025-10-27T10:43:37Z","project_id":"positron-demos-notebooks","source":"github","target":"posit-dev/positron-demos-notebooks","type":"pr_open","user":"seeM"}
-{"datetime":"2025-10-27T11:24:20Z","project_id":"positron-demos-notebooks","source":"github","target":"posit-dev/positron-demos-notebooks","type":"pr_merge","user":"seeM"}
-{"datetime":"2025-11-14T15:14:57Z","project_id":"positron-demos-notebooks","source":"github","target":"posit-dev/positron-demos-notebooks","type":"star","user":"kamilm"}
+{"source":"github","type":"pr_open","project_id":"positron-demos-notebooks","target":"posit-dev/positron-demos-notebooks","datetime":"2025-10-27T10:43:37Z","ref":1,"user":"seeM"}
+{"source":"github","type":"pr_merge","project_id":"positron-demos-notebooks","target":"posit-dev/positron-demos-notebooks","datetime":"2025-10-27T11:24:20Z","ref":1,"user":"seeM"}

@@ -1,6 +1,2 @@
-{"datetime":"2018-01-12T10:03:49Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"dylancis"}
-{"datetime":"2018-01-12T10:19:34Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"issue_open","user":"dylancis"}
-{"datetime":"2018-05-19T13:39:57Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"jusinowicz"}
-{"datetime":"2018-08-22T06:16:06Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"HarshaAsh"}
-{"datetime":"2018-10-22T12:11:18Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"systats"}
-{"datetime":"2018-10-30T12:25:26Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"venyao"}
+{"source":"github","type":"issue_open","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2018-01-12T10:19:34Z","ref":8,"user":"dylancis"}
+{"source":"github","type":"comment","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2018-01-12T10:19:41Z","ref":8,"user":"ihaddad-md"}

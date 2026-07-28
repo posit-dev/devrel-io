@@ -1,7 +1,9 @@
-{"datetime":"2020-01-12T17:31:49Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"issue_open","user":"cjvanlissa"}
-{"datetime":"2020-01-31T16:15:27Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"issue_close","user":"cjvanlissa"}
-{"datetime":"2020-03-16T21:46:40Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"jimbrig"}
-{"datetime":"2020-05-23T15:18:43Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"danielpodlesny"}
-{"datetime":"2020-06-03T16:28:29Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"MathieuMarauri"}
-{"datetime":"2020-06-26T03:35:00Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"matickoplingan"}
-{"datetime":"2020-07-01T10:27:28Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"yashmasand"}
+{"source":"github","type":"issue_open","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-01-12T17:31:49Z","ref":1,"user":"cjvanlissa"}
+{"source":"github","type":"comment","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-01-31T16:08:47Z","ref":1,"user":"kevinushey"}
+{"source":"github","type":"comment","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-01-31T16:13:49Z","ref":1,"user":"cjvanlissa"}
+{"source":"github","type":"issue_close","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-01-31T16:15:27Z","ref":1,"user":"cjvanlissa"}
+{"source":"github","type":"comment","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-01-31T16:15:27Z","ref":1,"user":"kevinushey"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-05-23T15:18:43Z","user":"danielpodlesny"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-06-03T16:28:29Z","user":"MathieuMarauri"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-06-26T03:35:00Z","user":"matickoplingan"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2020-07-01T10:27:28Z","user":"yashmasand"}

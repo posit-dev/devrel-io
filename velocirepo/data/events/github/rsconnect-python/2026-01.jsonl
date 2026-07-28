@@ -1,3 +1,5 @@
-{"datetime":"2026-01-05T17:02:02Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_open","user":"nealrichardson"}
-{"datetime":"2026-01-07T18:54:16Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"pr_merge","user":"nealrichardson"}
-{"datetime":"2026-01-07T18:54:17Z","project_id":"rsconnect-python","source":"github","target":"posit-dev/rsconnect-python","type":"issue_close","user":"nealrichardson"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-01-05T17:02:02Z","ref":753,"user":"nealrichardson"}
+{"source":"github","type":"comment","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-01-05T17:02:29Z","ref":753,"user":"github-actions[bot]"}
+{"source":"github","type":"comment","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-01-05T17:03:50Z","ref":753,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-01-07T18:54:16Z","ref":753,"user":"nealrichardson"}
+{"source":"github","type":"issue_close","project_id":"rsconnect-python","target":"posit-dev/rsconnect-python","datetime":"2026-01-07T18:54:17Z","ref":733,"user":"nealrichardson"}

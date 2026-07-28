@@ -1,5 +1,8 @@
-{"datetime":"2025-09-15T13:57:28Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"fork","user":"lionel-"}
-{"datetime":"2025-09-15T15:11:58Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_open","user":"lionel-"}
-{"datetime":"2025-09-25T23:13:06Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_merge","user":"lionel-"}
-{"datetime":"2025-12-15T19:59:34Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_open","user":"juliasilge"}
-{"datetime":"2025-12-16T17:36:51Z","project_id":"cla-assistant","source":"github","target":"posit-dev/cla-assistant","type":"pr_merge","user":"juliasilge"}
+{"source":"github","type":"fork","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-15T13:57:28Z","user":"lionel-"}
+{"source":"github","type":"pr_open","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-15T15:11:58Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-15T15:13:42Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-25T15:43:15Z","ref":2,"user":"juliasilge"}
+{"source":"github","type":"pr_merge","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-25T23:13:06Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-09-25T23:14:07Z","ref":2,"user":"jcheng5"}
+{"source":"github","type":"pr_open","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-12-15T19:59:34Z","ref":3,"user":"juliasilge"}
+{"source":"github","type":"pr_merge","project_id":"cla-assistant","target":"posit-dev/cla-assistant","datetime":"2025-12-16T17:36:51Z","ref":3,"user":"juliasilge"}

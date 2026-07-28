@@ -1,6 +1,6 @@
-{"datetime":"2026-05-04T12:14:35Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"nealrichardson"}
-{"datetime":"2026-05-04T12:17:41Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"nealrichardson"}
-{"datetime":"2026-05-04T12:18:57Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"nealrichardson"}
-{"datetime":"2026-05-04T12:22:42Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"nealrichardson"}
-{"datetime":"2026-05-04T18:27:43Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"nealrichardson"}
-{"datetime":"2026-05-04T19:55:33Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"nealrichardson"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T12:14:35Z","ref":51,"user":"nealrichardson"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T12:17:41Z","ref":51,"user":"nealrichardson"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T12:18:57Z","ref":52,"user":"nealrichardson"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T12:22:42Z","ref":52,"user":"nealrichardson"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T18:27:43Z","ref":53,"user":"nealrichardson"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2026-05-04T19:55:33Z","ref":53,"user":"nealrichardson"}

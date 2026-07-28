@@ -1,7 +1,3 @@
-{"datetime":"2022-07-14T18:05:38Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"issue_open","user":"cpsievert"}
-{"datetime":"2022-07-29T02:01:38Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"star","user":"artlesshao"}
-{"datetime":"2022-07-30T05:50:52Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"star","user":"yutannihilation"}
-{"datetime":"2022-10-07T04:43:19Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"star","user":"caaperezag"}
-{"datetime":"2022-11-18T23:28:12Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"pr_open","user":"cpsievert"}
-{"datetime":"2022-11-21T23:35:04Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"pr_merge","user":"cpsievert"}
-{"datetime":"2022-12-16T17:02:20Z","project_id":"bsicons","source":"github","target":"rstudio/bsicons","type":"star","user":"salim-b"}
+{"source":"github","type":"issue_open","project_id":"bsicons","target":"rstudio/bsicons","datetime":"2022-07-14T18:05:38Z","ref":1,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"bsicons","target":"rstudio/bsicons","datetime":"2022-11-18T23:28:12Z","ref":2,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"bsicons","target":"rstudio/bsicons","datetime":"2022-11-21T23:35:04Z","ref":2,"user":"cpsievert"}

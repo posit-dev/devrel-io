@@ -1,2 +1,2 @@
-{"datetime":"2026-07-07T18:40:42Z","project_id":"images-connect","source":"github","target":"posit-dev/images-connect","type":"pr_open","user":"bschwedler"}
-{"datetime":"2026-07-07T20:39:26Z","project_id":"images-connect","source":"github","target":"posit-dev/images-connect","type":"pr_merge","user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-connect","target":"posit-dev/images-connect","datetime":"2026-07-07T18:40:42Z","ref":137,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-connect","target":"posit-dev/images-connect","datetime":"2026-07-07T20:39:26Z","ref":137,"user":"bschwedler"}

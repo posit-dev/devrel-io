@@ -1,3 +1,5 @@
-{"datetime":"2024-02-26T06:06:34Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_open","user":"kimsjune"}
-{"datetime":"2024-02-26T15:41:09Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"issue_close","user":"kimsjune"}
-{"datetime":"2024-08-02T16:26:18Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2024-02-26T06:06:34Z","ref":70,"user":"kimsjune"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2024-02-26T14:59:41Z","ref":70,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2024-02-26T15:41:09Z","ref":70,"user":"kimsjune"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2024-02-26T15:41:09Z","ref":70,"user":"kimsjune"}
+{"source":"github","type":"pr_open","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2024-08-02T16:26:18Z","ref":71,"user":"schloerke"}

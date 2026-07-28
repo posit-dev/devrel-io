@@ -1,8 +1,5 @@
-{"datetime":"2020-01-20T21:24:30Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"nischalshrestha"}
-{"datetime":"2020-03-06T12:17:28Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"caio-peixoto"}
-{"datetime":"2020-03-12T19:04:52Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"ClintWeathers"}
-{"datetime":"2020-05-06T22:48:58Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"ExcelDataModels"}
-{"datetime":"2020-05-07T19:58:09Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"issue_open","user":"IsadoraBM"}
-{"datetime":"2020-06-12T12:33:46Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"andypiper"}
-{"datetime":"2020-08-07T14:03:31Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"jesusjuan007"}
-{"datetime":"2020-12-15T04:39:47Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"darrenllewellyn"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2020-03-06T12:17:28Z","user":"caio-peixoto"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2020-03-12T19:04:52Z","user":"ClintWeathers"}
+{"source":"github","type":"comment","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2020-05-04T18:14:46Z","ref":10,"user":"IsadoraBM"}
+{"source":"github","type":"issue_open","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2020-05-07T19:58:09Z","ref":11,"user":"IsadoraBM"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2020-08-07T14:03:31Z","user":"jesusjuan007"}

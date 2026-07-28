@@ -1,6 +1,9 @@
-{"datetime":"2026-01-06T23:31:36Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_open","user":"jonkeane"}
-{"datetime":"2026-01-09T23:43:16Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_merge","user":"jonkeane"}
-{"datetime":"2026-01-12T14:29:58Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_open","user":"jonkeane"}
-{"datetime":"2026-01-12T14:33:38Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_merge","user":"jonkeane"}
-{"datetime":"2026-01-27T20:57:51Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_open","user":"marcosnav"}
-{"datetime":"2026-01-30T00:36:39Z","project_id":"connect-staging-extensions","source":"github","target":"posit-dev/connect-staging-extensions","type":"pr_merge","user":"marcosnav"}
+{"source":"github","type":"comment","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-06T17:11:34Z","ref":7,"user":"toph-allen"}
+{"source":"github","type":"pr_open","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-06T23:31:36Z","ref":16,"user":"jonkeane"}
+{"source":"github","type":"pr_merge","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-09T23:43:16Z","ref":16,"user":"jonkeane"}
+{"source":"github","type":"pr_open","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-12T14:29:58Z","ref":17,"user":"jonkeane"}
+{"source":"github","type":"comment","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-12T14:33:31Z","ref":17,"user":"jonkeane"}
+{"source":"github","type":"pr_merge","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-12T14:33:38Z","ref":17,"user":"jonkeane"}
+{"source":"github","type":"pr_open","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-27T20:57:51Z","ref":18,"user":"marcosnav"}
+{"source":"github","type":"comment","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-27T21:49:42Z","ref":18,"user":"joshyam-k"}
+{"source":"github","type":"pr_merge","project_id":"connect-staging-extensions","target":"posit-dev/connect-staging-extensions","datetime":"2026-01-30T00:36:39Z","ref":18,"user":"marcosnav"}

@@ -1,2 +1,2 @@
-{"datetime":"2026-07-16T15:51:15Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"pr_open","user":"positron-projects"}
-{"datetime":"2026-07-16T15:51:18Z","project_id":"positron-api-pkg","source":"github","target":"posit-dev/positron-api-pkg","type":"pr_merge","user":"positron-projects"}
+{"source":"github","type":"pr_open","project_id":"positron-api-pkg","target":"posit-dev/positron-api-pkg","datetime":"2026-07-16T15:51:15Z","ref":9,"user":"positron-projects"}
+{"source":"github","type":"pr_merge","project_id":"positron-api-pkg","target":"posit-dev/positron-api-pkg","datetime":"2026-07-16T15:51:18Z","ref":9,"user":"positron-projects"}

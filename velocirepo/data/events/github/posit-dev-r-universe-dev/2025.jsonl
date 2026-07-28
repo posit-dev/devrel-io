@@ -1,3 +1,4 @@
-{"datetime":"2025-08-19T17:49:23Z","project_id":"posit-dev-r-universe-dev","source":"github","target":"posit-dev/posit-dev.r-universe.dev","type":"star","user":"amelia-m"}
-{"datetime":"2025-11-04T21:50:41Z","project_id":"posit-dev-r-universe-dev","source":"github","target":"posit-dev/posit-dev.r-universe.dev","type":"fork","user":"brendanhcullen"}
-{"datetime":"2025-11-04T21:50:45Z","project_id":"posit-dev-r-universe-dev","source":"github","target":"posit-dev/posit-dev.r-universe.dev","type":"pr_open","user":"brendanhcullen"}
+{"source":"github","type":"fork","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2025-11-04T21:50:41Z","user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2025-11-04T21:50:45Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"comment","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2025-11-04T22:58:37Z","ref":1,"user":"gadenbuie"}
+{"source":"github","type":"comment","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2025-11-04T23:14:36Z","ref":1,"user":"brendanhcullen"}

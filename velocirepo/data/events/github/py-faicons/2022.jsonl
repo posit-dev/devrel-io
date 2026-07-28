@@ -1,3 +1,5 @@
-{"datetime":"2022-04-19T22:09:56Z","project_id":"py-faicons","source":"github","target":"posit-dev/py-faicons","type":"issue_open","user":"wch"}
-{"datetime":"2022-09-30T18:04:40Z","project_id":"py-faicons","source":"github","target":"posit-dev/py-faicons","type":"issue_close","user":"wch"}
-{"datetime":"2022-10-03T23:37:52Z","project_id":"py-faicons","source":"github","target":"posit-dev/py-faicons","type":"pr_open","user":"jcheng5"}
+{"source":"github","type":"comment","project_id":"py-faicons","target":"posit-dev/py-faicons","datetime":"2022-03-15T23:07:51Z","ref":1,"user":"dependabot[bot]"}
+{"source":"github","type":"issue_open","project_id":"py-faicons","target":"posit-dev/py-faicons","datetime":"2022-04-19T22:09:56Z","ref":2,"user":"wch"}
+{"source":"github","type":"issue_close","project_id":"py-faicons","target":"posit-dev/py-faicons","datetime":"2022-09-30T18:04:40Z","ref":2,"user":"wch"}
+{"source":"github","type":"pr_open","project_id":"py-faicons","target":"posit-dev/py-faicons","datetime":"2022-10-03T23:37:52Z","ref":3,"user":"jcheng5"}
+{"source":"github","type":"comment","project_id":"py-faicons","target":"posit-dev/py-faicons","datetime":"2022-10-04T02:37:59Z","ref":3,"user":"wch"}

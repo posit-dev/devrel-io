@@ -1,4 +1,4 @@
-{"datetime":"2022-01-10T16:23:37Z","project_id":"sparkxgb","source":"github","target":"rstudio/sparkxgb","type":"pr_open","user":"yitao-li"}
-{"datetime":"2022-01-11T11:09:04Z","project_id":"sparkxgb","source":"github","target":"rstudio/sparkxgb","type":"pr_merge","user":"yitao-li"}
-{"datetime":"2022-01-15T11:25:30Z","project_id":"sparkxgb","source":"github","target":"rstudio/sparkxgb","type":"star","user":"siegfried"}
-{"datetime":"2022-10-01T16:05:59Z","project_id":"sparkxgb","source":"github","target":"rstudio/sparkxgb","type":"issue_open","user":"leesiwook95"}
+{"source":"github","type":"pr_open","project_id":"sparkxgb","target":"rstudio/sparkxgb","datetime":"2022-01-10T16:23:37Z","ref":42,"user":"yitao-li"}
+{"source":"github","type":"pr_merge","project_id":"sparkxgb","target":"rstudio/sparkxgb","datetime":"2022-01-11T11:09:04Z","ref":42,"user":"yitao-li"}
+{"source":"github","type":"comment","project_id":"sparkxgb","target":"rstudio/sparkxgb","datetime":"2022-04-08T09:22:37Z","ref":40,"user":"mzorko"}
+{"source":"github","type":"issue_open","project_id":"sparkxgb","target":"rstudio/sparkxgb","datetime":"2022-10-01T16:05:59Z","ref":43,"user":"leesiwook95"}

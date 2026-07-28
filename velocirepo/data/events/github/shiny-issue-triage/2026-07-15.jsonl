@@ -1,5 +1,12 @@
-{"datetime":"2026-07-15T20:16:24Z","project_id":"shiny-issue-triage","source":"github","target":"posit-dev/shiny-issue-triage","type":"pr_open","user":"schloerke"}
-{"datetime":"2026-07-15T19:04:28Z","project_id":"shiny-issue-triage","source":"github","target":"posit-dev/shiny-issue-triage","type":"pr_open","user":"schloerke"}
-{"datetime":"2026-07-15T19:13:00Z","project_id":"shiny-issue-triage","source":"github","target":"posit-dev/shiny-issue-triage","type":"pr_merge","user":"schloerke"}
-{"datetime":"2026-07-15T18:06:25Z","project_id":"shiny-issue-triage","source":"github","target":"posit-dev/shiny-issue-triage","type":"pr_open","user":"schloerke"}
-{"datetime":"2026-07-15T18:09:43Z","project_id":"shiny-issue-triage","source":"github","target":"posit-dev/shiny-issue-triage","type":"pr_merge","user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T19:13:01Z","ref":30,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T18:09:44Z","ref":26,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T17:46:29Z","ref":11,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T17:46:27Z","ref":10,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T20:16:24Z","ref":47,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T19:04:28Z","ref":46,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T19:13:00Z","ref":46,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T18:06:25Z","ref":45,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T18:09:43Z","ref":45,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T17:46:06Z","ref":44,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T17:46:28Z","ref":11,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"shiny-issue-triage","target":"posit-dev/shiny-issue-triage","datetime":"2026-07-15T17:46:26Z","ref":10,"user":"schloerke"}

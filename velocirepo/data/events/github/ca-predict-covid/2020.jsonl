@@ -1,2 +1,2 @@
-{"datetime":"2020-06-24T15:47:33Z","project_id":"ca-predict-covid","source":"github","target":"rstudio/ca-predict-covid","type":"pr_open","user":"slopp"}
-{"datetime":"2020-06-24T16:27:08Z","project_id":"ca-predict-covid","source":"github","target":"rstudio/ca-predict-covid","type":"pr_merge","user":"slopp"}
+{"source":"github","type":"pr_open","project_id":"ca-predict-covid","target":"rstudio/ca-predict-covid","datetime":"2020-06-24T15:47:33Z","ref":1,"user":"slopp"}
+{"source":"github","type":"pr_merge","project_id":"ca-predict-covid","target":"rstudio/ca-predict-covid","datetime":"2020-06-24T16:27:08Z","ref":1,"user":"slopp"}

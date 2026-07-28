@@ -1,7 +1,3 @@
-{"datetime":"2020-07-17T14:46:23Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"fork","user":"christinamedeiros"}
-{"datetime":"2020-07-17T14:47:23Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"pr_open","user":"christinamedeiros"}
-{"datetime":"2020-07-17T14:50:09Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"pr_merge","user":"christinamedeiros"}
-{"datetime":"2020-07-28T15:17:30Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"star","user":"pmags"}
-{"datetime":"2020-07-28T15:22:55Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"star","user":"psychtek"}
-{"datetime":"2020-07-28T15:41:23Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"star","user":"workroommedia"}
-{"datetime":"2020-07-28T15:52:53Z","project_id":"enabling-remote-data-science-teams","source":"github","target":"rstudio/enabling-remote-data-science-teams","type":"star","user":"HBegali"}
+{"source":"github","type":"fork","project_id":"enabling-remote-data-science-teams","target":"rstudio/enabling-remote-data-science-teams","datetime":"2020-07-17T14:46:23Z","user":"christinamedeiros"}
+{"source":"github","type":"pr_open","project_id":"enabling-remote-data-science-teams","target":"rstudio/enabling-remote-data-science-teams","datetime":"2020-07-17T14:47:23Z","ref":1,"user":"christinamedeiros"}
+{"source":"github","type":"pr_merge","project_id":"enabling-remote-data-science-teams","target":"rstudio/enabling-remote-data-science-teams","datetime":"2020-07-17T14:50:09Z","ref":1,"user":"christinamedeiros"}

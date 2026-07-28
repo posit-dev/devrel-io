@@ -1,9 +1,5 @@
-{"datetime":"2024-01-08T12:30:33Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"thomascwells"}
-{"datetime":"2024-03-07T12:51:46Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"ddotta"}
-{"datetime":"2024-03-20T16:23:21Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"fork","user":"dfalbel"}
-{"datetime":"2024-04-24T16:51:54Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"issue_open","user":"dfalbel"}
-{"datetime":"2024-04-24T17:00:41Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"issue_open","user":"dfalbel"}
-{"datetime":"2024-04-29T17:02:20Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"issue_close","user":"dfalbel"}
-{"datetime":"2024-05-09T10:30:26Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"alearrigo"}
-{"datetime":"2024-06-09T18:03:37Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"matheus-rech"}
-{"datetime":"2024-07-10T05:14:17Z","project_id":"connections","source":"github","target":"rstudio/connections","type":"star","user":"rmcdonnell1"}
+{"source":"github","type":"fork","project_id":"connections","target":"rstudio/connections","datetime":"2024-03-20T16:23:21Z","user":"dfalbel"}
+{"source":"github","type":"issue_open","project_id":"connections","target":"rstudio/connections","datetime":"2024-04-24T16:51:54Z","ref":17,"user":"dfalbel"}
+{"source":"github","type":"issue_open","project_id":"connections","target":"rstudio/connections","datetime":"2024-04-24T17:00:41Z","ref":18,"user":"dfalbel"}
+{"source":"github","type":"issue_close","project_id":"connections","target":"rstudio/connections","datetime":"2024-04-29T17:02:20Z","ref":17,"user":"dfalbel"}
+{"source":"github","type":"comment","project_id":"connections","target":"rstudio/connections","datetime":"2024-04-29T17:02:20Z","ref":17,"user":"dfalbel"}

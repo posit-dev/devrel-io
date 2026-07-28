@@ -1,3 +1,5 @@
-{"datetime":"2026-07-17T19:17:16Z","project_id":"btw","source":"github","target":"posit-dev/btw","type":"issue_open","user":"gadenbuie"}
-{"datetime":"2026-07-17T19:52:08Z","project_id":"btw","source":"github","target":"posit-dev/btw","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2026-07-17T20:17:16Z","project_id":"btw","source":"github","target":"posit-dev/btw","type":"pr_merge","user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"btw","target":"posit-dev/btw","datetime":"2026-07-17T19:17:16Z","ref":204,"user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"btw","target":"posit-dev/btw","datetime":"2026-07-17T20:17:17Z","ref":202,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"btw","target":"posit-dev/btw","datetime":"2026-07-17T19:52:08Z","ref":205,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"btw","target":"posit-dev/btw","datetime":"2026-07-17T20:17:16Z","ref":205,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"btw","target":"posit-dev/btw","datetime":"2026-07-17T19:19:36Z","ref":203,"user":"gadenbuie"}

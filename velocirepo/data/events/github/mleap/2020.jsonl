@@ -1,7 +1,6 @@
-{"datetime":"2020-01-11T06:21:26Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"pr_open","user":"kevinykuo"}
-{"datetime":"2020-01-11T06:25:22Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"pr_open","user":"kevinykuo"}
-{"datetime":"2020-01-11T06:25:29Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"pr_merge","user":"kevinykuo"}
-{"datetime":"2020-01-20T13:20:46Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"star","user":"hcapatto"}
-{"datetime":"2020-02-14T19:47:51Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"issue_open","user":"kputschko"}
-{"datetime":"2020-08-18T20:47:50Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"fork","user":"tschutte"}
-{"datetime":"2020-08-24T13:57:05Z","project_id":"mleap","source":"github","target":"rstudio/mleap","type":"pr_open","user":"tschutte"}
+{"source":"github","type":"pr_open","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-01-11T06:21:26Z","ref":38,"user":"kevinykuo"}
+{"source":"github","type":"pr_open","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-01-11T06:25:22Z","ref":39,"user":"kevinykuo"}
+{"source":"github","type":"pr_merge","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-01-11T06:25:29Z","ref":39,"user":"kevinykuo"}
+{"source":"github","type":"issue_open","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-02-14T19:47:51Z","ref":40,"user":"kputschko"}
+{"source":"github","type":"fork","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-08-18T20:47:50Z","user":"tschutte"}
+{"source":"github","type":"pr_open","project_id":"mleap","target":"rstudio/mleap","datetime":"2020-08-24T13:57:05Z","ref":41,"user":"tschutte"}

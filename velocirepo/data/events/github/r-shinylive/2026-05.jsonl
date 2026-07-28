@@ -1,8 +1,6 @@
-{"datetime":"2026-05-01T20:18:47Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-05-01T20:37:10Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_merge","user":"cpsievert"}
-{"datetime":"2026-05-10T19:24:10Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"star","user":"reschreiter"}
-{"datetime":"2026-05-18T14:24:37Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"star","user":"r2j2ritson"}
-{"datetime":"2026-05-21T21:42:42Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_open","user":"schloerke"}
-{"datetime":"2026-05-21T21:49:30Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_merge","user":"schloerke"}
-{"datetime":"2026-05-29T09:25:37Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_open","user":"georgestagg"}
-{"datetime":"2026-05-29T09:42:54Z","project_id":"r-shinylive","source":"github","target":"posit-dev/r-shinylive","type":"pr_merge","user":"georgestagg"}
+{"source":"github","type":"pr_open","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-01T20:18:47Z","ref":191,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-01T20:37:10Z","ref":191,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-21T21:42:42Z","ref":192,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-21T21:49:30Z","ref":192,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-29T09:25:37Z","ref":193,"user":"georgestagg"}
+{"source":"github","type":"pr_merge","project_id":"r-shinylive","target":"posit-dev/r-shinylive","datetime":"2026-05-29T09:42:54Z","ref":193,"user":"georgestagg"}

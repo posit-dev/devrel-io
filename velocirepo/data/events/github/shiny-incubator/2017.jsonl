@@ -1,10 +1,4 @@
-{"datetime":"2017-01-09T17:55:00Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"cmdcolin"}
-{"datetime":"2017-04-23T02:21:22Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"ktargows"}
-{"datetime":"2017-04-23T02:21:23Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"ktargows"}
-{"datetime":"2017-04-25T07:49:50Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"woodhaha"}
-{"datetime":"2017-08-16T09:21:42Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"jeevanyue"}
-{"datetime":"2017-09-08T20:52:04Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"wpetry"}
-{"datetime":"2017-11-03T08:12:48Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"nikolayvoronchikhin"}
-{"datetime":"2017-11-03T08:12:50Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"nikolayvoronchikhin"}
-{"datetime":"2017-11-03T08:41:00Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"anishsingh20"}
-{"datetime":"2017-11-03T08:41:08Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"anishsingh20"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2017-04-23T02:21:23Z","user":"ktargows"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2017-04-25T07:49:50Z","user":"woodhaha"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2017-11-03T08:12:50Z","user":"nikolayvoronchikhin"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2017-11-03T08:41:08Z","user":"anishsingh20"}

@@ -1,2 +1,2 @@
-{"datetime":"2026-07-15T23:09:29Z","project_id":"academy-python-stock-portfolios","source":"github","target":"rstudio/academy-python-stock-portfolios","type":"pr_open","user":"brendanhcullen"}
-{"datetime":"2026-07-15T23:42:50Z","project_id":"academy-python-stock-portfolios","source":"github","target":"rstudio/academy-python-stock-portfolios","type":"pr_merge","user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"academy-python-stock-portfolios","target":"rstudio/academy-python-stock-portfolios","datetime":"2026-07-15T23:09:29Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"pr_merge","project_id":"academy-python-stock-portfolios","target":"rstudio/academy-python-stock-portfolios","datetime":"2026-07-15T23:42:50Z","ref":1,"user":"brendanhcullen"}

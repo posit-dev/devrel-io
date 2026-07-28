@@ -1,4 +1,4 @@
-{"datetime":"2024-01-08T20:40:50Z","project_id":"sol-eng-demo-server","source":"github","target":"rstudio/sol-eng-demo-server","type":"pr_open","user":"shahmonanshi"}
-{"datetime":"2024-01-09T15:17:34Z","project_id":"sol-eng-demo-server","source":"github","target":"rstudio/sol-eng-demo-server","type":"pr_merge","user":"shahmonanshi"}
-{"datetime":"2024-05-30T21:38:17Z","project_id":"sol-eng-demo-server","source":"github","target":"rstudio/sol-eng-demo-server","type":"pr_open","user":"samcofer"}
-{"datetime":"2024-05-30T21:47:44Z","project_id":"sol-eng-demo-server","source":"github","target":"rstudio/sol-eng-demo-server","type":"pr_merge","user":"samcofer"}
+{"source":"github","type":"pr_open","project_id":"sol-eng-demo-server","target":"rstudio/sol-eng-demo-server","datetime":"2024-01-08T20:40:50Z","ref":137,"user":"shahmonanshi"}
+{"source":"github","type":"pr_merge","project_id":"sol-eng-demo-server","target":"rstudio/sol-eng-demo-server","datetime":"2024-01-09T15:17:34Z","ref":137,"user":"shahmonanshi"}
+{"source":"github","type":"pr_open","project_id":"sol-eng-demo-server","target":"rstudio/sol-eng-demo-server","datetime":"2024-05-30T21:38:17Z","ref":138,"user":"samcofer"}
+{"source":"github","type":"pr_merge","project_id":"sol-eng-demo-server","target":"rstudio/sol-eng-demo-server","datetime":"2024-05-30T21:47:44Z","ref":138,"user":"samcofer"}

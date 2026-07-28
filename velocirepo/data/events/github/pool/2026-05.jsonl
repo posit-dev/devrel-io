@@ -1,7 +1,7 @@
-{"datetime":"2026-05-13T13:03:09Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"pr_open","user":"hadley"}
-{"datetime":"2026-05-13T13:09:29Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"pr_merge","user":"hadley"}
-{"datetime":"2026-05-13T13:36:45Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"pr_open","user":"hadley"}
-{"datetime":"2026-05-13T16:43:35Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"pr_merge","user":"hadley"}
-{"datetime":"2026-05-13T16:43:36Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"issue_close","user":"hadley"}
-{"datetime":"2026-05-18T18:38:05Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"issue_open","user":"hadley"}
-{"datetime":"2026-05-19T13:20:25Z","project_id":"pool","source":"github","target":"rstudio/pool","type":"issue_close","user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-13T13:03:09Z","ref":202,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-13T13:09:29Z","ref":202,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-13T13:36:45Z","ref":203,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-13T16:43:35Z","ref":203,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-13T16:43:36Z","ref":200,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-18T18:38:05Z","ref":204,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"pool","target":"rstudio/pool","datetime":"2026-05-19T13:20:25Z","ref":204,"user":"hadley"}

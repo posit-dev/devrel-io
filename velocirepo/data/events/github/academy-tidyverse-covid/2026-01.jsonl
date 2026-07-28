@@ -1,2 +1,2 @@
-{"datetime":"2026-01-27T16:02:48Z","project_id":"academy-tidyverse-covid","source":"github","target":"rstudio/academy-tidyverse-covid","type":"pr_open","user":"brendanhcullen"}
-{"datetime":"2026-01-27T16:03:28Z","project_id":"academy-tidyverse-covid","source":"github","target":"rstudio/academy-tidyverse-covid","type":"pr_merge","user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"academy-tidyverse-covid","target":"rstudio/academy-tidyverse-covid","datetime":"2026-01-27T16:02:48Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"pr_merge","project_id":"academy-tidyverse-covid","target":"rstudio/academy-tidyverse-covid","datetime":"2026-01-27T16:03:28Z","ref":1,"user":"brendanhcullen"}

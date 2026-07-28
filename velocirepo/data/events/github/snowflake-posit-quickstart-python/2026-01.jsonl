@@ -1,4 +1,4 @@
-{"datetime":"2026-01-29T19:59:06Z","project_id":"snowflake-posit-quickstart-python","source":"github","target":"posit-dev/snowflake-posit-quickstart-python","type":"issue_open","user":"sarahsdao"}
-{"datetime":"2026-01-30T16:41:51Z","project_id":"snowflake-posit-quickstart-python","source":"github","target":"posit-dev/snowflake-posit-quickstart-python","type":"pr_open","user":"sarahsdao"}
-{"datetime":"2026-01-30T16:43:03Z","project_id":"snowflake-posit-quickstart-python","source":"github","target":"posit-dev/snowflake-posit-quickstart-python","type":"pr_merge","user":"sarahsdao"}
-{"datetime":"2026-01-30T16:43:05Z","project_id":"snowflake-posit-quickstart-python","source":"github","target":"posit-dev/snowflake-posit-quickstart-python","type":"issue_close","user":"sarahsdao"}
+{"source":"github","type":"issue_open","project_id":"snowflake-posit-quickstart-python","target":"posit-dev/snowflake-posit-quickstart-python","datetime":"2026-01-29T19:59:06Z","ref":8,"user":"sarahsdao"}
+{"source":"github","type":"pr_open","project_id":"snowflake-posit-quickstart-python","target":"posit-dev/snowflake-posit-quickstart-python","datetime":"2026-01-30T16:41:51Z","ref":9,"user":"sarahsdao"}
+{"source":"github","type":"pr_merge","project_id":"snowflake-posit-quickstart-python","target":"posit-dev/snowflake-posit-quickstart-python","datetime":"2026-01-30T16:43:03Z","ref":9,"user":"sarahsdao"}
+{"source":"github","type":"issue_close","project_id":"snowflake-posit-quickstart-python","target":"posit-dev/snowflake-posit-quickstart-python","datetime":"2026-01-30T16:43:05Z","ref":8,"user":"sarahsdao"}

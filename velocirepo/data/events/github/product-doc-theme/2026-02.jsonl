@@ -1,3 +1,4 @@
-{"datetime":"2026-02-03T00:48:42Z","project_id":"product-doc-theme","source":"github","target":"posit-dev/product-doc-theme","type":"fork","user":"cardingshed"}
-{"datetime":"2026-02-10T15:48:22Z","project_id":"product-doc-theme","source":"github","target":"posit-dev/product-doc-theme","type":"issue_close","user":"sarahsdao"}
-{"datetime":"2026-02-10T15:50:01Z","project_id":"product-doc-theme","source":"github","target":"posit-dev/product-doc-theme","type":"issue_open","user":"AshleyHenry15"}
+{"source":"github","type":"fork","project_id":"product-doc-theme","target":"posit-dev/product-doc-theme","datetime":"2026-02-03T00:48:42Z","user":"cardingshed"}
+{"source":"github","type":"issue_close","project_id":"product-doc-theme","target":"posit-dev/product-doc-theme","datetime":"2026-02-10T15:48:22Z","ref":177,"user":"sarahsdao"}
+{"source":"github","type":"comment","project_id":"product-doc-theme","target":"posit-dev/product-doc-theme","datetime":"2026-02-10T15:48:22Z","ref":177,"user":"AshleyHenry15"}
+{"source":"github","type":"issue_open","project_id":"product-doc-theme","target":"posit-dev/product-doc-theme","datetime":"2026-02-10T15:50:01Z","ref":178,"user":"AshleyHenry15"}

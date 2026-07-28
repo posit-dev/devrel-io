@@ -1,5 +1,2 @@
-{"datetime":"2023-03-22T06:51:23Z","project_id":"ggcheck","source":"github","target":"rstudio/ggcheck","type":"star","user":"coatless"}
-{"datetime":"2023-03-22T09:02:20Z","project_id":"ggcheck","source":"github","target":"rstudio/ggcheck","type":"star","user":"mjsteinbaugh"}
-{"datetime":"2023-03-22T17:27:25Z","project_id":"ggcheck","source":"github","target":"rstudio/ggcheck","type":"star","user":"mojaveazure"}
-{"datetime":"2023-05-04T21:17:00Z","project_id":"ggcheck","source":"github","target":"rstudio/ggcheck","type":"pr_open","user":"rossellhayes"}
-{"datetime":"2023-05-08T19:22:13Z","project_id":"ggcheck","source":"github","target":"rstudio/ggcheck","type":"pr_merge","user":"rossellhayes"}
+{"source":"github","type":"pr_open","project_id":"ggcheck","target":"rstudio/ggcheck","datetime":"2023-05-04T21:17:00Z","ref":37,"user":"rossellhayes"}
+{"source":"github","type":"pr_merge","project_id":"ggcheck","target":"rstudio/ggcheck","datetime":"2023-05-08T19:22:13Z","ref":37,"user":"rossellhayes"}

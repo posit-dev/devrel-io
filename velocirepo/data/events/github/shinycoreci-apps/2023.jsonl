@@ -1,2 +1,4 @@
-{"datetime":"2023-03-30T06:07:24Z","project_id":"shinycoreci-apps","source":"github","target":"rstudio/shinycoreci-apps","type":"fork","user":"elgohr-update"}
-{"datetime":"2023-03-30T06:07:28Z","project_id":"shinycoreci-apps","source":"github","target":"rstudio/shinycoreci-apps","type":"pr_open","user":"elgohr"}
+{"source":"github","type":"fork","project_id":"shinycoreci-apps","target":"rstudio/shinycoreci-apps","datetime":"2023-03-30T06:07:24Z","user":"elgohr-update"}
+{"source":"github","type":"pr_open","project_id":"shinycoreci-apps","target":"rstudio/shinycoreci-apps","datetime":"2023-03-30T06:07:28Z","ref":207,"user":"elgohr"}
+{"source":"github","type":"comment","project_id":"shinycoreci-apps","target":"rstudio/shinycoreci-apps","datetime":"2023-03-30T06:07:32Z","ref":207,"user":"CLAassistant"}
+{"source":"github","type":"comment","project_id":"shinycoreci-apps","target":"rstudio/shinycoreci-apps","datetime":"2023-11-08T16:51:45Z","ref":197,"user":"CLAassistant"}

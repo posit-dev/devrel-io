@@ -1,10 +1,3 @@
-{"datetime":"2017-06-01T21:05:51Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"pr_open","user":"edgararuiz-zz"}
-{"datetime":"2017-06-01T21:05:59Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"pr_merge","user":"edgararuiz-zz"}
-{"datetime":"2017-06-06T00:47:54Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"jimhester"}
-{"datetime":"2017-06-06T01:02:10Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"tjmahr"}
-{"datetime":"2017-06-06T01:09:37Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"austensen"}
-{"datetime":"2017-06-06T01:41:18Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"HenrikBengtsson"}
-{"datetime":"2017-06-06T11:39:07Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"yutannihilation"}
-{"datetime":"2017-06-06T14:20:15Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"fmichonneau"}
-{"datetime":"2017-06-11T01:58:25Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"star","user":"ianmcook"}
-{"datetime":"2017-08-14T19:33:54Z","project_id":"dbtest","source":"github","target":"rstudio/dbtest","type":"fork","user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"dbtest","target":"rstudio/dbtest","datetime":"2017-06-01T21:05:51Z","ref":1,"user":"edgararuiz-zz"}
+{"source":"github","type":"pr_merge","project_id":"dbtest","target":"rstudio/dbtest","datetime":"2017-06-01T21:05:59Z","ref":1,"user":"edgararuiz-zz"}
+{"source":"github","type":"fork","project_id":"dbtest","target":"rstudio/dbtest","datetime":"2017-08-14T19:33:54Z","user":"DavisVaughan"}

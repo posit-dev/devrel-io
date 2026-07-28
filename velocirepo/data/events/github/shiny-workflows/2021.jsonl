@@ -1,10 +1,7 @@
-{"datetime":"2021-11-08T19:59:28Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"schloerke"}
-{"datetime":"2021-11-08T20:00:38Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_close","user":"schloerke"}
-{"datetime":"2021-11-08T20:14:39Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"abhik1368"}
-{"datetime":"2021-11-09T01:11:26Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"MahShaaban"}
-{"datetime":"2021-11-09T15:18:21Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"PaulC91"}
-{"datetime":"2021-11-09T15:38:20Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"schloerke"}
-{"datetime":"2021-11-09T21:31:28Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_close","user":"schloerke"}
-{"datetime":"2021-11-15T15:25:54Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"sawsimeon"}
-{"datetime":"2021-12-09T18:03:11Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"mtkerbeR"}
-{"datetime":"2021-12-14T18:25:31Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"Alik-V"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-08T19:59:28Z","ref":1,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-08T20:00:38Z","ref":1,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-08T20:00:38Z","ref":1,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-09T15:38:20Z","ref":2,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-09T15:39:59Z","ref":2,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-09T21:31:22Z","ref":2,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2021-11-09T21:31:28Z","ref":2,"user":"schloerke"}

@@ -1,2 +1,2 @@
-{"datetime":"2018-12-10T18:03:30Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"pr_open","user":"aronatkins"}
-{"datetime":"2018-12-10T18:32:17Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"pr_merge","user":"aronatkins"}
+{"source":"github","type":"pr_open","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2018-12-10T18:03:30Z","ref":1,"user":"aronatkins"}
+{"source":"github","type":"pr_merge","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2018-12-10T18:32:17Z","ref":1,"user":"aronatkins"}

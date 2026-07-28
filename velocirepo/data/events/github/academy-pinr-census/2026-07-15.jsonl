@@ -1,2 +1,2 @@
-{"datetime":"2026-07-15T23:29:55Z","project_id":"academy-pinr-census","source":"github","target":"rstudio/academy-pinr-census","type":"pr_open","user":"brendanhcullen"}
-{"datetime":"2026-07-15T23:42:54Z","project_id":"academy-pinr-census","source":"github","target":"rstudio/academy-pinr-census","type":"pr_merge","user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"academy-pinr-census","target":"rstudio/academy-pinr-census","datetime":"2026-07-15T23:29:55Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"pr_merge","project_id":"academy-pinr-census","target":"rstudio/academy-pinr-census","datetime":"2026-07-15T23:42:54Z","ref":1,"user":"brendanhcullen"}

@@ -1,4 +1,3 @@
-{"datetime":"2022-02-16T23:57:21Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"fork","user":"gtritchie"}
-{"datetime":"2022-02-16T23:59:58Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"pr_open","user":"gtritchie"}
-{"datetime":"2022-02-17T07:59:04Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"pr_merge","user":"gtritchie"}
-{"datetime":"2022-06-01T22:15:58Z","project_id":"quillt","source":"github","target":"rstudio/quillt","type":"star","user":"jtr13"}
+{"source":"github","type":"fork","project_id":"quillt","target":"rstudio/quillt","datetime":"2022-02-16T23:57:21Z","user":"gtritchie"}
+{"source":"github","type":"pr_open","project_id":"quillt","target":"rstudio/quillt","datetime":"2022-02-16T23:59:58Z","ref":44,"user":"gtritchie"}
+{"source":"github","type":"pr_merge","project_id":"quillt","target":"rstudio/quillt","datetime":"2022-02-17T07:59:04Z","ref":44,"user":"gtritchie"}

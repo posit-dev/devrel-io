@@ -1,3 +1,5 @@
-{"datetime":"2026-05-08T12:27:43Z","project_id":"dt","source":"github","target":"rstudio/DT","type":"star","user":"Magnus6803"}
-{"datetime":"2026-05-18T15:40:52Z","project_id":"dt","source":"github","target":"rstudio/DT","type":"pr_merge","user":"zeehio"}
-{"datetime":"2026-05-18T15:40:54Z","project_id":"dt","source":"github","target":"rstudio/DT","type":"issue_close","user":"zeehio"}
+{"source":"github","type":"comment","project_id":"dt","target":"rstudio/DT","datetime":"2026-05-18T15:04:38Z","ref":1181,"user":"zeehio"}
+{"source":"github","type":"comment","project_id":"dt","target":"rstudio/DT","datetime":"2026-05-18T15:18:52Z","ref":1181,"user":"yihui"}
+{"source":"github","type":"pr_merge","project_id":"dt","target":"rstudio/DT","datetime":"2026-05-18T15:40:52Z","ref":1181,"user":"zeehio"}
+{"source":"github","type":"issue_close","project_id":"dt","target":"rstudio/DT","datetime":"2026-05-18T15:40:54Z","ref":1180,"user":"zeehio"}
+{"source":"github","type":"comment","project_id":"dt","target":"rstudio/DT","datetime":"2026-05-21T13:01:27Z","ref":1137,"user":"DanChaltiel"}

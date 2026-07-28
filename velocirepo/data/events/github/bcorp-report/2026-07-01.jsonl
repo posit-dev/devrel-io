@@ -1,1 +1,2 @@
-{"datetime":"2026-07-01T22:29:58Z","project_id":"bcorp-report","source":"github","target":"posit-dev/bcorp-report","type":"pr_open","user":"cwickham"}
+{"source":"github","type":"pr_open","project_id":"bcorp-report","target":"posit-dev/bcorp-report","datetime":"2026-07-01T22:29:58Z","ref":15,"user":"cwickham"}
+{"source":"github","type":"pr_merge","project_id":"bcorp-report","target":"posit-dev/bcorp-report","datetime":"2026-07-01T21:53:54Z","ref":14,"user":"icarusz"}

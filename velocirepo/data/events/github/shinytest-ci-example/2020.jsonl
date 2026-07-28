@@ -1,3 +1,2 @@
-{"datetime":"2020-01-28T17:55:18Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"star","user":"halleewong"}
-{"datetime":"2020-07-14T17:27:45Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"fork","user":"the-eigengrau"}
-{"datetime":"2020-08-15T08:04:05Z","project_id":"shinytest-ci-example","source":"github","target":"rstudio/shinytest-ci-example","type":"fork","user":"sohitmiglani"}
+{"source":"github","type":"fork","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2020-07-14T17:27:45Z","user":"the-eigengrau"}
+{"source":"github","type":"fork","project_id":"shinytest-ci-example","target":"rstudio/shinytest-ci-example","datetime":"2020-08-15T08:04:05Z","user":"sohitmiglani"}

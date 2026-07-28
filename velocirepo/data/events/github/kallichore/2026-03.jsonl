@@ -1,2 +1,2 @@
-{"datetime":"2026-03-02T18:27:18Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"pr_open","user":"jmcphers"}
-{"datetime":"2026-03-03T00:04:18Z","project_id":"kallichore","source":"github","target":"posit-dev/kallichore","type":"pr_merge","user":"jmcphers"}
+{"source":"github","type":"pr_open","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-03-02T18:27:18Z","ref":61,"user":"jmcphers"}
+{"source":"github","type":"pr_merge","project_id":"kallichore","target":"posit-dev/kallichore","datetime":"2026-03-03T00:04:18Z","ref":61,"user":"jmcphers"}

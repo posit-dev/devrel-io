@@ -1,9 +1,5 @@
-{"datetime":"2020-02-03T20:12:28Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"alishway"}
-{"datetime":"2020-02-18T11:47:09Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"RohanDudeja"}
-{"datetime":"2020-04-15T02:19:19Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"star","user":"mjcampy"}
-{"datetime":"2020-08-05T22:22:40Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"star","user":"liumengyuan1997"}
-{"datetime":"2020-08-31T09:13:11Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"star","user":"wen12128"}
-{"datetime":"2020-08-31T09:13:12Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"wen12128"}
-{"datetime":"2020-09-15T09:40:19Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"francymarzo"}
-{"datetime":"2020-09-15T14:52:57Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"star","user":"MWaize"}
-{"datetime":"2020-12-03T15:03:36Z","project_id":"shiny_example","source":"github","target":"rstudio/shiny_example","type":"fork","user":"jkwoike"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2020-02-03T20:12:28Z","user":"alishway"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2020-02-18T11:47:09Z","user":"RohanDudeja"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2020-08-31T09:13:12Z","user":"wen12128"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2020-09-15T09:40:19Z","user":"francymarzo"}
+{"source":"github","type":"fork","project_id":"shiny_example","target":"rstudio/shiny_example","datetime":"2020-12-03T15:03:36Z","user":"jkwoike"}

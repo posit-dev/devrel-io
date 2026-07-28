@@ -1,2 +1,2 @@
-{"datetime":"2026-07-17T18:20:39Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"pr_open","user":"aronatkins"}
-{"datetime":"2026-07-17T20:51:50Z","project_id":"rsconnect","source":"github","target":"rstudio/rsconnect","type":"pr_merge","user":"aronatkins"}
+{"source":"github","type":"pr_open","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-17T18:20:39Z","ref":1348,"user":"aronatkins"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect","target":"rstudio/rsconnect","datetime":"2026-07-17T20:51:50Z","ref":1348,"user":"aronatkins"}

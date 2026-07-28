@@ -1,2 +1,2 @@
-{"datetime":"2026-05-05T14:42:36Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_open","user":"fmichonneau"}
-{"datetime":"2026-05-05T15:09:48Z","project_id":"quarjar","source":"github","target":"posit-dev/quarjar","type":"pr_merge","user":"fmichonneau"}
+{"source":"github","type":"pr_open","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-05-05T14:42:36Z","ref":15,"user":"fmichonneau"}
+{"source":"github","type":"pr_merge","project_id":"quarjar","target":"posit-dev/quarjar","datetime":"2026-05-05T15:09:48Z","ref":15,"user":"fmichonneau"}

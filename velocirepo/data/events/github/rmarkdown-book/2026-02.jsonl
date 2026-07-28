@@ -1,2 +1,2 @@
-{"datetime":"2026-02-03T20:40:33Z","project_id":"rmarkdown-book","source":"github","target":"rstudio/rmarkdown-book","type":"pr_merge","user":"apreshill"}
-{"datetime":"2026-02-26T07:22:30Z","project_id":"rmarkdown-book","source":"github","target":"rstudio/rmarkdown-book","type":"fork","user":"startup-valueup"}
+{"source":"github","type":"pr_merge","project_id":"rmarkdown-book","target":"rstudio/rmarkdown-book","datetime":"2026-02-03T20:40:33Z","ref":86,"user":"apreshill"}
+{"source":"github","type":"fork","project_id":"rmarkdown-book","target":"rstudio/rmarkdown-book","datetime":"2026-02-26T07:22:30Z","user":"startup-valueup"}

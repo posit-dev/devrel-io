@@ -1,5 +1,5 @@
-{"datetime":"2025-02-28T16:41:57Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"ian-flores"}
-{"datetime":"2025-04-29T18:13:58Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"ian-flores"}
-{"datetime":"2025-05-02T19:35:28Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"ian-flores"}
-{"datetime":"2025-07-02T15:46:12Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"ian-flores"}
-{"datetime":"2025-07-19T23:36:32Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"statik"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2025-02-28T16:41:57Z","ref":41,"user":"ian-flores"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2025-04-29T18:13:58Z","ref":40,"user":"ian-flores"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2025-05-02T19:35:28Z","ref":39,"user":"ian-flores"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2025-07-02T15:46:12Z","ref":38,"user":"ian-flores"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2025-07-19T23:36:32Z","ref":37,"user":"statik"}

@@ -1,2 +1,2 @@
-{"datetime":"2020-09-05T03:53:46Z","project_id":"mlflow-example","source":"github","target":"rstudio/mlflow-example","type":"issue_open","user":"shinhongwu"}
-{"datetime":"2020-10-08T09:09:44Z","project_id":"mlflow-example","source":"github","target":"rstudio/mlflow-example","type":"fork","user":"SchmoFl"}
+{"source":"github","type":"issue_open","project_id":"mlflow-example","target":"rstudio/mlflow-example","datetime":"2020-09-05T03:53:46Z","ref":1,"user":"shinhongwu"}
+{"source":"github","type":"fork","project_id":"mlflow-example","target":"rstudio/mlflow-example","datetime":"2020-10-08T09:09:44Z","user":"SchmoFl"}

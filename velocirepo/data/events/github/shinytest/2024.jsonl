@@ -1,8 +1,6 @@
-{"datetime":"2024-01-24T15:31:20Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"issue_open","user":"sneumann"}
-{"datetime":"2024-01-24T15:53:04Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"issue_close","user":"sneumann"}
-{"datetime":"2024-02-26T22:17:24Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"pr_open","user":"wch"}
-{"datetime":"2024-02-26T22:50:43Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"pr_merge","user":"wch"}
-{"datetime":"2024-04-27T20:11:40Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"szabalaz"}
-{"datetime":"2024-05-14T19:54:34Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"jayhpark1"}
-{"datetime":"2024-06-01T21:48:25Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"Allisterh"}
-{"datetime":"2024-07-22T23:33:41Z","project_id":"shinytest","source":"github","target":"rstudio/shinytest","type":"star","user":"Omars32"}
+{"source":"github","type":"issue_open","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-01-24T15:31:20Z","ref":435,"user":"sneumann"}
+{"source":"github","type":"issue_close","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-01-24T15:53:04Z","ref":435,"user":"sneumann"}
+{"source":"github","type":"comment","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-01-24T15:53:04Z","ref":435,"user":"sneumann"}
+{"source":"github","type":"pr_open","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-02-26T22:17:24Z","ref":436,"user":"wch"}
+{"source":"github","type":"pr_merge","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-02-26T22:50:43Z","ref":436,"user":"wch"}
+{"source":"github","type":"comment","project_id":"shinytest","target":"rstudio/shinytest","datetime":"2024-05-02T13:12:12Z","ref":389,"user":"trafficonese"}

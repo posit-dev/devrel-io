@@ -1,7 +1,7 @@
-{"datetime":"2026-06-17T20:35:01Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2026-06-17T20:46:26Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"issue_open","user":"gadenbuie"}
-{"datetime":"2026-06-17T20:47:25Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"pr_merge","user":"gadenbuie"}
-{"datetime":"2026-06-17T21:19:03Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"pr_open","user":"github-actions"}
-{"datetime":"2026-06-18T14:17:31Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2026-06-18T17:19:37Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"pr_merge","user":"gadenbuie"}
-{"datetime":"2026-06-18T17:19:38Z","project_id":"gradethis","source":"github","target":"rstudio/gradethis","type":"issue_close","user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-17T20:35:01Z","ref":367,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-17T20:46:26Z","ref":368,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-17T20:47:25Z","ref":367,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-17T21:19:03Z","ref":369,"user":"github-actions"}
+{"source":"github","type":"pr_open","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-18T14:17:31Z","ref":370,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-18T17:19:37Z","ref":370,"user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"gradethis","target":"rstudio/gradethis","datetime":"2026-06-18T17:19:38Z","ref":368,"user":"gadenbuie"}

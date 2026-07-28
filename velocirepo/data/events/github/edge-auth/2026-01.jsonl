@@ -1,3 +1,2 @@
-{"datetime":"2026-01-23T06:51:06Z","project_id":"edge-auth","source":"github","target":"rstudio/edge-auth","type":"pr_open","user":"statik"}
-{"datetime":"2026-01-27T03:33:04Z","project_id":"edge-auth","source":"github","target":"rstudio/edge-auth","type":"star","user":"macosafari"}
-{"datetime":"2026-01-27T15:41:42Z","project_id":"edge-auth","source":"github","target":"rstudio/edge-auth","type":"issue_open","user":"stevenolen"}
+{"source":"github","type":"pr_open","project_id":"edge-auth","target":"rstudio/edge-auth","datetime":"2026-01-23T06:51:06Z","ref":8,"user":"statik"}
+{"source":"github","type":"issue_open","project_id":"edge-auth","target":"rstudio/edge-auth","datetime":"2026-01-27T15:41:42Z","ref":9,"user":"stevenolen"}

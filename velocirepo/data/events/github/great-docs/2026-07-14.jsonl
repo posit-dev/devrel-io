@@ -1,3 +1,4 @@
-{"datetime":"2026-07-14T20:27:00Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"star","user":"gabriel-kimbodo"}
-{"datetime":"2026-07-14T14:57:23Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"issue_open","user":"drbenvincent"}
-{"datetime":"2026-07-14T12:11:46Z","project_id":"great-docs","source":"github","target":"posit-dev/great-docs","type":"pr_open","user":"has2k1"}
+{"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-14T14:57:23Z","ref":258,"user":"drbenvincent"}
+{"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-14T12:11:46Z","ref":257,"user":"has2k1"}
+{"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-14T13:58:15Z","ref":256,"user":"has2k1"}
+{"source":"github","type":"comment","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-14T15:14:01Z","ref":258,"user":"drbenvincent"}

@@ -1,4 +1,3 @@
-{"datetime":"2026-02-05T11:57:02Z","project_id":"tufte","source":"github","target":"rstudio/tufte","type":"star","user":"sebastianromero"}
-{"datetime":"2026-02-07T15:43:31Z","project_id":"tufte","source":"github","target":"rstudio/tufte","type":"fork","user":"coupenpassant"}
-{"datetime":"2026-02-14T16:57:45Z","project_id":"tufte","source":"github","target":"rstudio/tufte","type":"fork","user":"amw121196"}
-{"datetime":"2026-02-21T15:43:35Z","project_id":"tufte","source":"github","target":"rstudio/tufte","type":"star","user":"iputra"}
+{"source":"github","type":"comment","project_id":"tufte","target":"rstudio/tufte","datetime":"2026-02-04T03:46:39Z","ref":122,"user":"github-actions[bot]"}
+{"source":"github","type":"fork","project_id":"tufte","target":"rstudio/tufte","datetime":"2026-02-07T15:43:31Z","user":"coupenpassant"}
+{"source":"github","type":"fork","project_id":"tufte","target":"rstudio/tufte","datetime":"2026-02-14T16:57:45Z","user":"amw121196"}

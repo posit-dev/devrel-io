@@ -1,5 +1,6 @@
-{"datetime":"2025-11-05T17:18:46Z","project_id":"rstudio-r-universe-dev","source":"github","target":"rstudio/rstudio.r-universe.dev","type":"fork","user":"brendanhcullen"}
-{"datetime":"2025-11-05T17:18:49Z","project_id":"rstudio-r-universe-dev","source":"github","target":"rstudio/rstudio.r-universe.dev","type":"pr_open","user":"brendanhcullen"}
-{"datetime":"2025-11-05T17:47:29Z","project_id":"rstudio-r-universe-dev","source":"github","target":"rstudio/rstudio.r-universe.dev","type":"pr_merge","user":"brendanhcullen"}
-{"datetime":"2025-11-11T20:31:58Z","project_id":"rstudio-r-universe-dev","source":"github","target":"rstudio/rstudio.r-universe.dev","type":"pr_open","user":"brendanhcullen"}
-{"datetime":"2025-11-12T17:34:44Z","project_id":"rstudio-r-universe-dev","source":"github","target":"rstudio/rstudio.r-universe.dev","type":"pr_merge","user":"brendanhcullen"}
+{"source":"github","type":"fork","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-05T17:18:46Z","user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-05T17:18:49Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-05T17:47:29Z","ref":1,"user":"brendanhcullen"}
+{"source":"github","type":"pr_open","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-11T20:31:58Z","ref":2,"user":"brendanhcullen"}
+{"source":"github","type":"comment","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-11T20:33:26Z","ref":2,"user":"brendanhcullen"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-r-universe-dev","target":"rstudio/rstudio.r-universe.dev","datetime":"2025-11-12T17:34:44Z","ref":2,"user":"brendanhcullen"}

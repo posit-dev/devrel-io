@@ -1,8 +1,7 @@
-{"datetime":"2021-02-02T06:09:04Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"fork","user":"muratmaga"}
-{"datetime":"2021-02-03T00:08:49Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"star","user":"aksel-blaise"}
-{"datetime":"2021-06-06T19:57:56Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"star","user":"Sandy4321"}
-{"datetime":"2021-06-06T19:57:57Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"fork","user":"Sandy4321"}
-{"datetime":"2021-07-06T08:04:07Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"fork","user":"KaterynaShv"}
-{"datetime":"2021-09-02T16:52:18Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"star","user":"jsxs0"}
-{"datetime":"2021-09-14T15:37:13Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_open","user":"jennybc"}
-{"datetime":"2021-11-22T20:13:17Z","project_id":"tfestimators","source":"github","target":"rstudio/tfestimators","type":"issue_close","user":"jennybc"}
+{"source":"github","type":"fork","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-02-02T06:09:04Z","user":"muratmaga"}
+{"source":"github","type":"comment","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-04-23T15:22:09Z","ref":178,"user":"kenshuri"}
+{"source":"github","type":"fork","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-06-06T19:57:57Z","user":"Sandy4321"}
+{"source":"github","type":"fork","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-07-06T08:04:07Z","user":"KaterynaShv"}
+{"source":"github","type":"issue_open","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-09-14T15:37:13Z","ref":181,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-10-27T21:10:42Z","ref":181,"user":"jennybc"}
+{"source":"github","type":"issue_close","project_id":"tfestimators","target":"rstudio/tfestimators","datetime":"2021-11-22T20:13:17Z","ref":181,"user":"jennybc"}

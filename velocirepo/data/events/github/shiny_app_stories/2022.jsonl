@@ -1,8 +1,5 @@
-{"datetime":"2022-01-08T09:03:20Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"star","user":"laceto"}
-{"datetime":"2022-01-17T11:55:44Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"star","user":"wakibia"}
-{"datetime":"2022-02-22T06:11:50Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"fork","user":"MaxwellMkondiwa"}
-{"datetime":"2022-02-26T02:47:08Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"fork","user":"patrizzle888"}
-{"datetime":"2022-08-04T11:27:12Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"fork","user":"eliezerhilario"}
-{"datetime":"2022-08-12T01:47:38Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"fork","user":"mdnahinalam"}
-{"datetime":"2022-08-15T18:46:08Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"star","user":"flaketill"}
-{"datetime":"2022-11-16T13:46:15Z","project_id":"shiny_app_stories","source":"github","target":"rstudio/shiny_app_stories","type":"fork","user":"sarithmohan"}
+{"source":"github","type":"fork","project_id":"shiny_app_stories","target":"rstudio/shiny_app_stories","datetime":"2022-02-22T06:11:50Z","user":"MaxwellMkondiwa"}
+{"source":"github","type":"fork","project_id":"shiny_app_stories","target":"rstudio/shiny_app_stories","datetime":"2022-02-26T02:47:08Z","user":"patrizzle888"}
+{"source":"github","type":"fork","project_id":"shiny_app_stories","target":"rstudio/shiny_app_stories","datetime":"2022-08-04T11:27:12Z","user":"eliezerhilario"}
+{"source":"github","type":"fork","project_id":"shiny_app_stories","target":"rstudio/shiny_app_stories","datetime":"2022-08-12T01:47:38Z","user":"mdnahinalam"}
+{"source":"github","type":"fork","project_id":"shiny_app_stories","target":"rstudio/shiny_app_stories","datetime":"2022-11-16T13:46:15Z","user":"sarithmohan"}

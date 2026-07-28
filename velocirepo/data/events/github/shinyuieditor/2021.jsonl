@@ -1,2 +1,2 @@
-{"datetime":"2021-10-19T18:02:52Z","project_id":"shinyuieditor","source":"github","target":"rstudio/shinyuieditor","type":"pr_open","user":"nstrayer"}
-{"datetime":"2021-10-19T18:03:00Z","project_id":"shinyuieditor","source":"github","target":"rstudio/shinyuieditor","type":"pr_merge","user":"unknown"}
+{"source":"github","type":"pr_open","project_id":"shinyuieditor","target":"rstudio/shinyuieditor","datetime":"2021-10-19T18:02:52Z","ref":1,"user":"nstrayer"}
+{"source":"github","type":"pr_merge","project_id":"shinyuieditor","target":"rstudio/shinyuieditor","datetime":"2021-10-19T18:03:00Z","ref":1,"user":"nstrayer"}

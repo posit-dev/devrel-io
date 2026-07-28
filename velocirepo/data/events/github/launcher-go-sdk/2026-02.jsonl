@@ -1,5 +1,7 @@
-{"datetime":"2026-02-12T00:40:40Z","project_id":"launcher-go-sdk","source":"github","target":"posit-dev/launcher-go-sdk","type":"pr_open","user":"dmortondev"}
-{"datetime":"2026-02-22T09:26:26Z","project_id":"launcher-go-sdk","source":"github","target":"posit-dev/launcher-go-sdk","type":"star","user":"dgruber"}
-{"datetime":"2026-02-24T05:10:27Z","project_id":"launcher-go-sdk","source":"github","target":"posit-dev/launcher-go-sdk","type":"pr_merge","user":"dmortondev"}
-{"datetime":"2026-02-25T22:12:18Z","project_id":"launcher-go-sdk","source":"github","target":"posit-dev/launcher-go-sdk","type":"pr_open","user":"dmortondev"}
-{"datetime":"2026-02-25T22:15:42Z","project_id":"launcher-go-sdk","source":"github","target":"posit-dev/launcher-go-sdk","type":"pr_merge","user":"dmortondev"}
+{"source":"github","type":"pr_open","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-12T00:40:40Z","ref":1,"user":"dmortondev"}
+{"source":"github","type":"comment","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-19T00:37:32Z","ref":1,"user":"dmortondev"}
+{"source":"github","type":"comment","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-20T15:27:19Z","ref":1,"user":"t-margheim"}
+{"source":"github","type":"comment","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-20T18:22:39Z","ref":1,"user":"dmortondev"}
+{"source":"github","type":"pr_merge","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-24T05:10:27Z","ref":1,"user":"dmortondev"}
+{"source":"github","type":"pr_open","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-25T22:12:18Z","ref":2,"user":"dmortondev"}
+{"source":"github","type":"pr_merge","project_id":"launcher-go-sdk","target":"posit-dev/launcher-go-sdk","datetime":"2026-02-25T22:15:42Z","ref":2,"user":"dmortondev"}

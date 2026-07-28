@@ -1,10 +1,3 @@
-{"datetime":"2022-04-04T03:09:54Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"xuf12"}
-{"datetime":"2022-04-15T12:19:35Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"larsmartens"}
-{"datetime":"2022-05-02T12:04:47Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"freestatman"}
-{"datetime":"2022-05-06T19:07:15Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"bhogan-mitre"}
-{"datetime":"2022-06-24T15:17:39Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"Esturban"}
-{"datetime":"2022-07-14T11:56:05Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"mayank7jan"}
-{"datetime":"2022-07-18T23:39:21Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"star","user":"ivan1onco"}
-{"datetime":"2022-11-28T16:28:59Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"pr_open","user":"aronatkins"}
-{"datetime":"2022-11-28T16:29:16Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"pr_merge","user":"aronatkins"}
-{"datetime":"2022-11-28T16:34:28Z","project_id":"connect-api-deploy-shiny","source":"github","target":"rstudio/connect-api-deploy-shiny","type":"pr_open","user":"aronatkins"}
+{"source":"github","type":"pr_open","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2022-11-28T16:28:59Z","ref":9,"user":"aronatkins"}
+{"source":"github","type":"pr_merge","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2022-11-28T16:29:16Z","ref":9,"user":"aronatkins"}
+{"source":"github","type":"pr_open","project_id":"connect-api-deploy-shiny","target":"rstudio/connect-api-deploy-shiny","datetime":"2022-11-28T16:34:28Z","ref":10,"user":"aronatkins"}

@@ -1,5 +1,9 @@
-{"datetime":"2026-07-17T21:03:44Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"star","user":"jeis4wpi"}
-{"datetime":"2026-07-17T21:04:00Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"fork","user":"jeis4wpi"}
-{"datetime":"2026-07-17T12:14:54Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"fork","user":"etiennebacher"}
-{"datetime":"2026-07-17T12:38:05Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"pr_open","user":"etiennebacher"}
-{"datetime":"2026-07-17T21:02:11Z","project_id":"bslib","source":"github","target":"rstudio/bslib","type":"pr_merge","user":"etiennebacher"}
+{"source":"github","type":"fork","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T21:04:00Z","user":"jeis4wpi"}
+{"source":"github","type":"fork","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T12:14:54Z","user":"etiennebacher"}
+{"source":"github","type":"issue_close","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T21:02:12Z","ref":1336,"user":"etiennebacher"}
+{"source":"github","type":"pr_open","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T12:38:05Z","ref":1338,"user":"etiennebacher"}
+{"source":"github","type":"pr_merge","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T21:02:11Z","ref":1338,"user":"etiennebacher"}
+{"source":"github","type":"pr_merge","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T13:49:48Z","ref":1337,"user":"gadenbuie"}
+{"source":"github","type":"comment","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T19:25:30Z","ref":1338,"user":"etiennebacher"}
+{"source":"github","type":"comment","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T19:06:02Z","ref":1338,"user":"gadenbuie"}
+{"source":"github","type":"comment","project_id":"bslib","target":"rstudio/bslib","datetime":"2026-07-17T12:39:13Z","ref":1338,"user":"CLAassistant"}

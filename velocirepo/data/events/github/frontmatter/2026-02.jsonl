@@ -1,5 +1,5 @@
-{"datetime":"2026-02-09T18:33:50Z","project_id":"frontmatter","source":"github","target":"posit-dev/frontmatter","type":"issue_close","user":"gadenbuie"}
-{"datetime":"2026-02-09T18:33:57Z","project_id":"frontmatter","source":"github","target":"posit-dev/frontmatter","type":"issue_open","user":"gadenbuie"}
-{"datetime":"2026-02-09T18:40:52Z","project_id":"frontmatter","source":"github","target":"posit-dev/frontmatter","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2026-02-09T19:45:20Z","project_id":"frontmatter","source":"github","target":"posit-dev/frontmatter","type":"pr_merge","user":"gadenbuie"}
-{"datetime":"2026-02-09T20:29:39Z","project_id":"frontmatter","source":"github","target":"posit-dev/frontmatter","type":"issue_close","user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"frontmatter","target":"posit-dev/frontmatter","datetime":"2026-02-09T18:33:50Z","ref":1,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"frontmatter","target":"posit-dev/frontmatter","datetime":"2026-02-09T18:33:57Z","ref":2,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"frontmatter","target":"posit-dev/frontmatter","datetime":"2026-02-09T18:40:52Z","ref":3,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"frontmatter","target":"posit-dev/frontmatter","datetime":"2026-02-09T19:45:20Z","ref":3,"user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"frontmatter","target":"posit-dev/frontmatter","datetime":"2026-02-09T20:29:39Z","ref":2,"user":"gadenbuie"}

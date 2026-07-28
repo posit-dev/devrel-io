@@ -1,6 +1,9 @@
-{"datetime":"2026-02-18T13:03:18Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"fork","user":"takewiki"}
-{"datetime":"2026-02-19T16:39:57Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"issue_open","user":"dfalbel"}
-{"datetime":"2026-02-19T18:06:46Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-02-24T15:51:48Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"issue_comment","user":"cpsievert"}
-{"datetime":"2026-02-24T21:12:03Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-02-28T09:45:43Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"issue_open","user":"jnhyeon"}
+{"source":"github","type":"fork","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-18T13:03:18Z","user":"takewiki"}
+{"source":"github","type":"issue_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-19T16:39:57Z","ref":268,"user":"dfalbel"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-19T18:06:46Z","ref":269,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-24T15:51:33Z","ref":269,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-24T15:51:35Z","ref":268,"user":"dfalbel"}
+{"source":"github","type":"comment","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-24T15:51:48Z","ref":268,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-24T21:12:03Z","ref":270,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-27T15:13:17Z","ref":270,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-02-28T09:45:43Z","ref":271,"user":"jnhyeon"}

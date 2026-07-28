@@ -1,4 +1,2 @@
-{"datetime":"2024-03-31T06:22:48Z","project_id":"tfdatasets","source":"github","target":"rstudio/tfdatasets","type":"star","user":"Sinansi"}
-{"datetime":"2024-04-22T06:04:38Z","project_id":"tfdatasets","source":"github","target":"rstudio/tfdatasets","type":"star","user":"senge"}
-{"datetime":"2024-07-16T16:06:36Z","project_id":"tfdatasets","source":"github","target":"rstudio/tfdatasets","type":"pr_open","user":"t-kalinowski"}
-{"datetime":"2024-07-16T18:00:13Z","project_id":"tfdatasets","source":"github","target":"rstudio/tfdatasets","type":"pr_merge","user":"t-kalinowski"}
+{"source":"github","type":"pr_open","project_id":"tfdatasets","target":"rstudio/tfdatasets","datetime":"2024-07-16T16:06:36Z","ref":94,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"tfdatasets","target":"rstudio/tfdatasets","datetime":"2024-07-16T18:00:13Z","ref":94,"user":"t-kalinowski"}

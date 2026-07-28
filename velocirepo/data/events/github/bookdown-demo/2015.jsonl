@@ -1,5 +1,4 @@
-{"datetime":"2015-11-14T17:21:09Z","project_id":"bookdown-demo","source":"github","target":"rstudio/bookdown-demo","type":"star","user":"Perugolate"}
-{"datetime":"2015-12-21T06:41:25Z","project_id":"bookdown-demo","source":"github","target":"rstudio/bookdown-demo","type":"fork","user":"joelgombin"}
-{"datetime":"2015-12-21T06:48:40Z","project_id":"bookdown-demo","source":"github","target":"rstudio/bookdown-demo","type":"issue_open","user":"joelgombin"}
-{"datetime":"2015-12-21T06:50:57Z","project_id":"bookdown-demo","source":"github","target":"rstudio/bookdown-demo","type":"star","user":"joelgombin"}
-{"datetime":"2015-12-21T14:29:15Z","project_id":"bookdown-demo","source":"github","target":"rstudio/bookdown-demo","type":"issue_close","user":"joelgombin"}
+{"source":"github","type":"fork","project_id":"bookdown-demo","target":"rstudio/bookdown-demo","datetime":"2015-12-21T06:41:25Z","user":"joelgombin"}
+{"source":"github","type":"issue_open","project_id":"bookdown-demo","target":"rstudio/bookdown-demo","datetime":"2015-12-21T06:48:40Z","ref":1,"user":"joelgombin"}
+{"source":"github","type":"issue_close","project_id":"bookdown-demo","target":"rstudio/bookdown-demo","datetime":"2015-12-21T14:29:15Z","ref":1,"user":"joelgombin"}
+{"source":"github","type":"comment","project_id":"bookdown-demo","target":"rstudio/bookdown-demo","datetime":"2015-12-21T14:29:15Z","ref":1,"user":"hadley"}

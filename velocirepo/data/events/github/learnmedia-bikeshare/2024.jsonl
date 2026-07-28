@@ -1,6 +1,5 @@
-{"datetime":"2024-03-08T14:03:54Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"fork","user":"cscheid"}
-{"datetime":"2024-03-08T20:20:36Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"fork","user":"KeithGalli"}
-{"datetime":"2024-03-08T20:47:18Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"fork","user":"richadB"}
-{"datetime":"2024-03-08T20:54:00Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"star","user":"larnsce"}
-{"datetime":"2024-03-08T21:23:55Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"fork","user":"NipunSingh"}
-{"datetime":"2024-03-08T22:38:58Z","project_id":"learnmedia-bikeshare","source":"github","target":"posit-dev/learnmedia-bikeshare","type":"pr_open","user":"jackblandin"}
+{"source":"github","type":"fork","project_id":"learnmedia-bikeshare","target":"posit-dev/learnmedia-bikeshare","datetime":"2024-03-08T14:03:54Z","user":"cscheid"}
+{"source":"github","type":"fork","project_id":"learnmedia-bikeshare","target":"posit-dev/learnmedia-bikeshare","datetime":"2024-03-08T20:20:36Z","user":"KeithGalli"}
+{"source":"github","type":"fork","project_id":"learnmedia-bikeshare","target":"posit-dev/learnmedia-bikeshare","datetime":"2024-03-08T20:47:18Z","user":"richadB"}
+{"source":"github","type":"fork","project_id":"learnmedia-bikeshare","target":"posit-dev/learnmedia-bikeshare","datetime":"2024-03-08T21:23:55Z","user":"NipunSingh"}
+{"source":"github","type":"pr_open","project_id":"learnmedia-bikeshare","target":"posit-dev/learnmedia-bikeshare","datetime":"2024-03-08T22:38:58Z","ref":1,"user":"jackblandin"}

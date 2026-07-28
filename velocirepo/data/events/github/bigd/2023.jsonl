@@ -1,11 +1,4 @@
-{"datetime":"2023-03-10T11:29:19Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"Leo-Lee15"}
-{"datetime":"2023-03-22T13:59:33Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"issue_open","user":"gadenbuie"}
-{"datetime":"2023-08-20T00:07:07Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"barnesparker"}
-{"datetime":"2023-10-15T01:22:07Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"issue_open","user":"ramiromagno"}
-{"datetime":"2023-12-19T14:19:07Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"pr_open","user":"olivroy"}
-{"datetime":"2023-12-20T00:58:50Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"pr_merge","user":"olivroy"}
-{"datetime":"2023-12-21T10:19:16Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"johnmackintosh"}
-{"datetime":"2023-12-22T22:10:15Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"ThomUK"}
-{"datetime":"2023-12-23T22:57:14Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"send2dan"}
-{"datetime":"2023-12-28T18:19:27Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"andrewallenbruce"}
-{"datetime":"2023-12-29T15:40:41Z","project_id":"bigd","source":"github","target":"rstudio/bigD","type":"star","user":"halmgillman"}
+{"source":"github","type":"issue_open","project_id":"bigd","target":"rstudio/bigD","datetime":"2023-03-22T13:59:33Z","ref":8,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"bigd","target":"rstudio/bigD","datetime":"2023-10-15T01:22:07Z","ref":9,"user":"ramiromagno"}
+{"source":"github","type":"pr_open","project_id":"bigd","target":"rstudio/bigD","datetime":"2023-12-19T14:19:07Z","ref":10,"user":"olivroy"}
+{"source":"github","type":"pr_merge","project_id":"bigd","target":"rstudio/bigD","datetime":"2023-12-20T00:58:50Z","ref":10,"user":"olivroy"}

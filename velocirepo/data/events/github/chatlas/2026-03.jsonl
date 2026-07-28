@@ -1,4 +1,6 @@
-{"datetime":"2026-03-02T00:02:04Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"issue_comment","user":"jnhyeon"}
-{"datetime":"2026-03-19T23:28:17Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"pr_open","user":"elnelson575"}
-{"datetime":"2026-03-20T14:39:27Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-03-27T15:06:03Z","project_id":"chatlas","source":"github","target":"posit-dev/chatlas","type":"issue_open","user":"phbol"}
+{"source":"github","type":"issue_close","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-02T00:02:04Z","ref":271,"user":"jnhyeon"}
+{"source":"github","type":"comment","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-02T00:02:04Z","ref":271,"user":"jnhyeon"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-19T23:28:17Z","ref":272,"user":"elnelson575"}
+{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-20T14:26:05Z","ref":272,"user":"elnelson575"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-20T14:39:27Z","ref":273,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-03-27T15:06:03Z","ref":274,"user":"phbol"}

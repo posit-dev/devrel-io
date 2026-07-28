@@ -1,4 +1,3 @@
-{"datetime":"2026-06-03T08:41:02Z","project_id":"webshot2","source":"github","target":"rstudio/webshot2","type":"star","user":"francescopatane96"}
-{"datetime":"2026-06-03T16:07:56Z","project_id":"webshot2","source":"github","target":"rstudio/webshot2","type":"fork","user":"joranE"}
-{"datetime":"2026-06-03T16:47:35Z","project_id":"webshot2","source":"github","target":"rstudio/webshot2","type":"pr_open","user":"joranE"}
-{"datetime":"2026-06-07T16:53:44Z","project_id":"webshot2","source":"github","target":"rstudio/webshot2","type":"star","user":"AdrianAntico"}
+{"source":"github","type":"fork","project_id":"webshot2","target":"rstudio/webshot2","datetime":"2026-06-03T16:07:56Z","user":"joranE"}
+{"source":"github","type":"pr_open","project_id":"webshot2","target":"rstudio/webshot2","datetime":"2026-06-03T16:47:35Z","ref":80,"user":"joranE"}
+{"source":"github","type":"comment","project_id":"webshot2","target":"rstudio/webshot2","datetime":"2026-06-03T16:47:42Z","ref":80,"user":"CLAassistant"}

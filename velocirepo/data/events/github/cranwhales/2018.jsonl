@@ -1,10 +1,3 @@
-{"datetime":"2018-06-04T17:40:30Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"dpastoor"}
-{"datetime":"2018-06-06T18:27:48Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"fsoubes"}
-{"datetime":"2018-06-26T21:24:32Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"ibombonato"}
-{"datetime":"2018-06-27T10:17:37Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"IronistM"}
-{"datetime":"2018-06-27T12:44:27Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"justinjm"}
-{"datetime":"2018-06-28T07:04:45Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"dreammaster38"}
-{"datetime":"2018-08-30T21:03:35Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"pr_open","user":"alandipert"}
-{"datetime":"2018-08-30T21:05:09Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"pr_merge","user":"alandipert"}
-{"datetime":"2018-09-17T22:34:38Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"star","user":"YsoSirius"}
-{"datetime":"2018-10-21T16:16:59Z","project_id":"cranwhales","source":"github","target":"rstudio/cranwhales","type":"fork","user":"YsoSirius"}
+{"source":"github","type":"pr_open","project_id":"cranwhales","target":"rstudio/cranwhales","datetime":"2018-08-30T21:03:35Z","ref":1,"user":"alandipert"}
+{"source":"github","type":"pr_merge","project_id":"cranwhales","target":"rstudio/cranwhales","datetime":"2018-08-30T21:05:09Z","ref":1,"user":"alandipert"}
+{"source":"github","type":"fork","project_id":"cranwhales","target":"rstudio/cranwhales","datetime":"2018-10-21T16:16:59Z","user":"YsoSirius"}

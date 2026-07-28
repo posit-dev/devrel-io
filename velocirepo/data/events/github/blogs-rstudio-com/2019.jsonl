@@ -1,6 +1,6 @@
-{"datetime":"2019-07-09T08:23:38Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_open","user":"valmetisrinivas"}
-{"datetime":"2019-07-11T13:02:25Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_open","user":"valmetisrinivas"}
-{"datetime":"2019-07-11T13:05:52Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"issue_close","user":"valmetisrinivas"}
-{"datetime":"2019-11-08T19:54:26Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"fork","user":"javierluraschi"}
-{"datetime":"2019-11-08T19:56:41Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_open","user":"javierluraschi"}
-{"datetime":"2019-11-08T20:30:43Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_merge","user":"javierluraschi"}
+{"source":"github","type":"issue_open","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-07-09T08:23:38Z","ref":2,"user":"valmetisrinivas"}
+{"source":"github","type":"issue_open","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-07-11T13:02:25Z","ref":3,"user":"valmetisrinivas"}
+{"source":"github","type":"issue_close","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-07-11T13:05:52Z","ref":3,"user":"valmetisrinivas"}
+{"source":"github","type":"fork","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-11-08T19:54:26Z","user":"javierluraschi"}
+{"source":"github","type":"pr_open","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-11-08T19:56:41Z","ref":4,"user":"javierluraschi"}
+{"source":"github","type":"pr_merge","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2019-11-08T20:30:43Z","ref":4,"user":"javierluraschi"}

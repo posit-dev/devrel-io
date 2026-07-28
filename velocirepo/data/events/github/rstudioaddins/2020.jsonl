@@ -1,3 +1,4 @@
-{"datetime":"2020-08-11T05:15:14Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"fork","user":"erictleung"}
-{"datetime":"2020-08-11T05:17:02Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"pr_open","user":"erictleung"}
-{"datetime":"2020-08-14T06:04:32Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"pr_merge","user":"erictleung"}
+{"source":"github","type":"fork","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2020-08-11T05:15:14Z","user":"erictleung"}
+{"source":"github","type":"pr_open","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2020-08-11T05:17:02Z","ref":5,"user":"erictleung"}
+{"source":"github","type":"pr_merge","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2020-08-14T06:04:32Z","ref":5,"user":"erictleung"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2020-08-14T06:04:34Z","ref":5,"user":"kevinushey"}

@@ -1,8 +1,6 @@
-{"datetime":"2022-02-25T18:18:43Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"pr_open","user":"schloerke"}
-{"datetime":"2022-02-25T18:22:27Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"pr_merge","user":"schloerke"}
-{"datetime":"2022-06-10T18:04:11Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"nsunami"}
-{"datetime":"2022-06-18T13:44:30Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"star","user":"p0bs"}
-{"datetime":"2022-10-21T20:04:06Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"schloerke"}
-{"datetime":"2022-11-15T21:53:28Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"cpsievert"}
-{"datetime":"2022-11-15T21:57:58Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"cpsievert"}
-{"datetime":"2022-12-14T21:58:23Z","project_id":"shiny-workflows","source":"github","target":"rstudio/shiny-workflows","type":"issue_open","user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-02-25T18:18:43Z","ref":3,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-02-25T18:22:27Z","ref":3,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-10-21T20:04:06Z","ref":4,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-11-15T21:53:28Z","ref":5,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-11-15T21:57:58Z","ref":6,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"shiny-workflows","target":"rstudio/shiny-workflows","datetime":"2022-12-14T21:58:23Z","ref":7,"user":"cpsievert"}

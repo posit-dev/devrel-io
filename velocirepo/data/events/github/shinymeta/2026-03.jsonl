@@ -1,4 +1,4 @@
-{"datetime":"2026-03-02T15:52:48Z","project_id":"shinymeta","source":"github","target":"rstudio/shinymeta","type":"pr_merge","user":"cpsievert"}
-{"datetime":"2026-03-02T15:52:50Z","project_id":"shinymeta","source":"github","target":"rstudio/shinymeta","type":"issue_close","user":"cpsievert"}
-{"datetime":"2026-03-02T16:06:01Z","project_id":"shinymeta","source":"github","target":"rstudio/shinymeta","type":"pr_open","user":"cpsievert"}
-{"datetime":"2026-03-02T21:45:37Z","project_id":"shinymeta","source":"github","target":"rstudio/shinymeta","type":"pr_merge","user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinymeta","target":"rstudio/shinymeta","datetime":"2026-03-02T15:52:48Z","ref":131,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"shinymeta","target":"rstudio/shinymeta","datetime":"2026-03-02T15:52:50Z","ref":130,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"shinymeta","target":"rstudio/shinymeta","datetime":"2026-03-02T16:06:01Z","ref":132,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinymeta","target":"rstudio/shinymeta","datetime":"2026-03-02T21:45:37Z","ref":132,"user":"cpsievert"}

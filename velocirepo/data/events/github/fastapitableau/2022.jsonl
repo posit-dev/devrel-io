@@ -1,4 +1,2 @@
-{"datetime":"2022-02-23T18:36:44Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"pr_open","user":"toph-allen"}
-{"datetime":"2022-02-23T19:34:32Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"pr_merge","user":"toph-allen"}
-{"datetime":"2022-04-29T06:05:38Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"star","user":"Toukenize"}
-{"datetime":"2022-07-09T22:46:17Z","project_id":"fastapitableau","source":"github","target":"rstudio/fastapitableau","type":"star","user":"skwaugh"}
+{"source":"github","type":"pr_open","project_id":"fastapitableau","target":"rstudio/fastapitableau","datetime":"2022-02-23T18:36:44Z","ref":34,"user":"toph-allen"}
+{"source":"github","type":"pr_merge","project_id":"fastapitableau","target":"rstudio/fastapitableau","datetime":"2022-02-23T19:34:32Z","ref":34,"user":"toph-allen"}

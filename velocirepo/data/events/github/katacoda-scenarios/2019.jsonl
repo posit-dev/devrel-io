@@ -1,3 +1,3 @@
-{"datetime":"2019-12-13T11:16:47Z","project_id":"katacoda-scenarios","source":"github","target":"rstudio/katacoda-scenarios","type":"fork","user":"BenHall"}
-{"datetime":"2019-12-13T11:24:06Z","project_id":"katacoda-scenarios","source":"github","target":"rstudio/katacoda-scenarios","type":"pr_open","user":"BenHall"}
-{"datetime":"2019-12-13T16:08:54Z","project_id":"katacoda-scenarios","source":"github","target":"rstudio/katacoda-scenarios","type":"pr_merge","user":"BenHall"}
+{"source":"github","type":"fork","project_id":"katacoda-scenarios","target":"rstudio/katacoda-scenarios","datetime":"2019-12-13T11:16:47Z","user":"BenHall"}
+{"source":"github","type":"pr_open","project_id":"katacoda-scenarios","target":"rstudio/katacoda-scenarios","datetime":"2019-12-13T11:24:06Z","ref":1,"user":"BenHall"}
+{"source":"github","type":"pr_merge","project_id":"katacoda-scenarios","target":"rstudio/katacoda-scenarios","datetime":"2019-12-13T16:08:54Z","ref":1,"user":"BenHall"}

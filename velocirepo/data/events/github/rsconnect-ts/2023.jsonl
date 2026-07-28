@@ -1,6 +1,6 @@
-{"datetime":"2023-02-07T22:00:17Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"meatballhat"}
-{"datetime":"2023-02-08T14:43:44Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"meatballhat"}
-{"datetime":"2023-02-08T14:46:40Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"meatballhat"}
-{"datetime":"2023-02-08T16:28:11Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"meatballhat"}
-{"datetime":"2023-02-08T16:38:04Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_open","user":"meatballhat"}
-{"datetime":"2023-02-08T16:55:37Z","project_id":"rsconnect-ts","source":"github","target":"rstudio/rsconnect-ts","type":"pr_merge","user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-07T22:00:17Z","ref":22,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-08T14:43:44Z","ref":22,"user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-08T14:46:40Z","ref":23,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-08T16:28:11Z","ref":23,"user":"meatballhat"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-08T16:38:04Z","ref":24,"user":"meatballhat"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-ts","target":"rstudio/rsconnect-ts","datetime":"2023-02-08T16:55:37Z","ref":24,"user":"meatballhat"}

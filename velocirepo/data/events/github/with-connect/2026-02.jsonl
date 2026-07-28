@@ -1,3 +1,3 @@
-{"datetime":"2026-02-03T21:27:53Z","project_id":"with-connect","source":"github","target":"posit-dev/with-connect","type":"pr_merge","user":"nealrichardson"}
-{"datetime":"2026-02-03T21:27:54Z","project_id":"with-connect","source":"github","target":"posit-dev/with-connect","type":"issue_close","user":"nealrichardson"}
-{"datetime":"2026-02-12T00:43:05Z","project_id":"with-connect","source":"github","target":"posit-dev/with-connect","type":"issue_open","user":"dotNomad"}
+{"source":"github","type":"pr_merge","project_id":"with-connect","target":"posit-dev/with-connect","datetime":"2026-02-03T21:27:53Z","ref":41,"user":"nealrichardson"}
+{"source":"github","type":"issue_close","project_id":"with-connect","target":"posit-dev/with-connect","datetime":"2026-02-03T21:27:54Z","ref":9,"user":"nealrichardson"}
+{"source":"github","type":"issue_open","project_id":"with-connect","target":"posit-dev/with-connect","datetime":"2026-02-12T00:43:05Z","ref":42,"user":"dotNomad"}

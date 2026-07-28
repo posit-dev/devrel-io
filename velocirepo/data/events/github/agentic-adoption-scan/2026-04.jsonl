@@ -1,3 +1,4 @@
-{"datetime":"2026-04-07T15:53:06Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"pr_merge","user":"ian-flores"}
-{"datetime":"2026-04-08T13:03:27Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"star","user":"kitmacleod"}
-{"datetime":"2026-04-09T14:08:37Z","project_id":"agentic-adoption-scan","source":"github","target":"posit-dev/agentic-adoption-scan","type":"pr_merge","user":"copilot-swe-agent"}
+{"source":"github","type":"pr_merge","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2026-04-07T15:53:06Z","ref":21,"user":"ian-flores"}
+{"source":"github","type":"pr_merge","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2026-04-09T14:08:37Z","ref":18,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2026-04-09T14:09:57Z","ref":17,"user":"statik"}
+{"source":"github","type":"comment","project_id":"agentic-adoption-scan","target":"posit-dev/agentic-adoption-scan","datetime":"2026-04-09T15:21:18Z","ref":17,"user":"Copilot"}

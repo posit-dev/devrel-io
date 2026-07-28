@@ -1,11 +1,6 @@
-{"datetime":"2024-09-17T18:11:21Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"pr_open","user":"skaltman"}
-{"datetime":"2024-09-18T18:15:09Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"pr_merge","user":"skaltman"}
-{"datetime":"2024-09-20T17:18:28Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"fork","user":"alex-chisholm"}
-{"datetime":"2024-09-20T21:53:10Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"pr_open","user":"skaltman"}
-{"datetime":"2024-09-20T21:56:06Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"pr_merge","user":"skaltman"}
-{"datetime":"2024-09-23T19:54:30Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"star","user":"kharish89"}
-{"datetime":"2024-09-24T16:57:11Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"star","user":"abhradeepmaiti"}
-{"datetime":"2024-09-24T18:03:14Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"star","user":"davidnapoli"}
-{"datetime":"2024-09-24T18:07:08Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"star","user":"NKeleher"}
-{"datetime":"2024-09-26T17:02:03Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"fork","user":"kharish89"}
-{"datetime":"2024-10-28T18:27:02Z","project_id":"smalldatasf-quarto-exercises","source":"github","target":"posit-dev/smalldatasf-quarto-exercises","type":"star","user":"dataquine"}
+{"source":"github","type":"pr_open","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-17T18:11:21Z","ref":1,"user":"skaltman"}
+{"source":"github","type":"pr_merge","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-18T18:15:09Z","ref":1,"user":"skaltman"}
+{"source":"github","type":"fork","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-20T17:18:28Z","user":"alex-chisholm"}
+{"source":"github","type":"pr_open","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-20T21:53:10Z","ref":2,"user":"skaltman"}
+{"source":"github","type":"pr_merge","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-20T21:56:06Z","ref":2,"user":"skaltman"}
+{"source":"github","type":"fork","project_id":"smalldatasf-quarto-exercises","target":"posit-dev/smalldatasf-quarto-exercises","datetime":"2024-09-26T17:02:03Z","user":"kharish89"}

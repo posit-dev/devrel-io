@@ -1,10 +1,7 @@
-{"datetime":"2024-02-17T12:51:15Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"star","user":"jnhyeon"}
-{"datetime":"2024-03-20T14:05:48Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"star","user":"lucas-johnson"}
-{"datetime":"2024-03-27T18:16:18Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"issue_open","user":"juliasilge"}
-{"datetime":"2024-03-28T23:48:01Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"star","user":"jc855"}
-{"datetime":"2024-04-09T14:00:01Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"star","user":"madprogramer"}
-{"datetime":"2024-08-04T06:46:01Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"star","user":"slangenbach"}
-{"datetime":"2024-08-06T18:38:27Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"pr_open","user":"randyzwitch"}
-{"datetime":"2024-08-06T19:20:25Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"pr_merge","user":"randyzwitch"}
-{"datetime":"2024-08-07T18:17:54Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"issue_open","user":"z02dpj"}
-{"datetime":"2024-08-07T19:22:46Z","project_id":"vetiver-posit-co","source":"github","target":"rstudio/vetiver.posit.co","type":"issue_close","user":"z02dpj"}
+{"source":"github","type":"issue_open","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-03-27T18:16:18Z","ref":78,"user":"juliasilge"}
+{"source":"github","type":"pr_open","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-06T18:38:27Z","ref":79,"user":"randyzwitch"}
+{"source":"github","type":"pr_merge","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-06T19:20:25Z","ref":79,"user":"randyzwitch"}
+{"source":"github","type":"issue_open","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-07T18:17:54Z","ref":80,"user":"z02dpj"}
+{"source":"github","type":"comment","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-07T18:44:30Z","ref":80,"user":"juliasilge"}
+{"source":"github","type":"issue_close","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-07T19:22:46Z","ref":80,"user":"z02dpj"}
+{"source":"github","type":"comment","project_id":"vetiver-posit-co","target":"rstudio/vetiver.posit.co","datetime":"2024-08-07T19:22:46Z","ref":80,"user":"juliasilge"}

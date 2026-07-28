@@ -1,4 +1,4 @@
-{"datetime":"2026-06-03T22:14:40Z","project_id":"quarto-openapi","source":"github","target":"posit-dev/quarto-openapi","type":"pr_open","user":"edavidaja"}
-{"datetime":"2026-06-09T13:57:03Z","project_id":"quarto-openapi","source":"github","target":"posit-dev/quarto-openapi","type":"pr_merge","user":"edavidaja"}
-{"datetime":"2026-06-29T18:46:04Z","project_id":"quarto-openapi","source":"github","target":"posit-dev/quarto-openapi","type":"pr_open","user":"edavidaja"}
-{"datetime":"2026-06-29T18:51:01Z","project_id":"quarto-openapi","source":"github","target":"posit-dev/quarto-openapi","type":"pr_merge","user":"edavidaja"}
+{"source":"github","type":"pr_open","project_id":"quarto-openapi","target":"posit-dev/quarto-openapi","datetime":"2026-06-03T22:14:40Z","ref":22,"user":"edavidaja"}
+{"source":"github","type":"pr_merge","project_id":"quarto-openapi","target":"posit-dev/quarto-openapi","datetime":"2026-06-09T13:57:03Z","ref":22,"user":"edavidaja"}
+{"source":"github","type":"pr_open","project_id":"quarto-openapi","target":"posit-dev/quarto-openapi","datetime":"2026-06-29T18:46:04Z","ref":23,"user":"edavidaja"}
+{"source":"github","type":"pr_merge","project_id":"quarto-openapi","target":"posit-dev/quarto-openapi","datetime":"2026-06-29T18:51:01Z","ref":23,"user":"edavidaja"}

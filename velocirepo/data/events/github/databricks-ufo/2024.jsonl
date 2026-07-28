@@ -1,10 +1,5 @@
-{"datetime":"2024-01-23T04:25:15Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"pr_open","user":"blairj09"}
-{"datetime":"2024-02-01T05:30:33Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"fork","user":"hengrumay"}
-{"datetime":"2024-03-20T17:51:55Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"pr_merge","user":"blairj09"}
-{"datetime":"2024-03-22T05:40:03Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"fork","user":"smakubi"}
-{"datetime":"2024-03-22T18:33:46Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"star","user":"jgaman"}
-{"datetime":"2024-03-22T21:57:36Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"fork","user":"efvalder"}
-{"datetime":"2024-04-03T08:37:12Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"star","user":"AlexanderSeverinsen"}
-{"datetime":"2024-04-04T05:32:50Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"star","user":"dataquine"}
-{"datetime":"2024-04-23T15:09:56Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"star","user":"CathiaGoebel"}
-{"datetime":"2024-08-20T03:19:26Z","project_id":"databricks-ufo","source":"github","target":"rstudio/databricks-ufo","type":"star","user":"daniel-k-feinberg"}
+{"source":"github","type":"pr_open","project_id":"databricks-ufo","target":"rstudio/databricks-ufo","datetime":"2024-01-23T04:25:15Z","ref":3,"user":"blairj09"}
+{"source":"github","type":"fork","project_id":"databricks-ufo","target":"rstudio/databricks-ufo","datetime":"2024-02-01T05:30:33Z","user":"hengrumay"}
+{"source":"github","type":"pr_merge","project_id":"databricks-ufo","target":"rstudio/databricks-ufo","datetime":"2024-03-20T17:51:55Z","ref":3,"user":"blairj09"}
+{"source":"github","type":"fork","project_id":"databricks-ufo","target":"rstudio/databricks-ufo","datetime":"2024-03-22T05:40:03Z","user":"smakubi"}
+{"source":"github","type":"fork","project_id":"databricks-ufo","target":"rstudio/databricks-ufo","datetime":"2024-03-22T21:57:36Z","user":"efvalder"}

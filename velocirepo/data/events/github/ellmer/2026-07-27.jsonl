@@ -1,3 +1,4 @@
+{"source":"github","type":"issue_close","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-27T19:10:00Z","ref":1063,"user":"hadley"}
 {"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-27T16:29:22Z","ref":1065,"user":"thisisnic"}
 {"source":"github","type":"pr_merge","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-27T19:09:59Z","ref":1065,"user":"thisisnic"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-07-27T19:10:01Z","ref":1065,"user":"hadley"}

@@ -1,5 +1,3 @@
-{"datetime":"2026-04-14T00:23:14Z","project_id":"shiny-server","source":"github","target":"rstudio/shiny-server","type":"pr_open","user":"jcheng5"}
-{"datetime":"2026-04-14T01:35:16Z","project_id":"shiny-server","source":"github","target":"rstudio/shiny-server","type":"pr_open","user":"jcheng5"}
-{"datetime":"2026-04-26T18:58:07Z","project_id":"shiny-server","source":"github","target":"rstudio/shiny-server","type":"star","user":"MadelineStrong"}
-{"datetime":"2026-04-27T20:21:51Z","project_id":"shiny-server","source":"github","target":"rstudio/shiny-server","type":"star","user":"andrew-farrey"}
-{"datetime":"2026-04-30T03:59:35Z","project_id":"shiny-server","source":"github","target":"rstudio/shiny-server","type":"fork","user":"yarperez9-design"}
+{"source":"github","type":"pr_open","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-04-14T00:23:14Z","ref":596,"user":"jcheng5"}
+{"source":"github","type":"pr_open","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-04-14T01:35:16Z","ref":597,"user":"jcheng5"}
+{"source":"github","type":"fork","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-04-30T03:59:35Z","user":"yarperez9-design"}

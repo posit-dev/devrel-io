@@ -1,2 +1,2 @@
-{"datetime":"2026-04-29T00:26:45Z","project_id":"posit-dev-r-universe-dev","source":"github","target":"posit-dev/posit-dev.r-universe.dev","type":"fork","user":"cpsievert"}
-{"datetime":"2026-04-29T00:26:59Z","project_id":"posit-dev-r-universe-dev","source":"github","target":"posit-dev/posit-dev.r-universe.dev","type":"pr_open","user":"cpsievert"}
+{"source":"github","type":"fork","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2026-04-29T00:26:45Z","user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"posit-dev-r-universe-dev","target":"posit-dev/posit-dev.r-universe.dev","datetime":"2026-04-29T00:26:59Z","ref":2,"user":"cpsievert"}

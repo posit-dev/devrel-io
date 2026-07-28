@@ -1,3 +1,4 @@
-{"datetime":"2017-04-23T02:22:49Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"star","user":"ktargows"}
-{"datetime":"2017-04-23T02:22:50Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"fork","user":"ktargows"}
-{"datetime":"2017-09-13T15:41:40Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_close","user":"mbacou"}
+{"source":"github","type":"fork","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2017-04-23T02:22:50Z","user":"ktargows"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2017-09-13T15:38:53Z","ref":4,"user":"ignacio82"}
+{"source":"github","type":"issue_close","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2017-09-13T15:41:40Z","ref":4,"user":"mbacou"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2017-09-13T15:41:40Z","ref":4,"user":"jjallaire"}

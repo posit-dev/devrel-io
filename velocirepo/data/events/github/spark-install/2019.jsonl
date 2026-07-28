@@ -1,6 +1,5 @@
-{"datetime":"2019-01-22T04:38:03Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"pr_open","user":"eddiestudies"}
-{"datetime":"2019-01-28T18:08:06Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"pr_merge","user":"eddiestudies"}
-{"datetime":"2019-04-06T17:03:52Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"star","user":"fmgonzales"}
-{"datetime":"2019-05-17T18:46:51Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"pr_open","user":"javierluraschi"}
-{"datetime":"2019-05-17T18:47:24Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"pr_merge","user":"javierluraschi"}
-{"datetime":"2019-05-21T02:34:33Z","project_id":"spark-install","source":"github","target":"rstudio/spark-install","type":"star","user":"Houstonwp"}
+{"source":"github","type":"pr_open","project_id":"spark-install","target":"rstudio/spark-install","datetime":"2019-01-22T04:38:03Z","ref":37,"user":"eddiestudies"}
+{"source":"github","type":"comment","project_id":"spark-install","target":"rstudio/spark-install","datetime":"2019-01-28T18:08:01Z","ref":37,"user":"javierluraschi"}
+{"source":"github","type":"pr_merge","project_id":"spark-install","target":"rstudio/spark-install","datetime":"2019-01-28T18:08:06Z","ref":37,"user":"eddiestudies"}
+{"source":"github","type":"pr_open","project_id":"spark-install","target":"rstudio/spark-install","datetime":"2019-05-17T18:46:51Z","ref":38,"user":"javierluraschi"}
+{"source":"github","type":"pr_merge","project_id":"spark-install","target":"rstudio/spark-install","datetime":"2019-05-17T18:47:24Z","ref":38,"user":"javierluraschi"}

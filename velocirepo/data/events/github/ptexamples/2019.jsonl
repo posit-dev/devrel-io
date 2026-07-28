@@ -1,10 +1,4 @@
-{"datetime":"2019-01-29T10:24:32Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"cpfaff"}
-{"datetime":"2019-03-17T19:54:13Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"jonleslie"}
-{"datetime":"2019-03-19T23:10:23Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"apreshill"}
-{"datetime":"2019-03-19T23:40:59Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"adam-gruer"}
-{"datetime":"2019-03-20T02:52:40Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"andrewheiss"}
-{"datetime":"2019-03-20T04:57:02Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"Ryo-N7"}
-{"datetime":"2019-03-20T12:15:07Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"vuzun"}
-{"datetime":"2019-04-19T07:14:54Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"star","user":"cderv"}
-{"datetime":"2019-08-07T11:48:01Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"bfatemi"}
-{"datetime":"2019-10-04T14:05:59Z","project_id":"ptexamples","source":"github","target":"rstudio/ptexamples","type":"fork","user":"scottdaniel"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2019-01-29T10:24:32Z","user":"cpfaff"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2019-03-17T19:54:13Z","user":"jonleslie"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2019-08-07T11:48:01Z","user":"bfatemi"}
+{"source":"github","type":"fork","project_id":"ptexamples","target":"rstudio/ptexamples","datetime":"2019-10-04T14:05:59Z","user":"scottdaniel"}

@@ -1,3 +1,3 @@
-{"datetime":"2026-02-04T16:43:34Z","project_id":"ai-powered-app-workshop","source":"github","target":"posit-dev/ai-powered-app-workshop","type":"fork","user":"posit-dev"}
-{"datetime":"2026-02-04T16:44:22Z","project_id":"ai-powered-app-workshop","source":"github","target":"posit-dev/ai-powered-app-workshop","type":"pr_open","user":"garrettgman"}
-{"datetime":"2026-02-04T16:44:35Z","project_id":"ai-powered-app-workshop","source":"github","target":"posit-dev/ai-powered-app-workshop","type":"pr_merge","user":"garrettgman"}
+{"source":"github","type":"fork","project_id":"ai-powered-app-workshop","target":"posit-dev/ai-powered-app-workshop","datetime":"2026-02-04T16:43:34Z","user":"posit-dev"}
+{"source":"github","type":"pr_open","project_id":"ai-powered-app-workshop","target":"posit-dev/ai-powered-app-workshop","datetime":"2026-02-04T16:44:22Z","ref":1,"user":"garrettgman"}
+{"source":"github","type":"pr_merge","project_id":"ai-powered-app-workshop","target":"posit-dev/ai-powered-app-workshop","datetime":"2026-02-04T16:44:35Z","ref":1,"user":"garrettgman"}

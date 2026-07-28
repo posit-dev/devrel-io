@@ -1,9 +1,5 @@
-{"datetime":"2025-01-13T13:34:19Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"star","user":"Alik-V"}
-{"datetime":"2025-04-02T20:37:25Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"star","user":"durraniu"}
-{"datetime":"2025-04-03T02:23:17Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"star","user":"ar-puuk"}
-{"datetime":"2025-08-15T18:51:07Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2025-08-15T18:51:47Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"pr_merge","user":"gadenbuie"}
-{"datetime":"2025-08-15T18:51:48Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"issue_close","user":"gadenbuie"}
-{"datetime":"2025-08-15T19:06:51Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2025-08-15T19:26:45Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"pr_merge","user":"gadenbuie"}
-{"datetime":"2025-08-15T20:37:54Z","project_id":"shinymedia","source":"github","target":"posit-dev/shinymedia","type":"star","user":"mgorjis"}
+{"source":"github","type":"pr_open","project_id":"shinymedia","target":"posit-dev/shinymedia","datetime":"2025-08-15T18:51:07Z","ref":9,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"shinymedia","target":"posit-dev/shinymedia","datetime":"2025-08-15T18:51:47Z","ref":9,"user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"shinymedia","target":"posit-dev/shinymedia","datetime":"2025-08-15T18:51:48Z","ref":5,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"shinymedia","target":"posit-dev/shinymedia","datetime":"2025-08-15T19:06:51Z","ref":10,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"shinymedia","target":"posit-dev/shinymedia","datetime":"2025-08-15T19:26:45Z","ref":10,"user":"gadenbuie"}

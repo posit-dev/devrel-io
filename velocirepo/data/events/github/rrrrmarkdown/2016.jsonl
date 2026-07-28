@@ -1,6 +1,2 @@
-{"datetime":"2016-06-01T20:57:23Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"star","user":"Henrikun"}
-{"datetime":"2016-06-16T23:28:52Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"star","user":"jalapic"}
-{"datetime":"2016-07-09T10:29:16Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"star","user":"RboDev"}
-{"datetime":"2016-08-09T08:30:02Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"star","user":"seaskyshy"}
-{"datetime":"2016-10-16T23:13:18Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"fork","user":"Scott-Heffron"}
-{"datetime":"2016-12-21T21:31:32Z","project_id":"rrrrmarkdown","source":"github","target":"rstudio/RRRRMarkdown","type":"fork","user":"asears"}
+{"source":"github","type":"fork","project_id":"rrrrmarkdown","target":"rstudio/RRRRMarkdown","datetime":"2016-10-16T23:13:18Z","user":"Scott-Heffron"}
+{"source":"github","type":"fork","project_id":"rrrrmarkdown","target":"rstudio/RRRRMarkdown","datetime":"2016-12-21T21:31:32Z","user":"asears"}

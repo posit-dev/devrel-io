@@ -1,2 +1,2 @@
-{"datetime":"2018-11-28T04:54:47Z","project_id":"checkrs-containers","source":"github","target":"rstudio/checkRS-containers","type":"pr_open","user":"dskard"}
-{"datetime":"2018-11-28T04:55:17Z","project_id":"checkrs-containers","source":"github","target":"rstudio/checkRS-containers","type":"pr_merge","user":"dskard"}
+{"source":"github","type":"pr_open","project_id":"checkrs-containers","target":"rstudio/checkRS-containers","datetime":"2018-11-28T04:54:47Z","ref":1,"user":"dskard"}
+{"source":"github","type":"pr_merge","project_id":"checkrs-containers","target":"rstudio/checkRS-containers","datetime":"2018-11-28T04:55:17Z","ref":1,"user":"dskard"}

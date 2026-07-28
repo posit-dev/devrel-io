@@ -1,1 +1,3 @@
-{"datetime":"2026-07-15T18:10:08Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"bschwedler"}
+{"source":"github","type":"issue_close","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-15T14:36:16Z","ref":61,"user":"ianpittwood"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-15T18:10:08Z","ref":124,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-15T14:36:16Z","ref":61,"user":"bschwedler"}

@@ -1,9 +1,6 @@
-{"datetime":"2025-01-02T02:28:28Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"fork","user":"zhihu3456"}
-{"datetime":"2025-02-04T18:23:33Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"fork","user":"TechWorksLab"}
-{"datetime":"2025-02-22T06:44:44Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"fork","user":"aishwarya-amonkar"}
-{"datetime":"2025-03-05T17:18:28Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"fork","user":"PingtaoYi"}
-{"datetime":"2025-03-10T15:02:43Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"star","user":"erinstokes"}
-{"datetime":"2025-03-15T00:03:05Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"star","user":"edvardasvabuolas-ebiquity"}
-{"datetime":"2025-07-25T08:00:11Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"fork","user":"Moonwiing"}
-{"datetime":"2025-08-03T22:35:17Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"star","user":"bonniehywong"}
-{"datetime":"2025-09-08T13:23:50Z","project_id":"shiny-gallery","source":"github","target":"rstudio/shiny-gallery","type":"star","user":"Sam-Vizcaino-Vickers"}
+{"source":"github","type":"fork","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-01-02T02:28:28Z","user":"zhihu3456"}
+{"source":"github","type":"fork","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-02-04T18:23:33Z","user":"TechWorksLab"}
+{"source":"github","type":"fork","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-02-22T06:44:44Z","user":"aishwarya-amonkar"}
+{"source":"github","type":"fork","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-03-05T17:18:28Z","user":"PingtaoYi"}
+{"source":"github","type":"comment","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-03-12T09:07:42Z","ref":15,"user":"Chen-kuang97"}
+{"source":"github","type":"fork","project_id":"shiny-gallery","target":"rstudio/shiny-gallery","datetime":"2025-07-25T08:00:11Z","user":"Moonwiing"}

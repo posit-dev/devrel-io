@@ -1,3 +1,2 @@
-{"datetime":"2016-08-30T16:16:20Z","project_id":"chef-spark","source":"github","target":"rstudio/chef-spark","type":"pr_open","user":"stevenolen"}
-{"datetime":"2016-08-30T16:16:24Z","project_id":"chef-spark","source":"github","target":"rstudio/chef-spark","type":"pr_merge","user":"stevenolen"}
-{"datetime":"2016-08-31T03:14:42Z","project_id":"chef-spark","source":"github","target":"rstudio/chef-spark","type":"star","user":"seaskyshy"}
+{"source":"github","type":"pr_open","project_id":"chef-spark","target":"rstudio/chef-spark","datetime":"2016-08-30T16:16:20Z","ref":1,"user":"stevenolen"}
+{"source":"github","type":"pr_merge","project_id":"chef-spark","target":"rstudio/chef-spark","datetime":"2016-08-30T16:16:24Z","ref":1,"user":"stevenolen"}

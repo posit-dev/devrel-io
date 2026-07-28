@@ -1,6 +1,3 @@
-{"datetime":"2016-01-17T11:53:51Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"fork","user":"ahtealeb"}
-{"datetime":"2016-01-20T07:49:21Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"star","user":"andkov"}
-{"datetime":"2016-02-12T02:40:28Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"star","user":"zorost"}
-{"datetime":"2016-03-03T19:56:42Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-03-30T03:02:11Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"fork","user":"chuhoting"}
-{"datetime":"2016-07-07T03:22:22Z","project_id":"expert","source":"github","target":"rstudio/expert","type":"star","user":"Bekterra"}
+{"source":"github","type":"fork","project_id":"expert","target":"rstudio/expert","datetime":"2016-01-17T11:53:51Z","user":"ahtealeb"}
+{"source":"github","type":"fork","project_id":"expert","target":"rstudio/expert","datetime":"2016-03-03T19:56:42Z","user":"astraadria4ari"}
+{"source":"github","type":"fork","project_id":"expert","target":"rstudio/expert","datetime":"2016-03-30T03:02:11Z","user":"chuhoting"}

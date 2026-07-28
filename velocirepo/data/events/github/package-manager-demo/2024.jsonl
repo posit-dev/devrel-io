@@ -1,4 +1,7 @@
-{"datetime":"2024-03-06T18:07:09Z","project_id":"package-manager-demo","source":"github","target":"rstudio/package-manager-demo","type":"issue_open","user":"edavidaja"}
-{"datetime":"2024-04-11T13:05:42Z","project_id":"package-manager-demo","source":"github","target":"rstudio/package-manager-demo","type":"issue_close","user":"edavidaja"}
-{"datetime":"2024-08-23T20:51:21Z","project_id":"package-manager-demo","source":"github","target":"rstudio/package-manager-demo","type":"issue_open","user":"brooklynbagel"}
-{"datetime":"2024-08-26T05:26:15Z","project_id":"package-manager-demo","source":"github","target":"rstudio/package-manager-demo","type":"fork","user":"brooklynbagel"}
+{"source":"github","type":"issue_open","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-03-06T18:07:09Z","ref":23,"user":"edavidaja"}
+{"source":"github","type":"comment","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-03-06T22:34:48Z","ref":23,"user":"SamEdwardes"}
+{"source":"github","type":"comment","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-03-11T14:12:30Z","ref":23,"user":"edavidaja"}
+{"source":"github","type":"comment","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-03-12T18:49:17Z","ref":23,"user":"SamEdwardes"}
+{"source":"github","type":"issue_close","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-04-11T13:05:42Z","ref":23,"user":"edavidaja"}
+{"source":"github","type":"issue_open","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-08-23T20:51:21Z","ref":24,"user":"brooklynbagel"}
+{"source":"github","type":"fork","project_id":"package-manager-demo","target":"rstudio/package-manager-demo","datetime":"2024-08-26T05:26:15Z","user":"brooklynbagel"}

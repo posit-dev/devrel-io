@@ -1,10 +1,7 @@
-{"datetime":"2022-02-14T16:32:30Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"hiifong"}
-{"datetime":"2022-02-15T12:34:15Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"ismirsehregal"}
-{"datetime":"2022-03-31T09:44:19Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"clementlwm94"}
-{"datetime":"2022-08-12T14:37:32Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"UniversalSubtitles"}
-{"datetime":"2022-10-19T03:34:37Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"pr_open","user":"yihui"}
-{"datetime":"2022-10-19T04:15:13Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"pr_merge","user":"yihui"}
-{"datetime":"2022-10-20T15:35:41Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"pr_open","user":"yihui"}
-{"datetime":"2022-10-27T18:43:35Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"pr_merge","user":"yihui"}
-{"datetime":"2022-11-28T18:43:08Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"roman91DE"}
-{"datetime":"2022-12-30T14:58:46Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"SeshatCZ"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-03-31T09:44:19Z","user":"clementlwm94"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-08-12T14:37:32Z","user":"UniversalSubtitles"}
+{"source":"github","type":"pr_open","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-10-19T03:34:37Z","ref":94,"user":"yihui"}
+{"source":"github","type":"pr_merge","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-10-19T04:15:13Z","ref":94,"user":"yihui"}
+{"source":"github","type":"pr_open","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-10-20T15:35:41Z","ref":95,"user":"yihui"}
+{"source":"github","type":"pr_merge","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-10-27T18:43:35Z","ref":95,"user":"yihui"}
+{"source":"github","type":"comment","project_id":"markdown","target":"rstudio/markdown","datetime":"2022-10-28T09:26:34Z","ref":95,"user":"cderv"}

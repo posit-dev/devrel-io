@@ -1,6 +1,9 @@
-{"datetime":"2026-07-15T21:17:37Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"issue_open","user":"amdove"}
-{"datetime":"2026-07-15T19:27:02Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"Lytol"}
-{"datetime":"2026-07-15T16:46:25Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"timtalbot"}
-{"datetime":"2026-07-15T16:58:46Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"timtalbot"}
-{"datetime":"2026-07-15T12:19:24Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_open","user":"stevenolen"}
-{"datetime":"2026-07-15T12:48:39Z","project_id":"ptd","source":"github","target":"posit-dev/ptd","type":"pr_merge","user":"stevenolen"}
+{"source":"github","type":"issue_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T21:17:37Z","ref":353,"user":"amdove"}
+{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T19:27:02Z","ref":352,"user":"Lytol"}
+{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T16:46:25Z","ref":351,"user":"timtalbot"}
+{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T16:58:46Z","ref":351,"user":"timtalbot"}
+{"source":"github","type":"pr_open","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T12:19:24Z","ref":350,"user":"stevenolen"}
+{"source":"github","type":"pr_merge","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T12:48:39Z","ref":350,"user":"stevenolen"}
+{"source":"github","type":"comment","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T16:54:47Z","ref":351,"user":"claude[bot]"}
+{"source":"github","type":"comment","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T16:21:40Z","ref":348,"user":"claude[bot]"}
+{"source":"github","type":"comment","project_id":"ptd","target":"posit-dev/ptd","datetime":"2026-07-15T12:22:07Z","ref":350,"user":"claude[bot]"}

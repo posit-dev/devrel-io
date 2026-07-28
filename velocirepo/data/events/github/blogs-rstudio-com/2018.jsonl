@@ -1,2 +1,3 @@
-{"datetime":"2018-09-12T21:27:49Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_open","user":"trestletech"}
-{"datetime":"2018-09-12T21:36:13Z","project_id":"blogs-rstudio-com","source":"github","target":"rstudio/blogs.rstudio.com","type":"pr_merge","user":"trestletech"}
+{"source":"github","type":"pr_open","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2018-09-12T21:27:49Z","ref":1,"user":"trestletech"}
+{"source":"github","type":"comment","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2018-09-12T21:35:54Z","ref":1,"user":"trestletech"}
+{"source":"github","type":"pr_merge","project_id":"blogs-rstudio-com","target":"rstudio/blogs.rstudio.com","datetime":"2018-09-12T21:36:13Z","ref":1,"user":"trestletech"}

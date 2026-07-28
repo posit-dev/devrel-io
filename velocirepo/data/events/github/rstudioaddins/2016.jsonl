@@ -1,5 +1,9 @@
-{"datetime":"2016-02-05T23:57:25Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"star","user":"sivartravis"}
-{"datetime":"2016-03-03T19:53:27Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-03-07T16:28:24Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_open","user":"DataStrategist"}
-{"datetime":"2016-12-22T11:42:32Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_open","user":"mbacou"}
-{"datetime":"2016-12-22T17:59:16Z","project_id":"rstudioaddins","source":"github","target":"rstudio/rstudioaddins","type":"issue_close","user":"DataStrategist"}
+{"source":"github","type":"fork","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-03-03T19:53:27Z","user":"astraadria4ari"}
+{"source":"github","type":"issue_open","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-03-07T16:28:24Z","ref":3,"user":"DataStrategist"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-03-07T17:02:53Z","ref":3,"user":"kevinushey"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-03-08T11:56:35Z","ref":3,"user":"DataStrategist"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-03-08T12:25:17Z","ref":3,"user":"DataStrategist"}
+{"source":"github","type":"issue_open","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-12-22T11:42:32Z","ref":4,"user":"mbacou"}
+{"source":"github","type":"issue_close","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-12-22T17:59:16Z","ref":3,"user":"DataStrategist"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-12-22T18:03:05Z","ref":4,"user":"kevinushey"}
+{"source":"github","type":"comment","project_id":"rstudioaddins","target":"rstudio/rstudioaddins","datetime":"2016-12-22T20:12:27Z","ref":4,"user":"mbacou"}

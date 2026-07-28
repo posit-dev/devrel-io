@@ -1,4 +1,2 @@
-{"datetime":"2025-03-11T15:39:21Z","project_id":"demo-co","source":"github","target":"rstudio/demo-co","type":"star","user":"kaleycode"}
-{"datetime":"2025-03-14T07:14:08Z","project_id":"demo-co","source":"github","target":"rstudio/demo-co","type":"fork","user":"samwel2000"}
-{"datetime":"2025-05-20T11:27:50Z","project_id":"demo-co","source":"github","target":"rstudio/demo-co","type":"fork","user":"molitigar"}
-{"datetime":"2025-12-19T21:59:00Z","project_id":"demo-co","source":"github","target":"rstudio/demo-co","type":"star","user":"gh-dhintz"}
+{"source":"github","type":"fork","project_id":"demo-co","target":"rstudio/demo-co","datetime":"2025-03-14T07:14:08Z","user":"samwel2000"}
+{"source":"github","type":"fork","project_id":"demo-co","target":"rstudio/demo-co","datetime":"2025-05-20T11:27:50Z","user":"molitigar"}

@@ -1,3 +1,2 @@
-{"datetime":"2020-10-29T12:34:42Z","project_id":"forge","source":"github","target":"rstudio/forge","type":"fork","user":"nathaneastwood"}
-{"datetime":"2020-10-29T12:40:59Z","project_id":"forge","source":"github","target":"rstudio/forge","type":"pr_open","user":"nathaneastwood"}
-{"datetime":"2020-10-29T15:17:56Z","project_id":"forge","source":"github","target":"rstudio/forge","type":"star","user":"jimbrig"}
+{"source":"github","type":"fork","project_id":"forge","target":"rstudio/forge","datetime":"2020-10-29T12:34:42Z","user":"nathaneastwood"}
+{"source":"github","type":"pr_open","project_id":"forge","target":"rstudio/forge","datetime":"2020-10-29T12:40:59Z","ref":9,"user":"nathaneastwood"}

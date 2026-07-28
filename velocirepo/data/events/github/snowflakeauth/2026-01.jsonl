@@ -1,3 +1,3 @@
-{"datetime":"2026-01-05T21:46:29Z","project_id":"snowflakeauth","source":"github","target":"posit-dev/snowflakeauth","type":"issue_open","user":"atheriel"}
-{"datetime":"2026-01-15T14:11:18Z","project_id":"snowflakeauth","source":"github","target":"posit-dev/snowflakeauth","type":"issue_close","user":"atheriel"}
-{"datetime":"2026-01-23T16:36:23Z","project_id":"snowflakeauth","source":"github","target":"posit-dev/snowflakeauth","type":"pr_open","user":"atheriel"}
+{"source":"github","type":"issue_open","project_id":"snowflakeauth","target":"posit-dev/snowflakeauth","datetime":"2026-01-05T21:46:29Z","ref":32,"user":"atheriel"}
+{"source":"github","type":"issue_close","project_id":"snowflakeauth","target":"posit-dev/snowflakeauth","datetime":"2026-01-15T14:11:18Z","ref":32,"user":"atheriel"}
+{"source":"github","type":"pr_open","project_id":"snowflakeauth","target":"posit-dev/snowflakeauth","datetime":"2026-01-23T16:36:23Z","ref":33,"user":"atheriel"}

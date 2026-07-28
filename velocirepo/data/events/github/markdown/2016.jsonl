@@ -1,9 +1,4 @@
-{"datetime":"2016-03-03T19:56:40Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-04-18T21:58:56Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"angerhang"}
-{"datetime":"2016-06-01T06:50:30Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"Yixf-Self"}
-{"datetime":"2016-06-07T09:14:11Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"samuel-liyi"}
-{"datetime":"2016-08-20T21:33:37Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"dmclark53"}
-{"datetime":"2016-09-22T19:32:06Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"slel"}
-{"datetime":"2016-11-04T19:49:56Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"star","user":"davebraze"}
-{"datetime":"2016-11-10T18:47:38Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"alenzhao"}
-{"datetime":"2016-11-21T13:53:38Z","project_id":"markdown","source":"github","target":"rstudio/markdown","type":"fork","user":"awid79"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2016-03-03T19:56:40Z","user":"astraadria4ari"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2016-06-01T06:50:30Z","user":"Yixf-Self"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2016-11-10T18:47:38Z","user":"alenzhao"}
+{"source":"github","type":"fork","project_id":"markdown","target":"rstudio/markdown","datetime":"2016-11-21T13:53:38Z","user":"awid79"}

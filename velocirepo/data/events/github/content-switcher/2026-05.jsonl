@@ -1,2 +1,2 @@
-{"datetime":"2026-05-06T16:58:04Z","project_id":"content-switcher","source":"github","target":"posit-dev/content-switcher","type":"pr_open","user":"sarahsdao"}
-{"datetime":"2026-05-06T17:00:23Z","project_id":"content-switcher","source":"github","target":"posit-dev/content-switcher","type":"pr_merge","user":"sarahsdao"}
+{"source":"github","type":"pr_open","project_id":"content-switcher","target":"posit-dev/content-switcher","datetime":"2026-05-06T16:58:04Z","ref":34,"user":"sarahsdao"}
+{"source":"github","type":"pr_merge","project_id":"content-switcher","target":"posit-dev/content-switcher","datetime":"2026-05-06T17:00:23Z","ref":34,"user":"sarahsdao"}

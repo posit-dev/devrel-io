@@ -1,5 +1,4 @@
-{"datetime":"2025-02-07T23:14:36Z","project_id":"snowflake-posit-quickstart-r","source":"github","target":"posit-dev/snowflake-posit-quickstart-r","type":"pr_merge","user":"skaltman"}
-{"datetime":"2025-04-30T03:13:25Z","project_id":"snowflake-posit-quickstart-r","source":"github","target":"posit-dev/snowflake-posit-quickstart-r","type":"fork","user":"KevinBSwenson"}
-{"datetime":"2025-07-11T19:47:25Z","project_id":"snowflake-posit-quickstart-r","source":"github","target":"posit-dev/snowflake-posit-quickstart-r","type":"star","user":"lbrenes-epi"}
-{"datetime":"2025-09-16T06:30:07Z","project_id":"snowflake-posit-quickstart-r","source":"github","target":"posit-dev/snowflake-posit-quickstart-r","type":"fork","user":"sfc-gh-mpenumathsa"}
-{"datetime":"2025-09-16T06:45:27Z","project_id":"snowflake-posit-quickstart-r","source":"github","target":"posit-dev/snowflake-posit-quickstart-r","type":"pr_open","user":"sfc-gh-mpenumathsa"}
+{"source":"github","type":"pr_merge","project_id":"snowflake-posit-quickstart-r","target":"posit-dev/snowflake-posit-quickstart-r","datetime":"2025-02-07T23:14:36Z","ref":5,"user":"skaltman"}
+{"source":"github","type":"fork","project_id":"snowflake-posit-quickstart-r","target":"posit-dev/snowflake-posit-quickstart-r","datetime":"2025-04-30T03:13:25Z","user":"KevinBSwenson"}
+{"source":"github","type":"fork","project_id":"snowflake-posit-quickstart-r","target":"posit-dev/snowflake-posit-quickstart-r","datetime":"2025-09-16T06:30:07Z","user":"sfc-gh-mpenumathsa"}
+{"source":"github","type":"pr_open","project_id":"snowflake-posit-quickstart-r","target":"posit-dev/snowflake-posit-quickstart-r","datetime":"2025-09-16T06:45:27Z","ref":7,"user":"sfc-gh-mpenumathsa"}

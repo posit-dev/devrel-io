@@ -1,7 +1,8 @@
-{"datetime":"2026-07-01T21:02:51Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"posit-package-manager-automation"}
-{"datetime":"2026-07-01T21:43:52Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_merge","user":"posit-package-manager-automation"}
-{"datetime":"2026-07-01T18:35:44Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"posit-package-manager-automation"}
-{"datetime":"2026-07-01T12:26:12Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"CDRayn"}
-{"datetime":"2026-07-01T14:11:36Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_merge","user":"CDRayn"}
-{"datetime":"2026-07-01T08:48:14Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"dependabot"}
-{"datetime":"2026-07-01T14:11:53Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_merge","user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T21:02:51Z","ref":121,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T21:43:52Z","ref":121,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T18:35:44Z","ref":120,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T12:26:12Z","ref":119,"user":"CDRayn"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T14:11:36Z","ref":119,"user":"CDRayn"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T08:48:14Z","ref":118,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T14:11:53Z","ref":118,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-01T14:11:19Z","ref":117,"user":"ianpittwood"}

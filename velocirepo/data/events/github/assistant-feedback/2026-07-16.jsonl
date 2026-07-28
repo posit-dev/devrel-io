@@ -1,1 +1,7 @@
-{"datetime":"2026-07-16T21:03:46Z","project_id":"assistant-feedback","source":"github","target":"posit-dev/assistant-feedback","type":"issue_open","user":"robert-norberg"}
+{"source":"github","type":"issue_open","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T21:03:46Z","ref":70,"user":"robert-norberg"}
+{"source":"github","type":"issue_close","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T19:59:29Z","ref":69,"user":"EBukin"}
+{"source":"github","type":"issue_close","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T20:49:02Z","ref":66,"user":"sharon-wang"}
+{"source":"github","type":"comment","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T23:34:05Z","ref":61,"user":"jthomasmock"}
+{"source":"github","type":"comment","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T21:22:15Z","ref":70,"user":"jonvanausdeln"}
+{"source":"github","type":"comment","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T20:53:59Z","ref":66,"user":"sharon-wang"}
+{"source":"github","type":"comment","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","datetime":"2026-07-16T20:05:45Z","ref":69,"user":"juliasilge"}

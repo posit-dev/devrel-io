@@ -1,5 +1,10 @@
-{"datetime":"2026-03-09T20:04:24Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"jcheng5"}
-{"datetime":"2026-03-10T16:27:14Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"copilot-swe-agent"}
-{"datetime":"2026-03-10T16:42:23Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_open","user":"gadenbuie"}
-{"datetime":"2026-03-10T16:48:53Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"pr_merge","user":"copilot-swe-agent"}
-{"datetime":"2026-03-17T20:15:04Z","project_id":"shinycannon","source":"github","target":"rstudio/shinycannon","type":"fork","user":"posit-dev"}
+{"source":"github","type":"pr_open","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-09T20:04:24Z","ref":74,"user":"jcheng5"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:27:08Z","ref":71,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:27:14Z","ref":75,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:27:16Z","ref":71,"user":"Copilot"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:27:27Z","ref":75,"user":"CLAassistant"}
+{"source":"github","type":"pr_open","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:42:23Z","ref":76,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:48:53Z","ref":75,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-10T16:49:01Z","ref":71,"user":"CLAassistant"}
+{"source":"github","type":"fork","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-17T20:15:04Z","user":"posit-dev"}
+{"source":"github","type":"comment","project_id":"shinycannon","target":"rstudio/shinycannon","datetime":"2026-03-17T20:30:05Z","ref":76,"user":"gadenbuie"}

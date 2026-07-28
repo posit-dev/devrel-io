@@ -1,6 +1,3 @@
-{"datetime":"2025-03-03T19:14:02Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"star","user":"jmoleiro"}
-{"datetime":"2025-03-05T23:26:14Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"star","user":"BrianCurliss"}
-{"datetime":"2025-04-15T09:54:33Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"star","user":"HsiangNianian"}
-{"datetime":"2025-11-05T13:04:31Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"star","user":"officialprofile"}
-{"datetime":"2025-11-13T21:08:35Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"pr_open","user":"leuzzi-gaia"}
-{"datetime":"2025-11-24T16:25:46Z","project_id":"distill","source":"github","target":"rstudio/distill","type":"fork","user":"clare-mcgarvey"}
+{"source":"github","type":"pr_open","project_id":"distill","target":"rstudio/distill","datetime":"2025-11-13T21:08:35Z","ref":508,"user":"leuzzi-gaia"}
+{"source":"github","type":"comment","project_id":"distill","target":"rstudio/distill","datetime":"2025-11-19T11:23:06Z","ref":508,"user":"cderv"}
+{"source":"github","type":"fork","project_id":"distill","target":"rstudio/distill","datetime":"2025-11-24T16:25:46Z","user":"clare-mcgarvey"}

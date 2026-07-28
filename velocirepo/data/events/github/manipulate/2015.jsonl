@@ -1,4 +1,6 @@
-{"datetime":"2015-01-10T07:56:12Z","project_id":"manipulate","source":"github","target":"rstudio/manipulate","type":"pr_open"}
-{"datetime":"2015-01-10T11:26:13Z","project_id":"manipulate","source":"github","target":"rstudio/manipulate","type":"pr_merge"}
-{"datetime":"2015-06-02T18:58:12Z","project_id":"manipulate","source":"github","target":"rstudio/manipulate","type":"issue_open","user":"daviesbj"}
-{"datetime":"2015-06-02T20:32:05Z","project_id":"manipulate","source":"github","target":"rstudio/manipulate","type":"issue_close","user":"daviesbj"}
+{"source":"github","type":"pr_open","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-01-10T07:56:12Z","ref":1}
+{"source":"github","type":"pr_merge","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-01-10T11:26:13Z","ref":1}
+{"source":"github","type":"issue_open","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-06-02T18:58:12Z","ref":2,"user":"daviesbj"}
+{"source":"github","type":"comment","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-06-02T19:47:46Z","ref":2,"user":"jjallaire"}
+{"source":"github","type":"comment","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-06-02T20:32:03Z","ref":2,"user":"daviesbj"}
+{"source":"github","type":"issue_close","project_id":"manipulate","target":"rstudio/manipulate","datetime":"2015-06-02T20:32:05Z","ref":2,"user":"daviesbj"}

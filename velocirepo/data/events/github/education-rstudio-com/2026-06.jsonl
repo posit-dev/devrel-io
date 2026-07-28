@@ -1,2 +1,8 @@
-{"datetime":"2026-06-15T16:29:19Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"fork","user":"RhoBott"}
-{"datetime":"2026-06-15T16:39:31Z","project_id":"education-rstudio-com","source":"github","target":"rstudio/education.rstudio.com","type":"pr_open","user":"RhoBott"}
+{"source":"github","type":"fork","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-15T16:29:19Z","user":"RhoBott"}
+{"source":"github","type":"pr_open","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-15T16:39:31Z","ref":210,"user":"RhoBott"}
+{"source":"github","type":"comment","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-15T18:19:59Z","ref":210,"user":"mine-cetinkaya-rundel"}
+{"source":"github","type":"comment","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-15T21:42:50Z","ref":210,"user":"RhoBott"}
+{"source":"github","type":"comment","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-15T21:44:15Z","ref":209,"user":"RhoBott"}
+{"source":"github","type":"comment","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-16T17:25:46Z","ref":210,"user":"RhoBott"}
+{"source":"github","type":"comment","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-29T15:47:06Z","ref":210,"user":"RhoBott"}
+{"source":"github","type":"pr_merge","project_id":"education-rstudio-com","target":"rstudio/education.rstudio.com","datetime":"2026-06-29T17:26:26Z","ref":210,"user":"RhoBott"}

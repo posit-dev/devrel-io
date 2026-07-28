@@ -1,5 +1,8 @@
-{"datetime":"2022-02-01T20:28:19Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"pr_merge","user":"edavidaja"}
-{"datetime":"2022-02-03T00:54:04Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"star","user":"jimbrig"}
-{"datetime":"2022-03-19T20:58:49Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_open","user":"AkaIit"}
-{"datetime":"2022-03-20T16:45:56Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_close","user":"AkaIit"}
-{"datetime":"2022-05-16T13:02:29Z","project_id":"db-rstudio-com","source":"github","target":"rstudio/db.rstudio.com","type":"issue_open","user":"edgararuiz"}
+{"source":"github","type":"comment","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-01-17T04:12:46Z","ref":139,"user":"lachlansimpson"}
+{"source":"github","type":"comment","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-01-17T04:15:55Z","ref":137,"user":"lachlansimpson"}
+{"source":"github","type":"comment","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-01-17T18:28:05Z","ref":137,"user":"AshleyHenry15"}
+{"source":"github","type":"pr_merge","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-02-01T20:28:19Z","ref":137,"user":"edavidaja"}
+{"source":"github","type":"issue_open","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-03-19T20:58:49Z","ref":142,"user":"AkaIit"}
+{"source":"github","type":"comment","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-03-20T16:45:50Z","ref":142,"user":"AkaIit"}
+{"source":"github","type":"issue_close","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-03-20T16:45:56Z","ref":142,"user":"AkaIit"}
+{"source":"github","type":"issue_open","project_id":"db-rstudio-com","target":"rstudio/db.rstudio.com","datetime":"2022-05-16T13:02:29Z","ref":143,"user":"edgararuiz"}

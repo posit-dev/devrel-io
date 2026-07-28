@@ -1,2 +1,4 @@
-{"datetime":"2026-07-22T16:19:35Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"posit-package-manager-automation"}
-{"datetime":"2026-07-22T16:18:43Z","project_id":"images-package-manager","source":"github","target":"posit-dev/images-package-manager","type":"pr_open","user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-22T16:19:35Z","ref":126,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-22T16:18:43Z","ref":125,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-22T16:22:19Z","ref":126,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-07-22T16:19:36Z","ref":126,"user":"posit-package-manager-automation[bot]"}

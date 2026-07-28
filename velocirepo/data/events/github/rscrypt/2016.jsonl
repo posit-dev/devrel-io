@@ -1,6 +1,3 @@
-{"datetime":"2016-03-03T19:58:02Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-07-29T04:39:47Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"eyv"}
-{"datetime":"2016-08-17T03:44:08Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"jmpasmoi"}
-{"datetime":"2016-10-11T13:32:10Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"pr_open","user":"kippandrew"}
-{"datetime":"2016-12-06T18:50:13Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"pr_merge","user":"kippandrew"}
-{"datetime":"2016-12-07T13:57:10Z","project_id":"rscrypt","source":"github","target":"rstudio/rscrypt","type":"star","user":"shrektan"}
+{"source":"github","type":"fork","project_id":"rscrypt","target":"rstudio/rscrypt","datetime":"2016-03-03T19:58:02Z","user":"astraadria4ari"}
+{"source":"github","type":"pr_open","project_id":"rscrypt","target":"rstudio/rscrypt","datetime":"2016-10-11T13:32:10Z","ref":12,"user":"kippandrew"}
+{"source":"github","type":"pr_merge","project_id":"rscrypt","target":"rstudio/rscrypt","datetime":"2016-12-06T18:50:13Z","ref":12,"user":"kippandrew"}

@@ -1,4 +1,10 @@
-{"datetime":"2026-03-10T16:41:38Z","project_id":"license-mole","source":"github","target":"posit-dev/license-mole","type":"pr_open","user":"petetronic"}
-{"datetime":"2026-03-10T16:50:05Z","project_id":"license-mole","source":"github","target":"posit-dev/license-mole","type":"pr_open","user":"copilot-swe-agent"}
-{"datetime":"2026-03-31T18:11:11Z","project_id":"license-mole","source":"github","target":"posit-dev/license-mole","type":"pr_open","user":"petetronic"}
-{"datetime":"2026-03-31T18:14:40Z","project_id":"license-mole","source":"github","target":"posit-dev/license-mole","type":"pr_merge","user":"petetronic"}
+{"source":"github","type":"pr_open","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-10T16:41:38Z","ref":14,"user":"petetronic"}
+{"source":"github","type":"pr_open","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-10T16:50:05Z","ref":15,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-11T02:19:26Z","ref":14,"user":"adamhigerd"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-12T20:04:55Z","ref":14,"user":"MariaSemple"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-13T02:09:18Z","ref":14,"user":"adamhigerd"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-13T02:16:10Z","ref":14,"user":"adamhigerd"}
+{"source":"github","type":"pr_open","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-31T18:11:11Z","ref":16,"user":"petetronic"}
+{"source":"github","type":"pr_merge","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-31T18:14:40Z","ref":16,"user":"petetronic"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-31T18:16:31Z","ref":14,"user":"petetronic"}
+{"source":"github","type":"comment","project_id":"license-mole","target":"posit-dev/license-mole","datetime":"2026-03-31T18:30:51Z","ref":14,"user":"adamhigerd"}

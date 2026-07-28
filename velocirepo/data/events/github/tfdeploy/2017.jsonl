@@ -1,3 +1,3 @@
-{"datetime":"2017-12-28T20:58:43Z","project_id":"tfdeploy","source":"github","target":"rstudio/tfdeploy","type":"fork","user":"zamorarr"}
-{"datetime":"2017-12-28T21:16:19Z","project_id":"tfdeploy","source":"github","target":"rstudio/tfdeploy","type":"issue_open","user":"zamorarr"}
-{"datetime":"2017-12-29T06:17:19Z","project_id":"tfdeploy","source":"github","target":"rstudio/tfdeploy","type":"star","user":"whatever1983"}
+{"source":"github","type":"fork","project_id":"tfdeploy","target":"rstudio/tfdeploy","datetime":"2017-12-28T20:58:43Z","user":"zamorarr"}
+{"source":"github","type":"issue_open","project_id":"tfdeploy","target":"rstudio/tfdeploy","datetime":"2017-12-28T21:16:19Z","ref":1,"user":"zamorarr"}
+{"source":"github","type":"comment","project_id":"tfdeploy","target":"rstudio/tfdeploy","datetime":"2017-12-28T21:35:50Z","ref":1,"user":"zamorarr"}

@@ -1,7 +1,4 @@
-{"datetime":"2023-02-06T17:16:57Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"justjhong"}
-{"datetime":"2023-03-28T15:18:30Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"LuisLauM"}
-{"datetime":"2023-04-22T20:01:37Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"petzi53"}
-{"datetime":"2023-05-03T21:21:11Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"jimbrig"}
-{"datetime":"2023-06-09T01:39:57Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"Eemaa26"}
-{"datetime":"2023-06-21T23:29:35Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"fork","user":"connortwiegand"}
-{"datetime":"2023-08-24T10:12:11Z","project_id":"addinexamples","source":"github","target":"rstudio/addinexamples","type":"star","user":"mayank-procogia"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2023-02-06T17:16:57Z","user":"justjhong"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2023-03-28T15:18:30Z","user":"LuisLauM"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2023-04-22T20:01:37Z","user":"petzi53"}
+{"source":"github","type":"fork","project_id":"addinexamples","target":"rstudio/addinexamples","datetime":"2023-06-21T23:29:35Z","user":"connortwiegand"}

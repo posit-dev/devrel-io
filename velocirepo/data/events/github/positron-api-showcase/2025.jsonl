@@ -1,4 +1,2 @@
-{"datetime":"2025-06-12T15:46:56Z","project_id":"positron-api-showcase","source":"github","target":"posit-dev/positron-api-showcase","type":"pr_open","user":"nstrayer"}
-{"datetime":"2025-06-12T15:47:11Z","project_id":"positron-api-showcase","source":"github","target":"posit-dev/positron-api-showcase","type":"pr_merge","user":"nstrayer"}
-{"datetime":"2025-07-05T14:29:42Z","project_id":"positron-api-showcase","source":"github","target":"posit-dev/positron-api-showcase","type":"star","user":"yutannihilation"}
-{"datetime":"2025-11-12T02:55:20Z","project_id":"positron-api-showcase","source":"github","target":"posit-dev/positron-api-showcase","type":"star","user":"seankross"}
+{"source":"github","type":"pr_open","project_id":"positron-api-showcase","target":"posit-dev/positron-api-showcase","datetime":"2025-06-12T15:46:56Z","ref":1,"user":"nstrayer"}
+{"source":"github","type":"pr_merge","project_id":"positron-api-showcase","target":"posit-dev/positron-api-showcase","datetime":"2025-06-12T15:47:11Z","ref":1,"user":"nstrayer"}

@@ -1,5 +1,7 @@
-{"datetime":"2016-02-05T23:10:37Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"issue_open","user":"hallegue"}
-{"datetime":"2016-03-03T19:56:37Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"astraadria4ari"}
-{"datetime":"2016-03-10T04:43:52Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"fork","user":"ALShum"}
-{"datetime":"2016-03-19T08:37:10Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"star","user":"RanaivosonHerimanitra"}
-{"datetime":"2016-03-20T00:25:11Z","project_id":"shiny-incubator","source":"github","target":"rstudio/shiny-incubator","type":"pr_open","user":"ALShum"}
+{"source":"github","type":"issue_open","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-02-05T23:10:37Z","ref":6,"user":"hallegue"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-03T19:56:37Z","user":"astraadria4ari"}
+{"source":"github","type":"fork","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-10T04:43:52Z","user":"ALShum"}
+{"source":"github","type":"pr_open","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-20T00:25:11Z","ref":7,"user":"ALShum"}
+{"source":"github","type":"comment","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-22T21:18:28Z","ref":7,"user":"wch"}
+{"source":"github","type":"comment","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-22T21:32:14Z","ref":7,"user":"ALShum"}
+{"source":"github","type":"comment","project_id":"shiny-incubator","target":"rstudio/shiny-incubator","datetime":"2016-03-22T21:49:28Z","ref":7,"user":"wch"}

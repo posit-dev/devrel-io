@@ -1,2 +1,2 @@
-{"datetime":"2026-04-20T15:35:50Z","project_id":"peachtree-lottery-demo","source":"github","target":"posit-dev/peachtree-lottery-demo","type":"pr_open","user":"garrettgman"}
-{"datetime":"2026-04-25T19:22:56Z","project_id":"peachtree-lottery-demo","source":"github","target":"posit-dev/peachtree-lottery-demo","type":"fork","user":"posit-dev"}
+{"source":"github","type":"pr_open","project_id":"peachtree-lottery-demo","target":"posit-dev/peachtree-lottery-demo","datetime":"2026-04-20T15:35:50Z","ref":1,"user":"garrettgman"}
+{"source":"github","type":"fork","project_id":"peachtree-lottery-demo","target":"posit-dev/peachtree-lottery-demo","datetime":"2026-04-25T19:22:56Z","user":"posit-dev"}

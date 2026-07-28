@@ -1,8 +1,2 @@
-{"datetime":"2016-03-26T08:15:53Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"uribo"}
-{"datetime":"2016-03-28T19:01:42Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"mcolebrook"}
-{"datetime":"2016-06-13T15:59:12Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"fork","user":"izizxllz"}
-{"datetime":"2016-06-24T06:30:20Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"fernandojunior"}
-{"datetime":"2016-08-18T19:18:32Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"Sandy4321"}
-{"datetime":"2016-08-18T19:18:36Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"fork","user":"Sandy4321"}
-{"datetime":"2016-09-04T05:28:41Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"karolisr"}
-{"datetime":"2016-11-12T02:18:27Z","project_id":"rquickstart","source":"github","target":"rstudio/RQuickstart","type":"star","user":"dotran"}
+{"source":"github","type":"fork","project_id":"rquickstart","target":"rstudio/RQuickstart","datetime":"2016-06-13T15:59:12Z","user":"izizxllz"}
+{"source":"github","type":"fork","project_id":"rquickstart","target":"rstudio/RQuickstart","datetime":"2016-08-18T19:18:36Z","user":"Sandy4321"}

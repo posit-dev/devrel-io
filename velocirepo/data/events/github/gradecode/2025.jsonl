@@ -1,2 +1,2 @@
-{"datetime":"2025-11-10T14:43:41Z","project_id":"gradecode","source":"github","target":"rstudio/gradecode","type":"pr_open","user":"statik"}
-{"datetime":"2025-11-10T15:29:03Z","project_id":"gradecode","source":"github","target":"rstudio/gradecode","type":"pr_merge","user":"statik"}
+{"source":"github","type":"pr_open","project_id":"gradecode","target":"rstudio/gradecode","datetime":"2025-11-10T14:43:41Z","ref":69,"user":"statik"}
+{"source":"github","type":"pr_merge","project_id":"gradecode","target":"rstudio/gradecode","datetime":"2025-11-10T15:29:03Z","ref":69,"user":"statik"}

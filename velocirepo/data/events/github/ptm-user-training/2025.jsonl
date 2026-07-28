@@ -1,2 +1,5 @@
-{"datetime":"2025-06-11T18:55:46Z","project_id":"ptm-user-training","source":"github","target":"posit-dev/ptm-user-training","type":"issue_open","user":"posit-jira-to-github-issues"}
-{"datetime":"2025-06-12T19:09:47Z","project_id":"ptm-user-training","source":"github","target":"posit-dev/ptm-user-training","type":"issue_close","user":"posit-jira-to-github-issues"}
+{"source":"github","type":"issue_open","project_id":"ptm-user-training","target":"posit-dev/ptm-user-training","datetime":"2025-06-11T18:55:46Z","ref":5,"user":"posit-jira-to-github-issues"}
+{"source":"github","type":"comment","project_id":"ptm-user-training","target":"posit-dev/ptm-user-training","datetime":"2025-06-12T16:07:32Z","ref":5,"user":"ryjohnson09"}
+{"source":"github","type":"comment","project_id":"ptm-user-training","target":"posit-dev/ptm-user-training","datetime":"2025-06-12T18:47:35Z","ref":5,"user":"ryjohnson09"}
+{"source":"github","type":"issue_close","project_id":"ptm-user-training","target":"posit-dev/ptm-user-training","datetime":"2025-06-12T19:09:47Z","ref":5,"user":"posit-jira-to-github-issues"}
+{"source":"github","type":"comment","project_id":"ptm-user-training","target":"posit-dev/ptm-user-training","datetime":"2025-06-12T19:09:47Z","ref":5,"user":"ryjohnson09"}

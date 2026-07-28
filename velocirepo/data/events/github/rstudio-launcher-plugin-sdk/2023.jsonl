@@ -1,4 +1,5 @@
-{"datetime":"2023-06-30T20:36:39Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"issue_close","user":"nahara7"}
-{"datetime":"2023-08-03T02:09:27Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"issue_open","user":"lachlansimpson"}
-{"datetime":"2023-10-06T17:24:24Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_open","user":"bschwedler"}
-{"datetime":"2023-10-06T21:06:44Z","project_id":"rstudio-launcher-plugin-sdk","source":"github","target":"rstudio/rstudio-launcher-plugin-sdk","type":"pr_merge","user":"bschwedler"}
+{"source":"github","type":"issue_close","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2023-06-30T20:36:39Z","ref":54,"user":"nahara7"}
+{"source":"github","type":"issue_open","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2023-08-03T02:09:27Z","ref":74,"user":"lachlansimpson"}
+{"source":"github","type":"pr_open","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2023-10-06T17:24:24Z","ref":75,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2023-10-06T21:03:39Z","ref":75,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-launcher-plugin-sdk","target":"rstudio/rstudio-launcher-plugin-sdk","datetime":"2023-10-06T21:06:44Z","ref":75,"user":"bschwedler"}

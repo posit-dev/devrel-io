@@ -1,2 +1,3 @@
-{"datetime":"2026-07-23T18:05:19Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"issue_open","user":"bschwedler"}
-{"datetime":"2026-07-23T19:28:57Z","project_id":"team-operator","source":"github","target":"posit-dev/team-operator","type":"pr_open","user":"bschwedler"}
+{"source":"github","type":"issue_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-07-23T18:05:19Z","ref":152,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-07-23T19:28:57Z","ref":153,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-07-23T19:29:14Z","ref":153,"user":"claude[bot]"}

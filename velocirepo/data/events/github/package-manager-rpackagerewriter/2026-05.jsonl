@@ -1,4 +1,4 @@
-{"datetime":"2026-05-10T11:02:24Z","project_id":"package-manager-rpackagerewriter","source":"github","target":"rstudio/package-manager-rpackagerewriter","type":"pr_open","user":"dependabot"}
-{"datetime":"2026-05-11T21:16:43Z","project_id":"package-manager-rpackagerewriter","source":"github","target":"rstudio/package-manager-rpackagerewriter","type":"pr_merge","user":"dependabot"}
-{"datetime":"2026-05-24T11:02:25Z","project_id":"package-manager-rpackagerewriter","source":"github","target":"rstudio/package-manager-rpackagerewriter","type":"pr_open","user":"dependabot"}
-{"datetime":"2026-05-25T14:31:02Z","project_id":"package-manager-rpackagerewriter","source":"github","target":"rstudio/package-manager-rpackagerewriter","type":"pr_merge","user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"package-manager-rpackagerewriter","target":"rstudio/package-manager-rpackagerewriter","datetime":"2026-05-10T11:02:24Z","ref":44,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"package-manager-rpackagerewriter","target":"rstudio/package-manager-rpackagerewriter","datetime":"2026-05-11T21:16:43Z","ref":44,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"package-manager-rpackagerewriter","target":"rstudio/package-manager-rpackagerewriter","datetime":"2026-05-24T11:02:25Z","ref":45,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"package-manager-rpackagerewriter","target":"rstudio/package-manager-rpackagerewriter","datetime":"2026-05-25T14:31:02Z","ref":45,"user":"dependabot"}

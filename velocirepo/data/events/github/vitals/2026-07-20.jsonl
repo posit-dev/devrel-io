@@ -1,2 +1,6 @@
-{"datetime":"2026-07-20T20:23:48Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_open","user":"mattwarkentin"}
-{"datetime":"2026-07-20T21:57:51Z","project_id":"vitals","source":"github","target":"tidyverse/vitals","type":"issue_close","user":"mattwarkentin"}
+{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:23:48Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:57:51Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:57:51Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:17:51Z","ref":217,"user":"simonpcouch"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:37:15Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:31:12Z","ref":217,"user":"simonpcouch"}

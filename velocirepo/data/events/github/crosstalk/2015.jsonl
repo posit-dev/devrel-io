@@ -1,10 +1,3 @@
-{"datetime":"2015-11-28T00:23:55Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"cpsievert"}
-{"datetime":"2015-11-29T19:17:34Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"Vestaxis"}
-{"datetime":"2015-12-01T19:26:56Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"pr_open","user":"jcheng5"}
-{"datetime":"2015-12-07T18:17:32Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"pr_merge","user":"jcheng5"}
-{"datetime":"2015-12-07T21:18:33Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"pr_open","user":"cpsievert"}
-{"datetime":"2015-12-08T17:41:13Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"jkaupp"}
-{"datetime":"2015-12-08T21:53:42Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"walkerke"}
-{"datetime":"2015-12-11T14:32:11Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"j-hagedorn"}
-{"datetime":"2015-12-11T19:36:46Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"pssguy"}
-{"datetime":"2015-12-12T20:37:28Z","project_id":"crosstalk","source":"github","target":"rstudio/crosstalk","type":"star","user":"durtal"}
+{"source":"github","type":"pr_open","project_id":"crosstalk","target":"rstudio/crosstalk","datetime":"2015-12-01T19:26:56Z","ref":1,"user":"jcheng5"}
+{"source":"github","type":"pr_merge","project_id":"crosstalk","target":"rstudio/crosstalk","datetime":"2015-12-07T18:17:32Z","ref":1,"user":"jcheng5"}
+{"source":"github","type":"pr_open","project_id":"crosstalk","target":"rstudio/crosstalk","datetime":"2015-12-07T21:18:33Z","ref":2,"user":"cpsievert"}

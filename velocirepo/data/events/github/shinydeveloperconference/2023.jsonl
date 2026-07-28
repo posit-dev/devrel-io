@@ -1,10 +1,2 @@
-{"datetime":"2023-01-26T19:14:29Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"ViolaPsch"}
-{"datetime":"2023-01-27T02:02:09Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"s-jose"}
-{"datetime":"2023-04-01T23:16:07Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"fork","user":"jwieditz"}
-{"datetime":"2023-04-10T19:05:00Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"fork","user":"andrewgilly"}
-{"datetime":"2023-04-24T08:01:36Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"jlrdandrea"}
-{"datetime":"2023-05-12T01:27:20Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"BB1464"}
-{"datetime":"2023-05-23T07:31:30Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"bugrabalkac"}
-{"datetime":"2023-06-15T12:58:04Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"qizhiyule"}
-{"datetime":"2023-09-11T18:41:25Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"EladH1"}
-{"datetime":"2023-11-01T13:31:41Z","project_id":"shinydeveloperconference","source":"github","target":"rstudio/ShinyDeveloperConference","type":"star","user":"ismirsehregal"}
+{"source":"github","type":"fork","project_id":"shinydeveloperconference","target":"rstudio/ShinyDeveloperConference","datetime":"2023-04-01T23:16:07Z","user":"jwieditz"}
+{"source":"github","type":"fork","project_id":"shinydeveloperconference","target":"rstudio/ShinyDeveloperConference","datetime":"2023-04-10T19:05:00Z","user":"andrewgilly"}

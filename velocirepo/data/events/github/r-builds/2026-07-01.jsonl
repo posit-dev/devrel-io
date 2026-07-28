@@ -1,1 +1,2 @@
-{"datetime":"2026-07-01T19:50:39Z","project_id":"r-builds","source":"github","target":"rstudio/r-builds","type":"pr_open","user":"copilot-swe-agent"}
+{"source":"github","type":"pr_open","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-07-01T19:50:39Z","ref":328,"user":"copilot-swe-agent"}
+{"source":"github","type":"pr_merge","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-07-01T21:16:22Z","ref":327,"user":"jstruzik"}

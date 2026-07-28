@@ -1,5 +1,3 @@
-{"datetime":"2024-03-12T13:05:55Z","project_id":"demo-co-quarto-report","source":"github","target":"rstudio/demo-co-quarto-report","type":"fork","user":"danielmaangi"}
-{"datetime":"2024-06-07T16:00:30Z","project_id":"demo-co-quarto-report","source":"github","target":"rstudio/demo-co-quarto-report","type":"star","user":"jimbrig"}
-{"datetime":"2024-10-07T21:37:09Z","project_id":"demo-co-quarto-report","source":"github","target":"rstudio/demo-co-quarto-report","type":"pr_open","user":"garrettgman"}
-{"datetime":"2024-10-07T21:37:17Z","project_id":"demo-co-quarto-report","source":"github","target":"rstudio/demo-co-quarto-report","type":"pr_merge","user":"garrettgman"}
-{"datetime":"2024-10-22T14:57:25Z","project_id":"demo-co-quarto-report","source":"github","target":"rstudio/demo-co-quarto-report","type":"star","user":"norbertvandijk"}
+{"source":"github","type":"fork","project_id":"demo-co-quarto-report","target":"rstudio/demo-co-quarto-report","datetime":"2024-03-12T13:05:55Z","user":"danielmaangi"}
+{"source":"github","type":"pr_open","project_id":"demo-co-quarto-report","target":"rstudio/demo-co-quarto-report","datetime":"2024-10-07T21:37:09Z","ref":31,"user":"garrettgman"}
+{"source":"github","type":"pr_merge","project_id":"demo-co-quarto-report","target":"rstudio/demo-co-quarto-report","datetime":"2024-10-07T21:37:17Z","ref":31,"user":"garrettgman"}

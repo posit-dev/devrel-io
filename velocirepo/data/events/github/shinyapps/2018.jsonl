@@ -1,7 +1,4 @@
-{"datetime":"2018-03-25T06:01:47Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"star","user":"Sisov"}
-{"datetime":"2018-03-25T06:01:51Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"Sisov"}
-{"datetime":"2018-04-06T09:55:37Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"mjimcua"}
-{"datetime":"2018-05-11T06:05:09Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"star","user":"kashenfelter"}
-{"datetime":"2018-05-11T06:05:10Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"kashenfelter"}
-{"datetime":"2018-06-28T07:18:49Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"star","user":"strategist922"}
-{"datetime":"2018-06-28T07:19:12Z","project_id":"shinyapps","source":"github","target":"rstudio/shinyapps","type":"fork","user":"strategist922"}
+{"source":"github","type":"fork","project_id":"shinyapps","target":"rstudio/shinyapps","datetime":"2018-03-25T06:01:51Z","user":"Sisov"}
+{"source":"github","type":"fork","project_id":"shinyapps","target":"rstudio/shinyapps","datetime":"2018-04-06T09:55:37Z","user":"mjimcua"}
+{"source":"github","type":"fork","project_id":"shinyapps","target":"rstudio/shinyapps","datetime":"2018-05-11T06:05:10Z","user":"kashenfelter"}
+{"source":"github","type":"fork","project_id":"shinyapps","target":"rstudio/shinyapps","datetime":"2018-06-28T07:19:12Z","user":"strategist922"}
