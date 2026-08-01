@@ -1,0 +1,13 @@
+{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T14:22:26Z","ref":215,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:29:35Z","ref":215,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:30:40Z","ref":216,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:33:01Z","ref":216,"user":"simonpcouch"}
+{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-08T15:33:02Z","ref":208,"user":"simonpcouch"}
+{"source":"github","type":"fork","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-16T05:04:57Z","user":"PRASADJHSPH"}
+{"source":"github","type":"issue_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:23:48Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:31:12Z","ref":217,"user":"simonpcouch"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T20:37:15Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:17:51Z","ref":217,"user":"simonpcouch"}
+{"source":"github","type":"issue_close","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:57:51Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"comment","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-20T21:57:51Z","ref":217,"user":"mattwarkentin"}
+{"source":"github","type":"pr_open","project_id":"vitals","target":"tidyverse/vitals","datetime":"2026-07-25T13:38:05Z","ref":218,"user":"simonpcouch"}

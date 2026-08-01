@@ -1,0 +1,15 @@
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-05T09:49:06Z","ref":287,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-06T15:08:29Z","ref":287,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-12T09:48:08Z","ref":288,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-13T15:20:27Z","ref":288,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-16T23:33:15Z","ref":289,"user":"glin"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-17T19:37:34Z","ref":289,"user":"glin"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-18T00:37:50Z","ref":290,"user":"glin"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-19T09:42:11Z","ref":291,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-19T09:48:19Z","ref":292,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T17:33:17Z","ref":293,"user":"jonyoder"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T18:11:55Z","ref":291,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T18:30:23Z","ref":293,"user":"jonyoder"}
+{"source":"github","type":"pr_merge","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-20T18:31:30Z","ref":290,"user":"glin"}
+{"source":"github","type":"comment","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-26T09:42:26Z","ref":292,"user":"dependabot[bot]"}
+{"source":"github","type":"pr_open","project_id":"platform-lib","target":"rstudio/platform-lib","datetime":"2026-07-26T09:49:47Z","ref":294,"user":"dependabot"}

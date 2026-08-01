@@ -1,8 +1,0 @@
-{"source":"github","type":"fork","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T13:31:40Z","user":"jeis4wpi"}
-{"source":"github","type":"issue_close","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T18:33:46Z","ref":4400,"user":"nbenn"}
-{"source":"github","type":"pr_open","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T18:13:29Z","ref":4413,"user":"schloerke"}
-{"source":"github","type":"pr_merge","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T18:33:45Z","ref":4413,"user":"schloerke"}
-{"source":"github","type":"pr_open","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T18:13:19Z","ref":4412,"user":"schloerke"}
-{"source":"github","type":"pr_merge","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T19:36:27Z","ref":4412,"user":"schloerke"}
-{"source":"github","type":"pr_open","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T15:17:07Z","ref":4411,"user":"jeis4wpi"}
-{"source":"github","type":"comment","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-07-15T15:17:42Z","ref":4411,"user":"CLAassistant"}
