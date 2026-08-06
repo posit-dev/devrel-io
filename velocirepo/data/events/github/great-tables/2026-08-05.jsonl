@@ -1,0 +1,4 @@
+{"source":"github","type":"fork","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-08-05T14:51:53Z","user":"karpovantonme"}
+{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-08-05T14:51:59Z","ref":853,"user":"karpovantonme"}
+{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-08-05T20:54:23Z","ref":853,"user":"karpovantonme"}
+{"source":"github","type":"comment","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-08-05T19:35:41Z","ref":853,"user":"codecov[bot]"}
