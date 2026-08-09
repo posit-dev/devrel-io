@@ -1,0 +1,12 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":6}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":4}
+{"source":"plausible","metric":"daily_site_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":5}
+{"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":4,"extra":{"page":"/chatlas/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":3,"extra":{"page":"/chatlas/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":3,"extra":{"page":"/chatlas/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/displays.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/displays.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-08-08","value":1,"extra":{"page":"/chatlas/tool-calling/displays.html"}}
