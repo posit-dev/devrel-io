@@ -1,0 +1,10 @@
+{"source":"github","type":"fork","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T01:42:59Z","user":"MelvinSMunsaka"}
+{"source":"github","type":"issue_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T05:05:40Z","ref":386,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T16:53:33Z","ref":386,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T15:36:08Z","ref":389,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T16:43:17Z","ref":389,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T14:23:26Z","ref":388,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T05:08:31Z","ref":387,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T16:53:32Z","ref":387,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T03:15:25Z","ref":385,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-12T16:53:27Z","ref":387,"user":"cpsievert"}
