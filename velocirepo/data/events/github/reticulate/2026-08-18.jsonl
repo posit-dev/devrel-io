@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-08-18T12:47:37Z","ref":1924,"user":"rikardn"}
+{"source":"github","type":"issue_close","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-08-18T20:16:24Z","ref":1924,"user":"rikardn"}
+{"source":"github","type":"pr_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-08-18T18:37:09Z","ref":1925,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-08-18T20:16:22Z","ref":1925,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-08-18T20:18:44Z","ref":1924,"user":"t-kalinowski"}
