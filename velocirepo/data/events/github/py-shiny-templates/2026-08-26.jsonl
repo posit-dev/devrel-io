@@ -1,0 +1,4 @@
+{"source":"github","type":"issue_open","project_id":"py-shiny-templates","target":"posit-dev/py-shiny-templates","datetime":"2026-08-26T19:42:59Z","ref":57,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"py-shiny-templates","target":"posit-dev/py-shiny-templates","datetime":"2026-08-26T19:49:02Z","ref":57,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"py-shiny-templates","target":"posit-dev/py-shiny-templates","datetime":"2026-08-26T19:22:27Z","ref":56,"user":"karangattu"}
+{"source":"github","type":"pr_merge","project_id":"py-shiny-templates","target":"posit-dev/py-shiny-templates","datetime":"2026-08-26T19:49:01Z","ref":56,"user":"karangattu"}
