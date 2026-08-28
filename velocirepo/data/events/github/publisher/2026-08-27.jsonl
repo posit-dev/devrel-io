@@ -1,0 +1,8 @@
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T13:25:42Z","ref":4355,"user":"samperman"}
+{"source":"github","type":"issue_close","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T19:54:47Z","ref":4355,"user":"samperman"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T20:23:04Z","ref":4357,"user":"posit-connect-projects"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T20:57:48Z","ref":4357,"user":"posit-connect-projects"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T17:38:25Z","ref":4356,"user":"christierney"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T19:54:46Z","ref":4356,"user":"christierney"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T19:26:42Z","ref":4356,"user":"christierney"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-08-27T17:38:51Z","ref":4356,"user":"posit-connect-projects[bot]"}
