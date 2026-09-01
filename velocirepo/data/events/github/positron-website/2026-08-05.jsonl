@@ -1,9 +1,0 @@
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T23:00:00Z","ref":439,"user":"garrettgman"}
-{"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T13:45:39Z","ref":438,"user":"testlabauto"}
-{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T14:41:11Z","ref":438,"user":"testlabauto"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T23:01:49Z","ref":439,"user":"github-actions[bot]"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T23:00:05Z","ref":439,"user":"netlify[bot]"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T18:00:08Z","ref":435,"user":"dhruvisompura"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T17:39:24Z","ref":435,"user":"juliasilge"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T13:47:57Z","ref":438,"user":"github-actions[bot]"}
-{"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-08-05T13:45:46Z","ref":438,"user":"netlify[bot]"}

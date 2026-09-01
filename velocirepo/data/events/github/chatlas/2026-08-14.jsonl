@@ -1,5 +1,0 @@
-{"source":"github","type":"fork","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-14T13:25:02Z","user":"thisisnic"}
-{"source":"github","type":"issue_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-14T13:27:46Z","ref":390,"user":"thisisnic"}
-{"source":"github","type":"issue_close","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-14T16:00:50Z","ref":390,"user":"thisisnic"}
-{"source":"github","type":"pr_open","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-14T15:30:48Z","ref":391,"user":"cpsievert"}
-{"source":"github","type":"pr_merge","project_id":"chatlas","target":"posit-dev/chatlas","datetime":"2026-08-14T16:00:49Z","ref":391,"user":"cpsievert"}

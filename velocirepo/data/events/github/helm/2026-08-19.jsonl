@@ -1,7 +1,0 @@
-{"source":"github","type":"issue_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T15:55:46Z","ref":929,"user":"bschwedler"}
-{"source":"github","type":"issue_close","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:14:27Z","ref":929,"user":"bschwedler"}
-{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:43:33Z","ref":931,"user":"bschwedler"}
-{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T18:57:31Z","ref":931,"user":"bschwedler"}
-{"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:05:48Z","ref":930,"user":"bschwedler"}
-{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:14:26Z","ref":930,"user":"bschwedler"}
-{"source":"github","type":"comment","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T13:10:47Z","ref":914,"user":"bschwedler"}
