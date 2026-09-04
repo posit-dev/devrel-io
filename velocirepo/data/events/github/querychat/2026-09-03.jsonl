@@ -1,0 +1,6 @@
+{"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T04:45:03Z","ref":283,"user":"thisisnic"}
+{"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T22:21:39Z","ref":283,"user":"thisisnic"}
+{"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T22:07:17Z","ref":285,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T21:58:28Z","ref":284,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T22:21:38Z","ref":284,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T22:21:16Z","ref":285,"user":"cpsievert"}

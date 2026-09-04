@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-03T21:22:05Z","ref":4372,"user":"gregorywaynepower"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-03T22:01:07Z","ref":4373,"user":"jmcphers"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-03T12:21:48Z","ref":4371,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-03T16:12:19Z","ref":4371,"user":"dependabot"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-03T22:01:34Z","ref":4373,"user":"posit-connect-projects[bot]"}
