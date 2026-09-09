@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"renv","target":"rstudio/renv","datetime":"2026-09-08T06:36:32Z","ref":2362,"user":"sldzys"}
+{"source":"github","type":"issue_close","project_id":"renv","target":"rstudio/renv","datetime":"2026-09-08T17:22:45Z","ref":2362,"user":"sldzys"}
+{"source":"github","type":"pr_open","project_id":"renv","target":"rstudio/renv","datetime":"2026-09-08T16:29:24Z","ref":2363,"user":"kevinushey"}
+{"source":"github","type":"pr_merge","project_id":"renv","target":"rstudio/renv","datetime":"2026-09-08T17:22:43Z","ref":2363,"user":"kevinushey"}
+{"source":"github","type":"comment","project_id":"renv","target":"rstudio/renv","datetime":"2026-09-08T17:23:05Z","ref":2362,"user":"kevinushey"}
