@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T16:11:06Z","ref":147,"user":"ianpittwood"}
+{"source":"github","type":"issue_close","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T19:25:38Z","ref":147,"user":"ianpittwood"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T19:10:54Z","ref":149,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T19:25:36Z","ref":149,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T17:10:36Z","ref":148,"user":"ianpittwood"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T19:25:36Z","ref":148,"user":"ianpittwood"}
+{"source":"github","type":"comment","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-09-09T19:10:56Z","ref":149,"user":"posit-package-manager-automation[bot]"}
