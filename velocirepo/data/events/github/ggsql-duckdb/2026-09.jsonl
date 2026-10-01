@@ -1,0 +1,4 @@
+{"source":"github","type":"issue_open","project_id":"ggsql-duckdb","target":"posit-dev/ggsql-duckdb","datetime":"2026-09-20T17:46:03Z","ref":16,"user":"rustyconover"}
+{"source":"github","type":"fork","project_id":"ggsql-duckdb","target":"posit-dev/ggsql-duckdb","datetime":"2026-09-27T00:03:31Z","user":"kevin-ewert"}
+{"source":"github","type":"pr_open","project_id":"ggsql-duckdb","target":"posit-dev/ggsql-duckdb","datetime":"2026-09-27T00:47:49Z","ref":17,"user":"kevin-ewert"}
+{"source":"github","type":"pr_open","project_id":"ggsql-duckdb","target":"posit-dev/ggsql-duckdb","datetime":"2026-09-27T03:16:49Z","ref":18,"user":"kevin-ewert"}

@@ -1,6 +1,0 @@
-{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T07:07:11Z","ref":4412,"user":"dependabot"}
-{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T15:40:12Z","ref":4412,"user":"dependabot"}
-{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T15:11:02Z","ref":4351,"user":"dependabot[bot]"}
-{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T15:10:02Z","ref":4351,"user":"fizzboop"}
-{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T15:08:21Z","ref":4412,"user":"fizzboop"}
-{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-09-29T07:07:31Z","ref":4412,"user":"posit-snyk-bot"}

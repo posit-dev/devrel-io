@@ -1,0 +1,9 @@
+{"source":"github","type":"pr_open","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-09T18:43:55Z","ref":1070,"user":"posit-connect-projects"}
+{"source":"github","type":"pr_open","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-09T19:12:05Z","ref":1071,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-09T19:33:59Z","ref":1071,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_open","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-09T19:36:26Z","ref":1072,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-09T19:42:46Z","ref":1070,"user":"posit-connect-projects"}
+{"source":"github","type":"pr_open","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-10T20:46:27Z","ref":1073,"user":"workbench-ide-release"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-10T21:45:11Z","ref":1073,"user":"workbench-ide-release"}
+{"source":"github","type":"pr_open","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-29T17:45:12Z","ref":1074,"user":"jspiewak"}
+{"source":"github","type":"pr_merge","project_id":"rstudio-docker-products","target":"rstudio/rstudio-docker-products","datetime":"2026-09-29T18:51:21Z","ref":1074,"user":"jspiewak"}
