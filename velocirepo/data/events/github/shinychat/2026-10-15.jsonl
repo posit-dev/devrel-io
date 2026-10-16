@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-10-15T21:41:11Z","ref":428,"user":"jat255"}
+{"source":"github","type":"pr_merge","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-10-15T22:11:54Z","ref":428,"user":"jat255"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-10-15T17:53:08Z","ref":427,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-10-15T18:46:51Z","ref":427,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-10-15T22:11:49Z","ref":428,"user":"cpsievert"}
