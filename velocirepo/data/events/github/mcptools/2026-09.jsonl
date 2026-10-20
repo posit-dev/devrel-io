@@ -11,4 +11,6 @@
 {"source":"github","type":"fork","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-23T05:10:54Z","user":"PRASADJHSPH"}
 {"source":"github","type":"fork","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-25T01:22:08Z","user":"JamesHWade"}
 {"source":"github","type":"pr_open","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-25T02:27:29Z","ref":134,"user":"JamesHWade"}
+{"source":"github","type":"pr_merge","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-28T13:18:55Z","ref":133,"user":"simonpcouch"}
+{"source":"github","type":"issue_close","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-28T13:18:56Z","ref":132,"user":"simonpcouch"}
 {"source":"github","type":"issue_open","project_id":"mcptools","target":"posit-dev/mcptools","datetime":"2026-09-29T19:48:02Z","ref":135,"user":"paulditterline"}

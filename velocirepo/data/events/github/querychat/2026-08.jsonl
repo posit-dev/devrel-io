@@ -1,6 +1,7 @@
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-03T15:58:47Z","ref":271,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-03T16:18:48Z","ref":272,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-03T17:07:04Z","ref":272,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-04T00:27:08Z","ref":271,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-05T16:50:09Z","ref":198,"user":"asb2111"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-12T07:22:31Z","ref":273,"user":"kolabearafk"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-12T20:20:44Z","ref":273,"user":"gadenbuie"}
@@ -17,4 +18,6 @@
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-26T17:58:58Z","ref":279,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-26T19:03:32Z","ref":280,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-26T19:16:03Z","ref":279,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-27T00:06:08Z","ref":279,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-27T00:06:09Z","ref":274,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-08-31T21:43:49Z","ref":282,"user":"cpsievert"}

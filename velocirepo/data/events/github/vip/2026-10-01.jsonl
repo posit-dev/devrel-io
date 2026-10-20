@@ -1,6 +1,11 @@
 {"source":"github","type":"issue_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T07:05:42Z","ref":757,"user":"github-actions"}
 {"source":"github","type":"issue_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T06:01:10Z","ref":756,"user":"github-actions"}
+{"source":"github","type":"issue_close","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:50:38Z","ref":654,"user":"github-actions"}
 {"source":"github","type":"pr_open","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:22:07Z","ref":758,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:50:37Z","ref":750,"user":"ian-flores"}
+{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:29:50Z","ref":748,"user":"ian-flores"}
+{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:27:07Z","ref":747,"user":"ian-flores"}
+{"source":"github","type":"pr_merge","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:11:02Z","ref":749,"user":"ian-flores"}
 {"source":"github","type":"comment","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:51:03Z","ref":750,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:40:29Z","ref":755,"user":"ian-flores"}
 {"source":"github","type":"comment","project_id":"vip","target":"posit-dev/vip","datetime":"2026-10-01T23:30:10Z","ref":748,"user":"github-actions[bot]"}

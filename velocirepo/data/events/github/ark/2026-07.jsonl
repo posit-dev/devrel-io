@@ -117,6 +117,10 @@
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-27T18:53:12Z","ref":1361,"user":"lionel-"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-27T19:57:52Z","ref":1361,"user":"lionel-"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T09:13:45Z","ref":1362,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T13:14:22Z","ref":1316,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T13:14:23Z","ref":1311,"user":"wurli"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T14:59:35Z","ref":1314,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T14:59:36Z","ref":1315,"user":"lionel-"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-28T20:24:09Z","ref":1361,"user":"emcrisan"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T06:10:59Z","ref":1365,"user":"dependabot"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T06:11:17Z","ref":1366,"user":"dependabot"}
@@ -129,6 +133,8 @@
 {"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T09:27:22Z","ref":1365,"user":"dependabot"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T10:22:47Z","ref":1367,"user":"lionel-"}
 {"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T10:27:16Z","ref":1367,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T10:42:19Z","ref":1362,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T10:42:21Z","ref":1361,"user":"jmcphers"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T13:06:43Z","ref":1369,"user":"lionel-"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T13:17:35Z","ref":1370,"user":"lionel-"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T14:16:32Z","ref":1369,"user":"lionel-"}
@@ -145,6 +151,10 @@
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T16:01:06Z","ref":1381,"user":"lionel-"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T16:40:42Z","ref":1381,"user":"lionel-"}
 {"source":"github","type":"comment","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-30T19:12:07Z","ref":1370,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T05:54:27Z","ref":1369,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T07:05:09Z","ref":1297,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T10:20:26Z","ref":1353,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T12:36:54Z","ref":1309,"user":"lionel-"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T15:20:14Z","ref":1382,"user":"lionel-"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T15:20:41Z","ref":1383,"user":"lionel-"}
 {"source":"github","type":"pr_open","project_id":"ark","target":"posit-dev/ark","datetime":"2026-07-31T15:21:59Z","ref":1384,"user":"lionel-"}

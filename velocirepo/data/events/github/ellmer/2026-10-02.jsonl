@@ -1,4 +1,6 @@
 {"source":"github","type":"issue_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T20:31:50Z","ref":1172,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T11:57:53Z","ref":1169,"user":"jennybc"}
 {"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T11:03:00Z","ref":1171,"user":"thisisnic"}
+{"source":"github","type":"pr_merge","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T11:57:52Z","ref":1170,"user":"thisisnic"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T18:04:38Z","ref":1161,"user":"travisjakel"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-02T12:12:28Z","ref":1161,"user":"hadley"}

@@ -1,2 +1,5 @@
 {"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2026-09-01T18:41:42Z","ref":45,"user":"dependabot"}
 {"source":"github","type":"pr_open","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2026-09-08T17:47:18Z","ref":46,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2026-09-08T18:45:11Z","ref":45,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2026-09-14T19:30:41Z","ref":46,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-examples","target":"posit-dev/images-examples","datetime":"2026-09-25T21:09:07Z","ref":33,"user":"bschwedler"}

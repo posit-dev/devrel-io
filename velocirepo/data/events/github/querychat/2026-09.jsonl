@@ -1,3 +1,4 @@
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-01T20:24:41Z","ref":282,"user":"cpsievert"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T04:45:03Z","ref":283,"user":"thisisnic"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T21:58:28Z","ref":284,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-03T22:07:17Z","ref":285,"user":"cpsievert"}
@@ -12,13 +13,16 @@
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-05T17:10:40Z","ref":289,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-08T17:13:47Z","ref":290,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-09T15:55:16Z","ref":290,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-09T16:27:56Z","ref":290,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-09T16:42:43Z","ref":291,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-09T18:32:58Z","ref":245,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T00:00:30Z","ref":292,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T00:57:48Z","ref":293,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T01:11:47Z","ref":294,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T16:37:48Z","ref":295,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T16:43:02Z","ref":295,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T22:29:59Z","ref":292,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T22:30:00Z","ref":291,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T22:30:01Z","ref":294,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-10T22:30:02Z","ref":293,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-11T15:14:08Z","ref":297,"user":"cpsievert"}
@@ -28,6 +32,7 @@
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-11T22:30:26Z","ref":299,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-11T23:13:10Z","ref":299,"user":"cpsievert"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T00:27:02Z","ref":300,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T00:33:13Z","ref":286,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T00:39:10Z","ref":301,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T01:07:17Z","ref":301,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T01:20:28Z","ref":302,"user":"cpsievert"}
@@ -42,6 +47,7 @@
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:10:46Z","ref":303,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:10:47Z","ref":304,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:12:42Z","ref":85,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:12:42Z","ref":85,"user":"hadley"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:23:02Z","ref":308,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T16:23:42Z","ref":306,"user":"cpsievert"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-12T17:21:17Z","ref":308,"user":"cpsievert"}
@@ -54,6 +60,7 @@
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T01:31:58Z","ref":310,"user":"cpsievert"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T01:56:56Z","ref":311,"user":"cpsievert"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T17:19:36Z","ref":312,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T17:27:05Z","ref":300,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T17:38:45Z","ref":311,"user":"cpsievert"}
 {"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T17:38:46Z","ref":311,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T17:50:33Z","ref":313,"user":"cpsievert"}
@@ -62,8 +69,11 @@
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T19:11:54Z","ref":313,"user":"cpsievert"}
 {"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T19:11:55Z","ref":312,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-13T19:32:33Z","ref":315,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-14T21:43:57Z","ref":315,"user":"cpsievert"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-21T22:11:42Z","ref":316,"user":"petrbouchal"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-29T21:28:09Z","ref":317,"user":"gadenbuie"}
 {"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-29T21:44:13Z","ref":317,"user":"gadenbuie"}
 {"source":"github","type":"issue_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-29T21:44:27Z","ref":318,"user":"gadenbuie"}
 {"source":"github","type":"pr_open","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-29T21:49:01Z","ref":319,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-30T16:31:04Z","ref":319,"user":"gadenbuie"}
+{"source":"github","type":"issue_close","project_id":"querychat","target":"posit-dev/querychat","datetime":"2026-09-30T17:03:58Z","ref":318,"user":"gadenbuie"}

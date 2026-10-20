@@ -3,6 +3,7 @@
 {"source":"github","type":"pr_open","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-05T17:48:20Z","ref":4429,"user":"000wahab000"}
 {"source":"github","type":"comment","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-05T17:48:27Z","ref":4429,"user":"CLAassistant"}
 {"source":"github","type":"comment","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-10T14:02:48Z","ref":3992,"user":"trafficonese"}
+{"source":"github","type":"issue_close","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-10T14:02:48Z","ref":3992,"user":"trafficonese"}
 {"source":"github","type":"fork","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-14T17:31:14Z","user":"jhonypachecop"}
 {"source":"github","type":"issue_open","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-17T11:27:06Z","ref":4430,"user":"JamesStewartRE"}
 {"source":"github","type":"fork","project_id":"shiny-r","target":"rstudio/shiny","datetime":"2026-09-18T15:44:13Z","user":"JamesHWade"}

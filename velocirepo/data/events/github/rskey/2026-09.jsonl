@@ -11,3 +11,5 @@
 {"source":"github","type":"comment","project_id":"rskey","target":"rstudio/rskey","datetime":"2026-09-24T19:16:09Z","ref":53,"user":"zackverham"}
 {"source":"github","type":"comment","project_id":"rskey","target":"rstudio/rskey","datetime":"2026-09-24T19:18:13Z","ref":53,"user":"atheriel"}
 {"source":"github","type":"pr_merge","project_id":"rskey","target":"rstudio/rskey","datetime":"2026-09-24T19:18:24Z","ref":53,"user":"atheriel"}
+{"source":"github","type":"pr_merge","project_id":"rskey","target":"rstudio/rskey","datetime":"2026-09-25T16:19:27Z","ref":44,"user":"atheriel"}
+{"source":"github","type":"issue_close","project_id":"rskey","target":"rstudio/rskey","datetime":"2026-09-25T16:19:28Z","ref":2,"user":"atheriel"}

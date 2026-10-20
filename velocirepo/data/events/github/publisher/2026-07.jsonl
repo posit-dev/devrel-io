@@ -86,6 +86,8 @@
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-27T22:14:19Z","ref":4303,"user":"christierney"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-27T22:15:49Z","ref":4262,"user":"christierney"}
 {"source":"github","type":"issue_close","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-27T22:15:50Z","ref":4262,"user":"christierney"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-28T16:06:11Z","ref":4307,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-28T19:02:12Z","ref":4288,"user":"dependabot"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-28T19:20:56Z","ref":4314,"user":"posit-connect-projects[bot]"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-28T19:22:49Z","ref":4314,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-28T20:24:53Z","ref":4314,"user":"nealrichardson"}
@@ -100,10 +102,13 @@
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-29T18:51:06Z","ref":4314,"user":"nealrichardson"}
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-29T19:50:49Z","ref":4318,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-29T19:51:31Z","ref":4318,"user":"posit-connect-projects[bot]"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T03:21:41Z","ref":4318,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T14:45:57Z","ref":4314,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T14:46:25Z","ref":4314,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T15:10:01Z","ref":4314,"user":"nealrichardson"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T17:56:13Z","ref":4314,"user":"mconflitti-pbc"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T17:58:13Z","ref":4314,"user":"mconflitti-pbc"}
+{"source":"github","type":"issue_close","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T17:58:15Z","ref":3878,"user":"nealrichardson"}
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T18:40:31Z","ref":4319,"user":"mconflitti-pbc"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T18:41:07Z","ref":4319,"user":"posit-connect-projects[bot]"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-07-30T18:44:50Z","ref":4319,"user":"posit-connect-projects[bot]"}

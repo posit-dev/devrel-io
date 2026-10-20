@@ -1,7 +1,9 @@
 {"source":"github","type":"fork","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-01T08:33:33Z","user":"Joshua-omolewa"}
 {"source":"github","type":"issue_open","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-01T14:24:19Z","ref":415,"user":"FBruzzesi"}
 {"source":"github","type":"pr_open","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-01T14:33:25Z","ref":416,"user":"FBruzzesi"}
+{"source":"github","type":"pr_merge","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-02T02:59:16Z","ref":416,"user":"FBruzzesi"}
 {"source":"github","type":"comment","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-02T03:00:33Z","ref":415,"user":"rich-iannone"}
+{"source":"github","type":"issue_close","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-02T03:00:33Z","ref":415,"user":"FBruzzesi"}
 {"source":"github","type":"pr_open","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-05T00:27:08Z","ref":417,"user":"rich-iannone"}
 {"source":"github","type":"pr_merge","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-05T14:29:13Z","ref":417,"user":"rich-iannone"}
 {"source":"github","type":"pr_open","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-10T16:49:00Z","ref":418,"user":"rich-iannone"}
@@ -17,6 +19,7 @@
 {"source":"github","type":"pr_open","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-19T10:55:38Z","ref":423,"user":"kasparovabi"}
 {"source":"github","type":"comment","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-19T14:31:43Z","ref":423,"user":"rich-iannone"}
 {"source":"github","type":"pr_merge","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-19T14:31:52Z","ref":423,"user":"kasparovabi"}
+{"source":"github","type":"pr_merge","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-19T14:33:08Z","ref":422,"user":"rich-iannone"}
 {"source":"github","type":"comment","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-20T10:56:59Z","ref":423,"user":"kasparovabi"}
 {"source":"github","type":"fork","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-21T22:52:08Z","user":"eejd"}
 {"source":"github","type":"fork","project_id":"pointblank","target":"posit-dev/pointblank","datetime":"2026-08-23T05:20:53Z","user":"PRASADJHSPH"}

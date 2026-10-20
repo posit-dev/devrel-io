@@ -150,6 +150,7 @@
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:34:12Z","ref":4269,"user":"dependabot"}
 {"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:34:15Z","ref":4253,"user":"dependabot[bot]"}
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:34:18Z","ref":4271,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:34:18Z","ref":4270,"user":"dependabot"}
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:35:37Z","ref":4272,"user":"dependabot"}
 {"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T13:35:59Z","ref":4273,"user":"dependabot"}
 {"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-06-29T20:46:34Z","ref":4274,"user":"zackverham"}

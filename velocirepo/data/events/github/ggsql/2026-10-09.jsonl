@@ -1,9 +1,16 @@
+{"source":"github","type":"issue_close","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T10:05:06Z","ref":549,"user":"bolos-gopb"}
+{"source":"github","type":"issue_close","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:27Z","ref":509,"user":"simonaubertbd"}
+{"source":"github","type":"issue_close","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:27Z","ref":341,"user":"thomasp85"}
 {"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T10:47:29Z","ref":585,"user":"thomasp85"}
 {"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T10:24:06Z","ref":584,"user":"thomasp85"}
 {"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T09:58:24Z","ref":583,"user":"thomasp85"}
 {"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T08:34:47Z","ref":582,"user":"thomasp85"}
 {"source":"github","type":"pr_open","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T07:37:23Z","ref":581,"user":"thomasp85"}
 {"source":"github","type":"pr_merge","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T07:52:49Z","ref":581,"user":"thomasp85"}
+{"source":"github","type":"pr_merge","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:29Z","ref":580,"user":"thomasp85"}
+{"source":"github","type":"pr_merge","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:28Z","ref":578,"user":"thomasp85"}
+{"source":"github","type":"pr_merge","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:27Z","ref":577,"user":"thomasp85"}
+{"source":"github","type":"pr_merge","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T05:31:25Z","ref":569,"user":"thomasp85"}
 {"source":"github","type":"comment","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T13:32:39Z","ref":570,"user":"thomasp85"}
 {"source":"github","type":"comment","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T12:43:44Z","ref":570,"user":"ianmcook"}
 {"source":"github","type":"comment","project_id":"ggsql","target":"posit-dev/ggsql","datetime":"2026-10-09T10:05:06Z","ref":549,"user":"thomasp85"}

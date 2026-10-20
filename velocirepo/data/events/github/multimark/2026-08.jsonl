@@ -1,3 +1,6 @@
 {"source":"github","type":"pr_open","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-05T00:35:31Z","ref":6,"user":"rich-iannone"}
+{"source":"github","type":"pr_merge","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-07T16:44:24Z","ref":4,"user":"n-takumasa"}
+{"source":"github","type":"issue_close","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-07T16:44:25Z","ref":3,"user":"kgartland-rstudio"}
+{"source":"github","type":"pr_merge","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-07T16:47:12Z","ref":6,"user":"rich-iannone"}
 {"source":"github","type":"fork","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-22T01:46:45Z","user":"jensqin"}
 {"source":"github","type":"pr_open","project_id":"multimark","target":"posit-dev/multimark","datetime":"2026-08-22T01:47:13Z","ref":7,"user":"jensqin"}
