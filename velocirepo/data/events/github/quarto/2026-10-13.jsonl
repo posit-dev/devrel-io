@@ -18,11 +18,11 @@
 {"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:15:42Z","ref":15020,"user":"jooyoungseo"}
 {"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:01:19Z","ref":15031,"user":"cderv"}
 {"source":"github","type":"pr_merge","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T14:59:18Z","ref":15032,"user":"cderv"}
-{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T17:21:35Z","ref":15046,"user":"posit-snyk-bot"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T14:08:59Z","ref":9623,"user":"thedannymarsh"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T14:42:06Z","ref":9623,"user":"mcanouil"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:34:27Z","ref":15034,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:49:23Z","ref":15037,"user":"posit-snyk-bot"}
 {"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T17:21:04Z","ref":15045,"user":"posit-snyk-bot"}
 {"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T16:53:35Z","ref":15041,"user":"posit-snyk-bot"}
 {"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T16:50:49Z","ref":15040,"user":"posit-snyk-bot"}
-{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:49:23Z","ref":15037,"user":"posit-snyk-bot"}
-{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T15:34:27Z","ref":15034,"user":"cderv"}
-{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T14:42:06Z","ref":9623,"user":"mcanouil"}
-{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T14:08:59Z","ref":9623,"user":"thedannymarsh"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-10-13T17:21:35Z","ref":15046,"user":"posit-snyk-bot"}
