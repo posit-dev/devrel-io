@@ -6,3 +6,6 @@
 {"source":"github","metric":"total_reactions","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-04","value":0,"extra":{"ref":"492"}}
 {"source":"github","metric":"total_reactions","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-04","value":0,"extra":{"ref":"491"}}
 {"source":"github","metric":"total_reactions","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-04","value":0,"extra":{"ref":"490"}}
+{"source":"github","metric":"daily_stars","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-11","value":1}
+{"source":"github","metric":"daily_stars","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-15","value":1}
+{"source":"github","metric":"daily_stars","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","date":"2026-09-22","value":1}

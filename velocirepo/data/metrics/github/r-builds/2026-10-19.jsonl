@@ -1,1 +1,3 @@
 {"source":"github","metric":"total_reactions","project_id":"r-builds","target":"rstudio/r-builds","date":"2026-10-19","value":1,"extra":{"ref":"343"}}
+{"source":"github","metric":"daily_stars","project_id":"r-builds","target":"rstudio/r-builds","date":"2026-10-19","value":0}
+{"source":"github","metric":"total_stars","project_id":"r-builds","target":"rstudio/r-builds","date":"2026-10-19","value":119}

@@ -1,2 +1,4 @@
 {"source":"github","metric":"total_reactions","project_id":"team-operator","target":"posit-dev/team-operator","date":"2026-10-19","value":1,"extra":{"ref":"166"}}
 {"source":"github","metric":"total_reactions","project_id":"team-operator","target":"posit-dev/team-operator","date":"2026-10-19","value":3,"extra":{"ref":"156"}}
+{"source":"github","metric":"daily_stars","project_id":"team-operator","target":"posit-dev/team-operator","date":"2026-10-19","value":0}
+{"source":"github","metric":"total_stars","project_id":"team-operator","target":"posit-dev/team-operator","date":"2026-10-19","value":10}

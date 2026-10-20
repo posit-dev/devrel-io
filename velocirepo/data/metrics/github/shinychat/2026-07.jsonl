@@ -1,3 +1,5 @@
+{"source":"github","metric":"daily_stars","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-08","value":1}
+{"source":"github","metric":"daily_stars","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-12","value":1}
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-27","value":0,"extra":{"ref":"277"}}
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-27","value":0,"extra":{"ref":"276"}}
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-27","value":0,"extra":{"ref":"273"}}
@@ -280,3 +282,4 @@
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-27","value":0,"extra":{"ref":"1"}}
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-30","value":0,"extra":{"ref":"282"}}
 {"source":"github","metric":"total_reactions","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-31","value":0,"extra":{"ref":"283"}}
+{"source":"github","metric":"daily_stars","project_id":"shinychat","target":"posit-dev/shinychat","date":"2026-07-31","value":1}

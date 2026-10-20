@@ -14,3 +14,5 @@
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-10-19","value":1,"extra":{"ref":"82"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-10-19","value":2,"extra":{"ref":"43"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-10-19","value":4,"extra":{"ref":"61"}}
+{"source":"github","metric":"daily_stars","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-10-19","value":0}
+{"source":"github","metric":"total_stars","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-10-19","value":5}

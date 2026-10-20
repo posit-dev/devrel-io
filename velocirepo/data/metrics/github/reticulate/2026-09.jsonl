@@ -4,3 +4,8 @@
 {"source":"github","metric":"total_reactions","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-04","value":0,"extra":{"ref":"1930"}}
 {"source":"github","metric":"total_reactions","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-09","value":0,"extra":{"ref":"1932"}}
 {"source":"github","metric":"total_reactions","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-09","value":0,"extra":{"ref":"1931"}}
+{"source":"github","metric":"daily_stars","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-09","value":1}
+{"source":"github","metric":"daily_stars","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-14","value":1}
+{"source":"github","metric":"daily_stars","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-22","value":1}
+{"source":"github","metric":"daily_stars","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-24","value":1}
+{"source":"github","metric":"daily_stars","project_id":"reticulate","target":"rstudio/reticulate","date":"2026-09-30","value":1}

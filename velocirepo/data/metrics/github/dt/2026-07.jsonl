@@ -1,3 +1,5 @@
+{"source":"github","metric":"daily_stars","project_id":"dt","target":"rstudio/DT","date":"2026-07-03","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dt","target":"rstudio/DT","date":"2026-07-08","value":1}
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":0,"extra":{"ref":"1183"}}
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":1,"extra":{"ref":"1182"}}
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":0,"extra":{"ref":"1180"}}
@@ -1179,3 +1181,4 @@
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":0,"extra":{"ref":"59"}}
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":0,"extra":{"ref":"56"}}
 {"source":"github","metric":"total_reactions","project_id":"dt","target":"rstudio/DT","date":"2026-07-27","value":0,"extra":{"ref":"16"}}
+{"source":"github","metric":"daily_stars","project_id":"dt","target":"rstudio/DT","date":"2026-07-30","value":1}

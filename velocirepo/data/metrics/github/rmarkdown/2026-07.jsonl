@@ -1,3 +1,11 @@
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-06","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-07","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-08","value":2}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-09","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-15","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-20","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-21","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-22","value":1}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":0,"extra":{"ref":"2625"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":1,"extra":{"ref":"2624"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":1,"extra":{"ref":"2620"}}
@@ -2607,3 +2615,4 @@
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":0,"extra":{"ref":"7"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":0,"extra":{"ref":"4"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-27","value":0,"extra":{"ref":"3"}}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-07-31","value":1}

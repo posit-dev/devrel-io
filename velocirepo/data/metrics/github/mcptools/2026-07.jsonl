@@ -1,3 +1,8 @@
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-07","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-09","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-13","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-22","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-25","value":1}
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":0,"extra":{"ref":"121"}}
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":0,"extra":{"ref":"120"}}
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":0,"extra":{"ref":"119"}}
@@ -118,3 +123,6 @@
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":1,"extra":{"ref":"9"}}
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":0,"extra":{"ref":"7"}}
 {"source":"github","metric":"total_reactions","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":0,"extra":{"ref":"6"}}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-27","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-29","value":1}
+{"source":"github","metric":"daily_stars","project_id":"mcptools","target":"posit-dev/mcptools","date":"2026-07-31","value":1}

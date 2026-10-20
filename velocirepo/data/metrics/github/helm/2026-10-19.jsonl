@@ -2,3 +2,5 @@
 {"source":"github","metric":"total_reactions","project_id":"helm","target":"rstudio/helm","date":"2026-10-19","value":4,"extra":{"ref":"916"}}
 {"source":"github","metric":"total_reactions","project_id":"helm","target":"rstudio/helm","date":"2026-10-19","value":2,"extra":{"ref":"914"}}
 {"source":"github","metric":"total_reactions","project_id":"helm","target":"rstudio/helm","date":"2026-10-19","value":3,"extra":{"ref":"918"}}
+{"source":"github","metric":"daily_stars","project_id":"helm","target":"rstudio/helm","date":"2026-10-19","value":0}
+{"source":"github","metric":"total_stars","project_id":"helm","target":"rstudio/helm","date":"2026-10-19","value":46}
