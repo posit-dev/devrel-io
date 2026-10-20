@@ -4,12 +4,12 @@
 {"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":3,"extra":{"page":"/chatlas/"}}
 {"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":3,"extra":{"page":"/chatlas/"}}
 {"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":3,"extra":{"page":"/chatlas/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
 {"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/get-started/models.html"}}
 {"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/get-started/models.html"}}
 {"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/get-started/models.html"}}
 {"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
 {"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
 {"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/tool-calling/how-it-works.html"}}
-{"source":"plausible","metric":"daily_pageviews","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
-{"source":"plausible","metric":"daily_visitors","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
-{"source":"plausible","metric":"daily_visits","project_id":"chatlas","target":"posit-dev.github.io/chatlas","date":"2026-10-04","value":1,"extra":{"page":"/chatlas/reference/ChatOpenAI.html"}}
