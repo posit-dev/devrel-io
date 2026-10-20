@@ -1,3 +1,10 @@
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-02","value":1}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-03","value":2}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-04","value":1}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-08","value":1}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-14","value":2}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-18","value":1}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-23","value":1}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-27","value":0,"extra":{"ref":"2370"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-27","value":0,"extra":{"ref":"2359"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-27","value":0,"extra":{"ref":"2352"}}
@@ -2326,6 +2333,7 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-29","value":0,"extra":{"ref":"2387"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-30","value":0,"extra":{"ref":"2391"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-30","value":0,"extra":{"ref":"2392"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-30","value":2}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-31","value":0,"extra":{"ref":"2396"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-31","value":0,"extra":{"ref":"2395"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-07-31","value":0,"extra":{"ref":"2394"}}

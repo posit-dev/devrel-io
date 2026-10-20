@@ -6,6 +6,7 @@
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-09","value":0,"extra":{"ref":"103"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-10","value":0,"extra":{"ref":"106"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-10","value":0,"extra":{"ref":"105"}}
+{"source":"github","metric":"daily_stars","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-10","value":1}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-11","value":0,"extra":{"ref":"107"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-13","value":0,"extra":{"ref":"108"}}
 {"source":"github","metric":"total_reactions","project_id":"assistant-feedback","target":"posit-dev/assistant-feedback","date":"2026-09-16","value":0,"extra":{"ref":"111"}}

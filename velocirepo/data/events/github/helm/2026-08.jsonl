@@ -1,3 +1,5 @@
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-04T15:55:08Z","ref":918,"user":"lucasrod16"}
+{"source":"github","type":"issue_close","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-04T15:55:10Z","ref":916,"user":"hyperbolist"}
 {"source":"github","type":"comment","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-04T16:05:46Z","ref":916,"user":"lucasrod16"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-11T17:13:46Z","ref":919,"user":"posit-platform"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-12T17:32:13Z","ref":920,"user":"matt-urbina"}
@@ -11,12 +13,15 @@
 {"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-13T15:30:42Z","ref":923,"user":"posit-platform"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-13T21:37:31Z","ref":924,"user":"matt-urbina"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-13T21:50:36Z","ref":925,"user":"karawoo"}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-14T16:18:58Z","ref":919,"user":"posit-platform"}
 {"source":"github","type":"issue_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-14T21:44:00Z","ref":926,"user":"MariaSemple"}
 {"source":"github","type":"comment","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-17T18:59:10Z","ref":920,"user":"matt-urbina"}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T14:16:35Z","ref":925,"user":"karawoo"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T17:32:10Z","ref":927,"user":"posit-platform"}
 {"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T18:15:33Z","ref":927,"user":"posit-platform"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T18:55:16Z","ref":928,"user":"bschwedler"}
 {"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T20:15:20Z","ref":928,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-18T20:51:10Z","ref":920,"user":"matt-urbina"}
 {"source":"github","type":"comment","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T13:10:47Z","ref":914,"user":"bschwedler"}
 {"source":"github","type":"issue_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T15:55:46Z","ref":929,"user":"bschwedler"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:05:48Z","ref":930,"user":"bschwedler"}
@@ -24,8 +29,10 @@
 {"source":"github","type":"issue_close","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:14:27Z","ref":929,"user":"bschwedler"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T16:43:33Z","ref":931,"user":"bschwedler"}
 {"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-19T18:57:31Z","ref":931,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-20T19:39:17Z","ref":887,"user":"samcofer"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-24T19:55:03Z","ref":932,"user":"posit-platform"}
 {"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-24T20:26:08Z","ref":932,"user":"posit-platform"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-26T20:53:08Z","ref":933,"user":"workbench-ide-release"}
 {"source":"github","type":"pr_open","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-26T23:58:20Z","ref":934,"user":"posit-platform"}
 {"source":"github","type":"comment","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-27T00:06:22Z","ref":933,"user":"GCRev"}
+{"source":"github","type":"pr_merge","project_id":"helm","target":"rstudio/helm","datetime":"2026-08-27T20:15:05Z","ref":934,"user":"posit-platform"}

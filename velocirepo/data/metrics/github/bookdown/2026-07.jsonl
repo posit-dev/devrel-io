@@ -1,3 +1,11 @@
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-01","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-07","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-14","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-16","value":3}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-18","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-21","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-23","value":1}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-24","value":1}
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-27","value":1,"extra":{"ref":"1523"}}
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-27","value":0,"extra":{"ref":"1522"}}
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-27","value":0,"extra":{"ref":"1520"}}
@@ -1509,3 +1517,4 @@
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-27","value":0,"extra":{"ref":"12"}}
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-27","value":0,"extra":{"ref":"9"}}
 {"source":"github","metric":"total_reactions","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-29","value":0,"extra":{"ref":"1526"}}
+{"source":"github","metric":"daily_stars","project_id":"bookdown","target":"rstudio/bookdown","date":"2026-07-31","value":2}

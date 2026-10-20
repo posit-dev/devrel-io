@@ -1,5 +1,6 @@
 {"source":"github","type":"fork","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T00:32:44Z","user":"LeonidasZhak"}
 {"source":"github","type":"issue_open","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T15:49:28Z","ref":2181,"user":"rich-iannone"}
+{"source":"github","type":"issue_close","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T16:37:53Z","ref":2177,"user":"zsigmas"}
 {"source":"github","type":"pr_open","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T17:02:19Z","ref":2182,"user":"rich-iannone"}
 {"source":"github","type":"pr_open","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T00:33:15Z","ref":2180,"user":"LeonidasZhak"}
 {"source":"github","type":"pr_merge","project_id":"gt","target":"rstudio/gt","datetime":"2026-10-14T16:37:52Z","ref":2180,"user":"LeonidasZhak"}

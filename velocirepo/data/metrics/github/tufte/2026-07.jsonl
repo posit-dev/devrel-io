@@ -134,3 +134,4 @@
 {"source":"github","metric":"total_reactions","project_id":"tufte","target":"rstudio/tufte","date":"2026-07-27","value":0,"extra":{"ref":"9"}}
 {"source":"github","metric":"total_reactions","project_id":"tufte","target":"rstudio/tufte","date":"2026-07-27","value":0,"extra":{"ref":"5"}}
 {"source":"github","metric":"total_reactions","project_id":"tufte","target":"rstudio/tufte","date":"2026-07-27","value":0,"extra":{"ref":"4"}}
+{"source":"github","metric":"daily_stars","project_id":"tufte","target":"rstudio/tufte","date":"2026-07-31","value":1}

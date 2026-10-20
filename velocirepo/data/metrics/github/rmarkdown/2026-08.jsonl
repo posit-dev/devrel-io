@@ -1,3 +1,6 @@
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-01","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-09","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-21","value":1}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-24","value":2,"extra":{"ref":"2627"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-24","value":0,"extra":{"ref":"2631"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-24","value":0,"extra":{"ref":"2630"}}
@@ -9,3 +12,5 @@
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-26","value":0,"extra":{"ref":"2632"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-30","value":0,"extra":{"ref":"2637"}}
 {"source":"github","metric":"total_reactions","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-30","value":0,"extra":{"ref":"2636"}}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-30","value":1}
+{"source":"github","metric":"daily_stars","project_id":"rmarkdown","target":"rstudio/rmarkdown","date":"2026-08-31","value":1}

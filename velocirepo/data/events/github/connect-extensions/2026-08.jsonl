@@ -4,3 +4,5 @@
 {"source":"github","type":"comment","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-08-07T16:21:57Z","ref":381,"user":"joshyam-k"}
 {"source":"github","type":"comment","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-08-13T09:57:26Z","ref":466,"user":"dependabot[bot]"}
 {"source":"github","type":"pr_open","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-08-13T09:57:51Z","ref":468,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-08-14T00:34:06Z","ref":449,"user":"amylin1249"}
+{"source":"github","type":"pr_merge","project_id":"connect-extensions","target":"posit-dev/connect-extensions","datetime":"2026-08-14T23:40:40Z","ref":445,"user":"amylin1249"}

@@ -1,3 +1,5 @@
+{"source":"github","type":"issue_close","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-10-06T14:56:03Z","ref":361,"user":"drbenvincent"}
 {"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-10-06T14:18:35Z","ref":364,"user":"rich-iannone"}
 {"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-10-06T14:56:02Z","ref":364,"user":"rich-iannone"}
+{"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-10-06T01:22:33Z","ref":346,"user":"rich-iannone"}
 {"source":"github","type":"comment","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-10-06T14:34:00Z","ref":364,"user":"github-actions[bot]"}

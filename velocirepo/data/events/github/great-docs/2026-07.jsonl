@@ -108,6 +108,7 @@
 {"source":"github","type":"issue_close","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-28T16:00:18Z","ref":289,"user":"andythomas"}
 {"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-30T10:06:20Z","ref":292,"user":"has2k1"}
 {"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-30T19:42:14Z","ref":292,"user":"has2k1"}
+{"source":"github","type":"issue_close","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-30T19:42:15Z","ref":287,"user":"has2k1"}
 {"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T15:35:01Z","ref":293,"user":"drbenvincent"}
 {"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T16:06:36Z","ref":294,"user":"has2k1"}
 {"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T17:32:03Z","ref":295,"user":"drbenvincent"}
@@ -117,6 +118,7 @@
 {"source":"github","type":"comment","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T18:24:41Z","ref":296,"user":"rich-iannone"}
 {"source":"github","type":"comment","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T19:08:41Z","ref":296,"user":"has2k1"}
 {"source":"github","type":"pr_merge","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T19:42:44Z","ref":296,"user":"has2k1"}
+{"source":"github","type":"issue_close","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T19:42:45Z","ref":288,"user":"smingerson"}
 {"source":"github","type":"issue_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T19:51:25Z","ref":297,"user":"andythomas"}
 {"source":"github","type":"pr_open","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T19:53:01Z","ref":298,"user":"andythomas"}
 {"source":"github","type":"comment","project_id":"great-docs","target":"posit-dev/great-docs","datetime":"2026-07-31T20:45:48Z","ref":297,"user":"rich-iannone"}

@@ -22,8 +22,10 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T00:02:20Z","ref":391,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T16:05:39Z","ref":391,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T16:09:45Z","ref":391,"user":"github-actions[bot]"}
+{"source":"github","type":"issue_close","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T16:46:35Z","ref":274,"user":"ivelasq"}
 {"source":"github","type":"issue_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T20:28:33Z","ref":392,"user":"EmilHvitfeldt"}
 {"source":"github","type":"issue_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-03T20:40:40Z","ref":393,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-04T04:55:55Z","ref":391,"user":"skaltman"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-04T21:33:08Z","ref":394,"user":"ivelasq"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-04T21:33:13Z","ref":394,"user":"netlify[bot]"}
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-04T21:33:40Z","ref":394,"user":"ivelasq"}
@@ -50,6 +52,8 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-09T04:56:48Z","ref":322,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-09T05:02:20Z","ref":386,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-09T05:06:14Z","ref":386,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-09T15:01:36Z","ref":386,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-09T16:29:37Z","ref":396,"user":"juliasilge"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-10T20:49:56Z","ref":398,"user":"gadenbuie"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-10T20:50:04Z","ref":398,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-10T20:50:05Z","ref":398,"user":"github-actions[bot]"}
@@ -83,14 +87,18 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-13T03:58:45Z","ref":402,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-13T04:06:06Z","ref":402,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-13T04:08:55Z","ref":402,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-13T14:56:29Z","ref":398,"user":"gadenbuie"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T09:30:58Z","ref":403,"user":"ivelasq"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T09:31:05Z","ref":403,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T09:34:11Z","ref":403,"user":"github-actions[bot]"}
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T09:34:59Z","ref":403,"user":"ivelasq"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T18:25:44Z","ref":397,"user":"thisisnic"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T20:56:11Z","ref":400,"user":"simonpcouch"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T21:24:04Z","ref":399,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T21:27:31Z","ref":399,"user":"simonpcouch"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-14T21:28:32Z","ref":399,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-15T14:10:04Z","ref":400,"user":"jat255"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-15T14:16:23Z","ref":400,"user":"skaltman"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-17T22:36:14Z","ref":404,"user":"ivelasq"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-17T22:36:26Z","ref":404,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-17T22:40:02Z","ref":404,"user":"github-actions[bot]"}
@@ -101,12 +109,14 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-17T23:10:38Z","ref":405,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T04:31:57Z","ref":405,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T04:35:05Z","ref":405,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T04:38:41Z","ref":405,"user":"skaltman"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T13:43:46Z","ref":404,"user":"github-actions[bot]"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T15:50:59Z","ref":406,"user":"fmichonneau"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T15:51:07Z","ref":406,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T15:54:50Z","ref":406,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T15:56:09Z","ref":406,"user":"github-actions[bot]"}
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-18T18:11:47Z","ref":406,"user":"fmichonneau"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-21T13:10:39Z","ref":404,"user":"ivelasq"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-21T13:54:00Z","ref":407,"user":"ivelasq"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-21T13:54:10Z","ref":407,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-21T13:57:50Z","ref":407,"user":"github-actions[bot]"}
@@ -123,6 +133,7 @@
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T12:22:36Z","ref":409,"user":"ivelasq"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T18:43:57Z","ref":401,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T18:47:36Z","ref":401,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T18:55:41Z","ref":401,"user":"schloerke"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T20:55:08Z","ref":410,"user":"cpsievert"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T20:55:15Z","ref":410,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-22T20:55:16Z","ref":410,"user":"github-actions[bot]"}
@@ -164,6 +175,7 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T04:15:01Z","ref":415,"user":"schloerke"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T07:11:22Z","ref":411,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T07:15:04Z","ref":411,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T07:28:00Z","ref":411,"user":"thomasp85"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T15:34:50Z","ref":417,"user":"github-actions[bot]"}
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-24T16:29:22Z","ref":417,"user":"schloerke"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-27T16:56:37Z","ref":418,"user":"schloerke"}
@@ -186,6 +198,7 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T16:21:34Z","ref":410,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T16:26:23Z","ref":410,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T19:48:18Z","ref":330,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T20:58:28Z","ref":410,"user":"cpsievert"}
 {"source":"github","type":"pr_open","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T21:28:09Z","ref":421,"user":"blairj09"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T21:28:16Z","ref":421,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-29T21:35:06Z","ref":421,"user":"github-actions[bot]"}
@@ -197,4 +210,5 @@
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-30T02:46:43Z","ref":418,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-30T02:49:37Z","ref":418,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-30T02:52:23Z","ref":422,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-30T12:22:06Z","ref":418,"user":"schloerke"}
 {"source":"github","type":"pr_merge","project_id":"open-source-website","target":"posit-dev/open-source-website","datetime":"2026-09-30T12:22:07Z","ref":422,"user":"schloerke"}

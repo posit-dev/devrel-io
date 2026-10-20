@@ -346,3 +346,4 @@
 {"source":"github","metric":"total_reactions","project_id":"blastula","target":"rstudio/blastula","date":"2026-07-27","value":0,"extra":{"ref":"32"}}
 {"source":"github","metric":"total_reactions","project_id":"blastula","target":"rstudio/blastula","date":"2026-07-27","value":0,"extra":{"ref":"14"}}
 {"source":"github","metric":"total_reactions","project_id":"blastula","target":"rstudio/blastula","date":"2026-07-27","value":0,"extra":{"ref":"12"}}
+{"source":"github","metric":"daily_stars","project_id":"blastula","target":"rstudio/blastula","date":"2026-07-31","value":1}

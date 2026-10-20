@@ -1,3 +1,15 @@
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-01","value":2}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-03","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-04","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-05","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-07","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-10","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-11","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-12","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-16","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-17","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-21","value":1}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-24","value":1}
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-27","value":0,"extra":{"ref":"7849"}}
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-27","value":0,"extra":{"ref":"7848"}}
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-27","value":1,"extra":{"ref":"7846"}}
@@ -7238,3 +7250,4 @@
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-27","value":0,"extra":{"ref":"49"}}
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-27","value":0,"extra":{"ref":"48"}}
 {"source":"github","metric":"total_reactions","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-30","value":0,"extra":{"ref":"7851"}}
+{"source":"github","metric":"daily_stars","project_id":"dplyr","target":"tidyverse/dplyr","date":"2026-07-31","value":3}

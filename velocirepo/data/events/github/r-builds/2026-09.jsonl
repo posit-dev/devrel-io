@@ -5,3 +5,4 @@
 {"source":"github","type":"pr_merge","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-09-01T21:00:44Z","ref":345,"user":"jstruzik"}
 {"source":"github","type":"comment","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-09-02T09:24:54Z","ref":345,"user":"gaborcsardi"}
 {"source":"github","type":"pr_open","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-09-03T21:31:52Z","ref":346,"user":"jstruzik"}
+{"source":"github","type":"pr_merge","project_id":"r-builds","target":"rstudio/r-builds","datetime":"2026-09-09T15:08:25Z","ref":346,"user":"jstruzik"}

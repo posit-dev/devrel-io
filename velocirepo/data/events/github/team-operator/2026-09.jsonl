@@ -10,6 +10,8 @@
 {"source":"github","type":"pr_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-04T19:54:18Z","ref":165,"user":"stevenolen"}
 {"source":"github","type":"comment","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-04T19:54:52Z","ref":165,"user":"claude[bot]"}
 {"source":"github","type":"comment","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-04T20:00:30Z","ref":165,"user":"stevenolen"}
+{"source":"github","type":"pr_merge","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-08T17:01:52Z","ref":164,"user":"zachhannum"}
+{"source":"github","type":"issue_close","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-08T17:01:53Z","ref":163,"user":"zachhannum"}
 {"source":"github","type":"pr_open","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-08T23:42:58Z","ref":166,"user":"ssinnott"}
 {"source":"github","type":"comment","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-08T23:43:14Z","ref":166,"user":"claude[bot]"}
 {"source":"github","type":"comment","project_id":"team-operator","target":"posit-dev/team-operator","datetime":"2026-09-09T23:22:01Z","ref":162,"user":"Lytol"}

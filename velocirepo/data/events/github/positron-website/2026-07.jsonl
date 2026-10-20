@@ -23,6 +23,7 @@
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-06T19:23:02Z","ref":404,"user":"sharon-wang"}
 {"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-06T19:31:07Z","ref":404,"user":"juliasilge"}
 {"source":"github","type":"fork","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-07T08:25:30Z","user":"Snoopy1866"}
+{"source":"github","type":"fork","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-07T08:25:30Z","user":"wtwang1998"}
 {"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-07T11:22:56Z","ref":405,"user":"positron-bot"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-07T11:23:00Z","ref":405,"user":"netlify[bot]"}
 {"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-07T16:49:15Z","ref":405,"user":"positron-bot"}
@@ -109,6 +110,7 @@
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-28T19:22:06Z","ref":425,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-28T19:43:50Z","ref":425,"user":"midleman"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-29T19:13:52Z","ref":425,"user":"midleman"}
+{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T14:56:45Z","ref":423,"user":"isabelizimm"}
 {"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T15:11:20Z","ref":426,"user":"juliasilge"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T15:11:27Z","ref":426,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T15:13:50Z","ref":426,"user":"github-actions[bot]"}
@@ -119,12 +121,14 @@
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T21:18:27Z","ref":427,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T21:18:42Z","ref":427,"user":"juliasilge"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T21:20:40Z","ref":427,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T21:22:02Z","ref":425,"user":"midleman"}
 {"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-30T21:26:42Z","ref":427,"user":"juliasilge"}
 {"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T13:58:08Z","ref":428,"user":"juliasilge"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T13:58:14Z","ref":428,"user":"netlify[bot]"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T14:00:39Z","ref":428,"user":"github-actions[bot]"}
 {"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T15:12:31Z","ref":428,"user":"juliasilge"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T17:04:10Z","ref":424,"user":"dhruvisompura"}
+{"source":"github","type":"pr_merge","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T17:10:05Z","ref":424,"user":"cindyytong"}
 {"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T17:47:18Z","ref":429,"user":"juliasilge"}
 {"source":"github","type":"comment","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T17:47:23Z","ref":429,"user":"netlify[bot]"}
 {"source":"github","type":"pr_open","project_id":"positron-website","target":"posit-dev/positron-website","datetime":"2026-07-31T17:48:32Z","ref":430,"user":"cindyytong"}

@@ -1,3 +1,4 @@
+{"source":"github","metric":"daily_stars","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-02","value":1}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-03","value":0,"extra":{"ref":"531"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-03","value":0,"extra":{"ref":"530"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-03","value":0,"extra":{"ref":"529"}}
@@ -10,6 +11,7 @@
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-09","value":0,"extra":{"ref":"538"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-10","value":0,"extra":{"ref":"539"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-10","value":0,"extra":{"ref":"540"}}
+{"source":"github","metric":"daily_stars","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-10","value":1}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-11","value":0,"extra":{"ref":"543"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-11","value":0,"extra":{"ref":"548"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-11","value":0,"extra":{"ref":"547"}}
@@ -22,12 +24,14 @@
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-17","value":0,"extra":{"ref":"553"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-17","value":0,"extra":{"ref":"551"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-17","value":0,"extra":{"ref":"550"}}
+{"source":"github","metric":"daily_stars","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-20","value":1}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-21","value":0,"extra":{"ref":"556"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-21","value":0,"extra":{"ref":"557"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-21","value":0,"extra":{"ref":"555"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-21","value":0,"extra":{"ref":"554"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-22","value":0,"extra":{"ref":"559"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-22","value":0,"extra":{"ref":"558"}}
+{"source":"github","metric":"daily_stars","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-22","value":2}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-23","value":0,"extra":{"ref":"560"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-23","value":0,"extra":{"ref":"561"}}
 {"source":"github","metric":"total_reactions","project_id":"ggsql","target":"posit-dev/ggsql","date":"2026-09-24","value":0,"extra":{"ref":"562"}}

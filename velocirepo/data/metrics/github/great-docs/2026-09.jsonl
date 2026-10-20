@@ -6,6 +6,7 @@
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-04","value":1,"extra":{"ref":"340"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-04","value":0,"extra":{"ref":"342"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-04","value":0,"extra":{"ref":"341"}}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-04","value":2}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-05","value":0,"extra":{"ref":"343"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-05","value":0,"extra":{"ref":"344"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-08","value":0,"extra":{"ref":"345"}}
@@ -17,11 +18,16 @@
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-11","value":0,"extra":{"ref":"351"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-14","value":0,"extra":{"ref":"353"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-14","value":0,"extra":{"ref":"352"}}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-14","value":1}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-15","value":1}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-16","value":0,"extra":{"ref":"354"}}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-19","value":1}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-21","value":0,"extra":{"ref":"355"}}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-21","value":1}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-25","value":0,"extra":{"ref":"356"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-28","value":0,"extra":{"ref":"358"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-28","value":0,"extra":{"ref":"357"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-30","value":0,"extra":{"ref":"361"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-30","value":0,"extra":{"ref":"359"}}
 {"source":"github","metric":"total_reactions","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-30","value":0,"extra":{"ref":"360"}}
+{"source":"github","metric":"daily_stars","project_id":"great-docs","target":"posit-dev/great-docs","date":"2026-09-30","value":1}

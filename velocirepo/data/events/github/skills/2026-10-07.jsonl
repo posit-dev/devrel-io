@@ -1,6 +1,10 @@
+{"source":"github","type":"issue_close","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:36:30Z","ref":63,"user":"CoryMcCartan"}
+{"source":"github","type":"issue_close","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:25:44Z","ref":78,"user":"joshyam-k"}
+{"source":"github","type":"issue_close","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:16:49Z","ref":65,"user":"bin1874"}
+{"source":"github","type":"issue_close","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T16:41:09Z","ref":79,"user":"mconflitti-pbc"}
+{"source":"github","type":"pr_open","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T16:39:59Z","ref":93,"user":"gadenbuie"}
 {"source":"github","type":"pr_open","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:31:59Z","ref":95,"user":"gadenbuie"}
 {"source":"github","type":"pr_merge","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:36:29Z","ref":95,"user":"gadenbuie"}
-{"source":"github","type":"pr_open","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T16:39:59Z","ref":93,"user":"gadenbuie"}
 {"source":"github","type":"pr_open","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T16:37:18Z","ref":92,"user":"gadenbuie"}
 {"source":"github","type":"pr_merge","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T16:41:07Z","ref":92,"user":"gadenbuie"}
 {"source":"github","type":"comment","project_id":"skills","target":"posit-dev/skills","datetime":"2026-10-07T17:38:28Z","ref":63,"user":"gadenbuie"}

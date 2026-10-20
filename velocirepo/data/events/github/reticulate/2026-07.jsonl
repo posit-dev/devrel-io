@@ -8,12 +8,16 @@
 {"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-29T23:53:01Z","ref":1912,"user":"t-kalinowski"}
 {"source":"github","type":"pr_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T00:24:38Z","ref":1913,"user":"t-kalinowski"}
 {"source":"github","type":"pr_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T00:28:40Z","ref":1914,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T13:47:02Z","ref":1911,"user":"jeis4wpi"}
 {"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T13:47:06Z","ref":1911,"user":"t-kalinowski"}
 {"source":"github","type":"pr_open","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T14:09:34Z","ref":1915,"user":"t-kalinowski"}
 {"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T15:59:49Z","ref":1906,"user":"t-kalinowski"}
 {"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T21:37:55Z","ref":1915,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T21:37:56Z","ref":1905,"user":"t-kalinowski"}
 {"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T23:15:25Z","ref":1914,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T23:15:26Z","ref":1910,"user":"CraigKevin-eng"}
 {"source":"github","type":"pr_merge","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T23:35:20Z","ref":1913,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-30T23:35:21Z","ref":1909,"user":"kevinushey"}
 {"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-31T11:53:57Z","ref":1910,"user":"t-kalinowski"}
 {"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-31T11:54:19Z","ref":1909,"user":"t-kalinowski"}
 {"source":"github","type":"comment","project_id":"reticulate","target":"rstudio/reticulate","datetime":"2026-07-31T23:34:41Z","ref":1906,"user":"JackieMium"}

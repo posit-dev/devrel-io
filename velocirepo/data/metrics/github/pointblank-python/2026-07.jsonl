@@ -1,3 +1,10 @@
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-01","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-02","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-03","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-09","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-17","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-23","value":2}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-25","value":2}
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"411"}}
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"410"}}
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"405"}}
@@ -403,3 +410,6 @@
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"4"}}
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"3"}}
 {"source":"github","metric":"total_reactions","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":0,"extra":{"ref":"2"}}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-27","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-28","value":1}
+{"source":"github","metric":"daily_stars","project_id":"pointblank-python","target":"posit-dev/pointblank","date":"2026-07-31","value":1}

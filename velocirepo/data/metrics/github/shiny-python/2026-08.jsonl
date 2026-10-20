@@ -9,6 +9,7 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-02","value":0,"extra":{"ref":"2414"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-02","value":0,"extra":{"ref":"2413"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-02","value":0,"extra":{"ref":"2412"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-05","value":3}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2423"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2422"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2421"}}
@@ -18,9 +19,11 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2417"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2416"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":0,"extra":{"ref":"2415"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-06","value":1}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-07","value":0,"extra":{"ref":"2425"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-07","value":0,"extra":{"ref":"2424"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-07","value":0,"extra":{"ref":"2426"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-09","value":1}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-10","value":0,"extra":{"ref":"2431"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-10","value":0,"extra":{"ref":"2430"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-10","value":0,"extra":{"ref":"2427"}}
@@ -55,6 +58,7 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-18","value":0,"extra":{"ref":"2456"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-18","value":0,"extra":{"ref":"2455"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-19","value":0,"extra":{"ref":"2461"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-19","value":1}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-20","value":0,"extra":{"ref":"2462"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-20","value":0,"extra":{"ref":"2464"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-20","value":0,"extra":{"ref":"2463"}}
@@ -69,6 +73,8 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-25","value":0,"extra":{"ref":"2474"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-25","value":0,"extra":{"ref":"2471"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-25","value":0,"extra":{"ref":"2470"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-25","value":2}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-26","value":0,"extra":{"ref":"2476"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-26","value":0,"extra":{"ref":"2477"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-26","value":0,"extra":{"ref":"2475"}}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-08-28","value":1}

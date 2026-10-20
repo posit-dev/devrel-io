@@ -8,3 +8,5 @@
 {"source":"github","type":"pr_open","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-08-29T21:32:31Z","ref":601,"user":"anupamme"}
 {"source":"github","type":"pr_open","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-08-29T22:00:14Z","ref":602,"user":"jcheng5"}
 {"source":"github","type":"pr_merge","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-08-29T22:02:57Z","ref":602,"user":"jcheng5"}
+{"source":"github","type":"pr_merge","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-08-29T22:03:27Z","ref":597,"user":"jcheng5"}
+{"source":"github","type":"pr_merge","project_id":"shiny-server","target":"rstudio/shiny-server","datetime":"2026-08-30T00:25:56Z","ref":596,"user":"jcheng5"}

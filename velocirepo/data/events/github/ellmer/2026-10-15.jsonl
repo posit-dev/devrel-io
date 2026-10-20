@@ -1,6 +1,9 @@
-{"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T13:42:09Z","ref":1180,"user":"thisisnic"}
+{"source":"github","type":"issue_close","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T09:32:27Z","ref":1129,"user":"kbenoit"}
 {"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T13:36:58Z","ref":1179,"user":"thisisnic"}
 {"source":"github","type":"pr_merge","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T15:49:20Z","ref":1179,"user":"thisisnic"}
+{"source":"github","type":"pr_open","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T13:42:09Z","ref":1180,"user":"thisisnic"}
+{"source":"github","type":"pr_merge","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T09:32:25Z","ref":1162,"user":"taekop"}
+{"source":"github","type":"pr_merge","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T08:33:38Z","ref":1164,"user":"gadenbuie"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T16:19:23Z","ref":1179,"user":"thisisnic"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T15:49:35Z","ref":1180,"user":"thisisnic"}
 {"source":"github","type":"comment","project_id":"ellmer","target":"tidyverse/ellmer","datetime":"2026-10-15T13:42:53Z","ref":1179,"user":"thisisnic"}
