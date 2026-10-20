@@ -3,6 +3,6 @@
 {"source":"github","type":"pr_open","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T22:12:14Z","ref":19031,"user":"kevinushey"}
 {"source":"github","type":"pr_open","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T18:11:50Z","ref":19029,"user":"kevinushey"}
 {"source":"github","type":"pr_merge","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T21:45:27Z","ref":19029,"user":"kevinushey"}
+{"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T19:48:13Z","ref":19029,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T23:30:52Z","ref":19031,"user":"github-actions[bot]"}
 {"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T21:01:48Z","ref":19030,"user":"github-actions[bot]"}
-{"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-03T19:48:13Z","ref":19029,"user":"github-actions[bot]"}
