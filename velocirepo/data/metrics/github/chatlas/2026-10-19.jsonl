@@ -6,5 +6,5 @@
 {"source":"github","metric":"total_reactions","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":2,"extra":{"ref":"383"}}
 {"source":"github","metric":"total_reactions","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":0,"extra":{"ref":"468"}}
 {"source":"github","metric":"total_reactions","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":0,"extra":{"ref":"467"}}
-{"source":"github","metric":"daily_stars","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":0}
 {"source":"github","metric":"total_stars","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":177}
+{"source":"github","metric":"daily_stars","project_id":"chatlas","target":"posit-dev/chatlas","date":"2026-10-19","value":0}

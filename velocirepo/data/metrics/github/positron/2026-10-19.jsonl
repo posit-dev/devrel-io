@@ -15577,5 +15577,5 @@
 {"source":"github","metric":"total_reactions","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":0,"extra":{"ref":"16703"}}
 {"source":"github","metric":"total_reactions","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":0,"extra":{"ref":"16704"}}
 {"source":"github","metric":"total_reactions","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":0,"extra":{"ref":"16705"}}
-{"source":"github","metric":"daily_stars","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":0}
 {"source":"github","metric":"total_stars","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":4307}
+{"source":"github","metric":"daily_stars","project_id":"positron","target":"posit-dev/positron","date":"2026-10-19","value":0}

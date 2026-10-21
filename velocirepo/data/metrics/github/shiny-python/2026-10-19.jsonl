@@ -10,5 +10,5 @@
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":1,"extra":{"ref":"2421"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":0,"extra":{"ref":"2573"}}
 {"source":"github","metric":"total_reactions","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":3,"extra":{"ref":"2572"}}
-{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":0}
 {"source":"github","metric":"total_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":1763}
+{"source":"github","metric":"daily_stars","project_id":"shiny-python","target":"posit-dev/py-shiny","date":"2026-10-19","value":0}

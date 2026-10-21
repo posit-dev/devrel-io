@@ -9388,5 +9388,5 @@
 {"source":"github","metric":"total_reactions","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":0,"extra":{"ref":"15094"}}
 {"source":"github","metric":"total_reactions","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":0,"extra":{"ref":"15095"}}
 {"source":"github","metric":"total_reactions","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":0,"extra":{"ref":"15104"}}
-{"source":"github","metric":"daily_stars","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":1}
 {"source":"github","metric":"total_stars","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":6104}
+{"source":"github","metric":"daily_stars","project_id":"quarto","target":"quarto-dev/quarto-cli","date":"2026-10-19","value":1}

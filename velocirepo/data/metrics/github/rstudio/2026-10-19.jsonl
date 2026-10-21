@@ -19108,5 +19108,5 @@
 {"source":"github","metric":"total_reactions","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":1,"extra":{"ref":"19153"}}
 {"source":"github","metric":"total_reactions","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":0,"extra":{"ref":"19180"}}
 {"source":"github","metric":"total_reactions","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":0,"extra":{"ref":"19175"}}
-{"source":"github","metric":"daily_stars","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":1}
 {"source":"github","metric":"total_stars","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":5091}
+{"source":"github","metric":"daily_stars","project_id":"rstudio","target":"rstudio/rstudio","date":"2026-10-19","value":1}

@@ -30,5 +30,5 @@
 {"source":"github","metric":"total_reactions","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":0,"extra":{"ref":"122"}}
 {"source":"github","metric":"total_reactions","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":0,"extra":{"ref":"121"}}
 {"source":"github","metric":"total_reactions","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":0,"extra":{"ref":"119"}}
-{"source":"github","metric":"daily_stars","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":0}
 {"source":"github","metric":"total_stars","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":131}
+{"source":"github","metric":"daily_stars","project_id":"reactlog","target":"rstudio/reactlog","date":"2026-10-19","value":0}
