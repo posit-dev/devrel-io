@@ -1,3 +1,6 @@
+[settings]
+owners = ["jeroenjanssens"]
+
 [projects.posit]
 youtube = "@PositPBC"
 notes = "The @PositPBC YouTube channel itself, not a repository or package."
