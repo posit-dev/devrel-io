@@ -1,5 +1,6 @@
 [projects.posit]
 youtube = "@PositPBC"
+notes = "The @PositPBC YouTube channel itself, not a repository or package."
 
 [projects.air]
 name = "Air - R Language Support"
@@ -84,6 +85,10 @@ rss = [
   "https://opensource.posit.co/resources/index.md.xml",
   "https://opensource.posit.co/software/index.md.xml",
 ]
+notes = """
+opensource.posit.co itself: its Plausible traffic, its RSS feeds \
+(total_items), and the blog posts, resources, software entries, people and \
+events those feeds carry in content."""
 
 [projects.orbital-python]
 name = "Orbital for Python"
@@ -141,6 +146,10 @@ tags = ["typescript"]
 website = "https://positron.posit.co/"
 github ="posit-dev/positron"
 plausible = "positron.posit.co"
+notes = """
+Positron is a desktop IDE distributed as installers, not an R or Python \
+package, so it has no CRAN or PyPI downloads: download counts for it can't \
+be answered from this data."""
 
 [projects.publisher]
 name = "Posit Publisher"
@@ -209,6 +218,10 @@ website = "https://www.tidyverse.org"
 github ="tidyverse/tidyverse"
 cran = "tidyverse"
 plausible = "tidyverse.tidyverse.org"
+notes = """
+The tidyverse meta-package and the tidyverse/tidyverse repo, NOT a rollup of \
+all tidyverse packages. Downloads of the tidyverse as a whole means summing \
+the individual packages (dplyr, ggplot2, ...), each tracked as its own project."""
 
 [projects.connectapi]
 name = "connectapi"
@@ -225,6 +238,7 @@ github ="posit-dev/pydytuesday"
 [projects.py-shiny]
 name = "py-shiny"
 github ="posit-dev/py-shiny"
+duplicate_of = "shiny-python"
 
 [projects.py-htmltools]
 name = "py-htmltools"
@@ -406,6 +420,7 @@ github ="posit-dev/kallichore-builds"
 [projects.pointblank]
 name = "pointblank"
 github ="posit-dev/pointblank"
+duplicate_of = "pointblank-python"
 
 [projects.ptm-user-training]
 name = "ptm-user-training"
@@ -451,6 +466,7 @@ github ="posit-dev/python-tidytuesday"
 [projects.orbital]
 name = "orbital"
 github ="posit-dev/orbital"
+duplicate_of = "orbital-r"
 
 [projects.plumber2]
 name = "plumber2"
@@ -839,6 +855,7 @@ github ="rstudio/markdown"
 [projects.shiny]
 name = "shiny"
 github ="rstudio/shiny"
+duplicate_of = "shiny-r"
 
 [projects.shiny-server]
 name = "shiny-server"
@@ -1992,3 +2009,139 @@ github ="rstudio/academy-apprenticeship-diagnostic-page"
 name = "vitals"
 github = "tidyverse/vitals"
 cran = "vitals"
+
+[data_dict]
+name = "posit-oss-devrel"
+label = "Posit open source devrel metrics"
+description = """
+Daily adoption and engagement metrics for Posit's open source projects, \
+plus a catalog of the issues, pull requests, repositories, videos, blog \
+posts and site entities behind them. This is public data about public \
+projects."""
+
+# Shared targets: the curated project keeps them. The posit/shiny extension
+# and the shiny.posit.co site stay under shiny-python, whose Plausible series
+# is continuous.
+[data_dict.keep.github]
+"posit-dev/orbital" = "orbital-r"
+
+[data_dict.keep.openvsx]
+"posit/shiny" = "shiny-python"
+
+[data_dict.keep.plausible]
+"shiny.posit.co" = "shiny-python"
+
+# The content types the opensource.posit.co feeds set with vr:type.
+[data_dict.values.content.type]
+post = "opensource.posit.co blog post"
+resource = "opensource.posit.co resource (video, talk, book, ...)"
+software = "opensource.posit.co software entry, one per listed project"
+person = "opensource.posit.co person page"
+event = "opensource.posit.co event listing, including upcoming ones"
+
+# Era audit of the export of 2026-10-20: the original site-level rows (page
+# IS NULL) end on 2026-06-22 (2026-06-21 for great-tables, 2026-05-31 for
+# supported-by-posit, 2026-05-19 for posit-dev.github.io/pointblank), and
+# daily_site_* starts on 2026-06-22 for most sites (2026-03-02 for
+# shiny.posit.co), so both eras have 2026-06-22.
+[[data_dict.notes]]
+tables = ["metrics", "metrics_filled", "indicators"]
+source = "plausible"
+text = """
+devrel-io switched collection systems in June 2026. Before, site-level \
+traffic is daily_pageviews, daily_visitors and daily_visits with page IS \
+NULL, through 2026-06-22; after, it's daily_site_*, from 2026-06-22 for \
+most sites (2026-03-02 for shiny.posit.co). Per-page rows (page IS NOT \
+NULL) start on 2026-03-02 for shiny.posit.co and on 2026-06-22 for the \
+other sites, and share their metric names with the old site-level rows, so \
+filter on page before aggregating. The site_traffic and traffic_metric \
+definitions combine the eras, and the pageviews, visitors and visits \
+measures use them."""
+
+[[data_dict.notes]]
+tables = ["metrics"]
+source = "cran"
+text = """
+The series misses 17 days that cranlogs has no data for: seven days in \
+October 2012, 2012-12-29 to 2012-12-31, 2025-08-25, 2025-08-26 and \
+2025-08-29 to 2025-09-02. Range sums over those days undercount."""
+
+[[data_dict.notes]]
+tables = ["metrics", "metrics_filled"]
+source = "github"
+text = """
+total_reactions was backfilled for every open and closed issue and pull \
+request on 2026-07-27, and is updated since for the items that change. \
+Read the latest value per ref (or use metrics_filled); most items have no \
+reactions."""
+
+[[data_dict.notes]]
+tables = ["projects"]
+column = "tags"
+text = """
+Tags are sparse and aren't a census of the portfolio: derive rosters from \
+targets and the data rather than from tags. Most projects are GitHub-only \
+repositories of the posit-dev, rstudio, tidyverse and quarto-dev \
+organizations; only about 20 curated ones have package or site metrics."""
+
+[[data_dict.definitions]]
+table = "metrics"
+name = "site_traffic"
+label = "site-level rows, both collection eras"
+description = """
+Site-level website analytics rows of both collection eras, without the \
+day the eras overlap twice. Use it with traffic_metric, and with \
+deduplicated across projects."""
+expr = """
+source = 'plausible'
+AND ((page IS NULL
+      AND metric IN ('daily_pageviews', 'daily_visitors', 'daily_visits')
+      AND date < '2026-06-22')
+     OR metric LIKE 'daily_site_%')"""
+
+[[data_dict.definitions]]
+table = "metrics"
+name = "traffic_metric"
+label = "site metric name across eras"
+description = """
+Maps the daily_site_* names onto daily_pageviews, daily_visitors and \
+daily_visits, so the two collection eras aggregate under one name."""
+expr = """
+CASE
+  WHEN metric = 'daily_site_pageviews' THEN 'daily_pageviews'
+  WHEN metric = 'daily_site_visitors' THEN 'daily_visitors'
+  WHEN metric = 'daily_site_visits' THEN 'daily_visits'
+  ELSE metric
+END"""
+
+[[data_dict.definitions]]
+table = "metrics"
+name = "pageviews"
+description = "Site-level pageviews of both collection eras. Counts every target once."
+expr = "SUM(CASE WHEN site_traffic AND traffic_metric = 'daily_pageviews' AND deduplicated THEN value ELSE 0 END)"
+
+[[data_dict.definitions]]
+table = "metrics"
+name = "visitors"
+label = "visitor-days, not distinct people"
+description = """
+Daily unique visitors of the sites, both collection eras, summed: \
+visitor-days, not distinct people. Present a range as visitor-days or a \
+daily average. Counts every target once."""
+expr = "SUM(CASE WHEN site_traffic AND traffic_metric = 'daily_visitors' AND deduplicated THEN value ELSE 0 END)"
+
+[[data_dict.definitions]]
+table = "metrics"
+name = "visits"
+description = "Site-level visits (sessions) of both collection eras. Counts every target once."
+expr = "SUM(CASE WHEN site_traffic AND traffic_metric = 'daily_visits' AND deduplicated THEN value ELSE 0 END)"
+
+[data_dict.glossary]
+"package authorship" = """
+Formal package authorship and maintainer roles aren't collected. Event \
+users describe public contribution activity, not authorship, and may be \
+used only as a clearly labeled proxy."""
+"shiny.posit.co" = """
+The Shiny website, for both the R and the Python framework. It's tracked \
+under shiny-r and shiny-python with the same values; deduplicated keeps it \
+under shiny-python, so query its traffic there or by target."""
