@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T01:43:28Z","ref":998,"user":"LuisFigueroaG"}
+{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T14:56:23Z","ref":1000,"user":"rich-iannone"}
+{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T16:01:32Z","ref":1000,"user":"rich-iannone"}
+{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T00:53:05Z","ref":997,"user":"rich-iannone"}
+{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T01:11:17Z","ref":997,"user":"rich-iannone"}
+{"source":"github","type":"comment","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T00:55:31Z","ref":997,"user":"codecov[bot]"}
+{"source":"github","type":"comment","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T15:00:02Z","ref":1000,"user":"codecov[bot]"}
+{"source":"github","type":"comment","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-21T01:46:28Z","ref":998,"user":"codecov[bot]"}
