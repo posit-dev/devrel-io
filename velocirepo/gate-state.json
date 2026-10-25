@@ -1,14 +1,14 @@
 {
   "findings": [
     {
-      "id": "b89d24327ba0",
-      "check": "reconcile.unavailable",
+      "id": "e2afc11713de",
+      "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "rstudio-conf",
-      "target": "rstudio/rstudio-conf",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-10-24"
+      "project": "helm",
+      "target": "rstudio/helm",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-10-25"
     }
   ]
 }
