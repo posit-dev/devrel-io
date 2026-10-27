@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-26T18:07:56Z","ref":1035,"user":"LuisFigueroaG"}
+{"source":"github","type":"pr_open","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-26T19:51:49Z","ref":1038,"user":"LuisFigueroaG"}
+{"source":"github","type":"comment","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-26T19:54:19Z","ref":1038,"user":"codecov[bot]"}
+{"source":"github","type":"pr_merge","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-26T20:00:16Z","ref":1036,"user":"FBruzzesi"}
+{"source":"github","type":"issue_close","project_id":"great-tables","target":"posit-dev/great-tables","datetime":"2026-10-26T20:00:18Z","ref":1002,"user":"FBruzzesi"}

@@ -1,34 +1,24 @@
 {
   "findings": [
     {
-      "id": "5156ebabc781",
-      "check": "reconcile.unavailable",
-      "severity": "warning",
-      "source": "github",
-      "project": "mcp-repl",
-      "target": "posit-dev/mcp-repl",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-10-26"
-    },
-    {
-      "id": "9fb8bfb140f1",
+      "id": "7b989d1ccb80",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "btw",
-      "target": "posit-dev/btw",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-10-26"
+      "project": "skills",
+      "target": "posit-dev/skills",
+      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
+      "since": "2026-10-27"
     },
     {
-      "id": "e2afc11713de",
+      "id": "8a1c94d72bf5",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "helm",
-      "target": "rstudio/helm",
+      "project": "renv",
+      "target": "rstudio/renv",
       "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-10-25"
+      "since": "2026-10-27"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{"source":"github","type":"pr_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T10:11:35Z","ref":209,"user":"shikokuchuo"}
+{"source":"github","type":"pr_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T15:12:30Z","ref":210,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T15:20:55Z","ref":212,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T15:34:21Z","ref":213,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T15:34:37Z","ref":212,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T19:50:49Z","ref":214,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T20:01:18Z","ref":209,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T20:01:20Z","ref":210,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T20:01:21Z","ref":213,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"promises","target":"rstudio/promises","datetime":"2026-10-26T20:01:23Z","ref":212,"user":"schloerke"}
