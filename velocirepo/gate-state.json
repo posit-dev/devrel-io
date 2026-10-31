@@ -1,3 +1,14 @@
 {
-  "findings": null
+  "findings": [
+    {
+      "id": "b89d24327ba0",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "rstudio-conf",
+      "target": "rstudio/rstudio-conf",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-10-31"
+    }
+  ]
 }
