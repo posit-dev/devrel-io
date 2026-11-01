@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T00:26:04Z","ref":19383,"user":"workbench-ide-release"}
+{"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T00:26:13Z","ref":19383,"user":"workbench-ide-release[bot]"}
+{"source":"github","type":"pr_open","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T00:26:19Z","ref":19384,"user":"workbench-ide-release"}
+{"source":"github","type":"pr_merge","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T01:29:18Z","ref":19384,"user":"workbench-ide-release"}
+{"source":"github","type":"pr_merge","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T01:31:32Z","ref":19383,"user":"workbench-ide-release"}
+{"source":"github","type":"comment","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T02:52:39Z","ref":19383,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_open","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T18:24:55Z","ref":19385,"user":"gtritchie"}
+{"source":"github","type":"pr_merge","project_id":"rstudio","target":"rstudio/rstudio","datetime":"2026-10-31T18:25:28Z","ref":19385,"user":"gtritchie"}

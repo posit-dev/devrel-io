@@ -1,14 +1,234 @@
 {
   "findings": [
     {
-      "id": "b89d24327ba0",
+      "id": "03ace83d18ff",
       "check": "reconcile.unavailable",
       "severity": "warning",
       "source": "github",
-      "project": "rstudio-conf",
-      "target": "rstudio/rstudio-conf",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-10-31"
+      "project": "ggplot2",
+      "target": "tidyverse/ggplot2",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "076b64debd7f",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "visual-markdown-editing",
+      "target": "rstudio/visual-markdown-editing",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "0ec6b65c8d8a",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "pointblank-python",
+      "target": "posit-dev/pointblank",
+      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "16bb8e653223",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "dplyr",
+      "target": "tidyverse/dplyr",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "1e81e606fa6f",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "pointblank",
+      "target": "posit-dev/pointblank",
+      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "26c81e67ed4c",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "ellmer",
+      "target": "tidyverse/ellmer",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "3f580709c928",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "images-specialized",
+      "target": "posit-dev/images-specialized",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "422a5eefc2e2",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "vetiver-r",
+      "target": "rstudio/vetiver-r",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "4427ec5ac928",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "webio_tut",
+      "target": "rstudio/webio_tut",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "5988864852cb",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "tinytex-releases",
+      "target": "rstudio/tinytex-releases",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "6bb8ed63c4e8",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "webdriver",
+      "target": "rstudio/webdriver",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "a5333038657c",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "webshot2",
+      "target": "rstudio/webshot2",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "b14c46174ba9",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "tinytex",
+      "target": "rstudio/tinytex",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "b35bd9d91081",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "tfruns",
+      "target": "rstudio/tfruns",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "ccb48e51b0b4",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "tufte",
+      "target": "rstudio/tufte",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "cfd325a6130f",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "thematic",
+      "target": "rstudio/thematic",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "d1aff705bfe1",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "vitals",
+      "target": "tidyverse/vitals",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "d8ef82c476b1",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "vetiver-posit-co",
+      "target": "rstudio/vetiver.posit.co",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "da95b0749c8f",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "vagrant-logplex",
+      "target": "rstudio/vagrant-logplex",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "e6de78b15158",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "webinars",
+      "target": "rstudio/webinars",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "e6e28ef2c849",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "tidyverse",
+      "target": "tidyverse/tidyverse",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "faa7f26b8e4c",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "vetiver-python",
+      "target": "rstudio/vetiver-python",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
+    },
+    {
+      "id": "fb396b079713",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "websocket",
+      "target": "rstudio/websocket",
+      "message": "no reference totals to compare with: graphql returned 403: {\n  \"documentation_url\": \"https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits\",\n  \"message\": \"You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID 0401:C21A6:6DC85D:16AD910:6AE7094C.\"\n}",
+      "since": "2026-11-01"
     }
   ]
 }
