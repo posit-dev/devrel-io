@@ -1,0 +1,17 @@
+{"source":"github","type":"pr_open","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:12:57Z","ref":596,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:16:00Z","ref":596,"user":"DavisVaughan"}
+{"source":"github","type":"comment","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:17:16Z","ref":592,"user":"dependabot[bot]"}
+{"source":"github","type":"pr_open","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:17:32Z","ref":597,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:21:55Z","ref":597,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:28:33Z","ref":593,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:29:25Z","ref":594,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:52:21Z","ref":598,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:55:17Z","ref":598,"user":"DavisVaughan"}
+{"source":"github","type":"comment","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T13:57:33Z","ref":581,"user":"dependabot[bot]"}
+{"source":"github","type":"pr_open","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T14:06:49Z","ref":599,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T14:11:25Z","ref":599,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T14:47:03Z","ref":532,"user":"etiennebacher"}
+{"source":"github","type":"issue_close","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T14:47:05Z","ref":518,"user":"etiennebacher"}
+{"source":"github","type":"pr_open","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T15:09:18Z","ref":600,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T17:02:55Z","ref":600,"user":"DavisVaughan"}
+{"source":"github","type":"issue_close","project_id":"air","target":"posit-dev/air","datetime":"2026-11-02T20:23:34Z","ref":278,"user":"Yunuuuu"}

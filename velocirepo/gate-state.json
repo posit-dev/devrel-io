@@ -1,34 +1,14 @@
 {
   "findings": [
     {
-      "id": "3f580709c928",
+      "id": "d3c614c0ae85",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "images-specialized",
-      "target": "posit-dev/images-specialized",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-01"
-    },
-    {
-      "id": "5156ebabc781",
-      "check": "reconcile.unavailable",
-      "severity": "warning",
-      "source": "github",
-      "project": "mcp-repl",
-      "target": "posit-dev/mcp-repl",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-11-02"
-    },
-    {
-      "id": "7b989d1ccb80",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "skills",
-      "target": "posit-dev/skills",
-      "message": "no data for the last 3 days, while it had data on 24 of the 28 days before",
-      "since": "2026-11-02"
+      "project": "vip",
+      "target": "posit-dev/vip",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-11-03"
     },
     {
       "id": "da58f928982f",
