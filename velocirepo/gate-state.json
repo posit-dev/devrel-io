@@ -7,7 +7,7 @@
       "source": "github",
       "project": "vip",
       "target": "posit-dev/vip",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
       "since": "2026-11-03"
     },
     {
@@ -19,6 +19,23 @@
       "target": "posit-dev/assistant-feedback",
       "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
       "since": "2026-11-02"
+    },
+    {
+      "id": "e7898dea914c",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "rmarkdown",
+      "target": "rstudio/rmarkdown",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-11-04"
+    },
+    {
+      "id": "f687985fa090",
+      "check": "archive.upload",
+      "severity": "warning",
+      "message": "the archive couldn't be uploaded, and is saved for the next run: upload 20261104T093657Z-41808877498-1-rss.jsonl.zst: GitHub returned 404",
+      "since": "2026-11-04"
     }
   ]
 }
