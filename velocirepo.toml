@@ -13,6 +13,7 @@ tags = ["r"]
 website = "https://posit-dev.github.io/air/"
 github ="posit-dev/air"
 openvsx = "posit/air-vscode"
+pypi = "air-formatter"
 
 [projects.chatlas]
 name = "Chatlas"
@@ -108,7 +109,7 @@ description = "Orbital data processing and analysis in R"
 color = "#FF8C42"
 tags = ["r"]
 website = "https://posit-dev.github.io/orbital/"
-github ="posit-dev/orbital"
+github ="tidymodels/orbital"
 cran = "orbital"
 
 [projects.plotnine]
@@ -171,6 +172,7 @@ website = "https://quarto.org"
 github ="quarto-dev/quarto-cli"
 openvsx = "quarto/quarto"
 plausible = "quarto.org"
+pypi = "quarto-cli"
 
 [projects.shiny-python]
 name = "Shiny for Python"
@@ -229,14 +231,17 @@ the individual packages (dplyr, ggplot2, ...), each tracked as its own project."
 [projects.connectapi]
 name = "connectapi"
 github ="posit-dev/connectapi"
+cran = "connectapi"
 
 [projects.rsconnect-python]
 name = "rsconnect-python"
 github ="posit-dev/rsconnect-python"
+pypi = ["rsconnect", "rsconnect-python"]
 
 [projects.pydytuesday]
 name = "pydytuesday"
 github ="posit-dev/pydytuesday"
+pypi = "pydytuesday"
 
 [projects.py-shiny]
 name = "py-shiny"
@@ -246,6 +251,7 @@ duplicate_of = "shiny-python"
 [projects.py-htmltools]
 name = "py-htmltools"
 github ="posit-dev/py-htmltools"
+pypi = "htmltools"
 
 [projects.zd-cli]
 name = "zd-cli"
@@ -254,10 +260,12 @@ github ="posit-dev/zd-cli"
 [projects.py-shinywidgets]
 name = "py-shinywidgets"
 github ="posit-dev/py-shinywidgets"
+pypi = "shinywidgets"
 
 [projects.py-faicons]
 name = "py-faicons"
 github ="posit-dev/py-faicons"
+pypi = "faicons"
 
 [projects.shinylive]
 name = "shinylive"
@@ -270,10 +278,12 @@ github ="posit-dev/shiny-vscode"
 [projects.py-shinylive]
 name = "py-shinylive"
 github ="posit-dev/py-shinylive"
+pypi = "shinylive"
 
 [projects.py-shinyswatch]
 name = "py-shinyswatch"
 github ="posit-dev/py-shinyswatch"
+pypi = "shinyswatch"
 
 [projects.streamlit-shiny-dash]
 name = "streamlit-shiny-dash"
@@ -290,10 +300,7 @@ github ="posit-dev/py-shiny-workshop"
 [projects.r-shinylive]
 name = "r-shinylive"
 github ="posit-dev/r-shinylive"
-
-[projects.shiny-discord-demos]
-name = "shiny-discord-demos"
-github ="posit-dev/shiny-discord-demos"
+cran = "shinylive"
 
 [projects.py-shiny-site]
 name = "py-shiny-site"
@@ -318,10 +325,12 @@ github ="posit-dev/shiny-bindings"
 [projects.py-shiny-validate]
 name = "py-shiny-validate"
 github ="posit-dev/py-shiny-validate"
+pypi = "shiny-validate"
 
 [projects.posit-sdk-py]
 name = "posit-sdk-py"
 github ="posit-dev/posit-sdk-py"
+pypi = "posit-sdk"
 
 [projects.product-doc-theme]
 name = "product-doc-theme"
@@ -334,10 +343,8 @@ github ="posit-dev/learnmedia-bikeshare"
 [projects.brand-yml]
 name = "brand-yml"
 github ="posit-dev/brand-yml"
-
-[projects.agentic-adoption-scan]
-name = "agentic-adoption-scan"
-github ="posit-dev/agentic-adoption-scan"
+cran = "brand.yml"
+pypi = "brand-yml"
 
 [projects.bcorp-report]
 name = "bcorp-report"
@@ -351,21 +358,10 @@ github ="posit-dev/snowflake-posit-quickstart-r"
 name = "healthcare-shiny-showcase"
 github ="posit-dev/healthcare-shiny-showcase"
 
-[projects.cla-assistant-test]
-name = "cla-assistant-test"
-github ="posit-dev/cla-assistant-test"
-
-[projects.cla-assistant]
-name = "cla-assistant"
-github ="posit-dev/cla-assistant"
-
-[projects.qa-example-content]
-name = "qa-example-content"
-github ="posit-dev/qa-example-content"
-
 [projects.shinymedia]
 name = "shinymedia"
 github ="posit-dev/shinymedia"
+pypi = "shinymedia"
 
 [projects.kallichore]
 name = "kallichore"
@@ -410,11 +406,14 @@ github ="posit-dev/images-package-manager"
 [projects.images-shared]
 name = "images-shared"
 github ="posit-dev/images-shared"
+pypi = "posit-bakery"
 
 [projects.shinychat]
 name = "shinychat"
 cran = "shinychat"
 github ="posit-dev/shinychat"
+pypi = "shinychat"
+plausible = "shinychat"
 
 [projects.kallichore-builds]
 name = "kallichore-builds"
@@ -432,6 +431,7 @@ github ="posit-dev/ptm-user-training"
 [projects.snowflakeauth]
 name = "snowflakeauth"
 github ="posit-dev/snowflakeauth"
+cran = "snowflakeauth"
 
 [projects.snowflake-posit-quickstart-python]
 name = "snowflake-posit-quickstart-python"
@@ -452,10 +452,7 @@ github ="posit-dev/snowflake-posit-quickstart-orbital"
 [projects.connectcreds]
 name = "connectcreds"
 github ="posit-dev/connectcreds"
-
-[projects.positron-pet-builds]
-name = "positron-pet-builds"
-github ="posit-dev/positron-pet-builds"
+cran = "connectcreds"
 
 [projects.btw]
 name = "btw"
@@ -469,17 +466,19 @@ github ="posit-dev/python-tidytuesday"
 [projects.orbital]
 name = "orbital"
 github ="posit-dev/orbital"
-duplicate_of = "orbital-r"
+duplicate_of = "orbital-python"
 
 [projects.plumber2]
 name = "plumber2"
 github ="posit-dev/plumber2"
+cran = "plumber2"
 
 [projects.querychat]
 name = "querychat"
 cran = "querychat"
 pypi = "querychat"
 github ="posit-dev/querychat"
+plausible = "posit-dev.github.io/querychat"
 
 [projects.mcptools]
 name = "mcptools"
@@ -489,10 +488,6 @@ github ="posit-dev/mcptools"
 [projects.setup-air]
 name = "setup-air"
 github ="posit-dev/setup-air"
-
-[projects.pycon2025]
-name = "pycon2025"
-github ="posit-dev/pycon2025"
 
 [projects.positron-workshop]
 name = "positron-workshop"
@@ -517,14 +512,11 @@ github ="posit-dev/positron-api-pkg"
 [projects.gt-extras]
 name = "gt-extras"
 github ="posit-dev/gt-extras"
+pypi = "gt-extras"
 
 [projects.positron-extension-template]
 name = "positron-extension-template"
 github ="posit-dev/positron-extension-template"
-
-[projects.user-training-content]
-name = "user-training-content"
-github ="posit-dev/user-training-content"
 
 [projects.shinyrealtime]
 name = "shinyrealtime"
@@ -563,29 +555,10 @@ github ="posit-dev/chronicle-reports"
 name = "images-examples"
 github ="posit-dev/images-examples"
 
-[projects.01-positron101]
-name = "01-positron101"
-github ="posit-dev/01-positron101"
-
-[projects.02-pa-databot]
-name = "02-pa-databot"
-github ="posit-dev/02-pa-databot"
-
-[projects.databot-data]
-name = "databot-data"
-github ="posit-dev/databot-data"
-
-[projects.03-static-report]
-name = "03-static-report"
-github ="posit-dev/03-static-report"
-
-[projects.04-interactive-content]
-name = "04-interactive-content"
-github ="posit-dev/04-interactive-content"
-
 [projects.nbmail]
 name = "nbmail"
 github ="posit-dev/nbmail"
+pypi = "nbmail"
 
 [projects.positron-demos-notebooks]
 name = "positron-demos-notebooks"
@@ -603,21 +576,21 @@ github ="posit-dev/user-training-workshop"
 name = "ai-powered-app-workshop"
 github ="posit-dev/ai-powered-app-workshop"
 
-[projects.instruqt-api-reporting]
-name = "instruqt-api-reporting"
-github ="posit-dev/instruqt-api-reporting"
-
 [projects.r-yaml12]
 name = "r-yaml12"
 github ="posit-dev/r-yaml12"
+cran = "yaml12"
 
 [projects.automerge-r]
 name = "automerge-r"
 github ="posit-dev/automerge-r"
+cran = "automerge"
 
 [projects.great-docs]
 name = "great-docs"
 github ="posit-dev/great-docs"
+pypi = "great-docs"
+plausible = "posit-dev.github.io/great-docs"
 
 [projects.shiny-showcase-public-sector]
 name = "shiny-showcase-public-sector"
@@ -630,6 +603,7 @@ github ="posit-dev/skills"
 [projects.py-yaml12]
 name = "py-yaml12"
 github ="posit-dev/py-yaml12"
+pypi = "py-yaml12"
 
 [projects.connect-staging-extensions]
 name = "connect-staging-extensions"
@@ -638,14 +612,8 @@ github ="posit-dev/connect-staging-extensions"
 [projects.ggsql]
 name = "ggsql"
 github ="posit-dev/ggsql"
-
-[projects.posit-gh-actions]
-name = "posit-gh-actions"
-github ="posit-dev/posit-gh-actions"
-
-[projects.ansible-collection-support]
-name = "ansible-collection-support"
-github ="posit-dev/ansible-collection-support"
+pypi = "ggsql-jupyter"
+plausible = "ggsql.org"
 
 [projects.burst]
 name = "burst"
@@ -662,14 +630,17 @@ github ="posit-dev/team-operator"
 [projects.buoyant]
 name = "buoyant"
 github ="posit-dev/buoyant"
+cran = "buoyant"
 
 [projects.frontmatter]
 name = "frontmatter"
 github ="posit-dev/frontmatter"
+cran = "frontmatter"
 
 [projects.jupyter-positron-server]
 name = "jupyter-positron-server"
 github ="posit-dev/jupyter-positron-server"
+pypi = "jupyter-positron-server"
 
 [projects.content-switcher]
 name = "content-switcher"
@@ -682,6 +653,7 @@ github ="posit-dev/picotel"
 [projects.vip]
 name = "vip"
 github ="posit-dev/vip"
+pypi = "posit-vip"
 
 [projects.launcher-go-sdk]
 name = "launcher-go-sdk"
@@ -689,15 +661,11 @@ github ="posit-dev/launcher-go-sdk"
 
 [projects.mcp-repl]
 name = "mcp-repl"
-github ="posit-dev/mcp-repl"
+github ="posit-dev/mcp-console"
 
 [projects.quarjar]
 name = "quarjar"
 github ="posit-dev/quarjar"
-
-[projects.connect-gallery-action]
-name = "connect-gallery-action"
-github ="posit-dev/connect-gallery-action"
 
 [projects.nesevals]
 name = "nesevals"
@@ -714,14 +682,7 @@ github ="posit-dev/air-pre-commit"
 [projects.chaosfs]
 name = "chaosfs"
 github ="posit-dev/chaosfs"
-
-[projects.with-workbench]
-name = "with-workbench"
-github ="posit-dev/with-workbench"
-
-[projects.devcontainer-features]
-name = "devcontainer-features"
-github ="posit-dev/devcontainer-features"
+pypi = "chaosfs"
 
 [projects.incident-pattern-matcher]
 name = "incident-pattern-matcher"
@@ -730,10 +691,6 @@ github ="posit-dev/incident-pattern-matcher"
 [projects.gdg]
 name = "gdg"
 github ="posit-dev/gdg"
-
-[projects.snowflake-posit-build-deploy-interactive-dashboard]
-name = "snowflake-posit-build-deploy-interactive-dashboard"
-github ="posit-dev/snowflake-posit-build-deploy-interactive-dashboard"
 
 [projects.twenty]
 name = "twenty"
@@ -751,45 +708,19 @@ github ="posit-dev/code-index"
 name = "quarto-openapi"
 github ="posit-dev/quarto-openapi"
 
-[projects.traveling-salesperson-app]
-name = "traveling-salesperson-app"
-github ="posit-dev/traveling-salesperson-app"
-
-[projects.peachtree-lottery-demo]
-name = "peachtree-lottery-demo"
-github ="posit-dev/peachtree-lottery-demo"
-
 [projects.ggsql-r]
 name = "ggsql-r"
 github ="posit-dev/ggsql-r"
+cran = "ggsql"
 
 [projects.ggsql-python]
 name = "ggsql-python"
 github ="posit-dev/ggsql-python"
+pypi = "ggsql"
 
 [projects.ggsql-duckdb]
 name = "ggsql-duckdb"
 github ="posit-dev/ggsql-duckdb"
-
-[projects.positron-demo]
-name = "positron-demo"
-github ="posit-dev/positron-demo"
-
-[projects.positron-ark]
-name = "positron-ark"
-github ="posit-dev/positron-ark"
-
-[projects.positron-pharma-quickstart]
-name = "positron-pharma-quickstart"
-github ="posit-dev/positron-pharma-quickstart"
-
-[projects.ggsql-dist]
-name = "ggsql-dist"
-github ="posit-dev/ggsql-dist"
-
-[projects.pycon2026]
-name = "pycon2026"
-github ="posit-dev/pycon2026"
 
 [projects.shiny-issue-triage]
 name = "shiny-issue-triage"
@@ -810,10 +741,7 @@ github ="posit-dev/hephaestus"
 [projects.multimark]
 name = "multimark"
 github ="posit-dev/multimark"
-
-[projects.ai-provider-bridge]
-name = "ai-provider-bridge"
-github ="posit-dev/ai-provider-bridge"
+pypi = "multimark"
 
 [projects.assistant-feedback]
 name = "assistant-feedback"
@@ -822,26 +750,7 @@ github ="posit-dev/assistant-feedback"
 [projects.nokap]
 name = "nokap"
 github ="posit-dev/nokap"
-
-[projects.pfizer-summit-2026]
-name = "pfizer-summit-2026"
-github ="posit-dev/pfizer-summit-2026"
-
-[projects.snowflake_native_demos]
-name = "snowflake_native_demos"
-github ="posit-dev/snowflake_native_demos"
-
-[projects.jupyter-positron-verifier]
-name = "jupyter-positron-verifier"
-github ="posit-dev/jupyter-positron-verifier"
-
-[projects.blog-scipy-slides-with-quarto]
-name = "blog-scipy-slides-with-quarto"
-github ="posit-dev/blog-scipy-slides-with-quarto"
-
-[projects.positron-notebook-workshop]
-name = "positron-notebook-workshop"
-github ="posit-dev/positron-notebook-workshop"
+pypi = "nokap"
 
 [projects.rstudio]
 name = "rstudio"
@@ -854,6 +763,7 @@ github ="rstudio/R-Websockets"
 [projects.markdown]
 name = "markdown"
 github ="rstudio/markdown"
+cran = "markdown"
 
 [projects.shiny]
 name = "shiny"
@@ -875,6 +785,7 @@ github ="rstudio/shiny_example"
 [projects.httpuv]
 name = "httpuv"
 github ="rstudio/httpuv"
+cran = "httpuv"
 
 [projects.reactnb]
 name = "reactnb"
@@ -891,6 +802,7 @@ github ="rstudio/shinyapps"
 [projects.packrat]
 name = "packrat"
 github ="rstudio/packrat"
+cran = "packrat"
 
 [projects.shiny-examples]
 name = "shiny-examples"
@@ -907,10 +819,12 @@ github ="rstudio/rscrypt"
 [projects.rstudioapi]
 name = "rstudioapi"
 github ="rstudio/rstudioapi"
+cran = "rstudioapi"
 
 [projects.rmarkdown]
 name = "rmarkdown"
 github ="rstudio/rmarkdown"
+cran = "rmarkdown"
 
 [projects.ace-cpp-autoindent]
 name = "ace-cpp-autoindent"
@@ -919,6 +833,7 @@ github ="rstudio/ace-cpp-autoindent"
 [projects.rticles]
 name = "rticles"
 github ="rstudio/rticles"
+cran = "rticles"
 
 [projects.rmdexamples]
 name = "rmdexamples"
@@ -927,14 +842,12 @@ github ="rstudio/rmdexamples"
 [projects.htmltools]
 name = "htmltools"
 github ="rstudio/htmltools"
-
-[projects.vagrant-logplex]
-name = "vagrant-logplex"
-github ="rstudio/vagrant-logplex"
+cran = "htmltools"
 
 [projects.rsconnect]
 name = "rsconnect"
 github ="rstudio/rsconnect"
+cran = "rsconnect"
 
 [projects.webinars]
 name = "webinars"
@@ -947,14 +860,12 @@ github ="rstudio/shinyapps-package-dependencies"
 [projects.dygraphs]
 name = "dygraphs"
 github ="rstudio/dygraphs"
+cran = "dygraphs"
 
 [projects.revealjs]
 name = "revealjs"
 github ="rstudio/revealjs"
-
-[projects.libclang-binaries]
-name = "libclang-binaries"
-github ="rstudio/libclang-binaries"
+cran = "revealjs"
 
 [projects.libclang-builtin-headers]
 name = "libclang-builtin-headers"
@@ -979,6 +890,7 @@ github ="rstudio/EDAWR"
 [projects.shinydashboard]
 name = "shinydashboard"
 github ="rstudio/shinydashboard"
+cran = "shinydashboard"
 
 [projects.intro]
 name = "Intro"
@@ -987,14 +899,17 @@ github ="rstudio/Intro"
 [projects.leaflet]
 name = "leaflet"
 github ="rstudio/leaflet"
+cran = "leaflet"
 
 [projects.dt]
 name = "DT"
 github ="rstudio/DT"
+cran = "DT"
 
 [projects.shinythemes]
 name = "shinythemes"
 github ="rstudio/shinythemes"
+cran = "shinythemes"
 
 [projects.influxdb_backup]
 name = "influxdb_backup"
@@ -1003,6 +918,7 @@ github ="rstudio/influxdb_backup"
 [projects.manipulate]
 name = "manipulate"
 github ="rstudio/manipulate"
+cran = "manipulate"
 
 [projects.reportsws]
 name = "reportsWS"
@@ -1011,6 +927,7 @@ github ="rstudio/reportsWS"
 [projects.sortable]
 name = "sortable"
 github ="rstudio/sortable"
+cran = "sortable"
 
 [projects.docker-registry-sweeper]
 name = "docker-registry-sweeper"
@@ -1019,6 +936,7 @@ github ="rstudio/docker-registry-sweeper"
 [projects.plumber]
 name = "plumber"
 github ="rstudio/plumber"
+cran = "plumber"
 
 [projects.shiny-tutorial-videos]
 name = "shiny-tutorial-videos"
@@ -1039,6 +957,7 @@ github ="rstudio/htmllayout"
 [projects.crosstalk]
 name = "crosstalk"
 github ="rstudio/crosstalk"
+cran = "crosstalk"
 
 [projects.flights2]
 name = "flights2"
@@ -1047,6 +966,7 @@ github ="rstudio/flights2"
 [projects.bookdown]
 name = "bookdown"
 github ="rstudio/bookdown"
+cran = "bookdown"
 
 [projects.shinygadgets]
 name = "shinygadgets"
@@ -1067,10 +987,12 @@ github ="rstudio/rstudioaddins"
 [projects.miniui]
 name = "miniUI"
 github ="rstudio/miniUI"
+cran = "miniUI"
 
 [projects.tufte]
 name = "tufte"
 github ="rstudio/tufte"
+cran = "tufte"
 
 [projects.sol-eng-public]
 name = "sol-eng-public"
@@ -1087,6 +1009,7 @@ github ="rstudio/rmarkdown-website"
 [projects.flexdashboard]
 name = "flexdashboard"
 github ="rstudio/flexdashboard"
+cran = "flexdashboard"
 
 [projects.shiny-server-client]
 name = "shiny-server-client"
@@ -1127,10 +1050,12 @@ github ="rstudio/RStartHere"
 [projects.pool]
 name = "pool"
 github ="rstudio/pool"
+cran = "pool"
 
 [projects.config]
 name = "config"
 github ="rstudio/config"
+cran = "config"
 
 [projects.spark-rstudio-com]
 name = "spark.rstudio.com"
@@ -1151,14 +1076,17 @@ github ="rstudio/sparkDemos"
 [projects.webdriver]
 name = "webdriver"
 github ="rstudio/webdriver"
+cran = "webdriver"
 
 [projects.tensorflow]
 name = "tensorflow"
 github ="rstudio/tensorflow"
+cran = "tensorflow"
 
 [projects.shinytest]
 name = "shinytest"
 github ="rstudio/shinytest"
+cran = "shinytest"
 
 [projects.chef-spark]
 name = "chef-spark"
@@ -1167,14 +1095,12 @@ github ="rstudio/chef-spark"
 [projects.learnr]
 name = "learnr"
 github ="rstudio/learnr"
+cran = "learnr"
 
 [projects.blogdown]
 name = "blogdown"
 github ="rstudio/blogdown"
-
-[projects.customersuccesswebinars]
-name = "CustomerSuccessWebinars"
-github ="rstudio/CustomerSuccessWebinars"
+cran = "blogdown"
 
 [projects.ptexamples]
 name = "ptexamples"
@@ -1186,27 +1112,32 @@ github ="rstudio/cheatsheets"
 
 [projects.rstudio-conf]
 name = "rstudio-conf"
-github ="rstudio/rstudio-conf"
+github ="posit-dev/posit-conf"
 
 [projects.tfestimators]
 name = "tfestimators"
 github ="rstudio/tfestimators"
+cran = "tfestimators"
 
 [projects.keras3]
 name = "keras3"
 github ="rstudio/keras3"
+cran = ["keras", "keras3"]
 
 [projects.reticulate]
 name = "reticulate"
 github ="rstudio/reticulate"
+cran = "reticulate"
 
 [projects.shinyloadtest]
 name = "shinyloadtest"
 github ="rstudio/shinyloadtest"
+cran = "shinyloadtest"
 
 [projects.cloudml]
 name = "cloudml"
 github ="rstudio/cloudml"
+cran = "cloudml"
 
 [projects.db-rstudio-com]
 name = "db.rstudio.com"
@@ -1215,14 +1146,12 @@ github ="rstudio/db.rstudio.com"
 [projects.promises]
 name = "promises"
 github ="rstudio/promises"
+cran = "promises"
 
 [projects.spark-install]
 name = "spark-install"
 github ="rstudio/spark-install"
-
-[projects.sol-eng-landscape]
-name = "sol-eng-landscape"
-github ="rstudio/sol-eng-landscape"
+pypi = "rstudio-spark-install"
 
 [projects.dbtest]
 name = "dbtest"
@@ -1243,6 +1172,7 @@ github ="rstudio/master-the-tidyverse"
 [projects.tfruns]
 name = "tfruns"
 github ="rstudio/tfruns"
+cran = "tfruns"
 
 [projects.rstudio-connections-example]
 name = "rstudio-connections-example"
@@ -1259,6 +1189,7 @@ github ="rstudio/shinytest-ci-example-multi"
 [projects.blastula]
 name = "blastula"
 github ="rstudio/blastula"
+cran = "blastula"
 
 [projects.proxyrec]
 name = "proxyrec"
@@ -1271,22 +1202,22 @@ github ="rstudio/master-the-tidyverse-solutions"
 [projects.tfdeploy]
 name = "tfdeploy"
 github ="rstudio/tfdeploy"
+cran = "tfdeploy"
 
 [projects.tfdatasets]
 name = "tfdatasets"
 github ="rstudio/tfdatasets"
-
-[projects.redux-mock-store-middleware]
-name = "redux-mock-store-middleware"
-github ="rstudio/redux-mock-store-middleware"
+cran = "tfdatasets"
 
 [projects.swagger]
 name = "swagger"
 github ="rstudio/swagger"
+cran = "swagger"
 
 [projects.tinytex]
 name = "tinytex"
 github ="rstudio/tinytex"
+cran = "tinytex"
 
 [projects.keras-customer-churn]
 name = "keras-customer-churn"
@@ -1307,6 +1238,7 @@ github ="rstudio/rmarkdown-book"
 [projects.websocket]
 name = "websocket"
 github ="rstudio/websocket"
+cran = "websocket"
 
 [projects.mleap]
 name = "mleap"
@@ -1315,6 +1247,7 @@ github ="rstudio/mleap"
 [projects.r2d3]
 name = "r2d3"
 github ="rstudio/r2d3"
+cran = "r2d3"
 
 [projects.graphframes]
 name = "graphframes"
@@ -1335,6 +1268,7 @@ github ="rstudio/shinytestPackageExample"
 [projects.distill]
 name = "distill"
 github ="rstudio/distill"
+cran = "distill"
 
 [projects.rmarkdown-cookbook]
 name = "rmarkdown-cookbook"
@@ -1351,6 +1285,7 @@ github ="rstudio/cranwhales"
 [projects.fontawesome]
 name = "fontawesome"
 github ="rstudio/fontawesome"
+cran = "fontawesome"
 
 [projects.htmldeps]
 name = "htmldeps"
@@ -1359,14 +1294,12 @@ github ="rstudio/htmldeps"
 [projects.reactlog]
 name = "reactlog"
 github ="rstudio/reactlog"
+cran = "reactlog"
 
 [projects.ai-blog]
 name = "ai-blog"
 github ="rstudio/ai-blog"
-
-[projects.blogs-rstudio-com]
-name = "blogs.rstudio.com"
-github ="rstudio/blogs.rstudio.com"
+plausible = "blogs.rstudio.com"
 
 [projects.bookdown-org]
 name = "bookdown.org"
@@ -1375,22 +1308,22 @@ github ="rstudio/bookdown.org"
 [projects.forge]
 name = "forge"
 github ="rstudio/forge"
+cran = "forge"
 
 [projects.tfhub]
 name = "tfhub"
 github ="rstudio/tfhub"
+cran = "tfhub"
 
 [projects.bigd]
 name = "bigD"
 github ="rstudio/bigD"
+cran = "bigD"
 
 [projects.sass]
 name = "sass"
 github ="rstudio/sass"
-
-[projects.cran-security-blog]
-name = "cran-security-blog"
-github ="rstudio/cran-security-blog"
+cran = "sass"
 
 [projects.mlflow-example]
 name = "mlflow-example"
@@ -1403,6 +1336,7 @@ github ="rstudio/conf_tensorflow_training_day2"
 [projects.pagedown]
 name = "pagedown"
 github ="rstudio/pagedown"
+cran = "pagedown"
 
 [projects.terminaltools]
 name = "terminaltools"
@@ -1415,14 +1349,17 @@ github ="rstudio/checkRS-containers"
 [projects.nomnoml]
 name = "nomnoml"
 github ="rstudio/nomnoml"
+cran = "nomnoml"
 
 [projects.sparkxgb]
 name = "sparkxgb"
 github ="rstudio/sparkxgb"
+cran = "sparkxgb"
 
 [projects.renv]
 name = "renv"
 github ="rstudio/renv"
+cran = "renv"
 
 [projects.education-rstudio-com]
 name = "education.rstudio.com"
@@ -1436,14 +1373,6 @@ github ="rstudio/connect-api-deploy-shiny"
 name = "r-community-survey"
 github ="rstudio/r-community-survey"
 
-[projects.webio_tut]
-name = "webio_tut"
-github ="rstudio/webio_tut"
-
-[projects.gary-uml]
-name = "gary-uml"
-github ="rstudio/gary-uml"
-
 [projects.pro_admin_training_assets]
 name = "pro_admin_training_assets"
 github ="rstudio/pro_admin_training_assets"
@@ -1455,6 +1384,7 @@ github ="rstudio/sparktf"
 [projects.chromote]
 name = "chromote"
 github ="rstudio/chromote"
+cran = "chromote"
 
 [projects.r-system-requirements]
 name = "r-system-requirements"
@@ -1463,14 +1393,11 @@ github ="rstudio/r-system-requirements"
 [projects.tfprobability]
 name = "tfprobability"
 github ="rstudio/tfprobability"
+cran = "tfprobability"
 
 [projects.hugo-graphite]
 name = "hugo-graphite"
 github ="rstudio/hugo-graphite"
-
-[projects.radix]
-name = "radix"
-github ="rstudio/radix"
 
 [projects.r-docker]
 name = "r-docker"
@@ -1483,6 +1410,7 @@ github ="rstudio/leaflet.mapboxgl"
 [projects.webshot2]
 name = "webshot2"
 github ="rstudio/webshot2"
+cran = "webshot2"
 
 [projects.rsc-hello-world-content]
 name = "rsc-hello-world-content"
@@ -1491,6 +1419,7 @@ github ="rstudio/rsc-hello-world-content"
 [projects.pins-r]
 name = "pins-r"
 github ="rstudio/pins-r"
+cran = "pins"
 
 [projects.r-builds]
 name = "r-builds"
@@ -1503,6 +1432,7 @@ github ="rstudio/rstudio-launcher-plugin-sdk"
 [projects.shinymeta]
 name = "shinymeta"
 github ="rstudio/shinymeta"
+cran = "shinymeta"
 
 [projects.rscloud]
 name = "rscloud"
@@ -1519,6 +1449,7 @@ github ="rstudio/rstudio-docker-products"
 [projects.leaflet-providers]
 name = "leaflet.providers"
 github ="rstudio/leaflet.providers"
+cran = "leaflet.providers"
 
 [projects.parsons]
 name = "parsons"
@@ -1539,6 +1470,7 @@ github ="rstudio/tfds"
 [projects.connections]
 name = "connections"
 github ="rstudio/connections"
+cran = "connections"
 
 [projects.ucl-rmarkdown-talk]
 name = "UCL-RMarkdown-Talk"
@@ -1551,18 +1483,17 @@ github ="rstudio/sol-eng-demo-server"
 [projects.rscontract]
 name = "rscontract"
 github ="rstudio/rscontract"
+cran = "rscontract"
 
 [projects.bslib]
 name = "bslib"
 github ="rstudio/bslib"
-
-[projects.katacoda-scenarios]
-name = "katacoda-scenarios"
-github ="rstudio/katacoda-scenarios"
+cran = "bslib"
 
 [projects.jquerylib]
 name = "jquerylib"
 github ="rstudio/jquerylib"
+cran = "jquerylib"
 
 [projects.shinycoreci]
 name = "shinycoreci"
@@ -1576,10 +1507,6 @@ github ="rstudio/shinycoreci-apps"
 name = "shiny-gallery"
 github ="rstudio/shiny-gallery"
 
-[projects.conf20-future-dse]
-name = "conf20-future-dse"
-github ="rstudio/conf20-future-dse"
-
 [projects.rsformat]
 name = "rsformat"
 github ="rstudio/rsformat"
@@ -1587,18 +1514,12 @@ github ="rstudio/rsformat"
 [projects.fuzzbucket]
 name = "fuzzbucket"
 github ="rstudio/fuzzbucket"
+pypi = "fuzzbucket-client"
 
 [projects.thematic]
 name = "thematic"
 github ="rstudio/thematic"
-
-[projects.rstudio-community-discourse]
-name = "rstudio-community-discourse"
-github ="rstudio/rstudio-community-discourse"
-
-[projects.checkrs-deploy]
-name = "checkRS-deploy"
-github ="rstudio/checkRS-deploy"
+cran = "thematic"
 
 [projects.cs_protips]
 name = "cs_protips"
@@ -1607,14 +1528,6 @@ github ="rstudio/cs_protips"
 [projects.visual-markdown-editing]
 name = "visual-markdown-editing"
 github ="rstudio/visual-markdown-editing"
-
-[projects.gary-support-article-source]
-name = "gary-support-article-source"
-github ="rstudio/gary-support-article-source"
-
-[projects.ca-predict-covid]
-name = "ca-predict-covid"
-github ="rstudio/ca-predict-covid"
 
 [projects.team-admin-rstudio-com]
 name = "team-admin.rstudio.com"
@@ -1639,6 +1552,7 @@ github ="rstudio/enabling-remote-data-science-teams"
 [projects.shinyvalidate]
 name = "shinyvalidate"
 github ="rstudio/shinyvalidate"
+cran = "shinyvalidate"
 
 [projects.pygradethis]
 name = "pygradethis"
@@ -1655,10 +1569,6 @@ github ="rstudio/concept-maps"
 [projects.quillt]
 name = "quillt"
 github ="rstudio/quillt"
-
-[projects.cs_protipstemplate]
-name = "cs_protipstemplate"
-github ="rstudio/cs_protipstemplate"
 
 [projects.tinytex-releases]
 name = "tinytex-releases"
@@ -1680,10 +1590,6 @@ github ="rstudio/rstudio-global-2021-program"
 name = "actions"
 github ="rstudio/actions"
 
-[projects.rsconnect-ts]
-name = "rsconnect-ts"
-github ="rstudio/rsconnect-ts"
-
 [projects.shiny_app_stories]
 name = "shiny_app_stories"
 github ="rstudio/shiny_app_stories"
@@ -1695,18 +1601,16 @@ github ="rstudio/a-flexdashboard-for-google-analytics"
 [projects.connectwidgets]
 name = "connectwidgets"
 github ="rstudio/connectwidgets"
+cran = "connectwidgets"
 
 [projects.plumbertableau]
 name = "plumbertableau"
 github ="rstudio/plumbertableau"
+cran = "plumbertableau"
 
 [projects.fsbench]
 name = "fsbench"
 github ="rstudio/fsbench"
-
-[projects.checkrs-linkto]
-name = "checkRS-linkto"
-github ="rstudio/checkRS-linkto"
 
 [projects.gridlayout]
 name = "gridlayout"
@@ -1716,10 +1620,6 @@ github ="rstudio/gridlayout"
 name = "remarker"
 github ="rstudio/remarker"
 
-[projects.k8s-http-auth]
-name = "k8s-http-auth"
-github ="rstudio/k8s-http-auth"
-
 [projects.tblcheck]
 name = "tblcheck"
 github ="rstudio/tblcheck"
@@ -1728,17 +1628,15 @@ github ="rstudio/tblcheck"
 name = "academyDatasets"
 github ="rstudio/academyDatasets"
 
-[projects.hello]
-name = "hello"
-github ="rstudio/hello"
-
 [projects.shinytest2]
 name = "shinytest2"
 github ="rstudio/shinytest2"
+cran = "shinytest2"
 
 [projects.vetiver-r]
 name = "vetiver-r"
 github ="rstudio/vetiver-r"
+cran = "vetiver"
 
 [projects.helm]
 name = "helm"
@@ -1747,18 +1645,11 @@ github ="rstudio/helm"
 [projects.fastapitableau]
 name = "fastapitableau"
 github ="rstudio/fastapitableau"
-
-[projects.customer-success]
-name = "customer-success"
-github ="rstudio/customer-success"
+pypi = "fastapitableau"
 
 [projects.platform-lib]
 name = "platform-lib"
 github ="rstudio/platform-lib"
-
-[projects.docs-how-tos]
-name = "docs-how-tos"
-github ="rstudio/docs-how-tos"
 
 [projects.shiny-workflows]
 name = "shiny-workflows"
@@ -1767,10 +1658,7 @@ github ="rstudio/shiny-workflows"
 [projects.vetiver-python]
 name = "vetiver-python"
 github ="rstudio/vetiver-python"
-
-[projects.filequeue]
-name = "filequeue"
-github ="rstudio/filequeue"
+pypi = "vetiver"
 
 [projects.r-manuals]
 name = "r-manuals"
@@ -1784,14 +1672,6 @@ github ="rstudio/education-workflows"
 name = "rskey"
 github ="rstudio/rskey"
 
-[projects.edge-auth]
-name = "edge-auth"
-github ="rstudio/edge-auth"
-
-[projects.rsc-sample-content]
-name = "rsc-sample-content"
-github ="rstudio/rsc-sample-content"
-
 [projects.gcfgenv]
 name = "gcfgenv"
 github ="rstudio/gcfgenv"
@@ -1799,6 +1679,7 @@ github ="rstudio/gcfgenv"
 [projects.pins-python]
 name = "pins-python"
 github ="rstudio/pins-python"
+pypi = "pins"
 
 [projects.vetiver-posit-co]
 name = "vetiver.posit.co"
@@ -1812,25 +1693,14 @@ github ="rstudio/checkrs-tew"
 name = "tensorflow.rstudio.com"
 github ="rstudio/tensorflow.rstudio.com"
 
-[projects.postgresql-reserved-words]
-name = "postgresql-reserved-words"
-github ="rstudio/postgresql-reserved-words"
-
 [projects.rstudio-conf-2022-program]
 name = "rstudio-conf-2022-program"
 github ="rstudio/rstudio-conf-2022-program"
 
-[projects.golang-migrate-source-aws-s3-v2]
-name = "golang-migrate-source-aws-s3-v2"
-github ="rstudio/golang-migrate-source-aws-s3-v2"
-
-[projects.gradecode]
-name = "gradecode"
-github ="rstudio/gradecode"
-
 [projects.bundle]
 name = "bundle"
 github ="rstudio/bundle"
+cran = "bundle"
 
 [projects.package-manager-demo]
 name = "package-manager-demo"
@@ -1839,50 +1709,24 @@ github ="rstudio/package-manager-demo"
 [projects.bsicons]
 name = "bsicons"
 github ="rstudio/bsicons"
+cran = "bsicons"
 
 [projects.juicyjuice]
 name = "juicyjuice"
 github ="rstudio/juicyjuice"
-
-[projects.ghoststring]
-name = "ghoststring"
-github ="rstudio/ghoststring"
+cran = "juicyjuice"
 
 [projects.goex]
 name = "goex"
 github ="rstudio/goex"
 
-[projects.issuetriager]
-name = "issuetriager"
-github ="rstudio/issuetriager"
-
-[projects.ps-cheatsheet-metrics]
-name = "ps-cheatsheet-metrics"
-github ="rstudio/ps-cheatsheet-metrics"
-
 [projects.repository-snapshot-format]
 name = "repository-snapshot-format"
 github ="rstudio/repository-snapshot-format"
 
-[projects.go-snyk-dependency-recursion-issue]
-name = "go-snyk-dependency-recursion-issue"
-github ="rstudio/go-snyk-dependency-recursion-issue"
-
-[projects.shiny-data]
-name = "shiny-data"
-github ="rstudio/shiny-data"
-
-[projects.pyshiny-multi-query-sentiment]
-name = "pyshiny-multi-query-sentiment"
-github ="rstudio/pyshiny-multi-query-sentiment"
-
 [projects.package-manager-rpackagerewriter]
 name = "package-manager-rpackagerewriter"
 github ="rstudio/package-manager-rpackagerewriter"
-
-[projects.shiny-streamlit-api]
-name = "shiny-streamlit-api"
-github ="rstudio/shiny-streamlit-api"
 
 [projects.ppmtools]
 name = "ppmtools"
@@ -1891,10 +1735,6 @@ github ="rstudio/ppmtools"
 [projects.posit_theme]
 name = "posit_theme"
 github ="rstudio/posit_theme"
-
-[projects.academyminimalpackage]
-name = "academyMinimalPackage"
-github ="rstudio/academyMinimalPackage"
 
 [projects.py-shiny-docs]
 name = "py-shiny-docs"
@@ -1920,98 +1760,2881 @@ github ="rstudio/demo-co"
 name = "python-distribution-parser"
 github ="rstudio/python-distribution-parser"
 
-[projects.shinytest2-gha-multiple-apps]
-name = "shinytest2-gha-multiple-apps"
-github ="rstudio/shinytest2-gha-multiple-apps"
-
 [projects.databricks-ufo]
 name = "databricks-ufo"
 github ="rstudio/databricks-ufo"
-
-[projects.databricks-examples]
-name = "databricks-examples"
-github ="rstudio/databricks-examples"
 
 [projects.jumpstart_examples]
 name = "jumpstart_examples"
 github ="rstudio/jumpstart_examples"
 
-[projects.snyk-container]
-name = "snyk-container"
-github ="rstudio/snyk-container"
-
 [projects.academymentorresources]
 name = "academyMentorResources"
 github ="rstudio/academyMentorResources"
-
-[projects.posit-installation-r]
-name = "posit.installation.r"
-github ="rstudio/posit.installation.r"
-
-[projects.rstudio-internals]
-name = "rstudio-internals"
-github ="rstudio/rstudio-internals"
-
-[projects.academy-tidyverse-covid]
-name = "academy-tidyverse-covid"
-github ="rstudio/academy-tidyverse-covid"
-
-[projects.academy-python-covid]
-name = "academy-python-covid"
-github ="rstudio/academy-python-covid"
-
-[projects.academy-pinr-census]
-name = "academy-pinr-census"
-github ="rstudio/academy-pinr-census"
-
-[projects.academy-tidyverse-renal-treatment]
-name = "academy-tidyverse-renal-treatment"
-github ="rstudio/academy-tidyverse-renal-treatment"
-
-[projects.academy-python-stock-portfolios]
-name = "academy-python-stock-portfolios"
-github ="rstudio/academy-python-stock-portfolios"
-
-[projects.academy-tidyverse-renal-treatment-10wk]
-name = "academy-tidyverse-renal-treatment-10wk"
-github ="rstudio/academy-tidyverse-renal-treatment-10wk"
-
-[projects.academy-pinr-heart-catheterization]
-name = "academy-pinr-heart-catheterization"
-github ="rstudio/academy-pinr-heart-catheterization"
-
-[projects.rstudio-r-universe-dev]
-name = "rstudio.r-universe.dev"
-github ="rstudio/rstudio.r-universe.dev"
-
-[projects.academy-tidyverse-solar-power]
-name = "academy-tidyverse-solar-power"
-github ="rstudio/academy-tidyverse-solar-power"
-
-[projects.shinydashboarda11y]
-name = "shinydashboarda11y"
-github ="rstudio/shinydashboarda11y"
-
-[projects.academy-tidyverse-credit-risk]
-name = "academy-tidyverse-credit-risk"
-github ="rstudio/academy-tidyverse-credit-risk"
-
-[projects.academy-tidyverse-ide-tutorials]
-name = "academy-tidyverse-ide-tutorials"
-github ="rstudio/academy-tidyverse-ide-tutorials"
-
-[projects.academy-pinr-ide-tutorials]
-name = "academy-pinr-ide-tutorials"
-github ="rstudio/academy-pinr-ide-tutorials"
-
-[projects.academy-apprenticeship-diagnostic-page]
-name = "academy-apprenticeship-diagnostic-page"
-github ="rstudio/academy-apprenticeship-diagnostic-page"
 
 [projects.vitals]
 name = "vitals"
 github = "tidyverse/vitals"
 cran = "vitals"
+
+[projects.adbi]
+name = "adbi"
+github = "r-dbi/adbi"
+cran = "adbi"
+
+[projects.adv-r]
+name = "adv-r"
+github = "hadley/adv-r"
+
+[projects.agua]
+name = "agua"
+github = "tidymodels/agua"
+cran = "agua"
+
+[projects.ai-intro]
+name = "ai-intro"
+github = "posit-dev/ai-intro"
+
+[projects.ai-lib]
+name = "ai-lib"
+github = "posit-dev/ai-lib"
+
+[projects.almanac]
+name = "almanac"
+github = "DavisVaughan/almanac"
+cran = "almanac"
+
+[projects.ambient]
+name = "ambient"
+github = "thomasp85/ambient"
+cran = "ambient"
+
+[projects.ameshousing]
+name = "AmesHousing"
+github = "topepo/AmesHousing"
+cran = "AmesHousing"
+
+[projects.aml-training]
+name = "aml-training"
+github = "tidymodels/aml-training"
+
+[projects.anyflights]
+name = "anyflights"
+github = "simonpcouch/anyflights"
+cran = "anyflights"
+
+[projects.applicable]
+name = "applicable"
+github = "tidymodels/applicable"
+cran = "applicable"
+
+[projects.archive]
+name = "archive"
+github = "r-lib/archive"
+cran = "archive"
+
+[projects.asciicast]
+name = "asciicast"
+github = "r-lib/asciicast"
+cran = "asciicast"
+
+[projects.askpass]
+name = "askpass"
+github = "r-lib/askpass"
+cran = "askpass"
+
+[projects.assertthat]
+name = "assertthat"
+github = "hadley/assertthat"
+cran = "assertthat"
+
+[projects.autocogs]
+name = "autocogs"
+github = "schloerke/autocogs"
+cran = "autocogs"
+
+[projects.autosync]
+name = "autosync"
+github = "posit-dev/autosync"
+cran = "autosync"
+
+[projects.available]
+name = "available"
+github = "r-lib/available"
+cran = "available"
+
+[projects.azuremlsdk]
+name = "azuremlsdk"
+cran = "azuremlsdk"
+
+[projects.babynames]
+name = "babynames"
+github = "hadley/babynames"
+cran = "babynames"
+
+[projects.backports]
+name = "backports"
+github = "r-lib/backports"
+cran = "backports"
+
+[projects.baguette]
+name = "baguette"
+github = "tidymodels/baguette"
+cran = "baguette"
+plausible = "baguette.tidymodels.org"
+
+[projects.bench]
+name = "bench"
+github = "r-lib/bench"
+cran = "bench"
+
+[projects.benchmark-sparsity-threshold]
+name = "benchmark-sparsity-threshold"
+github = "tidymodels/benchmark-sparsity-threshold"
+
+[projects.bigrquery]
+name = "bigrquery"
+github = "r-dbi/bigrquery"
+cran = "bigrquery"
+plausible = "bigrquery.r-dbi.org"
+
+[projects.bindr]
+name = "bindr"
+github = "krlmlr/bindr"
+cran = "bindr"
+
+[projects.bindrcpp]
+name = "bindrcpp"
+github = "krlmlr/bindrcpp"
+cran = "bindrcpp"
+
+[projects.biobouncer]
+name = "biobouncer"
+github = "samuelbharti/biobouncer"
+cran = "biobouncer"
+pypi = "biobouncer"
+
+[projects.bioclients]
+name = "bioclients"
+github = "samuelbharti/bioclients"
+cran = "bioclients"
+
+[projects.biocohort]
+name = "biocohort"
+github = "samuelbharti/biocohort"
+cran = "biocohort"
+
+[projects.biohttp]
+name = "biohttp"
+github = "samuelbharti/biohttp"
+cran = "biohttp"
+
+[projects.bit]
+name = "bit"
+github = "r-lib/bit"
+cran = "bit"
+
+[projects.bit64]
+name = "bit64"
+github = "r-lib/bit64"
+cran = "bit64"
+plausible = "bit64.r-lib.org"
+
+[projects.blob]
+name = "blob"
+github = "tidyverse/blob"
+cran = "blob"
+plausible = "blob.tidyverse.org"
+
+[projects.bluffbench2]
+name = "bluffbench2"
+github = "posit-dev/bluffbench2"
+
+[projects.bonsai]
+name = "bonsai"
+github = "tidymodels/bonsai"
+cran = "bonsai"
+plausible = "bonsai.tidymodels.org"
+
+[projects.brio]
+name = "brio"
+github = "r-lib/brio"
+cran = "brio"
+
+[projects.broom]
+name = "broom"
+github = "tidymodels/broom"
+cran = "broom"
+plausible = "broom.tidymodels.org"
+
+[projects.brulee]
+name = "brulee"
+github = "tidymodels/brulee"
+cran = "brulee"
+
+[projects.butcher]
+name = "butcher"
+github = "tidymodels/butcher"
+cran = "butcher"
+
+[projects.c50]
+name = "C5.0"
+github = "topepo/C5.0"
+cran = "C50"
+
+[projects.cachem]
+name = "cachem"
+github = "r-lib/cachem"
+cran = "cachem"
+
+[projects.callq]
+name = "callq"
+github = "mlverse/callq"
+
+[projects.callr]
+name = "callr"
+github = "r-lib/callr"
+cran = "callr"
+
+[projects.caret]
+name = "caret"
+github = "topepo/caret"
+cran = "caret"
+
+[projects.carrier]
+name = "carrier"
+github = "r-lib/carrier"
+cran = "carrier"
+
+[projects.censored]
+name = "censored"
+github = "tidymodels/censored"
+cran = "censored"
+plausible = "censored.tidymodels.org"
+
+[projects.cereal]
+name = "cereal"
+github = "r-lib/cereal"
+cran = "cereal"
+
+[projects.chattr]
+name = "chattr"
+github = "mlverse/chattr"
+cran = "chattr"
+
+[projects.chores]
+name = "chores"
+github = "simonpcouch/chores"
+cran = "chores"
+
+[projects.circleci-to-sqlite]
+name = "circleci-to-sqlite"
+github = "seeM/circleci-to-sqlite"
+pypi = "circleci-to-sqlite"
+
+[projects.cleancall]
+name = "cleancall"
+github = "r-lib/cleancall"
+cran = "cleancall"
+
+[projects.cleanrmd]
+name = "cleanrmd"
+github = "gadenbuie/cleanrmd"
+cran = "cleanrmd"
+
+[projects.cli]
+name = "cli"
+github = "r-lib/cli"
+cran = "cli"
+
+[projects.cliapp]
+name = "cliapp"
+github = "r-lib/cliapp"
+cran = "cliapp"
+
+[projects.clinical-trials-agent]
+name = "clinical-trials-agent"
+github = "posit-dev/clinical-trials-agent"
+
+[projects.clisymbols]
+name = "clisymbols"
+github = "r-lib/clisymbols"
+cran = "clisymbols"
+
+[projects.clock]
+name = "clock"
+github = "r-lib/clock"
+cran = "clock"
+
+[projects.cloudstart]
+name = "cloudstart"
+github = "tidymodels/cloudstart"
+
+[projects.code-review]
+name = "code-review"
+github = "tidyverse/code-review"
+
+[projects.codestate]
+name = "codestate"
+github = "r-lib/codestate"
+
+[projects.commafree]
+name = "commafree"
+github = "t-kalinowski/commafree"
+cran = "commafree"
+
+[projects.commonmark]
+name = "commonmark"
+github = "r-lib/commonmark"
+cran = "commonmark"
+
+[projects.commons]
+name = "commons"
+github = "posit-dev/commons"
+cran = "commons"
+pypi = "commons"
+
+[projects.conflicted]
+name = "conflicted"
+github = "r-lib/conflicted"
+cran = "conflicted"
+plausible = "conflicted.r-lib.org"
+
+[projects.connect-actions]
+name = "connect-actions"
+github = "posit-dev/connect-actions"
+
+[projects.coro]
+name = "coro"
+github = "r-lib/coro"
+cran = "coro"
+plausible = "coro.r-lib.org"
+
+[projects.corrr]
+name = "corrr"
+github = "tidymodels/corrr"
+cran = "corrr"
+
+[projects.countdown]
+name = "countdown"
+github = "gadenbuie/countdown"
+cran = "countdown"
+
+[projects.covr]
+name = "covr"
+github = "r-lib/covr"
+cran = "covr"
+
+[projects.cpp11]
+name = "cpp11"
+github = "r-lib/cpp11"
+cran = "cpp11"
+
+[projects.crancache]
+name = "crancache"
+github = "r-lib/crancache"
+
+[projects.cranlike]
+name = "cranlike"
+github = "r-hub/cranlike"
+cran = "cranlike"
+
+[projects.cranlogs]
+name = "cranlogs"
+github = "r-hub/cranlogs"
+cran = "cranlogs"
+
+[projects.crayon]
+name = "crayon"
+github = "r-lib/crayon"
+cran = "crayon"
+
+[projects.credentials]
+name = "credentials"
+github = "r-lib/credentials"
+cran = "credentials"
+
+[projects.cubelyr]
+name = "cubelyr"
+github = "hadley/cubelyr"
+cran = "cubelyr"
+
+[projects.cubist]
+name = "Cubist"
+github = "topepo/Cubist"
+cran = "Cubist"
+
+[projects.cuda-ml]
+name = "cuda.ml"
+github = "mlverse/cuda.ml"
+cran = "cuda.ml"
+
+[projects.cudatoolkit]
+name = "cudatoolkit"
+github = "mlverse/cudatoolkit"
+
+[projects.curry]
+name = "curry"
+github = "thomasp85/curry"
+cran = "curry"
+
+[projects.cv]
+name = "cv"
+github = "nstrayer/cv"
+
+[projects.cyclocomp]
+name = "cyclocomp"
+github = "gaborcsardi/cyclocomp"
+cran = "cyclocomp"
+
+[projects.data-dict]
+name = "data-dict"
+github = "tidyverse/data-dict"
+cran = "datadict"
+plausible = "data-dict.tidyverse.org"
+
+[projects.data-science-at-the-command-line]
+name = "data-science-at-the-command-line"
+github = "jeroenjanssens/data-science-at-the-command-line"
+
+[projects.data-science-in-tidyverse]
+name = "data-science-in-tidyverse"
+github = "cwickham/data-science-in-tidyverse"
+
+[projects.datascience-box]
+name = "datascience-box"
+github = "tidyverse/datascience-box"
+
+[projects.dbi]
+name = "DBI"
+github = "r-dbi/DBI"
+cran = "DBI"
+
+[projects.dbitest]
+name = "DBItest"
+github = "r-dbi/DBItest"
+cran = "DBItest"
+
+[projects.dbplot]
+name = "dbplot"
+github = "edgararuiz/dbplot"
+cran = "dbplot"
+
+[projects.dbplyr]
+name = "dbplyr"
+github = "tidyverse/dbplyr"
+cran = "dbplyr"
+plausible = "dbplyr.tidyverse.org"
+
+[projects.debrief]
+name = "debrief"
+github = "r-lib/debrief"
+cran = "debrief"
+
+[projects.debugme]
+name = "debugme"
+github = "r-lib/debugme"
+cran = "debugme"
+
+[projects.decor]
+name = "decor"
+github = "r-lib/decor"
+cran = "decor"
+
+[projects.densityclust]
+name = "densityClust"
+github = "thomasp85/densityClust"
+cran = "densityClust"
+
+[projects.desc]
+name = "desc"
+github = "r-lib/desc"
+cran = "desc"
+plausible = "desc.r-lib.org"
+
+[projects.design]
+name = "design"
+github = "tidyverse/design"
+plausible = "design.tidyverse.org"
+
+[projects.desirability]
+name = "desirability"
+github = "topepo/desirability"
+cran = "desirability"
+
+[projects.desirability2]
+name = "desirability2"
+github = "tidymodels/desirability2"
+cran = "desirability2"
+
+[projects.devcontainer-templates]
+name = "devcontainer-templates"
+github = "r-lib/devcontainer-templates"
+
+[projects.devoid]
+name = "devoid"
+github = "r-lib/devoid"
+cran = "devoid"
+
+[projects.devrel-agent]
+name = "devrel-agent"
+github = "posit-dev/devrel-agent"
+
+[projects.devrel-io]
+name = "devrel-io"
+github = "posit-dev/devrel-io"
+
+[projects.devtools]
+name = "devtools"
+github = "r-lib/devtools"
+cran = "devtools"
+plausible = "devtools.r-lib.org"
+
+[projects.diagrammer]
+name = "DiagrammeR"
+github = "rich-iannone/DiagrammeR"
+cran = "DiagrammeR"
+
+[projects.diagrammersvg]
+name = "DiagrammeRsvg"
+github = "rich-iannone/DiagrammeRsvg"
+cran = "DiagrammeRsvg"
+
+[projects.dials]
+name = "dials"
+github = "tidymodels/dials"
+cran = "dials"
+plausible = "dials.tidymodels.org"
+
+[projects.diffviewer]
+name = "diffviewer"
+github = "r-lib/diffviewer"
+cran = "diffviewer"
+
+[projects.discrim]
+name = "discrim"
+github = "tidymodels/discrim"
+cran = "discrim"
+plausible = "discrim.tidymodels.org"
+
+[projects.disposables]
+name = "disposables"
+github = "gaborcsardi/disposables"
+cran = "disposables"
+
+[projects.distributed]
+name = "distributed"
+github = "mlverse/distributed"
+
+[projects.distro]
+name = "distro"
+github = "nealrichardson/distro"
+cran = "distro"
+
+[projects.docker]
+name = "docker"
+github = "mlverse/docker"
+
+[projects.doclisting]
+name = "doclisting"
+github = "r-lib/doclisting"
+cran = "doclisting"
+
+[projects.dotenv]
+name = "dotenv"
+github = "gaborcsardi/dotenv"
+cran = "dotenv"
+
+[projects.downlit]
+name = "downlit"
+github = "r-lib/downlit"
+cran = "downlit"
+plausible = "downlit.r-lib.org"
+
+[projects.downloader]
+name = "downloader"
+github = "wch/downloader"
+cran = "downloader"
+
+[projects.dsbox]
+name = "dsbox"
+github = "tidyverse/dsbox"
+
+[projects.dtplyr]
+name = "dtplyr"
+github = "tidyverse/dtplyr"
+cran = "dtplyr"
+plausible = "dtplyr.tidyverse.org"
+
+[projects.duckplyr]
+name = "duckplyr"
+github = "tidyverse/duckplyr"
+cran = "duckplyr"
+plausible = "duckplyr.tidyverse.org"
+
+[projects.duktape]
+name = "duktape"
+github = "mlverse/duktape"
+
+[projects.elf]
+name = "elf"
+github = "cak/elf"
+pypi = "elf"
+
+[projects.ellipsis]
+name = "ellipsis"
+github = "r-lib/ellipsis"
+cran = "ellipsis"
+
+[projects.embed]
+name = "embed"
+github = "tidymodels/embed"
+cran = "embed"
+
+[projects.emo]
+name = "emo"
+github = "hadley/emo"
+
+[projects.emoji]
+name = "emoji"
+github = "EmilHvitfeldt/emoji"
+cran = "emoji"
+
+[projects.envir]
+name = "envir"
+github = "t-kalinowski/envir"
+cran = "envir"
+
+[projects.epoxy]
+name = "epoxy"
+github = "gadenbuie/epoxy"
+cran = "epoxy"
+
+[projects.evaluate]
+name = "evaluate"
+github = "r-lib/evaluate"
+cran = "evaluate"
+plausible = "evaluate.r-lib.org"
+
+[projects.example-project-quarto-netlify-plugin]
+name = "example-project-quarto-netlify-plugin"
+github = "quarto-dev/example-project-quarto-netlify-plugin"
+
+[projects.extratests]
+name = "extratests"
+github = "tidymodels/extratests"
+
+[projects.farver]
+name = "farver"
+github = "thomasp85/farver"
+cran = "farver"
+
+[projects.fastmap]
+name = "fastmap"
+github = "r-lib/fastmap"
+cran = "fastmap"
+
+[projects.fasttextr]
+name = "fastTextR"
+github = "EmilHvitfeldt/fastTextR"
+cran = "fastTextR"
+
+[projects.feather]
+name = "feather"
+github = "wesm/feather"
+cran = "feather"
+
+[projects.feature-engineering-az]
+name = "feature-engineering-az"
+github = "EmilHvitfeldt/feature-engineering-az"
+
+[projects.feazdata]
+name = "feazdata"
+github = "EmilHvitfeldt/feazdata"
+pypi = "feazdata"
+
+[projects.fieldsurveys]
+name = "fieldsurveys"
+github = "karangattu/fieldsurveys"
+pypi = "fieldsurveys"
+
+[projects.fiery]
+name = "fiery"
+github = "thomasp85/fiery"
+cran = "fiery"
+
+[projects.filelock]
+name = "filelock"
+github = "r-lib/filelock"
+cran = "filelock"
+
+[projects.filtro]
+name = "filtro"
+github = "tidymodels/filtro"
+cran = "filtro"
+
+[projects.finetune]
+name = "finetune"
+github = "tidymodels/finetune"
+cran = "finetune"
+
+[projects.fireproof]
+name = "fireproof"
+github = "thomasp85/fireproof"
+cran = "fireproof"
+
+[projects.firesafety]
+name = "firesafety"
+github = "thomasp85/firesafety"
+cran = "firesafety"
+
+[projects.firesale]
+name = "firesale"
+github = "thomasp85/firesale"
+cran = "firesale"
+
+[projects.firestorm]
+name = "firestorm"
+github = "thomasp85/firestorm"
+cran = "firestorm"
+
+[projects.fit-file-faker]
+name = "Fit-File-Faker"
+github = "jat255/Fit-File-Faker"
+pypi = "fit-file-faker"
+
+[projects.foghorn]
+name = "foghorn"
+github = "fmichonneau/foghorn"
+cran = "foghorn"
+
+[projects.fontliberation]
+name = "fontLiberation"
+github = "lionel-/fontLiberation"
+cran = "fontLiberation"
+
+[projects.fontquiver]
+name = "fontquiver"
+github = "lionel-/fontquiver"
+cran = "fontquiver"
+
+[projects.foot]
+name = "foot"
+github = "cak/foot"
+pypi = "foot"
+
+[projects.forcats]
+name = "forcats"
+github = "tidyverse/forcats"
+cran = "forcats"
+plausible = "forcats.tidyverse.org"
+
+[projects.forested]
+name = "forested"
+github = "simonpcouch/forested"
+cran = "forested"
+
+[projects.friends]
+name = "friends"
+github = "EmilHvitfeldt/friends"
+cran = "friends"
+
+[projects.fs]
+name = "fs"
+github = "r-lib/fs"
+cran = "fs"
+
+[projects.fueleconomy]
+name = "fueleconomy"
+github = "hadley/fueleconomy"
+cran = "fueleconomy"
+
+[projects.funs]
+name = "funs"
+github = "tidyverse/funs"
+
+[projects.furrr]
+name = "furrr"
+github = "futureverse/furrr"
+cran = "furrr"
+
+[projects.gander]
+name = "gander"
+github = "simonpcouch/gander"
+cran = "gander"
+
+[projects.gapminder]
+name = "gapminder"
+github = "jennybc/gapminder"
+cran = "gapminder"
+
+[projects.gargle]
+name = "gargle"
+github = "r-lib/gargle"
+cran = "gargle"
+plausible = "gargle.r-lib.org"
+
+[projects.gbfs]
+name = "gbfs"
+github = "simonpcouch/gbfs"
+cran = "gbfs"
+
+[projects.generics]
+name = "generics"
+github = "r-lib/generics"
+cran = "generics"
+
+[projects.genzplyr]
+name = "genzplyr"
+github = "hadley/genzplyr"
+
+[projects.geozoo]
+name = "geozoo"
+github = "schloerke/geozoo"
+cran = "geozoo"
+
+[projects.gert]
+name = "gert"
+github = "r-lib/gert"
+cran = "gert"
+
+[projects.gganimate]
+name = "gganimate"
+github = "thomasp85/gganimate"
+cran = "gganimate"
+
+[projects.ggarrow]
+name = "ggarrow"
+github = "teunbrand/ggarrow"
+cran = "ggarrow"
+
+[projects.ggbot2]
+name = "ggbot2"
+github = "tidyverse/ggbot2"
+
+[projects.ggforce]
+name = "ggforce"
+github = "thomasp85/ggforce"
+cran = "ggforce"
+
+[projects.ggfx]
+name = "ggfx"
+github = "thomasp85/ggfx"
+cran = "ggfx"
+
+[projects.ggh4x]
+name = "ggh4x"
+github = "teunbrand/ggh4x"
+cran = "ggh4x"
+
+[projects.ggmemo]
+name = "ggmemo"
+github = "lindsay-lintelman/ggmemo"
+cran = "ggmemo"
+
+[projects.ggpage]
+name = "ggpage"
+github = "EmilHvitfeldt/ggpage"
+cran = "ggpage"
+
+[projects.ggplot2-book]
+name = "ggplot2-book"
+github = "hadley/ggplot2-book"
+
+[projects.ggplot2-tutorial]
+name = "ggplot2-tutorial"
+github = "jennybc/ggplot2-tutorial"
+
+[projects.ggplot2_workshop]
+name = "ggplot2_workshop"
+github = "thomasp85/ggplot2_workshop"
+
+[projects.ggplot2movies]
+name = "ggplot2movies"
+github = "hadley/ggplot2movies"
+cran = "ggplot2movies"
+
+[projects.ggplot_tricks]
+name = "ggplot_tricks"
+github = "teunbrand/ggplot_tricks"
+
+[projects.ggpomological]
+name = "ggpomological"
+github = "gadenbuie/ggpomological"
+
+[projects.ggraph]
+name = "ggraph"
+github = "thomasp85/ggraph"
+cran = "ggraph"
+
+[projects.ggstance]
+name = "ggstance"
+github = "lionel-/ggstance"
+cran = "ggstance"
+
+[projects.ggvis]
+name = "ggvis"
+github = "rstudio/ggvis"
+cran = "ggvis"
+
+[projects.ggweekly]
+name = "ggweekly"
+github = "gadenbuie/ggweekly"
+
+[projects.gh]
+name = "gh"
+github = "r-lib/gh"
+cran = "gh"
+
+[projects.ghapps]
+name = "ghapps"
+github = "r-lib/ghapps"
+cran = "ghapps"
+
+[projects.ghurl]
+name = "ghurl"
+github = "r-lib/ghurl"
+
+[projects.gitcreds]
+name = "gitcreds"
+github = "r-lib/gitcreds"
+cran = "gitcreds"
+
+[projects.glin-reactable]
+name = "reactable"
+github = "glin/reactable"
+cran = "reactable"
+
+[projects.glue]
+name = "glue"
+github = "tidyverse/glue"
+cran = "glue"
+plausible = "glue.tidyverse.org"
+
+[projects.gmailr]
+name = "gmailr"
+github = "r-lib/gmailr"
+cran = "gmailr"
+plausible = "gmailr.r-lib.org"
+
+[projects.gnuplot-kernel]
+name = "gnuplot_kernel"
+github = "has2k1/gnuplot_kernel"
+pypi = "gnuplot-kernel"
+
+[projects.go-pubgrub]
+name = "go-pubgrub"
+github = "posit-dev/go-pubgrub"
+
+[projects.googledrive]
+name = "googledrive"
+github = "tidyverse/googledrive"
+cran = "googledrive"
+plausible = "googledrive.tidyverse.org"
+
+[projects.googlesheets4]
+name = "googlesheets4"
+github = "tidyverse/googlesheets4"
+cran = "googlesheets4"
+plausible = "googlesheets4.tidyverse.org"
+
+[projects.governance]
+name = "governance"
+github = "r-lib/governance"
+
+[projects.gqlr]
+name = "gqlr"
+github = "schloerke/gqlr"
+cran = "gqlr"
+
+[projects.greenwood]
+name = "greenwood"
+github = "rich-iannone/greenwood"
+pypi = "greenwood"
+
+[projects.gridtables]
+name = "gridtables"
+github = "quarto-dev/gridtables"
+
+[projects.gtable]
+name = "gtable"
+github = "r-lib/gtable"
+cran = "gtable"
+
+[projects.guildai]
+name = "guildai"
+github = "guildai/guildai-r"
+cran = "guildai"
+
+[projects.happy-git-with-r]
+name = "happy-git-with-r"
+github = "jennybc/happy-git-with-r"
+
+[projects.hardhat]
+name = "hardhat"
+github = "tidymodels/hardhat"
+cran = "hardhat"
+
+[projects.haven]
+name = "haven"
+github = "tidyverse/haven"
+cran = "haven"
+plausible = "haven.tidyverse.org"
+
+[projects.hcandersenr]
+name = "hcandersenr"
+github = "EmilHvitfeldt/hcandersenr"
+cran = "hcandersenr"
+
+[projects.hephaestus-r]
+name = "hephaestus-r"
+github = "posit-dev/hephaestus-r"
+
+[projects.here]
+name = "here"
+github = "r-lib/here"
+cran = "here"
+
+[projects.hfhub]
+name = "hfhub"
+github = "mlverse/hfhub"
+cran = "hfhub"
+
+[projects.highlight]
+name = "highlight"
+github = "hadley/highlight"
+cran = "highlight"
+
+[projects.hms]
+name = "hms"
+github = "tidyverse/hms"
+cran = "hms"
+plausible = "hms.tidyverse.org"
+
+[projects.homebrew-taps]
+name = "homebrew-taps"
+github = "r-lib/homebrew-taps"
+
+[projects.htmlwidgets]
+name = "htmlwidgets"
+github = "ramnathv/htmlwidgets"
+cran = "htmlwidgets"
+
+[projects.httpcache]
+name = "httpcache"
+github = "nealrichardson/httpcache"
+cran = "httpcache"
+
+[projects.httptest]
+name = "httptest"
+github = "nealrichardson/httptest"
+cran = "httptest"
+
+[projects.httptest2]
+name = "httptest2"
+github = "nealrichardson/httptest2"
+cran = "httptest2"
+
+[projects.httr]
+name = "httr"
+github = "r-lib/httr"
+cran = "httr"
+plausible = "httr.r-lib.org"
+
+[projects.httr2]
+name = "httr2"
+github = "r-lib/httr2"
+cran = "httr2"
+plausible = "httr2.r-lib.org"
+
+[projects.hugodown]
+name = "hugodown"
+github = "r-lib/hugodown"
+
+[projects.i18n]
+name = "i18n"
+github = "rich-iannone/i18n"
+cran = "i18n"
+
+[projects.ichimoku]
+name = "ichimoku"
+github = "shikokuchuo/ichimoku"
+cran = "ichimoku"
+
+[projects.important]
+name = "important"
+github = "tidymodels/important"
+cran = "important"
+
+[projects.infer]
+name = "infer"
+github = "tidymodels/infer"
+cran = "infer"
+plausible = "infer.tidymodels.org"
+
+[projects.io]
+name = "io"
+github = "r-lib/io"
+
+[projects.ir]
+name = "ir"
+github = "r-lib/ir"
+pypi = "r-lib-ir"
+
+[projects.isa2]
+name = "ISA"
+github = "gaborcsardi/ISA"
+cran = "isa2"
+
+[projects.islr-deeplearning-torch]
+name = "ISLR-deeplearning-torch"
+github = "mlverse/ISLR-deeplearning-torch"
+
+[projects.islr-tidymodels-labs]
+name = "ISLR-tidymodels-labs"
+github = "EmilHvitfeldt/ISLR-tidymodels-labs"
+
+[projects.isoband]
+name = "isoband"
+github = "r-lib/isoband"
+cran = "isoband"
+plausible = "isoband.r-lib.org"
+
+[projects.itdepends]
+name = "itdepends"
+github = "r-lib/itdepends"
+
+[projects.ivs]
+name = "ivs"
+github = "DavisVaughan/ivs"
+cran = "ivs"
+
+[projects.janeaustenr]
+name = "janeaustenr"
+github = "juliasilge/janeaustenr"
+cran = "janeaustenr"
+
+[projects.jose]
+name = "jose"
+github = "r-lib/jose"
+cran = "jose"
+
+[projects.jsonedit]
+name = "jsonedit"
+github = "r-lib/jsonedit"
+
+[projects.jupyterlab-quarto]
+name = "jupyterlab-quarto"
+github = "quarto-dev/jupyterlab-quarto"
+pypi = "jupyterlab-quarto"
+
+[projects.keypress]
+name = "keypress"
+github = "gaborcsardi/keypress"
+cran = "keypress"
+
+[projects.keyring]
+name = "keyring"
+github = "r-lib/keyring"
+cran = "keyring"
+
+[projects.kingcountyhouses]
+name = "KingCountyHouses"
+github = "topepo/KingCountyHouses"
+cran = "KingCountyHouses"
+
+[projects.knitr]
+name = "knitr"
+github = "yihui/knitr"
+cran = "knitr"
+
+[projects.lang]
+name = "lang"
+github = "mlverse/lang"
+cran = "lang"
+
+[projects.lantern]
+name = "lantern"
+github = "mlverse/lantern"
+
+[projects.later]
+name = "later"
+github = "r-lib/later"
+cran = "later"
+
+[projects.lazyeval]
+name = "lazyeval"
+github = "hadley/lazyeval"
+cran = "lazyeval"
+
+[projects.ldavis]
+name = "LDAvis"
+github = "cpsievert/LDAvis"
+cran = "LDAvis"
+
+[projects.learntidymodels]
+name = "learntidymodels"
+github = "tidymodels/learntidymodels"
+
+[projects.legendry]
+name = "legendry"
+github = "teunbrand/legendry"
+cran = "legendry"
+
+[projects.libcuml-builds]
+name = "libcuml-builds"
+github = "mlverse/libcuml-builds"
+
+[projects.libtorch-mac-m1]
+name = "libtorch-mac-m1"
+github = "mlverse/libtorch-mac-m1"
+
+[projects.lifecycle]
+name = "lifecycle"
+github = "r-lib/lifecycle"
+cran = "lifecycle"
+plausible = "lifecycle.r-lib.org"
+
+[projects.lime]
+name = "lime"
+github = "tidymodels/lime"
+cran = "lime"
+
+[projects.lintr]
+name = "lintr"
+github = "r-lib/lintr"
+cran = "lintr"
+plausible = "lintr.r-lib.org"
+
+[projects.linux-positron-dev-setup]
+name = "linux-positron-dev-setup"
+github = "posit-dev/linux-positron-dev-setup"
+
+[projects.listarrays]
+name = "listarrays"
+github = "t-kalinowski/listarrays"
+cran = "listarrays"
+
+[projects.liteq]
+name = "liteq"
+github = "r-lib/liteq"
+cran = "liteq"
+
+[projects.lltm]
+name = "lltm"
+github = "mlverse/lltm"
+
+[projects.lobstr]
+name = "lobstr"
+github = "r-lib/lobstr"
+cran = "lobstr"
+plausible = "lobstr.r-lib.org"
+
+[projects.log4r]
+name = "log4r"
+github = "r-lib/log4r"
+cran = "log4r"
+plausible = "log4r.r-lib.org"
+
+[projects.logo]
+name = "logo"
+github = "mlverse/logo"
+
+[projects.lorax]
+name = "lorax"
+github = "tidymodels/lorax"
+cran = "lorax"
+
+[projects.lorem]
+name = "lorem"
+github = "gadenbuie/lorem"
+cran = "lorem"
+
+[projects.lubridate]
+name = "lubridate"
+github = "tidyverse/lubridate"
+cran = "lubridate"
+plausible = "lubridate.tidyverse.org"
+
+[projects.luz]
+name = "luz"
+github = "mlverse/luz"
+cran = "luz"
+
+[projects.lvplot]
+name = "lvplot"
+github = "hadley/lvplot"
+cran = "lvplot"
+
+[projects.madgrad]
+name = "madgrad"
+github = "mlverse/madgrad"
+cran = "madgrad"
+
+[projects.magrittr]
+name = "magrittr"
+github = "tidyverse/magrittr"
+cran = "magrittr"
+
+[projects.mall]
+name = "mall"
+github = "mlverse/mall"
+cran = "mall"
+pypi = "mlverse-mall"
+
+[projects.marquee]
+name = "marquee"
+github = "r-lib/marquee"
+cran = "marquee"
+plausible = "marquee.r-lib.org"
+
+[projects.mastering-shiny]
+name = "mastering-shiny"
+github = "hadley/mastering-shiny"
+
+[projects.mcp-console]
+name = "mcp-console"
+github = "t-kalinowski/mcp-console"
+pypi = "mcp-console"
+
+[projects.meifly]
+name = "meifly"
+github = "hadley/meifly"
+cran = "meifly"
+
+[projects.meltr]
+name = "meltr"
+github = "r-lib/meltr"
+
+[projects.memoise]
+name = "memoise"
+github = "r-lib/memoise"
+cran = "memoise"
+
+[projects.memtools]
+name = "memtools"
+github = "r-lib/memtools"
+
+[projects.messaging]
+name = "messaging"
+github = "rich-iannone/messaging"
+cran = "messaging"
+
+[projects.metathis]
+name = "metathis"
+github = "gadenbuie/metathis"
+cran = "metathis"
+
+[projects.minhub]
+name = "minhub"
+github = "mlverse/minhub"
+
+[projects.mirai]
+name = "mirai"
+github = "r-lib/mirai"
+cran = "mirai"
+
+[projects.mizani]
+name = "mizani"
+github = "has2k1/mizani"
+pypi = "mizani"
+
+[projects.mizu]
+name = "mizu"
+github = "shikokuchuo/mizu-r"
+cran = "mizu"
+
+[projects.mlflow]
+name = "mlflow"
+cran = "mlflow"
+
+[projects.mlverse-r-universe-dev]
+name = "mlverse.r-universe.dev"
+github = "mlverse/mlverse.r-universe.dev"
+
+[projects.mockery]
+name = "mockery"
+github = "r-lib/mockery"
+cran = "mockery"
+
+[projects.model-implementation-principles]
+name = "model-implementation-principles"
+github = "tidymodels/model-implementation-principles"
+
+[projects.modeldata]
+name = "modeldata"
+github = "tidymodels/modeldata"
+cran = "modeldata"
+
+[projects.modeldatatoo]
+name = "modeldatatoo"
+github = "tidymodels/modeldatatoo"
+cran = "modeldatatoo"
+
+[projects.modeldb]
+name = "modeldb"
+github = "tidymodels/modeldb"
+cran = "modeldb"
+
+[projects.modelenv]
+name = "modelenv"
+github = "tidymodels/modelenv"
+cran = "modelenv"
+
+[projects.modelr]
+name = "modelr"
+github = "tidyverse/modelr"
+cran = "modelr"
+plausible = "modelr.tidyverse.org"
+
+[projects.mori]
+name = "mori"
+github = "r-lib/mori"
+cran = "mori"
+
+[projects.multidplyr]
+name = "multidplyr"
+github = "tidyverse/multidplyr"
+cran = "multidplyr"
+plausible = "multidplyr.tidyverse.org"
+
+[projects.multilevelmod]
+name = "multilevelmod"
+github = "tidymodels/multilevelmod"
+cran = "multilevelmod"
+plausible = "multilevelmod.tidymodels.org"
+
+[projects.munsell]
+name = "munsell"
+github = "cwickham/munsell"
+cran = "munsell"
+
+[projects.myfitnesspal-to-sqlite]
+name = "myfitnesspal-to-sqlite"
+github = "seeM/myfitnesspal-to-sqlite"
+pypi = "myfitnesspal-to-sqlite"
+
+[projects.nanonext]
+name = "nanonext"
+github = "r-lib/nanonext"
+cran = "nanonext"
+
+[projects.nanoparquet]
+name = "nanoparquet"
+github = "r-lib/nanoparquet"
+cran = "nanoparquet"
+
+[projects.nasaweather]
+name = "nasaweather"
+github = "hadley/nasaweather"
+cran = "nasaweather"
+
+[projects.nestedtune]
+name = "nestedtune"
+github = "tidymodels/nestedtune"
+
+[projects.netlify-plugin-quarto]
+name = "netlify-plugin-quarto"
+github = "quarto-dev/netlify-plugin-quarto"
+
+[projects.nycflights13]
+name = "nycflights13"
+github = "tidyverse/nycflights13"
+cran = "nycflights13"
+plausible = "nycflights13.tidyverse.org"
+
+[projects.oak-r-sources]
+name = "oak-r-sources"
+github = "posit-dev/oak-r-sources"
+
+[projects.objectable]
+name = "objectable"
+github = "r-lib/objectable"
+
+[projects.odbc]
+name = "odbc"
+github = "r-dbi/odbc"
+cran = "odbc"
+
+[projects.omsvg]
+name = "omsvg"
+github = "rich-iannone/omsvg"
+cran = "omsvg"
+
+[projects.oskeyring]
+name = "oskeyring"
+github = "r-lib/oskeyring"
+cran = "oskeyring"
+
+[projects.otel]
+name = "otel"
+github = "r-lib/otel"
+cran = "otel"
+
+[projects.otelsdk]
+name = "otelsdk"
+github = "r-lib/otelsdk"
+cran = "otelsdk"
+
+[projects.package]
+name = "package"
+github = "mlverse/package"
+
+[projects.pagedtablejs]
+name = "pagedtablejs"
+github = "mlverse/pagedtablejs"
+
+[projects.pak]
+name = "pak"
+github = "r-lib/pak"
+cran = "pak"
+
+[projects.paletteer]
+name = "paletteer"
+github = "EmilHvitfeldt/paletteer"
+cran = "paletteer"
+
+[projects.pandoc]
+name = "pandoc"
+github = "cderv/pandoc"
+cran = "pandoc"
+
+[projects.paparazzi]
+name = "paparazzi"
+github = "posit-dev/paparazzi"
+
+[projects.parsedate]
+name = "parsedate"
+github = "gaborcsardi/parsedate"
+cran = "parsedate"
+
+[projects.parsnip]
+name = "parsnip"
+github = "tidymodels/parsnip"
+cran = "parsnip"
+
+[projects.particles]
+name = "particles"
+github = "thomasp85/particles"
+cran = "particles"
+
+[projects.patchwork]
+name = "patchwork"
+github = "thomasp85/patchwork"
+cran = "patchwork"
+
+[projects.pev]
+name = "pev"
+github = "posit-dev/pev"
+
+[projects.phylobase]
+name = "phylobase"
+github = "fmichonneau/phylobase"
+cran = "phylobase"
+
+[projects.pillar]
+name = "pillar"
+github = "r-lib/pillar"
+cran = "pillar"
+plausible = "pillar.r-lib.org"
+
+[projects.pingr]
+name = "pingr"
+github = "r-lib/pingr"
+cran = "pingr"
+
+[projects.pivotaltrackr]
+name = "pivotaltrackR"
+github = "nealrichardson/pivotaltrackR"
+cran = "pivotaltrackR"
+
+[projects.pixels]
+name = "pixels"
+github = "javierluraschi/pixels"
+cran = "pixels"
+
+[projects.pkgbuild]
+name = "pkgbuild"
+github = "r-lib/pkgbuild"
+cran = "pkgbuild"
+plausible = "pkgbuild.r-lib.org"
+
+[projects.pkgcache]
+name = "pkgcache"
+github = "r-lib/pkgcache"
+cran = "pkgcache"
+
+[projects.pkgconfig]
+name = "pkgconfig"
+github = "r-lib/pkgconfig"
+cran = "pkgconfig"
+
+[projects.pkgdepends]
+name = "pkgdepends"
+github = "r-lib/pkgdepends"
+cran = "pkgdepends"
+
+[projects.pkgdown]
+name = "pkgdown"
+github = "r-lib/pkgdown"
+cran = "pkgdown"
+plausible = "pkgdown.r-lib.org"
+
+[projects.pkgload]
+name = "pkgload"
+github = "r-lib/pkgload"
+cran = "pkgload"
+
+[projects.pkgsearch]
+name = "pkgsearch"
+github = "r-hub/pkgsearch"
+cran = "pkgsearch"
+
+[projects.pkgsite]
+name = "pkgsite"
+github = "edgararuiz/pkgsite"
+cran = "pkgsite"
+
+[projects.planning]
+name = "planning"
+github = "tidymodels/planning"
+
+[projects.plotlygeoassets]
+name = "plotlyGeoAssets"
+github = "cpsievert/plotlyGeoAssets"
+cran = "plotlyGeoAssets"
+
+[projects.plotnine-examples]
+name = "plotnine-examples"
+github = "has2k1/plotnine-examples"
+pypi = "plotnine-examples"
+
+[projects.plotomics]
+name = "plotomics"
+github = "samuelbharti/plotomics"
+cran = "plotomics"
+pypi = "plotomics"
+
+[projects.plsmod]
+name = "plsmod"
+github = "tidymodels/plsmod"
+cran = "plsmod"
+
+[projects.plydata]
+name = "plydata"
+github = "has2k1/plydata"
+pypi = "plydata"
+
+[projects.plyr]
+name = "plyr"
+github = "hadley/plyr"
+cran = "plyr"
+
+[projects.poissonreg]
+name = "poissonreg"
+github = "tidymodels/poissonreg"
+cran = "poissonreg"
+plausible = "poissonreg.tidymodels.org"
+
+[projects.posit-brand]
+name = "posit-brand"
+github = "posit-dev/posit-brand"
+
+[projects.posit-cli]
+name = "posit-cli"
+github = "posit-dev/posit-cli"
+pypi = "posit-cli"
+
+[projects.posit-conf-chat]
+name = "posit-conf-chat"
+github = "posit-dev/posit-conf-chat"
+
+[projects.posit-databricks-public-health]
+name = "posit-databricks-public-health"
+github = "posit-dev/posit-databricks-public-health"
+
+[projects.positron-codetyper]
+name = "positron-codetyper"
+github = "ivelasq/positron-codetyper"
+pypi = "positron-codetyper"
+
+[projects.prettycode]
+name = "prettycode"
+github = "r-lib/prettycode"
+cran = "prettycode"
+
+[projects.prettyunits]
+name = "prettyunits"
+github = "r-lib/prettyunits"
+cran = "prettyunits"
+
+[projects.prismatic]
+name = "prismatic"
+github = "EmilHvitfeldt/prismatic"
+cran = "prismatic"
+
+[projects.probably]
+name = "probably"
+github = "tidymodels/probably"
+cran = "probably"
+
+[projects.processx]
+name = "processx"
+github = "r-lib/processx"
+cran = "processx"
+
+[projects.producethis]
+name = "producethis"
+github = "r-lib/producethis"
+
+[projects.productplots]
+name = "productplots"
+github = "hadley/productplots"
+cran = "productplots"
+
+[projects.profr]
+name = "profr"
+github = "hadley/profr"
+cran = "profr"
+
+[projects.profvis]
+name = "profvis"
+github = "r-lib/profvis"
+cran = "profvis"
+
+[projects.progress]
+name = "progress"
+github = "r-lib/progress"
+cran = "progress"
+
+[projects.prompt]
+name = "prompt"
+github = "gaborcsardi/prompt"
+cran = "prompt"
+
+[projects.proto]
+name = "proto"
+github = "hadley/proto"
+cran = "proto"
+
+[projects.ps]
+name = "ps"
+github = "r-lib/ps"
+cran = "ps"
+
+[projects.ptwikiwords]
+name = "ptwikiwords"
+github = "dfalbel/ptwikiwords"
+cran = "ptwikiwords"
+
+[projects.purrr]
+name = "purrr"
+github = "tidyverse/purrr"
+cran = "purrr"
+plausible = "purrr.tidyverse.org"
+
+[projects.purrrlyr]
+name = "purrrlyr"
+github = "hadley/purrrlyr"
+cran = "purrrlyr"
+
+[projects.pysparklyr]
+name = "pysparklyr"
+github = "mlverse/pysparklyr"
+cran = "pysparklyr"
+
+[projects.q2]
+name = "q2"
+github = "quarto-dev/q2"
+
+[projects.qparameterize]
+name = "qparameterize"
+github = "has2k1/qparameterize"
+pypi = "qparameterize"
+
+[projects.quarto-actions]
+name = "quarto-actions"
+github = "quarto-dev/quarto-actions"
+
+[projects.quarto-cli-pypi]
+name = "quarto-cli-pypi"
+github = "quarto-dev/quarto-cli-pypi"
+
+[projects.quarto-dev-quarto]
+name = "quarto"
+github = "quarto-dev/quarto"
+
+[projects.quarto-emacs]
+name = "quarto-emacs"
+github = "quarto-dev/quarto-emacs"
+
+[projects.quarto-examples]
+name = "quarto-examples"
+github = "quarto-dev/quarto-examples"
+
+[projects.quarto-gallery]
+name = "quarto-gallery"
+github = "quarto-dev/quarto-gallery"
+
+[projects.quarto-hub]
+name = "quarto-hub"
+github = "quarto-dev/quarto-hub"
+
+[projects.quarto-julia]
+name = "quarto-julia"
+github = "quarto-dev/quarto-julia"
+
+[projects.quarto-markdown]
+name = "quarto-markdown"
+github = "quarto-dev/quarto-markdown"
+
+[projects.quarto-nvim]
+name = "quarto-nvim"
+github = "quarto-dev/quarto-nvim"
+
+[projects.quarto-pub-subdomain-site]
+name = "quarto-pub-subdomain-site"
+github = "quarto-dev/quarto-pub-subdomain-site"
+
+[projects.quarto-python]
+name = "quarto-python"
+github = "quarto-dev/quarto-python"
+pypi = "quarto"
+
+[projects.quarto-r]
+name = "quarto-r"
+github = "quarto-dev/quarto-r"
+cran = "quarto"
+
+[projects.quarto-release-bundles]
+name = "quarto-release-bundles"
+github = "quarto-dev/quarto-release-bundles"
+
+[projects.quarto-repo-template]
+name = "quarto-repo-template"
+github = "quarto-dev/quarto-repo-template"
+
+[projects.quarto-revealjs-editable]
+name = "quarto-revealjs-editable"
+github = "EmilHvitfeldt/quarto-revealjs-editable"
+
+[projects.quarto-roughnotation]
+name = "quarto-roughnotation"
+github = "EmilHvitfeldt/quarto-roughnotation"
+
+[projects.quarto-shortcodes]
+name = "quarto-shortcodes"
+github = "quarto-dev/quarto-shortcodes"
+
+[projects.quarto-sublime]
+name = "quarto-sublime"
+github = "quarto-dev/quarto-sublime"
+
+[projects.quarto-web]
+name = "quarto-web"
+github = "quarto-dev/quarto-web"
+
+[projects.quarto-yaml]
+name = "quarto-yaml"
+github = "posit-dev/quarto-yaml"
+
+[projects.quickr]
+name = "quickr"
+github = "t-kalinowski/quickr"
+cran = "quickr"
+
+[projects.r-graph-catalog]
+name = "r-graph-catalog"
+github = "jennybc/r-graph-catalog"
+
+[projects.r-lib-actions]
+name = "actions"
+github = "r-lib/actions"
+
+[projects.r-lib-github-io]
+name = "r-lib.github.io"
+github = "r-lib/r-lib.github.io"
+
+[projects.r-text-data]
+name = "R-text-data"
+github = "EmilHvitfeldt/R-text-data"
+
+[projects.r4ds]
+name = "r4ds"
+github = "hadley/r4ds"
+plausible = "r4ds.hadley.nz"
+
+[projects.r6]
+name = "R6"
+github = "r-lib/R6"
+cran = "R6"
+plausible = "r6.r-lib.org"
+
+[projects.ragg]
+name = "ragg"
+github = "r-lib/ragg"
+cran = "ragg"
+plausible = "ragg.r-lib.org"
+
+[projects.ragnar]
+name = "ragnar"
+github = "tidyverse/ragnar"
+cran = "ragnar"
+plausible = "ragnar.tidyverse.org"
+
+[projects.rapp]
+name = "Rapp"
+github = "r-lib/Rapp"
+cran = "Rapp"
+
+[projects.rappdirs]
+name = "rappdirs"
+github = "r-lib/rappdirs"
+cran = "rappdirs"
+
+[projects.rcmdcheck]
+name = "rcmdcheck"
+github = "r-lib/rcmdcheck"
+cran = "rcmdcheck"
+plausible = "rcmdcheck.r-lib.org"
+
+[projects.rcorpora]
+name = "rcorpora"
+github = "gaborcsardi/rcorpora"
+cran = "rcorpora"
+
+[projects.rcppparallel]
+name = "RcppParallel"
+github = "RcppCore/RcppParallel"
+cran = "RcppParallel"
+
+[projects.rcpproll]
+name = "RcppRoll"
+github = "kevinushey/RcppRoll"
+cran = "RcppRoll"
+
+[projects.rdtools]
+name = "rdtools"
+github = "r-lib/rdtools"
+cran = "rdtools"
+
+[projects.readr]
+name = "readr"
+github = "tidyverse/readr"
+cran = "readr"
+plausible = "readr.tidyverse.org"
+
+[projects.readxl]
+name = "readxl"
+github = "tidyverse/readxl"
+cran = "readxl"
+plausible = "readxl.tidyverse.org"
+
+[projects.recipes]
+name = "recipes"
+github = "tidymodels/recipes"
+cran = "recipes"
+
+[projects.regexplain]
+name = "regexplain"
+github = "gadenbuie/regexplain"
+
+[projects.rematch2]
+name = "rematch2"
+github = "r-lib/rematch2"
+cran = "rematch2"
+
+[projects.remotes]
+name = "remotes"
+github = "r-lib/remotes"
+cran = "remotes"
+plausible = "remotes.r-lib.org"
+
+[projects.repo-links]
+name = "repo-links"
+github = "seeM/repo-links"
+pypi = "repo-links"
+
+[projects.reprex]
+name = "reprex"
+github = "tidyverse/reprex"
+cran = "reprex"
+plausible = "reprex.tidyverse.org"
+
+[projects.repurrrsive]
+name = "repurrrsive"
+github = "jennybc/repurrrsive"
+cran = "repurrrsive"
+
+[projects.reqres]
+name = "reqres"
+github = "thomasp85/reqres"
+cran = "reqres"
+
+[projects.reshape2]
+name = "reshape2"
+github = "hadley/reshape"
+cran = "reshape2"
+
+[projects.resultcheck]
+name = "resultcheck"
+github = "kv9898/resultcheck"
+cran = "resultcheck"
+
+[projects.revdepcheck]
+name = "revdepcheck"
+github = "r-lib/revdepcheck"
+plausible = "revdepcheck.r-lib.org"
+
+[projects.rex]
+name = "rex"
+github = "r-lib/rex"
+cran = "rex"
+plausible = "rex.r-lib.org"
+
+[projects.rhub]
+name = "rhub"
+github = "r-hub/rhub"
+cran = "rhub"
+
+[projects.riceware]
+name = "riceware"
+github = "fmichonneau/riceware"
+cran = "riceware"
+
+[projects.rig]
+name = "rig"
+github = "r-lib/rig"
+plausible = "rig.r-lib.org"
+
+[projects.riingo]
+name = "riingo"
+github = "business-science/riingo"
+cran = "riingo"
+
+[projects.rlang]
+name = "rlang"
+github = "r-lib/rlang"
+cran = "rlang"
+plausible = "rlang.r-lib.org"
+
+[projects.rmariadb]
+name = "RMariaDB"
+github = "r-dbi/RMariaDB"
+cran = "RMariaDB"
+
+[projects.rmysql]
+name = "RMySQL"
+github = "r-dbi/RMySQL"
+cran = "RMySQL"
+
+[projects.rncl]
+name = "rncl"
+github = "fmichonneau/rncl"
+cran = "rncl"
+
+[projects.routr]
+name = "routr"
+github = "thomasp85/routr"
+cran = "routr"
+
+[projects.row-oriented-workflows]
+name = "row-oriented-workflows"
+github = "jennybc/row-oriented-workflows"
+
+[projects.roxygen2]
+name = "roxygen2"
+github = "r-lib/roxygen2"
+cran = "roxygen2"
+plausible = "roxygen2.r-lib.org"
+
+[projects.roxygen2md]
+name = "roxygen2md"
+github = "r-lib/roxygen2md"
+cran = "roxygen2md"
+
+[projects.rpostgres]
+name = "RPostgres"
+github = "r-dbi/RPostgres"
+cran = "RPostgres"
+
+[projects.rprojroot]
+name = "rprojroot"
+github = "r-lib/rprojroot"
+cran = "rprojroot"
+
+[projects.rray]
+name = "rray"
+github = "r-lib/rray"
+
+[projects.rsample]
+name = "rsample"
+github = "tidymodels/rsample"
+cran = "rsample"
+plausible = "rsample.tidymodels.org"
+
+[projects.rsconnect-jupyter]
+name = "rsconnect-jupyter"
+github = "rstudio/rsconnect-jupyter"
+pypi = "rsconnect-jupyter"
+
+[projects.rslp]
+name = "rslp"
+github = "dfalbel/rslp"
+cran = "rslp"
+
+[projects.rsparkling]
+name = "rsparkling"
+cran = "rsparkling"
+
+[projects.rsqlite]
+name = "RSQLite"
+github = "r-dbi/RSQLite"
+cran = "RSQLite"
+
+[projects.rsthemes]
+name = "rsthemes"
+github = "gadenbuie/rsthemes"
+
+[projects.rstudio-conf-2019]
+name = "rstudio-conf-2019"
+github = "topepo/rstudio-conf-2019"
+
+[projects.rstudioconf2020slides]
+name = "RStudioConf2020Slides"
+github = "EmilHvitfeldt/RStudioConf2020Slides"
+
+[projects.rules]
+name = "rules"
+github = "tidymodels/rules"
+cran = "rules"
+
+[projects.rversions]
+name = "rversions"
+github = "r-hub/rversions"
+cran = "rversions"
+
+[projects.rvest]
+name = "rvest"
+github = "tidyverse/rvest"
+cran = "rvest"
+plausible = "rvest.tidyverse.org"
+
+[projects.s7]
+name = "S7"
+github = "RConsortium/S7"
+cran = "S7"
+
+[projects.safetensors]
+name = "safetensors"
+github = "mlverse/safetensors"
+cran = "safetensors"
+
+[projects.sample-stream]
+name = "sample"
+github = "jeroenjanssens/sample"
+pypi = "sample-stream"
+
+[projects.scales]
+name = "scales"
+github = "r-lib/scales"
+cran = "scales"
+plausible = "scales.r-lib.org"
+
+[projects.scico]
+name = "scico"
+github = "thomasp85/scico"
+cran = "scico"
+
+[projects.scikit-misc]
+name = "scikit-misc"
+github = "has2k1/scikit-misc"
+pypi = "scikit-misc"
+
+[projects.scikit-sos]
+name = "scikit-sos"
+github = "jeroenjanssens/scikit-sos"
+pypi = "scikit-sos"
+
+[projects.secret]
+name = "secret"
+github = "gaborcsardi/secret"
+cran = "secret"
+
+[projects.secretbase]
+name = "secretbase"
+github = "shikokuchuo/secretbase"
+cran = "secretbase"
+
+[projects.servr]
+name = "servr"
+github = "yihui/servr"
+cran = "servr"
+
+[projects.sessioninfo]
+name = "sessioninfo"
+github = "r-lib/sessioninfo"
+cran = "sessioninfo"
+plausible = "sessioninfo.r-lib.org"
+
+[projects.shiny-showcase-bioinformatics]
+name = "shiny-showcase-bioinformatics"
+github = "posit-dev/shiny-showcase-bioinformatics"
+
+[projects.shiny-sortable]
+name = "shiny_sortable"
+github = "kv9898/shiny_sortable"
+pypi = "shiny-sortable"
+
+[projects.shinyfiles]
+name = "shinyFiles"
+github = "thomasp85/shinyFiles"
+cran = "shinyFiles"
+
+[projects.shinymodels]
+name = "shinymodels"
+github = "tidymodels/shinymodels"
+cran = "shinymodels"
+plausible = "shinymodels.tidymodels.org"
+
+[projects.shinyreact]
+name = "shinyreact"
+github = "posit-dev/shinyreact"
+cran = "shinyreact"
+pypi = "shinyreact"
+
+[projects.shinysense]
+name = "shinysense"
+github = "nstrayer/shinysense"
+
+[projects.shrtcts]
+name = "shrtcts"
+github = "gadenbuie/shrtcts"
+
+[projects.simplegraph]
+name = "simplegraph"
+github = "gaborcsardi/simplegraph"
+cran = "simplegraph"
+
+[projects.skeletor]
+name = "skeletor"
+github = "nealrichardson/skeletor"
+cran = "skeletor"
+
+[projects.slider]
+name = "slider"
+github = "r-lib/slider"
+cran = "slider"
+plausible = "slider.r-lib.org"
+
+[projects.sloop]
+name = "sloop"
+github = "r-lib/sloop"
+cran = "sloop"
+
+[projects.smltar]
+name = "smltar"
+github = "EmilHvitfeldt/smltar"
+
+[projects.snake_case]
+name = "snake_case"
+github = "posit-dev/snake_case"
+
+[projects.snowflake-posit-python-dashboard-cortex]
+name = "snowflake-posit-python-dashboard-cortex"
+github = "posit-dev/snowflake-posit-python-dashboard-cortex"
+
+[projects.sodium]
+name = "sodium"
+github = "r-lib/sodium"
+cran = "sodium"
+
+[projects.sourcetools]
+name = "sourcetools"
+github = "kevinushey/sourcetools"
+cran = "sourcetools"
+
+[projects.sparklyr]
+name = "sparklyr"
+github = "sparklyr/sparklyr"
+cran = "sparklyr"
+
+[projects.sparklyr-flint]
+name = "sparklyr.flint"
+github = "r-spark/sparklyr.flint"
+cran = "sparklyr.flint"
+
+[projects.sparsediscrim]
+name = "sparsediscrim"
+github = "topepo/sparsediscrim"
+cran = "sparsediscrim"
+
+[projects.sparselda]
+name = "sparselda"
+github = "topepo/sparselda"
+cran = "sparseLDA"
+
+[projects.sparsevctrs]
+name = "sparsevctrs"
+github = "r-lib/sparsevctrs"
+cran = "sparsevctrs"
+
+[projects.spatialsample]
+name = "spatialsample"
+github = "tidymodels/spatialsample"
+cran = "spatialsample"
+
+[projects.stacks]
+name = "stacks"
+github = "tidymodels/stacks"
+cran = "stacks"
+plausible = "stacks.tidymodels.org"
+
+[projects.starwarsdb]
+name = "starwarsdb"
+github = "gadenbuie/starwarsdb"
+cran = "starwarsdb"
+
+[projects.stationary]
+name = "stationaRy"
+github = "rich-iannone/stationaRy"
+cran = "stationaRy"
+
+[projects.streamy]
+name = "streamy"
+github = "simonpcouch/streamy"
+cran = "streamy"
+
+[projects.stringr]
+name = "stringr"
+github = "tidyverse/stringr"
+cran = "stringr"
+plausible = "stringr.tidyverse.org"
+
+[projects.style]
+name = "style"
+github = "tidyverse/style"
+plausible = "style.tidyverse.org"
+
+[projects.styler]
+name = "styler"
+github = "r-lib/styler"
+cran = "styler"
+
+[projects.supervised-ml-case-studies-course]
+name = "supervised-ML-case-studies-course"
+github = "juliasilge/supervised-ML-case-studies-course"
+
+[projects.survivalauc]
+name = "survivalauc"
+github = "tidymodels/survivalauc"
+
+[projects.svglite]
+name = "svglite"
+github = "r-lib/svglite"
+cran = "svglite"
+plausible = "svglite.r-lib.org"
+
+[projects.sweet-data]
+name = "sweet-data"
+github = "rich-iannone/sweet-data"
+pypi = "sweet-data"
+
+[projects.syrup]
+name = "syrup"
+github = "simonpcouch/syrup"
+cran = "syrup"
+
+[projects.systemfonts]
+name = "systemfonts"
+github = "r-lib/systemfonts"
+cran = "systemfonts"
+plausible = "systemfonts.r-lib.org"
+
+[projects.tabby]
+name = "tabby"
+github = "tidymodels/tabby"
+cran = "tabby"
+
+[projects.tabnet]
+name = "tabnet"
+github = "mlverse/tabnet"
+cran = "tabnet"
+
+[projects.tabpfn]
+name = "tabpfn"
+github = "tidymodels/tabpfn"
+cran = "tabpfn"
+
+[projects.tabulate]
+name = "tabulate"
+github = "mlverse/tabulate"
+
+[projects.tailor]
+name = "tailor"
+github = "tidymodels/tailor"
+cran = "tailor"
+
+[projects.talk-box]
+name = "talk-box"
+github = "rich-iannone/talk-box"
+pypi = "talk-box"
+
+[projects.testthat]
+name = "testthat"
+github = "r-lib/testthat"
+cran = "testthat"
+plausible = "testthat.r-lib.org"
+
+[projects.textdata]
+name = "textdata"
+github = "EmilHvitfeldt/textdata"
+cran = "textdata"
+
+[projects.textrecipes]
+name = "textrecipes"
+github = "tidymodels/textrecipes"
+cran = "textrecipes"
+plausible = "textrecipes.tidymodels.org"
+
+[projects.textshaping]
+name = "textshaping"
+github = "r-lib/textshaping"
+cran = "textshaping"
+
+[projects.tfautograph]
+name = "tfautograph"
+github = "t-kalinowski/tfautograph"
+cran = "tfautograph"
+
+[projects.tfevents]
+name = "tfevents"
+github = "mlverse/tfevents"
+cran = "tfevents"
+
+[projects.tfio]
+name = "tfio"
+cran = "tfio"
+
+[projects.tft]
+name = "tft"
+github = "mlverse/tft"
+
+[projects.themis]
+name = "themis"
+github = "tidymodels/themis"
+cran = "themis"
+plausible = "themis.tidymodels.org"
+
+[projects.tibble]
+name = "tibble"
+github = "tidyverse/tibble"
+cran = "tibble"
+plausible = "tibble.tidyverse.org"
+
+[projects.tibbletime]
+name = "tibbletime"
+github = "business-science/tibbletime"
+cran = "tibbletime"
+
+[projects.tidy-data]
+name = "tidy-data"
+github = "hadley/tidy-data"
+
+[projects.tidy-dev-day]
+name = "tidy-dev-day"
+github = "tidyverse/tidy-dev-day"
+
+[projects.tidy-text-mining]
+name = "tidy-text-mining"
+github = "juliasilge/tidy-text-mining"
+
+[projects.tidyclust]
+name = "tidyclust"
+github = "tidymodels/tidyclust"
+cran = "tidyclust"
+
+[projects.tidyexplain]
+name = "tidyexplain"
+github = "gadenbuie/tidyexplain"
+
+[projects.tidygraph]
+name = "tidygraph"
+github = "thomasp85/tidygraph"
+cran = "tidygraph"
+
+[projects.tidylo]
+name = "tidylo"
+github = "juliasilge/tidylo"
+cran = "tidylo"
+
+[projects.tidymodels]
+name = "tidymodels"
+github = "tidymodels/tidymodels"
+cran = "tidymodels"
+
+[projects.tidymodels-github]
+name = ".github"
+github = "tidymodels/.github"
+
+[projects.tidymodels-org]
+name = "tidymodels.org"
+github = "tidymodels/tidymodels.org"
+plausible = "tidymodels.org"
+
+[projects.tidymodels-skills]
+name = "skills"
+github = "tidymodels/skills"
+
+[projects.tidymodels-workflows]
+name = "workflows"
+github = "tidymodels/workflows"
+cran = "workflows"
+
+[projects.tidyposterior]
+name = "tidyposterior"
+github = "tidymodels/tidyposterior"
+cran = "tidyposterior"
+
+[projects.tidypredict]
+name = "tidypredict"
+github = "tidymodels/tidypredict"
+cran = "tidypredict"
+
+[projects.tidyr]
+name = "tidyr"
+github = "tidyverse/tidyr"
+cran = "tidyr"
+plausible = "tidyr.tidyverse.org"
+
+[projects.tidyselect]
+name = "tidyselect"
+github = "r-lib/tidyselect"
+cran = "tidyselect"
+plausible = "tidyselect.r-lib.org"
+
+[projects.tidytemplate]
+name = "tidytemplate"
+github = "tidyverse/tidytemplate"
+plausible = "tidytemplate.tidyverse.org"
+
+[projects.tidytext]
+name = "tidytext"
+github = "juliasilge/tidytext"
+cran = "tidytext"
+
+[projects.tidyups]
+name = "tidyups"
+github = "tidyverse/tidyups"
+
+[projects.tidyverse-org]
+name = "tidyverse.org"
+github = "tidyverse/tidyverse.org"
+plausible = "tidyverse.org"
+
+[projects.tidyversedashboard]
+name = "tidyversedashboard"
+github = "tidyverse/tidyversedashboard"
+
+[projects.tmwr]
+name = "TMwR"
+github = "tidymodels/TMwR"
+
+[projects.tok]
+name = "tok"
+github = "mlverse/tok"
+cran = "tok"
+
+[projects.toml]
+name = "toml"
+github = "r-lib/toml"
+cran = "toml"
+
+[projects.torch]
+name = "torch"
+github = "mlverse/torch"
+cran = "torch"
+
+[projects.torch-learnr]
+name = "torch-learnr"
+github = "mlverse/torch-learnr"
+
+[projects.torchaudio]
+name = "torchaudio"
+github = "mlverse/torchaudio"
+
+[projects.torchdatasets]
+name = "torchdatasets"
+github = "mlverse/torchdatasets"
+cran = "torchdatasets"
+
+[projects.torchexport]
+name = "torchexport"
+github = "mlverse/torchexport"
+
+[projects.torchsparse]
+name = "torchsparse"
+github = "mlverse/torchsparse"
+
+[projects.torchvision]
+name = "torchvision"
+github = "mlverse/torchvision"
+cran = "torchvision"
+
+[projects.torchvisionlib]
+name = "torchvisionlib"
+github = "mlverse/torchvisionlib"
+cran = "torchvisionlib"
+
+[projects.torchwavelets]
+name = "torchwavelets"
+github = "mlverse/torchwavelets"
+
+[projects.transformr]
+name = "transformr"
+github = "thomasp85/transformr"
+cran = "transformr"
+
+[projects.tree-sitter-r]
+name = "tree-sitter-r"
+github = "r-lib/tree-sitter-r"
+cran = "treesitter.r"
+
+[projects.treesitter]
+name = "treesitter"
+github = "DavisVaughan/r-tree-sitter"
+cran = "treesitter"
+
+[projects.tsitter]
+name = "tsitter"
+github = "r-lib/tsitter"
+cran = "tsitter"
+
+[projects.tune]
+name = "tune"
+github = "tidymodels/tune"
+cran = "tune"
+
+[projects.tweenr]
+name = "tweenr"
+github = "thomasp85/tweenr"
+cran = "tweenr"
+
+[projects.tweet-conf-dash]
+name = "tweet-conf-dash"
+github = "gadenbuie/tweet-conf-dash"
+
+[projects.typst-gather]
+name = "typst-gather"
+github = "quarto-dev/typst-gather"
+
+[projects.tzdb]
+name = "tzdb"
+github = "r-lib/tzdb"
+cran = "tzdb"
+plausible = "tzdb.r-lib.org"
+
+[projects.ukbabynames]
+name = "ukbabynames"
+github = "mine-cetinkaya-rundel/ukbabynames"
+cran = "ukbabynames"
+
+[projects.urlchecker]
+name = "urlchecker"
+github = "r-lib/urlchecker"
+cran = "urlchecker"
+plausible = "urlchecker.r-lib.org"
+
+[projects.usemodels]
+name = "usemodels"
+github = "tidymodels/usemodels"
+cran = "usemodels"
+
+[projects.usethis]
+name = "usethis"
+github = "r-lib/usethis"
+cran = "usethis"
+plausible = "usethis.tidyverse.org"
+
+[projects.vctrs]
+name = "vctrs"
+github = "r-lib/vctrs"
+cran = "vctrs"
+plausible = "vctrs.r-lib.org"
+
+[projects.vdiffr]
+name = "vdiffr"
+github = "r-lib/vdiffr"
+cran = "vdiffr"
+plausible = "vdiffr.r-lib.org"
+
+[projects.velocirepo]
+name = "velocirepo"
+github = "posit-dev/velocirepo"
+pypi = "velocirepo"
+
+[projects.vroom]
+name = "vroom"
+github = "tidyverse/vroom"
+cran = "vroom"
+plausible = "vroom.r-lib.org"
+
+[projects.waldo]
+name = "waldo"
+github = "r-lib/waldo"
+cran = "waldo"
+plausible = "waldo.r-lib.org"
+
+[projects.walmartapi]
+name = "walmartAPI"
+github = "EmilHvitfeldt/walmartAPI"
+cran = "walmartAPI"
+
+[projects.warp]
+name = "warp"
+github = "DavisVaughan/warp"
+cran = "warp"
+
+[projects.watcher]
+name = "watcher"
+github = "r-lib/watcher"
+cran = "watcher"
+
+[projects.wav]
+name = "wav"
+github = "mlverse/wav"
+cran = "wav"
+
+[projects.waysign]
+name = "waysign"
+github = "thomasp85/waysign"
+cran = "waysign"
+
+[projects.weathervault]
+name = "weathervault"
+github = "rich-iannone/weathervault"
+pypi = "weathervault"
+
+[projects.webfakes]
+name = "webfakes"
+github = "r-lib/webfakes"
+cran = "webfakes"
+
+[projects.webshot]
+name = "webshot"
+github = "wch/webshot"
+cran = "webshot"
+
+[projects.website-analytics]
+name = "website-analytics"
+github = "tidyverse/website-analytics"
+
+[projects.whoami]
+name = "whoami"
+github = "r-lib/whoami"
+cran = "whoami"
+
+[projects.widyr]
+name = "widyr"
+github = "juliasilge/widyr"
+cran = "widyr"
+
+[projects.withr]
+name = "withr"
+github = "r-lib/withr"
+cran = "withr"
+plausible = "withr.r-lib.org"
+
+[projects.wordsalad]
+name = "wordsalad"
+github = "EmilHvitfeldt/wordsalad"
+cran = "wordsalad"
+
+[projects.workflowsets]
+name = "workflowsets"
+github = "tidymodels/workflowsets"
+cran = "workflowsets"
+
+[projects.workshops]
+name = "workshops"
+github = "tidymodels/workshops"
+
+[projects.xaringan]
+name = "xaringan"
+github = "yihui/xaringan"
+cran = "xaringan"
+
+[projects.xaringanextra]
+name = "xaringanExtra"
+github = "gadenbuie/xaringanExtra"
+cran = "xaringanExtra"
+
+[projects.xaringanthemer]
+name = "xaringanthemer"
+github = "gadenbuie/xaringanthemer"
+cran = "xaringanthemer"
+
+[projects.xml2]
+name = "xml2"
+github = "r-lib/xml2"
+cran = "xml2"
+plausible = "xml2.r-lib.org"
+
+[projects.xml2r]
+name = "XML2R"
+github = "cpsievert/XML2R"
+cran = "XML2R"
+
+[projects.xmlparsedata]
+name = "xmlparsedata"
+github = "r-lib/xmlparsedata"
+cran = "xmlparsedata"
+
+[projects.xopen]
+name = "xopen"
+github = "r-lib/xopen"
+cran = "xopen"
+
+[projects.yamark]
+name = "yamark"
+github = "t-kalinowski/yamark"
+pypi = "yamark"
+
+[projects.yaml]
+name = "yaml"
+github = "r-lib/yaml"
+cran = "yaml"
+plausible = "yaml.r-lib.org"
+
+[projects.yardstick]
+name = "yardstick"
+github = "tidymodels/yardstick"
+cran = "yardstick"
+
+[projects.yasp]
+name = "yasp"
+github = "t-kalinowski/yasp"
+cran = "yasp"
+
+[projects.ymlthis]
+name = "ymlthis"
+github = "r-lib/ymlthis"
+cran = "ymlthis"
+
+[projects.zeallot]
+name = "zeallot"
+github = "r-lib/zeallot"
+cran = "zeallot"
+
+[projects.zip]
+name = "zip"
+github = "r-lib/zip"
+cran = "zip"
+
+[projects.zstd]
+name = "zstd"
+github = "r-lib/zstd"
+cran = "zstd"
 
 [data_dict]
 name = "posit-oss-devrel"
@@ -2025,9 +4648,6 @@ projects."""
 # Shared targets: the curated project keeps them. The posit/shiny extension
 # and the shiny.posit.co site stay under shiny-python, whose Plausible series
 # is continuous.
-[data_dict.keep.github]
-"posit-dev/orbital" = "orbital-r"
-
 [data_dict.keep.openvsx]
 "posit/shiny" = "shiny-python"
 
