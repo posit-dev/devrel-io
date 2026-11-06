@@ -1,0 +1,9 @@
+{"source":"github","type":"fork","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-01-29T13:53:47Z","user":"iskytek"}
+{"source":"github","type":"pr_open","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-06-27T22:57:39Z","ref":10,"user":"atheriel"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-06-28T07:05:44Z","ref":10,"user":"krlmlr"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-07-16T18:25:51Z","ref":10,"user":"johnmyleswhite"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-07-21T08:02:10Z","ref":10,"user":"krlmlr"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-07-25T14:45:43Z","ref":10,"user":"johnmyleswhite"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-07-26T20:37:53Z","ref":10,"user":"atheriel"}
+{"source":"github","type":"pr_merge","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-07-26T20:38:10Z","ref":10,"user":"atheriel"}
+{"source":"github","type":"fork","project_id":"log4r","target":"r-lib/log4r","datetime":"2018-10-25T17:42:04Z","user":"ktaranov"}

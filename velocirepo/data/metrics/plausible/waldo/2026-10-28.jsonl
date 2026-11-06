@@ -1,0 +1,9 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":6}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":6}
+{"source":"plausible","metric":"daily_site_visits","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":6}
+{"source":"plausible","metric":"daily_pageviews","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":1,"extra":{"page":"/reference/compare.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":1,"extra":{"page":"/reference/compare.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"waldo","target":"waldo.r-lib.org","date":"2026-10-28","value":1,"extra":{"page":"/reference/compare.html"}}

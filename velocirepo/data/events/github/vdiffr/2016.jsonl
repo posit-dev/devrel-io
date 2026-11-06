@@ -1,0 +1,15 @@
+{"source":"github","type":"issue_open","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-02T23:34:54Z","ref":1,"user":"jankatins"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-03T00:38:03Z","ref":1,"user":"hrbrmstr"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-03T14:40:41Z","ref":1,"user":"lionel-"}
+{"source":"github","type":"issue_open","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T13:01:00Z","ref":2,"user":"eddelbuettel"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T13:04:03Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T13:09:12Z","ref":2,"user":"eddelbuettel"}
+{"source":"github","type":"fork","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T13:22:29Z","user":"georgesoilis"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T13:52:33Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-04-11T14:45:39Z","ref":2,"user":"eddelbuettel"}
+{"source":"github","type":"issue_open","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-08-09T17:11:10Z","ref":3,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-08-09T17:50:00Z","ref":3,"user":"lionel-"}
+{"source":"github","type":"issue_open","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-08-12T07:06:49Z","ref":4,"user":"thomasp85"}
+{"source":"github","type":"comment","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-10-03T13:03:38Z","ref":1,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-10-13T00:11:11Z","ref":4,"user":"thomasp85"}
+{"source":"github","type":"pr_open","project_id":"vdiffr","target":"r-lib/vdiffr","datetime":"2016-11-14T15:33:27Z","ref":5,"user":"lionel-"}

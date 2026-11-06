@@ -1,0 +1,7 @@
+{"source":"github","type":"fork","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-07T02:50:55Z","user":"StevenMayher"}
+{"source":"github","type":"issue_open","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:08:11Z","ref":35,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:14:43Z","ref":36,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:25:03Z","ref":30,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:26:23Z","ref":23,"user":"tvatter"}
+{"source":"github","type":"pr_merge","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:31:17Z","ref":36,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"sloop","target":"r-lib/sloop","datetime":"2023-10-30T17:31:18Z","ref":35,"user":"hadley"}

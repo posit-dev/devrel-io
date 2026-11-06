@@ -1,0 +1,1 @@
+{"source":"github","project_id":"docker","target":"mlverse/docker","id":"mlverse/docker","title":"docker","description":"Docker images for R with GPU support.","published_at":"2022-04-23T12:42:04Z","updated_at":"2023-05-24T13:51:16Z","url":"https://github.com/mlverse/docker","type":"repo","extra":{"default_branch":"main","language":"Dockerfile"}}

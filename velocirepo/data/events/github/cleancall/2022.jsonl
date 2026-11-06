@@ -1,0 +1,12 @@
+{"source":"github","type":"issue_open","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-04T13:55:50Z","ref":15,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-05T15:34:08Z","ref":14,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T09:36:31Z","ref":13,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T09:43:05Z","ref":13,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T09:48:13Z","ref":16,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T10:03:43Z","ref":13,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T10:03:43Z","ref":16,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T10:04:41Z","ref":15,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-03-10T12:13:51Z","ref":12,"user":"gaborcsardi"}
+{"source":"github","type":"issue_open","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-10-26T11:29:14Z","ref":17,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-10-26T12:25:06Z","ref":17,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"cleancall","target":"r-lib/cleancall","datetime":"2022-10-27T07:28:15Z","ref":17,"user":"gaborcsardi"}

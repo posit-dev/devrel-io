@@ -1,0 +1,12 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":3}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":3}
+{"source":"plausible","metric":"daily_site_visits","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":3}
+{"source":"plausible","metric":"daily_pageviews","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/articles/Working-with-n-grams.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/articles/Working-with-n-grams.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/articles/Working-with-n-grams.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/reference/step_ngram.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/reference/step_ngram.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"textrecipes","target":"textrecipes.tidymodels.org","date":"2026-10-04","value":1,"extra":{"page":"/reference/step_ngram.html"}}

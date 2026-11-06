@@ -1,0 +1,8 @@
+{"source":"github","type":"fork","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-08T21:09:22Z","user":"EAGerard"}
+{"source":"github","type":"pr_merge","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T12:52:55Z","ref":378,"user":"hfrick"}
+{"source":"github","type":"issue_close","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T12:52:56Z","ref":377,"user":"MatthieuStigler"}
+{"source":"github","type":"comment","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T12:56:19Z","ref":321,"user":"topepo"}
+{"source":"github","type":"pr_merge","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T12:56:23Z","ref":321,"user":"seaCatKim"}
+{"source":"github","type":"pr_merge","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T12:59:41Z","ref":370,"user":"matanhakim"}
+{"source":"github","type":"pr_open","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-16T19:03:05Z","ref":386,"user":"topepo"}
+{"source":"github","type":"comment","project_id":"tmwr","target":"tidymodels/TMwR","datetime":"2026-02-18T17:14:31Z","ref":386,"user":"topepo"}

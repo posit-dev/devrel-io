@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_open","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2013-08-22T03:06:07Z","ref":1,"user":"trevorld"}
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2013-08-23T15:07:09Z","ref":1,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2013-10-17T21:32:43Z","ref":1,"user":"trevorld"}
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2013-10-17T21:32:50Z","ref":1,"user":"hadley"}

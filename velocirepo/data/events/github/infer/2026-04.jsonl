@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_open","project_id":"infer","target":"tidymodels/infer","datetime":"2026-04-09T12:09:29Z","ref":572,"user":"jeroenjanssens"}
+{"source":"github","type":"fork","project_id":"infer","target":"tidymodels/infer","datetime":"2026-04-11T19:34:11Z","user":"driegert"}
+{"source":"github","type":"pr_merge","project_id":"infer","target":"tidymodels/infer","datetime":"2026-04-13T14:46:12Z","ref":572,"user":"jeroenjanssens"}
+{"source":"github","type":"comment","project_id":"infer","target":"tidymodels/infer","datetime":"2026-04-30T00:35:24Z","ref":572,"user":"github-actions[bot]"}

@@ -1,0 +1,14 @@
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-02T14:45:05Z","ref":783,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-02T16:17:29Z","ref":783,"user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-03T14:17:28Z","ref":784,"user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-03T14:48:50Z","ref":785,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-04T11:28:06Z","ref":784,"user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-09T12:15:24Z","ref":786,"user":"shikokuchuo"}
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-09T12:27:13Z","ref":787,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-09T19:31:34Z","ref":787,"user":"shikokuchuo"}
+{"source":"github","type":"comment","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-09T19:49:24Z","ref":786,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-09T20:37:35Z","ref":786,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-10T12:55:24Z","ref":785,"user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-11T11:36:15Z","ref":788,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-13T11:57:35Z","ref":788,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"tidyverse-org","target":"tidyverse/tidyverse.org","datetime":"2026-02-18T18:05:06Z","ref":781,"user":"t-kalinowski"}

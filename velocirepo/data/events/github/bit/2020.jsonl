@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_open","project_id":"bit","target":"r-lib/bit","datetime":"2020-05-11T05:08:15Z","ref":1,"user":"schuemie"}
+{"source":"github","type":"comment","project_id":"bit","target":"r-lib/bit","datetime":"2020-05-24T22:07:59Z","ref":1,"user":"agrueneberg"}
+{"source":"github","type":"comment","project_id":"bit","target":"r-lib/bit","datetime":"2020-05-25T08:58:13Z","ref":1,"user":"truecluster"}
+{"source":"github","type":"fork","project_id":"bit","target":"r-lib/bit","datetime":"2020-07-20T13:02:29Z","user":"eddelbuettel"}
+{"source":"github","type":"pr_open","project_id":"bit","target":"r-lib/bit","datetime":"2020-07-20T13:13:14Z","ref":2,"user":"eddelbuettel"}
+{"source":"github","type":"pr_merge","project_id":"bit","target":"r-lib/bit","datetime":"2020-07-20T14:05:33Z","ref":2,"user":"eddelbuettel"}
+{"source":"github","type":"issue_open","project_id":"bit","target":"r-lib/bit","datetime":"2020-09-01T16:29:53Z","ref":3,"user":"dschlaep"}

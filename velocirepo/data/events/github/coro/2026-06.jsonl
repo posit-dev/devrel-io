@@ -1,0 +1,8 @@
+{"source":"github","type":"fork","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-02T17:17:24Z","user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-02T17:17:59Z","ref":70,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-12T18:31:23Z","ref":71,"user":"dereckmezquita"}
+{"source":"github","type":"pr_open","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-15T09:44:28Z","ref":72,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-15T11:38:03Z","ref":72,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-15T11:38:04Z","ref":71,"user":"dereckmezquita"}
+{"source":"github","type":"comment","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-15T11:38:39Z","ref":71,"user":"lionel-"}
+{"source":"github","type":"comment","project_id":"coro","target":"r-lib/coro","datetime":"2026-06-16T17:17:27Z","ref":71,"user":"dereckmezquita"}

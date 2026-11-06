@@ -1,4 +1,6 @@
 {"source":"github","type":"pr_merge","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-07-14T14:10:12Z","ref":110,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"orbital-r","target":"tidymodels/orbital","datetime":"2026-07-15T00:34:05Z","ref":147,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_close","project_id":"orbital-r","target":"tidymodels/orbital","datetime":"2026-07-15T00:34:06Z","ref":146,"user":"EmilHvitfeldt"}
 {"source":"github","type":"fork","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-07-22T00:40:35Z","user":"EmilHvitfeldt"}
 {"source":"github","type":"pr_open","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-07-22T01:19:18Z","ref":111,"user":"EmilHvitfeldt"}
 {"source":"github","type":"comment","project_id":"orbital-r","target":"posit-dev/orbital","datetime":"2026-07-22T01:25:39Z","ref":111,"user":"EmilHvitfeldt"}

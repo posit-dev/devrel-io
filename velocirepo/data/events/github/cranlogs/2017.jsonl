@@ -1,0 +1,13 @@
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-01-06T11:40:50Z","ref":18,"user":"vonjd"}
+{"source":"github","type":"issue_close","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-01-06T11:55:25Z","ref":18,"user":"vonjd"}
+{"source":"github","type":"comment","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-01-06T11:55:25Z","ref":18,"user":"gaborcsardi"}
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-02-08T18:03:55Z","ref":19,"user":"sfirke"}
+{"source":"github","type":"comment","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-02-08T18:53:06Z","ref":19,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-06-12T20:25:15Z","ref":19,"user":"Breza"}
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-06-25T20:22:43Z","ref":20}
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-06-25T20:26:04Z","ref":21}
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-06-26T09:35:28Z","ref":22}
+{"source":"github","type":"pr_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-07-26T15:45:48Z","ref":23,"user":"patperry"}
+{"source":"github","type":"comment","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-07-26T15:47:39Z","ref":23,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-07-26T15:47:41Z","ref":23,"user":"patperry"}
+{"source":"github","type":"issue_open","project_id":"cranlogs","target":"r-hub/cranlogs","datetime":"2017-09-02T23:33:17Z","ref":24,"user":"sscogges"}

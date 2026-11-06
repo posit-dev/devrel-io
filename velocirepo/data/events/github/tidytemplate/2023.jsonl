@@ -1,0 +1,6 @@
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-01-31T19:48:58Z","ref":74,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-02-01T14:18:37Z","ref":75,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-02-01T14:51:51Z","ref":75,"user":"gadenbuie"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-02-01T14:52:06Z","ref":75,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-03-05T23:48:13Z","user":"ateucher"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2023-03-05T23:51:48Z","ref":76,"user":"ateucher"}

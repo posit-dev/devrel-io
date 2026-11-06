@@ -1,0 +1,16 @@
+{"source":"github","type":"issue_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-01T05:47:54Z","ref":609,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-01T05:47:56Z","ref":610,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-01T05:47:57Z","ref":611,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-04T19:03:03Z","ref":612,"user":"MichaelChirico"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T14:21:54Z","ref":613,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T16:20:52Z","ref":614,"user":"agmurray"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T17:14:15Z","ref":615,"user":"agmurray"}
+{"source":"github","type":"pr_merge","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T17:56:15Z","ref":614,"user":"agmurray"}
+{"source":"github","type":"issue_close","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T17:56:16Z","ref":610,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T17:57:29Z","ref":615,"user":"agmurray"}
+{"source":"github","type":"issue_close","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T17:57:30Z","ref":609,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T19:30:07Z","ref":616,"user":"agmurray"}
+{"source":"github","type":"fork","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T19:57:04Z","user":"sierrajohnson"}
+{"source":"github","type":"comment","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-17T20:52:28Z","ref":587,"user":"sierrajohnson"}
+{"source":"github","type":"fork","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-30T10:28:43Z","user":"taekop"}
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-09-30T10:32:51Z","ref":617,"user":"taekop"}

@@ -1,0 +1,16 @@
+{"source":"github","type":"issue_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-21T13:14:31Z","ref":677,"user":"r2evans"}
+{"source":"github","type":"issue_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-29T17:08:47Z","ref":678,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-29T17:21:44Z","ref":679,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T13:13:20Z","ref":680,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:00:46Z","ref":680,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:00:47Z","ref":679,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:14:55Z","ref":681,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:18:17Z","ref":657,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:18:17Z","ref":657,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T14:18:55Z","ref":682,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T19:38:49Z","ref":656,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T19:40:35Z","ref":682,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T19:40:36Z","ref":670,"user":"r2evans"}
+{"source":"github","type":"pr_merge","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T19:40:53Z","ref":681,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T19:40:54Z","ref":677,"user":"r2evans"}
+{"source":"github","type":"comment","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-04-30T22:45:22Z","ref":673,"user":"hadley"}

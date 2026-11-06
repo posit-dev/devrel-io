@@ -1,0 +1,16 @@
+{"source":"github","type":"pr_open","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-07T14:27:58Z","ref":1,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-07T14:51:54Z","ref":1,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-07T15:17:29Z","ref":2,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-07T21:01:14Z","ref":2,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-08T19:45:28Z","ref":3,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-16T08:50:27Z","ref":3,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-16T18:49:58Z","ref":4,"user":"mduncans"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-17T07:55:10Z","ref":4,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-17T10:21:16Z","ref":4,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-17T13:51:09Z","ref":4,"user":"mduncans"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-17T15:23:10Z","ref":4,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-17T15:34:05Z","ref":4,"user":"mduncans"}
+{"source":"github","type":"pr_open","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-20T12:55:20Z","ref":5,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-20T12:56:56Z","ref":4,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-22T19:35:43Z","ref":5,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"doclisting","target":"r-lib/doclisting","datetime":"2026-04-22T19:35:45Z","ref":4,"user":"mduncans"}

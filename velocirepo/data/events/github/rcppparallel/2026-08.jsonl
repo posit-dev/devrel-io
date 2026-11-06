@@ -1,0 +1,11 @@
+{"source":"github","type":"issue_open","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-08T04:06:42Z","ref":277,"user":"andrei-stoica26"}
+{"source":"github","type":"issue_close","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-08T04:39:25Z","ref":277,"user":"andrei-stoica26"}
+{"source":"github","type":"comment","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-08T04:39:25Z","ref":277,"user":"kevinushey"}
+{"source":"github","type":"fork","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-21T19:45:19Z","user":"LeonidasZhak"}
+{"source":"github","type":"pr_open","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-21T19:46:02Z","ref":278,"user":"LeonidasZhak"}
+{"source":"github","type":"pr_open","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-24T20:47:31Z","ref":279,"user":"kevinushey"}
+{"source":"github","type":"pr_merge","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-25T00:25:25Z","ref":279,"user":"kevinushey"}
+{"source":"github","type":"issue_close","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-25T00:25:26Z","ref":219,"user":"barracuda156"}
+{"source":"github","type":"comment","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-25T00:25:44Z","ref":278,"user":"kevinushey"}
+{"source":"github","type":"pr_open","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-26T17:24:28Z","ref":280,"user":"kevinushey"}
+{"source":"github","type":"pr_merge","project_id":"rcppparallel","target":"RcppCore/RcppParallel","datetime":"2026-08-26T17:36:38Z","ref":280,"user":"kevinushey"}

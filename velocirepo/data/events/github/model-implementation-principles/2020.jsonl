@@ -1,0 +1,5 @@
+{"source":"github","type":"fork","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2020-07-31T14:10:48Z","user":"wligtenberg"}
+{"source":"github","type":"pr_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2020-07-31T14:14:47Z","ref":23,"user":"wligtenberg"}
+{"source":"github","type":"pr_merge","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2020-08-07T14:01:12Z","ref":12,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2020-08-07T14:02:19Z","ref":23,"user":"topepo"}
+{"source":"github","type":"pr_merge","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2020-08-07T14:02:23Z","ref":23,"user":"wligtenberg"}

@@ -1,0 +1,16 @@
+{"source":"github","type":"comment","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-03T07:38:53Z","ref":1866,"user":"dmenne"}
+{"source":"github","type":"pr_merge","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-05T00:24:49Z","ref":2219,"user":"jennybc"}
+{"source":"github","type":"issue_close","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-05T00:24:50Z","ref":1671,"user":"maia-sh"}
+{"source":"github","type":"fork","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-05T20:04:34Z","user":"howardbaik"}
+{"source":"github","type":"pr_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-05T20:21:48Z","ref":2221,"user":"howardbaik"}
+{"source":"github","type":"pr_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-11T18:52:50Z","ref":2222,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-12T14:27:09Z","ref":2222,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-14T13:23:00Z","ref":2223,"user":"Yousa-Mirage"}
+{"source":"github","type":"issue_close","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-18T18:13:19Z","ref":2223,"user":"Yousa-Mirage"}
+{"source":"github","type":"comment","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-18T18:13:19Z","ref":2223,"user":"jennybc"}
+{"source":"github","type":"issue_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-19T10:39:18Z","ref":2224,"user":"jonthegeek"}
+{"source":"github","type":"issue_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-23T15:30:16Z","ref":2225,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-23T16:12:14Z","ref":2226,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-27T12:16:39Z","ref":2227,"user":"DavisVaughan"}
+{"source":"github","type":"comment","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-27T16:10:26Z","ref":2222,"user":"olivroy"}
+{"source":"github","type":"pr_merge","project_id":"usethis","target":"r-lib/usethis","datetime":"2026-03-30T18:11:03Z","ref":2227,"user":"DavisVaughan"}

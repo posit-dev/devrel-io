@@ -1,0 +1,12 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":10}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":8}
+{"source":"plausible","metric":"daily_site_visits","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":10}
+{"source":"plausible","metric":"daily_pageviews","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":7,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":7,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":2,"extra":{"page":"/articles/wrapping-apis.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":2,"extra":{"page":"/articles/wrapping-apis.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":2,"extra":{"page":"/articles/wrapping-apis.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":1,"extra":{"page":"/reference/req_url.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":1,"extra":{"page":"/reference/req_url.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"httr2","target":"httr2.r-lib.org","date":"2026-10-25","value":1,"extra":{"page":"/reference/req_url.html"}}

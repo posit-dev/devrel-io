@@ -1,0 +1,13 @@
+{"source":"github","type":"issue_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-02-27T14:41:31Z","ref":16,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-02-27T17:21:18Z","ref":16,"user":"topepo"}
+{"source":"github","type":"issue_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-03-13T13:37:51Z","ref":17,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-04-26T04:50:26Z","ref":17,"user":"alexpghayes"}
+{"source":"github","type":"issue_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-04-27T18:16:03Z","ref":18,"user":"alexpghayes"}
+{"source":"github","type":"issue_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-06-06T21:47:41Z","ref":19,"user":"DavisVaughan"}
+{"source":"github","type":"pr_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-06-07T15:49:20Z","ref":20,"user":"DavisVaughan"}
+{"source":"github","type":"issue_close","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-06-07T15:49:52Z","ref":19,"user":"DavisVaughan"}
+{"source":"github","type":"pr_merge","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-06-07T15:49:52Z","ref":20,"user":"DavisVaughan"}
+{"source":"github","type":"fork","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-07-03T11:29:31Z","user":"marlycormar"}
+{"source":"github","type":"pr_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-07-03T23:45:59Z","ref":21,"user":"marlycormar"}
+{"source":"github","type":"pr_merge","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-07-03T23:55:18Z","ref":21,"user":"marlycormar"}
+{"source":"github","type":"pr_open","project_id":"model-implementation-principles","target":"tidymodels/model-implementation-principles","datetime":"2019-07-03T23:55:39Z","ref":22,"user":"topepo"}

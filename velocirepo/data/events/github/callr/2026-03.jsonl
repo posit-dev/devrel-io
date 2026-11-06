@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"callr","target":"r-lib/callr","datetime":"2026-03-10T21:09:26Z","ref":308,"user":"king-of-poppk"}
+{"source":"github","type":"pr_open","project_id":"callr","target":"r-lib/callr","datetime":"2026-03-17T21:02:42Z","ref":309,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"callr","target":"r-lib/callr","datetime":"2026-03-17T21:04:09Z","ref":309,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"callr","target":"r-lib/callr","datetime":"2026-03-17T21:04:14Z","ref":309,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"callr","target":"r-lib/callr","datetime":"2026-03-23T17:59:24Z","ref":172,"user":"danielrode"}

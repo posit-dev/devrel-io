@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T22:20:17Z","ref":7,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T22:30:57Z","ref":8,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T22:36:18Z","ref":7,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T22:37:36Z","ref":8,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_open","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T23:02:36Z","ref":9,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-14T23:51:27Z","ref":10,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-22T00:32:18Z","ref":10,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_close","project_id":"debrief","target":"r-lib/debrief","datetime":"2026-04-22T00:32:19Z","ref":9,"user":"EmilHvitfeldt"}

@@ -1,0 +1,12 @@
+{"source":"github","type":"issue_open","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-05T18:11:16Z","ref":811,"user":"JosiahParry"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-12T17:01:17Z","ref":811,"user":"JohnnyLagneau"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-17T18:05:00Z","ref":778,"user":"LiNk-NY"}
+{"source":"github","type":"pr_merge","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T17:06:57Z","ref":776,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T17:07:02Z","ref":776,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:26:22Z","ref":809,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:33:34Z","ref":803,"user":"mcol"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:33:34Z","ref":803,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:37:56Z","ref":782,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:38:02Z","ref":782,"user":"mcol"}
+{"source":"github","type":"issue_close","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:38:03Z","ref":783,"user":"mcol"}
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-03-31T18:43:33Z","ref":786,"user":"gaborcsardi"}

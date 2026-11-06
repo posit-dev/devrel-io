@@ -1,0 +1,7 @@
+{"source":"github","type":"pr_open","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-13T06:21:25Z","ref":565,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-13T06:30:06Z","ref":565,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-13T06:45:08Z","ref":566,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-13T07:12:45Z","ref":566,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-14T02:39:43Z","ref":567,"user":"github-actions"}
+{"source":"github","type":"pr_merge","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-14T02:47:44Z","ref":567,"user":"github-actions"}
+{"source":"github","type":"comment","project_id":"dbi","target":"r-dbi/DBI","datetime":"2026-01-23T21:01:44Z","ref":551,"user":"shikokuchuo"}

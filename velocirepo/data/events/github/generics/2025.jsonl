@@ -1,0 +1,4 @@
+{"source":"github","type":"issue_open","project_id":"generics","target":"r-lib/generics","datetime":"2025-05-09T17:51:49Z","ref":80,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"generics","target":"r-lib/generics","datetime":"2025-05-10T14:13:58Z","ref":80,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"generics","target":"r-lib/generics","datetime":"2025-10-20T09:29:11Z","user":"jeroenjanssens"}
+{"source":"github","type":"pr_open","project_id":"generics","target":"r-lib/generics","datetime":"2025-10-20T11:30:28Z","ref":81,"user":"jeroenjanssens"}

@@ -1,0 +1,15 @@
+{"source":"github","type":"issue_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-10T14:41:00Z","ref":1,"user":"topepo"}
+{"source":"github","type":"issue_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-10T15:23:28Z","ref":2,"user":"topepo"}
+{"source":"github","type":"issue_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-17T11:05:33Z","ref":3,"user":"marlycormar"}
+{"source":"github","type":"issue_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-19T18:34:03Z","ref":4,"user":"marlycormar"}
+{"source":"github","type":"issue_close","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-22T14:22:24Z","ref":4,"user":"marlycormar"}
+{"source":"github","type":"comment","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-22T14:22:24Z","ref":4,"user":"topepo"}
+{"source":"github","type":"issue_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-26T00:42:00Z","ref":5,"user":"marlycormar"}
+{"source":"github","type":"issue_close","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-26T02:33:52Z","ref":3,"user":"marlycormar"}
+{"source":"github","type":"comment","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-07-26T02:33:52Z","ref":3,"user":"marlycormar"}
+{"source":"github","type":"issue_close","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-08-02T04:09:11Z","ref":5,"user":"marlycormar"}
+{"source":"github","type":"comment","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-08-02T04:09:11Z","ref":5,"user":"marlycormar"}
+{"source":"github","type":"fork","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-09-15T07:05:54Z","user":"marlycormar"}
+{"source":"github","type":"pr_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-10-08T15:59:54Z","ref":6,"user":"topepo"}
+{"source":"github","type":"pr_merge","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-10-09T01:32:23Z","ref":6,"user":"topepo"}
+{"source":"github","type":"pr_open","project_id":"applicable","target":"tidymodels/applicable","datetime":"2019-10-12T18:32:10Z","ref":7,"user":"marlycormar"}

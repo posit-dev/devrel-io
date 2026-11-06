@@ -1,0 +1,14 @@
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T01:00:41Z","ref":1052,"user":"cscheid"}
+{"source":"github","type":"issue_close","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T01:00:43Z","ref":1026,"user":"mcanouil"}
+{"source":"github","type":"issue_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T11:33:20Z","ref":1053,"user":"amol-"}
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T14:01:27Z","ref":1054,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T14:01:55Z","ref":1054,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T15:45:06Z","ref":1054,"user":"cscheid"}
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T16:15:25Z","ref":1055,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T16:16:03Z","ref":1055,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T20:29:18Z","ref":1056,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T20:29:44Z","ref":1056,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T21:42:30Z","ref":1056,"user":"cscheid"}
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T22:22:17Z","ref":1057,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T22:22:50Z","ref":1057,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-04T23:10:10Z","ref":1057,"user":"cscheid"}

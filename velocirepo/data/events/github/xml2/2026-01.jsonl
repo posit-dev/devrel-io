@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_close","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-17T13:06:50Z","ref":456,"user":"arnejohannesholmin"}
+{"source":"github","type":"comment","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-17T13:06:51Z","ref":456,"user":"jeroen"}
+{"source":"github","type":"comment","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-19T10:10:57Z","ref":472,"user":"jeroen"}
+{"source":"github","type":"comment","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-20T01:15:11Z","ref":454,"user":"MichaelChirico"}
+{"source":"github","type":"pr_open","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-20T17:38:27Z","ref":473,"user":"MichaelChirico"}
+{"source":"github","type":"pr_merge","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-20T18:02:46Z","ref":473,"user":"MichaelChirico"}
+{"source":"github","type":"comment","project_id":"xml2","target":"r-lib/xml2","datetime":"2026-01-20T18:04:12Z","ref":473,"user":"jeroen"}

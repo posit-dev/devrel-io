@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2026-04-20T16:53:32Z","ref":41,"user":"schloerke"}
+{"source":"github","type":"fork","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2026-04-20T16:55:19Z","user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2026-04-20T16:55:56Z","ref":42,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2026-04-20T16:57:33Z","ref":42,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2026-04-20T16:57:35Z","ref":41,"user":"schloerke"}

@@ -1,0 +1,17 @@
+{"source":"github","type":"issue_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-03T19:11:52Z","ref":465,"user":"jkylearmstrong-temple"}
+{"source":"github","type":"fork","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-04T16:35:19Z","user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-04T16:35:43Z","ref":466,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-04T17:16:47Z","ref":467,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-04T17:16:57Z","ref":466,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-04T18:42:39Z","ref":466,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-08T18:42:54Z","ref":468,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-08T19:04:10Z","ref":466,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-09T13:56:33Z","ref":468,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-09T13:56:38Z","ref":468,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-15T14:38:20Z","ref":462,"user":"jeroen"}
+{"source":"github","type":"issue_close","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-16T08:34:49Z","ref":462,"user":"JBGruber"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-16T08:55:21Z","ref":462,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-16T10:28:16Z","ref":462,"user":"jeroen"}
+{"source":"github","type":"pr_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-18T13:37:06Z","ref":469,"user":"copilot-swe-agent"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-18T13:44:16Z","ref":469,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-06-18T15:35:37Z","ref":470,"user":"gaborcsardi"}

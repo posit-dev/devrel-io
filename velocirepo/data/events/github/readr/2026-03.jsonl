@@ -1,0 +1,14 @@
+{"source":"github","type":"issue_open","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-05T22:10:08Z","ref":1619,"user":"tnwillia"}
+{"source":"github","type":"issue_close","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-05T22:24:22Z","ref":1619,"user":"tnwillia"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-05T22:24:22Z","ref":1619,"user":"jennybc"}
+{"source":"github","type":"issue_open","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-07T11:40:15Z","ref":1620,"user":"Henning-Lenz"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-09T18:24:40Z","ref":1620,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-10T05:13:31Z","ref":1620,"user":"Henning-Lenz"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-10T05:51:53Z","ref":1620,"user":"Henning-Lenz"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T15:56:01Z","ref":1562,"user":"tjmahr"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T17:54:42Z","ref":1562,"user":"bbolker"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T18:00:41Z","ref":1562,"user":"tjmahr"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T18:04:16Z","ref":1562,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T18:05:54Z","ref":1562,"user":"bbolker"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-18T19:32:02Z","ref":1562,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"readr","target":"tidyverse/readr","datetime":"2026-03-20T01:30:58Z","ref":1562,"user":"hadley"}

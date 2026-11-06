@@ -1,0 +1,13 @@
+{"source":"github","type":"pr_open","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-01T16:21:53Z","ref":101,"user":"mine-cetinkaya-rundel"}
+{"source":"github","type":"fork","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-04T17:10:19Z","user":"gayol-openrxiv"}
+{"source":"github","type":"pr_open","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-04T17:16:45Z","ref":102,"user":"gayol-openrxiv"}
+{"source":"github","type":"comment","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-05T14:03:23Z","ref":102,"user":"mine-cetinkaya-rundel"}
+{"source":"github","type":"pr_merge","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-05T14:03:28Z","ref":102,"user":"gayol-openrxiv"}
+{"source":"github","type":"pr_merge","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-12T19:41:09Z","ref":101,"user":"mine-cetinkaya-rundel"}
+{"source":"github","type":"fork","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T14:52:54Z","user":"mhausinger"}
+{"source":"github","type":"issue_open","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T15:06:50Z","ref":103,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T15:11:17Z","ref":104,"user":"mhausinger"}
+{"source":"github","type":"pr_merge","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T15:12:51Z","ref":104,"user":"mhausinger"}
+{"source":"github","type":"comment","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T15:12:58Z","ref":104,"user":"mine-cetinkaya-rundel"}
+{"source":"github","type":"fork","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-17T16:35:17Z","user":"jonthegeek"}
+{"source":"github","type":"issue_open","project_id":"tidy-dev-day","target":"tidyverse/tidy-dev-day","datetime":"2026-09-21T15:19:01Z","ref":105,"user":"hadley"}

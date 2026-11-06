@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"downloader","target":"wch/downloader","datetime":"2013-03-03T11:41:03Z","ref":1,"user":"sgibb"}
+{"source":"github","type":"pr_open","project_id":"downloader","target":"wch/downloader","datetime":"2013-03-03T11:44:04Z","ref":2,"user":"sgibb"}
+{"source":"github","type":"issue_close","project_id":"downloader","target":"wch/downloader","datetime":"2013-03-03T20:23:28Z","ref":1,"user":"sgibb"}
+{"source":"github","type":"pr_merge","project_id":"downloader","target":"wch/downloader","datetime":"2013-03-03T20:23:28Z","ref":2,"user":"sgibb"}
+{"source":"github","type":"comment","project_id":"downloader","target":"wch/downloader","datetime":"2013-03-03T20:23:52Z","ref":1,"user":"wch"}

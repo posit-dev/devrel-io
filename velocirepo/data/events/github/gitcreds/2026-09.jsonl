@@ -1,0 +1,14 @@
+{"source":"github","type":"comment","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-02T09:52:55Z","ref":61,"user":"gaborcsardi"}
+{"source":"github","type":"issue_open","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-02T10:58:40Z","ref":75,"user":"rstub"}
+{"source":"github","type":"fork","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-17T20:01:25Z","user":"SokolovAnatoliy"}
+{"source":"github","type":"pr_open","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-17T20:04:50Z","ref":76,"user":"SokolovAnatoliy"}
+{"source":"github","type":"pr_open","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-17T20:05:40Z","ref":77,"user":"SokolovAnatoliy"}
+{"source":"github","type":"pr_open","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-17T20:05:41Z","ref":78,"user":"SokolovAnatoliy"}
+{"source":"github","type":"comment","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:13:26Z","ref":72,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:28:35Z","ref":76,"user":"SokolovAnatoliy"}
+{"source":"github","type":"comment","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:28:40Z","ref":76,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:40:37Z","ref":77,"user":"SokolovAnatoliy"}
+{"source":"github","type":"comment","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:40:45Z","ref":77,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:43:00Z","ref":78,"user":"SokolovAnatoliy"}
+{"source":"github","type":"issue_close","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:43:01Z","ref":56,"user":"dgkf-roche"}
+{"source":"github","type":"comment","project_id":"gitcreds","target":"r-lib/gitcreds","datetime":"2026-09-24T16:43:05Z","ref":78,"user":"gaborcsardi"}

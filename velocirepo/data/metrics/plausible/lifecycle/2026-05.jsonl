@@ -1,0 +1,756 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":48}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":41}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":41}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":43,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":38,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":38,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-01","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":25}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":19}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":19}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":22,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":18,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":18,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-02","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":41}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":28}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":28}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":31,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":25,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":25,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-03","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":70}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":48}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":49}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":7,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":8,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":8,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":8,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":8,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":4,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":5,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":37,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":36,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":36,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":5,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-04","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":76}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":61}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":63}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":67,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":58,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":60,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-05","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":85}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":67}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":68}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":68,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":62,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":63,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":4,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-06","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":84}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":72}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":73}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":6,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":72,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":64,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":65,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-07","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":68}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":50}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":50}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":51,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":3,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-08","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":17}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":16}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":16}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":15,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":14,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":14,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-09","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":41}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":28}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":28}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/LICENSE.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/LICENSE.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/LICENSE.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":27,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":23,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":23,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":4,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-10","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":74}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":48}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":51}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":59,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":47,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":50,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":3,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":2,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":4,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-11","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":86}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":68}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":72}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":75,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":60,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":63,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":3,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":3,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-12","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":65}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":52}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":53}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":52,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":2,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-13","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":59}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":38}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":40}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":10,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":6,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":8,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":34,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":31,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":31,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":4,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":3,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-14","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":58}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":41}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":44}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":8,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":4,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":5,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":43,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":36,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":38,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-15","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":22}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":17}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":20}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":4,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":4,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":16,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":14,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-16","value":14,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":35}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":28}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":29}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":31,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":24,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":25,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-17","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":65}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":58}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":58}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":6,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":5,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":5,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":57,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":53,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-18","value":53,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":98}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":64}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":67}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":4,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":79,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":62,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":65,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":5,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":3,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/signal_stage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/signal_stage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/signal_stage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-19","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":44}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":42}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":42}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":40,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":39,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":39,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":2,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-20","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":60}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":54}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":54}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":5,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":4,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":50,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-21","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":41}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":31}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":31}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":34,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":29,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":29,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":2,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-22","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":25}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":24}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":24}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":22,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":21,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-23","value":21,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":31}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":30}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":31}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":28,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":27,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-24","value":28,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":42}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":31}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":32}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":2,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":2,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":2,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":28,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":27,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":28,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/expect_deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":3,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/lifecycle_linter.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-25","value":1,"extra":{"page":"/reference/verbosity.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":51}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":48}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":49}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":43,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":44,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-26","value":2,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":59}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":54}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":55}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":2,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":53,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":50,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":50,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-27","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":74}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":55}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":56}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/news/articles/articles/articles/reference/reference/news/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/news/articles/articles/articles/reference/reference/news/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/news/articles/articles/articles/reference/reference/news/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/news/articles/news/articles/articles/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/news/articles/news/articles/articles/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/news/articles/news/articles/articles/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/articles/news/articles/articles/articles/reference/articles/articles/news/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/articles/news/articles/articles/articles/reference/articles/articles/news/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/articles/news/articles/articles/articles/reference/articles/articles/news/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/articles/news/news/reference/reference/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/articles/news/news/reference/reference/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/articles/news/news/reference/reference/news/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/articles/news/reference/news/news/reference/articles/articles/news/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/articles/news/reference/news/news/reference/articles/articles/news/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/articles/news/reference/news/news/reference/articles/articles/news/news/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/articles/articles/articles/news/articles/reference/reference/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/articles/articles/articles/news/articles/reference/reference/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/articles/articles/articles/news/articles/reference/reference/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/articles/news/articles/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/articles/news/articles/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/articles/news/articles/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/articles/news/reference/articles/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/articles/news/reference/articles/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/articles/news/reference/articles/reference/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/news/articles/articles/articles/articles/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/news/articles/articles/articles/articles/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/articles/reference/news/news/articles/articles/articles/articles/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/reference/reference/articles/news/news/articles/reference/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/reference/reference/articles/news/news/articles/reference/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/reference/reference/articles/news/news/articles/reference/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/stages"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/stages"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/articles/stages"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":54,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":40,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":41,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/deprecated.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-28","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":100}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":78}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":80}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":9,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":6,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":6,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/articles/news/articles/reference/reference/reference/news/reference/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/articles/news/articles/reference/reference/reference/news/reference/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/articles/news/articles/reference/reference/reference/news/reference/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/articles/reference/news/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/articles/reference/news/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/articles/reference/news/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/news/news/reference/articles/news/articles/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/news/news/reference/articles/news/articles/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/news/reference/articles/news/news/reference/articles/news/articles/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/reference/articles/articles/reference/news/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/reference/articles/articles/reference/news/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/articles/reference/articles/articles/reference/news/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/articles/articles/articles/reference/articles/news/articles/news/news/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/articles/articles/articles/reference/articles/news/articles/news/news/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/news/articles/articles/articles/reference/articles/news/articles/news/news/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/articles/articles/articles/news/reference/articles/news/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/articles/articles/articles/news/reference/articles/news/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/articles/reference/articles/articles/articles/news/reference/articles/news/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/reference/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/reference/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/articles/reference/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/news/reference/articles/articles/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/news/reference/articles/articles/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/news/reference/articles/news/reference/articles/articles/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/news/news/articles/reference/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/news/news/articles/reference/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/news/news/articles/reference/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/reference/news/reference/reference/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/reference/news/reference/reference/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/articles/reference/news/reference/reference/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/news/articles/articles/articles/news/articles/articles/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/news/articles/articles/articles/news/articles/articles/news/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/news/reference/news/articles/articles/articles/news/articles/articles/news/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/articles/reference/articles/news/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/articles/reference/articles/news/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/articles/reference/articles/news/articles/articles/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/news/articles/articles/news/news/articles/reference/reference/articles/reference/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/news/articles/articles/news/news/articles/reference/reference/articles/reference/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/news/articles/articles/news/news/articles/reference/reference/articles/reference/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/articles/articles/articles/news/articles/news/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/articles/articles/articles/news/articles/news/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/articles/articles/articles/news/articles/news/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/news/articles/news/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/news/articles/news/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/articles/news/news/articles/news/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/news/news/reference/articles/reference/news/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/news/news/reference/articles/reference/news/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/articles/reference/news/reference/news/news/reference/articles/reference/news/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/articles/news/reference/articles/articles/articles/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/articles/news/reference/articles/articles/articles/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/articles/news/reference/articles/articles/articles/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/articles/reference/articles/articles/news/reference/articles/news/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/articles/reference/articles/articles/news/reference/articles/news/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/articles/reference/articles/articles/news/reference/articles/news/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/news/articles/articles/articles/reference/articles/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/news/articles/articles/articles/reference/articles/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/news/news/articles/articles/articles/reference/articles/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/reference/news/articles/articles/reference/reference/reference/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/reference/news/articles/articles/reference/reference/reference/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/news/reference/news/articles/articles/reference/reference/reference/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/articles/reference/articles/articles/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/articles/reference/articles/articles/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/articles/reference/articles/articles/news/articles/articles/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/reference/news/reference/news/articles/reference/news/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/reference/news/reference/news/articles/reference/news/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/articles/reference/reference/news/reference/news/articles/reference/news/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/articles/articles/news/news/news/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/articles/articles/news/news/news/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/articles/articles/news/news/news/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/articles/articles/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/articles/articles/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/articles/articles/news/reference/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/articles/reference/articles/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/news/reference/reference/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/news/reference/reference/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/articles/news/reference/reference/articles/news/reference/articles/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/reference/reference/articles/news/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/reference/reference/articles/news/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/news/reference/reference/reference/articles/news/news/reference/articles/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/articles/reference/articles/articles/news/news/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/articles/reference/articles/articles/news/news/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/articles/reference/articles/articles/news/news/reference/articles/news/reference/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/articles/reference/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/articles/reference/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/articles/reference/reference/articles/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/reference/articles/news/reference/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/reference/articles/news/reference/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/articles/reference/reference/articles/news/reference/articles/news/reference/articles/news/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/articles/articles/articles/news/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/articles/articles/articles/news/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/articles/articles/articles/news/articles/news/reference/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/news/reference/news/articles/news/reference/reference/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/news/reference/news/articles/news/reference/reference/articles/articles/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/articles/news/reference/news/articles/news/reference/reference/articles/articles/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/reference/reference/articles/articles/articles/reference/news/news/news"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/reference/reference/articles/articles/articles/reference/news/news/news"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/articles/news/reference/articles/reference/reference/articles/articles/articles/reference/news/news/news"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/news/news/articles/news/news/reference/news/articles/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/news/news/articles/news/news/reference/news/articles/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/news/news/articles/news/news/reference/news/articles/reference/news/reference/articles"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/reference/articles/news/news/news/reference/news/news/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/reference/articles/news/news/news/reference/news/news/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/, https:/github.com/r-lib/reference/articles/news/news/news/reference/news/news/news/news/news/reference/reference"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":3,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/articles/manage.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":48,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":38,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":39,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/news/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/badge.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-29","value":1,"extra":{"page":"/reference/last_lifecycle_warnings.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":25}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":20}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":20}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":22,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":18,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":18,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-30","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":20}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":19}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":19}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":18,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":17,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-05-31","value":17,"extra":{"page":"/articles/stages.html"}}

@@ -1,0 +1,16 @@
+{"source":"github","type":"issue_close","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-03-14T14:54:49Z","ref":21,"user":"mattwarkentin"}
+{"source":"github","type":"pr_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-11-01T16:54:52Z","ref":23,"user":"schloerke"}
+{"source":"github","type":"pr_merge","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-11-01T17:09:03Z","ref":23,"user":"schloerke"}
+{"source":"github","type":"issue_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-13T23:20:32Z","ref":24,"user":"stla"}
+{"source":"github","type":"issue_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-13T23:30:40Z","ref":25,"user":"stla"}
+{"source":"github","type":"comment","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-19T18:37:39Z","ref":24,"user":"wch"}
+{"source":"github","type":"comment","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-21T05:38:13Z","ref":25,"user":"wch"}
+{"source":"github","type":"comment","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-21T05:40:03Z","ref":24,"user":"wch"}
+{"source":"github","type":"comment","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-21T10:51:39Z","ref":25,"user":"stla"}
+{"source":"github","type":"pr_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T18:46:27Z","ref":26,"user":"wch"}
+{"source":"github","type":"pr_merge","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T19:01:11Z","ref":26,"user":"wch"}
+{"source":"github","type":"issue_close","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T19:01:12Z","ref":24,"user":"stla"}
+{"source":"github","type":"issue_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T22:07:24Z","ref":27,"user":"wch"}
+{"source":"github","type":"pr_open","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T22:14:44Z","ref":28,"user":"wch"}
+{"source":"github","type":"pr_merge","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T22:17:24Z","ref":28,"user":"wch"}
+{"source":"github","type":"issue_close","project_id":"fastmap","target":"r-lib/fastmap","datetime":"2022-12-23T22:17:25Z","ref":27,"user":"wch"}

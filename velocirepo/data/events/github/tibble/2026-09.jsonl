@@ -1,0 +1,14 @@
+{"source":"github","type":"fork","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-08T19:51:26Z","user":"sims1253"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-09T08:59:39Z","ref":1697,"user":"sims1253"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-12T17:55:58Z","ref":1698,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-12T17:56:27Z","ref":1698,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-13T05:35:09Z","ref":1699,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-13T09:32:45Z","ref":1700,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-13T19:14:33Z","ref":1701,"user":"krlmlr"}
+{"source":"github","type":"comment","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-13T20:44:24Z","ref":1700,"user":"github-actions[bot]"}
+{"source":"github","type":"comment","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-14T05:55:19Z","ref":1701,"user":"github-actions[bot]"}
+{"source":"github","type":"issue_close","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-24T11:56:12Z","ref":1664,"user":"billdenney"}
+{"source":"github","type":"pr_merge","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-26T15:01:03Z","ref":1700,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-26T15:15:52Z","ref":1699,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-26T19:48:00Z","ref":1702,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"tibble","target":"tidyverse/tibble","datetime":"2026-09-27T07:21:43Z","ref":1702,"user":"krlmlr"}

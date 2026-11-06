@@ -1,0 +1,7 @@
+{"source":"github","type":"pr_open","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-06T19:36:43Z","ref":2,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-06T22:09:35Z","ref":2,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-19T19:45:02Z","ref":3,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-19T19:48:46Z","ref":3,"user":"simonpcouch"}
+{"source":"github","type":"issue_close","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-27T21:58:21Z","ref":1,"user":"skaltman"}
+{"source":"github","type":"pr_open","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-27T23:34:31Z","ref":4,"user":"skaltman"}
+{"source":"github","type":"pr_merge","project_id":"clinical-trials-agent","target":"posit-dev/clinical-trials-agent","datetime":"2026-08-27T23:34:47Z","ref":4,"user":"skaltman"}

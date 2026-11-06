@@ -1,0 +1,14 @@
+{"source":"github","type":"pr_open","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-09T12:10:09Z","ref":100,"user":"jeroenjanssens"}
+{"source":"github","type":"pr_merge","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-14T13:41:23Z","ref":100,"user":"jeroenjanssens"}
+{"source":"github","type":"comment","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-16T13:21:28Z","ref":99,"user":"hfrick"}
+{"source":"github","type":"issue_close","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-16T23:52:52Z","ref":99,"user":"RoelVerbelen"}
+{"source":"github","type":"comment","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-16T23:52:52Z","ref":99,"user":"RoelVerbelen"}
+{"source":"github","type":"issue_open","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-19T12:33:05Z","ref":101,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-19T16:05:49Z","ref":102,"user":"hfrick"}
+{"source":"github","type":"pr_merge","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-19T16:15:32Z","ref":102,"user":"hfrick"}
+{"source":"github","type":"issue_close","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-19T16:15:33Z","ref":61,"user":"hfrick"}
+{"source":"github","type":"comment","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-19T16:47:36Z","ref":15,"user":"hfrick"}
+{"source":"github","type":"issue_open","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-20T11:48:40Z","ref":103,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-20T12:08:03Z","ref":104,"user":"hfrick"}
+{"source":"github","type":"pr_merge","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-20T13:43:01Z","ref":104,"user":"hfrick"}
+{"source":"github","type":"issue_close","project_id":"poissonreg","target":"tidymodels/poissonreg","datetime":"2026-04-20T13:43:03Z","ref":103,"user":"hfrick"}

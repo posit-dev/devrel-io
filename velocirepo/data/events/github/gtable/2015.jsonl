@@ -1,0 +1,6 @@
+{"source":"github","type":"issue_open","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-02-18T09:10:34Z","ref":47,"user":"thomasp85"}
+{"source":"github","type":"issue_open","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-07-14T09:38:39Z","ref":48,"user":"GiBacci"}
+{"source":"github","type":"pr_open","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-07-18T22:18:15Z","ref":49,"user":"baptiste"}
+{"source":"github","type":"pr_merge","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-07-21T15:45:01Z","ref":49,"user":"baptiste"}
+{"source":"github","type":"comment","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-07-21T15:45:05Z","ref":49,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"gtable","target":"r-lib/gtable","datetime":"2015-07-26T23:53:07Z","ref":50,"user":"pmur002"}

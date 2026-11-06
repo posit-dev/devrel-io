@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_open","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T18:52:41Z","ref":18,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T18:55:45Z","ref":19,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T19:18:26Z","ref":18,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T19:19:42Z","ref":17,"user":"gorkang"}
+{"source":"github","type":"comment","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T19:19:42Z","ref":17,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T20:54:00Z","ref":19,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"diffviewer","target":"r-lib/diffviewer","datetime":"2023-10-30T20:54:01Z","ref":14,"user":"jennybc"}
