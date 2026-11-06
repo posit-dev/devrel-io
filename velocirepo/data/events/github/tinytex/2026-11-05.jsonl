@@ -1,0 +1,4 @@
+{"source":"github","type":"issue_close","project_id":"tinytex","target":"rstudio/tinytex","datetime":"2026-11-05T20:04:55Z","ref":512,"user":"jiedxu"}
+{"source":"github","type":"comment","project_id":"tinytex","target":"rstudio/tinytex","datetime":"2026-11-05T20:06:06Z","ref":512,"user":"yihui"}
+{"source":"github","type":"pr_open","project_id":"tinytex","target":"rstudio/tinytex","datetime":"2026-11-05T20:09:40Z","ref":525,"user":"github-actions"}
+{"source":"github","type":"pr_merge","project_id":"tinytex","target":"rstudio/tinytex","datetime":"2026-11-05T20:20:44Z","ref":525,"user":"github-actions"}

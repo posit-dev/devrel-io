@@ -1,0 +1,17 @@
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T01:03:30Z","ref":454,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T01:16:04Z","ref":455,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T03:59:11Z","ref":456,"user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T04:51:51Z","ref":457,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T12:44:37Z","ref":453,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T15:42:16Z","ref":458,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T15:46:27Z","ref":459,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T15:51:29Z","ref":460,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T16:45:02Z","ref":461,"user":"gadenbuie"}
+{"source":"github","type":"pr_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T17:22:37Z","ref":463,"user":"gadenbuie"}
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:17:11Z","ref":464,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:18:00Z","ref":455,"user":"cpsievert"}
+{"source":"github","type":"issue_open","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:18:07Z","ref":465,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:43:20Z","ref":455,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:43:22Z","ref":454,"user":"cpsievert"}
+{"source":"github","type":"pr_merge","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:45:43Z","ref":457,"user":"cpsievert"}
+{"source":"github","type":"issue_close","project_id":"shinychat","target":"posit-dev/shinychat","datetime":"2026-11-05T18:45:44Z","ref":456,"user":"cpsievert"}

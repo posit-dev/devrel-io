@@ -1,0 +1,7 @@
+{"source":"github","type":"pr_open","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T06:16:01Z","ref":506,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T12:51:52Z","ref":506,"user":"dependabot"}
+{"source":"github","type":"issue_open","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T14:09:53Z","ref":507,"user":"tdstein"}
+{"source":"github","type":"pr_open","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T14:18:48Z","ref":508,"user":"tdstein"}
+{"source":"github","type":"comment","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T14:19:22Z","ref":508,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T14:30:42Z","ref":508,"user":"tdstein"}
+{"source":"github","type":"issue_close","project_id":"posit-sdk-py","target":"posit-dev/posit-sdk-py","datetime":"2026-11-05T14:30:44Z","ref":507,"user":"tdstein"}

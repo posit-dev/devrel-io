@@ -1,27 +1,6 @@
 {
   "findings": [
     {
-      "id": "ab0845478c3c",
-      "check": "reconcile.totals",
-      "severity": "warning",
-      "source": "github",
-      "project": "assistant-feedback",
-      "target": "posit-dev/assistant-feedback",
-      "key": "issue_open",
-      "message": "the API reports 12 issues opened, against 9 stored (missing data; tolerance 2)",
-      "since": "2026-11-05"
-    },
-    {
-      "id": "da58f928982f",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "assistant-feedback",
-      "target": "posit-dev/assistant-feedback",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-02"
-    },
-    {
       "id": "e7898dea914c",
       "check": "data.volume",
       "severity": "warning",
