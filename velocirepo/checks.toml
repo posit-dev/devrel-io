@@ -1,3 +1,7 @@
 [[accept]]
 id = "952675f07b21"
 reason = "Two bot comments posted in the same second"
+
+[[accept]]
+id = "aad8242ac7f0"
+reason = "Two pairs of bot comments on posit-dev/connect-actions#103, posted in the same second"
