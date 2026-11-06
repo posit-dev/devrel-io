@@ -1,0 +1,14 @@
+{"source":"github","type":"pr_open","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-24T17:24:40Z","ref":41,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-24T17:57:12Z","ref":41,"user":"t-kalinowski"}
+{"source":"github","type":"issue_open","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-24T18:00:58Z","ref":42,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-24T19:39:13Z","ref":42,"user":"t-kalinowski"}
+{"source":"github","type":"issue_open","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-25T11:54:35Z","ref":43,"user":"ggrothendieck"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-25T13:23:50Z","ref":39,"user":"ggrothendieck"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-25T16:06:35Z","ref":39,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-25T16:36:08Z","ref":39,"user":"ggrothendieck"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-25T16:54:32Z","ref":39,"user":"ggrothendieck"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-26T16:00:09Z","ref":39,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-26T18:40:57Z","ref":43,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-27T13:51:51Z","ref":39,"user":"ggrothendieck"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-27T16:49:08Z","ref":39,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"rapp","target":"r-lib/Rapp","datetime":"2026-08-29T15:42:31Z","ref":39,"user":"ggrothendieck"}

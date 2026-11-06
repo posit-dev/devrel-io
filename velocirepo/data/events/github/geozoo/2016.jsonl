@@ -1,0 +1,10 @@
+{"source":"github","type":"pr_open","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-06T18:42:40Z","ref":3,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-11T20:12:55Z","ref":3,"user":"lintr-bot"}
+{"source":"github","type":"comment","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-11T20:13:05Z","ref":3,"user":"codecov-io"}
+{"source":"github","type":"pr_merge","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T03:45:14Z","ref":3,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T03:47:54Z","ref":1,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T03:47:54Z","ref":1,"user":"schloerke"}
+{"source":"github","type":"issue_close","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T03:49:25Z","ref":2,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T03:49:25Z","ref":2,"user":"schloerke"}
+{"source":"github","type":"pr_open","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T04:37:27Z","ref":4,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"geozoo","target":"schloerke/geozoo","datetime":"2016-01-12T04:43:45Z","ref":4,"user":"codecov-io"}

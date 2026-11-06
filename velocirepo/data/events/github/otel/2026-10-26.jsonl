@@ -1,0 +1,11 @@
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T11:11:38Z","ref":18,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T11:30:03Z","ref":17,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T11:30:03Z","ref":17,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T13:07:52Z","ref":35,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T13:34:28Z","ref":30,"user":"shikokuchuo"}
+{"source":"github","type":"comment","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T13:46:08Z","ref":38,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T14:15:06Z","ref":53,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T14:18:59Z","ref":46,"user":"lukakoning"}
+{"source":"github","type":"comment","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T14:18:59Z","ref":46,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T15:00:27Z","ref":53,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otel","target":"r-lib/otel","datetime":"2026-10-26T15:00:29Z","ref":45,"user":"JosiahParry"}

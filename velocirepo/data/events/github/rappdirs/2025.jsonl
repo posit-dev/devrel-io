@@ -1,0 +1,13 @@
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T07:49:19Z","ref":42,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T07:49:32Z","ref":42,"user":"trevorld"}
+{"source":"github","type":"issue_open","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T08:07:00Z","ref":49,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T08:07:19Z","ref":41,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T08:07:19Z","ref":41,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-05T08:56:52Z","ref":48,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-07T11:05:11Z","ref":50,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-07T11:22:45Z","ref":50,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-05-07T11:22:46Z","ref":49,"user":"gaborcsardi"}
+{"source":"github","type":"fork","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-10-20T09:23:56Z","user":"jeroenjanssens"}
+{"source":"github","type":"pr_open","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-10-20T11:33:06Z","ref":51,"user":"jeroenjanssens"}
+{"source":"github","type":"pr_merge","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-10-21T07:01:30Z","ref":51,"user":"jeroenjanssens"}
+{"source":"github","type":"comment","project_id":"rappdirs","target":"r-lib/rappdirs","datetime":"2025-10-21T07:01:33Z","ref":51,"user":"gaborcsardi"}

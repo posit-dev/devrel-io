@@ -1,0 +1,6 @@
+{"source":"github","type":"issue_open","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-09-21T21:31:23Z","ref":1,"user":"lianos"}
+{"source":"github","type":"issue_close","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-11-08T03:14:11Z","ref":1,"user":"lianos"}
+{"source":"github","type":"comment","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-11-08T03:14:11Z","ref":1,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-11-08T21:35:54Z","ref":2,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-11-15T08:42:12Z","user":"kohske"}
+{"source":"github","type":"fork","project_id":"devtools","target":"r-lib/devtools","datetime":"2010-12-21T11:43:20Z","user":"ALFIO"}

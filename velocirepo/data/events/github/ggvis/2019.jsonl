@@ -1,0 +1,10 @@
+{"source":"github","type":"issue_open","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-01-06T15:22:20Z","ref":480,"user":"javadba"}
+{"source":"github","type":"issue_close","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-01-06T16:11:34Z","ref":480,"user":"javadba"}
+{"source":"github","type":"comment","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-03-18T18:34:08Z","ref":440,"user":"shirewoman2"}
+{"source":"github","type":"issue_close","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-04-12T17:58:17Z","ref":459,"user":"nephantes"}
+{"source":"github","type":"issue_close","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-04-12T17:58:23Z","ref":452,"user":"nephantes"}
+{"source":"github","type":"pr_open","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-07-08T13:01:05Z","ref":481,"user":"charliejhadley"}
+{"source":"github","type":"fork","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-08-04T06:44:55Z","user":"rnotonlyr"}
+{"source":"github","type":"fork","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-10-07T11:15:38Z","user":"romainfrancois"}
+{"source":"github","type":"pr_open","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-10-07T11:19:06Z","ref":482,"user":"romainfrancois"}
+{"source":"github","type":"pr_merge","project_id":"ggvis","target":"rstudio/ggvis","datetime":"2019-10-11T21:35:19Z","ref":482,"user":"romainfrancois"}

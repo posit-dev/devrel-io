@@ -1,0 +1,14 @@
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-02-02T14:50:22Z","user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-02-02T14:52:03Z","ref":85,"user":"krlmlr"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-02-02T18:00:29Z","ref":85,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-02-12T15:50:06Z","ref":85,"user":"krlmlr"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-02-12T15:50:07Z","ref":84,"user":"krlmlr"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-03-13T14:12:59Z","ref":86,"user":"gadenbuie"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-03-13T21:25:50Z","ref":86,"user":"gadenbuie"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-03-13T21:25:53Z","ref":86,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-03-28T14:00:13Z","user":"cuartataifa"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-10-17T10:59:39Z","user":"jeroenjanssens"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-10-20T08:56:21Z","ref":87,"user":"jeroenjanssens"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-10-22T22:12:44Z","user":"shikokuchuo"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-10-22T22:19:27Z","ref":88,"user":"shikokuchuo"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2025-10-23T13:09:24Z","ref":88,"user":"shikokuchuo"}

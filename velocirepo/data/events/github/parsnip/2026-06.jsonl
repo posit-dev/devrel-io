@@ -1,0 +1,12 @@
+{"source":"github","type":"pr_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T08:43:29Z","ref":1380,"user":"hfrick"}
+{"source":"github","type":"pr_merge","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T09:21:40Z","ref":1380,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T11:37:40Z","ref":1381,"user":"hfrick"}
+{"source":"github","type":"issue_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T12:18:55Z","ref":1382,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T12:54:44Z","ref":1383,"user":"hfrick"}
+{"source":"github","type":"comment","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T17:35:18Z","ref":1383,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T18:39:25Z","ref":1383,"user":"hfrick"}
+{"source":"github","type":"issue_close","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-16T18:39:26Z","ref":1382,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-22T14:43:45Z","ref":1384,"user":"corybrunson"}
+{"source":"github","type":"issue_close","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-25T10:32:18Z","ref":1281,"user":"EmilHvitfeldt"}
+{"source":"github","type":"comment","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-25T10:32:18Z","ref":1281,"user":"hfrick"}
+{"source":"github","type":"issue_open","project_id":"parsnip","target":"tidymodels/parsnip","datetime":"2026-06-25T10:36:54Z","ref":1385,"user":"hfrick"}

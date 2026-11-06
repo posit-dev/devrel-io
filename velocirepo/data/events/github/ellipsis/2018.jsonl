@@ -1,0 +1,15 @@
+{"source":"github","type":"issue_open","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-08T19:44:24Z","ref":1,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-08T19:52:51Z","ref":2,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-08T21:11:59Z","ref":3,"user":"dinhani"}
+{"source":"github","type":"fork","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-09T17:51:07Z","user":"noamross"}
+{"source":"github","type":"pr_open","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-09T17:53:01Z","ref":4,"user":"noamross"}
+{"source":"github","type":"comment","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-07-13T03:15:01Z","ref":4,"user":"Breza"}
+{"source":"github","type":"fork","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-08-13T16:05:49Z","user":"AmeliaMN"}
+{"source":"github","type":"fork","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-06T10:19:52Z","user":"batpigandme"}
+{"source":"github","type":"pr_open","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-06T10:24:58Z","ref":5,"user":"batpigandme"}
+{"source":"github","type":"comment","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:45:42Z","ref":1,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:46:13Z","ref":4,"user":"noamross"}
+{"source":"github","type":"comment","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:46:16Z","ref":4,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:46:30Z","ref":5,"user":"batpigandme"}
+{"source":"github","type":"comment","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:46:39Z","ref":5,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"ellipsis","target":"r-lib/ellipsis","datetime":"2018-09-07T16:46:51Z","ref":3,"user":"hadley"}

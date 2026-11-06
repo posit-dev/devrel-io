@@ -1,0 +1,14 @@
+{"source":"github","type":"fork","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-02-22T21:55:21Z","user":"dschaadt32"}
+{"source":"github","type":"pr_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-05-03T02:50:34Z","ref":371,"user":"musvaage"}
+{"source":"github","type":"pr_merge","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-05-07T08:28:18Z","ref":371,"user":"musvaage"}
+{"source":"github","type":"comment","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-05-07T08:28:23Z","ref":371,"user":"lionel-"}
+{"source":"github","type":"pr_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-07-07T14:15:49Z","ref":372,"user":"olivroy"}
+{"source":"github","type":"issue_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-09-23T18:49:00Z","ref":373,"user":"DarwinAwardWinner"}
+{"source":"github","type":"comment","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-09-23T18:53:48Z","ref":373,"user":"DarwinAwardWinner"}
+{"source":"github","type":"fork","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-20T09:28:10Z","user":"jeroenjanssens"}
+{"source":"github","type":"pr_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-20T11:34:19Z","ref":374,"user":"jeroenjanssens"}
+{"source":"github","type":"pr_merge","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-20T15:06:43Z","ref":374,"user":"jeroenjanssens"}
+{"source":"github","type":"issue_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-20T15:28:52Z","ref":375,"user":"rubenmartinez9"}
+{"source":"github","type":"issue_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-30T14:46:23Z","ref":376,"user":"DavisVaughan"}
+{"source":"github","type":"issue_open","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-30T15:44:05Z","ref":377,"user":"DavisVaughan"}
+{"source":"github","type":"comment","project_id":"tidyselect","target":"r-lib/tidyselect","datetime":"2025-10-30T15:45:06Z","ref":189,"user":"DavisVaughan"}

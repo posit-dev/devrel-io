@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_open","project_id":"plsmod","target":"tidymodels/plsmod","datetime":"2026-02-10T04:18:04Z","ref":49,"user":"topepo"}
+{"source":"github","type":"pr_merge","project_id":"plsmod","target":"tidymodels/plsmod","datetime":"2026-02-10T04:59:54Z","ref":49,"user":"topepo"}
+{"source":"github","type":"issue_close","project_id":"plsmod","target":"tidymodels/plsmod","datetime":"2026-02-10T04:59:55Z","ref":47,"user":"chris-krohn"}
+{"source":"github","type":"comment","project_id":"plsmod","target":"tidymodels/plsmod","datetime":"2026-02-10T05:01:25Z","ref":47,"user":"topepo"}

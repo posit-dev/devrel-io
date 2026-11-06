@@ -1,0 +1,10 @@
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-01T04:53:27Z","ref":50,"user":"dareneiri"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-01T13:11:19Z","ref":50,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-03T14:47:06Z","ref":51,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-03T15:48:49Z","ref":46,"user":"zdz2101"}
+{"source":"github","type":"comment","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-03T15:48:49Z","ref":46,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-04T18:40:52Z","ref":51,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-04T18:40:53Z","ref":50,"user":"FlxPo"}
+{"source":"github","type":"pr_merge","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-04T18:41:32Z","ref":49,"user":"jeroenjanssens"}
+{"source":"github","type":"issue_open","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-04T18:44:25Z","ref":52,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"log4r","target":"r-lib/log4r","datetime":"2026-08-04T22:50:37Z","ref":52,"user":"hadley"}

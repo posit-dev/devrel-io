@@ -1,0 +1,9 @@
+{"source":"github","type":"issue_open","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-13T17:59:43Z","ref":175,"user":"joranE"}
+{"source":"github","type":"pr_open","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-13T19:15:05Z","ref":176,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-13T20:31:11Z","ref":176,"user":"t-kalinowski"}
+{"source":"github","type":"issue_close","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-13T20:31:12Z","ref":175,"user":"joranE"}
+{"source":"github","type":"comment","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-13T20:31:43Z","ref":175,"user":"t-kalinowski"}
+{"source":"github","type":"pr_open","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-19T10:38:21Z","ref":177,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-19T10:38:26Z","ref":177,"user":"chatgpt-codex-connector[bot]"}
+{"source":"github","type":"comment","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-19T10:38:29Z","ref":177,"user":"chatgpt-codex-connector[bot]"}
+{"source":"github","type":"pr_merge","project_id":"ragnar","target":"tidyverse/ragnar","datetime":"2026-08-19T12:06:12Z","ref":177,"user":"t-kalinowski"}

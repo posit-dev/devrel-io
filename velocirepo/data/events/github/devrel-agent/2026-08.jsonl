@@ -1,0 +1,16 @@
+{"source":"github","type":"issue_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-10T16:03:41Z","ref":3,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-19T05:26:26Z","ref":4,"user":"skaltman"}
+{"source":"github","type":"pr_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-19T06:05:57Z","ref":5,"user":"skaltman"}
+{"source":"github","type":"comment","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-19T13:07:46Z","ref":4,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-19T13:07:55Z","ref":4,"user":"skaltman"}
+{"source":"github","type":"pr_merge","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-19T13:19:50Z","ref":5,"user":"skaltman"}
+{"source":"github","type":"issue_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-21T23:40:15Z","ref":6,"user":"skaltman"}
+{"source":"github","type":"issue_close","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-26T16:11:12Z","ref":3,"user":"simonpcouch"}
+{"source":"github","type":"pr_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-28T15:08:12Z","ref":7,"user":"simonpcouch"}
+{"source":"github","type":"comment","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-28T15:22:04Z","ref":7,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-28T15:23:02Z","ref":7,"user":"simonpcouch"}
+{"source":"github","type":"fork","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-31T21:39:56Z","user":"cpsievert"}
+{"source":"github","type":"pr_open","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-31T21:40:19Z","ref":8,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-31T23:01:23Z","ref":8,"user":"cpsievert"}
+{"source":"github","type":"comment","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-31T23:03:19Z","ref":8,"user":"simonpcouch"}
+{"source":"github","type":"pr_merge","project_id":"devrel-agent","target":"posit-dev/devrel-agent","datetime":"2026-08-31T23:03:25Z","ref":8,"user":"cpsievert"}

@@ -1,0 +1,13 @@
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T04:50:19Z","ref":68,"user":"schloerke"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T04:50:20Z","ref":68,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T04:52:26Z","ref":66,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T04:52:28Z","ref":66,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T04:58:10Z","ref":67,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T05:11:31Z","ref":70,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T05:12:03Z","ref":70,"user":"DavisVaughan"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T05:18:29Z","ref":72,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-01-06T05:20:44Z","ref":72,"user":"DavisVaughan"}
+{"source":"github","type":"issue_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-02-24T18:00:00Z","ref":73,"user":"EmilHvitfeldt"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-06-02T04:29:40Z","user":"EmilHvitfeldt"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-06-10T11:21:19Z","user":"batpigandme"}
+{"source":"github","type":"issue_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2022-09-23T20:31:31Z","ref":74,"user":"hadley"}

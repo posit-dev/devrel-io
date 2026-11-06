@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_open","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T14:54:18Z","ref":346,"user":"hfrick"}
+{"source":"github","type":"pr_open","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T16:15:27Z","ref":347,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_merge","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T16:16:04Z","ref":347,"user":"EmilHvitfeldt"}
+{"source":"github","type":"issue_close","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T16:16:06Z","ref":346,"user":"hfrick"}
+{"source":"github","type":"comment","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T16:16:19Z","ref":346,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T19:10:56Z","ref":348,"user":"github-actions"}
+{"source":"github","type":"pr_merge","project_id":"tidymodels-org","target":"tidymodels/tidymodels.org","datetime":"2026-11-03T19:46:31Z","ref":348,"user":"github-actions"}

@@ -1,0 +1,10 @@
+{"source":"github","type":"fork","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-02T13:32:31Z","user":"slowkow"}
+{"source":"github","type":"pr_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-02T15:38:20Z","ref":399,"user":"slowkow"}
+{"source":"github","type":"issue_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-23T19:50:05Z","ref":400,"user":"jennybc"}
+{"source":"github","type":"pr_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-28T19:32:39Z","ref":401,"user":"jennybc"}
+{"source":"github","type":"issue_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-28T19:50:20Z","ref":402,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-28T20:33:18Z","ref":400,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-28T20:44:42Z","ref":400,"user":"jennybc"}
+{"source":"github","type":"pr_merge","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-29T07:18:57Z","ref":401,"user":"jennybc"}
+{"source":"github","type":"issue_close","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-29T07:18:58Z","ref":402,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-01-29T07:19:02Z","ref":401,"user":"gaborcsardi"}

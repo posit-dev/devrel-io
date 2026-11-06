@@ -1,0 +1,15 @@
+{"source":"github","type":"issue_open","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-09T18:07:50Z","ref":304,"user":"jabenninghoff"}
+{"source":"github","type":"pr_open","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T09:47:38Z","ref":305,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T09:50:32Z","ref":304,"user":"cderv"}
+{"source":"github","type":"pr_merge","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T13:05:35Z","ref":305,"user":"cderv"}
+{"source":"github","type":"issue_close","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T13:05:37Z","ref":304,"user":"jabenninghoff"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T13:10:52Z","ref":304,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-10T15:27:49Z","ref":304,"user":"jabenninghoff"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-11T07:19:33Z","ref":304,"user":"cderv"}
+{"source":"github","type":"fork","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-13T12:42:22Z","user":"jkylearmstrong"}
+{"source":"github","type":"pr_open","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-13T12:42:32Z","ref":306,"user":"jkylearmstrong"}
+{"source":"github","type":"issue_open","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-15T15:14:49Z","ref":307,"user":"BajczA475"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-16T09:46:38Z","ref":307,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-16T13:02:04Z","ref":307,"user":"BajczA475"}
+{"source":"github","type":"issue_close","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-16T14:34:03Z","ref":307,"user":"BajczA475"}
+{"source":"github","type":"comment","project_id":"quarto-r","target":"quarto-dev/quarto-r","datetime":"2026-09-16T14:34:03Z","ref":307,"user":"cderv"}

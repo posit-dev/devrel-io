@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-05-18T18:24:50Z","ref":405,"user":"jennybc"}
+{"source":"github","type":"pr_merge","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-05-18T18:34:13Z","ref":405,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-05-18T18:34:18Z","ref":405,"user":"gaborcsardi"}
+{"source":"github","type":"issue_open","project_id":"revdepcheck","target":"r-lib/revdepcheck","datetime":"2026-05-28T13:13:41Z","ref":406,"user":"friendly"}

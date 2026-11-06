@@ -1,0 +1,15 @@
+{"source":"github","type":"pr_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-03-21T15:09:36Z","ref":370,"user":"aronatkins"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-03-21T15:25:36Z","ref":370,"user":"aronatkins"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-04-04T13:16:05Z","ref":371,"user":"kgartland-rstudio"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-04-04T13:30:48Z","ref":371,"user":"kgartland-rstudio"}
+{"source":"github","type":"issue_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-05-14T13:19:58Z","ref":372,"user":"jonkeane"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-05-14T15:38:50Z","ref":373,"user":"jonkeane"}
+{"source":"github","type":"comment","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-05-15T19:50:39Z","ref":373,"user":"jonkeane"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-05-24T15:13:18Z","ref":373,"user":"jonkeane"}
+{"source":"github","type":"issue_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-07-09T20:46:17Z","ref":374,"user":"wydsith"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-07-09T20:52:40Z","ref":375,"user":"wydsith"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-07-10T14:36:57Z","ref":375,"user":"wydsith"}
+{"source":"github","type":"issue_close","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-07-10T14:36:58Z","ref":374,"user":"wydsith"}
+{"source":"github","type":"issue_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-09-18T14:29:56Z","ref":376,"user":"mmarchetti"}
+{"source":"github","type":"pr_open","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-10-25T19:49:16Z","ref":377,"user":"kgartland-rstudio"}
+{"source":"github","type":"pr_merge","project_id":"rsconnect-jupyter","target":"rstudio/rsconnect-jupyter","datetime":"2024-10-25T20:09:46Z","ref":377,"user":"kgartland-rstudio"}

@@ -1,0 +1,9 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":2}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":2}
+{"source":"plausible","metric":"daily_site_visits","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":2}
+{"source":"plausible","metric":"daily_pageviews","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/bit64-package.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/bit64-package.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/bit64-package.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/ramsort.integer64.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/ramsort.integer64.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"bit64","target":"bit64.r-lib.org","date":"2026-10-24","value":1,"extra":{"page":"/reference/ramsort.integer64.html"}}

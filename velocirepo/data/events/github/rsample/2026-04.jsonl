@@ -1,0 +1,3 @@
+{"source":"github","type":"pr_open","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-04-09T12:11:00Z","ref":606,"user":"jeroenjanssens"}
+{"source":"github","type":"pr_merge","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-04-14T13:32:18Z","ref":606,"user":"jeroenjanssens"}
+{"source":"github","type":"comment","project_id":"rsample","target":"tidymodels/rsample","datetime":"2026-04-14T13:32:27Z","ref":606,"user":"hfrick"}

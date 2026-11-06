@@ -1,0 +1,4 @@
+{"source":"github","type":"issue_open","project_id":"blob","target":"tidyverse/blob","datetime":"2016-10-27T13:40:55Z","ref":1,"user":"krlmlr"}
+{"source":"github","type":"fork","project_id":"blob","target":"tidyverse/blob","datetime":"2016-10-28T17:43:27Z","user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"blob","target":"tidyverse/blob","datetime":"2016-10-28T18:28:46Z","ref":2,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"blob","target":"tidyverse/blob","datetime":"2016-11-04T21:23:44Z","ref":2,"user":"jimhester"}

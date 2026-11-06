@@ -1,0 +1,15 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":14}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":9}
+{"source":"plausible","metric":"daily_site_visits","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":10}
+{"source":"plausible","metric":"daily_pageviews","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":9,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":8,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":8,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":1,"extra":{"page":"/index.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/agg_jpeg.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/agg_jpeg.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/agg_jpeg.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"ragg","target":"ragg.r-lib.org","date":"2026-10-29","value":2,"extra":{"page":"/reference/index.html"}}

@@ -1,0 +1,9 @@
+{"source":"github","type":"issue_open","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-03T20:50:41Z","ref":140,"user":"Felixmil"}
+{"source":"github","type":"comment","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-03T21:11:56Z","ref":140,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-07T17:16:14Z","ref":141,"user":"jeroen"}
+{"source":"github","type":"issue_close","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-10T11:36:17Z","ref":140,"user":"Felixmil"}
+{"source":"github","type":"comment","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-13T17:36:12Z","ref":141,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-14T22:05:26Z","ref":81,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-15T09:53:23Z","ref":137,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-30T14:14:57Z","ref":142,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"pkgcache","target":"r-lib/pkgcache","datetime":"2026-07-30T14:58:15Z","ref":142,"user":"gaborcsardi"}

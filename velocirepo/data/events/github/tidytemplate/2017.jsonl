@@ -1,0 +1,16 @@
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-03-01T22:03:56Z","user":"paulhendricks"}
+{"source":"github","type":"issue_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-03-24T06:33:44Z","ref":2,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-03-25T19:52:22Z","ref":2,"user":"jennybc"}
+{"source":"github","type":"issue_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-05T12:39:55Z","ref":3,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-10T22:13:28Z","ref":2,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-10T22:13:28Z","ref":2,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-10T22:14:05Z","ref":1,"user":"cderv"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-10T22:14:09Z","ref":1,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-04-10T22:28:38Z","ref":3,"user":"jimhester"}
+{"source":"github","type":"fork","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-08-02T17:17:08Z","user":"xtmgah"}
+{"source":"github","type":"issue_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-01T20:46:41Z","ref":4,"user":"lorenzwalthert"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-01T21:18:48Z","ref":4,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-01T22:29:11Z","ref":4,"user":"lorenzwalthert"}
+{"source":"github","type":"pr_open","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-03T13:30:45Z","ref":5,"user":"ras44"}
+{"source":"github","type":"pr_merge","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-15T17:36:56Z","ref":5,"user":"ras44"}
+{"source":"github","type":"comment","project_id":"tidytemplate","target":"tidyverse/tidytemplate","datetime":"2017-11-15T17:36:59Z","ref":5,"user":"hadley"}

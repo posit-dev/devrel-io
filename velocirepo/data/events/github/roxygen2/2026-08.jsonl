@@ -1,0 +1,10 @@
+{"source":"github","type":"fork","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-02T15:39:56Z","user":"kapelner"}
+{"source":"github","type":"pr_open","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-02T15:42:10Z","ref":1914,"user":"kapelner"}
+{"source":"github","type":"issue_close","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-04T20:21:47Z","ref":1912,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-12T13:26:50Z","ref":1915,"user":"mattfidler"}
+{"source":"github","type":"comment","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-13T06:57:04Z","ref":1915,"user":"TimTaylor"}
+{"source":"github","type":"comment","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-13T11:58:16Z","ref":1915,"user":"mattfidler"}
+{"source":"github","type":"comment","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-13T13:01:45Z","ref":1915,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-13T13:19:44Z","ref":1915,"user":"mattfidler"}
+{"source":"github","type":"comment","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-13T14:19:45Z","ref":1915,"user":"mattfidler"}
+{"source":"github","type":"issue_open","project_id":"roxygen2","target":"r-lib/roxygen2","datetime":"2026-08-17T18:05:46Z","ref":1916,"user":"JosiahParry"}

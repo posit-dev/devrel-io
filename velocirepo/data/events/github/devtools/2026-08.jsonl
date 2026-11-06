@@ -1,0 +1,6 @@
+{"source":"github","type":"issue_open","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-10T17:26:29Z","ref":2700,"user":"robchallen"}
+{"source":"github","type":"pr_open","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-18T22:34:17Z","ref":2701,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-18T22:38:03Z","ref":2701,"user":"jennybc"}
+{"source":"github","type":"pr_merge","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-18T23:57:32Z","ref":2701,"user":"jennybc"}
+{"source":"github","type":"issue_close","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-18T23:57:33Z","ref":2700,"user":"robchallen"}
+{"source":"github","type":"fork","project_id":"devtools","target":"r-lib/devtools","datetime":"2026-08-28T18:13:56Z","user":"ethan-pawl"}

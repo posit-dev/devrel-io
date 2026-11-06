@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_open","project_id":"nanoparquet","target":"r-lib/nanoparquet","datetime":"2026-03-17T09:38:17Z","ref":154,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"nanoparquet","target":"r-lib/nanoparquet","datetime":"2026-03-17T14:30:01Z","ref":154,"user":"gaborcsardi"}
+{"source":"github","type":"issue_open","project_id":"nanoparquet","target":"r-lib/nanoparquet","datetime":"2026-03-23T12:58:22Z","ref":155,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"nanoparquet","target":"r-lib/nanoparquet","datetime":"2026-03-23T17:13:39Z","ref":156,"user":"gaborcsardi"}

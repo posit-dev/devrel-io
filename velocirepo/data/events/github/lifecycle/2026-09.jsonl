@@ -1,0 +1,4 @@
+{"source":"github","type":"fork","project_id":"lifecycle","target":"r-lib/lifecycle","datetime":"2026-09-18T07:45:30Z","user":"peterdesmet"}
+{"source":"github","type":"pr_open","project_id":"lifecycle","target":"r-lib/lifecycle","datetime":"2026-09-18T07:46:28Z","ref":217,"user":"peterdesmet"}
+{"source":"github","type":"pr_merge","project_id":"lifecycle","target":"r-lib/lifecycle","datetime":"2026-09-18T11:53:30Z","ref":217,"user":"peterdesmet"}
+{"source":"github","type":"comment","project_id":"lifecycle","target":"r-lib/lifecycle","datetime":"2026-09-18T11:53:35Z","ref":217,"user":"lionel-"}

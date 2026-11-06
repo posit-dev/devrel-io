@@ -1,0 +1,8 @@
+{"source":"github","type":"issue_open","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-04T14:04:20Z","ref":21,"user":"gaborcsardi"}
+{"source":"github","type":"fork","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-10T17:14:19Z","user":"steveneschrich"}
+{"source":"github","type":"issue_close","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T10:15:57Z","ref":15,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T10:49:25Z","ref":22,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T10:58:39Z","ref":22,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T10:59:40Z","ref":21,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T11:05:53Z","ref":17,"user":"j450h1"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2022-03-17T11:05:53Z","ref":17,"user":"gaborcsardi"}

@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-08-22T21:06:02Z","ref":1,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-08-28T12:25:40Z","ref":1,"user":"lionel-"}
+{"source":"github","type":"pr_open","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-10-08T16:21:48Z","ref":2,"user":"batpigandme"}
+{"source":"github","type":"issue_open","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-10-08T16:28:57Z","ref":3,"user":"lionel-"}
+{"source":"github","type":"pr_merge","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-10-11T10:43:58Z","ref":2,"user":"batpigandme"}
+{"source":"github","type":"comment","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-10-11T10:44:04Z","ref":2,"user":"lionel-"}
+{"source":"github","type":"issue_close","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-10-11T10:48:36Z","ref":3,"user":"lionel-"}
+{"source":"github","type":"issue_open","project_id":"carrier","target":"r-lib/carrier","datetime":"2018-11-09T16:08:12Z","ref":4,"user":"lbartnik"}

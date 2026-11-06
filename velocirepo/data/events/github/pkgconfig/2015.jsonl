@@ -1,0 +1,17 @@
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:54:38Z","ref":1,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:54:38Z","ref":1,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:54:51Z","ref":2,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:54:51Z","ref":2,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:05Z","ref":6,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:05Z","ref":6,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:19Z","ref":5,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:19Z","ref":5,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:28Z","ref":4,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:28Z","ref":4,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:38Z","ref":3,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-07-06T05:55:42Z","ref":3,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-12-22T11:07:39Z","ref":7,"user":"richfitz"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-12-22T11:53:24Z","ref":7,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-12-22T11:57:03Z","ref":7,"user":"richfitz"}
+{"source":"github","type":"comment","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-12-22T12:05:10Z","ref":7,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"pkgconfig","target":"r-lib/pkgconfig","datetime":"2015-12-22T12:05:22Z","ref":7,"user":"richfitz"}

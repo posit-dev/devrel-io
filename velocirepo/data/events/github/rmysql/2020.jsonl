@@ -1,0 +1,12 @@
+{"source":"github","type":"issue_open","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-01-17T11:01:42Z","ref":227,"user":"kforner"}
+{"source":"github","type":"comment","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-01-27T12:08:27Z","ref":227,"user":"kforner"}
+{"source":"github","type":"comment","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-02-19T23:46:48Z","ref":177,"user":"John-Barnes"}
+{"source":"github","type":"fork","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-03-16T03:06:13Z","user":"ankane"}
+{"source":"github","type":"pr_open","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-03-16T03:07:12Z","ref":228,"user":"ankane"}
+{"source":"github","type":"pr_merge","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-03-16T14:34:07Z","ref":228,"user":"ankane"}
+{"source":"github","type":"pr_open","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-03-16T23:27:06Z","ref":229,"user":"ankane"}
+{"source":"github","type":"pr_merge","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-03-16T23:47:32Z","ref":229,"user":"ankane"}
+{"source":"github","type":"comment","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-04-01T14:59:54Z","ref":164,"user":"andoomcz"}
+{"source":"github","type":"issue_close","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-04-01T15:03:12Z","ref":164,"user":"haozhu233"}
+{"source":"github","type":"comment","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-04-01T15:03:12Z","ref":164,"user":"haozhu233"}
+{"source":"github","type":"fork","project_id":"rmysql","target":"r-dbi/RMySQL","datetime":"2020-06-24T23:13:16Z","user":"stjordanis"}

@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"stringr","target":"tidyverse/stringr","datetime":"2010-08-30T19:03:27Z","ref":1,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"stringr","target":"tidyverse/stringr","datetime":"2010-09-09T19:32:30Z","ref":2,"user":"HarlanH"}
+{"source":"github","type":"issue_close","project_id":"stringr","target":"tidyverse/stringr","datetime":"2010-09-20T13:46:06Z","ref":2,"user":"HarlanH"}
+{"source":"github","type":"comment","project_id":"stringr","target":"tidyverse/stringr","datetime":"2010-09-20T13:46:06Z","ref":2,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"stringr","target":"tidyverse/stringr","datetime":"2010-12-29T17:33:08Z","ref":3,"user":"hadley"}

@@ -1,0 +1,9 @@
+{"source":"github","type":"issue_open","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-19T11:15:14Z","ref":3,"user":"shikokuchuo"}
+{"source":"github","type":"issue_close","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-19T13:13:50Z","ref":3,"user":"shikokuchuo"}
+{"source":"github","type":"issue_open","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-20T20:21:17Z","ref":4,"user":"shikokuchuo"}
+{"source":"github","type":"issue_close","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-21T15:32:16Z","ref":4,"user":"shikokuchuo"}
+{"source":"github","type":"pr_open","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-28T17:36:51Z","ref":5,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-28T18:41:08Z","user":"MQLDrozdov"}
+{"source":"github","type":"pr_merge","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-28T20:48:46Z","ref":5,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-09-28T21:51:33Z","user":"phamasaur"}
+{"source":"github","type":"issue_open","project_id":"ichimoku","target":"shikokuchuo/ichimoku","datetime":"2021-12-22T21:24:10Z","ref":6,"user":"shikokuchuo"}

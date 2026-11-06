@@ -1,0 +1,5 @@
+{"source":"github","type":"issue_open","project_id":"httr","target":"r-lib/httr","datetime":"2026-02-10T14:30:11Z","ref":764,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"httr","target":"r-lib/httr","datetime":"2026-02-12T13:53:18Z","ref":765,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"httr","target":"r-lib/httr","datetime":"2026-02-12T13:58:54Z","ref":765,"user":"hadley"}
+{"source":"github","type":"fork","project_id":"httr","target":"r-lib/httr","datetime":"2026-02-12T23:50:28Z","user":"karawoo"}
+{"source":"github","type":"pr_open","project_id":"httr","target":"r-lib/httr","datetime":"2026-02-12T23:51:49Z","ref":766,"user":"karawoo"}

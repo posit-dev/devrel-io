@@ -1,0 +1,12 @@
+{"source":"github","type":"fork","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-04-04T17:49:44Z","user":"zkamvar"}
+{"source":"github","type":"issue_open","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-20T19:30:44Z","ref":9,"user":"alexpghayes"}
+{"source":"github","type":"pr_open","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-20T19:54:05Z","ref":10,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-23T16:38:44Z","ref":10,"user":"alexpghayes"}
+{"source":"github","type":"pr_open","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-26T10:12:02Z","ref":11,"user":"batpigandme"}
+{"source":"github","type":"pr_merge","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:03:46Z","ref":10,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:03:52Z","ref":10,"user":"krlmlr"}
+{"source":"github","type":"pr_merge","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:08:40Z","ref":11,"user":"batpigandme"}
+{"source":"github","type":"comment","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:08:44Z","ref":11,"user":"krlmlr"}
+{"source":"github","type":"comment","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:10:35Z","ref":7,"user":"krlmlr"}
+{"source":"github","type":"issue_close","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:10:57Z","ref":9,"user":"alexpghayes"}
+{"source":"github","type":"comment","project_id":"roxygen2md","target":"r-lib/roxygen2md","datetime":"2018-07-30T20:10:57Z","ref":9,"user":"krlmlr"}

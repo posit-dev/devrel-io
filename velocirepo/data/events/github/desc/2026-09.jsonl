@@ -1,0 +1,9 @@
+{"source":"github","type":"fork","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-17T16:31:33Z","user":"jacciz"}
+{"source":"github","type":"pr_merge","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-17T18:07:35Z","ref":168,"user":"khusmann"}
+{"source":"github","type":"issue_close","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-17T18:07:36Z","ref":132,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-17T18:07:41Z","ref":168,"user":"thomasp85"}
+{"source":"github","type":"fork","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-17T18:47:34Z","user":"gayol-openrxiv"}
+{"source":"github","type":"issue_close","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-24T13:14:13Z","ref":138,"user":"ateucher"}
+{"source":"github","type":"pr_merge","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-24T15:01:13Z","ref":169,"user":"jrwinget"}
+{"source":"github","type":"issue_close","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-24T15:01:15Z","ref":133,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"desc","target":"r-lib/desc","datetime":"2026-09-24T15:01:19Z","ref":169,"user":"gaborcsardi"}

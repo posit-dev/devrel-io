@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-05-28T21:19:47Z","ref":1,"user":"jrnold"}
+{"source":"github","type":"issue_open","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-07-23T11:39:06Z","ref":2,"user":"krlmlr"}
+{"source":"github","type":"fork","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-09-28T20:42:39Z","user":"craigcitro"}
+{"source":"github","type":"fork","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-11-12T07:40:52Z","user":"mehitabel"}
+{"source":"github","type":"pr_open","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-11-12T07:41:51Z","ref":3,"user":"mehitabel"}
+{"source":"github","type":"comment","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-11-15T16:14:55Z","ref":3,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-11-15T16:14:57Z","ref":3,"user":"mehitabel"}
+{"source":"github","type":"issue_close","project_id":"assertthat","target":"hadley/assertthat","datetime":"2013-12-04T15:19:31Z","ref":2,"user":"krlmlr"}

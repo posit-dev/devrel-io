@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T08:56:30Z","ref":88,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T09:44:00Z","ref":88,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T09:44:02Z","ref":21,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T09:44:28Z","ref":16,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T10:36:41Z","ref":89,"user":"gaborcsardi"}
+{"source":"github","type":"comment","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T10:56:58Z","ref":76,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T10:57:12Z","ref":89,"user":"gaborcsardi"}
+{"source":"github","type":"issue_close","project_id":"otelsdk","target":"r-lib/otelsdk","datetime":"2026-11-02T10:57:13Z","ref":77,"user":"nbenn"}

@@ -1,0 +1,12 @@
+{"source":"github","type":"pr_open","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:00:38Z","ref":18,"user":"dpprdan"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:04:31Z","ref":18,"user":"gaborcsardi"}
+{"source":"github","type":"pr_open","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:17:40Z","ref":19,"user":"dpprdan"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:19:16Z","ref":19,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:19:19Z","ref":19,"user":"dpprdan"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:25:38Z","ref":18,"user":"dpprdan"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:27:02Z","ref":18,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:27:27Z","ref":18,"user":"dpprdan"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-08-20T13:31:53Z","ref":18,"user":"dpprdan"}
+{"source":"github","type":"issue_open","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-09-08T00:33:45Z","ref":20,"user":"jennybc"}
+{"source":"github","type":"comment","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-10-27T22:04:37Z","ref":20,"user":"jennybc"}
+{"source":"github","type":"issue_close","project_id":"whoami","target":"r-lib/whoami","datetime":"2021-10-27T22:04:43Z","ref":20,"user":"jennybc"}
