@@ -5,3 +5,22 @@ reason = "Two bot comments posted in the same second"
 [[accept]]
 id = "aad8242ac7f0"
 reason = "Two pairs of bot comments on posit-dev/connect-actions#103, posted in the same second"
+
+# The backfill commit 578e4ea2b0ce stored the history of three moved repos
+# under both names; the next commit, 1ac4b42ec, removed the old names'
+# records, so the stored data has each entry once.
+[[accept]]
+id = "4086a676dd12"
+reason = "mcp-repl's content under posit-dev/mcp-repl and posit-dev/mcp-console in 578e4ea2b0ce, resolved by 1ac4b42ec"
+
+[[accept]]
+id = "86594fd71b30"
+reason = "rstudio-conf's content under rstudio/rstudio-conf and posit-dev/posit-conf in 578e4ea2b0ce, resolved by 1ac4b42ec"
+
+[[accept]]
+id = "9bf70fe798a2"
+reason = "orbital-r's content under posit-dev/orbital and tidymodels/orbital in 578e4ea2b0ce, resolved by 1ac4b42ec"
+
+[[accept]]
+id = "be25d396ff64"
+reason = "Two pairs of bot comments on posit-dev/connect-actions#103, posted in the same second (as aad8242ac7f0, checked per commit)"
