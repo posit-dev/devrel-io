@@ -1,7 +1,0 @@
-{"source":"github","type":"issue_close","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T00:12:55Z","ref":313,"user":"MatthieuStigler"}
-{"source":"github","type":"issue_open","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T00:46:13Z","ref":315,"user":"jennybc"}
-{"source":"github","type":"comment","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T00:47:40Z","ref":315,"user":"jennybc"}
-{"source":"github","type":"pr_open","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T01:51:35Z","ref":316,"user":"jennybc"}
-{"source":"github","type":"pr_open","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T02:55:57Z","ref":317,"user":"jennybc"}
-{"source":"github","type":"pr_merge","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T16:25:14Z","ref":317,"user":"jennybc"}
-{"source":"github","type":"issue_open","project_id":"gargle","target":"r-lib/gargle","datetime":"2026-10-03T20:15:47Z","ref":318,"user":"hadley"}

@@ -1,9 +1,0 @@
-{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":13}
-{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":12}
-{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":12}
-{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":1,"extra":{"page":"/articles/communicate.html"}}
-{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":1,"extra":{"page":"/articles/communicate.html"}}
-{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":1,"extra":{"page":"/articles/communicate.html"}}
-{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":12,"extra":{"page":"/articles/stages.html"}}
-{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":11,"extra":{"page":"/articles/stages.html"}}
-{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-10-11","value":11,"extra":{"page":"/articles/stages.html"}}

@@ -1,5 +1,0 @@
-{"source":"github","type":"fork","project_id":"pkgbuild","target":"r-lib/pkgbuild","datetime":"2026-10-05T05:09:59Z","user":"taekop"}
-{"source":"github","type":"pr_open","project_id":"pkgbuild","target":"r-lib/pkgbuild","datetime":"2026-10-05T05:40:10Z","ref":229,"user":"taekop"}
-{"source":"github","type":"pr_merge","project_id":"pkgbuild","target":"r-lib/pkgbuild","datetime":"2026-10-05T20:43:48Z","ref":229,"user":"taekop"}
-{"source":"github","type":"issue_close","project_id":"pkgbuild","target":"r-lib/pkgbuild","datetime":"2026-10-05T20:43:49Z","ref":186,"user":"RossBoylan"}
-{"source":"github","type":"comment","project_id":"pkgbuild","target":"r-lib/pkgbuild","datetime":"2026-10-05T20:43:49Z","ref":229,"user":"gaborcsardi"}

@@ -1,8 +1,0 @@
-{"source":"github","type":"pr_open","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:05:47Z","ref":432,"user":"gaborcsardi"}
-{"source":"github","type":"issue_open","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:12:17Z","ref":433,"user":"gaborcsardi"}
-{"source":"github","type":"issue_open","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:13:43Z","ref":434,"user":"gaborcsardi"}
-{"source":"github","type":"comment","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:19:19Z","ref":432,"user":"codecov[bot]"}
-{"source":"github","type":"pr_merge","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:33:18Z","ref":432,"user":"gaborcsardi"}
-{"source":"github","type":"issue_close","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T11:33:19Z","ref":433,"user":"gaborcsardi"}
-{"source":"github","type":"pr_open","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T12:18:45Z","ref":435,"user":"gaborcsardi"}
-{"source":"github","type":"comment","project_id":"rig","target":"r-lib/rig","datetime":"2026-10-04T12:21:48Z","ref":435,"user":"codecov[bot]"}

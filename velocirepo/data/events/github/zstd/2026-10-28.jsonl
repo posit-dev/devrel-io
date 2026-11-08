@@ -1,4 +1,0 @@
-{"source":"github","type":"pr_open","project_id":"zstd","target":"r-lib/zstd","datetime":"2026-10-28T11:25:15Z","ref":2,"user":"gaborcsardi"}
-{"source":"github","type":"issue_close","project_id":"zstd","target":"r-lib/zstd","datetime":"2026-10-28T11:41:19Z","ref":1,"user":"gaborcsardi"}
-{"source":"github","type":"pr_merge","project_id":"zstd","target":"r-lib/zstd","datetime":"2026-10-28T12:22:42Z","ref":2,"user":"gaborcsardi"}
-{"source":"github","type":"issue_open","project_id":"zstd","target":"r-lib/zstd","datetime":"2026-10-28T12:31:37Z","ref":3,"user":"gaborcsardi"}

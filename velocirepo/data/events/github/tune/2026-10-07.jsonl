@@ -1,7 +1,0 @@
-{"source":"github","type":"pr_merge","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:05:00Z","ref":1193,"user":"LeonidasZhak"}
-{"source":"github","type":"issue_close","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:05:01Z","ref":982,"user":"chillerb"}
-{"source":"github","type":"pr_merge","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:05:39Z","ref":1194,"user":"LeonidasZhak"}
-{"source":"github","type":"pr_merge","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:13:19Z","ref":1204,"user":"taekop"}
-{"source":"github","type":"issue_close","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:13:20Z","ref":987,"user":"hfrick"}
-{"source":"github","type":"comment","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T13:30:09Z","ref":1188,"user":"topepo"}
-{"source":"github","type":"comment","project_id":"tune","target":"tidymodels/tune","datetime":"2026-10-07T15:50:11Z","ref":1188,"user":"EmilHvitfeldt"}

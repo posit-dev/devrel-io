@@ -1,6 +1,0 @@
-{"source":"github","type":"issue_open","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T10:03:53Z","ref":1118,"user":"gavinsimpson"}
-{"source":"github","type":"issue_close","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T10:29:28Z","ref":1118,"user":"gavinsimpson"}
-{"source":"github","type":"pr_open","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T10:37:40Z","ref":1119,"user":"gaborcsardi"}
-{"source":"github","type":"comment","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T10:40:40Z","ref":1119,"user":"codecov[bot]"}
-{"source":"github","type":"pr_merge","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T10:49:02Z","ref":1119,"user":"gaborcsardi"}
-{"source":"github","type":"comment","project_id":"r-lib-actions","target":"r-lib/actions","datetime":"2026-10-29T19:13:04Z","ref":1118,"user":"gavinsimpson"}
