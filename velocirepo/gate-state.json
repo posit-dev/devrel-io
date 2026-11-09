@@ -1,6 +1,17 @@
 {
   "findings": [
     {
+      "id": "15651ea26799",
+      "check": "reconcile.totals",
+      "severity": "warning",
+      "source": "github",
+      "project": "positron",
+      "target": "posit-dev/positron",
+      "key": "issue_open",
+      "message": "the API reports 220 issues opened, against 223 stored (duplicated data; tolerance 2)",
+      "since": "2026-11-09"
+    },
+    {
       "id": "53d9df8577b3",
       "check": "data.integrity",
       "severity": "warning",
@@ -14,25 +25,24 @@
       "since": "2026-11-07"
     },
     {
-      "id": "ab0845478c3c",
-      "check": "reconcile.totals",
-      "severity": "warning",
-      "source": "github",
-      "project": "assistant-feedback",
-      "target": "posit-dev/assistant-feedback",
-      "key": "issue_open",
-      "message": "the API reports 12 issues opened, against 9 stored (missing data; tolerance 2)",
-      "since": "2026-11-08"
-    },
-    {
-      "id": "e56b03b97f26",
+      "id": "5d24af5081e7",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "bookdown",
-      "target": "rstudio/bookdown",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-08"
+      "project": "images-workbench",
+      "target": "posit-dev/images-workbench",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-11-09"
+    },
+    {
+      "id": "8372f8797ef6",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "quarto-dev-quarto",
+      "target": "quarto-dev/quarto",
+      "message": "no data for the last 3 days, while it had data on 25 of the 28 days before",
+      "since": "2026-11-09"
     }
   ]
 }

@@ -1,0 +1,7 @@
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T00:02:40Z","ref":1122,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T00:03:04Z","ref":1122,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_open","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T00:25:58Z","ref":1123,"user":"cscheid"}
+{"source":"github","type":"comment","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T00:26:23Z","ref":1123,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T00:59:35Z","ref":1122,"user":"cscheid"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T15:06:59Z","ref":1121,"user":"cscheid"}
+{"source":"github","type":"pr_merge","project_id":"q2","target":"quarto-dev/q2","datetime":"2026-11-08T15:07:33Z","ref":1123,"user":"cscheid"}
