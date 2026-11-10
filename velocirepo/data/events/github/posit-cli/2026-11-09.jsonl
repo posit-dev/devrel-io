@@ -1,0 +1,6 @@
+{"source":"github","type":"pr_open","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T02:19:21Z","ref":32,"user":"dependabot"}
+{"source":"github","type":"pr_open","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T15:54:38Z","ref":33,"user":"tdstein"}
+{"source":"github","type":"pr_merge","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T15:59:40Z","ref":32,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T17:16:22Z","ref":33,"user":"tdstein"}
+{"source":"github","type":"pr_open","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T18:45:59Z","ref":34,"user":"tdstein"}
+{"source":"github","type":"pr_merge","project_id":"posit-cli","target":"posit-dev/posit-cli","datetime":"2026-11-09T19:50:56Z","ref":34,"user":"tdstein"}

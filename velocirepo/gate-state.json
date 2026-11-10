@@ -1,15 +1,14 @@
 {
   "findings": [
     {
-      "id": "15651ea26799",
-      "check": "reconcile.totals",
+      "id": "17effd5faf59",
+      "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "positron",
-      "target": "posit-dev/positron",
-      "key": "issue_open",
-      "message": "the API reports 220 issues opened, against 223 stored (duplicated data; tolerance 2)",
-      "since": "2026-11-09"
+      "project": "shiny-r",
+      "target": "rstudio/shiny",
+      "message": "no data for the last 3 days, while it had data on 24 of the 28 days before",
+      "since": "2026-11-10"
     },
     {
       "id": "53d9df8577b3",
@@ -25,24 +24,37 @@
       "since": "2026-11-07"
     },
     {
-      "id": "5d24af5081e7",
+      "id": "5a659b61e71c",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "images-workbench",
-      "target": "posit-dev/images-workbench",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
-      "since": "2026-11-09"
+      "project": "shiny",
+      "target": "rstudio/shiny",
+      "message": "no data for the last 3 days, while it had data on 24 of the 28 days before",
+      "since": "2026-11-10"
     },
     {
-      "id": "8372f8797ef6",
+      "id": "a4798b102816",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "quarto-dev-quarto",
-      "target": "quarto-dev/quarto",
-      "message": "no data for the last 3 days, while it had data on 25 of the 28 days before",
-      "since": "2026-11-09"
+      "project": "py-shinywidgets",
+      "target": "posit-dev/py-shinywidgets",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-11-10"
+    },
+    {
+      "id": "c87c1ecabc49",
+      "check": "data.integrity",
+      "severity": "warning",
+      "source": "github",
+      "project": "connect-actions",
+      "key": "duplicate events/github/connect-actions/2026-11-09.jsonl",
+      "message": "line 4: duplicate of line 3",
+      "paths": [
+        "events/github/connect-actions/2026-11-09.jsonl"
+      ],
+      "since": "2026-11-10"
     }
   ]
 }
