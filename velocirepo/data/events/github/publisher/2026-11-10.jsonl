@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-10T17:10:26Z","ref":4467,"user":"dependabot"}
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-10T22:29:13Z","ref":4470,"user":"nealrichardson"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-10T22:30:37Z","ref":4471,"user":"nealrichardson"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-10T22:30:57Z","ref":4471,"user":"posit-snyk-bot"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-10T22:31:06Z","ref":4471,"user":"posit-connect-projects[bot]"}

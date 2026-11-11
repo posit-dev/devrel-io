@@ -7,7 +7,7 @@
       "source": "github",
       "project": "shiny-r",
       "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 24 of the 28 days before",
+      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
       "since": "2026-11-10"
     },
     {
@@ -30,17 +30,7 @@
       "source": "github",
       "project": "shiny",
       "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 24 of the 28 days before",
-      "since": "2026-11-10"
-    },
-    {
-      "id": "a4798b102816",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "py-shinywidgets",
-      "target": "posit-dev/py-shinywidgets",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
       "since": "2026-11-10"
     },
     {

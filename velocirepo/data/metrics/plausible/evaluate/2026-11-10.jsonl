@@ -1,0 +1,15 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":6}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":4}
+{"source":"plausible","metric":"daily_site_visits","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":4}
+{"source":"plausible","metric":"daily_pageviews","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/evaluate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/evaluate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/evaluate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/flush_console.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/flush_console.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":1,"extra":{"page":"/reference/flush_console.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":2,"extra":{"page":"/reference/parse_all.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":2,"extra":{"page":"/reference/parse_all.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"evaluate","target":"evaluate.r-lib.org","date":"2026-11-10","value":2,"extra":{"page":"/reference/parse_all.html"}}
