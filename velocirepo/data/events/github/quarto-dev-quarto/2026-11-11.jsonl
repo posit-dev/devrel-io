@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-11T05:00:43Z","ref":1226,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-11T16:31:56Z","ref":1225,"user":"LucHendriks"}
+{"source":"github","type":"issue_close","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-11T16:31:57Z","ref":730,"user":"cbrnr"}
+{"source":"github","type":"issue_close","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-11T16:31:58Z","ref":842,"user":"acebulsk"}
+{"source":"github","type":"pr_merge","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-11T16:49:28Z","ref":1226,"user":"dependabot"}

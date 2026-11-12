@@ -1,0 +1,11 @@
+{"source":"github","type":"pr_merge","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T15:13:12Z","ref":151,"user":"mns-nordicals"}
+{"source":"github","type":"issue_close","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T15:13:14Z","ref":136,"user":"mns-nordicals"}
+{"source":"github","type":"pr_open","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T16:46:35Z","ref":159,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T16:46:43Z","ref":159,"user":"chatgpt-codex-connector[bot]"}
+{"source":"github","type":"comment","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T17:07:06Z","ref":159,"user":"codecov[bot]"}
+{"source":"github","type":"pr_merge","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:10:21Z","ref":159,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:42:54Z","ref":158,"user":"chatgpt-codex-connector[bot]"}
+{"source":"github","type":"pr_open","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:44:13Z","ref":160,"user":"t-kalinowski"}
+{"source":"github","type":"pr_merge","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:46:48Z","ref":158,"user":"t-kalinowski"}
+{"source":"github","type":"comment","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:51:44Z","ref":160,"user":"chatgpt-codex-connector[bot]"}
+{"source":"github","type":"comment","project_id":"quickr","target":"t-kalinowski/quickr","datetime":"2026-11-11T22:55:29Z","ref":160,"user":"codecov[bot]"}

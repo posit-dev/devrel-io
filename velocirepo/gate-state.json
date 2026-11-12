@@ -11,6 +11,46 @@
       "since": "2026-11-10"
     },
     {
+      "id": "1a9875ee9922",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "nestedtune",
+      "target": "tidymodels/nestedtune",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-12"
+    },
+    {
+      "id": "1d1e5f1f8c74",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "mizu",
+      "target": "shikokuchuo/mizu-r",
+      "message": "no reference totals to compare with: the repository doesn't exist or isn't accessible",
+      "since": "2026-11-12"
+    },
+    {
+      "id": "26f1a115d04a",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "pypi",
+      "project": "biobouncer",
+      "target": "biobouncer",
+      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
+      "since": "2026-11-12"
+    },
+    {
+      "id": "4ae7c382151d",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "mizu",
+      "target": "shikokuchuo/mizu-r",
+      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 2 days behind; the limit is 1",
+      "since": "2026-11-12"
+    },
+    {
       "id": "53d9df8577b3",
       "check": "data.integrity",
       "severity": "warning",
@@ -45,6 +85,15 @@
         "events/github/connect-actions/2026-11-09.jsonl"
       ],
       "since": "2026-11-10"
+    },
+    {
+      "id": "e7fb310e3521",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "mizu",
+      "message": "star history: github REST API returned 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#get-repository-star-history\",\"status\":\"404\"}",
+      "since": "2026-11-12"
     }
   ]
 }
