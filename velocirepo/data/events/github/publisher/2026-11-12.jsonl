@@ -1,0 +1,11 @@
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T15:52:07Z","ref":4473,"user":"joshyam-k"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T17:35:13Z","ref":4472,"user":"dependabot"}
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T17:36:40Z","ref":4474,"user":"joshyam-k"}
+{"source":"github","type":"pr_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T18:01:21Z","ref":4475,"user":"joshyam-k"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T18:01:43Z","ref":4475,"user":"posit-snyk-bot"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T18:01:56Z","ref":4475,"user":"github-actions[bot]"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T18:02:11Z","ref":4475,"user":"posit-connect-projects[bot]"}
+{"source":"github","type":"issue_open","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T18:14:57Z","ref":4476,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T20:08:56Z","ref":4475,"user":"joshyam-k"}
+{"source":"github","type":"pr_merge","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T20:40:15Z","ref":4475,"user":"joshyam-k"}
+{"source":"github","type":"issue_close","project_id":"publisher","target":"posit-dev/publisher","datetime":"2026-11-12T20:40:16Z","ref":4473,"user":"joshyam-k"}

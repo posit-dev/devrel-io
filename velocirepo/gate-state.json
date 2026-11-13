@@ -1,24 +1,13 @@
 {
   "findings": [
     {
-      "id": "17effd5faf59",
-      "check": "data.volume",
-      "severity": "warning",
+      "id": "036231592a37",
+      "check": "fetch.failed",
+      "severity": "error",
       "source": "github",
-      "project": "shiny-r",
-      "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
-      "since": "2026-11-10"
-    },
-    {
-      "id": "1a9875ee9922",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "nestedtune",
-      "target": "tidymodels/nestedtune",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-12"
+      "project": "rmarkdown-website-examples",
+      "message": "comments: github REST API returned 502: {\n  \"message\": \"Server Error\"\n}\n",
+      "since": "2026-11-13"
     },
     {
       "id": "1d1e5f1f8c74",
@@ -41,13 +30,42 @@
       "since": "2026-11-12"
     },
     {
+      "id": "27b249027494",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "quarto-r",
+      "target": "quarto-dev/quarto-r",
+      "message": "quarto-dev/quarto-r was last fetched through 2026-11-11, 2 days behind; the limit is 1",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "349aab5894f3",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "quarto-r",
+      "message": "pull requests: graphql returned 502: \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "360f97af75bc",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "ellmer",
+      "target": "tidyverse/ellmer",
+      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
+      "since": "2026-11-13"
+    },
+    {
       "id": "4ae7c382151d",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
       "project": "mizu",
       "target": "shikokuchuo/mizu-r",
-      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 2 days behind; the limit is 1",
+      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 3 days behind; the limit is 1",
       "since": "2026-11-12"
     },
     {
@@ -64,14 +82,53 @@
       "since": "2026-11-07"
     },
     {
-      "id": "5a659b61e71c",
+      "id": "64f1b730e097",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "shiny",
-      "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 23 of the 28 days before",
-      "since": "2026-11-10"
+      "project": "hephaestus",
+      "target": "posit-dev/hephaestus",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "9c09c994a859",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "images-shared",
+      "target": "posit-dev/images-shared",
+      "message": "posit-dev/images-shared was last fetched through 2026-11-11, 2 days behind; the limit is 1",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "a3394ef95f00",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "r4ds",
+      "target": "hadley/r4ds",
+      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "acaa9e026081",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "images-shared",
+      "message": "reaction counts: reaction counts batch: graphql returned 502: \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+      "since": "2026-11-13"
+    },
+    {
+      "id": "c6f7ab76411b",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "rmarkdown-website-examples",
+      "target": "rstudio/rmarkdown-website-examples",
+      "message": "rstudio/rmarkdown-website-examples was last fetched through 2026-11-11, 2 days behind; the limit is 1",
+      "since": "2026-11-13"
     },
     {
       "id": "c87c1ecabc49",
@@ -94,6 +151,17 @@
       "project": "mizu",
       "message": "star history: github REST API returned 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#get-repository-star-history\",\"status\":\"404\"}",
       "since": "2026-11-12"
+    },
+    {
+      "id": "ff9be82e94d7",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "mizu",
+      "target": "shikokuchuo/mizu-r",
+      "key": "stars",
+      "message": "shikokuchuo/mizu-r was last its stars fetched through 2026-11-10, 3 days behind; the limit is 2",
+      "since": "2026-11-13"
     }
   ]
 }
