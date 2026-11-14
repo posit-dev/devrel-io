@@ -1,0 +1,10 @@
+{"source":"github","type":"issue_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T18:05:32Z","ref":904,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T21:32:08Z","ref":905,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:34:13Z","ref":867,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:34:13Z","ref":867,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:34:45Z","ref":897,"user":"m-muecke"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:35:09Z","ref":897,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:37:52Z","ref":866,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:41:04Z","ref":905,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T22:41:05Z","ref":904,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-13T23:08:14Z","ref":865,"user":"hadley"}

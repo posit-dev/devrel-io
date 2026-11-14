@@ -1,0 +1,4 @@
+{"source":"github","type":"comment","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-13T11:56:04Z","ref":2355,"user":"github-actions[bot]"}
+{"source":"github","type":"fork","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-13T12:34:48Z","user":"pakitochus"}
+{"source":"github","type":"pr_open","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-13T12:36:38Z","ref":2357,"user":"pakitochus"}
+{"source":"github","type":"pr_merge","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-13T13:38:34Z","ref":2355,"user":"cderv"}
