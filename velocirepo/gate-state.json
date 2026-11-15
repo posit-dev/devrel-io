@@ -17,7 +17,7 @@
       "source": "github",
       "project": "mizu",
       "target": "shikokuchuo/mizu-r",
-      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 4 days behind; the limit is 1",
+      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 5 days behind; the limit is 1",
       "since": "2026-11-12"
     },
     {
@@ -34,13 +34,24 @@
       "since": "2026-11-07"
     },
     {
+      "id": "ab0845478c3c",
+      "check": "reconcile.totals",
+      "severity": "warning",
+      "source": "github",
+      "project": "assistant-feedback",
+      "target": "posit-dev/assistant-feedback",
+      "key": "issue_open",
+      "message": "the API reports 12 issues opened, against 9 stored (missing data; tolerance 2)",
+      "since": "2026-11-15"
+    },
+    {
       "id": "c1337afa5001",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
       "project": "shinychat",
       "target": "posit-dev/shinychat",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
       "since": "2026-11-14"
     },
     {
@@ -66,6 +77,16 @@
       "since": "2026-11-12"
     },
     {
+      "id": "f34ec709f342",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "shinyfiles",
+      "target": "thomasp85/shinyFiles",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-15"
+    },
+    {
       "id": "ff9be82e94d7",
       "check": "data.freshness",
       "severity": "warning",
@@ -73,7 +94,7 @@
       "project": "mizu",
       "target": "shikokuchuo/mizu-r",
       "key": "stars",
-      "message": "shikokuchuo/mizu-r was last its stars fetched through 2026-11-10, 4 days behind; the limit is 2",
+      "message": "shikokuchuo/mizu-r was last its stars fetched through 2026-11-10, 5 days behind; the limit is 2",
       "since": "2026-11-13"
     }
   ]

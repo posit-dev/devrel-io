@@ -1,0 +1,15 @@
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T12:23:23Z","ref":865,"user":"weswc"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T12:23:49Z","ref":877,"user":"m-muecke"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T12:24:50Z","ref":880,"user":"m-muecke"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:13:16Z","ref":870,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:14:12Z","ref":873,"user":"weswc"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:14:12Z","ref":873,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:15:28Z","ref":870,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:15:29Z","ref":906,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:15:30Z","ref":907,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:15:31Z","ref":908,"user":"hadley"}
+{"source":"github","type":"issue_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T13:15:33Z","ref":909,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T14:15:37Z","ref":910,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T14:22:42Z","ref":910,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T14:43:15Z","ref":910,"user":"Bilalabdulkadir"}
+{"source":"github","type":"pr_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-14T23:26:10Z","ref":911,"user":"hadley"}
