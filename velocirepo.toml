@@ -2985,6 +2985,10 @@ cran = "legendry"
 name = "libcuml-builds"
 github = "mlverse/libcuml-builds"
 
+[projects.libmizu]
+name = "libmizu"
+github = "shikokuchuo/libmizu"
+
 [projects.libtorch-mac-m1]
 name = "libtorch-mac-m1"
 github = "mlverse/libtorch-mac-m1"
@@ -3141,7 +3145,7 @@ pypi = "mizani"
 
 [projects.mizu]
 name = "mizu"
-github = "shikokuchuo/mizu-r"
+github = "shikokuchuo/mizu"
 cran = "mizu"
 
 [projects.mlflow]
@@ -3537,6 +3541,11 @@ plausible = "purrr.tidyverse.org"
 name = "purrrlyr"
 github = "hadley/purrrlyr"
 cran = "purrrlyr"
+
+[projects.pymizu]
+name = "pymizu"
+github = "shikokuchuo/pymizu"
+pypi = "pymizu"
 
 [projects.pysparklyr]
 name = "pysparklyr"
