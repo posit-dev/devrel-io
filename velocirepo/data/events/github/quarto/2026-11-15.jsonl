@@ -1,0 +1,3 @@
+{"source":"github","type":"fork","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-15T13:38:23Z","user":"twozero3213-beep"}
+{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-15T22:44:14Z","ref":15368,"user":"mcanouil"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-15T22:44:36Z","ref":15368,"user":"posit-snyk-bot"}
