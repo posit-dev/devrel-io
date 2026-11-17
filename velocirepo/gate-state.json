@@ -1,35 +1,58 @@
 {
   "findings": [
     {
-      "id": "15651ea26799",
-      "check": "reconcile.totals",
-      "severity": "warning",
-      "source": "github",
-      "project": "positron",
-      "target": "posit-dev/positron",
-      "key": "issue_open",
-      "message": "the API reports 220 issues opened, against 223 stored (duplicated data; tolerance 2)",
-      "since": "2026-11-16"
-    },
-    {
-      "id": "1d1e5f1f8c74",
-      "check": "reconcile.unavailable",
+      "id": "004c0a16c90f",
+      "check": "diff.repaired",
       "severity": "warning",
       "source": "github",
       "project": "mizu",
       "target": "shikokuchuo/mizu-r",
-      "message": "no reference totals to compare with: the repository doesn't exist or isn't accessible",
-      "since": "2026-11-12"
+      "key": "github/mizu 2000-01-01..2026-11-16@c3ca4279ba8b03e1f7b264af9b8afdb83f284a46",
+      "message": "1 content entries removed by the repair github/mizu 2000-01-01..2026-11-16 (repos: 1) in commit c3ca4279ba8b",
+      "paths": [
+        "content/github/mizu/"
+      ],
+      "since": "2026-11-17",
+      "commit": "c3ca4279ba8b03e1f7b264af9b8afdb83f284a46"
     },
     {
-      "id": "4ae7c382151d",
+      "id": "17effd5faf59",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "shiny-r",
+      "target": "rstudio/shiny",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "26f1a115d04a",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "pypi",
+      "project": "biobouncer",
+      "target": "biobouncer",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "412d36e13ef3",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "quarto-gallery",
+      "message": "comments: github REST API returned 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/issues/comments#list-issue-comments-for-a-repository\",\"status\":\"404\"}",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "46440b11a94f",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
-      "project": "mizu",
-      "target": "shikokuchuo/mizu-r",
-      "message": "shikokuchuo/mizu-r was last fetched through 2026-11-10, 6 days behind; the limit is 1",
-      "since": "2026-11-12"
+      "project": "quarto-gallery",
+      "target": "quarto-dev/quarto-gallery",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 2 days behind; the limit is 1",
+      "since": "2026-11-17"
     },
     {
       "id": "53d9df8577b3",
@@ -45,6 +68,46 @@
       "since": "2026-11-07"
     },
     {
+      "id": "5a659b61e71c",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "shiny",
+      "target": "rstudio/shiny",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "63dcdfd0e682",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "plotnine",
+      "target": "has2k1/plotnine",
+      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "6aede4b017ce",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "elf",
+      "target": "cak/elf",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-17"
+    },
+    {
+      "id": "a4798b102816",
+      "check": "data.volume",
+      "severity": "warning",
+      "source": "github",
+      "project": "py-shinywidgets",
+      "target": "posit-dev/py-shinywidgets",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
+      "since": "2026-11-17"
+    },
+    {
       "id": "c87c1ecabc49",
       "check": "data.integrity",
       "severity": "warning",
@@ -58,24 +121,14 @@
       "since": "2026-11-10"
     },
     {
-      "id": "e7fb310e3521",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "github",
-      "project": "mizu",
-      "message": "star history: github REST API returned 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/activity/starring#get-repository-star-history\",\"status\":\"404\"}",
-      "since": "2026-11-12"
-    },
-    {
-      "id": "ff9be82e94d7",
-      "check": "data.freshness",
+      "id": "f34ec709f342",
+      "check": "reconcile.unavailable",
       "severity": "warning",
       "source": "github",
-      "project": "mizu",
-      "target": "shikokuchuo/mizu-r",
-      "key": "stars",
-      "message": "shikokuchuo/mizu-r was last its stars fetched through 2026-11-10, 6 days behind; the limit is 2",
-      "since": "2026-11-13"
+      "project": "shinyfiles",
+      "target": "thomasp85/shinyFiles",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-17"
     }
   ]
 }

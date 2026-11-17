@@ -1,0 +1,16 @@
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T10:37:52Z","ref":768,"user":"ivo-marek"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T11:32:54Z","ref":769,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T13:15:26Z","ref":769,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:07:46Z","ref":770,"user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:13:24Z","ref":771,"user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:24:52Z","ref":772,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:26:58Z","ref":727,"user":"jimhester"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:26:58Z","ref":727,"user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:29:34Z","ref":773,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:34:13Z","ref":774,"user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:37:55Z","ref":775,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:43:10Z","ref":773,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:47:27Z","ref":771,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:47:28Z","ref":770,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:49:29Z","ref":772,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-16T14:49:30Z","ref":768,"user":"ivo-marek"}
