@@ -1,39 +1,24 @@
 {
   "findings": [
     {
-      "id": "004c0a16c90f",
-      "check": "diff.repaired",
+      "id": "031add7ec039",
+      "check": "data.freshness",
       "severity": "warning",
       "source": "github",
-      "project": "mizu",
-      "target": "shikokuchuo/mizu-r",
-      "key": "github/mizu 2000-01-01..2026-11-16@c3ca4279ba8b03e1f7b264af9b8afdb83f284a46",
-      "message": "1 content entries removed by the repair github/mizu 2000-01-01..2026-11-16 (repos: 1) in commit c3ca4279ba8b",
-      "paths": [
-        "content/github/mizu/"
-      ],
-      "since": "2026-11-17",
-      "commit": "c3ca4279ba8b03e1f7b264af9b8afdb83f284a46"
+      "project": "ggplot2movies",
+      "target": "hadley/ggplot2movies",
+      "message": "hadley/ggplot2movies was last fetched through 2026-11-16, 2 days behind; the limit is 1",
+      "since": "2026-11-18"
     },
     {
-      "id": "17effd5faf59",
+      "id": "1d2922991916",
       "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "shiny-r",
-      "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-17"
-    },
-    {
-      "id": "26f1a115d04a",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "biobouncer",
-      "target": "biobouncer",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-17"
+      "project": "shiny-python",
+      "target": "posit-dev/py-shiny",
+      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
+      "since": "2026-11-18"
     },
     {
       "id": "412d36e13ef3",
@@ -45,13 +30,23 @@
       "since": "2026-11-17"
     },
     {
+      "id": "44755e6f1c20",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "foot",
+      "target": "cak/foot",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-18"
+    },
+    {
       "id": "46440b11a94f",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 2 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 3 days behind; the limit is 1",
       "since": "2026-11-17"
     },
     {
@@ -68,44 +63,24 @@
       "since": "2026-11-07"
     },
     {
-      "id": "5a659b61e71c",
-      "check": "data.volume",
+      "id": "877df53e6214",
+      "check": "data.freshness",
       "severity": "warning",
       "source": "github",
-      "project": "shiny",
-      "target": "rstudio/shiny",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-17"
+      "project": "quarto-gallery",
+      "target": "quarto-dev/quarto-gallery",
+      "key": "stars",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 3 days behind; the limit is 2",
+      "since": "2026-11-18"
     },
     {
-      "id": "63dcdfd0e682",
-      "check": "data.volume",
-      "severity": "warning",
+      "id": "8f4b8dc3dc3d",
+      "check": "fetch.failed",
+      "severity": "error",
       "source": "github",
-      "project": "plotnine",
-      "target": "has2k1/plotnine",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
-      "since": "2026-11-17"
-    },
-    {
-      "id": "6aede4b017ce",
-      "check": "reconcile.unavailable",
-      "severity": "warning",
-      "source": "github",
-      "project": "elf",
-      "target": "cak/elf",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-11-17"
-    },
-    {
-      "id": "a4798b102816",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "py-shinywidgets",
-      "target": "posit-dev/py-shinywidgets",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-17"
+      "project": "ggplot2movies",
+      "message": "comments: github REST API returned 502: {\n  \"message\": \"Server Error\"\n}\n",
+      "since": "2026-11-18"
     },
     {
       "id": "c87c1ecabc49",
@@ -121,14 +96,14 @@
       "since": "2026-11-10"
     },
     {
-      "id": "f34ec709f342",
-      "check": "reconcile.unavailable",
+      "id": "e96a78590e60",
+      "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "shinyfiles",
-      "target": "thomasp85/shinyFiles",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-11-17"
+      "project": "py-shiny",
+      "target": "posit-dev/py-shiny",
+      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
+      "since": "2026-11-18"
     }
   ]
 }

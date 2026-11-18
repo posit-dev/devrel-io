@@ -1,0 +1,4 @@
+{"source":"github","type":"pr_merge","project_id":"yardstick","target":"tidymodels/yardstick","datetime":"2026-11-17T00:18:11Z","ref":645,"user":"taekop"}
+{"source":"github","type":"issue_close","project_id":"yardstick","target":"tidymodels/yardstick","datetime":"2026-11-17T00:18:13Z","ref":633,"user":"mle2718"}
+{"source":"github","type":"issue_open","project_id":"yardstick","target":"tidymodels/yardstick","datetime":"2026-11-17T00:25:46Z","ref":649,"user":"EmilHvitfeldt"}
+{"source":"github","type":"pr_open","project_id":"yardstick","target":"tidymodels/yardstick","datetime":"2026-11-17T14:36:47Z","ref":650,"user":"EmilHvitfeldt"}
