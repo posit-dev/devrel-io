@@ -3462,6 +3462,11 @@ name = "positron-codetyper"
 github = "ivelasq/positron-codetyper"
 pypi = "positron-codetyper"
 
+[projects.positron-sas]
+name = "positron-sas"
+github = "posit-dev/positron-sas-extension"
+openvsx = "posit/positron-sas"
+
 [projects.prettycode]
 name = "prettycode"
 github = "r-lib/prettycode"
