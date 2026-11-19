@@ -1,24 +1,229 @@
 {
   "findings": [
     {
-      "id": "031add7ec039",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "github",
-      "project": "ggplot2movies",
-      "target": "hadley/ggplot2movies",
-      "message": "hadley/ggplot2movies was last fetched through 2026-11-16, 2 days behind; the limit is 1",
-      "since": "2026-11-18"
+      "id": "02255b8574fc",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "yamark",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     },
     {
-      "id": "1d2922991916",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "shiny-python",
-      "target": "posit-dev/py-shiny",
-      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
-      "since": "2026-11-18"
+      "id": "037aab3c5d2a",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "sweet-data",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "0923f894f0af",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "jupyterlab-quarto",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "0ea84df7eb5c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-shinyswatch",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "0f643e50085c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "vetiver-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "100af42d9b78",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "spark-install",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "105888757b79",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "brand-yml",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "1483354de314",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "sample-stream",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "154338d7c948",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "myfitnesspal-to-sqlite",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "19318a4aed73",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "chatlas",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "1c289ce8d282",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "elf",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "1c90d9c8990e",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "qparameterize",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "1dc0eda2fd3c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "air",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "1e4bb6273257",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "mcp-console",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "2171e481cc99",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-shinywidgets",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "233f7574b783",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "posit-sdk-py",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "23953f076c86",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "feazdata",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "23b29df7308c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "vip",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "26496d01ea45",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "weathervault",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "2e9dc7912bff",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "orbital-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "2f92cfeace01",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-yaml12",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "351c44afc821",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "quarto-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "356a8250dc87",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "gt-extras",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "3a47134cf262",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "pydytuesday",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "3e87a99142fe",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "positron-codetyper",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     },
     {
       "id": "412d36e13ef3",
@@ -30,14 +235,22 @@
       "since": "2026-11-17"
     },
     {
-      "id": "44755e6f1c20",
-      "check": "reconcile.unavailable",
-      "severity": "warning",
-      "source": "github",
-      "project": "foot",
-      "target": "cak/foot",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-11-18"
+      "id": "431d517cecaa",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "commons",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "44e08d036b32",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "pins-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     },
     {
       "id": "46440b11a94f",
@@ -46,8 +259,26 @@
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 3 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 4 days behind; the limit is 1",
       "since": "2026-11-17"
+    },
+    {
+      "id": "47655a988000",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "scikit-misc",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "4887f8fc1961",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "mizani",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     },
     {
       "id": "53d9df8577b3",
@@ -63,6 +294,141 @@
       "since": "2026-11-07"
     },
     {
+      "id": "54e78137c634",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "plotnine-examples",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "59b40471cc0f",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "mall",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "5b2bb661888c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "multimark",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "5b4fc96502d4",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "raghilda",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "5d13eae25449",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "ggsql-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "5ee9c165ce02",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "fieldsurveys",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "611a833ee0cd",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "foot",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "65d5e7fb6529",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "biobouncer",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "69f6bcc8cefe",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "quarto",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "7097986743a3",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "plydata",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "7537b9d947c0",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-shinylive",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8040994a3a30",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "images-shared",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8073f7ca8bae",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "plotnine",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8325d2c6ee16",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "scikit-sos",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "85ac1fb88005",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-shiny-validate",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
       "id": "877df53e6214",
       "check": "data.freshness",
       "severity": "warning",
@@ -70,17 +436,161 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 3 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 4 days behind; the limit is 2",
       "since": "2026-11-18"
     },
     {
-      "id": "8f4b8dc3dc3d",
+      "id": "89a560b69d72",
       "check": "fetch.failed",
       "severity": "error",
-      "source": "github",
-      "project": "ggplot2movies",
-      "message": "comments: github REST API returned 502: {\n  \"message\": \"Server Error\"\n}\n",
-      "since": "2026-11-18"
+      "source": "pypi",
+      "project": "shinymedia",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8a021a0b9faf",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "nbmail",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8b2c63ad96e1",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "shiny-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "8bdd052049a1",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "repo-links",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "909b7048e8d7",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "fastapitableau",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "90fea409bf03",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "shinychat",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "94fa310bfbb7",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "talk-box",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "968dbe2ed35b",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "ggsql",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "a7d2036e15c7",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-htmltools",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "b2ea8cfb2b80",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "ir",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "b3f07b38f923",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "py-faicons",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "b8beb3024eed",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "shiny-sortable",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "ba7d8545328a",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "fit-file-faker",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "bb1cccdbb9c6",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "shinyreact",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "be4508031f81",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "pymizu",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "c0ae1df609b4",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "querychat",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "c2a99b0b9977",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "gnuplot-kernel",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     },
     {
       "id": "c87c1ecabc49",
@@ -96,14 +606,130 @@
       "since": "2026-11-10"
     },
     {
-      "id": "e96a78590e60",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "py-shiny",
-      "target": "posit-dev/py-shiny",
-      "message": "no data for the last 3 days, while it had data on 22 of the 28 days before",
-      "since": "2026-11-18"
+      "id": "cc0959f46e10",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "plotomics",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "d02366419b9f",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "jupyter-positron-server",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "d4fed655a81d",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "great-tables",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "d77ecf4eded7",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "greenwood",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "e464dfd9d21c",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "fuzzbucket",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "e656332a4d70",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "chaosfs",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "e86e76bac196",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "great-docs",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "e8f7bf39e3bb",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "rsconnect-jupyter",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "ead944d47467",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "velocirepo",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "ee5288fa834d",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "nokap",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "f6b695598205",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "circleci-to-sqlite",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "f9db5ab450b6",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "posit-cli",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "fa5a5f95a45e",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "pointblank-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "fd296a2af59b",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "pypi",
+      "project": "rsconnect-python",
+      "message": "pypistats returned 502: Bad Gateway",
+      "since": "2026-11-19"
     }
   ]
 }

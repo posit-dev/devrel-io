@@ -1,0 +1,15 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":297}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":277}
+{"source":"plausible","metric":"daily_site_visits","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":281}
+{"source":"plausible","metric":"daily_pageviews","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":293,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":276,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":279,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflict_scout.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflict_scout.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflict_scout.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflicted-package.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflicted-package.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/conflicted-package.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":2,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":1,"extra":{"page":"/reference/index.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"conflicted","target":"conflicted.r-lib.org","date":"2026-11-18","value":2,"extra":{"page":"/reference/index.html"}}

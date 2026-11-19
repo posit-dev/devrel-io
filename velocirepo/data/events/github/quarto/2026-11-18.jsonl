@@ -1,0 +1,10 @@
+{"source":"github","type":"fork","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T00:03:44Z","user":"NewGraphEnvironment"}
+{"source":"github","type":"issue_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T04:56:18Z","ref":15392,"user":"mcanouil"}
+{"source":"github","type":"issue_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T09:01:52Z","ref":15393,"user":"mcanouil"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T09:31:19Z","ref":14762,"user":"Lulliter"}
+{"source":"github","type":"issue_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T10:53:48Z","ref":15394,"user":"JoKeyser"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T14:29:35Z","ref":15394,"user":"mcanouil"}
+{"source":"github","type":"issue_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T17:10:33Z","ref":15396,"user":"cderv"}
+{"source":"github","type":"fork","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T18:48:14Z","user":"B137P107"}
+{"source":"github","type":"pr_open","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T20:36:28Z","ref":15397,"user":"mcanouil"}
+{"source":"github","type":"comment","project_id":"quarto","target":"quarto-dev/quarto-cli","datetime":"2026-11-18T20:36:51Z","ref":15397,"user":"posit-snyk-bot"}

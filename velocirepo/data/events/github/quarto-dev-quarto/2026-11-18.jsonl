@@ -1,0 +1,14 @@
+{"source":"github","type":"pr_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T05:00:03Z","ref":1232,"user":"dependabot"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T05:00:22Z","ref":1232,"user":"posit-snyk-bot"}
+{"source":"github","type":"pr_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T05:00:48Z","ref":1233,"user":"dependabot"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T05:01:04Z","ref":1233,"user":"posit-snyk-bot"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T07:52:08Z","ref":1230,"user":"joelostblom"}
+{"source":"github","type":"fork","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T10:48:24Z","user":"koefoeden"}
+{"source":"github","type":"pr_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T11:00:17Z","ref":1234,"user":"koefoeden"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T11:00:47Z","ref":1234,"user":"posit-snyk-bot"}
+{"source":"github","type":"issue_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T12:51:39Z","ref":1235,"user":"ankudinov"}
+{"source":"github","type":"pr_merge","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T16:43:44Z","ref":1232,"user":"dependabot"}
+{"source":"github","type":"pr_merge","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T16:48:50Z","ref":1233,"user":"dependabot"}
+{"source":"github","type":"issue_open","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T18:31:01Z","ref":1236,"user":"juliasilge"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T18:34:38Z","ref":1234,"user":"juliasilge"}
+{"source":"github","type":"comment","project_id":"quarto-dev-quarto","target":"quarto-dev/quarto","datetime":"2026-11-18T20:14:13Z","ref":1234,"user":"koefoeden"}
