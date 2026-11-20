@@ -1,0 +1,13 @@
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T13:09:25Z","ref":779,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T13:13:06Z","ref":780,"user":"eddelbuettel"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T13:40:05Z","ref":781,"user":"jimhester"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T13:40:27Z","ref":780,"user":"jimhester"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T13:58:18Z","ref":780,"user":"eddelbuettel"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T14:30:15Z","ref":780,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T14:32:27Z","ref":781,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T14:32:28Z","ref":780,"user":"eddelbuettel"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T14:33:14Z","ref":779,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T17:34:04Z","ref":782,"user":"jeroen"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T19:24:03Z","ref":782,"user":"jimhester"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T20:06:43Z","ref":783,"user":"MichaelChirico"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-19T21:08:43Z","ref":784,"user":"jimhester"}
