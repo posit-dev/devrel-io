@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_open","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-20T09:23:54Z","ref":2364,"user":"cderv"}
+{"source":"github","type":"pr_merge","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-20T09:24:32Z","ref":2364,"user":"cderv"}
+{"source":"github","type":"pr_open","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-20T09:24:51Z","ref":2365,"user":"github-actions"}
+{"source":"github","type":"comment","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-20T09:24:53Z","ref":2364,"user":"github-actions[bot]"}
+{"source":"github","type":"pr_merge","project_id":"quarto-web","target":"quarto-dev/quarto-web","datetime":"2026-11-20T09:24:56Z","ref":2365,"user":"github-actions"}

@@ -1,0 +1,7 @@
+{"source":"github","type":"issue_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T21:20:44Z","ref":490,"user":"adityaruplaha"}
+{"source":"github","type":"fork","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T21:22:04Z","user":"adityaruplaha"}
+{"source":"github","type":"pr_open","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T21:22:24Z","ref":491,"user":"adityaruplaha"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T21:59:33Z","ref":491,"user":"adityaruplaha"}
+{"source":"github","type":"pr_merge","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T23:18:22Z","ref":491,"user":"adityaruplaha"}
+{"source":"github","type":"issue_close","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T23:18:23Z","ref":490,"user":"adityaruplaha"}
+{"source":"github","type":"comment","project_id":"pkgdepends","target":"r-lib/pkgdepends","datetime":"2026-11-20T23:18:27Z","ref":491,"user":"gaborcsardi"}

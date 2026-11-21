@@ -1,81 +1,14 @@
 {
   "findings": [
     {
-      "id": "02255b8574fc",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
+      "id": "2f4aee441e95",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
       "project": "yamark",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "100af42d9b78",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "spark-install",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "1c34a02f28b0",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "plotomics",
-      "target": "plotomics",
-      "message": "plotomics was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "219621307663",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "commons",
-      "target": "commons",
-      "message": "commons was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "2f92cfeace01",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "py-yaml12",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "313aa531dce4",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "ggsql",
-      "target": "ggsql-jupyter",
-      "message": "ggsql-jupyter was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "36f82e4adeb3",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "quarto",
-      "target": "quarto-cli",
-      "message": "quarto-cli was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "3771de38276c",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "plotnine-examples",
-      "target": "plotnine-examples",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-20"
+      "target": "t-kalinowski/yamark",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-21"
     },
     {
       "id": "412d36e13ef3",
@@ -87,71 +20,14 @@
       "since": "2026-11-17"
     },
     {
-      "id": "431d517cecaa",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "commons",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
       "id": "46440b11a94f",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 5 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 6 days behind; the limit is 1",
       "since": "2026-11-17"
-    },
-    {
-      "id": "467ece4b2400",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "fit-file-faker",
-      "target": "fit-file-faker",
-      "message": "fit-file-faker was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "47655a988000",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "scikit-misc",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "4887f8fc1961",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "mizani",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "48e740e45cfd",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "jupyter-positron-server",
-      "target": "jupyter-positron-server",
-      "message": "jupyter-positron-server was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "4db498c48916",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "py-faicons",
-      "target": "faicons",
-      "message": "faicons was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
     },
     {
       "id": "53d9df8577b3",
@@ -167,82 +43,6 @@
       "since": "2026-11-07"
     },
     {
-      "id": "54e78137c634",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "plotnine-examples",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "59e560e7c308",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "mizani",
-      "target": "mizani",
-      "message": "mizani was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "5ee9c165ce02",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "fieldsurveys",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "69f6bcc8cefe",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "quarto",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "7387729a7726",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "nokap",
-      "target": "nokap",
-      "message": "nokap was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "7f43b858aba1",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "pointblank-python",
-      "target": "pointblank",
-      "message": "pointblank was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "8040994a3a30",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "images-shared",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "84c1e7459cfd",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "scikit-misc",
-      "target": "scikit-misc",
-      "message": "scikit-misc was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
       "id": "877df53e6214",
       "check": "data.freshness",
       "severity": "warning",
@@ -250,74 +50,8 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 5 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 6 days behind; the limit is 2",
       "since": "2026-11-18"
-    },
-    {
-      "id": "8a021a0b9faf",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "nbmail",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "8fc92fc0425c",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "yamark",
-      "target": "yamark",
-      "message": "yamark was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "968dbe2ed35b",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "ggsql",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "994fb4cbf7da",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "py-yaml12",
-      "target": "py-yaml12",
-      "message": "py-yaml12 was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "b3f07b38f923",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "py-faicons",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "ba7d8545328a",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "fit-file-faker",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "c25fb1df9f23",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "plotnine-examples",
-      "target": "plotnine-examples",
-      "message": "plotnine-examples was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
     },
     {
       "id": "c87c1ecabc49",
@@ -331,101 +65,6 @@
         "events/github/connect-actions/2026-11-09.jsonl"
       ],
       "since": "2026-11-10"
-    },
-    {
-      "id": "cc0959f46e10",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "plotomics",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "d02366419b9f",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "jupyter-positron-server",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "d8a07168162a",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "images-shared",
-      "target": "posit-bakery",
-      "message": "posit-bakery was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "e656332a4d70",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "chaosfs",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "ee15658a04cc",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "fieldsurveys",
-      "target": "fieldsurveys",
-      "message": "fieldsurveys was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "ee5288fa834d",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "nokap",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "f20f913982e8",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "chaosfs",
-      "target": "chaosfs",
-      "message": "chaosfs was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "fa5a5f95a45e",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "pypi",
-      "project": "pointblank-python",
-      "message": "pypistats returned 429: \u003ca href=\"/api/#etiquette\"\u003e429 RATE LIMIT EXCEEDED\u003c/a\u003e",
-      "since": "2026-11-19"
-    },
-    {
-      "id": "ff4d8438b504",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "spark-install",
-      "target": "rstudio-spark-install",
-      "message": "rstudio-spark-install was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
-    },
-    {
-      "id": "ff633c503928",
-      "check": "data.freshness",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "nbmail",
-      "target": "nbmail",
-      "message": "nbmail was last fetched through 2026-11-17, 3 days behind; the limit is 2",
-      "since": "2026-11-20"
     }
   ]
 }
