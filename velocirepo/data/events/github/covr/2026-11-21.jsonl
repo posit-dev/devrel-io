@@ -1,0 +1,15 @@
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T00:22:52Z","ref":788,"user":"MichaelChirico"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T05:35:16Z","ref":789,"user":"MichaelChirico"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T05:54:36Z","ref":790,"user":"MichaelChirico"}
+{"source":"github","type":"issue_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T11:36:54Z","ref":791,"user":"jimhester"}
+{"source":"github","type":"pr_open","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:13:41Z","ref":792,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:19:24Z","ref":792,"user":"jimhester"}
+{"source":"github","type":"issue_close","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:19:26Z","ref":791,"user":"jimhester"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:35:08Z","ref":788,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:35:13Z","ref":788,"user":"MichaelChirico"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:46:31Z","ref":789,"user":"MichaelChirico"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:47:45Z","ref":789,"user":"jimhester"}
+{"source":"github","type":"pr_merge","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:49:57Z","ref":790,"user":"MichaelChirico"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T12:50:37Z","ref":790,"user":"jimhester"}
+{"source":"github","type":"fork","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T13:36:50Z","user":"hiruniramanayaka1"}
+{"source":"github","type":"comment","project_id":"covr","target":"r-lib/covr","datetime":"2026-11-21T16:54:53Z","ref":783,"user":"MichaelChirico"}
