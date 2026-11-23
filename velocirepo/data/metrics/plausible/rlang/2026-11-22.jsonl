@@ -1,0 +1,45 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":19}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":16}
+{"source":"plausible","metric":"daily_site_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":17}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/abort.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/abort.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/abort.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":4,"extra":{"page":"/reference/args_data_masking.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":3,"extra":{"page":"/reference/args_data_masking.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":4,"extra":{"page":"/reference/args_data_masking.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/defusing-advanced.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/defusing-advanced.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/defusing-advanced.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/dot-data.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/dot-data.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/dot-data.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/enquo.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/enquo.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/enquo.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_parent.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_parent.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_parent.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_print.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_print.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/env_print.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/expr"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/expr"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/expr"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-data- mask.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-data- mask.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-data- mask.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/reference/topic-data-mask.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/reference/topic-data-mask.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":2,"extra":{"page":"/reference/topic-data-mask.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-defuse.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-defuse.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-defuse.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-inject.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-inject.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-inject.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-multiple-columns.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-multiple-columns.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"rlang","target":"rlang.r-lib.org","date":"2026-11-22","value":1,"extra":{"page":"/reference/topic-multiple-columns.html"}}

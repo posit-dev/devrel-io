@@ -1,6 +1,17 @@
 {
   "findings": [
     {
+      "id": "15651ea26799",
+      "check": "reconcile.totals",
+      "severity": "warning",
+      "source": "github",
+      "project": "positron",
+      "target": "posit-dev/positron",
+      "key": "issue_open",
+      "message": "the API reports 220 issues opened, against 223 stored (duplicated data; tolerance 2)",
+      "since": "2026-11-23"
+    },
+    {
       "id": "412d36e13ef3",
       "check": "fetch.failed",
       "severity": "error",
@@ -16,7 +27,7 @@
       "source": "pypi",
       "project": "shiny-sortable",
       "target": "shiny-sortable",
-      "message": "no data for the last 3 days, while it had data on 21 of the 28 days before",
+      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
       "since": "2026-11-22"
     },
     {
@@ -26,7 +37,7 @@
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 7 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 8 days behind; the limit is 1",
       "since": "2026-11-17"
     },
     {
@@ -43,26 +54,6 @@
       "since": "2026-11-07"
     },
     {
-      "id": "59527d581a78",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "air",
-      "target": "posit-dev/air",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-22"
-    },
-    {
-      "id": "876d986f32ed",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "github",
-      "project": "mizu",
-      "target": "shikokuchuo/mizu",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-22"
-    },
-    {
       "id": "877df53e6214",
       "check": "data.freshness",
       "severity": "warning",
@@ -70,19 +61,8 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 7 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 8 days behind; the limit is 2",
       "since": "2026-11-18"
-    },
-    {
-      "id": "ab0845478c3c",
-      "check": "reconcile.totals",
-      "severity": "warning",
-      "source": "github",
-      "project": "assistant-feedback",
-      "target": "posit-dev/assistant-feedback",
-      "key": "issue_open",
-      "message": "the API reports 12 issues opened, against 9 stored (missing data; tolerance 2)",
-      "since": "2026-11-22"
     },
     {
       "id": "c87c1ecabc49",
