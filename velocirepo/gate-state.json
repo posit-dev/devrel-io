@@ -1,17 +1,6 @@
 {
   "findings": [
     {
-      "id": "15651ea26799",
-      "check": "reconcile.totals",
-      "severity": "warning",
-      "source": "github",
-      "project": "positron",
-      "target": "posit-dev/positron",
-      "key": "issue_open",
-      "message": "the API reports 220 issues opened, against 223 stored (duplicated data; tolerance 2)",
-      "since": "2026-11-23"
-    },
-    {
       "id": "412d36e13ef3",
       "check": "fetch.failed",
       "severity": "error",
@@ -21,23 +10,13 @@
       "since": "2026-11-17"
     },
     {
-      "id": "4511c74748aa",
-      "check": "data.volume",
-      "severity": "warning",
-      "source": "pypi",
-      "project": "shiny-sortable",
-      "target": "shiny-sortable",
-      "message": "no data for the last 3 days, while it had data on 20 of the 28 days before",
-      "since": "2026-11-22"
-    },
-    {
       "id": "46440b11a94f",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 8 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 9 days behind; the limit is 1",
       "since": "2026-11-17"
     },
     {
@@ -54,6 +33,16 @@
       "since": "2026-11-07"
     },
     {
+      "id": "6aede4b017ce",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "elf",
+      "target": "cak/elf",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-24"
+    },
+    {
       "id": "877df53e6214",
       "check": "data.freshness",
       "severity": "warning",
@@ -61,7 +50,7 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 8 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 9 days behind; the limit is 2",
       "since": "2026-11-18"
     },
     {

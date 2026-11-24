@@ -1,0 +1,15 @@
+{"source":"plausible","metric":"daily_site_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":59}
+{"source":"plausible","metric":"daily_site_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":51}
+{"source":"plausible","metric":"daily_site_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":52}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":3,"extra":{"page":"/"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/articles/communicate.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":54,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":46,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":47,"extra":{"page":"/articles/stages.html"}}
+{"source":"plausible","metric":"daily_pageviews","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visitors","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
+{"source":"plausible","metric":"daily_visits","project_id":"lifecycle","target":"lifecycle.r-lib.org","date":"2026-11-23","value":1,"extra":{"page":"/reference/deprecate_soft.html"}}
