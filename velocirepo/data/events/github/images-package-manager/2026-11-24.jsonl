@@ -1,0 +1,11 @@
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T13:18:51Z","ref":174,"user":"posit-package-manager-automation"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T13:37:58Z","ref":174,"user":"posit-package-manager-automation"}
+{"source":"github","type":"issue_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T16:34:28Z","ref":175,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T16:34:54Z","ref":176,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T17:01:32Z","ref":176,"user":"bschwedler"}
+{"source":"github","type":"issue_close","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T17:01:34Z","ref":175,"user":"bschwedler"}
+{"source":"github","type":"comment","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T17:05:29Z","ref":176,"user":"jonyoder"}
+{"source":"github","type":"issue_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T21:36:51Z","ref":177,"user":"bschwedler"}
+{"source":"github","type":"pr_open","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T21:37:44Z","ref":178,"user":"bschwedler"}
+{"source":"github","type":"pr_merge","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T21:38:29Z","ref":178,"user":"bschwedler"}
+{"source":"github","type":"issue_close","project_id":"images-package-manager","target":"posit-dev/images-package-manager","datetime":"2026-11-24T21:38:31Z","ref":177,"user":"bschwedler"}

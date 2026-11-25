@@ -1,0 +1,7 @@
+{"source":"github","type":"fork","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T16:42:13Z","user":"M-Colley"}
+{"source":"github","type":"pr_open","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T16:44:29Z","ref":2652,"user":"M-Colley"}
+{"source":"github","type":"pr_merge","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T17:11:33Z","ref":2652,"user":"M-Colley"}
+{"source":"github","type":"issue_close","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T17:11:35Z","ref":2329,"user":"AshesITR"}
+{"source":"github","type":"pr_open","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T22:24:16Z","ref":2653,"user":"M-Colley"}
+{"source":"github","type":"pr_merge","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T22:56:20Z","ref":2653,"user":"M-Colley"}
+{"source":"github","type":"issue_close","project_id":"rmarkdown","target":"rstudio/rmarkdown","datetime":"2026-11-24T22:56:21Z","ref":2564,"user":"cderv"}

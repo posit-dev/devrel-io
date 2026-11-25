@@ -1,6 +1,25 @@
 {
   "findings": [
     {
+      "id": "1df209af0e9e",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "manipulate",
+      "message": "issues: graphql returned 503: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "since": "2026-11-25"
+    },
+    {
+      "id": "3327ce69aced",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "manipulate",
+      "target": "rstudio/manipulate",
+      "message": "rstudio/manipulate was last fetched through 2026-11-23, 2 days behind; the limit is 1",
+      "since": "2026-11-25"
+    },
+    {
       "id": "412d36e13ef3",
       "check": "fetch.failed",
       "severity": "error",
@@ -10,13 +29,23 @@
       "since": "2026-11-17"
     },
     {
+      "id": "44755e6f1c20",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "foot",
+      "target": "cak/foot",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-25"
+    },
+    {
       "id": "46440b11a94f",
       "check": "data.freshness",
       "severity": "warning",
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 9 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 10 days behind; the limit is 1",
       "since": "2026-11-17"
     },
     {
@@ -33,16 +62,6 @@
       "since": "2026-11-07"
     },
     {
-      "id": "6aede4b017ce",
-      "check": "reconcile.unavailable",
-      "severity": "warning",
-      "source": "github",
-      "project": "elf",
-      "target": "cak/elf",
-      "message": "no reference totals to compare with: the repository can't be searched",
-      "since": "2026-11-24"
-    },
-    {
       "id": "877df53e6214",
       "check": "data.freshness",
       "severity": "warning",
@@ -50,8 +69,38 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 9 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 10 days behind; the limit is 2",
       "since": "2026-11-18"
+    },
+    {
+      "id": "8b342f9dd947",
+      "check": "reconcile.totals",
+      "severity": "warning",
+      "source": "github",
+      "project": "bigrquery",
+      "target": "r-dbi/bigrquery",
+      "key": "pr_open",
+      "message": "the API reports 269 pull requests, against 259 stored (missing data; tolerance 9)",
+      "since": "2026-11-25"
+    },
+    {
+      "id": "8d1ef24d114e",
+      "check": "fetch.failed",
+      "severity": "error",
+      "source": "github",
+      "project": "cyclocomp",
+      "message": "forks: graphql error: Something went wrong while executing your query on 2026-11-25T09:42:12Z. Please include `4C82:12FBA9:14D3E7C:41944AC:6B06AD73` when reporting this issue.",
+      "since": "2026-11-25"
+    },
+    {
+      "id": "a18647b54750",
+      "check": "data.freshness",
+      "severity": "warning",
+      "source": "github",
+      "project": "cyclocomp",
+      "target": "gaborcsardi/cyclocomp",
+      "message": "gaborcsardi/cyclocomp was last fetched through 2026-11-23, 2 days behind; the limit is 1",
+      "since": "2026-11-25"
     },
     {
       "id": "c87c1ecabc49",
@@ -65,6 +114,27 @@
         "events/github/connect-actions/2026-11-09.jsonl"
       ],
       "since": "2026-11-10"
+    },
+    {
+      "id": "f34ec709f342",
+      "check": "reconcile.unavailable",
+      "severity": "warning",
+      "source": "github",
+      "project": "shinyfiles",
+      "target": "thomasp85/shinyFiles",
+      "message": "no reference totals to compare with: the repository can't be searched",
+      "since": "2026-11-25"
+    },
+    {
+      "id": "f3bd1cc35ffb",
+      "check": "reconcile.totals",
+      "severity": "warning",
+      "source": "github",
+      "project": "bigrquery",
+      "target": "r-dbi/bigrquery",
+      "key": "pr_merge",
+      "message": "the API reports 185 merged pull requests, against 176 stored (missing data; tolerance 5)",
+      "since": "2026-11-25"
     }
   ]
 }
