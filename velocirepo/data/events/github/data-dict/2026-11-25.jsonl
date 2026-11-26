@@ -1,0 +1,8 @@
+{"source":"github","type":"pr_open","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T16:31:19Z","ref":269,"user":"jrosell"}
+{"source":"github","type":"issue_open","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T16:46:50Z","ref":270,"user":"jsancheztorm"}
+{"source":"github","type":"pr_merge","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T17:36:12Z","ref":269,"user":"jrosell"}
+{"source":"github","type":"comment","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T17:36:13Z","ref":269,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T17:44:43Z","ref":271,"user":"hadley"}
+{"source":"github","type":"comment","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T17:44:50Z","ref":270,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T18:32:19Z","ref":271,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"data-dict","target":"tidyverse/data-dict","datetime":"2026-11-25T18:32:21Z","ref":270,"user":"jsancheztorm"}
