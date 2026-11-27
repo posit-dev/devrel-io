@@ -16,7 +16,7 @@
       "source": "github",
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
-      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 11 days behind; the limit is 1",
+      "message": "quarto-dev/quarto-gallery was last fetched through 2026-11-15, 12 days behind; the limit is 1",
       "since": "2026-11-17"
     },
     {
@@ -40,27 +40,18 @@
       "project": "quarto-gallery",
       "target": "quarto-dev/quarto-gallery",
       "key": "stars",
-      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 11 days behind; the limit is 2",
+      "message": "quarto-dev/quarto-gallery was last its stars fetched through 2026-11-15, 12 days behind; the limit is 2",
       "since": "2026-11-18"
     },
     {
-      "id": "8c6d915c2997",
-      "check": "data.freshness",
+      "id": "98db71f1a0b5",
+      "check": "data.volume",
       "severity": "warning",
       "source": "github",
-      "project": "pysparklyr",
-      "target": "mlverse/pysparklyr",
-      "message": "mlverse/pysparklyr was last fetched through 2026-11-24, 2 days behind; the limit is 1",
-      "since": "2026-11-26"
-    },
-    {
-      "id": "a3c145d31d63",
-      "check": "fetch.failed",
-      "severity": "error",
-      "source": "github",
-      "project": "pysparklyr",
-      "message": "comments: github REST API returned 502: {\n  \"message\": \"Server Error\"\n}\n",
-      "since": "2026-11-26"
+      "project": "mcp-repl",
+      "target": "posit-dev/mcp-console",
+      "message": "no data for the last 3 days, while it had data on 26 of the 28 days before",
+      "since": "2026-11-27"
     },
     {
       "id": "c87c1ecabc49",

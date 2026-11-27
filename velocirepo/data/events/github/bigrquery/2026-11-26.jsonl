@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-11-26T03:35:13Z","ref":710,"user":"hadley"}
+{"source":"github","type":"pr_open","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-11-26T03:41:47Z","ref":711,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-11-26T03:43:44Z","ref":710,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-11-26T19:12:20Z","ref":711,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"bigrquery","target":"r-dbi/bigrquery","datetime":"2026-11-26T19:12:21Z","ref":709,"user":"hadley"}

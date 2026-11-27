@@ -1,0 +1,5 @@
+{"source":"github","type":"pr_merge","project_id":"conflicted","target":"r-lib/conflicted","datetime":"2026-11-26T02:54:34Z","ref":122,"user":"hadley"}
+{"source":"github","type":"pr_merge","project_id":"conflicted","target":"r-lib/conflicted","datetime":"2026-11-26T02:59:13Z","ref":115,"user":"jeroenjanssens"}
+{"source":"github","type":"pr_merge","project_id":"conflicted","target":"r-lib/conflicted","datetime":"2026-11-26T03:13:32Z","ref":119,"user":"Breza"}
+{"source":"github","type":"comment","project_id":"conflicted","target":"r-lib/conflicted","datetime":"2026-11-26T03:17:57Z","ref":101,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"conflicted","target":"r-lib/conflicted","datetime":"2026-11-26T03:17:59Z","ref":101,"user":"SamGG"}

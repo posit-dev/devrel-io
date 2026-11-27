@@ -1,0 +1,7 @@
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T01:18:50Z","ref":922,"user":"JamesHWade"}
+{"source":"github","type":"fork","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T12:19:41Z","user":"kaipingyang"}
+{"source":"github","type":"pr_open","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T12:19:57Z","ref":926,"user":"kaipingyang"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T12:19:59Z","ref":925,"user":"kaipingyang"}
+{"source":"github","type":"pr_merge","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T20:44:19Z","ref":926,"user":"kaipingyang"}
+{"source":"github","type":"comment","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T20:44:20Z","ref":926,"user":"hadley"}
+{"source":"github","type":"issue_close","project_id":"httr2","target":"r-lib/httr2","datetime":"2026-11-26T20:44:21Z","ref":925,"user":"kaipingyang"}
