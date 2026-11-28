@@ -1,0 +1,5 @@
+{"source":"github","type":"comment","project_id":"cli","target":"r-lib/cli","datetime":"2026-11-27T14:02:25Z","ref":787,"user":"gaborcsardi"}
+{"source":"github","type":"pr_merge","project_id":"cli","target":"r-lib/cli","datetime":"2026-11-27T14:02:29Z","ref":787,"user":"mcol"}
+{"source":"github","type":"issue_close","project_id":"cli","target":"r-lib/cli","datetime":"2026-11-27T14:02:31Z","ref":773,"user":"marcusmunch"}
+{"source":"github","type":"fork","project_id":"cli","target":"r-lib/cli","datetime":"2026-11-27T18:17:00Z","user":"chenyangsu"}
+{"source":"github","type":"pr_open","project_id":"cli","target":"r-lib/cli","datetime":"2026-11-27T18:40:34Z","ref":858,"user":"chenyangsu"}
